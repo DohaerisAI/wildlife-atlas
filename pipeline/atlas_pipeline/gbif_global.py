@@ -13,7 +13,7 @@ from pathlib import Path
 from typing import Any
 
 from .config import MONTHS, SENSITIVE_SPECIES, FetchSettings, GlobalSearch
-from .gbif_fetch import API, FetchError, HttpGet, _cached
+from .gbif_fetch import API, FetchError, HttpGet, _cached, coord_range
 from .grid import Cell
 
 log = logging.getLogger(__name__)
@@ -48,15 +48,12 @@ def resolve_taxon(name: str, raw_dir: Path, http_get: HttpGet) -> Taxon:
 
 
 def box_params(lat0: float, lng0: float, size: float, settings: FetchSettings) -> dict[str, Any]:
-    eps = 1e-6
-    lat1 = min(90.0, lat0 + size) - eps
-    lng1 = min(180.0, lng0 + size) - eps
     return {
         "occurrenceStatus": "PRESENT",
         "hasGeospatialIssue": "false",
         "year": settings.year_range,
-        "decimalLatitude": f"{lat0},{lat1}",
-        "decimalLongitude": f"{lng0},{lng1}",
+        "decimalLatitude": coord_range(lat0, min(90.0, lat0 + size)),
+        "decimalLongitude": coord_range(lng0, min(180.0, lng0 + size)),
         "limit": 0,
     }
 

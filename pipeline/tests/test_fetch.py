@@ -37,7 +37,7 @@ class FakeGbif:
 
 def test_query_bounds_and_filters():
     q = cell_query(Cell(10, 76, 1.0), REGION, SETTINGS, 3)
-    assert q["decimalLatitude"].startswith("10,10.99")
+    assert q["decimalLatitude"] == "10.000000,10.999999"
     assert q["month"] == 3 and q["facet"] == "speciesKey" and q["classKey"] == 212
     assert "month" not in cell_query(Cell(10, 76, 1.0), REGION, SETTINGS, None)
 

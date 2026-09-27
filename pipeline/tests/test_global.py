@@ -54,8 +54,22 @@ def test_sub_boxes_clip_at_poles():
 
 def test_box_params_clip():
     p = box_params(80, 170, 20, SETTINGS)
-    assert p["decimalLatitude"].startswith("80,89.99")
-    assert p["decimalLongitude"].startswith("170,179.99")
+    assert p["decimalLatitude"] == "80.000000,89.999999"
+    assert p["decimalLongitude"] == "170.000000,179.999999"
+
+
+@pytest.mark.parametrize("lat0,lng0", [(-20, -20), (-10, -10), (0, 0), (-90, -180)])
+def test_box_params_never_use_scientific_notation(lat0, lng0):
+    """Regression: an upper edge at 0 used to print as '-1e-06', which GBIF rejects with HTTP 400."""
+    p = box_params(lat0, lng0, 20 if lat0 < -10 else 10, SETTINGS)
+    for value in (p["decimalLatitude"], p["decimalLongitude"]):
+        assert "e" not in value.lower()
+        lo, hi = (float(v) for v in value.split(","))
+        assert lo < hi
+
+
+def test_box_params_zero_edge_is_just_below_zero():
+    assert box_params(-20, -20, 20, SETTINGS)["decimalLongitude"] == "-20.000000,-0.000001"
 
 
 def test_parse_month_facet():

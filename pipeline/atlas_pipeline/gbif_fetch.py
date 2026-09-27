@@ -39,7 +39,7 @@ def make_http_get(settings: FetchSettings) -> HttpGet:
                 if resp.status_code == 200 and "json" in resp.headers.get("Content-Type", ""):
                     time.sleep(settings.request_delay_s)
                     return resp.json()
-                reason = f"HTTP {resp.status_code} ({resp.headers.get('Content-Type', '?')})"
+                reason = f"HTTP {resp.status_code}: {resp.text[:200].strip()!r} for {resp.url}"
             except (requests.RequestException, ValueError) as exc:
                 reason = str(exc)
             log.warning("GBIF request failed (attempt %d/%d): %s", attempt, settings.retries, reason)
@@ -49,16 +49,23 @@ def make_http_get(settings: FetchSettings) -> HttpGet:
     return get
 
 
+BOUND_EPS = 1e-6
+
+
+def coord_range(lo: float, hi: float) -> str:
+    """GBIF range "lo,hi" with the upper edge nudged inside, in fixed-point (never '-1e-06', which GBIF rejects)."""
+    return f"{lo:.6f},{hi - BOUND_EPS:.6f}"
+
+
 def cell_query(cell: Cell, region: Region, settings: FetchSettings, month: int | None) -> dict[str, Any]:
-    eps = 1e-6
     params: dict[str, Any] = {
         "country": region.country,
         "classKey": AVES_CLASS_KEY,
         "occurrenceStatus": "PRESENT",
         "hasGeospatialIssue": "false",
         "year": settings.year_range,
-        "decimalLatitude": f"{cell.lat0},{cell.lat0 + cell.size - eps}",
-        "decimalLongitude": f"{cell.lng0},{cell.lng0 + cell.size - eps}",
+        "decimalLatitude": coord_range(cell.lat0, cell.lat0 + cell.size),
+        "decimalLongitude": coord_range(cell.lng0, cell.lng0 + cell.size),
         "limit": 0,
     }
     if month is not None:
