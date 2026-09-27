@@ -1,0 +1,15 @@
+# Diagnostic: send sample queries to GBIF and print the raw replies. Safe to run anytime.
+name: GBIF probe
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Query GBIF
+        run: |
+          q() { echo "== $1"; curl -s -A "wildlife-atlas-prototype/0.1" "https://api.gbif.org/v1/occurrence/search?$1" | head -c 400; echo; }
+          q "taxonKey=2481126&occurrenceStatus=PRESENT&hasGeospatialIssue=false&year=2010,2026&decimalLatitude=-90,-70.000001&decimalLongitude=-180,-160.000001&limit=0"
+          q "taxonKey=2481126&decimalLatitude=-90,-70&decimalLongitude=-180,-160&limit=0"
+          q "taxonKey=2481126&decimalLatitude=10,29.999999&decimalLongitude=70,89.999999&limit=0"
+          q "taxonKey=2481126&decimalLatitude=10,11&decimalLongitude=76,77&limit=0&facet=month&facetLimit=12"
+          echo "== match"; curl -s "https://api.gbif.org/v1/species/match?name=Oriolus%20kundoo&kingdom=Animalia" | head -c 600; echo
