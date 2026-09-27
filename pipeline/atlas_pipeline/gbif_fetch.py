@@ -28,22 +28,38 @@ class FetchError(RuntimeError):
     pass
 
 
+THROTTLED = frozenset({429, 503})
+THROTTLE_BASE_S = 60.0
+THROTTLE_MAX_S = 900.0
+
+
+def backoff_seconds(status: int | None, retry_after: str | None, attempt: int) -> float:
+    """Wait before retry `attempt` (1-based). Rate limits back off in minutes and honour Retry-After."""
+    if status in THROTTLED:
+        hinted = float(retry_after) if retry_after and retry_after.strip().isdigit() else 0.0
+        return min(THROTTLE_MAX_S, max(hinted, THROTTLE_BASE_S * 2 ** (attempt - 1)))
+    return float(2**attempt)
+
+
 def make_http_get(settings: FetchSettings) -> HttpGet:
     session = requests.Session()
     session.headers["User-Agent"] = USER_AGENT
 
     def get(url: str, params: dict[str, Any]) -> dict[str, Any]:
         for attempt in range(1, settings.retries + 1):
+            status, retry_after = None, None
             try:
                 resp = session.get(url, params=params, timeout=settings.timeout_s)
                 if resp.status_code == 200 and "json" in resp.headers.get("Content-Type", ""):
                     time.sleep(settings.request_delay_s)
                     return resp.json()
+                status, retry_after = resp.status_code, resp.headers.get("Retry-After")
                 reason = f"HTTP {resp.status_code}: {resp.text[:200].strip()!r} for {resp.url}"
             except (requests.RequestException, ValueError) as exc:
                 reason = str(exc)
-            log.warning("GBIF request failed (attempt %d/%d): %s", attempt, settings.retries, reason)
-            time.sleep(2**attempt)
+            wait = backoff_seconds(status, retry_after, attempt)
+            log.warning("GBIF request failed (attempt %d/%d, waiting %.0fs): %s", attempt, settings.retries, wait, reason)
+            time.sleep(wait)
         raise FetchError(f"GBIF request to {url} failed after {settings.retries} attempts: {reason}")
 
     return get

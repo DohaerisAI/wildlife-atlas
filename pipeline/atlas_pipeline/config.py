@@ -45,9 +45,9 @@ class CoverageRules:
 class FetchSettings:
     year_range: str = "2010,2026"
     facet_limit: int = 2000
-    request_delay_s: float = 0.2
+    request_delay_s: float = 0.6  # one request at a time with a pause: GBIF rate-limits bursts (HTTP 429)
     timeout_s: float = 60.0
-    retries: int = 4
+    retries: int = 7  # with throttle backoff this waits up to ~45 min for a rate limit to lift
 
 
 # Species followed worldwide (ranges beyond India). Any animal group works: the effort baseline

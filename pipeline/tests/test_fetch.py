@@ -5,6 +5,7 @@ import pytest
 from atlas_pipeline.aggregate import load_raw_cells, load_species_names
 from atlas_pipeline.config import FetchSettings, Region
 from atlas_pipeline.gbif_fetch import (
+    backoff_seconds,
     FetchError,
     cell_query,
     fetch_region,
@@ -82,3 +83,20 @@ def test_incomplete_cell_is_skipped(tmp_path, caplog):
 def test_missing_raw_dir(tmp_path):
     with pytest.raises(FileNotFoundError):
         load_raw_cells(tmp_path)
+
+
+@pytest.mark.parametrize(
+    "status,retry_after,attempt,expected",
+    [
+        (429, None, 1, 60.0),
+        (429, None, 3, 240.0),
+        (429, "300", 1, 300.0),  # server hint wins when longer
+        (429, "5", 2, 120.0),  # but never shorter than our own backoff
+        (503, None, 10, 900.0),  # capped
+        (500, None, 2, 4.0),  # ordinary errors back off in seconds
+        (None, None, 1, 2.0),  # network error
+        (429, "Wed, 21 Oct 2026 07:28:00 GMT", 1, 60.0),  # date form ignored safely
+    ],
+)
+def test_backoff(status, retry_after, attempt, expected):
+    assert backoff_seconds(status, retry_after, attempt) == expected

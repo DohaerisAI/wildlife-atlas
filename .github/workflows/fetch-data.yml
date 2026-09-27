@@ -41,7 +41,7 @@ jobs:
     timeout-minutes: 350
     strategy:
       fail-fast: false
-      max-parallel: 4 # be polite to GBIF
+      max-parallel: 1 # one job at a time: GBIF rate-limits parallel clients (HTTP 429)
       matrix:
         part: ${{ fromJson(needs.plan.outputs.parts) }}
     steps:
