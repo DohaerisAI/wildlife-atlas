@@ -25,7 +25,18 @@ lives in `src/views/`. Particles show a share of a species' recorded presence, n
 Real 3D terrain in the realistic view needs a free Cesium ion token:
 `echo "VITE_CESIUM_ION_TOKEN=..." > web/.env.local`. Without it the globe is smooth, with imagery only.
 
-## Real data (GBIF)
+## Real data from your phone (no laptop or VPN bypass needed)
+
+GBIF is blocked on the office network, so the fetch runs on GitHub's servers:
+
+1. On your phone, open the GitHub app (or github.com) → **wildlife-atlas** → **Actions** → **Fetch GBIF data**.
+2. Tap **Run workflow**, pick `smoke` (3 squares, ~5 min) or `full` (all of India + featured species worldwide, a few hours), then **Run**.
+3. When it's green, run `scripts/pull-data.sh` on the work machine (GitHub is reachable from there). It unpacks the ready-to-serve
+   bundle into `web/public/data` and the raw responses into `data/raw`.
+
+If a run stops early, run it again: everything already downloaded is reused from the `data` branch.
+
+## Real data (GBIF), running the fetch yourself
 
 `atlas fetch` needs direct access to api.gbif.org, which the corporate proxy blocks, so run it on another network.
 It makes about 4,000 small API calls, caches every response under `data/raw/gbif`, and resumes if interrupted.
