@@ -25,7 +25,7 @@ jobs:
       parts: ${{ steps.parts.outputs.parts }}
     steps:
       - uses: actions/checkout@v7
-      - uses: astral-sh/setup-uv@v10
+      - uses: astral-sh/setup-uv@v10.2.0 # no moving major tag upstream
       - id: parts
         working-directory: pipeline
         run: |
@@ -46,7 +46,7 @@ jobs:
         part: ${{ fromJson(needs.plan.outputs.parts) }}
     steps:
       - uses: actions/checkout@v7
-      - uses: astral-sh/setup-uv@v10
+      - uses: astral-sh/setup-uv@v10.2.0 # no moving major tag upstream
       - name: Restore earlier progress from the data branch
         run: scripts/restore-raw.sh
       - name: Fetch
@@ -81,7 +81,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: astral-sh/setup-uv@v10
+      - uses: astral-sh/setup-uv@v10.2.0 # no moving major tag upstream
       - name: Restore earlier progress from the data branch
         run: scripts/restore-raw.sh
       - uses: actions/download-artifact@v8
