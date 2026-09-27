@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+.pytest_cache/
+data/raw/
+*.pyc
+.coverage
+web/public/data/
+web/public/cesium/
+web/.env.local

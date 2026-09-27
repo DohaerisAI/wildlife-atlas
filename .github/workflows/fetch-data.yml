@@ -1,0 +1,112 @@
+# Fetches GBIF data on GitHub's servers (no corporate proxy) and publishes it to the `data` branch.
+# Start it from the GitHub app or website: Actions → "Fetch GBIF data" → Run workflow.
+name: Fetch GBIF data
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "smoke = 3 India squares in ~2 min to test; full = all of India + every featured species worldwide"
+        type: choice
+        options: [smoke, full]
+        default: smoke
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-data
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      parts: ${{ steps.parts.outputs.parts }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10
+      - id: parts
+        working-directory: pipeline
+        run: |
+          if [ "${{ inputs.mode }}" = "smoke" ]; then
+            echo 'parts=["india-smoke"]' >> "$GITHUB_OUTPUT"
+          else
+            uv run python -c "import json; from atlas_pipeline.config import FEATURED_SPECIES as F; print('parts=' + json.dumps(['india', *F]))" >> "$GITHUB_OUTPUT"
+          fi
+
+  fetch:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      max-parallel: 4 # be polite to GBIF
+      matrix:
+        part: ${{ fromJson(needs.plan.outputs.parts) }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10
+      - name: Restore earlier progress from the data branch
+        run: scripts/restore-raw.sh
+      - name: Fetch
+        working-directory: pipeline
+        env:
+          PART: ${{ matrix.part }}
+        run: |
+          uv sync --quiet
+          case "$PART" in
+            india-smoke) CMD=(uv run atlas fetch --cells 10_76,28_77,25_93) ;;
+            india)       CMD=(uv run atlas fetch) ;;
+            *)           CMD=(uv run atlas fetch-global --species "$PART") ;;
+          esac
+          # Stop before the job limit so partial progress is still saved; a re-run resumes from the cache.
+          timeout 330m "${CMD[@]}" || echo "::warning::$PART stopped early (exit $?); re-run the workflow to resume"
+      - name: Pack results
+        id: pack
+        env:
+          PART: ${{ matrix.part }}
+        run: |
+          echo "slug=$(echo "$PART" | tr ' A-Z' '-a-z')" >> "$GITHUB_OUTPUT"
+          tar czf raw-part.tar.gz data/raw
+      - uses: actions/upload-artifact@v7
+        with:
+          name: raw-${{ steps.pack.outputs.slug }}
+          path: raw-part.tar.gz
+          retention-days: 3
+
+  publish:
+    needs: fetch
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10
+      - name: Restore earlier progress from the data branch
+        run: scripts/restore-raw.sh
+      - uses: actions/download-artifact@v8
+        with:
+          pattern: raw-*
+          path: parts
+      - name: Merge all parts
+        run: for f in parts/*/raw-part.tar.gz; do tar xzf "$f"; done
+      - name: Build the web data bundle
+        working-directory: pipeline
+        run: uv sync --quiet && uv run atlas build
+      - name: Publish to the data branch
+        run: |
+          tar czf /tmp/raw.tar.gz data/raw
+          tar czf /tmp/bundle.tar.gz -C web/public data
+          SUMMARY=$(cd pipeline && uv run python -c "
+          import json; m=json.load(open('../web/public/data/meta.json')); s=json.load(open('../web/public/data/species.json')); c=json.load(open('../web/public/data/cells.json'))
+          print(f\"{len(c['cells'])} India cells, {len(s)} species, built {m['generated']}\")")
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan data-tmp
+          git rm -rf --quiet .
+          cp /tmp/raw.tar.gz /tmp/bundle.tar.gz .
+          printf "# Fetched data\n\n%s\n\nMode: ${{ inputs.mode }}. Run \`scripts/pull-data.sh\` on main to use it.\n" "$SUMMARY" > README.md
+          git add raw.tar.gz bundle.tar.gz README.md
+          git commit --quiet -m "data: ${{ inputs.mode }} fetch ($SUMMARY)"
+          git push --force origin data-tmp:data
+          echo "### Data published: $SUMMARY" >> "$GITHUB_STEP_SUMMARY"

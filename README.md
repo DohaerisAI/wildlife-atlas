@@ -1,0 +1,53 @@
+# Wildlife Atlas (prototype)
+
+A seasonal globe of Indian birds. See `WILDLIFE_ATLAS_PRODUCT_SPEC.md` for the product spec.
+
+## Run with demo data
+
+```bash
+cd pipeline && uv sync && uv run atlas demo   # writes SYNTHETIC data to web/public/data
+cd ../web && npm install && npm run dev       # http://localhost:5173
+```
+
+The demo bundle is invented, and the app shows a red banner while it is loaded.
+
+## Views
+
+| URL | View | Engine |
+|---|---|---|
+| `/` or `/?view=holo` | Hologram globe with particle flows and stories | three.js |
+| `/?view=real` | Realistic Earth: satellite imagery, seasonal sunlight, cinematic tilt | CesiumJS |
+| `/map.html` | Detailed map with per-square species lists (you land here after "Dive in") | MapLibre |
+
+Both globe views share one scene engine (`src/scene/`: clock, particle flow, story director). Each renderer
+lives in `src/views/`. Particles show a share of a species' recorded presence, never individual animals.
+
+Real 3D terrain in the realistic view needs a free Cesium ion token:
+`echo "VITE_CESIUM_ION_TOKEN=..." > web/.env.local`. Without it the globe is smooth, with imagery only.
+
+## Real data (GBIF)
+
+`atlas fetch` needs direct access to api.gbif.org, which the corporate proxy blocks, so run it on another network.
+It makes about 4,000 small API calls, caches every response under `data/raw/gbif`, and resumes if interrupted.
+
+```bash
+cd pipeline
+uv run atlas fetch          # off-VPN; India, every bird species per 1° cell (~4,000 calls, ~20-30 min)
+uv run atlas fetch-global   # off-VPN; featured species worldwide (~2,000 calls per species)
+uv run atlas build          # works anywhere once data/raw exists
+```
+
+Featured worldwide species live in `FEATURED_SPECIES` in `pipeline/atlas_pipeline/config.py`, and any
+animal group works. Poaching-sensitive species (`SENSITIVE_SPECIES`) are refused at fine resolution.
+
+## Layout
+
+- `pipeline/` Python: GBIF fetch → 1° cell monthly counts → presence labels → static JSON
+- `web/` Vite + TypeScript + MapLibre globe; reads `web/public/data`
+
+## Tests
+
+```bash
+cd pipeline && uv run pytest --cov=atlas_pipeline
+cd web && npm test && npm run typecheck
+```
