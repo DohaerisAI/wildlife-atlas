@@ -89,7 +89,8 @@ jobs:
           pattern: raw-*
           path: parts
       - name: Merge all parts
-        run: for f in parts/*/raw-part.tar.gz; do tar xzf "$f"; done
+        # download-artifact nests each artifact in its own folder only when there are several
+        run: find parts -name raw-part.tar.gz -print0 | xargs -0 -n1 tar xzf
       - name: Build the web data bundle
         working-directory: pipeline
         run: uv sync --quiet && uv run atlas build
