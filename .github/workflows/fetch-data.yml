@@ -50,6 +50,7 @@ jobs:
       - name: Restore earlier progress from the data branch
         run: scripts/restore-raw.sh
       - name: Fetch
+        id: fetch
         working-directory: pipeline
         env:
           PART: ${{ matrix.part }}
@@ -61,7 +62,12 @@ jobs:
             *)           CMD=(uv run atlas fetch-global --species "$PART") ;;
           esac
           # Stop before the job limit so partial progress is still saved; a re-run resumes from the cache.
-          timeout 330m "${CMD[@]}" || echo "::warning::$PART stopped early (exit $?); re-run the workflow to resume"
+          set +e
+          timeout 330m "${CMD[@]}"
+          code=$?
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          [ "$code" = 124 ] && echo "::warning::$PART hit the time limit; re-run the workflow to resume"
+          exit 0
       - name: Pack results
         id: pack
         env:
@@ -74,6 +80,11 @@ jobs:
           name: raw-${{ steps.pack.outputs.slug }}
           path: raw-part.tar.gz
           retention-days: 3
+      - name: Fail if the fetch hit a real error
+        if: ${{ steps.fetch.outputs.code != '0' && steps.fetch.outputs.code != '124' }}
+        run: |
+          echo "::error::${{ matrix.part }} failed (exit ${{ steps.fetch.outputs.code }}); see the Fetch step log"
+          exit 1
 
   publish:
     needs: fetch
