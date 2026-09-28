@@ -1,10 +1,12 @@
 id: earth-engine-env
 title: Environment data from Earth Engine
 layer: L0
-status: idea
+status: building
 summary: >-
   Monthly land cover, surface water, snow, NDVI, wind, currents, chlorophyll, night lights, elevation.
-paths: []
+paths:
+  - pipeline/scripts/ee_probe.py
+  - .github/workflows/ee-probe.yml
 checks: []
 next: >-
-  Needs a Google account registered for noncommercial Earth Engine use.
+  Access proven from CI (project atlas-earth-engine-510018, noncommercial until Mar 2028). Next: monthly globe-pack exports for water, snow, NDVI, wind and temperature.
