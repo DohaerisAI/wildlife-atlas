@@ -21,6 +21,10 @@ POLL_S, MAX_WAIT_S = 30, 50 * 60
 
 WHERE = f"specieskey = {AMUR_FALCON} AND countrycode = 'IN' AND occurrencestatus = 'PRESENT' AND hascoordinate = TRUE"
 CANDIDATES = {
+    "floor_grid_first": (
+        'SELECT "month", FLOOR(decimallatitude) AS lat0, FLOOR(decimallongitude) AS lng0, COUNT(*) AS n '
+        f'FROM occurrence WHERE {WHERE} GROUP BY "month", FLOOR(decimallatitude), FLOOR(decimallongitude)'
+    ),
     "eqdgc_grid": (
         'SELECT "month", GBIF_EQDGCCode(0, decimallatitude, decimallongitude, '
         "COALESCE(coordinateuncertaintyinmeters, 1000)) AS cell, COUNT(*) AS n "
@@ -41,7 +45,7 @@ def body(sql: str) -> dict:
 def validate(name: str, sql: str) -> bool:
     r = requests.post(f"{API}/validate", json=body(sql), auth=AUTH, timeout=60)
     print(f"--- validate {name}: HTTP {r.status_code}\n{r.text[:800]}\n")
-    return r.status_code == 200
+    return r.status_code in (200, 201)  # GBIF answers a valid query with 201
 
 
 def run(name: str, sql: str) -> int:
