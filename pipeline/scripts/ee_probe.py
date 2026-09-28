@@ -25,7 +25,11 @@ def main() -> int:
             "affineTransform": {"scaleX": 1, "shearX": 0, "translateX": -180, "shearY": 0, "scaleY": -1, "translateY": 90}}
     arr = ee.data.computePixels({"expression": gsw.select("occurrence").unmask(0), "fileFormat": "NUMPY_NDARRAY", "grid": grid})
     print("global 1° pull:", arr.shape, arr.dtype, "| cells with any water:", int((arr["occurrence"] > 0).sum()))
-    water_share_check()
+    if "v2" in sys.argv[1:]:
+        from ee_probe_v2 import probe_v2
+        probe_v2()
+    else:
+        water_share_check()
     return 0
 
 

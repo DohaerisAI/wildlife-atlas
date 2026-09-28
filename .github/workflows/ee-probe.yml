@@ -1,10 +1,18 @@
 # Diagnostic: can CI reach Earth Engine with the service account? Safe to run anytime.
+# target=v2 probes the pack v2 datasets (band names, scales, pyramids, pull cost).
 name: Earth Engine probe
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "basic or v2"
+        default: basic
+        type: choice
+        options: [basic, v2]
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v7
       - uses: astral-sh/setup-uv@v10.2.0 # no moving major tag upstream
@@ -12,4 +20,5 @@ jobs:
         env:
           EE_PROJECT: ${{ secrets.EE_PROJECT }}
           EE_SERVICE_ACCOUNT_KEY: ${{ secrets.EE_SERVICE_ACCOUNT_KEY }}
-        run: uv run --quiet --with earthengine-api --with numpy python pipeline/scripts/ee_probe.py
+          TARGET: ${{ inputs.target }}
+        run: uv run --quiet --with earthengine-api --with numpy python pipeline/scripts/ee_probe.py "$TARGET"
