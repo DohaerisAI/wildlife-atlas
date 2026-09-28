@@ -1,0 +1,14 @@
+id: species-profiles
+title: Species profiles
+layer: L2
+status: building
+summary: >-
+  Photos with credits and licences, wingspan, length, weight and status from Wikidata, Wikipedia and Commons.
+paths:
+  - pipeline/atlas_pipeline/profiles.py
+  - web/public/content/profiles/
+checks:
+  - suite: pytest
+    file: tests/test_profiles.py
+next: >-
+  Add bird calls (xeno-canto, CC licences only) and profiles for every species in the index.

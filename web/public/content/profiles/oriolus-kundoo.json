@@ -1,0 +1,47 @@
+{
+ "scientific": "Oriolus kundoo",
+ "name": "Indian Golden Oriole",
+ "qid": "Q1308173",
+ "description": "species of bird",
+ "extract": "The Indian golden oriole is a species of oriole found in the Indian subcontinent and Central Asia. The species was formerly considered to be a subspecies of the Eurasian golden oriole, but is now considered a full species. Adults can be told apart from the Eurasian golden oriole by the black of the eye stripe extending behind the eye.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/IndianGoldenOriole_M.jpg/960px-IndianGoldenOriole_M.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:IndianGoldenOriole_M.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Swardeepak",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/IndianGoldenOriole_F.jpg/960px-IndianGoldenOriole_F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:IndianGoldenOriole_F.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Swardeepak",
+   "caption": "Female"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Indian_Golden_Oriole_in_Kuldiha_Wildlife_Sanctuary_March_2025_by_Tisha_Mukherjee_01.jpg/960px-Indian_Golden_Oriole_in_Kuldiha_Wildlife_Sanctuary_March_2025_by_Tisha_Mukherjee_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Indian_Golden_Oriole_in_Kuldiha_Wildlife_Sanctuary_March_2025_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1308173"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_golden_oriole"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

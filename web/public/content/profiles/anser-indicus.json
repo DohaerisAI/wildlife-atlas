@@ -1,0 +1,43 @@
+{
+ "scientific": "Anser indicus",
+ "name": "Bar-headed goose",
+ "qid": "Q191125",
+ "description": "species of bird",
+ "extract": "The bar-headed goose is a goose that breeds in Central Asia in colonies of thousands near mountain lakes and winters in South Asia, as far south as peninsular India. It lays three to eight eggs at a time in a ground nest. It is known for the extreme altitudes it reaches when migrating across the Himalayas.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Bar-headed_Goose_by_Dr._Raju_Kasambe_DSCN7530_%2823%29.jpg/960px-Bar-headed_Goose_by_Dr._Raju_Kasambe_DSCN7530_%2823%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Bar-headed_Goose_by_Dr._Raju_Kasambe_DSCN7530_(23).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dr. Raju Kasambe",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 140.0,
+   "max": 160.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 141.0,
+   "max": 2505.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q191125"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bar-headed_goose"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

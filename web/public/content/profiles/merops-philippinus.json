@@ -1,0 +1,40 @@
+{
+ "scientific": "Merops philippinus",
+ "name": "Blue-tailed Bee-eater",
+ "qid": "Q31884",
+ "description": "species of bird in the bee-eater family Meropidae",
+ "extract": "The blue-tailed bee-eater is a bee-eater species mostly seen in open habitats close to water. It is widely distributed across South and Southeast Asia where many populations are strongly migratory, and seen seasonally in many parts but breeding colonially in small areas across their range, mostly in river valleys, where they nest by tunneling into loamy sand banks.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Blue-tailed_Bee-eater_in_Sundarbans_National_Park_July_2025_by_Tisha_Mukherjee_03.jpg/960px-Blue-tailed_Bee-eater_in_Sundarbans_National_Park_July_2025_by_Tisha_Mukherjee_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Blue-tailed_Bee-eater_in_Sundarbans_National_Park_July_2025_by_Tisha_Mukherjee_03.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/SL_Bundala_NP_asv2020-01_img08.jpg/960px-SL_Bundala_NP_asv2020-01_img08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:SL_Bundala_NP_asv2020-01_img08.jpg",
+   "license": "FAL",
+   "artist": "A.Savin",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q31884"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blue-tailed_bee-eater"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

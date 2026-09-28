@@ -48,6 +48,13 @@ export const CHIULON: Story = validateStory({
       channels: { others: 1, flock: 0.7, track: 0 },
     },
     {
+      id: 'meet', kicker: 'Meet the traveller', title: 'The Amur Falcon',
+      body: ['A small falcon that hunts insects on the wing: termites, locusts, dragonflies.', 'Males are dark slate grey with orange-red legs and eye-rings. Females are paler and barred below.'],
+      camera: { lng: 121, lat: 46, altKm: 4200, frameX: WIDE }, month: 6.5,
+      channels: { others: 0, flock: 0.8, track: 0 }, profile: true,
+      sources: [{ label: 'Wikipedia · Amur falcon', url: 'https://en.wikipedia.org/wiki/Amur_falcon' }],
+    },
+    {
       id: 'amur', kicker: 'I · July', title: 'Summer in the Amur',
       body: ['Amur Falcons breed in the woodlands of south-eastern Siberia and north-eastern China, along the Amur river.', 'Each glow is a share of where they were seen this month, not a single bird.'],
       camera: { lng: 122, lat: 47, altKm: 7000, frameX: WIDE }, month: 6.5,

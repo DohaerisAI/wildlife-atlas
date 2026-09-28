@@ -1,0 +1,28 @@
+{
+ "scientific": "Rhincodon typus",
+ "name": "Whale shark",
+ "qid": "Q80378",
+ "description": "species of fish",
+ "extract": "The whale shark is a slow-moving, filter-feeding carpet shark and the largest known extant fish species. An individual with a length of 18.8 m (61.7 ft) has been considered the largest reliably recorded. The whale shark holds many records for size in the animal kingdom, most notably being by far the largest living non-cetacean animal. It is the only living species of the genus Rhincodon and the only extant member of the family Rhincodontidae, which belongs to the subclass Elasmobranchii in the class Chondrichthyes. Before 1984, it was classified as Rhiniodon into Rhinodontidae. An extinct species, Rhincodon ferriolensis, was described in Europe, in the Late Burdigalian stage.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Whale_shark_Georgia_aquarium.jpg/960px-Whale_shark_Georgia_aquarium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Whale_shark_Georgia_aquarium.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "User:Zac Wolf (original), en:User:Stefan (cropping)",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q80378"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Whale_shark"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

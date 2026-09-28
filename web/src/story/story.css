@@ -44,3 +44,32 @@ body.story-page { font: 400 var(--t-body) / 1.6 var(--sans); -webkit-font-smooth
   .counters { gap: 24px; }
 }
 @media (prefers-reduced-motion: reduce) { .pin { transition: none; } }
+
+/* species card */
+.species-card { display: flex; flex-direction: column; gap: 12px; margin-top: 6px; }
+.sc-photo { margin: 0; display: flex; flex-direction: column; gap: 8px; }
+.sc-img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 6px; background: var(--panel-solid); display: block; }
+.sc-tabs { display: flex; gap: 6px; }
+.sc-tabs:empty { display: none; }
+.sc-tab { font: 500 11.5px/1 var(--mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-2); background: none; border: 1px solid var(--rule); border-radius: 99px; padding: 7px 11px; cursor: pointer; }
+.sc-tab[aria-pressed="true"] { color: var(--ink); border-color: var(--animal); }
+.sc-credit { font: 400 11px/1.4 var(--mono); color: var(--muted); }
+.sc-credit a, .sc-sources a { color: var(--muted); }
+.sc-name { margin: 0; font: 400 26px/1.1 var(--serif); }
+.sc-sci { margin: 2px 0 0; font: italic 300 16px/1.3 var(--serif); color: var(--ink-2); }
+.sc-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 10px 16px; margin: 0; }
+.sc-fact { display: flex; flex-direction: column; gap: 2px; }
+.sc-facts dt { font: 500 11px/1.3 var(--mono); letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.sc-facts dd { margin: 2px 0 0; font: 400 19px/1.25 var(--serif); color: var(--ink); font-variant-numeric: tabular-nums; }
+.sc-facts .tone-good { color: var(--good); } .sc-facts .tone-warn { color: var(--warn); } .sc-facts .tone-bad { color: var(--bad); }
+.sc-scale { margin: 0; font: italic 300 17px/1.4 var(--serif); color: var(--animal-hot); }
+.sc-extract { margin: 0; font-size: 15px; line-height: 1.55; color: var(--ink-2); }
+.sc-sources { margin: 0; font: 400 11px/1.5 var(--mono); color: var(--muted); }
+.hud-about { padding: 0.8em 1.1em; }
+
+/* drawer */
+.sc-drawer { position: fixed; z-index: 20; top: 0; right: 0; bottom: 0; width: min(440px, 100%); overflow-y: auto; padding: calc(20px + env(safe-area-inset-top, 0px)) 24px 32px; background: rgba(4, 9, 16, 0.94); border-left: 1px solid var(--rule); backdrop-filter: blur(14px); transform: translateX(100%); transition: transform var(--dur-ui) var(--ease-out); }
+.sc-drawer.is-open { transform: none; }
+.sc-close { margin-bottom: 14px; }
+@media (max-width: 760px) { .hud-about { font-size: 11px; } .sc-drawer { width: 100%; } }
+@media (prefers-reduced-motion: reduce) { .sc-drawer { transition: none; } }

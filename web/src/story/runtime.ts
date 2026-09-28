@@ -10,6 +10,8 @@ export interface StoryRuntime {
   /** continuous story position: chapter i's keyframe is reached when its section reaches the top */
   position(): number;
   updateCounters(chapter: number, channels: Readonly<Record<string, number>>): void;
+  /** chapters that asked for the species profile card */
+  profileSlots(): HTMLElement[];
   dispose(): void;
 }
 
@@ -36,6 +38,7 @@ function chapterEl(c: Chapter, i: number, last: boolean): HTMLElement {
     });
     card.append(row);
   }
+  if (c.profile) card.append(Object.assign(document.createElement('div'), { className: 'profile-slot' }));
   if (c.note) card.append(Object.assign(document.createElement('p'), { className: 'note', textContent: c.note }));
   if (c.sources?.length) {
     const src = Object.assign(document.createElement('p'), { className: 'sources' });
@@ -103,6 +106,7 @@ export function mountStory(root: HTMLElement, story: Story, reduced: boolean): S
         if (el.textContent !== text) el.textContent = text;
       });
     },
+    profileSlots: () => [...list.querySelectorAll<HTMLElement>('.profile-slot')],
     dispose() { trigger.kill(); reveals.forEach((r) => r.kill()); splits.forEach((s) => s.revert()); list.remove(); },
   };
 }

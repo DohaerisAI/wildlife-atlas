@@ -51,6 +51,14 @@ def cmd_fetch_global(args: argparse.Namespace) -> None:
     log.info("fetched worldwide ranges for %d featured species", len(done))
 
 
+def cmd_profiles(_: argparse.Namespace) -> None:
+    from .config import FEATURED_SPECIES, REPO_ROOT
+    from .profiles import make_get_json, write_profiles
+
+    done = write_profiles(list(FEATURED_SPECIES), REPO_ROOT / "web" / "public" / "content" / "profiles", make_get_json())
+    log.info("wrote %d species profiles", len(done))
+
+
 def cmd_build(_: argparse.Namespace) -> None:
     from .global_ranges import load_global_ranges
 
@@ -82,6 +90,7 @@ def main(argv: list[str] | None = None) -> int:
     fetch_global = sub.add_parser("fetch-global", help="follow featured species worldwide on GBIF (needs api.gbif.org access)")
     fetch_global.add_argument("--species", action="append", help="scientific name; repeatable. Default: FEATURED_SPECIES")
     fetch_global.set_defaults(fn=cmd_fetch_global)
+    sub.add_parser("profiles", help="fetch species profiles (photos, size, status) from Wikidata/Wikipedia").set_defaults(fn=cmd_profiles)
     sub.add_parser("build", help="build web/public/data from fetched GBIF data").set_defaults(fn=cmd_build)
     sub.add_parser("demo", help="build web/public/data from SYNTHETIC demo data").set_defaults(fn=cmd_demo)
     args = parser.parse_args(argv)

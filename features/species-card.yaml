@@ -1,0 +1,14 @@
+id: species-card
+title: Species card
+layer: L4
+status: building
+summary: >-
+  Meet-the-species card with male/female photos, size, weight, status and an everyday-scale comparison; in stories and a drawer.
+paths:
+  - web/src/ui/species-card.ts
+  - web/src/species/profile.ts
+checks:
+  - suite: vitest
+    file: src/species/profile.test.ts
+next: >-
+  Use the same card in the atlas and on the map page.

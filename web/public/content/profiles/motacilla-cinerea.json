@@ -1,0 +1,50 @@
+{
+ "scientific": "Motacilla cinerea",
+ "name": "Grey wagtail",
+ "qid": "Q201316",
+ "description": "species of bird",
+ "extract": "The grey wagtail is a member of the wagtail family, Motacillidae, measuring around 18–19 cm overall length. The species looks somewhat similar to the yellow wagtail but has the yellow on its underside restricted to the throat and vent. Breeding males have a black throat. The species is widely distributed, with several populations breeding in Eurosiberia and migrating to tropical regions in Asia and Africa. The species is always associated with running water when breeding, although they may use man-made structures near streams for the nest. Outside the breeding season, they may also be seen around lakes, coasts and other watery habitats. Like other wagtails, they frequently wag their tail and fly low with undulations and they have a sharp call that is often given in flight.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Ter%C3%AEhejoka_bo%C3%A7ikzer.jpg/960px-Ter%C3%AEhejoka_bo%C3%A7ikzer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Ter%C3%AEhejoka_bo%C3%A7ikzer.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dûrzan cîrano",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Grey_Wagtail_Motacilla_cinerea_%2839682090233%29.jpg/960px-Grey_Wagtail_Motacilla_cinerea_%2839682090233%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Grey_Wagtail_Motacilla_cinerea_(39682090233).jpg",
+   "license": "CC BY 2.0",
+   "artist": "gailhampshire from Cradley, Malvern, U.K",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 26.0,
+   "max": 26.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 1.9,
+   "max": 17.4,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q201316"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey_wagtail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

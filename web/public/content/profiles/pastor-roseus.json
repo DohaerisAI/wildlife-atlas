@@ -1,0 +1,45 @@
+{
+ "scientific": "Pastor roseus",
+ "name": "Rosy Starling",
+ "qid": "Q20823352",
+ "description": "species of bird",
+ "extract": "The rosy starling, also known as the rose-coloured starling, is a passerine bird in the starling family Sturnidae. The species was restored to its own monotypic genus Pastor in 2008, formerly being included in a wide interpretation of the genus Sturnus. This split is supported by further studies, with its closest relative now thought to be the wattled starling of tropical Africa, with these two then closest to a large group of Asian starlings and mynas.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Pastor_roseus_by_Koshy_Koshy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "page": "https://commons.wikimedia.org/wiki/File:Pastor_roseus_by_Koshy_Koshy.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Koshy Koshy",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Pastor_roseus_-_Rosenstar_%28Jungvogel%29.jpg/960px-Pastor_roseus_-_Rosenstar_%28Jungvogel%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Pastor_roseus_-_Rosenstar_(Jungvogel).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Johannes Sander",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 6.6,
+   "max": 79.6,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q20823352"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rosy_starling"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

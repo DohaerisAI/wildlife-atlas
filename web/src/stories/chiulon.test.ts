@@ -22,6 +22,7 @@ describe('Chiulon story data', () => {
 
   it('cites a source for every factual chapter', () => {
     const factual = CHIULON.chapters.filter((c) => !['open', 'return', 'atlas'].includes(c.id));
+    expect(CHIULON.chapters.find((c) => c.id === 'meet')?.profile).toBe(true);
     expect(factual.every((c) => (c.sources?.length ?? 0) > 0)).toBe(true);
   });
 

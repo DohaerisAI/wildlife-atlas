@@ -12,6 +12,8 @@ import { stateAt } from '../story/interpolate';
 import { mountStory } from '../story/runtime';
 import type { Story } from '../story/schema';
 import { CHIULON, CHIULON_PATH } from '../stories/chiulon';
+import { loadProfile } from '../species/profile';
+import { speciesCard, speciesDrawer } from '../ui/species-card';
 import type { SpeciesIndexEntry } from '../types';
 
 /** Supporting cast for the cold open, in fixed colour order. The story's own species is always amber. */
@@ -21,7 +23,7 @@ const FOCAL_COLOR = '#ffb26b';
 const TRACK_COLOR = '#ffe2c4';
 const mid = (d: Date) => d.getMonth() + (d.getDate() - 0.5) / 31;
 
-export interface StoryPageRoots { stage: HTMLElement; story: HTMLElement; pins: HTMLElement; month: HTMLElement; progress: HTMLElement; banner: HTMLElement; kicker0?: HTMLElement }
+export interface StoryPageRoots { stage: HTMLElement; story: HTMLElement; pins: HTMLElement; month: HTMLElement; progress: HTMLElement; banner: HTMLElement; about: HTMLButtonElement }
 
 /** Cold open uses today's date; every other chapter comes from the story data. */
 function withToday(story: Story, today: Date): Story {
@@ -65,6 +67,15 @@ export async function startStoryPage(roots: StoryPageRoots): Promise<void> {
   labels.upsert('chiulon', 'Chiulon', ...CHIULON_PATH.at(0), 'animal');
 
   const runtime = mountStory(roots.story, story, reduced);
+  loadProfile(story.species).then((profile) => {
+    if (!profile) return;
+    runtime.profileSlots().forEach((slot) => slot.replaceChildren(speciesCard(profile)));
+    const drawer = speciesDrawer(profile);
+    document.body.append(drawer.element);
+    roots.about.textContent = `About the ${profile.name}`;
+    roots.about.hidden = false;
+    roots.about.addEventListener('click', drawer.open);
+  }).catch((err) => console.warn('Species profile unavailable', err));
   const first = story.chapters[0]!;
   let pose: CameraPose = { ...first.camera };
   let lastMonth = -1;

@@ -1,0 +1,40 @@
+{
+ "scientific": "Clamator jacobinus",
+ "name": "Jacobin Cuckoo",
+ "qid": "Q839535",
+ "description": "Species of bird",
+ "extract": "The Jacobin cuckoo, also pied cuckoo or pied crested cuckoo, is a member of the cuckoo order of birds that is found in Africa and Asia. It is partially migratory and in India, it has been considered a harbinger of the monsoon rains due to the timing of its arrival. It has been associated with a bird in Indian mythology and poetry, known as the chātaka represented as a bird with a beak on its head that waits for rains to quench its thirst.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Pied_Cuckoo_%28Clamator_jacobinus%29_with_a_catterpillar_W_IMG_4009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "page": "https://commons.wikimedia.org/wiki/File:Pied_Cuckoo_(Clamator_jacobinus)_with_a_catterpillar_W_IMG_4009.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Pied_Cuckoo_%28Clamator_jacobinus%29_in_AP_W_IMG_3978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "page": "https://commons.wikimedia.org/wiki/File:Pied_Cuckoo_(Clamator_jacobinus)_in_AP_W_IMG_3978.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q839535"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jacobin_cuckoo"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

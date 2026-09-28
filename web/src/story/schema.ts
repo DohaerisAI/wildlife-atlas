@@ -28,6 +28,8 @@ export interface Chapter {
   readonly counters?: readonly Counter[];
   readonly pins?: readonly Pin[];
   readonly note?: string;
+  /** show the story species' profile card inside this chapter */
+  readonly profile?: boolean;
   readonly sources?: readonly Source[];
 }
 
