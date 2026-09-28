@@ -1,12 +1,13 @@
 id: story-runtime
 title: Scroll-driven story runtime
 layer: L3
-status: planned
+status: building
 summary: >-
-  Stories as data (chapters, camera, captions) scrubbed by one GSAP timeline.
+  Stories as data: chapters are keyframes, GSAP ScrollTrigger scrubs one position, SplitText reveals titles.
 paths:
-  - web/src/scene/director.ts
-  - web/src/stories.ts
-checks: []
+  - web/src/story/
+checks:
+  - suite: vitest
+    file: src/story/interpolate.test.ts
 next: >-
-  Replace the click-through director with scroll chapters.
+  Add watch mode (auto-play) and a reduced-motion snapshot view.

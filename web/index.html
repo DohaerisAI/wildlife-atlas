@@ -2,17 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Watch India's wildlife move through the year." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="Follow Chiulon, an Amur Falcon, from Siberia across the Arabian Sea to southern Africa." />
     <title>Wildlife Atlas</title>
   </head>
-  <body>
-    <div id="demo-banner" class="demo-banner" role="alert" hidden>
-      SYNTHETIC DEMO DATA<span class="banner-long">: every pattern here is invented for building the interface. It is not evidence.</span><span class="banner-short"> · not real evidence</span>
-    </div>
-    <div id="stage" class="stage" aria-label="Animated globe of species movement"></div>
-    <div id="hud" class="hud"></div>
-    <div id="view-switch" class="view-switch-float"></div>
-    <script type="module" src="/src/main-scene.ts"></script>
+  <body class="story-page">
+    <div id="demo-banner" class="demo-banner" role="alert" hidden>SYNTHETIC DEMO DATA · patterns are invented, not evidence</div>
+    <div id="stage" class="stage" aria-hidden="true"></div>
+    <div id="pins" class="pins"></div>
+    <header class="hud">
+      <a class="brand" href="./">Wildlife Atlas</a>
+      <span class="hud-month" id="hud-month" aria-live="off"></span>
+      <a class="btn hud-skip" href="atlas.html">Skip to atlas</a>
+    </header>
+    <div class="progress" aria-hidden="true"><i id="progress"></i></div>
+    <main id="story" class="story"></main>
+    <noscript><p class="nojs">This story needs JavaScript and WebGL.</p></noscript>
+    <script type="module" src="/src/main-story.ts"></script>
   </body>
 </html>

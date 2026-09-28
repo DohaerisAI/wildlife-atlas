@@ -1,0 +1,11 @@
+id: engine-layers
+title: Flow, track and label layers
+layer: L3
+status: building
+summary: >-
+  Species flows with trails, a tracked-individual comet and pinned labels, in the fixed draw order.
+paths:
+  - web/src/engine/layers/
+checks:
+  - suite: vitest
+    file: src/engine/layers/path.test.ts

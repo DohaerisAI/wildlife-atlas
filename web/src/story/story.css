@@ -1,0 +1,46 @@
+html, body.story-page { background: var(--void); color: var(--ink); margin: 0; }
+body.story-page { font: 400 var(--t-body) / 1.6 var(--sans); -webkit-font-smoothing: antialiased; }
+.stage { position: fixed; inset: 0; z-index: 0; }
+.pins { position: fixed; inset: 0; z-index: 2; pointer-events: none; overflow: hidden; }
+.pin { position: absolute; left: 0; top: 0; white-space: nowrap; font: 400 13px/1 var(--serif); color: var(--ink); text-shadow: 0 1px 12px rgba(0, 0, 0, 0.9); margin: -22px 0 0 10px; transition: opacity var(--dur-ui) linear; opacity: 0; }
+.pin::before { content: ""; position: absolute; left: -12px; top: 16px; width: 5px; height: 5px; border-radius: 50%; background: var(--ink); box-shadow: 0 0 10px var(--water); }
+.pin-animal { font: 500 11.5px/1 var(--mono); letter-spacing: 0.14em; text-transform: uppercase; color: var(--animal-hot); }
+.pin-animal::before { display: none; }
+
+.hud { position: fixed; z-index: 5; top: 0; left: 0; right: 0; display: flex; align-items: center; gap: 20px; padding: calc(16px + env(safe-area-inset-top, 0px)) var(--gutter) 28px; pointer-events: none; background: linear-gradient(180deg, rgba(2, 7, 13, 0.92) 0%, rgba(2, 7, 13, 0.6) 60%, rgba(2, 7, 13, 0)); }
+.hud > * { pointer-events: auto; }
+.brand { font: 400 18px/1 var(--serif); color: var(--ink); text-decoration: none; letter-spacing: 0.01em; }
+.hud-month { margin-left: auto; font: 500 12px/1 var(--mono); letter-spacing: 0.16em; text-transform: uppercase; color: var(--animal-hot); }
+.hud-skip { padding: 0.8em 1.1em; }
+.progress { position: fixed; z-index: 5; left: 0; right: 0; top: 0; height: 2px; background: rgba(255, 255, 255, 0.05); }
+.progress i { display: block; height: 100%; background: linear-gradient(90deg, var(--water), var(--animal)); transform-origin: 0 50%; transform: scaleX(0); }
+.demo-banner { position: fixed; z-index: 6; bottom: 0; left: 0; right: 0; padding: 6px 16px calc(6px + env(safe-area-inset-bottom, 0px)); background: #7a1f1f; color: #fff; font: 600 12px/1.4 var(--mono); text-align: center; }
+
+.story { position: relative; z-index: 3; }
+.chapter { min-height: 125svh; display: flex; align-items: flex-start; padding: 24svh var(--gutter) 0; }
+.chapter-open { padding-top: 32svh; }
+.chapter:last-child { min-height: 100svh; }
+.card { max-width: min(30rem, 100%); display: flex; flex-direction: column; gap: 14px; padding: 28px 30px; border-radius: 10px; background: linear-gradient(180deg, rgba(4, 9, 16, 0.82), rgba(4, 9, 16, 0.62)); border: 1px solid var(--rule); backdrop-filter: blur(10px); box-shadow: 0 30px 60px -30px rgba(0, 0, 0, 0.9); }
+.chapter-open .card { background: none; border: 0; box-shadow: none; backdrop-filter: none; padding-left: 0; }
+.card .kicker { margin: 0; color: var(--animal-hot); }
+.card .title { margin: 0; font: 300 var(--t-title) / 1.02 var(--serif); letter-spacing: -0.02em; text-wrap: balance; }
+.chapter-open .title { font-size: var(--t-hero); }
+.card .body { margin: 0; color: var(--ink-2); font-size: var(--t-lede); line-height: 1.5; font-family: var(--serif); font-weight: 300; }
+.counters { display: flex; gap: 36px; margin-top: 6px; }
+.counter { display: flex; flex-direction: column; gap: 6px; }
+.counter .n { font: 300 clamp(40px, 5vw, 64px) / 1 var(--serif); font-variant-numeric: tabular-nums; color: var(--ink); }
+.counter .u { font: 500 11.5px/1.3 var(--mono); letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-2); }
+.note { margin: 0; font: italic 300 16px/1.5 var(--serif); color: var(--ink-2); }
+.sources { margin: 4px 0 0; font: 400 12px/1.5 var(--mono); color: var(--muted); }
+.sources a { color: var(--muted); }
+.cta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; }
+.nojs { position: relative; z-index: 3; padding: 30vh var(--gutter); max-width: 40ch; color: var(--ink-2); }
+
+@media (max-width: 760px) {
+  .chapter { padding-top: 54svh; }
+  .chapter-open { padding-top: 46svh; }
+  .card { padding: 20px 20px; }
+  .hud-skip { display: none; }
+  .counters { gap: 24px; }
+}
+@media (prefers-reduced-motion: reduce) { .pin { transition: none; } }

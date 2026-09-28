@@ -9,7 +9,7 @@ import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js';
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js';
 import { easeInOut } from '../../scene/flow';
 import type { CameraTarget, SceneView, SpeciesLayer } from '../../scene/view';
-import { EARTH_KM, lngLatToVec3, vec3ToLngLat } from './geo';
+import { EARTH_KM, lngLatToVec3, vec3ToLngLat } from '../../engine/globe/geo';
 import { outlineLayer, PALETTE, ParticleLayer, PillarLayer, starField, type Outlines } from './layers';
 import { atmosphereFragment, globeFragment, globeVertex } from './shaders';
 

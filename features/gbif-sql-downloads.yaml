@@ -9,4 +9,4 @@ paths:
   - .github/workflows/gbif-sql-probe.yml
 checks: []
 next: >-
-  Probe validated FLOOR grid; end-to-end download in progress.
+  End-to-end download proven (doi:10.15468/dl.75xb6c). Build the global all-species fetch, joined by scientific name.

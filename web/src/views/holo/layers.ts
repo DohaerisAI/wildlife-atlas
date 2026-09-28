@@ -4,7 +4,7 @@ import {
 } from 'three';
 import { cellIntensity, sampleFlow } from '../../scene/flow';
 import type { SpeciesLayer } from '../../scene/view';
-import { lngLatToVec3 } from './geo';
+import { lngLatToVec3 } from '../../engine/globe/geo';
 import { particleFragment, particleVertex, trailFragment, trailVertex } from './shaders';
 
 export const PALETTE = {

@@ -1,0 +1,13 @@
+id: engine-stage
+title: Render stage and quality tiers
+layer: L3
+status: building
+summary: >-
+  Shared renderer, bloom and frame loop; Ultra/High/Base picked from measured frame time.
+paths:
+  - web/src/engine/core/
+checks:
+  - suite: vitest
+    file: src/engine/core/tiers.test.ts
+next: >-
+  Move to WebGPU with the WebGL2 fallback.

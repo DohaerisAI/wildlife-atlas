@@ -1,0 +1,15 @@
+id: engine-globe
+title: Dot-land globe and camera rig
+layer: L3
+status: building
+summary: >-
+  Fibonacci land dots from a land mask, fresnel rim, halo and a damped crane-shot camera.
+paths:
+  - web/src/engine/globe/
+checks:
+  - suite: vitest
+    file: src/engine/globe/rig-mask.test.ts
+  - suite: vitest
+    file: src/engine/globe/geo.test.ts
+next: >-
+  Living Earth materials replace the plain body.

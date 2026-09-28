@@ -1,10 +1,13 @@
 id: cold-open
 title: Cold open
 layer: L4
-status: planned
+status: building
 summary: >-
-  Real-time intro: this week's journeys drawn as light, under three seconds to motion.
-paths: []
-checks: []
+  Today's date and every featured species on the move, as the story's first chapter.
+paths:
+  - web/src/experiences/story-page.ts
+checks:
+  - suite: vitest
+    file: src/stories/chiulon.test.ts
 next: >-
-  Slice 1.
+  Count live journeys this week for the headline.

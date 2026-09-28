@@ -24,7 +24,7 @@ export function viewUrl(kind: ViewKind, s: CarryState): string {
   if (s.cell) q.set('cell', s.cell);
   if (s.at) q.set('at', `${s.at.lng.toFixed(3)},${s.at.lat.toFixed(3)},${s.at.zoom.toFixed(2)}`);
   if (s.dive) q.set('dive', '1');
-  return `${kind === 'map' ? 'map.html' : './'}?${q.toString()}`;
+  return `${kind === 'map' ? 'map.html' : 'atlas.html'}?${q.toString()}`;
 }
 
 export function renderViewSwitch(root: HTMLElement, current: ViewKind, carry: () => CarryState): void {

@@ -7,7 +7,7 @@ export default defineConfig({
   optimizeDeps: { exclude: ['maplibre-gl'] },
   build: {
     chunkSizeWarningLimit: 6000,
-    rolldownOptions: { input: { index: resolve(import.meta.dirname, 'index.html'), map: resolve(import.meta.dirname, 'map.html') } },
+    rolldownOptions: { input: { index: resolve(import.meta.dirname, 'index.html'), atlas: resolve(import.meta.dirname, 'atlas.html'), map: resolve(import.meta.dirname, 'map.html') } },
   },
   test: { environment: 'node' },
 });

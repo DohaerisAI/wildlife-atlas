@@ -10,4 +10,6 @@
 - **All species worldwide:** GBIF SQL downloads that aggregate on GBIF's side by `FLOOR(lat), FLOOR(lng), month`. We verified `FLOOR` works and `GBIF_EQDGCCode` does not. Each download gets a DOI, which becomes our citation.
 - Every fetch runs on GitHub Actions, one job at a time, caching each response and resuming on re-run.
 
+**Key finding (2026-09-28):** SQL downloads use GBIF's new backbone keys (Amur Falcon = `3DTFM`), while the search API still returns legacy integer keys (`2480998`). Species are therefore joined across sources by **accepted scientific name**, never by key. The probe download is doi:10.15468/dl.75xb6c (402 rows).
+
 **Consequences:** Data refreshes are Actions runs, not laptop scripts. Credentials live only in repo secrets.

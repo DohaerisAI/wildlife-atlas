@@ -9,4 +9,4 @@ paths:
   - web/src/ui/scene-hud.ts
 checks: []
 next: >-
-  Rebuild as Chiulon's crossing on the scroll runtime.
+  Superseded by story-chiulon for the front door; v0 remains on atlas.html.

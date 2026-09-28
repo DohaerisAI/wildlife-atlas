@@ -8,6 +8,6 @@ paths:
   - web/src/views/holo/
 checks:
   - suite: vitest
-    file: src/views/holo/geo.test.ts
+    file: src/engine/globe/geo.test.ts
 next: >-
   Fibonacci dot land and the Living Earth material system.

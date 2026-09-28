@@ -1,0 +1,90 @@
+/*
+ * Design tokens from the Storyboard and the Living Earth style guide.
+ * One dark world, deliberately single-theme. Amber is reserved for animals.
+ */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap");
+
+:root {
+  color-scheme: dark;
+
+  /* surfaces */
+  --void: #02070d;
+  --night: #04070c;
+  --panel: rgba(8, 14, 22, 0.78);
+  --panel-solid: #0b1520;
+  --rule: rgba(98, 214, 242, 0.16);
+  --rule-quiet: #172231;
+
+  /* ink */
+  --ink: #e8edf1;
+  --ink-2: #aab7c3;
+  --muted: #72818f;
+
+  /* roles (hologram) */
+  --water: #62d6f2;
+  --life: #73f0b8;
+  --grass: #b9ef72;
+  --snow: #d9f2ff;
+  --animal: #ffb26b;
+  --animal-hot: #ffe2c4;
+
+  /* status (never reused for series) */
+  --good: #5fd39a;
+  --warn: #ffb26b;
+  --bad: #ff7a90;
+
+  /* type */
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Hanken Grotesk", "Segoe UI", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  --t-kicker: 12px;
+  --t-body: 17px;
+  --t-lede: clamp(19px, 1.6vw, 22px);
+  --t-title: clamp(36px, 5vw, 64px);
+  --t-hero: clamp(44px, 7vw, 92px);
+
+  /* motion: nothing snaps */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-inout: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --dur-fast: 180ms;
+  --dur-ui: 360ms;
+  --dur-reveal: 1100ms;
+
+  /* layout */
+  --gutter: clamp(16px, 4vw, 48px);
+  --measure: 34ch;
+}
+
+.kicker {
+  font: 500 var(--t-kicker) / 1.3 var(--mono);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+
+/* Physical buttons: squash on press, overshoot on release. */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6em;
+  font: 500 12.5px / 1 var(--mono);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink);
+  background: rgba(4, 7, 12, 0.45);
+  border: 1px solid rgba(232, 237, 241, 0.22);
+  border-radius: 999px;
+  padding: 0.95em 1.35em;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform var(--dur-ui) var(--ease-spring), border-color var(--dur-fast) linear, background var(--dur-fast) linear;
+}
+.btn:hover { border-color: rgba(232, 237, 241, 0.5); }
+.btn:active { transform: scale(0.95); transition-duration: 90ms; }
+.btn.hot { border-color: rgba(255, 178, 107, 0.6); color: var(--animal-hot); }
+.btn:focus-visible { outline: 2px solid var(--water); outline-offset: 3px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .btn { transition: none; }
+}

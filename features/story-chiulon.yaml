@@ -1,0 +1,15 @@
+id: story-chiulon
+title: Chiulon's crossing
+layer: L4
+status: building
+summary: >-
+  Ten chapters from the cold open to the atlas handoff, sourced, on real GBIF falcon data.
+paths:
+  - web/src/stories/chiulon.ts
+  - web/src/experiences/story-page.ts
+  - web/index.html
+checks:
+  - suite: vitest
+    file: src/stories/chiulon.test.ts
+next: >-
+  Swap the illustrative route for the real satellite track when WII shares it.
