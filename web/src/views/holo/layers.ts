@@ -118,7 +118,7 @@ export class ParticleLayer {
     pGeo.setAttribute('alpha', new BufferAttribute(new Float32Array(n), 1).setUsage(DynamicDrawUsage));
     this.points = new Points(pGeo, new ShaderMaterial({
       vertexShader: particleVertex, fragmentShader: particleFragment,
-      uniforms: { uColor: { value: PALETTE.particle }, uSize: { value: 3.2 }, uPixelRatio: { value: pixelRatio } },
+      uniforms: { uColor: { value: PALETTE.particle }, uSize: { value: 4.2 }, uPixelRatio: { value: pixelRatio } },
       transparent: true, depthWrite: false, blending: AdditiveBlending,
     }));
     this.points.frustumCulled = false;

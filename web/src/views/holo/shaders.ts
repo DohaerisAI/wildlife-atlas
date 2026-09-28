@@ -62,7 +62,7 @@ export const particleFragment = /* glsl */ `
     vec2 c = gl_PointCoord - 0.5;
     float d = length(c);
     float core = smoothstep(0.5, 0.0, d);
-    float a = core * core * vAlpha * 0.32;
+    float a = core * core * vAlpha * 0.6;
     if (a < 0.01) discard;
     gl_FragColor = vec4(uColor * (0.5 + 0.8 * core), a);
   }
@@ -81,6 +81,6 @@ export const trailFragment = /* glsl */ `
   uniform vec3 uColor;
   varying float vAlpha;
   void main() {
-    gl_FragColor = vec4(uColor, vAlpha * 0.18);
+    gl_FragColor = vec4(uColor, vAlpha * 0.3);
   }
 `;

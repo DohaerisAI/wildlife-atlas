@@ -23,13 +23,13 @@ async function boot() {
     if (kind === 'real') {
       (window as unknown as { CESIUM_BASE_URL: string }).CESIUM_BASE_URL = `${import.meta.env.BASE_URL}cesium/`;
       const { createRealView } = await import('./views/real/real-view');
-      startShell(createRealView(stage), { meta, cells, species }, root('hud'), root('view-switch'), { kind, particles: 2500, storyPitch: -50 });
+      startShell(createRealView(stage), { meta, cells, species }, stage, root('hud'), root('view-switch'), { kind, particles: 2500, storyPitch: -50 });
     } else {
       const [{ createHoloView }, outlines] = await Promise.all([
         import('./views/holo/holo-view'),
         fetch(`${import.meta.env.BASE_URL}geo/outlines.json`).then((r) => { if (!r.ok) throw new Error(`outlines HTTP ${r.status}`); return r.json(); }),
       ]);
-      startShell(createHoloView(stage, outlines), { meta, cells, species }, root('hud'), root('view-switch'), { kind, particles: 3500, storyPitch: -90 });
+      startShell(createHoloView(stage, outlines), { meta, cells, species }, stage, root('hud'), root('view-switch'), { kind, particles: 3500, storyPitch: -90 });
     }
   } catch (err) {
     console.error('Wildlife Atlas scene failed to start', err);

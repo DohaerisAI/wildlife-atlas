@@ -8,6 +8,7 @@ import { cellIdAt, toMonth } from '../url-state';
 import { createClock } from './clock';
 import { createDirector } from './director';
 import { buildFlow, massAt, type FlowField } from './flow';
+import { flockCenter, glide, toLngLat, toVec, type Vec3 } from './follow';
 import { altitudeKmToZoom, zoomToAltitudeKm, type SceneView, type ViewKind } from './view';
 
 export interface ShellData { meta: Meta; cells: CellsIndex; species: SpeciesIndexEntry[] }
@@ -35,7 +36,7 @@ function parseAt(value: string | null) {
   return [lng, lat, zoom].every(Number.isFinite) && Math.abs(lat!) <= 90 ? { lng: lng!, lat: lat!, zoom: zoom! } : null;
 }
 
-export function startShell(view: SceneView, data: ShellData, hudRoot: HTMLElement, switchRoot: HTMLElement, opts: ShellOptions): void {
+export function startShell(view: SceneView, data: ShellData, stage: HTMLElement, hudRoot: HTMLElement, switchRoot: HTMLElement, opts: ShellOptions): void {
   const q = new URLSearchParams(location.search);
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const month = toMonth(q.get('m'), (new Date().getMonth() + 1) as 1);
@@ -44,6 +45,11 @@ export function startShell(view: SceneView, data: ShellData, hudRoot: HTMLElemen
   const cellSet = new Set(data.cells.cells.map((c) => c.id));
   let speciesKey: string | null = null;
   let flowField: FlowField | null = null;
+  let flowScratch = new Float32Array(0);
+  // Follow camera: on while playing a species (not during stories), off as soon as the user drags the globe.
+  let following = false;
+  let followVec: Vec3 | null = null;
+  const setFollow = (on: boolean) => { following = on; followVec = null; hud.setFollow(on); };
 
   const carry = (): CarryState => {
     const cam = view.camera();
@@ -58,9 +64,16 @@ export function startShell(view: SceneView, data: ShellData, hudRoot: HTMLElemen
   const hud = mountHud(hudRoot, data.meta, data.species, {
     onScrub: (t) => { director.holdAuto(); clock.pause(); clock.set(t); },
     onMonth: (m) => { director.holdAuto(); clock.pause(); clock.glideTo(m - 1 + 0.5, 1200); },
-    onTogglePlay: () => { director.holdAuto(); if (clock.playing()) clock.pause(); else clock.play(); },
+    onTogglePlay: () => {
+      director.holdAuto();
+      if (clock.playing()) { clock.pause(); return; }
+      clock.play();
+      if (!director.active()) setFollow(true);
+    },
+    onToggleFollow: () => setFollow(!following),
     onSpecies: (k) => { director.stop(); void selectSpecies(k); },
     onStory: (story) => {
+      setFollow(false);
       const k = data.species.find((s) => s.sci.toLowerCase() === story.scientific.toLowerCase())?.k;
       if (!k) return;
       void selectSpecies(k).then(() => director.start(story));
@@ -79,6 +92,8 @@ export function startShell(view: SceneView, data: ShellData, hudRoot: HTMLElemen
       if (speciesKey !== key) return;
       const flow = buildFlow(range, data.cells.cellSize, opts.particles, 7);
       flowField = flow;
+      flowScratch = new Float32Array(flow.count * 3);
+      followVec = null;
       view.setSpecies({ range, flow, peak: peakRate(range.cells), cellSize: data.cells.cellSize });
     } catch (err) {
       console.error('Species load failed', key, err);
@@ -102,7 +117,20 @@ export function startShell(view: SceneView, data: ShellData, hudRoot: HTMLElemen
     hud.showPick(lng, lat, cellSet.has(id) ? id : null, data.cells.cellSize);
   });
 
+  stage.addEventListener('pointerdown', () => { if (following) setFollow(false); });
+
+  const followFlock = (t: number, dt: number) => {
+    if (!following || !flowField || director.active()) return;
+    const target = flockCenter(flowField, t, flowScratch);
+    if (!target) return;
+    const cam = view.camera();
+    followVec = glide(followVec ?? toVec(cam.lng, cam.lat), target, dt);
+    const { lng, lat } = toLngLat(followVec);
+    view.flyTo({ lng, lat, altitudeKm: cam.altitudeKm, pitch: -90 }, 0);
+  };
+
   clock.onTick((t, dt) => {
+    followFlock(t, dt);
     view.update(t, dt);
     hud.setTime(t, clock.playing());
     if (flowField) hud.setSpecies(speciesKey ? names.get(speciesKey) ?? null : null, massAt(flowField, t));

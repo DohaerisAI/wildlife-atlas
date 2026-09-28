@@ -9,6 +9,7 @@ export interface HudHandlers {
   onScrub: (t: number) => void;
   onMonth: (month: number) => void;
   onTogglePlay: () => void;
+  onToggleFollow: () => void;
   onSpecies: (key: string) => void;
   onStory: (story: Story) => void;
   onStoryNext: () => void;
@@ -22,6 +23,7 @@ export interface Hud {
   showStory(story: Story | null, index: number): void;
   showPick(lng: number, lat: number, cellId: string | null, cellSize: number): void;
   setLoading(on: boolean): void;
+  setFollow(on: boolean): void;
   fade(on: boolean): void;
 }
 
@@ -35,6 +37,8 @@ export function mountHud(root: HTMLElement, meta: Meta, species: SpeciesIndexEnt
   const spName = h('h2', { class: 'hud-sp-name' });
   const spSci = h('p', { class: 'hud-sp-sci' });
   const spBar = h('div', { class: 'hud-mass-fill' });
+  const followBtn = h('button', { class: 'chip hud-follow', 'aria-pressed': 'false', onclick: handlers.onToggleFollow,
+    title: 'Keep the camera on the flock while the year plays' }, '◎ Follow flock');
   const input = h('input', { type: 'search', class: 'search-input', placeholder: 'Follow a species…', 'aria-label': 'Follow a species', autocomplete: 'off' });
   const results = h('ul', { class: 'search-results', role: 'listbox' });
   const renderResults = () => {
@@ -63,6 +67,7 @@ export function mountHud(root: HTMLElement, meta: Meta, species: SpeciesIndexEnt
       h('p', { class: 'eyebrow' }, 'Following'), spName, spSci,
       h('div', { class: 'hud-mass', title: 'Share of the year\'s peak presence recorded this month' }, spBar),
       h('p', { class: 'hud-note' }, 'Each glowing dot is a share of where this species was recorded, not an individual animal.'),
+      followBtn,
       h('details', { class: 'hud-stories' }, h('summary', {}, 'Stories'),
         h('ul', { class: 'story-list' }, ...STORIES.map((s) => h('li', {}, h('button', { class: 'story-btn', onclick: () => handlers.onStory(s) }, '▶ ', s.title))))),
       h('p', { class: 'hud-source muted small' }, meta.source.demo ? 'Synthetic demo data' : `Source: ${meta.source.name}`,
@@ -110,6 +115,10 @@ export function mountHud(root: HTMLElement, meta: Meta, species: SpeciesIndexEnt
         h('button', { class: 'icon-btn pick-close', 'aria-label': 'Close', onclick: () => replaceChildren(pickSlot) }, '✕')));
     },
     setLoading(on) { loading.hidden = !on; },
+    setFollow(on) {
+      followBtn.classList.toggle('is-on', on);
+      followBtn.setAttribute('aria-pressed', String(on));
+    },
     fade(on) { fader.classList.toggle('is-on', on); },
   };
 }
