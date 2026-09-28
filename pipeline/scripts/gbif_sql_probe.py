@@ -16,24 +16,14 @@ import requests
 API = "https://api.gbif.org/v1/occurrence/download/request"
 AUTH = (os.environ["GBIF_USER"], os.environ["GBIF_PASSWORD"])
 EMAIL = os.environ["GBIF_EMAIL"]
-AMUR_FALCON = 2480998
 POLL_S, MAX_WAIT_S = 30, 50 * 60
 
-WHERE = f"specieskey = {AMUR_FALCON} AND countrycode = 'IN' AND occurrencestatus = 'PRESENT' AND hascoordinate = TRUE"
+WHERE = "species = 'Falco amurensis' AND countrycode = 'IN' AND occurrencestatus = 'PRESENT' AND hascoordinate = TRUE"
 CANDIDATES = {
-    "floor_grid_first": (
-        'SELECT "month", FLOOR(decimallatitude) AS lat0, FLOOR(decimallongitude) AS lng0, COUNT(*) AS n '
-        f'FROM occurrence WHERE {WHERE} GROUP BY "month", FLOOR(decimallatitude), FLOOR(decimallongitude)'
-    ),
-    "eqdgc_grid": (
-        'SELECT "month", GBIF_EQDGCCode(0, decimallatitude, decimallongitude, '
-        "COALESCE(coordinateuncertaintyinmeters, 1000)) AS cell, COUNT(*) AS n "
-        f"FROM occurrence WHERE {WHERE} GROUP BY \"month\", "
-        "GBIF_EQDGCCode(0, decimallatitude, decimallongitude, COALESCE(coordinateuncertaintyinmeters, 1000))"
-    ),
-    "floor_grid": (
-        'SELECT "month", FLOOR(decimallatitude) AS lat0, FLOOR(decimallongitude) AS lng0, COUNT(*) AS n '
-        f'FROM occurrence WHERE {WHERE} GROUP BY "month", FLOOR(decimallatitude), FLOOR(decimallongitude)'
+    # Which key does the SQL table use for this species? Filter by name, report keys alongside the grid.
+    "by_name_with_keys": (
+        'SELECT specieskey, taxonkey, "month", FLOOR(decimallatitude) AS lat0, FLOOR(decimallongitude) AS lng0, COUNT(*) AS n '
+        f'FROM occurrence WHERE {WHERE} GROUP BY specieskey, taxonkey, "month", FLOOR(decimallatitude), FLOOR(decimallongitude)'
     ),
 }
 
