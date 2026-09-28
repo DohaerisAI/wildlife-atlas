@@ -1,6 +1,6 @@
 {
  "version": 1,
- "built": "2026-09-28T19:04+00:00",
+ "built": "2026-09-28T19:23+00:00",
  "layout": {
   "cols": 4,
   "rows": 3,
@@ -18,8 +18,8 @@
     "name": "water",
     "lo": 0,
     "hi": 100,
-    "unit": "% of years with water that month",
-    "source": "JRC/GSW1_4/MonthlyRecurrence"
+    "unit": "expected % of the cell under water that month",
+    "source": "JRC/GSW1_4/MonthlyRecurrence x water share of the cell"
    },
    {
     "name": "snow",

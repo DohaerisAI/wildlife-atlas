@@ -3,8 +3,17 @@ title: Living Earth globe and regional packs
 layer: L2
 status: building
 summary: >-
-  ~25 MB global pack plus regional PMTiles on R2, each with a manifest.
-paths: []
-checks: []
+  Globe pack v1 (4 MB): monthly water share, snow and NDVI at 1024x512, ERA5 wind and temperature at 1°,
+  PNG atlases with a manifest, built in Earth Engine on Actions. Regional PMTiles on R2 still to come.
+paths:
+  - pipeline/atlas_pipeline/living_earth.py
+  - pipeline/scripts/build_living_earth.py
+  - .github/workflows/living-earth.yml
+  - web/public/content/living-earth/v1/
+checks:
+  - suite: pytest
+    file: tests/test_living_earth.py
+  - suite: vitest
+    file: src/engine/living-earth/pack.test.ts
 next: >-
-  Depends on earth-engine-env.
+  Regional pack for India (1 km to 150 m) so small wetlands like Doyang show at story zoom.
