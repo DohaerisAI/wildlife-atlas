@@ -1,0 +1,71 @@
+{
+ "version": 1,
+ "built": "2026-09-28T19:04+00:00",
+ "layout": {
+  "cols": 4,
+  "rows": 3,
+  "order": "Jan..Dec row-major",
+  "projection": "equirectangular, north up, 180W at left"
+ },
+ "surface": {
+  "file": "surface.png",
+  "month": [
+   1024,
+   512
+  ],
+  "channels": [
+   {
+    "name": "water",
+    "lo": 0,
+    "hi": 100,
+    "unit": "% of years with water that month",
+    "source": "JRC/GSW1_4/MonthlyRecurrence"
+   },
+   {
+    "name": "snow",
+    "lo": 0,
+    "hi": 100,
+    "unit": "% snow cover",
+    "source": "MODIS/061/MOD10A1 NDSI_Snow_Cover, 2015-2024 mean"
+   },
+   {
+    "name": "ndvi",
+    "lo": -0.2,
+    "hi": 0.9,
+    "unit": "NDVI",
+    "source": "MODIS/061/MOD13A2 NDVI, 2015-2024 mean"
+   }
+  ]
+ },
+ "climate": {
+  "file": "climate.png",
+  "month": [
+   360,
+   180
+  ],
+  "channels": [
+   {
+    "name": "wind_u",
+    "lo": -15,
+    "hi": 15,
+    "unit": "m/s (towards east)",
+    "source": "ECMWF/ERA5/MONTHLY u_component_of_wind_10m, 1991-2020 mean"
+   },
+   {
+    "name": "wind_v",
+    "lo": -15,
+    "hi": 15,
+    "unit": "m/s (towards north)",
+    "source": "ECMWF/ERA5/MONTHLY v_component_of_wind_10m, 1991-2020 mean"
+   },
+   {
+    "name": "temp",
+    "lo": -40,
+    "hi": 45,
+    "unit": "\u00b0C at 2 m",
+    "source": "ECMWF/ERA5/MONTHLY mean_2m_air_temperature, 1991-2020 mean"
+   }
+  ]
+ },
+ "attribution": "EC JRC/Google (Global Surface Water); NASA LP DAAC / NSIDC (MODIS); Copernicus Climate Change Service (ERA5)."
+}

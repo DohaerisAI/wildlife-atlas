@@ -9,4 +9,4 @@ paths:
   - .github/workflows/ee-probe.yml
 checks: []
 next: >-
-  Access proven from CI (project atlas-earth-engine-510018, noncommercial until Mar 2028). Next: monthly globe-pack exports for water, snow, NDVI, wind and temperature.
+  Access proven from CI (project atlas-earth-engine-510018, noncommercial until Mar 2028). Globe pack v1 built (4 MB, web/public/content/living-earth/v1). Next: water, snow and wind materials on the globe.

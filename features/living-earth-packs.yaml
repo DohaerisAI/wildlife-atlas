@@ -1,7 +1,7 @@
 id: living-earth-packs
 title: Living Earth globe and regional packs
 layer: L2
-status: idea
+status: building
 summary: >-
   ~25 MB global pack plus regional PMTiles on R2, each with a manifest.
 paths: []
