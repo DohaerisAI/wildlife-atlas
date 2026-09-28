@@ -25,7 +25,32 @@ def main() -> int:
             "affineTransform": {"scaleX": 1, "shearX": 0, "translateX": -180, "shearY": 0, "scaleY": -1, "translateY": 90}}
     arr = ee.data.computePixels({"expression": gsw.select("occurrence").unmask(0), "fileFormat": "NUMPY_NDARRAY", "grid": grid})
     print("global 1° pull:", arr.shape, arr.dtype, "| cells with any water:", int((arr["occurrence"] > 0).sum()))
+    water_share_check()
     return 0
+
+
+def water_share_check(month: int = 10, width: int = 1024, height: int = 512) -> None:
+    """Coarse water must be a share of the cell, not the mean over water pixels only. Compare against 30 m truth."""
+    rec = ee.ImageCollection("JRC/GSW1_4/MonthlyRecurrence").filter(ee.Filter.eq("month", month)).first().select("monthly_recurrence")
+    candidates = {
+        "old (unmask)": rec.unmask(0),
+        "mask share": rec.mask().unmask(0).multiply(100),
+        "rec x mask": rec.multiply(rec.mask()).unmask(0),
+    }
+    dx, dy = 360 / width, 180 / height
+    places = {"Doyang": (94.2, 26.2), "Nagaland hills": (94.6, 25.6), "Lake Victoria": (33.0, -1.0),
+              "Vembanad": (76.35, 9.6), "Rann of Kutch": (70.0, 23.9), "Thar": (71.0, 27.0)}
+    for name, (lng, lat) in places.items():
+        ix, iy = int((lng + 180) / dx), int((90 - lat) / dy)
+        x0, y0 = -180 + ix * dx, 90 - iy * dy
+        cell = ee.Geometry.Rectangle([x0, y0 - dy, x0 + dx, y0], "EPSG:4326", False)
+        truth = rec.unmask(0).reduceRegion(ee.Reducer.mean(), cell, 30, maxPixels=1e9).get("monthly_recurrence").getInfo()
+        wet = rec.unmask(0).gte(50).reduceRegion(ee.Reducer.mean(), cell, 30, maxPixels=1e9).get("monthly_recurrence").getInfo()
+        grid = {"dimensions": {"width": 1, "height": 1}, "crsCode": "EPSG:4326",
+                "affineTransform": {"scaleX": dx, "shearX": 0, "translateX": x0, "shearY": 0, "scaleY": -dy, "translateY": y0}}
+        got = {k: float(ee.data.computePixels({"expression": img.rename("v").toFloat(), "fileFormat": "NUMPY_NDARRAY", "grid": grid})["v"][0, 0])
+               for k, img in candidates.items()}
+        print(f"water share {name}: truth mean rec {truth:.2f} | area >=50% {100 * wet:.2f}% | " + " | ".join(f"{k} {v:.2f}" for k, v in got.items()))
 
 
 if __name__ == "__main__":
