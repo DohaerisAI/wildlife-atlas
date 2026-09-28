@@ -1,6 +1,7 @@
 import './style.css';
 import './scene.css';
 import { loadCells, loadMeta, loadSpeciesIndex } from './data';
+import { loadMask } from './engine/globe/mask';
 import type { ViewKind } from './scene/view';
 
 function root(id: string): HTMLElement {
@@ -25,11 +26,8 @@ async function boot() {
       const { createRealView } = await import('./views/real/real-view');
       startShell(createRealView(stage), { meta, cells, species }, stage, root('hud'), root('view-switch'), { kind, particles: 2500, storyPitch: -50 });
     } else {
-      const [{ createHoloView }, outlines] = await Promise.all([
-        import('./views/holo/holo-view'),
-        fetch(`${import.meta.env.BASE_URL}geo/outlines.json`).then((r) => { if (!r.ok) throw new Error(`outlines HTTP ${r.status}`); return r.json(); }),
-      ]);
-      startShell(createHoloView(stage, outlines), { meta, cells, species }, stage, root('hud'), root('view-switch'), { kind, particles: 3500, storyPitch: -90 });
+      const [{ createGlobeView }, mask] = await Promise.all([import('./views/globe/globe-view'), loadMask(`${import.meta.env.BASE_URL}geo/land-mask.png`)]);
+      startShell(createGlobeView({ stage, env: root('env-note') }, mask), { meta, cells, species }, stage, root('hud'), root('view-switch'), { kind, particles: 3500, storyPitch: -90 });
     }
   } catch (err) {
     console.error('Wildlife Atlas scene failed to start', err);

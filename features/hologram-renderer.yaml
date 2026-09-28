@@ -3,11 +3,14 @@ title: Hologram globe
 layer: L3
 status: building
 summary: >-
-  three.js globe with fresnel rim, outlines, pillars, particles and bloom.
+  Atlas hologram on the shared engine (stage, dot-land globe, flow layer) with the Living Earth
+  materials, same look as the story. The older standalone hologram (outlines, pillars) is removed.
 paths:
-  - web/src/views/holo/
+  - web/src/views/globe/
+  - web/src/main-scene.ts
+  - web/atlas.html
 checks:
   - suite: vitest
     file: src/engine/globe/geo.test.ts
 next: >-
-  Fibonacci dot land and the Living Earth material system.
+  Tap-to-read environment values; move the Realistic view onto the same materials or retire it.
