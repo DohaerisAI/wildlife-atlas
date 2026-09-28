@@ -1,0 +1,17 @@
+# Diagnostic: can our GBIF account run SQL downloads (server-side aggregation)? Safe to run anytime.
+name: GBIF SQL probe
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.2.0 # no moving major tag upstream
+      - name: Probe SQL downloads
+        working-directory: pipeline
+        env:
+          GBIF_USER: ${{ secrets.GBIF_USER }}
+          GBIF_PASSWORD: ${{ secrets.GBIF_PASSWORD }}
+          GBIF_EMAIL: ${{ secrets.GBIF_EMAIL }}
+        run: uv sync --quiet && uv run python scripts/gbif_sql_probe.py
