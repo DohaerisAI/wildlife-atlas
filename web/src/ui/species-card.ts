@@ -16,12 +16,21 @@ export function speciesCard(p: SpeciesProfile): HTMLElement {
 
   if (p.images.length) {
     const fig = el('figure', 'sc-photo');
+    // Never crop an animal: the photo is shown whole (contain) over a blurred copy of itself.
+    const frame = el('div', 'sc-frame');
+    const bg = el('img', 'sc-bg');
+    bg.alt = ''; bg.setAttribute('aria-hidden', 'true');
     const img = el('img', 'sc-img');
-    img.loading = 'lazy'; img.decoding = 'async';
+    img.decoding = 'async';
+    img.addEventListener('load', () => {
+      const ratio = img.naturalWidth / Math.max(1, img.naturalHeight);
+      frame.style.aspectRatio = String(Math.min(16 / 10, Math.max(4 / 5, ratio)));
+    });
+    frame.append(bg, img);
     const credit = el('figcaption', 'sc-credit');
     const show = (i: number) => {
       const im = p.images[i]!;
-      img.src = im.url;
+      img.src = im.url; bg.src = im.url;
       img.alt = `${p.name}${im.caption ? `, ${im.caption.toLowerCase()}` : ''}`;
       credit.replaceChildren(`${im.caption ? `${im.caption} · ` : ''}Photo: ${im.artist} · `, Object.assign(el('a', '', im.license), { href: im.page, target: '_blank', rel: 'noopener' }));
       tabs.querySelectorAll('button').forEach((b, j) => b.setAttribute('aria-pressed', String(j === i)));
@@ -35,7 +44,7 @@ export function speciesCard(p: SpeciesProfile): HTMLElement {
         tabs.append(b);
       });
     }
-    fig.append(img, tabs, credit);
+    fig.append(frame, tabs, credit);
     card.append(fig);
     show(0);
   }
