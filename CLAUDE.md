@@ -35,6 +35,7 @@ Audiences: enthusiasts, students, researchers. What the product is lives in `WIL
 - The flow engine anchors monthly data at mid-month (`t = month + 0.5`).
 - Stories are data (`web/src/story/schema.ts`): every chapter must set the same channels; `validateStory` enforces it. New stories need no engine code.
 - Facts in stories need a source; tests assert it. Illustrative routes must say so in the chapter note.
+- Earth Engine: coarse pyramid levels of masked data (JRC water) average only unmasked pixels. Weight by the fractional `mask()` to get a cell-wide share (`living_earth.water_share`).
 - `write_bundle` rewrites files in place so a running dev server keeps serving them.
 
 ## Commands
