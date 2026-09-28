@@ -1,5 +1,5 @@
-import './style.css';
-import './scene.css';
+import './design/tokens.css';
+import './experiences/atlas/atlas.css';
 import { loadCells, loadMeta, loadSpeciesIndex } from './data';
 import { loadMask } from './engine/globe/mask';
 import type { ViewKind } from './scene/view';
@@ -24,10 +24,10 @@ async function boot() {
     if (kind === 'real') {
       (window as unknown as { CESIUM_BASE_URL: string }).CESIUM_BASE_URL = `${import.meta.env.BASE_URL}cesium/`;
       const { createRealView } = await import('./views/real/real-view');
-      startShell(createRealView(stage), { meta, cells, species }, stage, root('hud'), root('view-switch'), { kind, particles: 2500, storyPitch: -50 });
+      startShell(createRealView(stage), { meta, cells, species }, stage, root('hud'), root('view-switch'), { kind, particles: 2500 });
     } else {
       const [{ createGlobeView }, mask] = await Promise.all([import('./views/globe/globe-view'), loadMask(`${import.meta.env.BASE_URL}geo/land-mask.png`)]);
-      startShell(createGlobeView({ stage, env: root('env-note') }, mask), { meta, cells, species }, stage, root('hud'), root('view-switch'), { kind, particles: 3500, storyPitch: -90 });
+      startShell(createGlobeView({ stage, env: root('env-note') }, mask), { meta, cells, species }, stage, root('hud'), root('view-switch'), { kind, particles: 3500 });
     }
   } catch (err) {
     console.error('Wildlife Atlas scene failed to start', err);

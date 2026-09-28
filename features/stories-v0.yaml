@@ -6,7 +6,6 @@ summary: >-
   Amur Falcon, Bar-headed Goose, Pied Cuckoo and Golden Oriole click-through stories.
 paths:
   - web/src/stories.ts
-  - web/src/ui/scene-hud.ts
 checks: []
 next: >-
-  Superseded by story-chiulon for the front door; v0 remains on atlas.html.
+  Superseded by story-chiulon. Removed from atlas.html; the step data in stories.ts still feeds the map page, and becomes scroll stories next.

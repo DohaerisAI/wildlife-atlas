@@ -1,10 +1,20 @@
 id: atlas-ring
 title: Atlas with year ring
 layer: L4
-status: planned
+status: building
 summary: >-
-  Year ring around the globe, semantic zoom and field-journal cards.
-paths: []
-checks: []
+  Atlas rebuilt to the design direction: a draggable year ring around the globe (keyboard too), field
+  notes for a tapped place with who is arriving, passing, leaving or resident, the followed species set in
+  serif, and controls that fade while the visitor watches. Story tokens throughout.
+paths:
+  - web/src/experiences/atlas/
+  - web/src/scene/shell.ts
+  - web/atlas.html
+checks:
+  - suite: vitest
+    file: src/experiences/atlas/ring-math.test.ts
+  - suite: vitest
+    file: src/experiences/atlas/field-notes.test.ts
 next: >-
-  Slice 3.
+  Semantic zoom (labels closer in), place names for field notes instead of grid coordinates, physical
+  feedback (selecting a species makes its flow surge).

@@ -10,7 +10,7 @@ import { easeInOut } from '../../scene/flow';
 import type { CameraTarget, SceneView, SpeciesLayer } from '../../scene/view';
 
 const MIN_DIST = 1.08;
-const MAX_DIST = 7;
+const MAX_DIST = 8;
 const PICK_SLOP_PX = 5;
 const FLOW_COLOR = '#ffb26b';
 /** The atlas has no story to set channels, so the environment sits at one calm level. */
