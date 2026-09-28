@@ -11,11 +11,12 @@ from atlas_pipeline.gbif_global import (
     resolve_taxon,
     sub_boxes,
     world_boxes,
+    worth_exploring,
 )
 from atlas_pipeline.global_ranges import fetch_global, load_global_ranges
 
 SETTINGS = FetchSettings()
-SEARCH = GlobalSearch(levels=(20, 5, 1))
+SEARCH = GlobalSearch(levels=(20, 5, 1), min_box_records=1, min_box_share=0.0)
 
 
 class FakeGbif:
@@ -113,3 +114,15 @@ def test_fetch_global_roundtrip(tmp_path):
     assert gr.name["common"] == "Amur Falcon"
     counts, totals = gr.cells["-20_30"]
     assert counts[11] == 30 and totals[11] == 100
+
+
+def test_worth_exploring_drops_vagrant_boxes():
+    search = GlobalSearch(min_box_records=10, min_box_share=0.01)
+    counts = {(0, 0): 5000, (20, 20): 3, (40, 40): 40, (60, 60): 0}
+    # floor = max(10, 1% of 5043) = 50.43: the 40-record box is also too thin to explore
+    assert worth_exploring(counts, search) == [(0, 0)]
+
+
+def test_worth_exploring_absolute_floor_for_rare_species():
+    search = GlobalSearch(min_box_records=10, min_box_share=0.0005)
+    assert worth_exploring({(0, 0): 12, (20, 20): 9}, search) == [(0, 0)]

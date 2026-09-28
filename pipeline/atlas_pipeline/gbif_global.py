@@ -70,6 +70,13 @@ def sub_boxes(lat0: int, lng0: int, size: int, child: int) -> Iterator[tuple[int
             yield lat, lng
 
 
+def worth_exploring(counts: dict[tuple[int, int], int], search: GlobalSearch) -> list[tuple[int, int]]:
+    """Boxes to subdivide: enough records in absolute terms and as a share of this level's total."""
+    total = sum(counts.values())
+    floor = max(search.min_box_records, search.min_box_share * total)
+    return [box for box, n in counts.items() if n > 0 and n >= floor]
+
+
 def parse_month_facet(body: dict[str, Any]) -> list[int]:
     if "count" not in body:
         raise FetchError(f"Unexpected GBIF response, no 'count': {str(body)[:200]}")
@@ -92,14 +99,15 @@ def fetch_species_cells(taxon: Taxon, raw_dir: Path, http_get: HttpGet, settings
     base = raw_dir / "species" / taxon.key
     frontier = list(world_boxes(search.levels[0]))
     for size, child in zip(search.levels, search.levels[1:]):
-        keep = []
+        counts = {}
         for lat, lng in frontier:
             body = _cached(base / f"L{size}" / f"{lat}_{lng}.json",
                            lambda la=lat, ln=lng, s=size: {"count": http_get(f"{API}/occurrence/search", box_params(la, ln, s, settings) | {"taxonKey": taxon.key})["count"]})
-            if body["count"] > 0:
-                keep.extend(sub_boxes(lat, lng, size, child))
-        log.info("%s: %d boxes at %d° have records", taxon.scientific, len(keep) // max(1, (size // child) ** 2), size)
-        frontier = keep
+            counts[(lat, lng)] = body["count"]
+        kept = worth_exploring(counts, search)
+        log.info("%s: %d of %d boxes at %d° kept (%d with records)", taxon.scientific, len(kept),
+                 len(counts), size, sum(1 for v in counts.values() if v > 0))
+        frontier = [sub for lat, lng in kept for sub in sub_boxes(lat, lng, size, child)]
 
     cells: dict[str, list[int]] = {}
     for lat, lng in frontier:

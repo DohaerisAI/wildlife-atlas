@@ -49,6 +49,18 @@ jobs:
       - uses: astral-sh/setup-uv@v10.2.0 # no moving major tag upstream
       - name: Restore earlier progress from the data branch
         run: scripts/restore-raw.sh
+      - name: Name this part
+        id: slug
+        env:
+          PART: ${{ matrix.part }}
+        run: echo "slug=$(echo "$PART" | tr ' A-Z' '-a-z')" >> "$GITHUB_OUTPUT"
+      # Jobs run one at a time; each picks up what earlier jobs in this run fetched (shared bird baselines).
+      - name: Restore progress from earlier jobs in this run
+        uses: actions/cache/restore@v6
+        with:
+          path: data/raw
+          key: raw-${{ github.run_id }}-${{ steps.slug.outputs.slug }}
+          restore-keys: raw-${{ github.run_id }}-
       - name: Fetch
         id: fetch
         working-directory: pipeline
@@ -68,16 +80,16 @@ jobs:
           echo "code=$code" >> "$GITHUB_OUTPUT"
           [ "$code" = 124 ] && echo "::warning::$PART hit the time limit; re-run the workflow to resume"
           exit 0
+      - name: Share progress with later jobs in this run
+        uses: actions/cache/save@v6
+        with:
+          path: data/raw
+          key: raw-${{ github.run_id }}-${{ steps.slug.outputs.slug }}
       - name: Pack results
-        id: pack
-        env:
-          PART: ${{ matrix.part }}
-        run: |
-          echo "slug=$(echo "$PART" | tr ' A-Z' '-a-z')" >> "$GITHUB_OUTPUT"
-          tar czf raw-part.tar.gz data/raw
+        run: tar czf raw-part.tar.gz data/raw
       - uses: actions/upload-artifact@v7
         with:
-          name: raw-${{ steps.pack.outputs.slug }}
+          name: raw-${{ steps.slug.outputs.slug }}
           path: raw-part.tar.gz
           retention-days: 3
       - name: Fail if the fetch hit a real error

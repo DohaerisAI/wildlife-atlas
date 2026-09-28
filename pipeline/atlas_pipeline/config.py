@@ -75,5 +75,12 @@ SENSITIVE_SPECIES = frozenset({
 
 @dataclass(frozen=True)
 class GlobalSearch:
-    """Adaptive box search: count records in coarse boxes and only subdivide boxes that have any."""
+    """Adaptive box search: count records in coarse boxes and only subdivide boxes that matter.
+
+    A box is explored further only if it holds at least `min_box_records` records and at least
+    `min_box_share` of the species' records at that level; this drops vagrant-only areas
+    (a lost falcon in Europe) that cost thousands of calls and never change the migration picture.
+    """
     levels: tuple[int, ...] = (20, 5, 1)
+    min_box_records: int = 10
+    min_box_share: float = 0.0005
