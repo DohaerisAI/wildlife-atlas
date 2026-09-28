@@ -3,7 +3,12 @@ name = "atlas-pipeline"
 version = "0.1.0"
 description = "Wildlife Atlas data pipeline: GBIF records -> seasonal grid summaries"
 requires-python = ">=3.11"
-dependencies = ["requests>=2.32", "shapely>=2.0"]
+dependencies = [
+    "numpy>=2.4.6",
+    "pillow>=12.3.0",
+    "requests>=2.32",
+    "shapely>=2.0",
+]
 
 [dependency-groups]
 dev = ["pytest>=8", "pytest-cov>=5"]

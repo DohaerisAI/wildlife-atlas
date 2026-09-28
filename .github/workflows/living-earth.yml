@@ -1,0 +1,21 @@
+# Builds the Living Earth globe pack (monthly water, snow, greenness, wind, temperature) in Earth Engine.
+name: Build Living Earth pack
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.2.0 # no moving major tag upstream
+      - name: Compute and pack
+        working-directory: pipeline
+        env:
+          EE_PROJECT: ${{ secrets.EE_PROJECT }}
+          EE_SERVICE_ACCOUNT_KEY: ${{ secrets.EE_SERVICE_ACCOUNT_KEY }}
+        run: uv sync --quiet && uv run --with earthengine-api python scripts/build_living_earth.py ../living-earth
+      - uses: actions/upload-artifact@v7
+        with:
+          name: living-earth-v1
+          path: living-earth/
+          retention-days: 14
