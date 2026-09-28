@@ -28,6 +28,9 @@ def main() -> int:
     if "v2" in sys.argv[1:]:
         from ee_probe_v2 import probe_v2
         probe_v2()
+    elif "v2b" in sys.argv[1:]:
+        from ee_probe_v2 import probe_v2_round2
+        probe_v2_round2()
     else:
         water_share_check()
     return 0

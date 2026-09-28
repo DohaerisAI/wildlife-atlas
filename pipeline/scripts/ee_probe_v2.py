@@ -136,3 +136,85 @@ def probe_v2():
     for title, fn in (("WorldCover", worldcover), ("Tree cover", tree_cover), ("ETOPO1", etopo), ("VIIRS", viirs),
                       ("HYCOM", hycom), ("Chlorophyll", chlorophyll)):
         section(title, fn)
+
+
+LAKES = {"Superior": (-87.5, 47.7), "Caspian": (51.0, 42.0), "Baikal": (108.0, 53.5), "Black Sea": (34.0, 43.0),
+         "Mumbai coast sea": (72.6, 18.9), "Victoria": (33.0, -1.0), "Hudson Bay": (-85.0, 60.0)}
+
+
+def _class_methods():
+    wc = ee.ImageCollection("ESA/WorldCover/v200").first().select("Map")
+    proj = ee.Projection("EPSG:4326")
+
+    def from_level(deg):  # majority of a pyramid level `deg` wide, reduced to the output grid
+        return wc.reproject(proj.scale(deg, deg)).reduceResolution(ee.Reducer.mode(), False, 65535)
+    return wc, {"pyramid": wc, "rr 1km": from_level(1 / 112), "rr 300m": from_level(1 / 360)}
+
+
+def class_agreement(region=(68, 8, 90, 32), n=120, width=4096, height=2048):
+    """Share of cells where each method's class equals the 100 m majority (the reference)."""
+    import numpy as np
+    wc, methods = _class_methods()
+    dx, dy = 360 / width, 180 / height
+    rng = np.random.default_rng(7)
+    ix = rng.integers(int((region[0] + 180) / dx), int((region[2] + 180) / dx), n)
+    iy = rng.integers(int((90 - region[3]) / dy), int((90 - region[1]) / dy), n)
+    feats = [ee.Feature(ee.Geometry.Rectangle([-180 + i * dx, 90 - (j + 1) * dy, -180 + (i + 1) * dx, 90 - j * dy], "EPSG:4326", False), {"k": k})
+             for k, (i, j) in enumerate(zip(ix, iy))]
+    ref = ee.FeatureCollection(feats).map(lambda f: f.set("h", wc.reduceRegion(ee.Reducer.frequencyHistogram(), f.geometry(), 100, maxPixels=1e8).get("Map")))
+    hist = ref.aggregate_array("h").getInfo()
+    truth = [max(h.items(), key=lambda kv: kv[1])[0] if h else "0" for h in hist]
+    for name, img in methods.items():
+        t = time.time()
+        pts = ee.FeatureCollection([ee.Feature(ee.Geometry.Point([-180 + (i + 0.5) * dx, 90 - (j + 0.5) * dy])) for i, j in zip(ix, iy)])
+        got = img.unmask(0).rename("c").reduceRegions(pts, ee.Reducer.first(), crs="EPSG:4326", crsTransform=[dx, 0, -180, 0, -dy, 90]).aggregate_array("first").getInfo()
+        ok = sum(str(int(g)) == t_ for g, t_ in zip(got, truth) if t_ != "0")
+        land = sum(1 for t_ in truth if t_ != "0")
+        print(f"  {name}: {ok}/{land} land cells match the 100 m majority ({time.time() - t:.1f}s); first 12 got {[int(g) for g in got[:12]]} truth {truth[:12]}")
+
+
+def class_cost():
+    import numpy as np
+    _, methods = _class_methods()
+    for name, img in methods.items():
+        t = time.time()
+        try:
+            arr = ee.data.computePixels({"expression": img.unmask(0).rename("c").toFloat(), "fileFormat": "NUMPY_NDARRAY",
+                                         "grid": grid(4096, 128, -180, 40, 360 / 4096, 180 / 2048)})
+            print(f"  {name}: 4096x128 strip at 40N {time.time() - t:.1f}s, classes {np.unique(arr['c']).tolist()}")
+        except Exception as e:
+            print(f"  {name}: ERROR {repr(e)[:300]} ({time.time() - t:.1f}s)")
+
+
+def hycom_budget():
+    import numpy as np
+    col = ee.ImageCollection("HYCOM/sea_water_velocity").select(["velocity_u_0", "velocity_v_0"])
+    july = col.filter(ee.Filter.calendarRange(7, 7, "month")).filter(ee.Filter.calendarRange(0, 0, "hour"))
+    tries = {"July 2020 daily": july.filterDate("2020-01-01", "2021-01-01"),
+             "July 2015-2024 every 3rd day": july.filterDate("2015-01-01", "2025-01-01").filter(ee.Filter.inList("day_of_month", [1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31])),
+             "July 2015-2024 daily": july.filterDate("2015-01-01", "2025-01-01")}
+    for name, c in tries.items():
+        c = c.map(lambda im: im.set("day_of_month", ee.Date(im.get("system:time_start")).get("day"))) if "3rd" not in name else c
+        for rows in (180, 45):
+            t = time.time()
+            try:
+                mean = c.mean().multiply(0.001).unmask(-99).toFloat()
+                arr = ee.data.computePixels({"expression": mean, "fileFormat": "NUMPY_NDARRAY", "grid": grid(720, rows, -180, 30, 0.5, 0.5)})
+                u = arr["velocity_u_0"]
+                print(f"  {name} 720x{rows}: {time.time() - t:.1f}s ocean {(u > -90).sum()} |u| p99 {np.percentile(np.abs(u[u > -90]), 99):.2f}")
+            except Exception as e:
+                print(f"  {name} 720x{rows}: ERROR {repr(e)[:200]} ({time.time() - t:.1f}s)")
+    one = july.filterDate("2020-01-01", "2021-01-01").mean().multiply(0.001)
+    for name in ("Somali current", "Gulf Stream", "Arabian Sea"):
+        print(" ", name, "July 2020", cell_value(one.unmask(-99), *PLACES[name], 720, 360)[0])
+    mask = col.filterDate("2020-07-01", "2020-07-02").first().select("velocity_u_0").mask().rename("m")
+    for name, (lng, lat) in LAKES.items():
+        print(f"  HYCOM ocean share {name}: {cell_value(mask.unmask(0), lng, lat, 4096, 2048)[0]}")
+
+
+def probe_v2_round2():
+    for title, fn in (("Class agreement India", class_agreement),
+                      ("Class agreement Amazon", lambda: class_agreement((-75, -15, -45, 5))),
+                      ("Class agreement Europe", lambda: class_agreement((-5, 40, 30, 60))),
+                      ("Class pull cost", class_cost), ("HYCOM budget", hycom_budget)):
+        section(title, fn)

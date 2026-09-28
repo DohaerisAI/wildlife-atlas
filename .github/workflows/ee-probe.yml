@@ -5,10 +5,10 @@ on:
   workflow_dispatch:
     inputs:
       target:
-        description: "basic or v2"
+        description: "basic, v2 (datasets) or v2b (class method, HYCOM budget)"
         default: basic
         type: choice
-        options: [basic, v2]
+        options: [basic, v2, v2b]
 jobs:
   probe:
     runs-on: ubuntu-latest
