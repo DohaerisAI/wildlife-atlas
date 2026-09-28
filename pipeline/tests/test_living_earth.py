@@ -37,3 +37,22 @@ def test_write_pack_manifest(tmp_path):
     assert saved["surface"]["month"] == [8, 4] and saved["climate"]["month"] == [4, 2]
     assert [c["name"] for c in saved["climate"]["channels"]] == [c.name for c in CLIMATE]
     assert m["version"] == 1
+
+
+class _FakeImage:
+    """Records the Earth Engine calls made on it."""
+
+    def __init__(self, ops=()):
+        self.ops = tuple(ops)
+
+    def __getattr__(self, name):
+        return lambda *args: _FakeImage(self.ops + ((name, args),))
+
+
+def test_water_share_weights_recurrence_by_the_cells_water_mask():
+    from atlas_pipeline.living_earth import water_share
+
+    ops = water_share(_FakeImage()).ops
+    assert [o[0] for o in ops] == ["multiply", "unmask"]
+    assert ops[0][1][0].ops == (("mask", ()),)  # recurrence x its own (fractional) mask
+    assert ops[1][1] == (0,)  # cells that never held water are 0, not no-data

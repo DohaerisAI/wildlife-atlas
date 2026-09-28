@@ -29,7 +29,7 @@ class Channel:
 
 
 SURFACE = (
-    Channel("water", 0, 100, "% of years with water that month", "JRC/GSW1_4/MonthlyRecurrence"),
+    Channel("water", 0, 100, "expected % of the cell under water that month", "JRC/GSW1_4/MonthlyRecurrence x water share of the cell"),
     Channel("snow", 0, 100, "% snow cover", "MODIS/061/MOD10A1 NDSI_Snow_Cover, 2015-2024 mean"),
     Channel("ndvi", -0.2, 0.9, "NDVI", "MODIS/061/MOD13A2 NDVI, 2015-2024 mean"),
 )
@@ -80,6 +80,16 @@ def write_pack(out_dir: Path, surface: list[np.ndarray], climate: list[np.ndarra
     return manifest
 
 
+def water_share(rec):
+    """Expected % of each output cell under water in the month.
+
+    Coarse pyramid levels of JRC recurrence average only the pixels that ever held water, so a cell with
+    one pond reads ~80 %. Its mask, though, is pyramided as the share of such pixels. Recurrence x mask
+    is the cell-wide mean; ee_probe.py checks it against a 30 m reduction (Doyang 1.3 vs 0.56 true, old 81).
+    """
+    return rec.multiply(rec.mask()).unmask(0)
+
+
 def _grid(width: int, height: int) -> dict:
     return {"dimensions": {"width": width, "height": height}, "crsCode": "EPSG:4326",
             "affineTransform": {"scaleX": 360 / width, "shearX": 0, "translateX": -180, "shearY": 0, "scaleY": -180 / height, "translateY": 90}}
@@ -100,7 +110,7 @@ def compute_months(ee, width: int = 1024, height: int = 512, climate_size: tuple
     for m in range(1, MONTHS + 1):
         cal = ee.Filter.calendarRange(m, m, "month")
         img = ee.Image.cat(
-            rec.filter(ee.Filter.eq("month", m)).first().select("monthly_recurrence").unmask(0).rename("water"),
+            water_share(rec.filter(ee.Filter.eq("month", m)).first().select("monthly_recurrence")).rename("water"),
             snow.filter(cal).mean().unmask(0).rename("snow"),
             ndvi.filter(cal).mean().multiply(0.0001).unmask(-0.2).rename("ndvi"),
         ).toFloat()
