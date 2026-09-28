@@ -1,0 +1,10 @@
+id: atlas-ring
+title: Atlas with year ring
+layer: L4
+status: planned
+summary: >-
+  Year ring around the globe, semantic zoom and field-journal cards.
+paths: []
+checks: []
+next: >-
+  Slice 3.

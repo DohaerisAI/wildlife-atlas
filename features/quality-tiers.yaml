@@ -1,0 +1,8 @@
+id: quality-tiers
+title: Quality tiers
+layer: L3
+status: idea
+summary: >-
+  Ultra, High and Base chosen from measured frame time.
+paths: []
+checks: []

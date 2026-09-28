@@ -1,0 +1,10 @@
+id: seasonal-model
+title: Seasonal occurrence model
+layer: L1
+status: idea
+summary: >-
+  Effort-corrected, validated monthly presence for all animal groups, with uncertainty. Citable.
+paths: []
+checks: []
+next: >-
+  Design the model and validation with an ecologist.

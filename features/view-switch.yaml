@@ -1,0 +1,11 @@
+id: view-switch
+title: View switching and dive-in
+layer: L4
+status: building
+summary: >-
+  Hologram, Earth and Map views share month, species and camera; click to dive in.
+paths:
+  - web/src/ui/view-switch.ts
+checks:
+  - suite: vitest
+    file: src/ui/view-switch.test.ts

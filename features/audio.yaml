@@ -1,0 +1,8 @@
+id: audio
+title: Sound layer
+layer: L3
+status: idea
+summary: >-
+  Muted-by-default Web Audio ambience and UI sounds from CC0/CC BY clips.
+paths: []
+checks: []

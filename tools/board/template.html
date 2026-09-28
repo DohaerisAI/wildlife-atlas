@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>__TITLE__</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..500;1,9..144,300..400&family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    color-scheme: dark;
+    --void: #04070c; --panel: #0b1520; --panel-2: #0f1b28; --rule: #172231;
+    --ink: #e8edf1; --ink-2: #aab7c3; --muted: #72818f;
+    --working: #5fd39a; --broken: #ff7a90; --unverified: #ffb26b; --building: #62d6f2; --planned: #b7a6ff; --idea: #72818f;
+    --serif: "Fraunces", Georgia, serif; --sans: "Hanken Grotesk", system-ui, sans-serif; --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--void); }
+  body { margin: 0; background: var(--void); color: var(--ink); font: 400 15px/1.55 var(--sans); padding-inline: clamp(16px, 4vw, 40px); padding-block: max(20px, env(safe-area-inset-top)) 64px; -webkit-font-smoothing: antialiased; }
+  a { color: var(--building); text-underline-offset: 3px; }
+  button { font: inherit; color: inherit; }
+  :focus-visible { outline: 2px solid var(--building); outline-offset: 2px; }
+  .wrap { max-width: 1200px; margin-inline: auto; display: flex; flex-direction: column; gap: 40px; }
+  .eyebrow { font: 500 11.5px/1.2 var(--mono); letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+  header { display: flex; flex-direction: column; gap: 14px; padding-top: 12px; }
+  h1 { margin: 0; font: 300 clamp(34px, 5.5vw, 56px)/1.05 var(--serif); letter-spacing: -0.015em; }
+  h1 em { font-style: italic; color: var(--working); }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px 18px; font: 400 12.5px/1.5 var(--mono); color: var(--muted); }
+  .meta a { color: var(--ink-2); }
+
+  .summary { display: flex; flex-direction: column; gap: 14px; }
+  .bar { display: flex; height: 10px; border-radius: 99px; overflow: hidden; gap: 2px; background: var(--rule); }
+  .bar i { display: block; height: 100%; }
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; }
+  .filter { display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--rule); background: var(--panel); border-radius: 99px; padding: 7px 12px; cursor: pointer; font: 500 12.5px/1 var(--mono); letter-spacing: 0.04em; color: var(--ink-2); }
+  .filter[aria-pressed="true"] { border-color: var(--ink-2); color: var(--ink); background: var(--panel-2); }
+  .filter .dot { background: var(--dotc); }
+  .filter b { font-weight: 500; color: var(--ink); font-variant-numeric: tabular-nums; }
+
+  .pill { display: inline-flex; align-items: center; gap: 6px; font: 500 11.5px/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; padding: 5px 8px; border-radius: 99px; border: 1px solid currentColor; white-space: nowrap; }
+  .s-working { color: var(--working); } .s-broken { color: var(--broken); } .s-unverified { color: var(--unverified); }
+  .s-building { color: var(--building); } .s-planned { color: var(--planned); } .s-idea { color: var(--idea); }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: currentColor; display: inline-block; }
+
+  .attention { border: 1px solid rgba(255, 122, 144, 0.35); background: rgba(255, 122, 144, 0.05); border-radius: 8px; padding: 16px 18px; display: flex; flex-direction: column; gap: 10px; }
+  .attention h2 { margin: 0; font: 400 20px/1.2 var(--serif); }
+  .attention ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; }
+  .attention li { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+
+  main.layers { display: flex; flex-direction: column; gap: 36px; width: 100%; }
+  section.layer { display: flex; flex-direction: column; gap: 14px; }
+  .layer-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; border-bottom: 1px solid var(--rule); padding-bottom: 10px; }
+  .layer-head h2 { margin: 0; font: 400 26px/1.1 var(--serif); }
+  .layer-head h2 span { font: 500 12px/1 var(--mono); color: var(--muted); letter-spacing: 0.1em; margin-right: 10px; vertical-align: middle; }
+  .layer-head .tally { font: 400 12.5px/1 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 12px; }
+  .card { background: var(--panel); border: 1px solid var(--rule); border-left: 3px solid var(--c, var(--rule)); border-radius: 6px; padding: 14px 16px; display: flex; flex-direction: column; gap: 9px; min-width: 0; }
+  .card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+  .card h3 { margin: 0; font: 500 16px/1.3 var(--sans); color: var(--ink); }
+  .card p { margin: 0; color: var(--ink-2); font-size: 14px; }
+  .proof { font: 400 12px/1.4 var(--mono); color: var(--muted); }
+  .proof b { color: var(--ink-2); font-weight: 500; }
+  .paths { display: flex; flex-wrap: wrap; gap: 4px 10px; font: 400 11.5px/1.4 var(--mono); color: var(--muted); overflow-wrap: anywhere; }
+  .next { font-size: 13px; color: var(--muted); font-style: italic; }
+  .fails { margin: 0; padding-left: 16px; font: 400 11.5px/1.45 var(--mono); color: var(--broken); overflow-wrap: anywhere; }
+  .empty { color: var(--muted); font-size: 14px; padding: 8px 0; }
+  footer { font: 400 12px/1.6 var(--mono); color: var(--muted); border-top: 1px solid var(--rule); padding-top: 16px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Wildlife Atlas · build board</span>
+    <h1 id="headline">Loading the board</h1>
+    <div class="meta" id="meta"></div>
+  </header>
+  <div class="summary">
+    <div class="bar" id="bar" role="img"></div>
+    <div class="filters" id="filters" role="group" aria-label="Filter by status"></div>
+  </div>
+  <div id="attention"></div>
+  <main id="layers" class="layers"></main>
+  <footer>Status comes from CI: a feature is <b>working</b> only when every test it lists passed on this commit, <b>broken</b> when one failed, and <b>unverified</b> when none of its tests ran. Features without tests show their stage (idea, planned, building). Edit <code>features/&lt;id&gt;.yaml</code> to change what's tracked.</footer>
+</div>
+<script type="application/json" id="board-data">__BOARD_DATA__</script>
+<script>
+(() => {
+  const D = JSON.parse(document.getElementById("board-data").textContent);
+  const LABEL = { working: "Working", broken: "Broken", unverified: "Unverified", building: "Building", planned: "Planned", idea: "Idea" };
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const pill = (s) => `<span class="pill s-${s}"><span class="dot"></span>${LABEL[s]}</span>`;
+  const active = new Set(D.order);
+
+  const working = D.counts.working || 0;
+  document.getElementById("headline").innerHTML = `<em>${working}</em> of ${D.total} features working`;
+  const m = D.meta, bits = [];
+  if (m.commit) bits.push(m.commit_url ? `commit <a href="${esc(m.commit_url)}">${esc(m.commit)}</a>` : `commit ${esc(m.commit)}`);
+  if (m.run_url) bits.push(`<a href="${esc(m.run_url)}">CI run</a>`);
+  if (m.repo_url) bits.push(`<a href="${esc(m.repo_url)}">repository</a>`);
+  if (m.generated) bits.push(`updated ${esc(new Date(m.generated).toLocaleString())}`);
+  document.getElementById("meta").innerHTML = bits.join("<span aria-hidden='true'>·</span>");
+
+  const bar = document.getElementById("bar");
+  bar.setAttribute("aria-label", D.order.filter((s) => D.counts[s]).map((s) => `${D.counts[s]} ${LABEL[s].toLowerCase()}`).join(", "));
+  bar.innerHTML = D.order.filter((s) => D.counts[s]).map((s) => `<i style="flex:${D.counts[s]};background:var(--${s})" title="${LABEL[s]}: ${D.counts[s]}"></i>`).join("");
+
+  const filters = document.getElementById("filters");
+  const renderFilters = () => {
+    filters.innerHTML = D.order.filter((s) => D.counts[s]).map((s) =>
+      `<button class="filter" type="button" data-s="${s}" aria-pressed="${active.has(s)}" style="--dotc:var(--${s})"><span class="dot"></span><span style="color:var(--ink-2)">${LABEL[s]}</span><b>${D.counts[s]}</b></button>`).join("");
+  };
+  filters.addEventListener("click", (e) => {
+    const b = e.target.closest(".filter"); if (!b) return;
+    const s = b.dataset.s;
+    const onlyThis = active.size === 1 && active.has(s);
+    active.clear();
+    (onlyThis ? D.order : [s]).forEach((x) => active.add(x));
+    renderFilters(); renderLayers();
+  });
+
+  const attention = D.features.filter((f) => f.status === "broken" || f.status === "unverified");
+  document.getElementById("attention").innerHTML = attention.length ? `<div class="attention"><h2>Needs attention</h2><ul>${attention.map((f) =>
+    `<li>${pill(f.status)}<a href="#f-${esc(f.id)}">${esc(f.title)}</a><span class="proof">${f.status === "broken" ? `${f.failed} failing test${f.failed === 1 ? "" : "s"}` : "none of its tests ran"}</span></li>`).join("")}</ul></div>` : "";
+
+  const proof = (f) => {
+    if (f.verified === "tests") return f.status === "unverified" ? "Tests listed, none ran" : `<b>${f.passed}/${f.passed + f.failed}</b> tests passing`;
+    if (f.verified === "manual") return "Verified by hand · no automated checks";
+    return f.checks.length ? "" : "No checks yet";
+  };
+  const card = (f) => `<article class="card" id="f-${esc(f.id)}" style="--c:var(--${f.status})">
+      <div class="card-top"><h3>${esc(f.title)}</h3>${pill(f.status)}</div>
+      <p>${esc(f.summary)}</p>
+      <div class="proof">${proof(f)}</div>
+      ${f.failures.length ? `<ul class="fails">${f.failures.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
+      ${f.paths.length ? `<div class="paths">${f.paths.map((p) => `<span>${esc(p)}</span>`).join("")}</div>` : ""}
+      ${f.next ? `<div class="next">Next: ${esc(f.next)}</div>` : ""}
+    </article>`;
+
+  const rank = (s) => D.order.indexOf(s);
+  function renderLayers() {
+    document.getElementById("layers").innerHTML = Object.entries(D.layers).map(([key, name]) => {
+      const all = D.features.filter((f) => f.layer === key);
+      const shown = all.filter((f) => active.has(f.status)).sort((a, b) => rank(a.status) - rank(b.status) || a.title.localeCompare(b.title));
+      const ok = all.filter((f) => f.status === "working").length;
+      return `<section class="layer" aria-labelledby="h-${key}">
+        <div class="layer-head"><h2 id="h-${key}"><span>${key}</span>${name}</h2><span class="tally">${ok}/${all.length} working</span></div>
+        ${shown.length ? `<div class="grid">${shown.map(card).join("")}</div>` : `<div class="empty">Nothing in this layer matches the filter.</div>`}
+      </section>`;
+    }).join("");
+  }
+  renderFilters(); renderLayers();
+})();
+</script>
+</body>
+</html>

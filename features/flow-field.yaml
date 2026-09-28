@@ -1,0 +1,14 @@
+id: flow-field
+title: Particle flow field
+layer: L3
+status: building
+summary: >-
+  Monthly distributions coupled along a Hilbert curve; particles are shares, not animals.
+paths:
+  - web/src/scene/flow.ts
+  - web/src/scene/rng.ts
+checks:
+  - suite: vitest
+    file: src/scene/flow.test.ts
+next: >-
+  Move to GPU compute (65k+ particles).

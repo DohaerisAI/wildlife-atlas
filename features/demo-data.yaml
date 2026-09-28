@@ -1,0 +1,14 @@
+id: demo-data
+title: Synthetic demo data
+layer: L2
+status: building
+summary: >-
+  Invented seasonal patterns for building UI, clearly flagged as demo.
+paths:
+  - pipeline/atlas_pipeline/demo.py
+  - pipeline/atlas_pipeline/demo_world.py
+checks:
+  - suite: pytest
+    file: tests/test_demo.py
+  - suite: pytest
+    file: tests/test_demo_world.py

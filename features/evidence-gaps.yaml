@@ -1,0 +1,10 @@
+id: evidence-gaps
+title: Evidence-gap maps
+layer: L1
+status: idea
+summary: >-
+  Places that should be rich in wildlife but have few records.
+paths: []
+checks: []
+next: >-
+  Cheap once the seasonal model exists.

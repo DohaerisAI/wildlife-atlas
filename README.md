@@ -1,6 +1,10 @@
 # Wildlife Atlas (prototype)
 
-A seasonal globe of Indian birds. See `WILDLIFE_ATLAS_PRODUCT_SPEC.md` for the product spec.
+A story-first globe of where animals are through the year, and why they move. India first, ranges worldwide.
+
+- **What works right now:** the [build board](https://dohaerisai.github.io/wildlife-atlas/board/), rebuilt from test results on every push
+- **How it's built:** [`docs/architecture.md`](docs/architecture.md) and the decision records in [`docs/decisions/`](docs/decisions/)
+- **What it is:** [`WILDLIFE_ATLAS_PRODUCT_SPEC.md`](WILDLIFE_ATLAS_PRODUCT_SPEC.md)
 
 ## Run with demo data
 

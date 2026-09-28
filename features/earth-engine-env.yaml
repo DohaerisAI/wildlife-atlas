@@ -1,0 +1,10 @@
+id: earth-engine-env
+title: Environment data from Earth Engine
+layer: L0
+status: idea
+summary: >-
+  Monthly land cover, surface water, snow, NDVI, wind, currents, chlorophyll, night lights, elevation.
+paths: []
+checks: []
+next: >-
+  Needs a Google account registered for noncommercial Earth Engine use.

@@ -1,0 +1,14 @@
+id: scene-clock
+title: One clock for every view
+layer: L3
+status: building
+summary: >-
+  Continuous year clock with glide, play and pause, shared by all renderers.
+paths:
+  - web/src/scene/clock.ts
+  - web/src/scene/view.ts
+checks:
+  - suite: vitest
+    file: src/scene/view.test.ts
+next: >-
+  Add tests for glide and wrap-around.

@@ -1,0 +1,12 @@
+id: follow-camera
+title: Follow camera
+layer: L3
+status: building
+summary: >-
+  Glides after the alpha-weighted flock centre while the year plays.
+paths:
+  - web/src/scene/follow.ts
+  - web/src/scene/shell.ts
+checks:
+  - suite: vitest
+    file: src/scene/follow.test.ts

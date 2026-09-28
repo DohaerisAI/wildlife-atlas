@@ -1,0 +1,13 @@
+id: gbif-fetch-actions
+title: Fetch on GitHub Actions
+layer: L0
+status: working
+summary: >-
+  Fetch workflow runs off the corporate network, one job at a time, resuming from the data branch.
+paths:
+  - .github/workflows/fetch-data.yml
+  - scripts/restore-raw.sh
+  - scripts/pull-data.sh
+checks: []
+next: >-
+  Verified by hand: runs 36349021516 and 36384923636.

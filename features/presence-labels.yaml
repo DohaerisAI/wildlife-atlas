@@ -1,0 +1,15 @@
+id: presence-labels
+title: Seasonal presence labels
+layer: L1
+status: building
+summary: >-
+  Resident, seasonal, passage or uncertain per cell from effort-normalised monthly rates.
+paths:
+  - pipeline/atlas_pipeline/classify.py
+checks:
+  - suite: pytest
+    file: tests/test_classify.py
+  - suite: pytest
+    file: tests/test_grid.py
+next: >-
+  Add a 'rare' label for stragglers (e.g. Bar-headed Goose in Kerala).

@@ -1,0 +1,10 @@
+id: you-are-here
+title: You are here
+layer: L4
+status: planned
+summary: >-
+  Pick a city; see who passes over you this month and where they came from.
+paths: []
+checks: []
+next: >-
+  Slice 2.

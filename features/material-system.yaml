@@ -1,0 +1,10 @@
+id: material-system
+title: Living Earth materials
+layer: L3
+status: planned
+summary: >-
+  Ten data-driven materials (water, wetland, snow, desert and more) in both looks.
+paths: []
+checks: []
+next: >-
+  Style guide published; implementation follows the globe pack.

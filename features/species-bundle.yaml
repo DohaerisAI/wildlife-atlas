@@ -1,0 +1,16 @@
+id: species-bundle
+title: Static species bundle
+layer: L2
+status: building
+summary: >-
+  meta.json, cells, species index and ranges, merged India detail with worldwide ranges.
+paths:
+  - pipeline/atlas_pipeline/export.py
+  - pipeline/atlas_pipeline/cli.py
+checks:
+  - suite: pytest
+    file: tests/test_export.py
+  - suite: pytest
+    file: tests/test_cli.py
+next: >-
+  Add dataset DOIs to meta.json.

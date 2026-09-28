@@ -1,0 +1,13 @@
+id: gbif-india-grid
+title: GBIF India grid fetch
+layer: L0
+status: building
+summary: >-
+  Monthly bird counts for every 1° cell in India via occurrence facets, cached and resumable.
+paths:
+  - pipeline/atlas_pipeline/gbif_fetch.py
+checks:
+  - suite: pytest
+    file: tests/test_fetch.py
+next: >-
+  Extend beyond birds once the SQL download path lands.

@@ -1,0 +1,13 @@
+id: hologram-renderer
+title: Hologram globe
+layer: L3
+status: building
+summary: >-
+  three.js globe with fresnel rim, outlines, pillars, particles and bloom.
+paths:
+  - web/src/views/holo/
+checks:
+  - suite: vitest
+    file: src/views/holo/geo.test.ts
+next: >-
+  Fibonacci dot land and the Living Earth material system.

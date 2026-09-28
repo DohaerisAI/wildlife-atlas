@@ -1,0 +1,12 @@
+id: gbif-sql-downloads
+title: GBIF SQL downloads (all species, worldwide)
+layer: L0
+status: building
+summary: >-
+  Server-side aggregation by FLOOR(lat), FLOOR(lng), month. Each version gets a DOI.
+paths:
+  - pipeline/scripts/gbif_sql_probe.py
+  - .github/workflows/gbif-sql-probe.yml
+checks: []
+next: >-
+  Probe validated FLOOR grid; end-to-end download in progress.

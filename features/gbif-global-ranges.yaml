@@ -1,0 +1,12 @@
+id: gbif-global-ranges
+title: Featured species worldwide
+layer: L0
+status: building
+summary: >-
+  Adaptive 20°→5°→1° box search per featured species, skipping vagrant-only boxes.
+paths:
+  - pipeline/atlas_pipeline/gbif_global.py
+  - pipeline/atlas_pipeline/global_ranges.py
+checks:
+  - suite: pytest
+    file: tests/test_global.py

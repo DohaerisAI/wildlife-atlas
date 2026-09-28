@@ -1,0 +1,12 @@
+id: stories-v0
+title: Stories v0
+layer: L4
+status: building
+summary: >-
+  Amur Falcon, Bar-headed Goose, Pied Cuckoo and Golden Oriole click-through stories.
+paths:
+  - web/src/stories.ts
+  - web/src/ui/scene-hud.ts
+checks: []
+next: >-
+  Rebuild as Chiulon's crossing on the scroll runtime.

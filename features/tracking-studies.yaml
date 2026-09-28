@@ -1,0 +1,10 @@
+id: tracking-studies
+title: Tagged-animal tracks
+layer: L0
+status: idea
+summary: >-
+  Real satellite tracks (Movebank, WII) for named individuals such as Chiulon.
+paths: []
+checks: []
+next: >-
+  Needs data access from the study owners.

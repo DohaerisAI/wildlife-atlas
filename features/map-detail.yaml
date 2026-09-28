@@ -1,0 +1,18 @@
+id: map-detail
+title: Detail map (MapLibre)
+layer: L3
+status: building
+summary: >-
+  Per-cell species lists, species ranges, year strip and URL state.
+paths:
+  - web/src/app.ts
+  - web/src/layers.ts
+  - web/src/listing.ts
+  - web/src/url-state.ts
+checks:
+  - suite: vitest
+    file: src/listing.test.ts
+  - suite: vitest
+    file: src/layers.test.ts
+  - suite: vitest
+    file: src/url-state.test.ts

@@ -1,0 +1,12 @@
+id: story-runtime
+title: Scroll-driven story runtime
+layer: L3
+status: planned
+summary: >-
+  Stories as data (chapters, camera, captions) scrubbed by one GSAP timeline.
+paths:
+  - web/src/scene/director.ts
+  - web/src/stories.ts
+checks: []
+next: >-
+  Replace the click-through director with scroll chapters.

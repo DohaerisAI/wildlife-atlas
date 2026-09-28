@@ -1,0 +1,11 @@
+id: earth-renderer
+title: Realistic Earth (Cesium)
+layer: L3
+status: building
+summary: >-
+  Satellite imagery, seasonal sun, terrain with the ion token, draped cells and particles.
+paths:
+  - web/src/views/real/
+checks: []
+next: >-
+  No automated checks yet.
