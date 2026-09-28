@@ -9,12 +9,16 @@ export interface TierSettings {
   readonly particles: number;
   readonly landDots: number;
   readonly bloom: boolean;
+  /** Living Earth wind streaks */
+  readonly windStreaks: number;
+  /** material extras: glints, ripples (style guide: off on base) */
+  readonly materialFx: boolean;
 }
 
 export const TIERS: Readonly<Record<Tier, TierSettings>> = {
-  ultra: { pixelRatio: 2, particles: 12000, landDots: 180000, bloom: true },
-  high: { pixelRatio: 1.5, particles: 8000, landDots: 120000, bloom: true },
-  base: { pixelRatio: 1, particles: 3000, landDots: 60000, bloom: false },
+  ultra: { pixelRatio: 2, particles: 12000, landDots: 180000, bloom: true, windStreaks: 5000, materialFx: true },
+  high: { pixelRatio: 1.5, particles: 8000, landDots: 120000, bloom: true, windStreaks: 3000, materialFx: true },
+  base: { pixelRatio: 1, particles: 3000, landDots: 60000, bloom: false, windStreaks: 1200, materialFx: false },
 };
 
 const ORDER: readonly Tier[] = ['base', 'high', 'ultra'];

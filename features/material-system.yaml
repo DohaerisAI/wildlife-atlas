@@ -1,10 +1,21 @@
 id: material-system
 title: Living Earth materials
 layer: L3
-status: planned
+status: building
 summary: >-
-  Ten data-driven materials (water, wetland, snow, desert and more) in both looks.
-paths: []
-checks: []
+  First three of ten data-driven materials on the story globe, hologram look: seasonal surface water
+  (JRC), snow (MODIS) and wind streaks (ERA5), each switched by story channels and captioned with its dataset.
+paths:
+  - web/src/engine/living-earth/
+  - web/src/experiences/story-page.ts
+checks:
+  - suite: vitest
+    file: src/engine/living-earth/pack.test.ts
+  - suite: vitest
+    file: src/engine/living-earth/wind-field.test.ts
+  - suite: vitest
+    file: src/engine/living-earth/materials.test.ts
+  - suite: vitest
+    file: src/stories/chiulon.test.ts
 next: >-
-  Style guide published; implementation follows the globe pack.
+  Earth look for the same three; tap-to-read values ("Wind 7.4 m/s, ERA5, October mean"); then greenness from the NDVI channel.

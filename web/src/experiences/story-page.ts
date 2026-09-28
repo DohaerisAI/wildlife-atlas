@@ -6,6 +6,7 @@ import { createGlobe } from '../engine/globe/globe';
 import { loadMask } from '../engine/globe/mask';
 import { FlowLayer } from '../engine/layers/flow-layer';
 import { LabelLayer } from '../engine/layers/labels';
+import { createLivingEarth, envCaption, type LivingEarth } from '../engine/living-earth/materials';
 import { TrackLayer } from '../engine/layers/track-layer';
 import { buildFlow } from '../scene/flow';
 import { stateAt } from '../story/interpolate';
@@ -23,7 +24,7 @@ const FOCAL_COLOR = '#ffb26b';
 const TRACK_COLOR = '#ffe2c4';
 const mid = (d: Date) => d.getMonth() + (d.getDate() - 0.5) / 31;
 
-export interface StoryPageRoots { stage: HTMLElement; story: HTMLElement; pins: HTMLElement; month: HTMLElement; progress: HTMLElement; banner: HTMLElement; about: HTMLButtonElement }
+export interface StoryPageRoots { stage: HTMLElement; story: HTMLElement; pins: HTMLElement; month: HTMLElement; progress: HTMLElement; banner: HTMLElement; about: HTMLButtonElement; env: HTMLElement }
 
 /** Cold open uses today's date; every other chapter comes from the story data. */
 function withToday(story: Story, today: Date): Story {
@@ -42,6 +43,10 @@ export async function startStoryPage(roots: StoryPageRoots): Promise<void> {
   const dpr = Math.min(window.devicePixelRatio || 1, settings.pixelRatio);
   const globe = createGlobe(mask, settings.landDots, dpr);
   stage.scene.add(globe.group);
+  let earth: LivingEarth | null = null;
+  createLivingEarth(`${import.meta.env.BASE_URL}content/living-earth/v1/`, stage.scene, mask, settings, stage.renderer.capabilities.maxTextureSize, reduced)
+    .then((le) => { le.setTier(stage.settings()); earth = le; roots.env.title = le.manifest.attribution; })
+    .catch((err) => console.warn('Living Earth pack unavailable; the globe shows land only', err));
 
   const bySci = new Map<string, SpeciesIndexEntry>(index.map((s) => [s.sci.toLowerCase(), s]));
   const loadFlow = async (sci: string, color: string, count: number) => {
@@ -80,7 +85,8 @@ export async function startStoryPage(roots: StoryPageRoots): Promise<void> {
   let pose: CameraPose = { ...first.camera };
   let lastMonth = -1;
 
-  stage.onTier((_t, s) => globe.rebuildDots(s.landDots, Math.min(window.devicePixelRatio || 1, s.pixelRatio)));
+  let lastEnv = '';
+  stage.onTier((_t, s) => { globe.rebuildDots(s.landDots, Math.min(window.devicePixelRatio || 1, s.pixelRatio)); earth?.setTier(s); });
   stage.onFrame(({ time, dt }) => {
     const st = stateAt(story, runtime.position());
     const target: CameraPose = { lng: st.lng, lat: st.lat, altKm: st.altKm, frameX: window.innerWidth < 760 ? 0 : st.frameX };
@@ -93,6 +99,12 @@ export async function startStoryPage(roots: StoryPageRoots): Promise<void> {
     focal?.setOpacity(ch.flock ?? 0);
     focal?.update(st.month);
     cast.forEach((l) => { l.setOpacity((ch.others ?? 0) * 0.6); l.update(st.month); });
+    if (earth) {
+      const env = { water: ch.water ?? 0, snow: ch.snow ?? 0, wind: ch.wind ?? 0 };
+      earth.update(st.month, time, dt, env, stage.camera);
+      const caption = envCaption(env);
+      if (caption !== lastEnv) { lastEnv = caption; roots.env.textContent = caption; }
+    }
     const trackOn = Math.min(1, (ch.track ?? 0) * 40);
     track.set(ch.track ?? 0, trackOn);
 

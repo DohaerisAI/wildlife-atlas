@@ -8,7 +8,7 @@ const $ = (id: string) => {
   return el;
 };
 
-startStoryPage({ stage: $('stage'), story: $('story'), pins: $('pins'), month: $('hud-month'), progress: $('progress'), banner: $('demo-banner'), about: $('hud-about') as HTMLButtonElement })
+startStoryPage({ stage: $('stage'), story: $('story'), pins: $('pins'), month: $('hud-month'), progress: $('progress'), banner: $('demo-banner'), about: $('hud-about') as HTMLButtonElement, env: $('env-note') })
   .catch((err) => {
     console.error('Story failed to start', err);
     $('story').innerHTML = '<p class="nojs">The story could not start. It needs WebGL and the atlas data (run <code>atlas demo</code> or <code>atlas build</code>).</p>';
