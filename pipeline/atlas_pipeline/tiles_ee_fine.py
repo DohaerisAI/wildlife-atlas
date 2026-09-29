@@ -21,7 +21,7 @@ RGB_REFLECTANCE_WHITE = 0.3  # surface reflectance that maps to byte 255 (before
 RGB_GAMMA = 1 / 2.2
 SOURCES = {
     "shade": f"COPERNICUS/DEM/GLO30 DEM x {SHADE_EXAGGERATION}, ee.Terrain.hillshade at 30 m (azimuth 315, altitude 45), mean per tile pixel",
-    "ndvi": f"{S2} (B8-B4)/(B8+B4), SCL-masked to clear land and water, median per calendar month 2019-2024",
+    "ndvi": f"{S2} (B8-B4)/(B8+B4), SCL-masked to clear land and water, median per calendar month 2022-2024 (MODIS MOD13A2 where a piece times out)",
     "rgb": f"{S2} B4/B3/B2 median 2022-2024 (scenes under 40% cloud, SCL-masked), byte = 255*(reflectance/{RGB_REFLECTANCE_WHITE})^(1/2.2)",
     "rgb_license": "Contains modified Copernicus Sentinel data 2022-2024 (free, full and open; attribution required)",
 }
@@ -49,7 +49,7 @@ def _clear(im):
 
 def s2_ndvi_image(ee, level: int):
     """12 bands m1..m12 on the NDVI grid (64 px per tile at `level`)."""
-    col = (ee.ImageCollection(S2).filterDate("2019-01-01", "2025-01-01").filter(ee.Filter.lt("CLOUDY_PIXEL_PERCENTAGE", 60))
+    col = (ee.ImageCollection(S2).filterDate("2022-01-01", "2025-01-01").filter(ee.Filter.lt("CLOUDY_PIXEL_PERCENTAGE", 50))
            .map(_clear).map(lambda im: ee.Image(im.normalizedDifference(["B8", "B4"]).rename("ndvi").copyProperties(im, ["system:time_start"]))))
     proj = _proj(ee, level, 64)
     months = [col.filter(ee.Filter.calendarRange(m, m, "month")).median().reproject(proj).rename(f"m{m}") for m in range(1, 13)]

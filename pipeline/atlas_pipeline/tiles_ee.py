@@ -68,12 +68,14 @@ def retryable(message: str) -> bool:
 
 
 def _call(ee, fn, what: str, retries: int = 8):
+    """Run one Earth Engine call, waiting out rate limits, timeouts and dropped connections (OSError covers
+    requests/urllib3 connection errors)."""
     for attempt in range(retries):
         try:
             return fn()
-        except ee.EEException as e:
+        except (ee.EEException, OSError) as e:
             msg = str(e)
-            if attempt == retries - 1 or not retryable(msg):
+            if attempt == retries - 1 or not (isinstance(e, OSError) or retryable(msg)):
                 raise
             wait = min(120, 5 * 2 ** attempt) * (0.75 + 0.5 * random.random())  # jitter so shards don't retry in step
             log.warning("%s: %s; retry in %ds", what, msg[:100], wait)
@@ -154,7 +156,8 @@ def pull_ndvi(ee, shard: tm.Tile, level: int, land: list[tm.Tile], workers: int,
     width, height = 64 * tm.cols(level), 64 * tm.rows(level)
     groups = sorted({tm.ancestor(t, group) for t in land})
     side = 64 * per
-    expr = image if image is not None else ndvi_image(ee)
+    modis = ndvi_image(ee)
+    expr = image if image is not None else modis
     bands = [f"m{i}" for i in range(1, 13)]
     g0 = tm.descendants(shard, group)[0]
 
@@ -162,10 +165,17 @@ def pull_ndvi(ee, shard: tm.Tile, level: int, land: list[tm.Tile], workers: int,
         piece = (g[1] * side, g[2] * side, side, side)
         try:
             return g, _call(ee, lambda: _fetch(ee, expr, width, height, piece, bands), f"ndvi {g}")
-        except ee.EEException as e:
+        except (ee.EEException, OSError) as e:
+            if expr is not modis and _OUTSIDE not in str(e):
+                # Sentinel-2 monthly medians can be too slow for one call: fall back to MODIS for this piece
+                log.warning("ndvi %s: Sentinel-2 failed (%s); using MODIS here", g, str(e)[:80])
+                try:
+                    return g, _call(ee, lambda: _fetch(ee, modis, width, height, piece, bands), f"ndvi modis {g}")
+                except (ee.EEException, OSError) as e2:
+                    e = e2
             if _OUTSIDE not in str(e):
                 raise
-            log.warning("ndvi %s: MODIS can't be projected here; the pack's NDVI is used", g)
+            log.warning("ndvi %s: can't be projected here; the pack's NDVI is used", g)
             return g, None
 
     with ThreadPoolExecutor(max_workers=workers) as pool:
