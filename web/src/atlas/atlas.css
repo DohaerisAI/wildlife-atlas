@@ -263,24 +263,6 @@ body.panel-open .dock { right: 452px; }
 .tl-res { font: 400 10.5px/1 var(--mono); color: var(--muted); border-bottom: 1px dotted var(--muted); cursor: help; }
 .tl-now { position: absolute; top: 0; bottom: 0; width: 0; border-left: 1px dashed rgba(255, 178, 107, 0.7); pointer-events: none; }
 .tl-now::before { content: "now"; position: absolute; top: -2px; left: 4px; font: 500 9px/1 var(--mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--animal-hot); }
-.map-area-label { margin: 0 0 6px 2px; padding: 4px 8px; border-radius: 6px; background: rgba(2, 7, 13, 0.85); border: 1px solid var(--rule); font: 400 11px/1.3 var(--sans); color: var(--ink-2); white-space: nowrap; pointer-events: none; }
-
-/* ---------- street map: the atlas up close ---------- */
-.street-map { position: fixed; inset: 0; z-index: 2; opacity: 0; transition: opacity 0.5s var(--ease-out); background: var(--void); }
-.street-map.is-on { opacity: 1; }
-.street-map-canvas { position: absolute !important; inset: 0; }
-.street-map[hidden] { display: none; }
-body.is-map .pins, body.is-map .env-note, body.is-map .chip.follow, body.is-map .probe { display: none; }
-.map-pin { width: 16px; height: 16px; border-radius: 50%; border: 2px solid var(--ink); background: rgba(98, 214, 242, 0.25); box-shadow: 0 0 0 6px rgba(98, 214, 242, 0.15), 0 0 18px var(--water); }
-.street-map .maplibregl-ctrl-group { background: rgba(4, 9, 16, 0.85); border: 1px solid var(--rule); box-shadow: none; }
-.street-map .maplibregl-ctrl-group button + button { border-top-color: var(--rule); }
-.street-map .maplibregl-ctrl-icon { filter: invert(0.85); }
-.street-map .maplibregl-ctrl-bottom-right { bottom: 120px; right: 8px; }
-body.panel-open .street-map .maplibregl-ctrl-bottom-right { right: 444px; }
-.street-map .maplibregl-ctrl-attrib, .street-map .maplibregl-ctrl-attrib.maplibregl-compact { background: rgba(2, 7, 13, 0.75) !important; color: var(--muted); font: 400 10px/1.4 var(--mono); }
-.street-map .maplibregl-ctrl-attrib-button { filter: invert(0.8); background-color: transparent !important; }
-.street-map .maplibregl-ctrl-bottom-right .maplibregl-ctrl-attrib { margin: 0 0 4px; }
-.street-map .maplibregl-ctrl-attrib a { color: var(--muted); }
 .toast { position: absolute; top: 76px; left: 50%; transform: translateX(-50%); z-index: 9; max-width: min(460px, calc(100% - 32px)); margin: 0; padding: 10px 16px; border-radius: 10px; background: rgba(4, 9, 16, 0.94); border: 1px solid var(--rule); font: 400 13.5px/1.4 var(--sans); color: var(--ink); text-align: center; }
 .toast[hidden] { display: none; }
 .locate::before { content: ""; width: 9px; height: 9px; border-radius: 50%; border: 1.5px solid currentColor; box-shadow: 0 0 0 2px rgba(98, 214, 242, 0.2); }
@@ -325,3 +307,9 @@ body.panel-open .street-map .maplibregl-ctrl-bottom-right { right: 444px; }
   .street-map, .locate.is-busy::before { transition: none; animation: none; }
   .pin, .panel, .chip, .tl-play, .btn-quiet { transition: none; }
 }
+
+/* ---------- place names on the one engine (our GeoNames product) ---------- */
+.place-label { position: absolute; left: 0; top: 0; white-space: nowrap; font: 400 11.5px/1.2 var(--serif); color: var(--ink-2); letter-spacing: 0.01em; text-shadow: 0 0 6px rgba(2, 7, 13, 0.95), 0 1px 12px rgba(2, 7, 13, 0.9); will-change: transform, opacity; pointer-events: none; }
+.place-label.place-m { font-size: 13px; color: var(--ink); }
+.place-label.place-l { font-size: 15px; font-weight: 500; color: var(--ink); }
+.place-label.place-capital::after { content: ""; display: inline-block; width: 4px; height: 4px; margin-left: 5px; vertical-align: middle; border-radius: 50%; background: var(--water); box-shadow: 0 0 8px var(--water); }
