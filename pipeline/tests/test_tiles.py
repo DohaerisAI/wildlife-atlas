@@ -168,3 +168,10 @@ def test_manifest_has_sources_and_index(tmp_path):
     assert manifest("world", (0, 4), {}, ndvi=False)["ndvi"] is None
     path = write_manifest(tmp_path, m)
     assert json.loads(path.read_text())["name"] == "detail"
+
+
+def test_rate_limits_are_retried():
+    from atlas_pipeline.tiles_ee import retryable
+    assert retryable("Too Many Requests: Request was rejected because the concurrency limit was exceeded.")
+    assert retryable("Computation timed out.")
+    assert not retryable("Image.select: Pattern 'foo' did not match any bands.")

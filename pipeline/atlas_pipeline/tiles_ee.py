@@ -6,6 +6,7 @@ against the high-volume endpoint and retry with backoff; everything is pure afte
 """
 
 import logging
+import random
 import time
 from concurrent.futures import ThreadPoolExecutor
 
@@ -19,7 +20,7 @@ from .tile_product import Mosaic
 log = logging.getLogger(__name__)
 BANDS = ["codes", "share", "sea", "tree", "elev", "ice"]
 EXACT_FROM_LEVEL = 7  # at or below ~600 m pixels WorldCover mode is taken from the 10 m pixels; coarser uses its mode pyramid
-_RETRY_ON = ("Too many", "429", "timed out", "deadline", "Internal error", "503", "unavailable", "memory")
+_RETRY_ON = ("too many", "429", "concurrency", "timed out", "deadline", "internal error", "503", "unavailable", "memory")
 
 
 def land_image(ee, level: int, exact: bool):
@@ -45,15 +46,21 @@ def ndvi_image(ee):
     return ee.Image.cat([m.unmask(SENTINEL).toFloat() for m in months])
 
 
-def _call(ee, fn, what: str, retries: int = 6):
+def retryable(message: str) -> bool:
+    """Earth Engine errors worth waiting out: rate and concurrency limits, timeouts, transient server errors."""
+    m = message.lower()
+    return any(s in m for s in _RETRY_ON)
+
+
+def _call(ee, fn, what: str, retries: int = 8):
     for attempt in range(retries):
         try:
             return fn()
         except ee.EEException as e:
             msg = str(e)
-            if attempt == retries - 1 or not any(s in msg for s in _RETRY_ON):
+            if attempt == retries - 1 or not retryable(msg):
                 raise
-            wait = min(120, 5 * 2 ** attempt)
+            wait = min(120, 5 * 2 ** attempt) * (0.75 + 0.5 * random.random())  # jitter so shards don't retry in step
             log.warning("%s: %s; retry in %ds", what, msg[:100], wait)
             time.sleep(wait)
     raise AssertionError("unreachable")

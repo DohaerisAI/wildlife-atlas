@@ -17,8 +17,8 @@ on:
         description: "Region W,S,E,N (default whole world; India = 66,5,99,38)"
         default: "-180,-90,180,90"
       workers:
-        description: "Parallel Earth Engine calls per shard"
-        default: "8"
+        description: "Parallel Earth Engine calls per shard (x 10 shards at once must stay under EE's ~40 concurrent)"
+        default: "4"
 jobs:
   plan:
     runs-on: ubuntu-latest
@@ -38,7 +38,7 @@ jobs:
     timeout-minutes: 350
     strategy:
       fail-fast: false
-      max-parallel: 20
+      max-parallel: 10
       matrix:
         shard: ${{ fromJson(needs.plan.outputs.shards) }}
     steps:
