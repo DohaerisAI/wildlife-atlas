@@ -12,6 +12,7 @@ const TINT_W = 2048;
 const LAYER = { tint: 'atlas-land-tint', rich: 'atlas-rich-wash', range: 'atlas-range-wash', selected: 'atlas-selected' } as const;
 const WATER: readonly [number, number, number] = [98, 214, 242];
 const AMBER: readonly [number, number, number] = [255, 178, 107];
+let rangeRgb: readonly [number, number, number] = AMBER;
 /** peak opacity of each wash; the value itself rides in the image's alpha */
 const OPACITY = { rich: 0.34, range: 0.6 } as const;
 
@@ -22,7 +23,8 @@ export interface AtlasMap {
   setMonth(month: number): void;
   /** paint the Living Earth land look under the streets, for the fractional month t */
   setLandTint(src: LandTintSource | null, t: number): void;
-  setRange(range: SpeciesRange | null): void;
+  /** the panel's species as a wash, in its follow colour (#rrggbb) */
+  setRange(range: SpeciesRange | null, color?: string): void;
   setPlace(place: { lng: number; lat: number; cellId: string | null } | null): void;
   setPadding(right: number, bottom: number): void;
   center(): { lng: number; lat: number; zoom: number };
@@ -75,7 +77,7 @@ export async function createAtlasMap(container: HTMLElement, cells: CellsIndex):
     const peak = range ? peakRate(range.cells) || 1 : 1;
     const rc = range?.cells;
     // a small floor so a single record still shows as a faint glow, as the old fill did
-    draw(SRC.range, (id) => { const r = rc?.[id]?.r[i] ?? 0; return r > 0 ? 0.2 + 0.8 * (r / peak) : 0; }, AMBER);
+    draw(SRC.range, (id) => { const r = rc?.[id]?.r[i] ?? 0; return r > 0 ? 0.2 + 0.8 * (r / peak) : 0; }, rangeRgb);
   };
   const applyRange = (next: SpeciesRange | null) => { range = next; paint(); };
 
@@ -147,7 +149,7 @@ export async function createAtlasMap(container: HTMLElement, cells: CellsIndex):
       if (ready) drawTint(src, t);
     },
     setMonth(m) { if (m !== month) { month = m; paint(); } },
-    setRange(next) { applyRange(next); },
+    setRange(next, color) { if (color) rangeRgb = [parseInt(color.slice(1, 3), 16), parseInt(color.slice(3, 5), 16), parseInt(color.slice(5, 7), 16)]; applyRange(next); },
     setPlace(place) {
       marker?.remove();
       areaLabel?.remove();

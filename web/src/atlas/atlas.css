@@ -160,7 +160,7 @@ body.panel-open .dock { right: 452px; }
 .tl-curve-label { margin: 0 0 0 auto; font: 400 11px/1.2 var(--mono); color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .tl-track { position: relative; height: 34px; cursor: pointer; touch-action: none; border-bottom: 1px solid var(--rule); }
 .tl-track svg { position: absolute; inset: 0; width: 100%; height: 100%; }
-.tl-area { fill: rgba(255, 178, 107, 0.14); stroke: rgba(255, 178, 107, 0.7); stroke-width: 1.4; vector-effect: non-scaling-stroke; }
+.tl-area { fill: color-mix(in srgb, var(--curve, #ffb26b) 14%, transparent); stroke: color-mix(in srgb, var(--curve, #ffb26b) 70%, transparent); stroke-width: 1.4; vector-effect: non-scaling-stroke; }
 .tl-head { position: absolute; top: -4px; bottom: -4px; width: 2px; margin-left: -1px; background: var(--ink); box-shadow: 0 0 10px rgba(217, 242, 255, 0.8); }
 .tl-head::after { content: ""; position: absolute; left: -5px; bottom: -6px; width: 12px; height: 12px; border-radius: 50%; background: var(--ink); }
 .tl-months { display: grid; grid-template-columns: repeat(12, 1fr); }
@@ -168,9 +168,16 @@ body.panel-open .dock { right: 452px; }
 .tl-month:hover { color: var(--ink); }
 .tl-month.is-now { color: var(--animal-hot); }
 .tl-month .short { display: none; }
-.dock-row { display: flex; gap: 8px; }
-.chip.following { color: var(--ink); }
-body.panel-open .chip.following { display: none; }
+.dock-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; justify-content: center; }
+.following-row { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.fchip-follow { display: inline-flex; align-items: center; border-radius: 99px; border: 1px solid color-mix(in srgb, var(--sp) 45%, transparent); background: rgba(4, 9, 16, 0.78); backdrop-filter: blur(8px); }
+.fchip-follow.is-primary { border-color: var(--sp); box-shadow: 0 0 14px -4px var(--sp); }
+.ff-name { display: inline-flex; align-items: center; gap: 7px; padding: 7px 10px 7px 11px; border: 0; background: none; font: 500 11px/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); }
+.ff-name i, .sv-kicker i { width: 9px; height: 9px; border-radius: 50%; background: radial-gradient(circle, #fff 0 25%, var(--sp) 55%); box-shadow: 0 0 8px var(--sp); }
+.sv-kicker { display: flex; align-items: center; gap: 8px; }
+.ff-x { padding: 6px 10px 6px 2px; border: 0; background: none; font: 300 16px/1 var(--serif); color: var(--muted); }
+.ff-x:hover { color: var(--ink); }
+.ff-hint { font: 400 10.5px/1 var(--mono); color: var(--muted); }
 .sv-photo > .na { padding: 24px 24px 0; }
 
 /* ---------- legend, probe, caption ---------- */
@@ -182,7 +189,7 @@ body.panel-open .chip.following { display: none; }
 .lg-meaning { display: block; font: 400 12.5px/1.4 var(--sans); color: var(--ink-2); }
 .lg-src { display: block; font: 400 10.5px/1.4 var(--mono); color: var(--muted); }
 .sw { width: 18px; height: 18px; margin-top: 2px; border-radius: 50%; }
-.sw-animal { background: radial-gradient(circle, var(--animal-hot), var(--animal) 45%, transparent 72%); }
+.sw-animal { background: radial-gradient(circle at 30% 40%, #ffb26b 0 22%, transparent 26%), radial-gradient(circle at 70% 40%, #ff6fa3 0 22%, transparent 26%), radial-gradient(circle at 50% 75%, #b69cff 0 22%, transparent 26%); }
 .sw-water { background: var(--water); opacity: 0.8; border-radius: 4px; }
 .sw-snow { background: var(--snow); opacity: 0.75; border-radius: 4px; }
 .sw-wind { background: repeating-linear-gradient(135deg, transparent 0 4px, var(--snow) 4px 5px); border-radius: 2px; }

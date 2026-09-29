@@ -27,6 +27,7 @@ import { createProbe } from './ui/probe';
 import { searchBox } from './ui/search';
 import { speciesView } from './ui/species-view';
 import { createTimeline, todayT } from './ui/timeline';
+import { follow as followSpecies, unfollow, MAX_FOLLOWED, type Followed } from './follow-list';
 import { filterRows, type PlaceFilter } from './ui/place-view';
 import { monthlyRegions, type MonthPlace } from './regions';
 import { citation, download, placeCsv, speciesCsv } from './research';
@@ -46,7 +47,7 @@ export interface AtlasRoots { stage: HTMLElement; pins: HTMLElement; ui: HTMLEle
 const HANDOFF_KM = 1300;
 const PLACE_ZOOM = 10;
 
-interface SpeciesData { entry: SpeciesIndexEntry; flow: FlowField; summary: SpeciesSummary; profile: SpeciesProfile | null; range: SpeciesRange; regions: { months: MonthPlace[]; india: number[] } }
+interface SpeciesData { entry: SpeciesIndexEntry; flowFor: (particles: number) => FlowField; summary: SpeciesSummary; profile: SpeciesProfile | null; range: SpeciesRange; regions: { months: MonthPlace[]; india: number[] } }
 
 const wide = () => window.matchMedia('(min-width: 900px)').matches;
 
@@ -112,29 +113,56 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
   const probe = createProbe();
   const panel = createPanel((v) => store.set({ panel: v }), () => store.set({ panel: null }));
   const follow = h('button', { class: 'chip follow', type: 'button', 'aria-pressed': 'false', onclick: () => store.set({ follow: !store.get().follow }) }, 'Follow the flock');
-  const followingBtn = h('button', { class: 'chip following', type: 'button', onclick: () => store.set({ panel: 'species' }) }, 'Following');
-  roots.ui.append(top, toast, legendSlot, panel.element, h('div', { class: 'dock' }, h('div', { class: 'dock-row' }, followingBtn, follow), timeline.element), probe.element);
+  const followingRow = h('div', { class: 'following-row', role: 'list', 'aria-label': 'Species on the globe' });
+  roots.ui.append(top, toast, legendSlot, panel.element, h('div', { class: 'dock' }, h('div', { class: 'dock-row' }, followingRow, follow), timeline.element), probe.element);
 
   // ---------- species ----------
+  // up to three species on the globe, each in its own colour; the first is the one the panel shows
+  let followed: Followed[] = [];
+  const loaded = new Map<string, SpeciesData>();
   let species: SpeciesData | null = null;
   let speciesFailed: string | null = null;
   let speciesToken = 0;
+  const colorOf = (key: string) => followed.find((f) => f.key === key)?.color ?? '#ffb26b';
+  const nameOf = (e: SpeciesIndexEntry, p?: SpeciesProfile | null) => p?.name || e.name || e.sci;
+
+  /** push the followed list to the globe, the map, the timeline and the chips */
+  function syncFollowed() {
+    species = followed[0] ? loaded.get(followed[0].key) ?? null : null;
+    const per = Math.round(PARTICLES / Math.max(1, followed.length) * (followed.length > 1 ? 1.3 : 1));
+    globe.setFlows(followed.flatMap((f) => { const d = loaded.get(f.key); return d ? [{ key: `${f.key}:${per}`, flow: d.flowFor(per), color: f.color }] : []; }));
+    atlasMap?.setRange(species?.range ?? null, followed[0]?.color);
+    timeline.setCurve(species?.summary.presence ?? null, species ? `${nameOf(species.entry, species.profile)} · recorded presence through the year` : '', followed[0]?.color);
+    followingRow.replaceChildren(...followed.map((f) => {
+      const d = loaded.get(f.key);
+      const e = byKey.get(f.key);
+      const label = e ? nameOf(e, d?.profile) : f.key;
+      return h('span', { class: `fchip-follow${f.key === followed[0]?.key ? ' is-primary' : ''}`, role: 'listitem', style: `--sp:${f.color}` },
+        h('button', { class: 'ff-name', type: 'button', onclick: () => void selectSpecies(f.key, false), title: `Show ${label}` }, h('i', { 'aria-hidden': 'true' }), label),
+        followed.length > 1 ? h('button', { class: 'ff-x', type: 'button', 'aria-label': `Stop showing ${label}`, onclick: () => { followed = unfollow(followed, f.key); store.set({ species: followed[0]?.key ?? null }); syncFollowed(); render(); } }, '×') : null);
+    }), followed.length < MAX_FOLLOWED ? h('span', { class: 'ff-hint' }, 'Search to add a species') : '');
+  }
+
   async function selectSpecies(key: string, fly: boolean) {
     const entry = byKey.get(key);
     if (!entry) return;
     const token = ++speciesToken;
     speciesFailed = null;
     if (fly) store.set({ follow: false });
+    followed = followSpecies(followed, key);
     store.set({ species: key, panel: fly || wide() ? 'species' : store.get().panel });
     try {
-      const [range, profile] = await Promise.all([loadRange(key), loadProfile(entry.sci).catch((err) => { console.warn('Profile unavailable', entry.sci, err); return null; })]);
+      if (!loaded.has(key)) {
+        const [range, profile] = await Promise.all([loadRange(key), loadProfile(entry.sci).catch((err) => { console.warn('Profile unavailable', entry.sci, err); return null; })]);
+        const flows = new Map<number, FlowField>();
+        loaded.set(key, {
+          entry, profile, range, summary: speciesSummary(range, cells.cellSize), regions: monthlyRegions(range, cells.cellSize, (id) => cellSet.has(id)),
+          flowFor: (n) => { let f = flows.get(n); if (!f) { f = buildFlow(range, cells.cellSize, n, 11); flows.set(n, f); } return f; },
+        });
+      }
       if (token !== speciesToken) return;
-      const flow = buildFlow(range, cells.cellSize, PARTICLES, 11);
-      species = { entry, flow, summary: speciesSummary(range, cells.cellSize), profile, range, regions: monthlyRegions(range, cells.cellSize, (id) => cellSet.has(id)) };
-      atlasMap?.setRange(range);
-      globe.setFlow(flow);
-      timeline.setCurve(species.summary.presence, `${entry.name || entry.sci} · recorded presence through the year`);
-      if (fly) {
+      syncFollowed();
+      if (fly && species) {
         const c = species.summary.centres[monthOf(store.get().t) - 1];
         if (c) globe.flyTo({ lng: c.lng, lat: c.lat, altitudeKm: SPECIES_ALT_KM });
       }
@@ -142,9 +170,9 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
     } catch (err) {
       if (token !== speciesToken) return;
       console.error('Species failed to load', key, err);
-      species = null;
+      followed = unfollow(followed, key);
       speciesFailed = key;
-      globe.setFlow(null);
+      syncFollowed();
       render();
     }
   }
@@ -187,7 +215,7 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
     atlasMap = m;
     m.setMonth(monthOf(store.get().t));
     m.setLandTint(tintSrc, store.get().t);
-    if (species) m.setRange(species.range);
+    if (species) m.setRange(species.range, followed[0]?.color);
     m.setPlace(store.get().place);
     m.onPick((lng, lat) => pickPlace(lng, lat, null, false));
     m.onZoomOut((at) => exitMap(at));
@@ -243,7 +271,6 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
     atlasMap?.setPadding(open && wide() ? PANEL_W + 16 : 0, open && !wide() ? window.innerHeight * 0.46 : 130);
     mapBtn.textContent = mode === 'map' ? 'Globe' : 'Street map';
     document.body.classList.toggle('is-map', mode === 'map');
-    followingBtn.textContent = species && species.entry.k === s.species ? `Following · ${species.profile?.name || species.entry.name || species.entry.sci}` : 'Following';
     if (!open) { panel.close(); return; }
     if (s.panel === 'place' && s.place) {
       panel.show('place', tabLabel(s), placeView({
@@ -260,7 +287,7 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
       const entry = s.species ? byKey.get(s.species) : null;
       if (!entry) return;
       panel.show('species', tabLabel(s), species && species.entry.k === entry.k
-        ? speciesView({ entry, profile: species.profile, summary: species.summary, month: m, meta, regions: species.regions }, {
+        ? speciesView({ entry, profile: species.profile, summary: species.summary, month: m, meta, regions: species.regions, color: colorOf(entry.k) }, {
           onJourney: (lng, lat, mm) => {
             store.set({ follow: false });
             timelineMonth(mm);
@@ -309,8 +336,9 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
     store.set({ t });
     const s = store.get();
     if (s.follow && species) {
-      if (scratch.buf.length !== species.flow.count * 3) scratch.buf = new Float32Array(species.flow.count * 3);
-      const target = flockCenter(species.flow, t, scratch.buf);
+      const lead = species.flowFor(Math.round(PARTICLES / Math.max(1, followed.length) * (followed.length > 1 ? 1.3 : 1)));
+      if (scratch.buf.length !== lead.count * 3) scratch.buf = new Float32Array(lead.count * 3);
+      const target = flockCenter(lead, t, scratch.buf);
       if (target) {
         const cam = globe.camera();
         followVec = glide(followVec ?? toVec(cam.lng, cam.lat), target, dt);

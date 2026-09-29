@@ -14,7 +14,7 @@ export interface Timeline {
   readonly element: HTMLElement;
   set(t: number, playing: boolean): void;
   /** the followed species' presence per month (0..1), drawn as the curve behind the months */
-  setCurve(values: readonly number[] | null, label: string): void;
+  setCurve(values: readonly number[] | null, label: string, color?: string): void;
 }
 
 const SVG = 'http://www.w3.org/2000/svg';
@@ -85,7 +85,8 @@ export function createTimeline(handlers: TimelineHandlers): Timeline {
         months.querySelectorAll('.tl-month').forEach((b, i) => b.classList.toggle('is-now', i === m));
       }
     },
-    setCurve(values, label) {
+    setCurve(values, label, color) {
+      if (color) element.style.setProperty('--curve', color);
       curveLabel.textContent = label;
       if (!values) { area.setAttribute('d', ''); return; }
       const max = Math.max(...values, 0) || 1;

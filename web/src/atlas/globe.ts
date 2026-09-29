@@ -14,13 +14,13 @@ const MAX_DIST = 8;
 const PICK_SLOP_PX = 5;
 const HOVER_MS = 120;
 const FLY_MS = 1800;
-const FLOW_COLOR = '#ffb26b';
 
 export interface CameraSpot { readonly lng: number; readonly lat: number; readonly altitudeKm: number }
 
 export interface AtlasGlobe {
   setMonth(t: number): void;
-  setFlow(flow: FlowField | null): void;
+  /** species flows on the globe, each in its own colour; keyed so unchanged ones are kept */
+  setFlows(flows: readonly { key: string; flow: FlowField; color: string }[]): void;
   setEnvironment(ch: MaterialChannels): void;
   /** keep the globe centred in the space left of a side panel (px wide) or above a bottom sheet (px tall) */
   setInset(right: number, bottom?: number): void;
@@ -64,7 +64,7 @@ export function createAtlasGlobe(stageRoot: HTMLElement, pinsRoot: HTMLElement, 
     .then((le) => { le.setTier(stage.settings()); earth = le; earthFns.forEach((fn) => fn(le)); })
     .catch((err) => console.warn('Living Earth pack unavailable; the globe shows land only', err));
 
-  let flow: FlowLayer | null = null;
+  const flows = new Map<string, { layer: FlowLayer; color: string }>();
   let flight: Flight | null = null;
   let month = 0;
   let inset = { right: 0, bottom: 0 };
@@ -88,7 +88,7 @@ export function createAtlasGlobe(stageRoot: HTMLElement, pinsRoot: HTMLElement, 
     }
     controls.update();
     globe.update(time);
-    flow?.update(month);
+    flows.forEach((f) => f.layer.update(month));
     earth?.update(month, time, dt, env, stage.camera);
     const { width, height } = stage.size();
     labels.update(stage.camera, width, height);
@@ -152,11 +152,16 @@ export function createAtlasGlobe(stageRoot: HTMLElement, pinsRoot: HTMLElement, 
 
   return {
     setMonth(t) { month = t; },
-    setFlow(next) {
-      if (flow) { stage.scene.remove(flow.group); flow.dispose(); flow = null; }
-      if (!next) return;
-      flow = new FlowLayer(next, FLOW_COLOR, pixelRatio());
-      stage.scene.add(flow.group);
+    setFlows(next) {
+      const keep = new Set(next.map((f) => `${f.key}|${f.color}`));
+      for (const [id, f] of flows) if (!keep.has(id)) { stage.scene.remove(f.layer.group); f.layer.dispose(); flows.delete(id); }
+      for (const f of next) {
+        const id = `${f.key}|${f.color}`;
+        if (flows.has(id)) continue;
+        const layer = new FlowLayer(f.flow, f.color, pixelRatio());
+        stage.scene.add(layer.group);
+        flows.set(id, { layer, color: f.color });
+      }
     },
     setEnvironment(ch) { env = ch; },
     setInset(right, bottom = 0) { inset = { right, bottom }; applyInset(); },

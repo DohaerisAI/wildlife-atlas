@@ -12,7 +12,10 @@ const P_VERT = /* glsl */ `
 const P_FRAG = /* glsl */ `
   uniform vec3 uColor; uniform float uOpacity; varying float vA;
   void main() { float d = length(gl_PointCoord - 0.5); float core = smoothstep(0.5, 0.0, d); float a = core * core * vA * uOpacity * 0.65;
-    if (a < 0.01) discard; gl_FragColor = vec4(uColor * (0.55 + 0.8 * core), a); }`;
+    if (a < 0.01) discard;
+    // white-hot centre: animals read as light, never as another patch of ground
+    vec3 col = mix(uColor * (0.7 + 0.6 * core), vec3(1.0), pow(core, 4.0) * 0.22);
+    gl_FragColor = vec4(col, a); }`;
 const T_VERT = /* glsl */ `attribute float alpha; varying float vA; void main() { vA = alpha; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }`;
 const T_FRAG = /* glsl */ `uniform vec3 uColor; uniform float uOpacity; varying float vA; void main() { gl_FragColor = vec4(uColor, vA * uOpacity * 0.32); }`;
 

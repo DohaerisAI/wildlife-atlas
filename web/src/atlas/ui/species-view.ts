@@ -11,6 +11,8 @@ export interface SpeciesViewData {
   readonly summary: SpeciesSummary | null;
   readonly month: number;
   readonly meta: Meta;
+  /** this species' colour on the globe */
+  readonly color: string;
   readonly regions: { readonly months: readonly MonthPlace[]; readonly india: readonly number[] } | null;
 }
 
@@ -131,7 +133,7 @@ export function speciesView(d: SpeciesViewData, handlers: SpeciesViewHandlers): 
   return h('article', { class: 'species-view', 'aria-label': `About the ${name}` },
     gallery(name, p?.images ?? []),
     h('header', { class: 'sv-head' },
-      h('p', { class: 'kicker' }, d.entry.family || 'Species'),
+      h('p', { class: 'kicker sv-kicker', style: `--sp:${d.color}` }, h('i', { 'aria-hidden': 'true', title: 'Its colour on the globe' }), d.entry.family || 'Species'),
       h('h2', { class: 'sv-name' }, name),
       h('p', { class: 'sv-sci' }, d.entry.sci),
       p?.description ? h('p', { class: 'sv-desc' }, p.description) : null),
