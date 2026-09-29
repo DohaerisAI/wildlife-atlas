@@ -3,12 +3,14 @@
 import argparse
 import logging
 import sys
+from pathlib import Path
 
 from .aggregate import load_raw_cells, load_species_names
-from .config import INDIA, OUT_DIR, RAW_DIR, FetchSettings
+from .config import INDIA, OUT_DIR, RAW_DIR, REPO_ROOT, FetchSettings
 from .export import SourceInfo, build_bundle, write_bundle
 
 log = logging.getLogger("atlas")
+WEB_ROOT = REPO_ROOT / "web"
 
 GBIF_SOURCE = SourceInfo(
     name="GBIF occurrence records (includes eBird, iNaturalist and others)",
@@ -88,6 +90,26 @@ def cmd_demo(_: argparse.Namespace) -> None:
     log.info("wrote %d SYNTHETIC demo files to %s", len(files), OUT_DIR)
 
 
+def cmd_tiles_world(args: argparse.Namespace) -> None:
+    import numpy as np
+    from PIL import Image
+
+    from .tile_product import manifest, scan, write_manifest, write_world
+
+    root = Path(args.out)
+    land = np.asarray(Image.open(Path(args.pack) / "land.png").convert("RGB"))
+    written = write_world(root, land, range(0, 5))
+    write_manifest(root, manifest("world", (0, 4), scan(root), ndvi=False))
+    log.info("world tiles: %d files, %.1f MB in %s", len(written), sum(s for _, s in written) / 1e6, root)
+
+
+def cmd_places(args: argparse.Namespace) -> None:
+    from .places import build_places
+
+    summary = build_places(Path(args.src), Path(args.out), download=not args.offline)
+    log.info("places: %s", summary)
+
+
 def main(argv: list[str] | None = None) -> int:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     parser = argparse.ArgumentParser(prog="atlas", description="Wildlife Atlas data pipeline")
@@ -104,6 +126,15 @@ def main(argv: list[str] | None = None) -> int:
     profiles.set_defaults(fn=cmd_profiles)
     sub.add_parser("build", help="build web/public/data from fetched GBIF data").set_defaults(fn=cmd_build)
     sub.add_parser("demo", help="build web/public/data from SYNTHETIC demo data").set_defaults(fn=cmd_demo)
+    tiles_world = sub.add_parser("tiles-world", help="cut Living Earth world tiles (levels 0-4) from pack v2")
+    tiles_world.add_argument("--pack", default=str(WEB_ROOT / "public/content/living-earth/v2"))
+    tiles_world.add_argument("--out", default=str(WEB_ROOT / "public/content/tiles/world"))
+    tiles_world.set_defaults(fn=cmd_tiles_world)
+    places = sub.add_parser("places", help="build the place-name product from GeoNames cities1000 (downloads it)")
+    places.add_argument("--src", default=str(RAW_DIR / "geonames"))
+    places.add_argument("--out", default=str(WEB_ROOT / "public/content/places"))
+    places.add_argument("--offline", action="store_true", help="use files already in --src")
+    places.set_defaults(fn=cmd_places)
     args = parser.parse_args(argv)
     try:
         args.fn(args)

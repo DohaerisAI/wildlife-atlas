@@ -10,3 +10,5 @@ web/public/data/
 web/.env.local
 site/
 reports/
+web/public/content/tiles/
+web/public/content/places/

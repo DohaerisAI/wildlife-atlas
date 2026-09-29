@@ -1,0 +1,94 @@
+# Living Earth detail tiles (decision 0010): WorldCover class, tree cover, fine-DEM hillshade and monthly NDVI,
+# levels 5..L of the EPSG:4326 quadtree, computed in Earth Engine per level-3 shard (22.5 degrees).
+# Coarse first, then deepen: run with level 6 for the whole world, then 7, then 8 (~300 m pixels).
+# Resume: a failed shard is rerun alone with `gh run rerun <run-id> --failed`; finished shards keep their artifacts,
+# and the merge job runs again over everything that exists.
+# Pull for development: scripts/pull-tiles.sh <run-id>  (into web/public/content/tiles/detail, gitignored).
+name: Build Living Earth tiles
+on:
+  workflow_dispatch:
+    inputs:
+      level:
+        description: "Finest level (5-8; 8 = ~300 m pixels)"
+        default: "6"
+        type: choice
+        options: ["5", "6", "7", "8"]
+      bbox:
+        description: "Region W,S,E,N (default whole world; India = 66,5,99,38)"
+        default: "-180,-90,180,90"
+      workers:
+        description: "Parallel Earth Engine calls per shard"
+        default: "8"
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      shards: ${{ steps.plan.outputs.shards }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.2.0
+      - id: plan
+        working-directory: pipeline
+        run: |
+          uv sync --quiet
+          echo "shards=$(uv run python scripts/tiles_ci.py plan --bbox '${{ inputs.bbox }}')" >> "$GITHUB_OUTPUT"
+  shard:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        shard: ${{ fromJson(needs.plan.outputs.shards) }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.2.0
+      - id: name
+        run: echo "id=$(echo '${{ matrix.shard }}' | tr / -)" >> "$GITHUB_OUTPUT"
+      - name: Compute shard ${{ matrix.shard }}
+        working-directory: pipeline
+        env:
+          EE_PROJECT: ${{ secrets.EE_PROJECT }}
+          EE_SERVICE_ACCOUNT_KEY: ${{ secrets.EE_SERVICE_ACCOUNT_KEY }}
+        run: |
+          uv sync --quiet
+          uv run --with earthengine-api python scripts/tiles_ci.py shard ../tiles --shard '${{ matrix.shard }}' --level '${{ inputs.level }}' --workers '${{ inputs.workers }}'
+      - uses: actions/upload-artifact@v7
+        with:
+          name: tiles-shard-${{ steps.name.outputs.id }}
+          path: tiles/
+          retention-days: 14
+  merge:
+    needs: shard
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    env:
+      R2_BUCKET: ${{ secrets.R2_BUCKET }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.2.0
+      - uses: actions/download-artifact@v7
+        with:
+          pattern: tiles-shard-*
+          merge-multiple: true
+          path: detail/
+      - name: Manifest
+        working-directory: pipeline
+        run: |
+          uv sync --quiet
+          uv run python scripts/tiles_ci.py merge ../detail --level '${{ inputs.level }}' --bbox '${{ inputs.bbox }}'
+          du -sh ../detail; find ../detail -name '*.png' | wc -l
+      - uses: actions/upload-artifact@v7
+        with:
+          name: tiles-detail
+          path: detail/
+          retention-days: 14
+      # Hosting (docs/plans/one-engine.md): Cloudflare R2. Runs only once the owner has added the R2 secrets.
+      - name: Publish to Cloudflare R2
+        if: ${{ env.R2_BUCKET != '' }}
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+        run: aws s3 sync detail/ "s3://$R2_BUCKET/tiles/detail/" --endpoint-url "https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com" --only-show-errors
