@@ -98,15 +98,17 @@ def compute_land(ee) -> np.ndarray:
     sea = ee.ImageCollection("HYCOM/sea_water_velocity").filterDate("2020-07-01", "2020-07-02").first().select("velocity_u_0").mask().rename("sea")
     tree = (ee.ImageCollection("MODIS/061/MOD44B").filterDate("2020-01-01", "2025-01-01").select("Percent_Tree_Cover")
             .map(lambda im: im.updateMask(im.lte(100))).mean().rename("tree"))
-    elev = ee.Image("NOAA/NGDC/ETOPO1").select("ice_surface").toFloat()
+    etopo = ee.Image("NOAA/NGDC/ETOPO1").toFloat()
+    elev = etopo.select("ice_surface")
     shade = ee.Terrain.hillshade(elev.multiply(HILLSHADE_EXAGGERATION)).rename("shade")
-    cheap = ee.Image.cat(wc.mask().unmask(0).rename("share"), sea.unmask(0), tree, shade)
+    ice = elev.subtract(etopo.select("bedrock")).rename("ice")
+    cheap = ee.Image.cat(wc.mask().unmask(0).rename("share"), sea.unmask(0), tree, shade, ice)
     w, h = LAND_SIZE
-    rest = pull(ee, cheap, w, h, ["share", "sea", "tree", "shade"], (w, 256))
+    rest = pull(ee, cheap, w, h, ["share", "sea", "tree", "shade", "ice"], (w, 256))
     log.info("land: share, sea, tree, shade pulled")
     cls = pull(ee, majority, w, h, ["cls"], (512, 64))[..., 0]
     log.info("land: class pulled")
-    return land_image(np.nan_to_num(cls, nan=0), rest[..., 0], rest[..., 1], rest[..., 2], rest[..., 3])
+    return land_image(np.nan_to_num(cls, nan=0), rest[..., 0], rest[..., 1], rest[..., 2], rest[..., 3], rest[..., 4])
 
 
 def compute_relief(ee) -> np.ndarray:

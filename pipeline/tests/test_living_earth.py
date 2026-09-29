@@ -76,6 +76,13 @@ def test_land_class_sends_open_sea_to_zero_and_keeps_lakes():
     assert v2.land_class(codes, land_share, sea_share).tolist() == [1, 0, 8, 0, 0]
 
 
+def test_land_class_fills_ice_sheets_beyond_worldcover():
+    codes = np.array([0, 0, 0, 10])
+    land_share = np.array([0.0, 0.0, np.nan, 1.0])
+    ice = np.array([2500.0, 3.0, 400.0, 900.0])  # Antarctic sheet, bare coast, ice shelf, mapped land keeps its class
+    assert v2.land_class(codes, land_share, np.zeros(4), ice).tolist() == [7, 0, 7, 1]
+
+
 def test_elevation_16bit_roundtrip_and_clipping():
     m = np.array([-10994.0, -3863.0, 0.0, 206.0, 8848.4, np.nan, -20000.0, 70000.0])
     hi, lo = v2.encode_elevation(m)

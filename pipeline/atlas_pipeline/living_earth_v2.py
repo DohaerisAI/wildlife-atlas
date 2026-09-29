@@ -26,7 +26,7 @@ LAND_SIZE = (4096, 2048)
 RELIEF_SIZE = (2048, 1024)
 ELEVATION_OFFSET = 11000  # metres added before 16-bit encoding, so the Mariana Trench stays positive
 NODATA = 0  # ocean.png byte meaning "no data here" (land, sea ice, cloud-covered all month)
-HILLSHADE_EXAGGERATION = 10  # vertical exaggeration so relief reads at ~10 km pixels
+HILLSHADE_EXAGGERATION = 8  # vertical exaggeration so relief reads at ~10 km pixels
 
 # (index, name, label, ESA WorldCover v200 code)
 LAND_CLASSES = (
@@ -44,6 +44,8 @@ LAND_CLASSES = (
     (11, "moss", "Moss and lichen", 100),
 )
 WATER_CLASS = 8
+SNOW_CLASS = 7
+ICE_SHEET_MIN_M = 10  # ETOPO1 ice_surface - bedrock, cell mean
 
 OCEAN = (
     Channel("current_u", -1.5, 1.5, "m/s (towards east), surface",
@@ -55,7 +57,8 @@ OCEAN = (
 )
 LAND = (
     Channel("class", 0, 255, "class index (see classes); byte = index",
-            "ESA/WorldCover/v200 Map, majority of ~1 km mode cells per pixel; sea = WorldCover no-data or water that HYCOM treats as ocean"),
+            "ESA/WorldCover/v200 Map, majority of ~1 km mode cells per pixel; sea = WorldCover no-data or water that HYCOM treats as ocean; "
+            "beyond WorldCover (south of 60S, north of 82.75N) snow/ice where NOAA/NGDC/ETOPO1 ice_surface - bedrock >= 10 m, else 0"),
     Channel("tree", 0, 100, "% of the cell's land under tree canopy",
             "MODIS/061/MOD44B Percent_Tree_Cover, 2020-2024 mean; 0 over ocean"),
     Channel("hillshade", 0, 255, "shaded relief brightness, 181 = flat (sun azimuth 315°, altitude 45°)",
@@ -86,12 +89,17 @@ def worldcover_to_class(codes: np.ndarray) -> np.ndarray:
     return lut[np.clip(np.round(c), 0, 255).astype("int64")]
 
 
-def land_class(codes: np.ndarray, land_share: np.ndarray, sea_share: np.ndarray) -> np.ndarray:
+def land_class(codes: np.ndarray, land_share: np.ndarray, sea_share: np.ndarray, ice_m: np.ndarray | None = None) -> np.ndarray:
     """Class index per cell. Cells WorldCover mostly doesn't map are 0 (ocean); so is 'water' that HYCOM models as sea
-    (WorldCover labels the sea inside its coastal tiles as water; lakes like the Caspian and Superior stay water)."""
+    (WorldCover labels the sea inside its coastal tiles as water; lakes like the Caspian and Superior stay water).
+    WorldCover stops at 60S and 82.75N: there, cells ETOPO1 puts under an ice sheet or shelf (ice_m thick) are snow/ice."""
     cls = worldcover_to_class(codes)
-    ocean = (np.nan_to_num(land_share) < 0.5) | ((cls == WATER_CLASS) & (np.nan_to_num(sea_share) >= 0.5))
-    return np.where(ocean, 0, cls).astype("uint8")
+    unmapped = np.nan_to_num(land_share) < 0.5
+    ocean = unmapped | ((cls == WATER_CLASS) & (np.nan_to_num(sea_share) >= 0.5))
+    out = np.where(ocean, 0, cls)
+    if ice_m is not None:
+        out = np.where(unmapped & (np.nan_to_num(ice_m) >= ICE_SHEET_MIN_M), SNOW_CLASS, out)
+    return out.astype("uint8")
 
 
 def encode_elevation(metres: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
@@ -189,8 +197,8 @@ def ocean_frame(u: np.ndarray, v: np.ndarray, chl: np.ndarray) -> np.ndarray:
     return np.stack([to_byte_flagged(u, OCEAN[0]), to_byte_flagged(v, OCEAN[1]), to_byte_flagged(log_chlorophyll(chl), OCEAN[2])], axis=-1)
 
 
-def land_image(codes, land_share, sea_share, tree, hillshade) -> np.ndarray:
-    cls = land_class(codes, land_share, sea_share)
+def land_image(codes, land_share, sea_share, tree, hillshade, ice_m=None) -> np.ndarray:
+    cls = land_class(codes, land_share, sea_share, ice_m)
     tree_b = np.where(cls == 0, 0, to_byte(np.nan_to_num(tree, nan=0), LAND[1]))
     shade = np.clip(np.round(np.nan_to_num(hillshade, nan=181)), 0, 255).astype("uint8")
     return np.stack([cls, tree_b.astype("uint8"), shade], axis=-1)
