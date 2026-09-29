@@ -28,16 +28,27 @@ def test_fetch_global_species_flag_is_repeatable(monkeypatch):
     assert seen["species"] == ["Falco amurensis", "Anser indicus"]
 
 
-def test_profiles_all_covers_species_list_plus_featured(monkeypatch):
-    from atlas_pipeline import profiles
+def test_profiles_all_covers_species_list_plus_featured(monkeypatch, tmp_path):
+    import json
+
+    from atlas_pipeline import config, profiles
     from atlas_pipeline.config import FEATURED_SPECIES
+
+    # a small species list of our own: the real one is built data, not in git
+    listed = [{"k": str(i), "sci": f"Testus species{i}", "name": f"Test {i}", "family": "Testidae", "cells": 1} for i in range(3)]
+    listed.append({"k": "dup", "sci": FEATURED_SPECIES[0], "name": "", "family": "", "cells": 1})
+    data = tmp_path / "web" / "public" / "data"
+    data.mkdir(parents=True)
+    (data / "species.json").write_text(json.dumps(listed))
+    monkeypatch.setattr(config, "REPO_ROOT", tmp_path)
 
     seen = {}
     monkeypatch.setattr(profiles, "make_get_json", lambda: None)
     monkeypatch.setattr(profiles, "write_profiles", lambda species, out, get, refresh: seen.update(species=species, refresh=refresh) or [])
     assert cli.main(["profiles", "--all", "--refresh"]) == 0
     names = [s["sci"] for s in seen["species"]]
-    assert seen["refresh"] is True and len(names) == len(set(names)) > 1000
+    assert seen["refresh"] is True and len(names) == len(set(names))
+    assert {"Testus species0", "Testus species2"} <= set(names)
     assert set(FEATURED_SPECIES) <= set(names)
     assert cli.main(["profiles"]) == 0
     assert [s["sci"] for s in seen["species"]] == list(FEATURED_SPECIES) and seen["refresh"] is False
