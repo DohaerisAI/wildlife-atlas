@@ -1,0 +1,39 @@
+id: tile-engine
+title: One engine, space to town (tiled globe)
+layer: L3
+status: building
+summary: >-
+  Decision 0010 prototype (engine.html): our own EPSG:4326 quadtree of sphere-patch tiles on the three.js globe,
+  screen-space-error LOD with horizon and frustum culling, an LRU tile cache with a budget, the nearest loaded
+  ancestor shown until children arrive (no holes), skirts against cracks, drawn by the Living Earth shader
+  (class colour, canopy, hillshade, monthly NDVI) so the look matches the dot globe, which fades out as the
+  surface fades in. Place labels from our GeoNames product with population priority, collision and fades. A
+  camera from 25,000 km to 3 km with altitude-scaled pan and zoom and tight clip planes. Debug HUD.
+paths:
+  - web/src/engine/tiles/
+  - web/src/engine/labels/
+  - web/src/engine/camera/
+  - web/src/experiences/engine-page.ts
+  - web/src/experiences/engine-look.ts
+  - web/src/experiences/engine-hud.ts
+  - web/engine.html
+checks:
+  - suite: vitest
+    file: src/engine/tiles/tile-math.test.ts
+  - suite: vitest
+    file: src/engine/tiles/lod.test.ts
+  - suite: vitest
+    file: src/engine/tiles/cache.test.ts
+  - suite: vitest
+    file: src/engine/tiles/patch.test.ts
+  - suite: vitest
+    file: src/engine/labels/label-rules.test.ts
+  - suite: vitest
+    file: src/engine/camera/geo-camera.test.ts
+  - suite: vitest
+    file: src/experiences/engine-look.test.ts
+  - suite: vitest
+    file: src/experiences/engine-hud.test.ts
+next: >-
+  Plan steps 2-5 (docs/plans/one-engine.md): deeper tiles worldwide on R2, water/snow tiles, road rasters, then
+  move the atlas's street-map features onto this engine and remove MapLibre.

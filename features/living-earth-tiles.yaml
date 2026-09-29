@@ -1,0 +1,27 @@
+id: living-earth-tiles
+title: Living Earth tile pyramids and place names
+layer: L2
+status: building
+summary: >-
+  Our own tile product for the one engine (decision 0010), same detail worldwide: levels 0-4 cut from pack v2;
+  levels 5-8 (down to ~300 m) of ESA WorldCover class, MODIS tree cover, Copernicus DEM hillshade and 12 monthly
+  MODIS NDVI, computed in Earth Engine as a matrix of level-3 shards that skips open ocean and resumes by
+  rerunning failed shards. Each tileset has a manifest with sources and an availability index. Place names:
+  GeoNames cities1000 worldwide (171k places), capitals and admin seats flagged, chunked by level-3 tile.
+  Tiles are not in git: R2 hosting is blocked on the owner's Cloudflare account (docs/plans/one-engine.md).
+paths:
+  - pipeline/atlas_pipeline/tile_math.py
+  - pipeline/atlas_pipeline/tile_raster.py
+  - pipeline/atlas_pipeline/tile_product.py
+  - pipeline/atlas_pipeline/tiles_ee.py
+  - pipeline/atlas_pipeline/places.py
+  - pipeline/scripts/tiles_ci.py
+  - .github/workflows/tiles.yml
+  - scripts/pull-tiles.sh
+checks:
+  - suite: pytest
+    file: tests/test_tiles.py
+  - suite: pytest
+    file: tests/test_places.py
+next: >-
+  World level 6, then 7 and 8; R2 publishing once the bucket exists; water and snow tile channels; level 9+.

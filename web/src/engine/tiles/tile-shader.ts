@@ -73,7 +73,7 @@ export function sharedUniforms() {
     uT0: { value: new Vector2() }, uT1: { value: new Vector2() }, uW: { value: 0 }, uM0: { value: 0 }, uM1: { value: 0 },
     uPalette: { value: Array.from({ length: 12 }, (_, i) => new Color(...Array.from(paletteArray().slice(i * 3, i * 3 + 3)) as [number, number, number])) },
     uNdviLo: { value: -0.2 }, uNdviHi: { value: 0.9 },
-    uAlpha: { value: 1 }, uGain: { value: 0.62 }, uRim: { value: new Color('#62d6f2') },
+    uAlpha: { value: 1 }, uGain: { value: 0.44 }, uRim: { value: new Color('#62d6f2') },
   };
 }
 export type SharedUniforms = ReturnType<typeof sharedUniforms>;

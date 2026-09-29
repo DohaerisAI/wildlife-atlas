@@ -52,11 +52,13 @@ export async function startEngine(els: EngineElements): Promise<void> {
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const params = new URLSearchParams(window.location.search);
   const base = import.meta.env.BASE_URL;
+  // tiles live outside git: served locally from public/content/tiles, or from R2 once it is set up
+  const tilesBase: string = import.meta.env.VITE_TILES_BASE ?? `${base}content/tiles/`;
   const stage = createStage(els.stage, { fov: 34 });
   stage.renderer.info.autoReset = false;
   const [mask, sets] = await Promise.all([
     loadMask(`${base}geo/land-mask.png`),
-    loadTilesets([`${base}content/tiles/detail/`, `${base}content/tiles/world/`]),
+    loadTilesets([`${tilesBase}detail/`, `${tilesBase}world/`]),
   ]);
   const pixelRatio = () => Math.min(window.devicePixelRatio || 1, stage.settings().pixelRatio);
   const globe = createGlobe(mask, stage.settings().landDots, pixelRatio());
