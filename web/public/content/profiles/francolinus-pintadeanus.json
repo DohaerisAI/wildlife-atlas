@@ -1,0 +1,54 @@
+{
+ "scientific": "Francolinus pintadeanus",
+ "name": "Chinese Francolin",
+ "qid": "Q176911",
+ "description": "species of bird",
+ "extract": "The Chinese francolin (Francolinus pintadeanus) or Burmese francolin is a species of game bird in the family Phasianidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Francolinus_pintadeanus_hm.jpg/1280px-Francolinus_pintadeanus_hm.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Francolinus_pintadeanus_hm.jpg/330px-Francolinus_pintadeanus_hm.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Francolinus_pintadeanus_hm.jpg",
+   "license": "Public domain",
+   "artist": "Edward Neale",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 340.0,
+   "max": 340.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Francolinus"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q176911"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chinese_francolin"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

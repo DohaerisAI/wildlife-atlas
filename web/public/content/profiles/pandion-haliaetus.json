@@ -1,0 +1,73 @@
+{
+ "scientific": "Pandion haliaetus",
+ "name": "Osprey",
+ "qid": "Q25332",
+ "description": "species of bird",
+ "extract": "The osprey (; Pandion haliaetus), historically known as sea hawk, river hawk, and fish hawk, is a diurnal, fish-eating bird of prey with a cosmopolitan range. It is a large raptor, reaching more than 60 cm (24 in) in length and a wingspan of 180 cm (71 in). It is brown on the upperparts and predominantly greyish on the head and underparts.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Balbuzard_pecheur_Lac_de_Tunis.jpg/1280px-Balbuzard_pecheur_Lac_de_Tunis.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Balbuzard_pecheur_Lac_de_Tunis.jpg/330px-Balbuzard_pecheur_Lac_de_Tunis.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Balbuzard_pecheur_Lac_de_Tunis.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "El Golli Mohamed",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/OspreyNASA.jpg/1280px-OspreyNASA.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/OspreyNASA.jpg/330px-OspreyNASA.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:OspreyNASA.jpg",
+   "license": "Public domain",
+   "artist": "NASA",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 160.0,
+   "max": 160.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 1400.0,
+   "max": 1400.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pandion"
+  },
+  "family": {
+   "scientific": "Pandionidae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Western Osprey",
+  "sea hawk",
+  "river hawk",
+  "fish hawk"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25332"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Osprey"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

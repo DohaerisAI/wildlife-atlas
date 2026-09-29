@@ -1,0 +1,57 @@
+{
+ "scientific": "Myophonus caeruleus",
+ "name": "Blue Whistling Thrush",
+ "qid": "Q73427",
+ "description": "species of bird",
+ "extract": "The blue whistling thrush (Myophonus caeruleus) is a bird in the Old World flycatchers family Muscicapidae that is found in the mountains of Central Asia, South Asia, China and Southeast Asia. It is known for its loud human-like whistling song at dawn and dusk. The widely distributed populations show variations in size and plumage, with six subspecies accepted. Like others in the genus, they feed on the ground, often along streams and in damp places, foraging for snails, crabs, insects, and fruit.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Myophonus_caeruleus_-_Ang_Khang_edit1.jpg/1280px-Myophonus_caeruleus_-_Ang_Khang_edit1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Myophonus_caeruleus_-_Ang_Khang_edit1.jpg/330px-Myophonus_caeruleus_-_Ang_Khang_edit1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Myophonus_caeruleus_-_Ang_Khang_edit1.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (jjharrison89@facebook.com)",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Myophonus_caeruleus_caeruleus%2C_Kinmen%2C_Taiwan_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Myophonus_caeruleus_caeruleus%2C_Kinmen%2C_Taiwan_1.jpg/330px-Myophonus_caeruleus_caeruleus%2C_Kinmen%2C_Taiwan_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Myophonus_caeruleus_caeruleus,_Kinmen,_Taiwan_1.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "孫鋒 林 from Taipei, Taiwan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Myophonus"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Himalayan blue whistling thrush"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q73427"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blue_whistling_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,46 @@
+{
+ "scientific": "Psittacula himalayana",
+ "name": "Slaty-headed Parakeet",
+ "qid": "Q1036497",
+ "description": "species of bird",
+ "extract": "The slaty-headed parakeet (Psittacula himalayana) is the only psittacid species to exhibit altitudinal migration. The species' range extends from Pakistan, to Western Himalayas in India through Nepal and Bhutan and up to the Eastern Himalayas in the northeastern Indian state of Arunachal Pradesh. They descend to the valleys in winter, approximately during the last week of October.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Slaty-headed_Parakeet_%28Psittacula_himalayana%29_%2825819352801%29.jpg/1280px-Slaty-headed_Parakeet_%28Psittacula_himalayana%29_%2825819352801%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Slaty-headed_Parakeet_%28Psittacula_himalayana%29_%2825819352801%29.jpg/330px-Slaty-headed_Parakeet_%28Psittacula_himalayana%29_%2825819352801%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Slaty-headed_Parakeet_(Psittacula_himalayana)_(25819352801).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Psittacula"
+  },
+  "family": {
+   "scientific": "Psittaculidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1036497"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Slaty-headed_parakeet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,59 @@
+{
+ "scientific": "Zoothera dauma",
+ "name": "Scaly Thrush",
+ "qid": "Q695723",
+ "description": "species of bird",
+ "extract": "The scaly thrush (Zoothera dauma) is a member of the thrush family Turdidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Scaly_Thrush_at_Godwari%2C_Kathmandu.jpg/1280px-Scaly_Thrush_at_Godwari%2C_Kathmandu.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Scaly_Thrush_at_Godwari%2C_Kathmandu.jpg/330px-Scaly_Thrush_at_Godwari%2C_Kathmandu.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Scaly_Thrush_at_Godwari,_Kathmandu.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Paladitya",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Zoothera_dauma_-_Ang_Khang.jpg/1280px-Zoothera_dauma_-_Ang_Khang.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Zoothera_dauma_-_Ang_Khang.jpg/330px-Zoothera_dauma_-_Ang_Khang.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Zoothera_dauma_-_Ang_Khang.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 8.1,
+   "max": 8.1,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Zoothera"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q695723"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Scaly_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

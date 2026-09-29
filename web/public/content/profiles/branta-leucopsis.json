@@ -1,0 +1,75 @@
+{
+ "scientific": "Branta leucopsis",
+ "name": "Barnacle goose",
+ "qid": "Q26680",
+ "description": "species of bird",
+ "extract": "The barnacle goose (Branta leucopsis) is a species of goose that belongs to the genus Branta of black geese, which contains species with extensive black in the plumage, distinguishing them from the grey Anser species. Despite its superficial similarity to the brant goose, genetic analysis has shown its closest relative is the cackling goose.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Branta_leucopsis_-standing_in_a_field-8.jpg/1280px-Branta_leucopsis_-standing_in_a_field-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Branta_leucopsis_-standing_in_a_field-8.jpg/330px-Branta_leucopsis_-standing_in_a_field-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Branta_leucopsis_-standing_in_a_field-8.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Andrey from Finland",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Branta_leucopsis.jpg/1280px-Branta_leucopsis.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Branta_leucopsis.jpg/330px-Branta_leucopsis.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Branta_leucopsis.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Linnea Samila",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Barnacle_goose_%28Branta_leucopsis%29.jpg/1280px-Barnacle_goose_%28Branta_leucopsis%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Barnacle_goose_%28Branta_leucopsis%29.jpg/330px-Barnacle_goose_%28Branta_leucopsis%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Barnacle_goose_(Branta_leucopsis).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Andreas Weith",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 108.0,
+   "max": 108.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 107.0,
+   "max": 1788.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Branta"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26680"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barnacle_goose"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

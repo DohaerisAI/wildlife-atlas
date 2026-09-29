@@ -1,0 +1,54 @@
+{
+ "scientific": "Asarcornis scutulata",
+ "name": "White-winged Duck",
+ "qid": "Q25495361",
+ "description": "species of bird",
+ "extract": "The white-winged duck or white-winged wood duck (Asarcornis scutulata) is a large species of duck, formerly placed in the genus Cairina with the Muscovy duck (Cairina moschata) and considered allied to the dabbling ducks. However, two genetic studies have indicated that the anatomical similarity to the Muscovy duck is deceiving, with the species appropriately placed in a monotypic genus, as Asarcornis scutulata; it proved evolutionarily closest to a clade containing the diving duck genera Netta and Aythya, while Cairina resolved as close to the genus Aix in a very different part of the family tree.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/White-winged_wood_duck.jpg/1280px-White-winged_wood_duck.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/White-winged_wood_duck.jpg/330px-White-winged_wood_duck.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-winged_wood_duck.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Nejib Ahmed",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 72.3,
+   "max": 3250.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "CR",
+   "label": "Critically Endangered"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Asarcornis"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25495361"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-winged_duck"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

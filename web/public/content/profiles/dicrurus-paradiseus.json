@@ -1,0 +1,47 @@
+{
+ "scientific": "Dicrurus paradiseus",
+ "name": "Greater Racket-tailed Drongo",
+ "qid": "Q856531",
+ "description": "species of bird",
+ "extract": "The greater racket-tailed drongo (Dicrurus paradiseus) is a medium-sized Asian bird which is distinctive in having elongated outer tail feathers with webbing restricted to the tips. They are placed along with other drongos in the family Dicruridae. They are conspicuous in the forest habitats often perching in the open and by attracting attention with a wide range of loud calls that include perfect imitations of many other birds. One hypothesis suggested is that these vocal imitations may help in the formation of mixed-species foraging flocks, a feature seen in forest bird communities where many insect feeders forage together. These drongos will sometimes steal insect prey caught or disturbed by other foragers in the flock and another idea is that vocal mimicry helps them in diverting the attention of smaller birds to aid their piracy. They are diurnal but are active well before dawn and late at dusk. Owing to their widespread distribution and distinctive regional variation, they have become iconic examples of speciation by isolation and genetic drift.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Greater_Racket-tailed_Drongo_Dicrurus_paradiseus_%28Linnaeus%2C_1766%29_%2816169002507%29.jpg/1280px-Greater_Racket-tailed_Drongo_Dicrurus_paradiseus_%28Linnaeus%2C_1766%29_%2816169002507%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Greater_Racket-tailed_Drongo_Dicrurus_paradiseus_%28Linnaeus%2C_1766%29_%2816169002507%29.jpg/330px-Greater_Racket-tailed_Drongo_Dicrurus_paradiseus_%28Linnaeus%2C_1766%29_%2816169002507%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Greater_Racket-tailed_Drongo_Dicrurus_paradiseus_(Linnaeus,_1766)_(16169002507).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Len Worthington",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dicrurus"
+  },
+  "family": {
+   "scientific": "Dicruridae",
+   "name": "drongo"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q856531"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Greater_racket-tailed_drongo"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

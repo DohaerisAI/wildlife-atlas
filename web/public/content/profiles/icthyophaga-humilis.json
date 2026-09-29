@@ -1,0 +1,61 @@
+{
+ "scientific": "Icthyophaga humilis",
+ "name": "Lesser Fish Eagle",
+ "qid": "Q386871",
+ "description": "species of bird",
+ "extract": "The lesser fish eagle (Icthyophaga humilis) is a species of Icthyophaga found in the Indian subcontinent, primarily in the foothills of the Himalayas, and south-east Asia. There are records from Gujarat, Central India and in more recent times from the Kaveri river valley in southern India, although the south Indian records are now thought to come from an isolated population, disjunct from the species' normal range.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Lesser_fish_eagle_at_Ranganathittu%2C_India.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Lesser_fish_eagle_at_Ranganathittu%2C_India.jpg/330px-Lesser_fish_eagle_at_Ranganathittu%2C_India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lesser_fish_eagle_at_Ranganathittu,_India.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Subramanya CK",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/PolioaetusPlumbeusSmit.jpg/1280px-PolioaetusPlumbeusSmit.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/PolioaetusPlumbeusSmit.jpg/330px-PolioaetusPlumbeusSmit.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:PolioaetusPlumbeusSmit.jpg",
+   "license": "Public domain",
+   "artist": "Joseph Smit",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Haliaeetus"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Lesser fish-eagle",
+  "Ichthyophaga humilis"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q386871"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lesser_fish_eagle"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

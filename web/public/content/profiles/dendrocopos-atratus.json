@@ -1,0 +1,53 @@
+{
+ "scientific": "Dendrocopos atratus",
+ "name": "Stripe-breasted Woodpecker",
+ "qid": "Q1273646",
+ "description": "species of bird",
+ "extract": "The stripe-breasted woodpecker (Dendrocopos atratus) is a species of bird in the woodpecker family, Picidae. It is found in Southeast Asia within subtropical or tropical moist lowland forest and subtropical or tropical moist montane forest.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Stripe-breasted_Woodpecker.jpg/1280px-Stripe-breasted_Woodpecker.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Stripe-breasted_Woodpecker.jpg/330px-Stripe-breasted_Woodpecker.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Stripe-breasted_Woodpecker.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jason Thompson",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 47.0,
+   "max": 47.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dendrocopos"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "other_names": [
+  "Picoides atratus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1273646"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Stripe-breasted_woodpecker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -3,17 +3,19 @@
  "name": "Jacobin Cuckoo",
  "qid": "Q839535",
  "description": "Species of bird",
- "extract": "The Jacobin cuckoo, also pied cuckoo or pied crested cuckoo, is a member of the cuckoo order of birds that is found in Africa and Asia. It is partially migratory and in India, it has been considered a harbinger of the monsoon rains due to the timing of its arrival. It has been associated with a bird in Indian mythology and poetry, known as the chātaka represented as a bird with a beak on its head that waits for rains to quench its thirst.",
+ "extract": "The Jacobin cuckoo (Clamator jacobinus), also pied cuckoo or pied crested cuckoo, is a member of the cuckoo order of birds that is found in Africa and Asia. It is partially migratory and in India, it has been considered a harbinger of the monsoon rains due to the timing of its arrival. It has been associated with a bird in Indian mythology and poetry, known as the chātaka (Sanskrit: चातक) represented as a bird with a beak on its head that waits for rains to quench its thirst.",
  "images": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Pied_Cuckoo_%28Clamator_jacobinus%29_with_a_catterpillar_W_IMG_4009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Pied_Cuckoo_%28Clamator_jacobinus%29_with_a_catterpillar_W_IMG_4009.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Pied_Cuckoo_%28Clamator_jacobinus%29_with_a_catterpillar_W_IMG_4009.jpg/330px-Pied_Cuckoo_%28Clamator_jacobinus%29_with_a_catterpillar_W_IMG_4009.jpg",
    "page": "https://commons.wikimedia.org/wiki/File:Pied_Cuckoo_(Clamator_jacobinus)_with_a_catterpillar_W_IMG_4009.jpg",
    "license": "CC BY-SA 4.0",
    "artist": "J.M.Garg",
    "caption": ""
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Pied_Cuckoo_%28Clamator_jacobinus%29_in_AP_W_IMG_3978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Pied_Cuckoo_%28Clamator_jacobinus%29_in_AP_W_IMG_3978.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Pied_Cuckoo_%28Clamator_jacobinus%29_in_AP_W_IMG_3978.jpg/330px-Pied_Cuckoo_%28Clamator_jacobinus%29_in_AP_W_IMG_3978.jpg",
    "page": "https://commons.wikimedia.org/wiki/File:Pied_Cuckoo_(Clamator_jacobinus)_in_AP_W_IMG_3978.jpg",
    "license": "CC BY-SA 4.0",
    "artist": "J.M.Garg",
@@ -26,6 +28,25 @@
    "label": "Least Concern"
   }
  },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Clamator"
+  },
+  "family": {
+   "scientific": "Cuculidae"
+  },
+  "order": {
+   "scientific": "Cuculiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Oxylophus jacobinus",
+  "Black and white cuckoo"
+ ],
  "sources": [
   {
    "label": "Wikidata",

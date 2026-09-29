@@ -1,0 +1,66 @@
+{
+ "scientific": "Charadrius veredus",
+ "name": "Oriental Plover",
+ "qid": "Q1259404",
+ "description": "species of bird",
+ "extract": "The oriental plover (Anarhynchus veredus), also known as the oriental dotterel, is a medium-sized plover closely related to the Caspian plover. It breeds in parts of Mongolia and China, migrating southwards each year to spend its non-breeding season in Indonesia, New Guinea and northern Australia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Charadrius_veredus%2C_Xiyin_Island%2C_Taiwan_1.jpg/1280px-Charadrius_veredus%2C_Xiyin_Island%2C_Taiwan_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Charadrius_veredus%2C_Xiyin_Island%2C_Taiwan_1.jpg/330px-Charadrius_veredus%2C_Xiyin_Island%2C_Taiwan_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Charadrius_veredus,_Xiyin_Island,_Taiwan_1.jpg",
+   "license": "CC BY 4.0",
+   "artist": "rururubisco",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Charadrius_veredus_West_Timor_0.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Charadrius_veredus_West_Timor_0.jpg/330px-Charadrius_veredus_West_Timor_0.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Charadrius_veredus_West_Timor_0.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Ron Knight from Seaford, East Sussex, United Kingdom",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 46.0,
+   "max": 53.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anarhynchus"
+  },
+  "family": {
+   "scientific": "Charadriidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Charadrius (Eupoda) veredus",
+  "Anarhynchus veredus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1259404"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Oriental_plover"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

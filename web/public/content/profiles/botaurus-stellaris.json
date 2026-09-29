@@ -1,0 +1,64 @@
+{
+ "scientific": "Botaurus stellaris",
+ "name": "Eurasian Bittern",
+ "qid": "Q25709",
+ "description": "species of bird",
+ "extract": "The Eurasian bittern or great bittern (Botaurus stellaris) is a wading bird in the bittern subfamily (Botaurinae) of the heron family Ardeidae. There are two subspecies, the northern race (B. s. stellaris) breeding in parts of Europe and across the Palearctic, as well as on the northern coast of Africa, while the southern race (B. s. capensis) is endemic to parts of southern Africa. It is a secretive bird, seldom seen in the open as it prefers to skulk in reed beds and thick vegetation near water bodies. Its presence is apparent in the spring, when the booming call of the male during the breeding season can be heard. It feeds on fish, small mammals, fledgling birds, amphibians, crustaceans and insects.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Eurasian_Bittern_-_Torrile_-_Italy_4528_%2815409347121%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Eurasian_Bittern_-_Torrile_-_Italy_4528_%2815409347121%29.jpg/330px-Eurasian_Bittern_-_Torrile_-_Italy_4528_%2815409347121%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eurasian_Bittern_-_Torrile_-_Italy_4528_(15409347121).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 127.0,
+   "max": 127.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 42.0,
+   "max": 2906.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Botaurus"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Bittern",
+  "Great Bittern"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25709"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eurasian_bittern"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

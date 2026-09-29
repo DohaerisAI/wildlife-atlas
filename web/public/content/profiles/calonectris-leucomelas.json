@@ -1,0 +1,54 @@
+{
+ "scientific": "Calonectris leucomelas",
+ "name": "Streaked Shearwater",
+ "qid": "Q181320",
+ "description": "species of bird",
+ "extract": "The streaked shearwater (Calonectris leucomelas) is a species of seabird in the petrel family Procellariidae. It is native to the Western Pacific and ranges from Japan to Australia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Streaked_shearwater_sitting.jpg/1280px-Streaked_shearwater_sitting.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Streaked_shearwater_sitting.jpg/330px-Streaked_shearwater_sitting.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Streaked_shearwater_sitting.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Kanachoro",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 103.0,
+   "max": 122.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Calonectris"
+  },
+  "family": {
+   "scientific": "Procellariidae"
+  },
+  "order": {
+   "scientific": "Procellariiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q181320"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Streaked_shearwater"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

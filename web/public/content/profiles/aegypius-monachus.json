@@ -1,0 +1,72 @@
+{
+ "scientific": "Aegypius monachus",
+ "name": "Cinereous Vulture",
+ "qid": "Q168677",
+ "description": "species of bird",
+ "extract": "The cinereous vulture (Aegypius monachus), also known as the black vulture, Eurasian black vulture, and monk vulture, is a very large raptor in the family Accipitridae distributed through much of temperate Eurasia. With a body length of 1.2 m (3 ft 11 in), 3.1 m (10 ft) across the wings and a maximum weight of 12.5 kg (28 lb), it is the largest Old World vulture and largest member of the family Accipitridae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Cinereous_vulture_-_Al-_Al-Liyah_reserve_3.jpg/1280px-Cinereous_vulture_-_Al-_Al-Liyah_reserve_3.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Cinereous_vulture_-_Al-_Al-Liyah_reserve_3.jpg/330px-Cinereous_vulture_-_Al-_Al-Liyah_reserve_3.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cinereous_vulture_-_Al-_Al-Liyah_reserve_3.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Ghasem bavi",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Buitre_negro.jpg/1280px-Buitre_negro.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Buitre_negro.jpg/330px-Buitre_negro.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Buitre_negro.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Juan Lacruz",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 250.0,
+   "max": 250.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 243.0,
+   "max": 243.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aegypius"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "black vulture",
+  "monk vulture",
+  "Eurasian Black Vulture"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q168677"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cinereous_vulture"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

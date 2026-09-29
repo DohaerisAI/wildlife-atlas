@@ -1,0 +1,65 @@
+{
+ "scientific": "Nisaetus cirrhatus",
+ "name": "Changeable Hawk Eagle",
+ "qid": "Q116670",
+ "description": "species of bird",
+ "extract": "The changeable hawk-eagle (Nisaetus cirrhatus) or crested hawk-eagle is a large bird of prey species of the family Accipitridae. More informal or antiquated English common names include the marsh hawk-eagle or Indian crested hawk-eagle. It is a member of the subfamily Aquilinae, with signature feathers, absent in tropical raptors from outside this subfamily, covering the tarsus. It was formerly placed in the genus Spizaetus, but studies pointed to the group being paraphyletic resulting in the Old World members being placed in Nisaetus and separated from the New World species. It is a typical \"hawk-eagle\" in that it is an agile forest-dwelling predator and like many such eagles readily varies its prey selection between birds, mammals or reptiles as well as other vertebrates. Among the members of its genus, the changeable hawk-eagle stands out as the most widely distributed, adaptable and abundant species. Individuals show a wide range of variation in plumage from pale to dark, varying with moult and age giving rise to the name \"changeable\".",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Changeable_Hawk_eagle_-_Crested_Hawk-Eagle_-_Flickr_-_Lip_Kee.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Changeable_Hawk_eagle_-_Crested_Hawk-Eagle_-_Flickr_-_Lip_Kee.jpg/330px-Changeable_Hawk_eagle_-_Crested_Hawk-Eagle_-_Flickr_-_Lip_Kee.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Changeable_Hawk_eagle_-_Crested_Hawk-Eagle_-_Flickr_-_Lip_Kee.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee from Singapore, Republic of Singapore",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/SL_Bundala_NP_asv2020-01_img31.jpg/1280px-SL_Bundala_NP_asv2020-01_img31.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/SL_Bundala_NP_asv2020-01_img31.jpg/330px-SL_Bundala_NP_asv2020-01_img31.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:SL_Bundala_NP_asv2020-01_img31.jpg",
+   "license": "FAL",
+   "artist": "A.Savin",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 134.1,
+   "max": 134.1,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Nisaetus"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Spizaetus cirrhatus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q116670"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Changeable_hawk-eagle"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

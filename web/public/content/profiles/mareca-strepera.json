@@ -1,0 +1,68 @@
+{
+ "scientific": "Mareca strepera",
+ "name": "Gadwall",
+ "qid": "Q28106966",
+ "description": "species of bird",
+ "extract": "The gadwall (Mareca strepera) is a common and widespread dabbling duck in the family Anatidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Gadwall-Anas-strepera.jpg/1280px-Gadwall-Anas-strepera.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Gadwall-Anas-strepera.jpg/330px-Gadwall-Anas-strepera.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gadwall-Anas-strepera.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Gadwall-female.jpg/1280px-Gadwall-female.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Gadwall-female.jpg/330px-Gadwall-female.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gadwall-female.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": "Female"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Anas_strepera_pair.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Anas_strepera_pair.jpg/330px-Anas_strepera_pair.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Anas_strepera_pair.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Unknown",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Mareca"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Anas strepera"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q28106966"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gadwall"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

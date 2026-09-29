@@ -1,0 +1,67 @@
+{
+ "scientific": "Calidris ferruginea",
+ "name": "Curlew Sandpiper",
+ "qid": "Q62345",
+ "description": "species of bird",
+ "extract": "The curlew sandpiper (Calidris ferruginea) is a small wader. It is a long-distance migrant, breeding in the bogs and coastal lowlands of the Siberian Arctic, arriving there in June and staying until August or September. After the breeding season, it migrates south to spend the winter in Africa and along the coasts of Oceania and southern Eurasia, occupying tidal mudflats and saltpans.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Calidris_ferruginea%2C_winter_adult%2C_Pak_Thale.jpg/1280px-Calidris_ferruginea%2C_winter_adult%2C_Pak_Thale.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Calidris_ferruginea%2C_winter_adult%2C_Pak_Thale.jpg/330px-Calidris_ferruginea%2C_winter_adult%2C_Pak_Thale.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Calidris_ferruginea,_winter_adult,_Pak_Thale.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Calidris_ferruginea_%28Marek_Szczepanek%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Calidris_ferruginea_%28Marek_Szczepanek%29.jpg/330px-Calidris_ferruginea_%28Marek_Szczepanek%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Calidris_ferruginea_(Marek_Szczepanek).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Marek Szczepanek",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 44.0,
+   "max": 44.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 12.0,
+   "max": 12.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Calidris"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q62345"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Curlew_sandpiper"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

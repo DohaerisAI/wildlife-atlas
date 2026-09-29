@@ -1,0 +1,75 @@
+{
+ "scientific": "Sylvia atricapilla",
+ "name": "Eurasian Blackcap",
+ "qid": "Q188446",
+ "description": "species of bird",
+ "extract": "The Eurasian blackcap (Sylvia atricapilla) is a bird usually known simply as the blackcap. It is a common and widespread warbler. It has mainly olive-grey upperparts and pale grey underparts, and differences across the five subspecies are small. Both sexes have a neat coloured cap to the head, black in the male and reddish-brown in the female. The male's typical song is a rich musical warbling, often ending in a loud high-pitched crescendo, but a simpler song is given in some isolated areas, such as valleys in the Alps. The blackcap's closest relative is the garden warbler, which looks quite different but has a similar song.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Sylvia_atricapilla_-Lullington_Heath%2C_East_Sussex%2C_England_-male-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Sylvia_atricapilla_-Lullington_Heath%2C_East_Sussex%2C_England_-male-8.jpg/330px-Sylvia_atricapilla_-Lullington_Heath%2C_East_Sussex%2C_England_-male-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sylvia_atricapilla_-Lullington_Heath,_East_Sussex,_England_-male-8.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Ron Knight from Seaford, East Sussex, United Kingdom",
+   "caption": "Male"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Sylvia_atricappila_vogelartinfo_chris_romeiks_R7F4015.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Sylvia_atricappila_vogelartinfo_chris_romeiks_R7F4015.jpg/330px-Sylvia_atricappila_vogelartinfo_chris_romeiks_R7F4015.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sylvia_atricappila_vogelartinfo_chris_romeiks_R7F4015.jpg",
+   "license": "GFDL 1.2",
+   "artist": "Vogelartinfo",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Sylvia_atricapilla_male_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Sylvia_atricapilla_male_2.jpg/330px-Sylvia_atricapilla_male_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sylvia_atricapilla_male_2.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "photo taken by Jakub Stančo,",
+   "caption": "Male"
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 23.0,
+   "max": 23.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 2.2,
+   "max": 18.1,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sylvia"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Blackcap"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q188446"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eurasian_blackcap"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,53 @@
+{
+ "scientific": "Columba rupestris",
+ "name": "Hill Pigeon",
+ "qid": "Q754662",
+ "description": "species of bird",
+ "extract": "The hill pigeon (Columba rupestris) is a species of bird in the family Columbidae. Other names include eastern rock dove and Turkestan hill dove.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Hill_Pigeon%2C_near_Dras%2C_Jammu_and_Kashmir%2C_India.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Hill_Pigeon%2C_near_Dras%2C_Jammu_and_Kashmir%2C_India.jpg/330px-Hill_Pigeon%2C_near_Dras%2C_Jammu_and_Kashmir%2C_India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hill_Pigeon,_near_Dras,_Jammu_and_Kashmir,_India.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "As kannan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Columba"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "eastern rock dove",
+  "Turkestan hill dove"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q754662"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hill_pigeon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

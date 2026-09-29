@@ -1,0 +1,59 @@
+{
+ "scientific": "Hydroprogne caspia",
+ "name": "Caspian Tern",
+ "qid": "Q27129",
+ "description": "species of bird",
+ "extract": "The Caspian tern (Hydroprogne caspia) is the world's largest species of tern, with a subcosmopolitan but scattered distribution. Despite its extensive range, it is monotypic of its genus, and has no accepted subspecies. The genus name is from Ancient Greek hudro-, \"water-\", and Latin progne, \"swallow\". The specific caspia is from Latin and, like the English name, refers to the Caspian Sea.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Sterna-caspia-010.jpg/1280px-Sterna-caspia-010.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Sterna-caspia-010.jpg/330px-Sterna-caspia-010.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sterna-caspia-010.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Mdf",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 127.0,
+   "max": 140.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 588.0,
+   "max": 680.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Hydroprogne"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27129"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Caspian_tern"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

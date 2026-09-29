@@ -1,0 +1,79 @@
+{
+ "scientific": "Egretta sacra",
+ "name": "Pacific Reef Heron",
+ "qid": "Q392232",
+ "description": "species of bird",
+ "extract": "The Pacific reef heron (Egretta sacra), also known as the eastern reef heron or eastern reef egret, is a species of heron found throughout southern Asia and Oceania. It occurs in two colour morphs with either slaty grey or pure white plumage. The sexes are similar in appearance.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Eastern_Reef_Egret.jpg/1280px-Eastern_Reef_Egret.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Eastern_Reef_Egret.jpg/330px-Eastern_Reef_Egret.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eastern_Reef_Egret.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Glen Fergus",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Eastern_Reef_Egret_-_dark_and_light_morphs-trim.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Eastern_Reef_Egret_-_dark_and_light_morphs-trim.jpg/330px-Eastern_Reef_Egret_-_dark_and_light_morphs-trim.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eastern_Reef_Egret_-_dark_and_light_morphs-trim.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Unknown",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Egretta_sacra.jpg/1280px-Egretta_sacra.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Egretta_sacra.jpg/330px-Egretta_sacra.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Egretta_sacra.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 90.0,
+   "max": 100.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 28.0,
+   "max": 28.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Egretta"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Pacific reef-egret"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q392232"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pacific_reef_heron"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

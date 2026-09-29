@@ -1,0 +1,51 @@
+{
+ "scientific": "Emberiza fucata",
+ "name": "Chestnut-eared Bunting",
+ "qid": "Q1586230",
+ "description": "species of bird",
+ "extract": "The chestnut-eared bunting (Emberiza fucata), also called grey-headed bunting or grey-hooded bunting, with the latter name also used for grey-necked bunting, is a passerine bird in the bunting family Emberizidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Emberiza_fucata.jpg/1280px-Emberiza_fucata.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Emberiza_fucata.jpg/330px-Emberiza_fucata.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Emberiza_fucata.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "https://www.flickr.com/photos/ken_san/",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 19.8,
+   "max": 19.8,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Emberiza"
+  },
+  "family": {
+   "scientific": "Emberizidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1586230"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chestnut-eared_bunting"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

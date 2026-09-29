@@ -1,0 +1,70 @@
+{
+ "scientific": "Cuculus canorus",
+ "name": "Common Cuckoo",
+ "qid": "Q18845",
+ "description": "species of bird",
+ "extract": "The cuckoo, common cuckoo, European cuckoo or Eurasian cuckoo (Cuculus canorus) is a member of the cuckoo order of birds, Cuculiformes, which includes the roadrunners, the anis and the coucals.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Cuculus_canorus_vogelartinfo_chris_romeiks_CHR0791_cropped.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Cuculus_canorus_vogelartinfo_chris_romeiks_CHR0791_cropped.jpg/330px-Cuculus_canorus_vogelartinfo_chris_romeiks_CHR0791_cropped.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cuculus_canorus_vogelartinfo_chris_romeiks_CHR0791_cropped.jpg",
+   "license": "GFDL 1.2",
+   "artist": "Cuculus_canorus_vogelartinfo_chris_romeiks_CHR0791.jpg: Vogelartinfo\nderivative work: Bogbumper (talk)",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Cuculus_canorus2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Cuculus_canorus2.jpg/330px-Cuculus_canorus2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cuculus_canorus2.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "GabrielBuissart",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 58.0,
+   "max": 58.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 3.2,
+   "max": 117.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cuculus"
+  },
+  "family": {
+   "scientific": "Cuculidae"
+  },
+  "order": {
+   "scientific": "Cuculiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "cuckoo"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q18845"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_cuckoo"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

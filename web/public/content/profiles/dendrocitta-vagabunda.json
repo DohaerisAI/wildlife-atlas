@@ -1,0 +1,46 @@
+{
+ "scientific": "Dendrocitta vagabunda",
+ "name": "Rufous Treepie",
+ "qid": "Q282256",
+ "description": "species of bird",
+ "extract": "The rufous treepie (Dendrocitta vagabunda) is a treepie, native to the Indian subcontinent and adjoining parts of Southeast Asia.  It is a member of the crow family, Corvidae. It is long tailed and has loud musical calls making it very conspicuous. It is found commonly in open scrub, agricultural areas, forests as well as urban gardens. Like other corvids it is very adaptable, omnivorous and opportunistic in feeding.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Rufous_treepie_%28Dendrocitta_vagabunda%29_02.jpg/1280px-Rufous_treepie_%28Dendrocitta_vagabunda%29_02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Rufous_treepie_%28Dendrocitta_vagabunda%29_02.jpg/330px-Rufous_treepie_%28Dendrocitta_vagabunda%29_02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rufous_treepie_(Dendrocitta_vagabunda)_02.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Paramanu Sarkar",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dendrocitta"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q282256"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rufous_treepie"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

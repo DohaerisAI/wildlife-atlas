@@ -1,0 +1,59 @@
+{
+ "scientific": "Ampeliceps coronatus",
+ "name": "Golden-crested Myna",
+ "qid": "Q1094743",
+ "description": "species of bird",
+ "extract": "The golden-crested myna (Ampeliceps coronatus) is a species in the starling and myna family, Sturnidae. It is found from north-eastern India through Indochina and has been introduced to the British Indian Ocean Territory. Its main habitat is subtropical or tropical moist lowland forest, but it is also found in heavily degraded former forest.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Ampeliceps_coronatus_186683365.jpg/1280px-Ampeliceps_coronatus_186683365.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Ampeliceps_coronatus_186683365.jpg/330px-Ampeliceps_coronatus_186683365.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ampeliceps_coronatus_186683365.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Rejoice Gassah",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Golden_crowned_Myna.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Golden_crowned_Myna.jpg/330px-Golden_crowned_Myna.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Golden_crowned_Myna.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Charles Lam from Hong Kong, China",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 88.0,
+   "max": 88.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ampeliceps"
+  },
+  "family": {
+   "scientific": "Sturnidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1094743"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Golden-crested_myna"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

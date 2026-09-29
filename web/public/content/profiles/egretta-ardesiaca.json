@@ -1,0 +1,63 @@
+{
+ "scientific": "Egretta ardesiaca",
+ "name": "Black Heron",
+ "qid": "Q392175",
+ "description": "species of bird",
+ "extract": "The black heron (Egretta ardesiaca), also known as the black egret, is an African heron. It uses its wings to form a canopy when fishing.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Black_heron%2C_Egretta_ardesiaca%2C_at_Marievale_Nature_Reserve%2C_Gauteng%2C_South_Africa_%2829946902700%29.jpg/1280px-Black_heron%2C_Egretta_ardesiaca%2C_at_Marievale_Nature_Reserve%2C_Gauteng%2C_South_Africa_%2829946902700%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Black_heron%2C_Egretta_ardesiaca%2C_at_Marievale_Nature_Reserve%2C_Gauteng%2C_South_Africa_%2829946902700%29.jpg/330px-Black_heron%2C_Egretta_ardesiaca%2C_at_Marievale_Nature_Reserve%2C_Gauteng%2C_South_Africa_%2829946902700%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black_heron,_Egretta_ardesiaca,_at_Marievale_Nature_Reserve,_Gauteng,_South_Africa_(29946902700).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Derek Keats from Johannesburg, South Africa",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Flickr_-_Rainbirder_-_Black_Egret_%28Egretta_ardesiaca%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Flickr_-_Rainbirder_-_Black_Egret_%28Egretta_ardesiaca%29.jpg/330px-Flickr_-_Rainbirder_-_Black_Egret_%28Egretta_ardesiaca%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_Rainbirder_-_Black_Egret_(Egretta_ardesiaca).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Steve Garvie from Dunfermline, Fife, Scotland",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 28.0,
+   "max": 28.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Egretta"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q392175"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black_heron"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

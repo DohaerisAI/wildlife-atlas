@@ -1,0 +1,61 @@
+{
+ "scientific": "Leptoptilos javanicus",
+ "name": "Lesser Adjutant Stork",
+ "qid": "Q607893",
+ "description": "species of bird",
+ "extract": "The lesser adjutant (Leptoptilos javanicus) is a large wading bird in the stork family Ciconiidae. Like other members of its genus, it has a bare neck and head. It is however more closely associated with wetland habitats where it is solitary and is less likely to scavenge than the related greater adjutant. It is a widespread species found from India through Southeast Asia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Lesser_adjutant.jpg/1280px-Lesser_adjutant.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Lesser_adjutant.jpg/330px-Lesser_adjutant.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lesser_adjutant.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Rana.choudhuri",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Lesser_Adjutant_Chonburi.jpg/1280px-Lesser_Adjutant_Chonburi.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Lesser_Adjutant_Chonburi.jpg/330px-Lesser_Adjutant_Chonburi.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lesser_Adjutant_Chonburi.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jason Thompson",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Leptoptilos"
+  },
+  "family": {
+   "scientific": "Ciconiidae",
+   "name": "stork"
+  },
+  "order": {
+   "scientific": "Ciconiiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Lesser Adjutant"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q607893"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lesser_adjutant"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,54 @@
+{
+ "scientific": "Emberiza aureola",
+ "name": "Yellow-breasted Bunting",
+ "qid": "Q335535",
+ "description": "species of bird",
+ "extract": "The yellow-breasted bunting (Emberiza aureola) is a passerine bird in the bunting family Emberizidae that is found across the Boreal and East Palearctic. The genus name Emberiza is from Old German Embritz, a bunting. The specific aureola is Latin for \"golden\". The bird's call is a distinctive zick, and the song is a clear tru-tru, tri-tri.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Wiki-simaaoji-2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Wiki-simaaoji-2.jpg/330px-Wiki-simaaoji-2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wiki-simaaoji-2.jpg",
+   "license": "Copyrighted free use",
+   "artist": "Craft GIN",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Yellow-breasted_bunting_in_Nepal_02_-Cropped.jpg/1280px-Yellow-breasted_bunting_in_Nepal_02_-Cropped.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Yellow-breasted_bunting_in_Nepal_02_-Cropped.jpg/330px-Yellow-breasted_bunting_in_Nepal_02_-Cropped.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Yellow-breasted_bunting_in_Nepal_02_-Cropped.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Manshanta Ghimire",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "CR",
+   "label": "Critically Endangered"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Emberiza"
+  },
+  "family": {
+   "scientific": "Emberizidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q335535"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yellow-breasted_bunting"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,70 @@
+{
+ "scientific": "Hirundo rustica",
+ "name": "Barn Swallow",
+ "qid": "Q25429",
+ "description": "species of bird",
+ "extract": "The barn swallow (Hirundo rustica) is the most widespread species of swallow in the world, occurring on all continents, with vagrants reported even in Antarctica. It is a distinctive passerine bird with blue upperparts and a long, deeply forked tail. In Anglophone Europe, it is just called the swallow; in northern Europe, it is the only member of family Hirundinidae called a \"swallow\" rather than a \"martin\".",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Rauchschwalbe_Hirundo_rustica.jpg/1280px-Rauchschwalbe_Hirundo_rustica.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Rauchschwalbe_Hirundo_rustica.jpg/330px-Rauchschwalbe_Hirundo_rustica.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rauchschwalbe_Hirundo_rustica.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Barn_Swallow_%2895504589%29.jpeg/1280px-Barn_Swallow_%2895504589%29.jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Barn_Swallow_%2895504589%29.jpeg/330px-Barn_Swallow_%2895504589%29.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Barn_Swallow_(95504589).jpeg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Morhaf Aljanee",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Hirundo-rustica-001.jpg/1280px-Hirundo-rustica-001.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Hirundo-rustica-001.jpg/330px-Hirundo-rustica-001.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hirundo-rustica-001.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Mdf at English Wikipedia",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 32.0,
+   "max": 32.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Hirundo"
+  },
+  "family": {
+   "scientific": "Hirundinidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "swallow"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25429"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barn_swallow"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

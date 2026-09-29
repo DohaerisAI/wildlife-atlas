@@ -1,0 +1,64 @@
+{
+ "scientific": "Spinus spinus",
+ "name": "Eurasian Siskin",
+ "qid": "Q27075864",
+ "description": "species of bird",
+ "extract": "The Eurasian siskin (Spinus spinus) is a small passerine bird in the finch family Fringillidae. It is also called the European siskin, common siskin or just siskin. Other (archaic) names include black-headed goldfinch, barley bird and aberdevine. It is very common throughout Europe and Eurosiberia. It is found in forested areas, both coniferous and mixed woodland where it feeds on seeds of all kinds, especially of alder and conifers.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Carduelis_spinus_male.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Carduelis_spinus_male.jpg/330px-Carduelis_spinus_male.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Carduelis_spinus_male.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Sławek Staszczuk (photoss [AT] hotmail.co.uk)",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Eurasian_siskin_%28Spinus_spinus%29_female_Biebrzanski.jpg/1280px-Eurasian_siskin_%28Spinus_spinus%29_female_Biebrzanski.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Eurasian_siskin_%28Spinus_spinus%29_female_Biebrzanski.jpg/330px-Eurasian_siskin_%28Spinus_spinus%29_female_Biebrzanski.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eurasian_siskin_(Spinus_spinus)_female_Biebrzanski.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 21.0,
+   "max": 21.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 1.3,
+   "max": 13.8,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Spinus"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075864"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eurasian_siskin"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

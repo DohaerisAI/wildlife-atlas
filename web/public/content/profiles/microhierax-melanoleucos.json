@@ -1,0 +1,62 @@
+{
+ "scientific": "Microhierax melanoleucos",
+ "name": "Pied Falconet",
+ "qid": "Q924367",
+ "description": "species of bird",
+ "extract": "The pied falconet, (Microhierax melanoleucos) is a species of bird of prey in the family Falconidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Pied_Falconet_AMSM5478_PFAL.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Pied_Falconet_AMSM5478_PFAL.jpg/330px-Pied_Falconet_AMSM5478_PFAL.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pied_Falconet_AMSM5478_PFAL.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Savi.odl",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 33.0,
+   "max": 37.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 65.0,
+   "max": 65.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Microhierax"
+  },
+  "family": {
+   "scientific": "Falconidae"
+  },
+  "order": {
+   "scientific": "Falconiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Microhierax melanoleucus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q924367"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pied_falconet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,59 @@
+{
+ "scientific": "Ibidorhyncha struthersii",
+ "name": "Ibisbill",
+ "qid": "Q217704",
+ "description": "species of bird",
+ "extract": "The ibisbill  (Ibidorhyncha struthersii) is a bird related to the waders, but sufficiently distinctive to merit its own family Ibidorhynchidae. It is grey with a white belly, red legs and long down-curved bill, and a black face and black breast band. It occurs on the shingle riverbanks of the high plateaux of central Asia and the Himalayas.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Ibisbill_Ibidorhyncha_struthersii_by_Dr_Raju_Kasambe_%284%29.jpg/1280px-Ibisbill_Ibidorhyncha_struthersii_by_Dr_Raju_Kasambe_%284%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Ibisbill_Ibidorhyncha_struthersii_by_Dr_Raju_Kasambe_%284%29.jpg/330px-Ibisbill_Ibidorhyncha_struthersii_by_Dr_Raju_Kasambe_%284%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ibisbill_Ibidorhyncha_struthersii_by_Dr_Raju_Kasambe_(4).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dr. Raju Kasambe",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 74.0,
+   "max": 74.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 37.0,
+   "max": 294.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ibidorhyncha"
+  },
+  "family": {
+   "scientific": "Ibidorhynchidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q217704"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ibisbill"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

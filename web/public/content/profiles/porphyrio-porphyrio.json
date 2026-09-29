@@ -1,0 +1,49 @@
+{
+ "scientific": "Porphyrio porphyrio",
+ "name": "Western Swamphen",
+ "qid": "Q187902",
+ "description": "species of bird",
+ "extract": "The western swamphen (Porphyrio porphyrio) is a species of swamphen in the rail family Rallidae, one of the six species of purple swamphen. This chicken-sized bird, with its large feet, bright plumage and red bill and frontal shield is easily recognisable in its native range. It used to be considered the nominate subspecies of the purple swamphen, but is now recognised as a separate species. The western swamphen is found in wetlands in Spain (where the largest population lives), Portugal, southeastern France, Italy (Sardinia and Sicily) and northwestern Africa (Morocco, Algeria and Tunisia).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Purpurhuhn.jpg/1280px-Purpurhuhn.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Purpurhuhn.jpg/330px-Purpurhuhn.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Purpurhuhn.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Porphyrio"
+  },
+  "family": {
+   "scientific": "Rallidae"
+  },
+  "order": {
+   "scientific": "Gruiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q187902"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Western_swamphen"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

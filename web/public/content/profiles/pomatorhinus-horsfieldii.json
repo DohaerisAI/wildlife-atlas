@@ -1,0 +1,54 @@
+{
+ "scientific": "Pomatorhinus horsfieldii",
+ "name": "Indian Scimitar-Babbler",
+ "qid": "Q1318011",
+ "description": "species of bird",
+ "extract": "The Indian scimitar babbler (Pomatorhinus horsfieldii) is an Old World babbler. It is found in peninsular India in a range of forest habitats. They are most often detected by their distinctive calls, which include an antiphonal duet by a pair of birds. They are often hard to see as they forage through dense vegetation. The long, curved yellow, scimitar-shaped bills give them their name. It has been treated in the past as a subspecies of the white-browed scimitar babbler which is found along the Himalayas but now separated into two species, the peninsular Indian species and the Sri Lanka scimitar babbler (Pomatorhinus melanurus).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Indian_Scimitar_Babbler_-_Flickr_-_Sai_Adikarla.jpg/1280px-Indian_Scimitar_Babbler_-_Flickr_-_Sai_Adikarla.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Indian_Scimitar_Babbler_-_Flickr_-_Sai_Adikarla.jpg/330px-Indian_Scimitar_Babbler_-_Flickr_-_Sai_Adikarla.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Indian_Scimitar_Babbler_-_Flickr_-_Sai_Adikarla.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Sai Adikarla",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 43.0,
+   "max": 43.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pomatorhinus"
+  },
+  "family": {
+   "scientific": "Timaliidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Indian Scimitar Babbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1318011"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_scimitar_babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

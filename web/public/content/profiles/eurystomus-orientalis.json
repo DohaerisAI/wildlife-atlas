@@ -1,0 +1,53 @@
+{
+ "scientific": "Eurystomus orientalis",
+ "name": "Oriental Dollarbird",
+ "qid": "Q44109",
+ "description": "species of bird",
+ "extract": "The Oriental dollarbird (Eurystomus orientalis) is a bird of the roller family, so named because of the distinctive pale blue or white, coin-shaped spots on its wings. It can be found from Australia to Korea, Japan and India.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Eurystomus_orientalis_orientalis_178011313.jpg/1280px-Eurystomus_orientalis_orientalis_178011313.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Eurystomus_orientalis_orientalis_178011313.jpg/330px-Eurystomus_orientalis_orientalis_178011313.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eurystomus_orientalis_orientalis_178011313.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Wich'yanan L",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Dollarbird_Samcem_Dec02.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Dollarbird_Samcem_Dec02.JPG/330px-Dollarbird_Samcem_Dec02.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Dollarbird_Samcem_Dec02.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Aviceda",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Eurystomus"
+  },
+  "family": {
+   "scientific": "Coraciidae"
+  },
+  "order": {
+   "scientific": "Coraciiformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q44109"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Oriental_dollarbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

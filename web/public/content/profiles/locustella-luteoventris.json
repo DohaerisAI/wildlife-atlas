@@ -1,0 +1,54 @@
+{
+ "scientific": "Locustella luteoventris",
+ "name": "Brown/Russet Bush Warbler",
+ "qid": "Q27075499",
+ "description": "species of bird",
+ "extract": "The brown bush warbler (Locustella luteoventris) is a songbird species. Formerly placed in the \"Old World warbler\" assemblage as Bradypterus luteoventrus, it is now placed in the newly recognized family Locustellidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Brown_Bush-Warbler_%28Locustella_luteoventris%29_%288077170366%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Brown_Bush-Warbler_%28Locustella_luteoventris%29_%288077170366%29.jpg/330px-Brown_Bush-Warbler_%28Locustella_luteoventris%29_%288077170366%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brown_Bush-Warbler_(Locustella_luteoventris)_(8077170366).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Ron Knight from Seaford, East Sussex, United Kingdom",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 10.0,
+   "max": 10.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Locustella"
+  },
+  "family": {
+   "scientific": "Locustellidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Brown Bush Warbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075499"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown_bush_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

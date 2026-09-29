@@ -1,0 +1,40 @@
+{
+ "scientific": "Porzana paykullii",
+ "name": "Band-bellied Crake",
+ "qid": "Q747073",
+ "description": "species of bird",
+ "extract": "",
+ "images": [],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Porzana"
+  },
+  "family": {
+   "scientific": "Rallidae"
+  },
+  "order": {
+   "scientific": "Gruiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Rallina paykulli",
+  "Zapornia paykullii"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q747073"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

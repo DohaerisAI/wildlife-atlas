@@ -1,0 +1,58 @@
+{
+ "scientific": "Ploceus megarhynchus",
+ "name": "Finn's Weaver",
+ "qid": "Q1314032",
+ "description": "species of bird",
+ "extract": "Finn's weaver (Ploceus megarhynchus), also known as Finn's baya and yellow weaver, is a weaver bird species native to the Ganges and Brahmaputra valleys in India and Nepal. Two subspecies are known; the nominate subspecies occurs in the Kumaon area and salimalii in the eastern Terai.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/PloceusMegarhynchusSmit.jpg/1280px-PloceusMegarhynchusSmit.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/PloceusMegarhynchusSmit.jpg/330px-PloceusMegarhynchusSmit.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:PloceusMegarhynchusSmit.jpg",
+   "license": "Public domain",
+   "artist": "Joseph Smit",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Finn%27s_Weaver_Baur_Reservoir_Uttarand_India_05.10.2014.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Finn%27s_Weaver_Baur_Reservoir_Uttarand_India_05.10.2014.jpg/330px-Finn%27s_Weaver_Baur_Reservoir_Uttarand_India_05.10.2014.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Finn%27s_Weaver_Baur_Reservoir_Uttarand_India_05.10.2014.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 32.0,
+   "max": 37.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ploceus"
+  },
+  "family": {
+   "scientific": "Ploceidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Yellow weaver"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1314032"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Finn%27s_weaver"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

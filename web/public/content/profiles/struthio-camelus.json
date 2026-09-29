@@ -1,0 +1,74 @@
+{
+ "scientific": "Struthio camelus",
+ "name": "Common ostrich",
+ "qid": "Q17592",
+ "description": "species of large flightless bird",
+ "extract": "The common ostrich (Struthio camelus), or simply ostrich, is a species of flightless bird native to certain areas of Africa (and historically, Arabia) and is the largest living species of bird. The common ostrich is one of two extant species of ostriches, the only living members of the genus Struthio in the ratite group of birds. The other is the Somali ostrich (Struthio molybdophanes), which has been recognised as a distinct species by BirdLife International since 2014, having been previously considered a distinctive subspecies of ostrich.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/North_African_Ostrich_-_Masai_Ostrich_%28Struthio_camelus_massaicus%29_-_Flickr_-_Lip_Kee.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/North_African_Ostrich_-_Masai_Ostrich_%28Struthio_camelus_massaicus%29_-_Flickr_-_Lip_Kee.jpg/330px-North_African_Ostrich_-_Masai_Ostrich_%28Struthio_camelus_massaicus%29_-_Flickr_-_Lip_Kee.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:North_African_Ostrich_-_Masai_Ostrich_(Struthio_camelus_massaicus)_-_Flickr_-_Lip_Kee.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee from Singapore, Republic of Singapore",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/North_African_Ostrich_-_Masai_Ostrich_-_female_non-breeding_%28Struthio_camelus%29_-_Flickr_-_Lip_Kee_%281%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/North_African_Ostrich_-_Masai_Ostrich_-_female_non-breeding_%28Struthio_camelus%29_-_Flickr_-_Lip_Kee_%281%29.jpg/330px-North_African_Ostrich_-_Masai_Ostrich_-_female_non-breeding_%28Struthio_camelus%29_-_Flickr_-_Lip_Kee_%281%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:North_African_Ostrich_-_Masai_Ostrich_-_female_non-breeding_(Struthio_camelus)_-_Flickr_-_Lip_Kee_(1).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee from Singapore, Republic of Singapore",
+   "caption": "Female"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Ostrich_in_a_garden.jpg/1280px-Ostrich_in_a_garden.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Ostrich_in_a_garden.jpg/330px-Ostrich_in_a_garden.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ostrich_in_a_garden.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Knowledge and philosophy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 1500.0,
+   "max": 115000.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Struthio"
+  },
+  "family": {
+   "scientific": "Struthionidae"
+  },
+  "order": {
+   "scientific": "Struthioniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "ostrich",
+  "African ostrich"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q17592"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_ostrich"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

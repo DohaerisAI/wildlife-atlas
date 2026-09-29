@@ -1,0 +1,51 @@
+{
+ "scientific": "Harpactes fasciatus",
+ "name": "Malabar Trogon",
+ "qid": "Q1274580",
+ "description": "species of bird",
+ "extract": "The Malabar trogon (Harpactes fasciatus) is a species of bird in the trogon family. It is found in the forests of India and Sri Lanka. In India, it is mainly found in the Western Ghats, hill forests of central India and in parts of the Eastern Ghats. They are insectivorous and although not migratory, may move seasonally in response to rain in hill forest regions. Like in other trogons, males and females vary in plumage. The birds utter low, guttural calls that can be heard only at close quarters, and perch still on a branch under the forest canopy, often facing away from the viewer, making them easy to miss despite their colourful plumage.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Male_Malabar_Trogon_%28crop%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Male_Malabar_Trogon_%28crop%29.jpg/330px-Male_Malabar_Trogon_%28crop%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Male_Malabar_Trogon_(crop).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Male_Malabar_Trogon.jpg: Cks3976 (Subramanya CK <subramanya AT walkinthewild.net>)\nderivative work: Praveenp (Uploaded with derivativeFX)",
+   "caption": "Male"
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 63.0,
+   "max": 63.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Harpactes"
+  },
+  "family": {
+   "scientific": "Trogonidae",
+   "name": "trogon"
+  },
+  "order": {
+   "scientific": "Trogoniformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1274580"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Malabar_trogon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

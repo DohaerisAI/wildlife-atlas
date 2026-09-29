@@ -1,0 +1,51 @@
+{
+ "scientific": "Trochalopteron lineatum",
+ "name": "Streaked Laughingthrush",
+ "qid": "Q879650",
+ "description": "species of bird",
+ "extract": "The streaked laughingthrush (Trochalopteron lineatum) is a species of bird in the family Leiothrichidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Streaked_Laughingthrush1.jpg/1280px-Streaked_Laughingthrush1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Streaked_Laughingthrush1.jpg/330px-Streaked_Laughingthrush1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Streaked_Laughingthrush1.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Sunil Sharma",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 41.0,
+   "max": 41.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Trochalopteron"
+  },
+  "family": {
+   "scientific": "Leiothrichidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q879650"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Streaked_laughingthrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

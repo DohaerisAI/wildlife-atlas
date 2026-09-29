@@ -1,0 +1,51 @@
+{
+ "scientific": "Tesia cyaniventer",
+ "name": "Grey-bellied Tesia",
+ "qid": "Q2667930",
+ "description": "species of bird",
+ "extract": "The grey-bellied tesia (Tesia cyaniventer) is a species of warbler in the family Cettiidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Tesia_cyaniventer.jpg/1280px-Tesia_cyaniventer.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Tesia_cyaniventer.jpg/330px-Tesia_cyaniventer.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tesia_cyaniventer.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Umeshsrinivasan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 9.7,
+   "max": 9.7,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tesia"
+  },
+  "family": {
+   "scientific": "Cettiidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2667930"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey-bellied_tesia"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

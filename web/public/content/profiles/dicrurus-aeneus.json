@@ -1,0 +1,55 @@
+{
+ "scientific": "Dicrurus aeneus",
+ "name": "Bronzed Drongo",
+ "qid": "Q606498",
+ "description": "species of bird",
+ "extract": "The bronzed drongo (Dicrurus aeneus) is a small Indomalayan bird belonging to the drongo group. They are resident in the forests of the Indian subcontinent and Southeast Asia. They capture insects flying in the shade of the forest canopy by making aerial sallies from their perches. They are very similar to the other drongos of the region but are somewhat smaller and compact with differences in the fork depth and the patterns of gloss on their feathers.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Bronzed_Drongo_I2_IMG_1691.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Bronzed_Drongo_I2_IMG_1691.jpg/330px-Bronzed_Drongo_I2_IMG_1691.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bronzed_Drongo_I2_IMG_1691.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Bronzed_Drongo_in_Chintamoni_Kar_Bird_Sanctuary_December_2025_by_Tisha_Mukherjee_01.jpg/1280px-Bronzed_Drongo_in_Chintamoni_Kar_Bird_Sanctuary_December_2025_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Bronzed_Drongo_in_Chintamoni_Kar_Bird_Sanctuary_December_2025_by_Tisha_Mukherjee_01.jpg/330px-Bronzed_Drongo_in_Chintamoni_Kar_Bird_Sanctuary_December_2025_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bronzed_Drongo_in_Chintamoni_Kar_Bird_Sanctuary_December_2025_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dicrurus"
+  },
+  "family": {
+   "scientific": "Dicruridae",
+   "name": "drongo"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q606498"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bronzed_drongo"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

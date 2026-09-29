@@ -1,0 +1,62 @@
+{
+ "scientific": "Copsychus saularis",
+ "name": "Oriental Magpie-Robin",
+ "qid": "Q266761",
+ "description": "species of bird",
+ "extract": "The Oriental magpie-robin (Copsychus saularis) is a small passerine bird that was formerly classed as a member of the thrush family Turdidae, but now considered an Old World flycatcher. The males are distinctive black and white birds with a long tail that is held upright as they forage on the ground or perch conspicuously. Occurring across most of the Indian subcontinent and parts of Southeast Asia, they are common birds in urban gardens as well as forests. They are particularly well known for their songs and are popular as cagebirds.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Oriental_Magpie_Robin_%28Copsychus_saularis%29-_Male_at_Kolkata_I_IMG_3003.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Oriental_Magpie_Robin_%28Copsychus_saularis%29-_Male_at_Kolkata_I_IMG_3003.jpg/330px-Oriental_Magpie_Robin_%28Copsychus_saularis%29-_Male_at_Kolkata_I_IMG_3003.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Oriental_Magpie_Robin_(Copsychus_saularis)-_Male_at_Kolkata_I_IMG_3003.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": "Male"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Oriental_Magpie_Robin_I_IMG_6686.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Oriental_Magpie_Robin_I_IMG_6686.jpg/330px-Oriental_Magpie_Robin_I_IMG_6686.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Oriental_Magpie_Robin_I_IMG_6686.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 36.0,
+   "max": 36.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Copsychus"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Oriental magpie robin"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q266761"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Oriental_magpie-robin"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

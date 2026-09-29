@@ -1,0 +1,41 @@
+{
+ "scientific": "Prinia lepida",
+ "name": "Delicate prinia",
+ "qid": "Q117256935",
+ "description": "species of bird",
+ "extract": "The delicate prinia (Prinia lepida) is a small warbler. This prinia is a resident breeder in southern Asia, from Turkey to North India.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Prinia_gracile_-_Graceful_prinia_11.jpg/1280px-Prinia_gracile_-_Graceful_prinia_11.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Prinia_gracile_-_Graceful_prinia_11.jpg/330px-Prinia_gracile_-_Graceful_prinia_11.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Prinia_gracile_-_Graceful_prinia_11.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Zeynel Cebeci",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Prinia"
+  },
+  "family": {
+   "scientific": "Cisticolidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q117256935"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Delicate_prinia"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

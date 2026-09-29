@@ -1,0 +1,60 @@
+{
+ "scientific": "Ictinaetus malayensis",
+ "name": "Black Eagle",
+ "qid": "Q795439",
+ "description": "species of bird",
+ "extract": "The black eagle (Ictinaetus malaiensis) is a bird of prey. Like all eagles, it is in the family Accipitridae, and it is the only member of the genus Ictinaetus. It soars over forests in the hilly regions of tropical and subtropical South and Southeast Asia, as well as southeastern China, hunting mammals and birds, particularly at their nests. It is easily identified by its widely splayed and long primary \"fingers\", the characteristic silhouette, slow flight and yellow ceres and legs that contrast with the dark feathers.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Black_Eagle_DSC5485_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Black_Eagle_DSC5485_%28cropped%29.jpg/330px-Black_Eagle_DSC5485_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black_Eagle_DSC5485_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Kalyan Varma",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Black_Eagle%2C_Samosir_Regency%2C_North_Sumatra%2C_Indonesia_1.jpg/1280px-Black_Eagle%2C_Samosir_Regency%2C_North_Sumatra%2C_Indonesia_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Black_Eagle%2C_Samosir_Regency%2C_North_Sumatra%2C_Indonesia_1.jpg/330px-Black_Eagle%2C_Samosir_Regency%2C_North_Sumatra%2C_Indonesia_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black_Eagle,_Samosir_Regency,_North_Sumatra,_Indonesia_1.jpg",
+   "license": "CC BY 4.0",
+   "artist": "williamstephens56",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ictinaetus"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Ictinaetus malaiensis"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q795439"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black_eagle"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

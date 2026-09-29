@@ -1,0 +1,63 @@
+{
+ "scientific": "Neophron percnopterus",
+ "name": "Egyptian Vulture",
+ "qid": "Q33504",
+ "description": "species of bird",
+ "extract": "The Egyptian vulture (Neophron percnopterus), also called the white scavenger vulture or pharaoh's chicken, is a small Old World vulture in the monotypic genus Neophron. It is widely distributed from the Iberian Peninsula, North Africa, West Asia and India. The contrasting underwing pattern and wedge-shaped tail make it distinctive in flight as it soars in thermals during the warmer parts of the day. Egyptian vultures feed mainly on carrion but are opportunistic and will prey on small mammals, birds, and reptiles. They also feed on the eggs of other birds, breaking larger ones by tossing a large pebble onto them.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Egyptian_Vultures_-_Immature%28L%29_and_Adult_%28R%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Egyptian_Vultures_-_Immature%28L%29_and_Adult_%28R%29.jpg/330px-Egyptian_Vultures_-_Immature%28L%29_and_Adult_%28R%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Egyptian_Vultures_-_Immature(L)_and_Adult_(R).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Saswat Mishra",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Egyptian_Vulture%2C_Socotra.jpg/1280px-Egyptian_Vulture%2C_Socotra.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Egyptian_Vulture%2C_Socotra.jpg/330px-Egyptian_Vulture%2C_Socotra.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Egyptian_Vulture,_Socotra.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Rod Waddington",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 167.6,
+   "max": 167.6,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 94.0,
+   "max": 1977.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Neophron"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q33504"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Egyptian_vulture"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

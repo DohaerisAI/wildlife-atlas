@@ -1,0 +1,49 @@
+{
+ "scientific": "Apus acuticauda",
+ "name": "Dark-rumped Swift",
+ "qid": "Q1267391",
+ "description": "species of bird",
+ "extract": "The dark-rumped swift (Apus acuticauda) is a species of swift in the family Apodidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Dark-rumped_Swift_%28Apus_acuticauda%29.jpg/1280px-Dark-rumped_Swift_%28Apus_acuticauda%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Dark-rumped_Swift_%28Apus_acuticauda%29.jpg/330px-Dark-rumped_Swift_%28Apus_acuticauda%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dark-rumped_Swift_(Apus_acuticauda).jpg",
+   "license": "CC BY 4.0",
+   "artist": "Viz hal",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Apus"
+  },
+  "family": {
+   "scientific": "Apodidae"
+  },
+  "order": {
+   "scientific": "Apodiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1267391"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dark-rumped_swift"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,62 @@
+{
+ "scientific": "Oenanthe oenanthe",
+ "name": "Northern Wheatear",
+ "qid": "Q26420",
+ "description": "species of bird",
+ "extract": "The northern wheatear or wheatear (Oenanthe oenanthe) is a small passerine bird in the Old World flycatcher family. It is the most widespread member of the wheatear genus Oenanthe in Europe and North and Central Asia. The northern wheatear is a migratory insectivorous species breeding in open stony country in Europe and east across the Palearctic  with footholds in northeastern Canada and Greenland as well as in northwestern Canada and Alaska. It nests in rock crevices and rabbit burrows. All birds spend most of their winter in Africa.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Steinschmaetzer_Northern_wheatear_male.jpg/1280px-Steinschmaetzer_Northern_wheatear_male.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Steinschmaetzer_Northern_wheatear_male.jpg/330px-Steinschmaetzer_Northern_wheatear_male.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Steinschmaetzer_Northern_wheatear_male.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Northern_wheatear_Oenanthe_oenanthe.jpg/1280px-Northern_wheatear_Oenanthe_oenanthe.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Northern_wheatear_Oenanthe_oenanthe.jpg/330px-Northern_wheatear_Oenanthe_oenanthe.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Northern_wheatear_Oenanthe_oenanthe.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 28.0,
+   "max": 28.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Oenanthe"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "wheatear"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26420"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Northern_wheatear"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

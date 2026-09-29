@@ -1,0 +1,62 @@
+{
+ "scientific": "Bombycilla garrulus",
+ "name": "Bohemian Waxwing",
+ "qid": "Q26135",
+ "description": "species of starling-sized passerine bird",
+ "extract": "The Bohemian waxwing (Bombycilla garrulus) is a starling-sized passerine bird that breeds in the northern forests of the Palearctic and North America. It has mainly buff-grey plumage, black face markings and a pointed crest. Its wings are patterned with white and bright yellow, and some of the wing feathers have red tips, the resemblance of which to sealing wax gives these birds their common name. The two or three subspecies show only minor differences in appearance. Females are similar to males, although young birds are less well-marked and have few or no waxy wingtips. Although the Bohemian waxwing's range overlaps those of the cedar and Japanese waxwings, it is easily distinguished from them by size and plumage differences.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Bombycilla_garrulus%2C_Novosibirsk_1.jpg/1280px-Bombycilla_garrulus%2C_Novosibirsk_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Bombycilla_garrulus%2C_Novosibirsk_1.jpg/330px-Bombycilla_garrulus%2C_Novosibirsk_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bombycilla_garrulus,_Novosibirsk_1.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Tatiana Bulyonkova from Novosibirsk, Russia",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Bohemian_waxwing_%28Bombycilla_garrulus%29%2C_Uitkerke%2C_Belgium_%2816366736689%29.jpg/1280px-Bohemian_waxwing_%28Bombycilla_garrulus%29%2C_Uitkerke%2C_Belgium_%2816366736689%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Bohemian_waxwing_%28Bombycilla_garrulus%29%2C_Uitkerke%2C_Belgium_%2816366736689%29.jpg/330px-Bohemian_waxwing_%28Bombycilla_garrulus%29%2C_Uitkerke%2C_Belgium_%2816366736689%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bohemian_waxwing_(Bombycilla_garrulus),_Uitkerke,_Belgium_(16366736689).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Frank Vassen from Brussels, Belgium",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 34.0,
+   "max": 34.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Bombycilla"
+  },
+  "family": {
+   "scientific": "Bombycillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Waxwing"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26135"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bohemian_waxwing"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

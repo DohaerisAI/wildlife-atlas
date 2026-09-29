@@ -1,0 +1,58 @@
+{
+ "scientific": "Athene brama",
+ "name": "Spotted Owlet",
+ "qid": "Q839524",
+ "description": "species of bird",
+ "extract": "The spotted owlet (Athene brama) is a small owl which breeds in tropical Asia from North Pakistan to Southeast Asia. A common resident of open habitats including farmland and human habitation, it has adapted to living in cities. They roost in small groups in the hollows of trees or in cavities in rocks and buildings. It nests in a hole in a tree or building, laying 3–5 eggs. The species shows great variation including clinal variation in size and forms a superspecies with the very similar little owl.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Athene_brama_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Athene_brama_1.jpg/330px-Athene_brama_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Athene_brama_1.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee Yap from Singapore, Republic of Singapore",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/SpottedOwletInPune.jpg/1280px-SpottedOwletInPune.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/SpottedOwletInPune.jpg/330px-SpottedOwletInPune.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:SpottedOwletInPune.jpg",
+   "license": "CC0",
+   "artist": "Yogeshamodpalkar",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Athene"
+  },
+  "family": {
+   "scientific": "Strigidae",
+   "name": "true owls"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q839524"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spotted_owlet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

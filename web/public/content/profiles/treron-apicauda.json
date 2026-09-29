@@ -1,0 +1,49 @@
+{
+ "scientific": "Treron apicauda",
+ "name": "Pin-tailed Green Pigeon",
+ "qid": "Q973152",
+ "description": "species of bird",
+ "extract": "The pin-tailed green pigeon or pin-tailed pigeon (Treron apicauda) is a species of bird in the family Columbidae native to Southeast Asia. It has also been referred to by the former names Columba longicauda, Vinago apicauda, and Sphenocerus apicaudus in earlier ornithological literature.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Pin-tailed_Green_Pigeon_Ghatgarh%2C_Nainital%2C_Uttarakhand%2C_India_08.10.2014.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Pin-tailed_Green_Pigeon_Ghatgarh%2C_Nainital%2C_Uttarakhand%2C_India_08.10.2014.jpg/330px-Pin-tailed_Green_Pigeon_Ghatgarh%2C_Nainital%2C_Uttarakhand%2C_India_08.10.2014.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pin-tailed_Green_Pigeon_Ghatgarh,_Nainital,_Uttarakhand,_India_08.10.2014.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Treron"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q973152"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pin-tailed_green_pigeon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

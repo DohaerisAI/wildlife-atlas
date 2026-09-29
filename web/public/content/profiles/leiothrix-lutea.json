@@ -1,0 +1,66 @@
+{
+ "scientific": "Leiothrix lutea",
+ "name": "Red-billed Leiothrix",
+ "qid": "Q589245",
+ "description": "species of bird",
+ "extract": "The red-billed leiothrix (Leiothrix lutea) is a member of the family Leiothrichidae, native to southern China and the Himalayas. Adults have bright red bills and a yellowish-white ring around their eyes. Their backs are dull olive green, and they have a bright yellow-orange throat with a yellow chin; females are somewhat duller than males, and juveniles have black bills. It has also been introduced in various parts of the world, with small populations of escapees having existed in Japan since the 1980s. It has become a common cagebird and amongst aviculturists it goes by various names, including Pekin robin, Pekin nightingale, Japanese nightingale, and Japanese (hill) robin, these all being misnomers as it is not native to Japan (although it has been introduced and naturalised there), nor is it a robin or a nightingale.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Leiothrix_lutea_lutea%2C_Hangzhou%2C_Zhejiang%2C_China_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Leiothrix_lutea_lutea%2C_Hangzhou%2C_Zhejiang%2C_China_1.jpg/330px-Leiothrix_lutea_lutea%2C_Hangzhou%2C_Zhejiang%2C_China_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Leiothrix_lutea_lutea,_Hangzhou,_Zhejiang,_China_1.jpg",
+   "license": "CC BY 4.0",
+   "artist": "wangqg",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Red-billed_Leiothrix_Mangoli_Nainital_Uttarakhand_03.02.2015.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Red-billed_Leiothrix_Mangoli_Nainital_Uttarakhand_03.02.2015.jpg/330px-Red-billed_Leiothrix_Mangoli_Nainital_Uttarakhand_03.02.2015.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red-billed_Leiothrix_Mangoli_Nainital_Uttarakhand_03.02.2015.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Red-billed_Leiothrix_in_Hong_Kong_%2824988066662%29.jpg/1280px-Red-billed_Leiothrix_in_Hong_Kong_%2824988066662%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Red-billed_Leiothrix_in_Hong_Kong_%2824988066662%29.jpg/330px-Red-billed_Leiothrix_in_Hong_Kong_%2824988066662%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red-billed_Leiothrix_in_Hong_Kong_(24988066662).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Charles Lam from Hong Kong, China",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Leiothrix"
+  },
+  "family": {
+   "scientific": "Leiothrichidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Pekin robin",
+  "Pekin nightingale"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q589245"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-billed_leiothrix"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

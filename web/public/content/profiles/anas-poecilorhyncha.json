@@ -1,0 +1,59 @@
+{
+ "scientific": "Anas poecilorhyncha",
+ "name": "Indian Spot-billed Duck",
+ "qid": "Q839542",
+ "description": "species of bird",
+ "extract": "The Indian spot-billed duck (Anas poecilorhyncha) is a species of large dabbling duck that is a non-migratory breeding duck throughout freshwater wetlands in the Indian subcontinent. The name is derived from the red spot at the base of the bill that is found in the mainland Indian population. When in water it can be recognized from a long distance by the white tertials that form a stripe on the side, and in flight it is distinguished by the green speculum with a broad white band at the base. This species and the eastern spot-billed duck (A. zonorhyncha) were formerly considered conspecific, together called the spot-billed duck (A. poecilorhyncha).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Pair_Indian_Spot-billed_Duck_Karanji_Mysore_Dec23_A7C_08342.jpg/1280px-Pair_Indian_Spot-billed_Duck_Karanji_Mysore_Dec23_A7C_08342.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Pair_Indian_Spot-billed_Duck_Karanji_Mysore_Dec23_A7C_08342.jpg/330px-Pair_Indian_Spot-billed_Duck_Karanji_Mysore_Dec23_A7C_08342.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pair_Indian_Spot-billed_Duck_Karanji_Mysore_Dec23_A7C_08342.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "This Photo was taken by Timothy A. Gonsalves.  Feel free to use my photos, but please mention me as the author.  I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk page, for my information.  Please contact me before commercial use.\n\n\n\nPlease do not upload an edited image here without consulting me.  I would like to make corrections only at my own source to ensure that the changes improve the image and are preserved.Otherwise you may upload an edited image with a new name. Please use one of the templates derivative or extract.",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 68.9,
+   "max": 68.9,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 57.0,
+   "max": 1365.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anas"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q839542"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_spot-billed_duck"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

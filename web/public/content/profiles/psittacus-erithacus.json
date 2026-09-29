@@ -1,0 +1,59 @@
+{
+ "scientific": "Psittacus erithacus",
+ "name": "Grey Parrot",
+ "qid": "Q220328",
+ "description": "species of parrot",
+ "extract": "The grey parrot (Psittacus erithacus), also known as the Congo grey parrot, is an African parrot in the family  Psittacidae. Psittacus erithacus was previously also known as the African grey parrot until the Timneh parrot (Psittacus timneh), previously treated as a subspecies, was elevated to a full species. The grey parrot is known for its intelligence, being considered one of the smartest bird species and is regarded for its speaking abilities.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Psittacus_erithacus_-flying-8a.jpg/1280px-Psittacus_erithacus_-flying-8a.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Psittacus_erithacus_-flying-8a.jpg/330px-Psittacus_erithacus_-flying-8a.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Psittacus_erithacus_-flying-8a.jpg",
+   "license": "CC BY-SA 3.0 de",
+   "artist": "Robert01",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Perroquet_%C3%A0_Yampopo_Beach_-_Douala.jpg/1280px-Perroquet_%C3%A0_Yampopo_Beach_-_Douala.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Perroquet_%C3%A0_Yampopo_Beach_-_Douala.jpg/330px-Perroquet_%C3%A0_Yampopo_Beach_-_Douala.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Perroquet_%C3%A0_Yampopo_Beach_-_Douala.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Florettesokeng",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 18.7,
+   "max": 18.7,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Psittacus"
+  },
+  "family": {
+   "scientific": "Psittacidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "other_names": [
+  "African grey parrot",
+  "African gray parrot"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q220328"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey_parrot"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

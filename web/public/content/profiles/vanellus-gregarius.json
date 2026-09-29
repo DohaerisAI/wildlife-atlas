@@ -1,0 +1,59 @@
+{
+ "scientific": "Vanellus gregarius",
+ "name": "Sociable Lapwing",
+ "qid": "Q279307",
+ "description": "species of bird",
+ "extract": "The sociable lapwing (Vanellus gregarius), referred to as the sociable plover in the UK,  is a wader in the plover family. It is a fully migratory bird, breeding in Kazakhstan and wintering in the Middle East, Indian subcontinent, and Sudan with a very small wintering population in Iberia. Historical literature referred to this bird as the black-bellied lapwing.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Sociable_Lapwing%2C_Korgalzhynskiy%2C_Kazakhstan_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Sociable_Lapwing%2C_Korgalzhynskiy%2C_Kazakhstan_1.jpg/330px-Sociable_Lapwing%2C_Korgalzhynskiy%2C_Kazakhstan_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sociable_Lapwing,_Korgalzhynskiy,_Kazakhstan_1.jpg",
+   "license": "CC BY 4.0",
+   "artist": "andrewbazdyrev",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 64.0,
+   "max": 76.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 26.5,
+   "max": 252.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "CR",
+   "label": "Critically Endangered"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Vanellus"
+  },
+  "family": {
+   "scientific": "Charadriidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q279307"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sociable_lapwing"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

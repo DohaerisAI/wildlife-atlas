@@ -1,0 +1,49 @@
+{
+ "scientific": "Delichon nipalense",
+ "name": "Nepal House Martin",
+ "qid": "Q1466513",
+ "description": "species of bird",
+ "extract": "The Nepal house martin (Delichon nipalense) is a non-migratory passerine of the swallow family Hirundinidae. Its two subspecies breed in the Himalayas from northwestern India through Nepal to Myanmar, northern Vietnam, and just into China. It occurs in river valleys and rugged wooded mountain ridges at heights between 1,000–4,000 m (3,300–13,100 ft) altitude, where it nests in colonies beneath overhangs on vertical cliffs, laying three or four white eggs in an enclosed mud nest.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Delichon_nipalense_%28close-up%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Delichon_nipalense_%28close-up%29.jpg/330px-Delichon_nipalense_%28close-up%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Delichon_nipalense_(close-up).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Delichon_nipalense_-Bhutan_-nests-8.jpg: chia_alfred\nderivative work: PurpleHz (talk)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Delichon"
+  },
+  "family": {
+   "scientific": "Hirundinidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Delichon nipalensis"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1466513"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nepal_house_martin"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

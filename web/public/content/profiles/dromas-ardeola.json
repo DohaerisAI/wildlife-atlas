@@ -1,0 +1,63 @@
+{
+ "scientific": "Dromas ardeola",
+ "name": "Crab-plover",
+ "qid": "Q213836",
+ "description": "species of bird",
+ "extract": "The crab-plover or crab plover (Dromas ardeola) is a coastal wader (shorebird). It is the only member of the genus Dromas and the family Dromadidae. It is unique among waders in making use of ground warmth to aid the incubation of its eggs. The crab-plover is classified in the suborder Lari in a group together with the Glareolidae (pratincoles and coursers), and next most closely related to the Laridae (gulls and terns), rather than to most other waders such as plovers (suborder Charadrii) and sandpipers (suborder Scolopaci).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Crab_plover_6.jpg/1280px-Crab_plover_6.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Crab_plover_6.jpg/330px-Crab_plover_6.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Crab_plover_6.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "afsarnayakkan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 66.0,
+   "max": 78.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 45.0,
+   "max": 45.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dromas",
+   "name": "Dromassrun"
+  },
+  "family": {
+   "scientific": "Dromadidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Crab plover"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q213836"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Crab-plover"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

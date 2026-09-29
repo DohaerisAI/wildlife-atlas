@@ -1,0 +1,51 @@
+{
+ "scientific": "Emberiza rustica",
+ "name": "Rustic Bunting",
+ "qid": "Q286809",
+ "description": "species of bird",
+ "extract": "The rustic bunting (Emberiza rustica) is a passerine bird in the bunting family Emberizidae, a group now separated by most modern authors from the finches, Fringillidae. The genus name Emberiza is from Old German Embritz, a bunting. The specific rustica is Latin for \"rustic, simple\".",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Kashiradaka-01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Kashiradaka-01.jpg/330px-Kashiradaka-01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Kashiradaka-01.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Gin tonic",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 2.5,
+   "max": 2.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Emberiza"
+  },
+  "family": {
+   "scientific": "Emberizidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q286809"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rustic_bunting"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

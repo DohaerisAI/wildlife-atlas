@@ -1,0 +1,53 @@
+{
+ "scientific": "Dryocopus javensis",
+ "name": "White-bellied Woodpecker",
+ "qid": "Q495520",
+ "description": "species of bird",
+ "extract": "The white-bellied woodpecker or great black woodpecker (Dryocopus javensis) is a woodpecker species inhabiting evergreen forests in tropical Indian subcontinent and Southeast Asia. It is among the largest of the Asiatic woodpeckers and nests in large dead trees, often beside rivers. It has 14 subspecies, and many of its island forms are endangered, some are extinct. Populations differ in the distribution and extent of white. Its drums and calls are louder than those of the smaller woodpeckers.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/WhiteBelliedWoodpecker.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/WhiteBelliedWoodpecker.JPG/330px-WhiteBelliedWoodpecker.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:WhiteBelliedWoodpecker.JPG",
+   "license": "CC BY 3.0",
+   "artist": "Sriniketana",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/The_White_Bellied_Woodpecker.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/The_White_Bellied_Woodpecker.jpg/330px-The_White_Bellied_Woodpecker.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:The_White_Bellied_Woodpecker.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Antony Grossy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dryocopus"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q495520"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-bellied_woodpecker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

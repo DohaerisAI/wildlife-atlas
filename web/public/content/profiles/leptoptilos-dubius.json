@@ -1,0 +1,61 @@
+{
+ "scientific": "Leptoptilos dubius",
+ "name": "Greater Adjutant",
+ "qid": "Q644012",
+ "description": "species of bird",
+ "extract": "The greater adjutant (Leptoptilos dubius) is a member of the stork family, Ciconiidae. Its genus includes the lesser adjutant of Asia and the marabou stork of Africa. Once found widely across southern Asia and mainland southeast Asia, the greater adjutant is now restricted to a much smaller range with only three breeding populations; two in India, one in the north-eastern state of Assam and a smaller one around Bhagalpur; and another breeding population in Cambodia. They disperse widely after the breeding season. This large stork has a massive wedge-shaped bill, a bare head and a distinctive neck pouch. During the day, it soars in thermals along with vultures with whom it shares the habit of scavenging. They feed mainly on carrion and offal; however, they are opportunistic and will sometimes prey on vertebrates. The English name is derived from their stiff \"military\" gait when walking on the ground (see adjutant). Large numbers once lived in Asia, but they have declined (possibly due to improved sanitation) to the point of endangerment. The total population in 2008 was estimated at around a thousand individuals. In the 19th century, they were especially common in the city of Calcutta, where they were referred to as the \"Calcutta adjutant\" and included in the coat of arms for the city. Known locally as hargila (derived from the Assamese words har, 'bone', and gila, 'swallower', thus 'bone-swallower') and considered to be unclean birds, they were largely left undisturbed but sometimes hunted for the use of their meat in folk medicine. Valued as scavengers, they were once depicted in the logo of the Calcutta Municipal Corporation.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Greater_adjutant.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Greater_adjutant.jpg/330px-Greater_adjutant.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Greater_adjutant.jpg",
+   "license": "CC BY 2.5",
+   "artist": "Yathin sk at English Wikipedia",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Greater_Adjutant_%28Leptoptilos_dubius%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Greater_Adjutant_%28Leptoptilos_dubius%29.jpg/330px-Greater_Adjutant_%28Leptoptilos_dubius%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Greater_Adjutant_(Leptoptilos_dubius).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "The original uploader was Djshal at English Wikipedia.\n\n(Original text: Vishal Sabharwal)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Leptoptilos"
+  },
+  "family": {
+   "scientific": "Ciconiidae",
+   "name": "stork"
+  },
+  "order": {
+   "scientific": "Ciconiiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Adjutant"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q644012"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Greater_adjutant"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

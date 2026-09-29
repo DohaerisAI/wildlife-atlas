@@ -1,0 +1,46 @@
+{
+ "scientific": "Harpactes erythrocephalus",
+ "name": "Red-headed Trogon",
+ "qid": "Q374805",
+ "description": "species of bird",
+ "extract": "The red-headed trogon (Harpactes erythrocephalus) is a species of bird in the family Trogonidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Harpactes_erythrocephalus_-_Khao_Yai.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Harpactes_erythrocephalus_-_Khao_Yai.jpg/330px-Harpactes_erythrocephalus_-_Khao_Yai.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Harpactes_erythrocephalus_-_Khao_Yai.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (jjharrison89@facebook.com)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Harpactes"
+  },
+  "family": {
+   "scientific": "Trogonidae",
+   "name": "trogon"
+  },
+  "order": {
+   "scientific": "Trogoniformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q374805"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-headed_trogon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

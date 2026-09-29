@@ -1,0 +1,65 @@
+{
+ "scientific": "Sula leucogaster",
+ "name": "Brown Booby",
+ "qid": "Q320193",
+ "description": "species of bird",
+ "extract": "The brown booby (Sula leucogaster) is a large seabird in the booby and gannet family Sulidae, of which it is one of the most common and widespread species. It has a pantropical range, which overlaps with that of other booby species. The gregarious brown booby commutes and forages at low height over inshore waters. Flocks plunge-dive to take small fish, especially when these are driven near the surface by their predators. They nest only on the ground, and roost on solid objects rather than the water surface.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Atob%C3%A1-pardo.jpg/1280px-Atob%C3%A1-pardo.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Atob%C3%A1-pardo.jpg/330px-Atob%C3%A1-pardo.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Atob%C3%A1-pardo.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Danilo da Castro",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Wei%C3%9Fbauchtoelpel.jpg/1280px-Wei%C3%9Fbauchtoelpel.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Wei%C3%9Fbauchtoelpel.jpg/330px-Wei%C3%9Fbauchtoelpel.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wei%C3%9Fbauchtoelpel.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 53.0,
+   "max": 1344.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sula"
+  },
+  "family": {
+   "scientific": "Sulidae"
+  },
+  "order": {
+   "scientific": "Suliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "ngangalalaw"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q320193"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown_booby"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

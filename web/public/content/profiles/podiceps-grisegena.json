@@ -1,0 +1,67 @@
+{
+ "scientific": "Podiceps grisegena",
+ "name": "Red-necked Grebe",
+ "qid": "Q179919",
+ "description": "species of bird",
+ "extract": "The red-necked grebe (Podiceps grisegena) is an aquatic bird found in the temperate regions of the northern hemisphere. A migratory bird, its wintering habitat is largely restricted to calm waters just beyond the waves around ocean coasts, although some birds may winter on large lakes. Grebes prefer shallow bodies of fresh water such as lakes, marshes or fish-ponds as breeding sites.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Podiceps_grisegena_%2833665871935%29.jpg/1280px-Podiceps_grisegena_%2833665871935%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Podiceps_grisegena_%2833665871935%29.jpg/330px-Podiceps_grisegena_%2833665871935%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Podiceps_grisegena_(33665871935).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Donald Hobern from Copenhagen, Denmark",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Podiceps_grisegena_Lake_Ontario2018.jpg/1280px-Podiceps_grisegena_Lake_Ontario2018.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Podiceps_grisegena_Lake_Ontario2018.jpg/330px-Podiceps_grisegena_Lake_Ontario2018.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Podiceps_grisegena_Lake_Ontario2018.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Mykola Swarnyk",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 72.5,
+   "max": 72.5,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 30.5,
+   "max": 873.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Podiceps"
+  },
+  "family": {
+   "scientific": "Podicipedidae"
+  },
+  "order": {
+   "scientific": "Podicipediformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q179919"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-necked_grebe"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

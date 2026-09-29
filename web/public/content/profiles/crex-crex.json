@@ -1,0 +1,70 @@
+{
+ "scientific": "Crex crex",
+ "name": "Corn Crake",
+ "qid": "Q26017",
+ "description": "species of bird",
+ "extract": "The corn crake, corncrake or landrail (Crex crex) is a bird in the rail family. It breeds in Europe and Asia as far east as western China, and migrates to Africa for the Northern Hemisphere's winter. It is a medium-sized crake with buff- or grey-streaked brownish-black upperparts, chestnut markings on the wings, and blue-grey underparts with rust-coloured and white bars on the flanks and undertail. The strong bill is flesh-toned, the iris is pale brown, and the legs and feet are pale grey. Juveniles are similar in plumage to adults, and downy chicks are black, as with all rails. There are no subspecies, although individuals from the east of the breeding range tend to be slightly paler than their western counterparts. The male's call is a loud krek krek, from which the scientific name is derived. The corn crake is larger than its closest relative, the African crake, which shares its wintering range; that species is also darker-plumaged, and has a plainer face.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Corncrake2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Corncrake2.jpg/330px-Corncrake2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Corncrake2.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Rachel Davies",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/CrexCrex.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/CrexCrex.jpg/330px-CrexCrex.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:CrexCrex.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Ziegentom (www.fotocommunity.de)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 50.0,
+   "max": 50.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 13.2,
+   "max": 13.2,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Crex"
+  },
+  "family": {
+   "scientific": "Rallidae"
+  },
+  "order": {
+   "scientific": "Gruiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Corncrake"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26017"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Corn_crake"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

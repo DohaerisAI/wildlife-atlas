@@ -1,0 +1,61 @@
+{
+ "scientific": "Ara ararauna",
+ "name": "Blue-and-yellow Macaw",
+ "qid": "Q205477",
+ "description": "species of bird",
+ "extract": "The blue-and-yellow macaw (Ara ararauna), also known as the blue-and-gold macaw, is a large Neotropical parrot with a mostly blue dorsum, light yellow/orange venter, and gradient hues of green on top of its head. It is a member of the large group of neotropical parrots known as macaws. It inhabits forest (especially varzea, but also in open sections of terra firme or unflooded forest), woodland, and savannah of tropical Central and South America, as well as the island of Trinidad in the Caribbean. They are popular in aviculture because of their striking color, ability to talk, ready availability in the marketplace, and close bonding to humans. It is the most commonly kept macaw species in captivity worldwide as a pet or companion parrot and is also the cheapest among the large macaws. As of 2025, there are 1 million blue and gold macaws living in captivity worldwide, one of the highest populations of any large parrot in captivity.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Ara_ararauna_%28Costa_Rica%29.jpg/1280px-Ara_ararauna_%28Costa_Rica%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Ara_ararauna_%28Costa_Rica%29.jpg/330px-Ara_ararauna_%28Costa_Rica%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ara_ararauna_(Costa_Rica).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Hans Hillewaert",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Ara_ararauna_Luc_Viatour.jpg/1280px-Ara_ararauna_Luc_Viatour.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Ara_ararauna_Luc_Viatour.jpg/330px-Ara_ararauna_Luc_Viatour.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ara_ararauna_Luc_Viatour.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Luc Viatour",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ara"
+  },
+  "family": {
+   "scientific": "Psittacidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "other_names": [
+  "blue and yellow macaw",
+  "yellow-and-blue macaw",
+  "yellow and blue macaw",
+  "blue yellow macaw",
+  "yellow blue macaw"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q205477"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blue-and-yellow_macaw"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

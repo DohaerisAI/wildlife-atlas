@@ -1,0 +1,51 @@
+{
+ "scientific": "Suthora nipalensis",
+ "name": "Black-throated parrotbill",
+ "qid": "Q27075564",
+ "description": "species of bird",
+ "extract": "The black-throated parrotbill (Suthora nipalensis) is a bird species often placed with the Old World babblers (family Timaliidae) or in the family Sylviidae, but it actually seems to belong to the distinct family Paradoxornithidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Black-throated_Parrotbill_in_Kolakham_May_2025_by_Tisha_Mukherjee_01.jpg/1280px-Black-throated_Parrotbill_in_Kolakham_May_2025_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Black-throated_Parrotbill_in_Kolakham_May_2025_by_Tisha_Mukherjee_01.jpg/330px-Black-throated_Parrotbill_in_Kolakham_May_2025_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-throated_Parrotbill_in_Kolakham_May_2025_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 5.5,
+   "max": 5.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Suthora"
+  },
+  "family": {
+   "scientific": "Paradoxornithidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075564"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-throated_parrotbill"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

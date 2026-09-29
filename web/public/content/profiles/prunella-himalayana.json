@@ -1,0 +1,54 @@
+{
+ "scientific": "Prunella himalayana",
+ "name": "Altai Accentor",
+ "qid": "Q1036507",
+ "description": "species of bird",
+ "extract": "The Altai accentor (Prunella himalayana) is a species of bird in the family Prunellidae. It is also known as the rufous-streaked accentor or Himalayan accentor. It breeds in the Altai Mountains of western Mongolia; it winters in the southern Tian Shan and Himalayan ranges.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Altai_Accentor_%28Prunella_himalayana%29_%2842901525014%29.jpg/1280px-Altai_Accentor_%28Prunella_himalayana%29_%2842901525014%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Altai_Accentor_%28Prunella_himalayana%29_%2842901525014%29.jpg/330px-Altai_Accentor_%28Prunella_himalayana%29_%2842901525014%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Altai_Accentor_(Prunella_himalayana)_(42901525014).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Altai_accentor_sitting.jpg/1280px-Altai_accentor_sitting.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Altai_accentor_sitting.jpg/330px-Altai_accentor_sitting.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Altai_accentor_sitting.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "PJeganathan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Prunella"
+  },
+  "family": {
+   "scientific": "Prunellidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1036507"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Altai_accentor"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

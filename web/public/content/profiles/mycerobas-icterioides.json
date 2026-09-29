@@ -1,0 +1,59 @@
+{
+ "scientific": "Mycerobas icterioides",
+ "name": "Black-and-yellow Grosbeak",
+ "qid": "Q775633",
+ "description": "species of bird",
+ "extract": "The black-and-yellow grosbeak (Mycerobas icterioides) is a species of finch native to the northern parts of the Indian subcontinent, primarily the lower and middle Himalayas. It is in the family Fringillidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Mycerobas_icterioides.jpg/1280px-Mycerobas_icterioides.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Mycerobas_icterioides.jpg/330px-Mycerobas_icterioides.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mycerobas_icterioides.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Pkspks",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Mycerobas_icterioides_female.jpg/1280px-Mycerobas_icterioides_female.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Mycerobas_icterioides_female.jpg/330px-Mycerobas_icterioides_female.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mycerobas_icterioides_female.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Pkspks",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 67.0,
+   "max": 67.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Mycerobas"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q775633"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-and-yellow_grosbeak"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

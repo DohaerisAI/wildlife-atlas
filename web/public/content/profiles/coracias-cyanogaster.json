@@ -1,0 +1,50 @@
+{
+ "scientific": "Coracias cyanogaster",
+ "name": "Blue-bellied Roller",
+ "qid": "Q926693",
+ "description": "species of bird",
+ "extract": "The blue-bellied roller (Coracias cyanogaster) is a member of the roller family of  birds which breeds across Africa in a narrow belt from Senegal to northeast Democratic Republic of the Congo. It is resident, apart from some local seasonal movements, in mature moist savannah dominated by Isoberlinia trees.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Blue-bellied_Roller%2C_Lemon_Creek%2C_Gambia_%2822221038590%29.jpg/1280px-Blue-bellied_Roller%2C_Lemon_Creek%2C_Gambia_%2822221038590%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Blue-bellied_Roller%2C_Lemon_Creek%2C_Gambia_%2822221038590%29.jpg/330px-Blue-bellied_Roller%2C_Lemon_Creek%2C_Gambia_%2822221038590%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blue-bellied_Roller,_Lemon_Creek,_Gambia_(22221038590).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "gisela gerson lohman-braun",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 12.3,
+   "max": 142.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Coracias"
+  },
+  "family": {
+   "scientific": "Coraciidae"
+  },
+  "order": {
+   "scientific": "Coraciiformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q926693"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blue-bellied_roller"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

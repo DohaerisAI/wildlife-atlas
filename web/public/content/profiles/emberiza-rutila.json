@@ -1,0 +1,51 @@
+{
+ "scientific": "Emberiza rutila",
+ "name": "Chestnut Bunting",
+ "qid": "Q427182",
+ "description": "species of bird",
+ "extract": "The chestnut bunting (Emberiza rutila) is a passerine bird in the bunting family Emberizidae found in the East Palearctic.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Emberiza_rutila_190226429_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Emberiza_rutila_190226429_%28cropped%29.jpg/330px-Emberiza_rutila_190226429_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Emberiza_rutila_190226429_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "林孫鋒",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 1.9,
+   "max": 1.9,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Emberiza"
+  },
+  "family": {
+   "scientific": "Emberizidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q427182"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chestnut_bunting"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,50 @@
+{
+ "scientific": "Minla strigula",
+ "name": "Chestnut-tailed Minla",
+ "qid": "Q2669195",
+ "description": "species of bird",
+ "extract": "The bar-throated minla or chestnut-tailed minla (Actinodura strigula), or even bar-throated siva, is a species of bird in the laughingthrush and babbler family Leiothrichidae. Traditionally, it has been placed in the genus Minla but is now placed in Actinodura.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Minla_strigula_-_Doi_Inthanon.jpg/1280px-Minla_strigula_-_Doi_Inthanon.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Minla_strigula_-_Doi_Inthanon.jpg/330px-Minla_strigula_-_Doi_Inthanon.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Minla_strigula_-_Doi_Inthanon.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 19.2,
+   "max": 19.2,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Minla"
+  },
+  "family": {
+   "scientific": "Leiothrichidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Bar-throated Minla"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2669195"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bar-throated_minla"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

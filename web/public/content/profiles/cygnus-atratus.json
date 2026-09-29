@@ -1,0 +1,75 @@
+{
+ "scientific": "Cygnus atratus",
+ "name": "Black Swan",
+ "qid": "Q131044",
+ "description": "species of bird",
+ "extract": "The black swan (Cygnus atratus) is a large waterbird, a species of swan which breeds mainly in the southeast and southwest regions of Australia. Within Australia, the black swan is nomadic, with erratic migration patterns dependent on climatic conditions. It is a large bird with black plumage and a red bill. It is a monogamous breeder, with both partners sharing incubation and cygnet-rearing duties.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/00_2102_Trauerschw%C3%A4ne_%28Breisach_am_Rhein%29.jpg/1280px-00_2102_Trauerschw%C3%A4ne_%28Breisach_am_Rhein%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/00_2102_Trauerschw%C3%A4ne_%28Breisach_am_Rhein%29.jpg/330px-00_2102_Trauerschw%C3%A4ne_%28Breisach_am_Rhein%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:00_2102_Trauerschw%C3%A4ne_(Breisach_am_Rhein).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "W. Bulach",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Cygnus_atratus_Running.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Cygnus_atratus_Running.jpg/330px-Cygnus_atratus_Running.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cygnus_atratus_Running.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Black_Swan_in_Australia.JPG/1280px-Black_Swan_in_Australia.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Black_Swan_in_Australia.JPG/330px-Black_Swan_in_Australia.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Black_Swan_in_Australia.JPG",
+   "license": "CC BY-SA 4.0",
+   "artist": "EllieRH",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 160.0,
+   "max": 200.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 258.0,
+   "max": 6200.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cygnus"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q131044"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black_swan"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

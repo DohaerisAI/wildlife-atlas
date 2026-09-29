@@ -1,0 +1,32 @@
+{
+ "scientific": "Bubulcus coromandus",
+ "name": "Eastern Cattle Egret",
+ "qid": "Q966356",
+ "description": "species of bird",
+ "extract": "",
+ "images": [],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Bubulcus"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q966356"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

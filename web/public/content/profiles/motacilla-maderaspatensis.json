@@ -1,0 +1,51 @@
+{
+ "scientific": "Motacilla maderaspatensis",
+ "name": "White-browed Wagtail",
+ "qid": "Q1583749",
+ "description": "species of bird",
+ "extract": "The white-browed wagtail or large pied wagtail (Motacilla maderaspatensis) is a medium-sized bird and is the largest member of the wagtail family. They are conspicuously patterned with black above and white below, a prominent white brow, shoulder stripe and outer tail feathers. White-browed wagtails are native to the Indian subcontinent, common near small water bodies and have adapted to urban environments where they often nest on roof tops. The specific name is derived from the Indian city of Madras (now Chennai).",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Motacilla_maderaspatensis_-Pashan_Lake%2C_Pune%2C_Maharashtra%2C_India-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Motacilla_maderaspatensis_-Pashan_Lake%2C_Pune%2C_Maharashtra%2C_India-8.jpg/330px-Motacilla_maderaspatensis_-Pashan_Lake%2C_Pune%2C_Maharashtra%2C_India-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Motacilla_maderaspatensis_-Pashan_Lake,_Pune,_Maharashtra,_India-8.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Yogendra Joshi",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 33.0,
+   "max": 33.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Motacilla"
+  },
+  "family": {
+   "scientific": "Motacillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1583749"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-browed_wagtail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,73 @@
+{
+ "scientific": "Haliastur indus",
+ "name": "Brahminy Kite",
+ "qid": "Q645755",
+ "description": "species of bird",
+ "extract": "The brahminy kite (Haliastur indus), also known as the red-backed sea-eagle, is a medium-sized bird of prey in the family Accipitridae, which also includes many other diurnal raptors, such as eagles, buzzards, and harriers, found in the Indian subcontinent, Southeast Asia, and Australia. The brahminy kite is found mainly on the coast and in inland wetlands, where it feeds on dead fish and other prey. Adults have a reddish-brown body plumage contrasting with their white head and breast which make them easy to distinguish from other birds of prey.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Brahminy_kite_%28Haliastur_indus_indus%29.jpg/1280px-Brahminy_kite_%28Haliastur_indus_indus%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Brahminy_kite_%28Haliastur_indus_indus%29.jpg/330px-Brahminy_kite_%28Haliastur_indus_indus%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brahminy_kite_(Haliastur_indus_indus).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Brahminy_Kite_in_Sundarbans_National_Park_February_2025_by_Tisha_Mukherjee_01.jpg/1280px-Brahminy_Kite_in_Sundarbans_National_Park_February_2025_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Brahminy_Kite_in_Sundarbans_National_Park_February_2025_by_Tisha_Mukherjee_01.jpg/330px-Brahminy_Kite_in_Sundarbans_National_Park_February_2025_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brahminy_Kite_in_Sundarbans_National_Park_February_2025_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Brahminy_Kite_in_Sundarbans_National_Park_July_2025_by_Tisha_Mukherjee_06.jpg/1280px-Brahminy_Kite_in_Sundarbans_National_Park_July_2025_by_Tisha_Mukherjee_06.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Brahminy_Kite_in_Sundarbans_National_Park_July_2025_by_Tisha_Mukherjee_06.jpg/330px-Brahminy_Kite_in_Sundarbans_National_Park_July_2025_by_Tisha_Mukherjee_06.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brahminy_Kite_in_Sundarbans_National_Park_July_2025_by_Tisha_Mukherjee_06.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 110.0,
+   "max": 125.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Haliastur"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "red-backed sea-eagle"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q645755"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brahminy_kite"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

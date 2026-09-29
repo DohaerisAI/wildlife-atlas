@@ -1,0 +1,70 @@
+{
+ "scientific": "Psittacula krameri",
+ "name": "Rose-ringed Parakeet",
+ "qid": "Q208060",
+ "description": "species of bird",
+ "extract": "The rose-ringed parakeet (Psittacula krameri), also known as the ring-necked parakeet, or colloquially as the Indian Ringneck, is a medium-sized parrot in the genus Psittacula, of the family Psittaculidae. It has a disjunct native range in tropical northern Africa and the Indian subcontinent, and is now introduced into many other parts of the world where populations have established themselves having been bred for the exotic pet trade and then escaped.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/African_Rose-ringed_Parakeet%2C_Tamanrasset%2C_Algeria_1.jpg/1280px-African_Rose-ringed_Parakeet%2C_Tamanrasset%2C_Algeria_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/African_Rose-ringed_Parakeet%2C_Tamanrasset%2C_Algeria_1.jpg/330px-African_Rose-ringed_Parakeet%2C_Tamanrasset%2C_Algeria_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:African_Rose-ringed_Parakeet,_Tamanrasset,_Algeria_1.jpg",
+   "license": "CC BY 4.0",
+   "artist": "mourad-harzallah",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Rose-ringed_parakeet_%28Psittacula_krameri_borealis%29_male_Jaipur.jpg/1280px-Rose-ringed_parakeet_%28Psittacula_krameri_borealis%29_male_Jaipur.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Rose-ringed_parakeet_%28Psittacula_krameri_borealis%29_male_Jaipur.jpg/330px-Rose-ringed_parakeet_%28Psittacula_krameri_borealis%29_male_Jaipur.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rose-ringed_parakeet_(Psittacula_krameri_borealis)_male_Jaipur.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Rose_ringed_parakeet_%28_Psittacula_krameri%29_%E0%B4%AE%E0%B5%8B%E0%B4%A4%E0%B4%BF%E0%B4%B0_%E0%B4%A4%E0%B4%A4%E0%B5%8D%E0%B4%A4_%2C_%E0%B4%A8%E0%B4%BE%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B5%81_%E0%B4%A4%E0%B4%A4%E0%B5%8D%E0%B4%A4_4.jpg/1280px-Rose_ringed_parakeet_%28_Psittacula_krameri%29_%E0%B4%AE%E0%B5%8B%E0%B4%A4%E0%B4%BF%E0%B4%B0_%E0%B4%A4%E0%B4%A4%E0%B5%8D%E0%B4%A4_%2C_%E0%B4%A8%E0%B4%BE%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B5%81_%E0%B4%A4%E0%B4%A4%E0%B5%8D%E0%B4%A4_4.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Rose_ringed_parakeet_%28_Psittacula_krameri%29_%E0%B4%AE%E0%B5%8B%E0%B4%A4%E0%B4%BF%E0%B4%B0_%E0%B4%A4%E0%B4%A4%E0%B5%8D%E0%B4%A4_%2C_%E0%B4%A8%E0%B4%BE%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B5%81_%E0%B4%A4%E0%B4%A4%E0%B5%8D%E0%B4%A4_4.jpg/330px-Rose_ringed_parakeet_%28_Psittacula_krameri%29_%E0%B4%AE%E0%B5%8B%E0%B4%A4%E0%B4%BF%E0%B4%B0_%E0%B4%A4%E0%B4%A4%E0%B5%8D%E0%B4%A4_%2C_%E0%B4%A8%E0%B4%BE%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B5%81_%E0%B4%A4%E0%B4%A4%E0%B5%8D%E0%B4%A4_4.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rose_ringed_parakeet_(_Psittacula_krameri)_%E0%B4%AE%E0%B5%8B%E0%B4%A4%E0%B4%BF%E0%B4%B0_%E0%B4%A4%E0%B4%A4%E0%B5%8D%E0%B4%A4_,_%E0%B4%A8%E0%B4%BE%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B5%81_%E0%B4%A4%E0%B4%A4%E0%B5%8D%E0%B4%A4_4.jpg",
+   "license": "CC BY 3.0",
+   "artist": "Afsarnayakkan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 45.0,
+   "max": 45.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Psittacula"
+  },
+  "family": {
+   "scientific": "Psittaculidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "other_names": [
+  "Ring-necked Parakeet"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q208060"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rose-ringed_parakeet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

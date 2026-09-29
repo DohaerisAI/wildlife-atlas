@@ -1,0 +1,54 @@
+{
+ "scientific": "Turdus naumanni",
+ "name": "Naumann's Thrush",
+ "qid": "Q843175",
+ "description": "member of the thrush family",
+ "extract": "Naumann's thrush (Turdus naumanni) is a species of the thrush family Turdidae which breeds eastwards from central Siberia to North Manchuria, Amurland and Sakhalin. It is closely related to the more northerly breeding dusky thrush T. eunomus; the two have often been regarded as conspecific.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Turdus_naumanni_naumanni.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Turdus_naumanni_naumanni.jpg/330px-Turdus_naumanni_naumanni.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Turdus_naumanni_naumanni.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "M.Nishimura",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/%E3%83%8F%E3%83%81%E3%82%B8%E3%83%A7%E3%82%A6%E3%83%84%E3%82%B0%E3%83%9F.jpg/1280px-%E3%83%8F%E3%83%81%E3%82%B8%E3%83%A7%E3%82%A6%E3%83%84%E3%82%B0%E3%83%9F.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/%E3%83%8F%E3%83%81%E3%82%B8%E3%83%A7%E3%82%A6%E3%83%84%E3%82%B0%E3%83%9F.jpg/330px-%E3%83%8F%E3%83%81%E3%82%B8%E3%83%A7%E3%82%A6%E3%83%84%E3%82%B0%E3%83%9F.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E3%83%8F%E3%83%81%E3%82%B8%E3%83%A7%E3%82%A6%E3%83%84%E3%82%B0%E3%83%9F.jpg",
+   "license": "CC BY 2.0",
+   "artist": "H yamaguchi",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turdus"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q843175"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Naumann%27s_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,57 @@
+{
+ "scientific": "Carpodacus rodochroa",
+ "name": "Pink-browed Rosefinch",
+ "qid": "Q283027",
+ "description": "species of bird",
+ "extract": "The pink-browed rosefinch (Carpodacus rodochroa) is a finch in the family Fringillidae. Nicholas Aylward Vigors first described the species in 1831. It is migratory and ranges across the northern regions of the Indian subcontinent, mainly in the Himalayas. It is found in Bhutan, Tibet, India, Nepal, and Pakistan. Its natural habitats are boreal forests, shrub-lands, grasslands, and dry forests.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Pink-browed_Rosefinch_Nanda_Devi_National_Park_Uttarakhand_India_17.11.2013.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Pink-browed_Rosefinch_Nanda_Devi_National_Park_Uttarakhand_India_17.11.2013.jpg/330px-Pink-browed_Rosefinch_Nanda_Devi_National_Park_Uttarakhand_India_17.11.2013.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pink-browed_Rosefinch_Nanda_Devi_National_Park_Uttarakhand_India_17.11.2013.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Pink-browed_Rosefinch_Pangolakha_Wildlife_Sanctuary_East_Sikkim_Sikkim_India_19.10.2015.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Pink-browed_Rosefinch_Pangolakha_Wildlife_Sanctuary_East_Sikkim_Sikkim_India_19.10.2015.jpg/330px-Pink-browed_Rosefinch_Pangolakha_Wildlife_Sanctuary_East_Sikkim_Sikkim_India_19.10.2015.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pink-browed_Rosefinch_Pangolakha_Wildlife_Sanctuary_East_Sikkim_Sikkim_India_19.10.2015.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Carpodacus"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Carpodacus rhodochrous"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q283027"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pink-browed_rosefinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,49 @@
+{
+ "scientific": "Psittacula derbiana",
+ "name": "Lord Derby's Parakeet",
+ "qid": "Q999922",
+ "description": "species of bird",
+ "extract": "Lord Derby's parakeet (Psittacula derbiana), also known as Derbyan parakeet, is a parrot species, which is confined to a small pocket of moist evergreen forest in the hills and mountains of the Indian states of Arunachal Pradesh and Assam, and adjoining parts of Tibet, Sichuan and Yunnan in China. The species suffers from cutting of old trees (important for nesting sites) and poaching for the illegal wildlife trade. In 2011, its status was updated from least concern to near threatened on the IUCN Red List. The adult male and female are easily distinguished because they have different beak colours and slightly different plumage.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/%E6%99%AE%E6%B4%B1%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD%E7%8A%80%E7%89%9B%E5%9D%AA%E6%99%AF%E5%8C%BA_105.jpg/1280px-%E6%99%AE%E6%B4%B1%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD%E7%8A%80%E7%89%9B%E5%9D%AA%E6%99%AF%E5%8C%BA_105.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/%E6%99%AE%E6%B4%B1%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD%E7%8A%80%E7%89%9B%E5%9D%AA%E6%99%AF%E5%8C%BA_105.jpg/330px-%E6%99%AE%E6%B4%B1%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD%E7%8A%80%E7%89%9B%E5%9D%AA%E6%99%AF%E5%8C%BA_105.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%99%AE%E6%B4%B1%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD%E7%8A%80%E7%89%9B%E5%9D%AA%E6%99%AF%E5%8C%BA_105.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "維基小霸王",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Psittacula"
+  },
+  "family": {
+   "scientific": "Psittaculidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "other_names": [
+  "Derbyan parakeet"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q999922"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lord_Derby%27s_parakeet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

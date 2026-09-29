@@ -1,0 +1,46 @@
+{
+ "scientific": "Pitta brachyura",
+ "name": "Indian pitta",
+ "qid": "Q655145",
+ "description": "species of bird",
+ "extract": "The Indian pitta (Pitta brachyura) also known as Navrang, is a passerine bird native to the Indian subcontinent. It inhabits scrub jungle, deciduous and dense evergreen forest. It breeds in the forests of the Himalayas, hills of central and western India, and migrates to other parts of the peninsula in winter. Although very colourful, it is usually shy and hidden in the undergrowth where it picks insects on the forest floor. It has a distinctive two note whistling call which is heard at dawn and dusk. It is listed as least concern on the IUCN Red List as the population is considered large.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Pitta_brachyura.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Pitta_brachyura.jpg/330px-Pitta_brachyura.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pitta_brachyura.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Unknown",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pitta"
+  },
+  "family": {
+   "scientific": "Pittidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q655145"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_pitta"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

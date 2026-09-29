@@ -1,0 +1,49 @@
+{
+ "scientific": "Hypsipetes leucocephalus",
+ "name": "Black bulbul",
+ "qid": "Q998240",
+ "description": "species of bird",
+ "extract": "The black bulbul (Hypsipetes leucocephalus), also known as the Himalayan black bulbul or Asian black bulbul, is a member of the bulbul family of passerine birds. It is found primarily in the Himalayas, its range stretching from Pakistan eastward to Southeast Asia. It is the type species of the genus Hypsipetes, established by Nicholas Aylward Vigors in the early 1830s. There are a number of subspecies, mostly varying in the shade of the body plumage which ranges from grey to black, and some also occur in white-headed morphs, as also suggested by its specific epithet leucocephalus, literally \"white head\". The legs and bill are always rich orange-red.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Black_Bulbul_%2814569760693%29.jpg/1280px-Black_Bulbul_%2814569760693%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Black_Bulbul_%2814569760693%29.jpg/330px-Black_Bulbul_%2814569760693%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black_Bulbul_(14569760693).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Mike Prince from Bangalore, India",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Hypsipetes"
+  },
+  "family": {
+   "scientific": "Pycnonotidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Asian black bulbul"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q998240"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black_bulbul"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

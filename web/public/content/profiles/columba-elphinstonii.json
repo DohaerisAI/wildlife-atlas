@@ -1,0 +1,52 @@
+{
+ "scientific": "Columba elphinstonii",
+ "name": "Nilgiri Wood Pigeon",
+ "qid": "Q1074450",
+ "description": "species of bird",
+ "extract": "The Nilgiri wood pigeon (Columba elphinstonii) is a large pigeon found in the moist deciduous forests and sholas of the Western Ghats in southwestern India. They are mainly frugivorous and forage in the canopy of dense hill forests. They are best identified in the field by their large size, dark colours and the distinctive checkerboard pattern on their nape.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Columba_elphinstonii.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Columba_elphinstonii.jpg/330px-Columba_elphinstonii.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Columba_elphinstonii.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Atanu Mondal",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Columba"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Nilgiri wood-pigeon"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1074450"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nilgiri_wood_pigeon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

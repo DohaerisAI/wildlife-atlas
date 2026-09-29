@@ -1,0 +1,65 @@
+{
+ "scientific": "Treron phoenicopterus",
+ "name": "Yellow-footed Green Pigeon",
+ "qid": "Q1094736",
+ "description": "species of bird",
+ "extract": "The yellow-footed green pigeon (Treron phoenicopterus), also known as yellow-legged green pigeon, is a common species of green pigeon found in the Indian subcontinent and parts of Southeast Asia. It is the state bird of Maharashtra. Their population is currently increasing.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Yellow-footed_Green-Pigeon_%28Treron_phoenicopterus%29_male-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Yellow-footed_Green-Pigeon_%28Treron_phoenicopterus%29_male-8.jpg/330px-Yellow-footed_Green-Pigeon_%28Treron_phoenicopterus%29_male-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Yellow-footed_Green-Pigeon_(Treron_phoenicopterus)_male-8.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee Yap",
+   "caption": "Male"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Yellow-footed_Green-Pigeon_%28Treron_phoenicopterus%29_female-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Yellow-footed_Green-Pigeon_%28Treron_phoenicopterus%29_female-8.jpg/330px-Yellow-footed_Green-Pigeon_%28Treron_phoenicopterus%29_female-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Yellow-footed_Green-Pigeon_(Treron_phoenicopterus)_female-8.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee Yap",
+   "caption": "Female"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Yellow-footed_Green_Pigeons_%28Treron_phoenicoptera%29-_chlorigaster_race_at_Sultanpur_I_Picture_014.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Yellow-footed_Green_Pigeons_%28Treron_phoenicoptera%29-_chlorigaster_race_at_Sultanpur_I_Picture_014.jpg/330px-Yellow-footed_Green_Pigeons_%28Treron_phoenicoptera%29-_chlorigaster_race_at_Sultanpur_I_Picture_014.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Yellow-footed_Green_Pigeons_(Treron_phoenicoptera)-_chlorigaster_race_at_Sultanpur_I_Picture_014.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Treron"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1094736"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yellow-footed_green_pigeon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,62 @@
+{
+ "scientific": "Sarkidiornis melanotos",
+ "name": "Knob-billed Duck",
+ "qid": "Q426968",
+ "description": "species of bird",
+ "extract": "The knob-billed duck (Sarkidiornis melanotos) or African comb duck is a type of duck found along the tropical/sub-tropical wetlands and waterways of Sub-Saharan Africa and the island of Madagascar, as well as most of South Asia and mainland Indochina.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Knob-billed_Duck_at_Sonkhaliya%2C_Rajasthan%2C_India%2C_July_2013.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Knob-billed_Duck_at_Sonkhaliya%2C_Rajasthan%2C_India%2C_July_2013.jpg/330px-Knob-billed_Duck_at_Sonkhaliya%2C_Rajasthan%2C_India%2C_July_2013.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Knob-billed_Duck_at_Sonkhaliya,_Rajasthan,_India,_July_2013.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Koshy Koshy",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Knob-billed_Duck_Sarkidiornis_melanotos%2C_female%2C_by_Dr._Raju_Kasambe_DSCN8938_%281%29.jpg/1280px-Knob-billed_Duck_Sarkidiornis_melanotos%2C_female%2C_by_Dr._Raju_Kasambe_DSCN8938_%281%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Knob-billed_Duck_Sarkidiornis_melanotos%2C_female%2C_by_Dr._Raju_Kasambe_DSCN8938_%281%29.jpg/330px-Knob-billed_Duck_Sarkidiornis_melanotos%2C_female%2C_by_Dr._Raju_Kasambe_DSCN8938_%281%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Knob-billed_Duck_Sarkidiornis_melanotos,_female,_by_Dr._Raju_Kasambe_DSCN8938_(1).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dr. Raju Kasambe",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 66.0,
+   "max": 1777.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sarkidiornis"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q426968"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Knob-billed_duck"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

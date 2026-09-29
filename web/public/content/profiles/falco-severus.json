@@ -1,0 +1,55 @@
+{
+ "scientific": "Falco severus",
+ "name": "Oriental Hobby",
+ "qid": "Q782161",
+ "description": "species of bird",
+ "extract": "The Oriental hobby (Falco severus) is a species of falcon typically 27–30 cm long. It can be found locally in the Indo-Gangetic Plain in the north of the Indian subcontinent, across the eastern Himalayas, east across southern China and the Philippines, and southwards through Indochina to New Guinea and the Solomon Islands; its distribution is patchy, being absent from Borneo, Sumatra, and the Malay Peninsula, despite occurring both north and south of there. It has been recorded as a vagrant from Malaysia and southern India.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Oriental_Hobby_-_Falco_severus_-_Falco_%282526569907%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Oriental_Hobby_-_Falco_severus_-_Falco_%282526569907%29.jpg/330px-Oriental_Hobby_-_Falco_severus_-_Falco_%282526569907%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Oriental_Hobby_-_Falco_severus_-_Falco_(2526569907).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Michael Gillam from Phuket, Thailand",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 61.0,
+   "max": 69.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Falco",
+   "name": "falcon"
+  },
+  "family": {
+   "scientific": "Falconidae"
+  },
+  "order": {
+   "scientific": "Falconiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q782161"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Oriental_hobby"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

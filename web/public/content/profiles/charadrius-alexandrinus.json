@@ -1,0 +1,70 @@
+{
+ "scientific": "Charadrius alexandrinus",
+ "name": "Kentish Plover",
+ "qid": "Q18855",
+ "description": "species of bird",
+ "extract": "The Kentish plover (Anarhynchus alexandrinus) is a small wader (40–44 g (1.4–1.6 oz)) of the family Charadriidae that breeds on the shores of saline lakes, lagoons, and coasts, populating sand dunes, marshes, semi-arid desert, and tundra. Both male and female birds have pale plumages with a white underside, grey/brown back, dark legs and a dark bill; however, additionally the male birds also exhibit very dark incomplete breast bands, and dark markings either side of their head, therefore the Kentish plover is regarded as sexually dimorphic.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Kentish_Plover_%28_Charadrius_alexandrinus_%29_..._Southern_Spain_%2853416088471%29.jpg/1280px-Kentish_Plover_%28_Charadrius_alexandrinus_%29_..._Southern_Spain_%2853416088471%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Kentish_Plover_%28_Charadrius_alexandrinus_%29_..._Southern_Spain_%2853416088471%29.jpg/330px-Kentish_Plover_%28_Charadrius_alexandrinus_%29_..._Southern_Spain_%2853416088471%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Kentish_Plover_(_Charadrius_alexandrinus_)_..._Southern_Spain_(53416088471).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "peterichman",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Charadrius_alexandrinus_-_Kentish_Plover_03.jpg/1280px-Charadrius_alexandrinus_-_Kentish_Plover_03.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Charadrius_alexandrinus_-_Kentish_Plover_03.jpg/330px-Charadrius_alexandrinus_-_Kentish_Plover_03.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Charadrius_alexandrinus_-_Kentish_Plover_03.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Zeynel Cebeci",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 41.1,
+   "max": 43.9,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 47.0,
+   "max": 47.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anarhynchus"
+  },
+  "family": {
+   "scientific": "Charadriidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Anarhynchus alexandrinus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q18855"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kentish_plover"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

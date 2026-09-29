@@ -1,0 +1,49 @@
+{
+ "scientific": "Rallina canningi",
+ "name": "Andaman Crake",
+ "qid": "Q760447",
+ "description": "species of bird",
+ "extract": "The Andaman crake (Rallina canningi) is a bird species in the family Rallidae. It is endemic to the Andaman Islands of the eastern Indian Ocean.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Euryzona_canningi.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Euryzona_canningi.jpg/330px-Euryzona_canningi.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Euryzona_canningi.jpg",
+   "license": "Public domain",
+   "artist": "Edward Neale",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Rallina"
+  },
+  "family": {
+   "scientific": "Rallidae"
+  },
+  "order": {
+   "scientific": "Gruiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q760447"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Andaman_crake"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

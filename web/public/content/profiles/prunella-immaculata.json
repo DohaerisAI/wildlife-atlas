@@ -1,0 +1,51 @@
+{
+ "scientific": "Prunella immaculata",
+ "name": "Maroon-backed Accentor",
+ "qid": "Q730411",
+ "description": "species of bird",
+ "extract": "The maroon-backed accentor (Prunella immaculata) is a species of bird in the family Prunellidae. It is found in Bhutan, China, India, Myanmar, and Nepal.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Maroon-backed_Accentor_Neora_valley_National_Park_West_Bengal_India_08.12.2015.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Maroon-backed_Accentor_Neora_valley_National_Park_West_Bengal_India_08.12.2015.jpg/330px-Maroon-backed_Accentor_Neora_valley_National_Park_West_Bengal_India_08.12.2015.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Maroon-backed_Accentor_Neora_valley_National_Park_West_Bengal_India_08.12.2015.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 20.0,
+   "max": 20.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Prunella"
+  },
+  "family": {
+   "scientific": "Prunellidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q730411"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Maroon-backed_accentor"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

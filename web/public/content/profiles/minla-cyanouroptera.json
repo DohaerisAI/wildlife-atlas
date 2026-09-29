@@ -1,0 +1,43 @@
+{
+ "scientific": "Minla cyanouroptera",
+ "name": "Blue-winged Minla",
+ "qid": "Q1442540",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Blue-winged_siva_at_Sattal_Kumaon_India_DSCN0359_1.jpg/1280px-Blue-winged_siva_at_Sattal_Kumaon_India_DSCN0359_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Blue-winged_siva_at_Sattal_Kumaon_India_DSCN0359_1.jpg/330px-Blue-winged_siva_at_Sattal_Kumaon_India_DSCN0359_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blue-winged_siva_at_Sattal_Kumaon_India_DSCN0359_1.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Sumita Roy Dutta (Wikimedia Commons )",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 17.0,
+   "max": 17.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Minla"
+  },
+  "family": {
+   "scientific": "Leiothrichidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1442540"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

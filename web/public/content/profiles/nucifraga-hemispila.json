@@ -1,0 +1,46 @@
+{
+ "scientific": "Nucifraga hemispila",
+ "name": "Southern Nutcracker",
+ "qid": "Q31874513",
+ "description": "species of bird",
+ "extract": "The southern nutcracker (Nucifraga hemispila) is a passerine bird in the crow family Corvidae. It was formerly considered to be conspecific with the northern nutcracker (Nucifraga caryocatactes) and the Kashmir nutcracker (Nucifraga multipunctata) under the English name \"spotted nutcracker\".",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Nucifraga_hemispila_perched_in_Picea_smithiana%2C_Rara_Lake%2C_Nepal_%28crop%29.jpg/1280px-Nucifraga_hemispila_perched_in_Picea_smithiana%2C_Rara_Lake%2C_Nepal_%28crop%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Nucifraga_hemispila_perched_in_Picea_smithiana%2C_Rara_Lake%2C_Nepal_%28crop%29.jpg/330px-Nucifraga_hemispila_perched_in_Picea_smithiana%2C_Rara_Lake%2C_Nepal_%28crop%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Nucifraga_hemispila_perched_in_Picea_smithiana,_Rara_Lake,_Nepal_(crop).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Original: Nrik kiran; this edit: MPF",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Nucifraga"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q31874513"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Southern_nutcracker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

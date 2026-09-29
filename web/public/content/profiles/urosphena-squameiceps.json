@@ -1,0 +1,51 @@
+{
+ "scientific": "Urosphena squameiceps",
+ "name": "Asian Stubtail",
+ "qid": "Q2669165",
+ "description": "species of bird in the Cettiidae family",
+ "extract": "The Asian stubtail (Urosphena squameiceps) is a bird in the family Cettiidae. The species was first described by Robert Swinhoe in 1863. It breeds in Northeast Asia and Japan. Its natural habitat is temperate forest.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Urosphena_squameiceps_from_iNaturalist_photo_186686578.jpg/1280px-Urosphena_squameiceps_from_iNaturalist_photo_186686578.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Urosphena_squameiceps_from_iNaturalist_photo_186686578.jpg/330px-Urosphena_squameiceps_from_iNaturalist_photo_186686578.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Urosphena_squameiceps_from_iNaturalist_photo_186686578.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Rejoice Gassah (rejoicegassah)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 9.0,
+   "max": 9.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Urosphena"
+  },
+  "family": {
+   "scientific": "Cettiidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2669165"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Asian_stubtail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,44 @@
+{
+ "scientific": "Seicercus tephrocephalus",
+ "name": "Gray-crowned Warbler",
+ "qid": "Q1923022",
+ "description": "species of bird",
+ "extract": "The grey-crowned warbler (Phylloscopus tephrocephalus) is a species of Old World warbler in the family Phylloscopidae. It is found in Bangladesh, China, India, Laos, Myanmar, Thailand and Vietnam. Its natural habitats are temperate forests, subtropical or tropical moist lowland forest, and subtropical or tropical moist montane forest.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Culcipeta_tephrocephala_Anderson%2C_1871_-_J._G._Keulemans.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Culcipeta_tephrocephala_Anderson%2C_1871_-_J._G._Keulemans.jpg/330px-Culcipeta_tephrocephala_Anderson%2C_1871_-_J._G._Keulemans.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Culcipeta_tephrocephala_Anderson,_1871_-_J._G._Keulemans.jpg",
+   "license": "Public domain",
+   "artist": "John Gerrard Keulemans",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Seicercus"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Grey-crowned Warbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1923022"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey-crowned_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

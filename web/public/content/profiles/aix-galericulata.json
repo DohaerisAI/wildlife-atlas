@@ -1,0 +1,67 @@
+{
+ "scientific": "Aix galericulata",
+ "name": "Mandarin Duck",
+ "qid": "Q200339",
+ "description": "species of bird",
+ "extract": "The mandarin duck (Aix galericulata) is a perching duck species native to East and Northeast Asia. It is sexually dimorphic; the males are elaborately coloured, while the females have more subdued colours. It is a medium-sized duck, at 41–49 cm (16–19 in) long with a 65–75 cm (26–30 in) wingspan. It is closely related to the North American wood duck, the only other member of the genus Aix. 'Aix' is an Ancient Greek word which was used by Aristotle to refer to an unknown diving bird, and 'galericulata' is the Latin for a wig, derived from galerum, a cap or bonnet. Outside of its native range, the mandarin duck has a large introduced population in the British Isles and Western Europe, with additional smaller introductions in North America.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Mandarin_ducks_by_the_Weiming_Lake_of_Peking_University_16.jpg/1280px-Mandarin_ducks_by_the_Weiming_Lake_of_Peking_University_16.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Mandarin_ducks_by_the_Weiming_Lake_of_Peking_University_16.jpg/330px-Mandarin_ducks_by_the_Weiming_Lake_of_Peking_University_16.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mandarin_ducks_by_the_Weiming_Lake_of_Peking_University_16.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "星外之神",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Mandarin_ducks_by_the_Weiming_Lake_of_Peking_University_09.jpg/1280px-Mandarin_ducks_by_the_Weiming_Lake_of_Peking_University_09.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Mandarin_ducks_by_the_Weiming_Lake_of_Peking_University_09.jpg/330px-Mandarin_ducks_by_the_Weiming_Lake_of_Peking_University_09.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mandarin_ducks_by_the_Weiming_Lake_of_Peking_University_09.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "星外之神",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 71.0,
+   "max": 71.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 41.0,
+   "max": 41.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aix"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q200339"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mandarin_duck"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

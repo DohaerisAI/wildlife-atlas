@@ -1,0 +1,67 @@
+{
+ "scientific": "Xema sabini",
+ "name": "Sabine's Gull",
+ "qid": "Q212047",
+ "description": "species of bird",
+ "extract": "Sabine's gull ( SAY-bin; Xema sabini) is a small gull. It is usually treated as the only species placed in the genus Xema, though some authors include it with other gulls in a wide view of the genus Larus. It has also been known historically as fork-tailed gull or xeme (from the genus name). It breeds in colonies on Arctic coasts and tundra, laying two or three spotted olive-brown eggs in a ground nest lined with grass. Sabine's gull is pelagic outside the breeding season. It takes a wide variety of mainly animal food, and will eat any suitable small prey.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Sabine%27s_gull_%2853706725122%29.jpg/1280px-Sabine%27s_gull_%2853706725122%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Sabine%27s_gull_%2853706725122%29.jpg/330px-Sabine%27s_gull_%2853706725122%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sabine%27s_gull_(53706725122).jpg",
+   "license": "Public domain",
+   "artist": "Alaska Region U.S. Fish & Wildlife Service from Anchorage, United States",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Sabine%27s_gull_%2853706724037%29.jpg/1280px-Sabine%27s_gull_%2853706724037%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Sabine%27s_gull_%2853706724037%29.jpg/330px-Sabine%27s_gull_%2853706724037%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sabine%27s_gull_(53706724037).jpg",
+   "license": "Public domain",
+   "artist": "Alaska Region U.S. Fish & Wildlife Service from Anchorage, United States",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 81.0,
+   "max": 92.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 16.0,
+   "max": 185.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Xema"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q212047"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

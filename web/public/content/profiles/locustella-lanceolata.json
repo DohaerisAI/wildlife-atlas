@@ -1,0 +1,51 @@
+{
+ "scientific": "Locustella lanceolata",
+ "name": "Lanceolated Warbler",
+ "qid": "Q837761",
+ "description": "species of bird",
+ "extract": "The lanceolated warbler (Locustella lanceolata) is a species of Old World warbler in the genus Locustella. It breeds from northwest European Russia across the Palearctic to northern Hokkaidō, Japan. It is migratory, wintering in Southeast Asia. The genus name Locustella is from Latin and is a diminutive of locusta,  \"grasshopper\". This refers to the song of the common grasshopper warbler and some others in this genus. The specific  lanceolata is Latin for \"spear-shaped\" and refers to the streaks on the breast.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Locustella_lanceolata_295726934.jpg/1280px-Locustella_lanceolata_295726934.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Locustella_lanceolata_295726934.jpg/330px-Locustella_lanceolata_295726934.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Locustella_lanceolata_295726934.jpg",
+   "license": "CC0",
+   "artist": "Александр Чегодаев",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 1.6,
+   "max": 1.6,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Locustella"
+  },
+  "family": {
+   "scientific": "Locustellidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q837761"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lanceolated_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

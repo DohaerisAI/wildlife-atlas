@@ -1,0 +1,49 @@
+{
+ "scientific": "Stachyris nigriceps",
+ "name": "Gray-throated Babbler",
+ "qid": "Q1038419",
+ "description": "species of bird",
+ "extract": "The grey-throated babbler (Stachyris nigriceps) is a species of passerine bird in the Old World babbler family Timaliidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Gray-throated_Babbler_Cropped.jpg/1280px-Gray-throated_Babbler_Cropped.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Gray-throated_Babbler_Cropped.jpg/330px-Gray-throated_Babbler_Cropped.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gray-throated_Babbler_Cropped.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Mildeep",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Stachyris"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "grey-throated babbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1038419"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey-throated_babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

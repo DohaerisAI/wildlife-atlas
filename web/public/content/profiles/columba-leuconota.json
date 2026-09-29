@@ -1,0 +1,49 @@
+{
+ "scientific": "Columba leuconota",
+ "name": "Snow Pigeon",
+ "qid": "Q841221",
+ "description": "species of bird",
+ "extract": "The snow pigeon (Columba leuconota) is a species of bird in the genus Columba in the family Columbidae from hilly regions of central Asia. They are grey, black, pale brown and white birds and two subspecies are recognised: C. l. leuconota occurs in the western Himalayas from western Afghanistan to Sikkim and C. l. gradaria occurs in the mountains of eastern Tibet and from eastern Nan Shan (Qinghai) to Yunnan and extreme northern Myanmar. The birds forage in open country in pairs or small groups, feeding on grain, buds, shoots, berries and seeds. They roost at night on cliffs, breeding in crevices where they build untidy stick nests and lay a clutch of usually two white eggs. The International Union for Conservation of Nature has rated the bird's conservation status as being of least concern.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Snow_Pigeon_%28Columba_leuconota%29_%2819589090133%29.jpg/1280px-Snow_Pigeon_%28Columba_leuconota%29_%2819589090133%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Snow_Pigeon_%28Columba_leuconota%29_%2819589090133%29.jpg/330px-Snow_Pigeon_%28Columba_leuconota%29_%2819589090133%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Snow_Pigeon_(Columba_leuconota)_(19589090133).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Columba"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q841221"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Snow_pigeon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,49 @@
+{
+ "scientific": "Alophoixus flaveolus",
+ "name": "White-throated Bulbul",
+ "qid": "Q285922",
+ "description": "species of bird",
+ "extract": "The white-throated bulbul (Alophoixus flaveolus) is a species of songbird in the bulbul family, Pycnonotidae. It is found in south-eastern Asia from the eastern Himalayas to Myanmar and western Thailand. Its natural habitat is subtropical or tropical moist lowland forests.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Alophoixus_flaveolus_-_Rejoice_Gassah_-_545774276.jpeg/1280px-Alophoixus_flaveolus_-_Rejoice_Gassah_-_545774276.jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Alophoixus_flaveolus_-_Rejoice_Gassah_-_545774276.jpeg/330px-Alophoixus_flaveolus_-_Rejoice_Gassah_-_545774276.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Alophoixus_flaveolus_-_Rejoice_Gassah_-_545774276.jpeg",
+   "license": "CC BY 4.0",
+   "artist": "Rejoice Gassah",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Alophoixus"
+  },
+  "family": {
+   "scientific": "Pycnonotidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Ashy-fronted bearded bulbul"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q285922"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-throated_bulbul"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

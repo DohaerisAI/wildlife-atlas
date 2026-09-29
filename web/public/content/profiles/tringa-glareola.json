@@ -1,0 +1,62 @@
+{
+ "scientific": "Tringa glareola",
+ "name": "Wood Sandpiper",
+ "qid": "Q18837",
+ "description": "species of bird",
+ "extract": "The wood sandpiper (Tringa glareola) is a small wader belonging to the sandpiper family Scolopacidae. A Eurasian species, it is the smallest of the shanks, a genus of mid-sized, long-legged waders that largely inhabit freshwater and wetland environments, as opposed to the maritime or coastal habitats of other, similar species.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Wood_Sandpiper_%2850206067826%29%2C_crop.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Wood_Sandpiper_%2850206067826%29%2C_crop.jpg/330px-Wood_Sandpiper_%2850206067826%29%2C_crop.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wood_Sandpiper_(50206067826),_crop.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Koshy Koshy from Faridabad, Haryana, India",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 40.0,
+   "max": 40.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 13.5,
+   "max": 73.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tringa"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Tringa (Rhyacophilus) glareola"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q18837"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wood_sandpiper"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

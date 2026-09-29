@@ -1,0 +1,59 @@
+{
+ "scientific": "Cisticola exilis",
+ "name": "Golden-headed Cisticola",
+ "qid": "Q795503",
+ "description": "species of bird",
+ "extract": "The golden-headed cisticola (Cisticola exilis), also known as the bright-capped cisticola, is a species of warbler in the family Cisticolidae, found in Australia and thirteen Asian countries. Growing to 9–11.5 cm (3.5–4.5 in) long, it is usually brown and cream in colour, but has a different appearance during the mating season, with a gold-coloured body and a much shorter tail. It is an omnivore and frequently makes a variety of vocalizations. Known as the \"finest tailor of all birds\", it constructs nests out of plants and spider threads. It mates in the rainy season. It has a very large range and population, which is thought to be increasing.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Golden-headed_Cisticola_-_Oakey_QLD%2C_Australia.jpg/1280px-Golden-headed_Cisticola_-_Oakey_QLD%2C_Australia.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Golden-headed_Cisticola_-_Oakey_QLD%2C_Australia.jpg/330px-Golden-headed_Cisticola_-_Oakey_QLD%2C_Australia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Golden-headed_Cisticola_-_Oakey_QLD,_Australia.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Ricky Goodyear",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Cisticola_exilis_-_Eddie_-_580318830.jpeg/1280px-Cisticola_exilis_-_Eddie_-_580318830.jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Cisticola_exilis_-_Eddie_-_580318830.jpeg/330px-Cisticola_exilis_-_Eddie_-_580318830.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cisticola_exilis_-_Eddie_-_580318830.jpeg",
+   "license": "CC BY 4.0",
+   "artist": "Eddie",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 1.0,
+   "max": 8.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cisticola"
+  },
+  "family": {
+   "scientific": "Cisticolidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q795503"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Golden-headed_cisticola"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

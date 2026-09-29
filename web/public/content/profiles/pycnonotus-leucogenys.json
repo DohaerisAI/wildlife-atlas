@@ -1,0 +1,46 @@
+{
+ "scientific": "Pycnonotus leucogenys",
+ "name": "Himalayan bulbul",
+ "qid": "Q921954",
+ "description": "species of bird",
+ "extract": "The Himalayan bulbul (Pycnonotus leucogenys), or white-cheeked bulbul, is a species of songbird in the bulbul family found in Central and South Asia.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Himalayan_Bulbul_I2_IMG_3990.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Himalayan_Bulbul_I2_IMG_3990.jpg/330px-Himalayan_Bulbul_I2_IMG_3990.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Himalayan_Bulbul_I2_IMG_3990.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pycnonotus"
+  },
+  "family": {
+   "scientific": "Pycnonotidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q921954"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Himalayan_bulbul"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

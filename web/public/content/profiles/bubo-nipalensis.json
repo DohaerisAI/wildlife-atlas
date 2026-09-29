@@ -1,0 +1,58 @@
+{
+ "scientific": "Bubo nipalensis",
+ "name": "Spot-bellied Eagle Owl",
+ "qid": "Q729676",
+ "description": "species of bird",
+ "extract": "The spot-bellied eagle-owl (Ketupa nipalensis), also known as the forest eagle-owl, is a large bird of prey with a formidable appearance. It is a forest-inhabiting species found in the Indian subcontinent and Southeast Asia. This species is considered part of a superspecies with the barred eagle-owl (Ketupa sumatrana), which looks quite similar but is allopatric in distribution.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/SpotbelliedEagleOwl.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/SpotbelliedEagleOwl.jpg/330px-SpotbelliedEagleOwl.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:SpotbelliedEagleOwl.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dinesh Kannambadi",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Spot-bellied_Eagle-Owl_by_N.A._Nazeer.jpg/1280px-Spot-bellied_Eagle-Owl_by_N.A._Nazeer.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Spot-bellied_Eagle-Owl_by_N.A._Nazeer.jpg/330px-Spot-bellied_Eagle-Owl_by_N.A._Nazeer.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Spot-bellied_Eagle-Owl_by_N.A._Nazeer.jpg",
+   "license": "CC BY-SA 2.5 in",
+   "artist": "N A Nazeer",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Bubo"
+  },
+  "family": {
+   "scientific": "Strigidae",
+   "name": "true owls"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q729676"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spot-bellied_eagle-owl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

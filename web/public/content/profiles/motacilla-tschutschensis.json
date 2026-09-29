@@ -1,0 +1,49 @@
+{
+ "scientific": "Motacilla tschutschensis",
+ "name": "Eastern Yellow Wagtail",
+ "qid": "Q4810698",
+ "description": "species of bird",
+ "extract": "The eastern yellow wagtail (Motacilla tschutschensis) is a small passerine in the wagtail family Motacillidae, which also includes the pipits and longclaws. It was formerly usually classified as a subspecies of the western yellow wagtail, but was split from it in 2003 when genetic data showed this classification to be paraphyletic with respect to the citrine wagtail. It breeds in the eastern Palearctic and Alaska and migrates to South Asia and Australia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Eastern_Yellow_Wagtail_%28Motacilla_tschutschensis_tschutschensis%29%2C_Kamchatka%2C_Russia_14.jpg/1280px-Eastern_Yellow_Wagtail_%28Motacilla_tschutschensis_tschutschensis%29%2C_Kamchatka%2C_Russia_14.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Eastern_Yellow_Wagtail_%28Motacilla_tschutschensis_tschutschensis%29%2C_Kamchatka%2C_Russia_14.jpg/330px-Eastern_Yellow_Wagtail_%28Motacilla_tschutschensis_tschutschensis%29%2C_Kamchatka%2C_Russia_14.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eastern_Yellow_Wagtail_(Motacilla_tschutschensis_tschutschensis),_Kamchatka,_Russia_14.jpg",
+   "license": "CC BY 4.0",
+   "artist": "valerkov",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Motacilla"
+  },
+  "family": {
+   "scientific": "Motacillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Motacilla (Budytes) tschutschensis"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q4810698"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eastern_yellow_wagtail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

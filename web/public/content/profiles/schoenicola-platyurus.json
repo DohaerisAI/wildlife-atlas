@@ -1,0 +1,54 @@
+{
+ "scientific": "Schoenicola platyurus",
+ "name": "Broad-tailed Grassbird",
+ "qid": "Q3727694",
+ "description": "species of bird",
+ "extract": "The broad-tailed grassbird (Schoenicola platyurus) is a species of Old World warbler in the family Locustellidae. It is endemic to the Western Ghats of India with a possibility of occurrence in Sri Lanka. A small, mostly brown bird, it has a broad rounded and graduated tail. It is found only on the higher altitude grassy hills where it usually skulks, except during the breeding season when males fly up into the air to sing in their display. The species is believed to be a resident although it is possible that they make local movements.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Broad-tailed_Grassbird_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_03.jpg/1280px-Broad-tailed_Grassbird_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_03.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Broad-tailed_Grassbird_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_03.jpg/330px-Broad-tailed_Grassbird_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_03.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Broad-tailed_Grassbird_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_03.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Broad-tailed_Grassbird_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_19.jpg/1280px-Broad-tailed_Grassbird_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_19.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Broad-tailed_Grassbird_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_19.jpg/330px-Broad-tailed_Grassbird_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_19.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Broad-tailed_Grassbird_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_19.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Schoenicola"
+  },
+  "family": {
+   "scientific": "Locustellidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3727694"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Broad-tailed_grassbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

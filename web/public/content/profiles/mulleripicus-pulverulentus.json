@@ -1,0 +1,50 @@
+{
+ "scientific": "Mulleripicus pulverulentus",
+ "name": "Great Slaty Woodpecker",
+ "qid": "Q1266445",
+ "description": "species of bird",
+ "extract": "The great slaty woodpecker (Mulleripicus pulverulentus) is a species of bird in the family Picidae. It is found across the Indian subcontinent and Southeast Asia. A unique and basically unmistakable bird, it is the largest confirmed living woodpecker species, behind the likely extinct imperial woodpecker and ivory-billed woodpecker.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Great_Slaty_Woodpecker_Kaladhungi_Nainital_Uttarakhand_India_07.10.2014.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Great_Slaty_Woodpecker_Kaladhungi_Nainital_Uttarakhand_India_07.10.2014.jpg/330px-Great_Slaty_Woodpecker_Kaladhungi_Nainital_Uttarakhand_India_07.10.2014.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Great_Slaty_Woodpecker_Kaladhungi_Nainital_Uttarakhand_India_07.10.2014.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 460.0,
+   "max": 460.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Mulleripicus"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1266445"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_slaty_woodpecker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

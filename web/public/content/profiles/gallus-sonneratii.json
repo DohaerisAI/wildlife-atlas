@@ -1,0 +1,65 @@
+{
+ "scientific": "Gallus sonneratii",
+ "name": "Grey Junglefowl",
+ "qid": "Q304434",
+ "description": "species of bird",
+ "extract": "The grey junglefowl (Gallus sonneratii), also known as Sonnerat's junglefowl, is one of the wild ancestors of the domestic chicken together with the red junglefowl and other junglefowls.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Gallus_sonneratii_%28Bandipur%29.jpg/1280px-Gallus_sonneratii_%28Bandipur%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Gallus_sonneratii_%28Bandipur%29.jpg/330px-Gallus_sonneratii_%28Bandipur%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gallus_sonneratii_(Bandipur).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Yathin S Krishnappa",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Gallus_sonneratii_-_female_%28Thattekad%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Gallus_sonneratii_-_female_%28Thattekad%29.jpg/330px-Gallus_sonneratii_-_female_%28Thattekad%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gallus_sonneratii_-_female_(Thattekad).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Yathin S Krishnappa",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 750.0,
+   "max": 965.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Gallus"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Sonnerat's Junglefowl"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q304434"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey_junglefowl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

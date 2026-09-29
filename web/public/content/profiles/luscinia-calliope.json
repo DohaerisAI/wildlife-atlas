@@ -1,0 +1,37 @@
+{
+ "scientific": "Luscinia calliope",
+ "name": "Siberian Rubythroat",
+ "qid": "Q185673",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Luscinia_calliope_-_Pak_Chong_2.jpg/1280px-Luscinia_calliope_-_Pak_Chong_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Luscinia_calliope_-_Pak_Chong_2.jpg/330px-Luscinia_calliope_-_Pak_Chong_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Luscinia_calliope_-_Pak_Chong_2.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Luscinia"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q185673"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

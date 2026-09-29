@@ -1,0 +1,43 @@
+{
+ "scientific": "Chaetornis striata",
+ "name": "Bristled Grassbird",
+ "qid": "Q1587268",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Bristledgrassbird_DSC_7235_100813_dadri_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Bristledgrassbird_DSC_7235_100813_dadri_01.jpg/330px-Bristledgrassbird_DSC_7235_100813_dadri_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bristledgrassbird_DSC_7235_100813_dadri_01.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Savithri Singh",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 31.0,
+   "max": 31.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chaetornis"
+  },
+  "family": {
+   "scientific": "Locustellidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1587268"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,60 @@
+{
+ "scientific": "Ardea goliath",
+ "name": "Goliath Heron",
+ "qid": "Q118608",
+ "description": "species of bird",
+ "extract": "The Goliath heron (Ardea goliath), also known as the giant heron, is a very large wading bird in the heron family, Ardeidae. It is primarily found in sub-Saharan Africa, with smaller, declining numbers in Southwest and South Asia. Asian records are now very rare, but it does still known as an occasional vagrant.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Ardea_goliath.jpg/1280px-Ardea_goliath.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Ardea_goliath.jpg/330px-Ardea_goliath.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ardea_goliath.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Hans Hillewaert",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 210.0,
+   "max": 230.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 109.0,
+   "max": 109.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ardea"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q118608"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Goliath_heron"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

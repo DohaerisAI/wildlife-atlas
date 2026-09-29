@@ -1,0 +1,74 @@
+{
+ "scientific": "Haematopus ostralegus",
+ "name": "Eurasian Oystercatcher",
+ "qid": "Q25928",
+ "description": "species of bird",
+ "extract": "The Eurasian oystercatcher or European oystercatcher (Haematopus ostralegus), also known as the common pied oystercatcher, or (in Europe) just oystercatcher, is a wader in the oystercatcher bird family Haematopodidae. It has striking black and white plumage, a long straight orange-red bill, red eyes and relatively short dull pink legs. The sexes are similar in appearance but the bill of the female is longer than that of the male.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Haematopus_ostralegus_He.jpg/1280px-Haematopus_ostralegus_He.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Haematopus_ostralegus_He.jpg/330px-Haematopus_ostralegus_He.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Haematopus_ostralegus_He.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Haematopus_ostralegus0.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Haematopus_ostralegus0.jpg/330px-Haematopus_ostralegus0.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Haematopus_ostralegus0.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "MPF",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 82.0,
+   "max": 82.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 46.7,
+   "max": 518.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Haematopus"
+  },
+  "family": {
+   "scientific": "Haematopodidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Oystercatcher",
+  "Common Pied Oystercatcher",
+  "Palaearctic Oystercatcher",
+  "sea pie",
+  "seapie"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25928"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eurasian_oystercatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

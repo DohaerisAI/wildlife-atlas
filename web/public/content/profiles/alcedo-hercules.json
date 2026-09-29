@@ -1,0 +1,45 @@
+{
+ "scientific": "Alcedo hercules",
+ "name": "Blyth's Kingfisher",
+ "qid": "Q832565",
+ "description": "species of bird",
+ "extract": "Blyth's kingfisher (Alcedo hercules) is the largest kingfisher in the genus Alcedo. Named for Edward Blyth, the species has also been known as Alcedo grandis and as the great blue kingfisher. Between 22 and 23 cm (8+5⁄8 and 9 in) long, the kingfisher has deep rufous underparts with a blackish blue breast patch, and brilliant cobalt blue or azure upperparts, tinged with purple. The wings are a dark blackish green, with blue speckles and tips to some of the feathers. The bill of the male is entirely black, while the female has a dark red lower mandible. The species is distinguished from the similar blue-eared kingfisher (Alcedo meninting) and common kingfisher (Alcedo atthis) by its greater size, heavy black bill, and dark lores.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Blyth%27s_Kingfisher_-_Rarest_Kingfisher_found_in_India.jpg/1280px-Blyth%27s_Kingfisher_-_Rarest_Kingfisher_found_in_India.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Blyth%27s_Kingfisher_-_Rarest_Kingfisher_found_in_India.jpg/330px-Blyth%27s_Kingfisher_-_Rarest_Kingfisher_found_in_India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blyth%27s_Kingfisher_-_Rarest_Kingfisher_found_in_India.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Sushaw",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Alcedo"
+  },
+  "family": {
+   "scientific": "Alcedinidae"
+  },
+  "order": {
+   "scientific": "Coraciiformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q832565"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blyth%27s_kingfisher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,40 @@
+{
+ "scientific": "Sphenocichla humei",
+ "name": "Wedge-billed Wren-Babbler",
+ "qid": "Q1308740",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Sphenocichla_humei.JPG/1280px-Sphenocichla_humei.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Sphenocichla_humei.JPG/330px-Sphenocichla_humei.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Sphenocichla_humei.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Umeshsrinivasan",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sphenocichla"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Sikkim Wedge-billed Babbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1308740"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

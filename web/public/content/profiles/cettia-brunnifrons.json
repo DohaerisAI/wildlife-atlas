@@ -1,0 +1,46 @@
+{
+ "scientific": "Cettia brunnifrons",
+ "name": "Grey-sided Bush Warbler",
+ "qid": "Q726719",
+ "description": "species of bird",
+ "extract": "The grey-sided bush warbler (Cettia brunnifrons) is a species of bush warbler (family Cettiidae). It was formerly included in the \"Old World warbler\" assemblage.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Grey-sided_Bush_Warbler.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Grey-sided_Bush_Warbler.jpg/330px-Grey-sided_Bush_Warbler.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grey-sided_Bush_Warbler.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cettia"
+  },
+  "family": {
+   "scientific": "Cettiidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q726719"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey-sided_bush_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

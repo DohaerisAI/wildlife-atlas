@@ -1,0 +1,43 @@
+{
+ "scientific": "Garrulax cineraceus",
+ "name": "Moustached Laughingthrush",
+ "qid": "Q3313694",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/TrochalopteronCinereicepsKeulemans.jpg/1280px-TrochalopteronCinereicepsKeulemans.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/TrochalopteronCinereicepsKeulemans.jpg/330px-TrochalopteronCinereicepsKeulemans.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:TrochalopteronCinereicepsKeulemans.jpg",
+   "license": "Public domain",
+   "artist": "J G Keulemans",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 49.0,
+   "max": 49.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Garrulax"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3313694"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

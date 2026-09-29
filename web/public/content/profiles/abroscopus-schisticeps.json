@@ -1,0 +1,49 @@
+{
+ "scientific": "Abroscopus schisticeps",
+ "name": "Black-faced Warbler",
+ "qid": "Q2084483",
+ "description": "species of bird",
+ "extract": "The black-faced warbler (Abroscopus schisticeps) is a species of bush warbler (family Cettiidae). It was formerly included in the \"Old World warbler\" assemblage.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Black-faced_Warbler_in_Sillery_Gaon_March_2025_by_Tisha_Mukherjee_01.jpg/1280px-Black-faced_Warbler_in_Sillery_Gaon_March_2025_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Black-faced_Warbler_in_Sillery_Gaon_March_2025_by_Tisha_Mukherjee_01.jpg/330px-Black-faced_Warbler_in_Sillery_Gaon_March_2025_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-faced_Warbler_in_Sillery_Gaon_March_2025_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Abroscopus"
+  },
+  "family": {
+   "scientific": "Cettiidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Seicercus schisticeps"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2084483"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-faced_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

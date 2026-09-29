@@ -1,0 +1,51 @@
+{
+ "scientific": "Monticola rufiventris",
+ "name": "Chestnut-bellied Rock Thrush",
+ "qid": "Q1080355",
+ "description": "species of bird",
+ "extract": "The chestnut-bellied rock thrush (Monticola rufiventris) is a species of passerine bird in the Old World flycatcher family Muscicapidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Chestnut_Bellied_Rock_Thrush_by_Anne_Thingnam.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Chestnut_Bellied_Rock_Thrush_by_Anne_Thingnam.jpg/330px-Chestnut_Bellied_Rock_Thrush_by_Anne_Thingnam.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chestnut_Bellied_Rock_Thrush_by_Anne_Thingnam.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Annethingnam",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 53.0,
+   "max": 53.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Monticola"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1080355"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chestnut-bellied_rock_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

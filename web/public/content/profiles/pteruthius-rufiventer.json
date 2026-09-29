@@ -1,0 +1,46 @@
+{
+ "scientific": "Pteruthius rufiventer",
+ "name": "Black-headed Shrike-Babbler",
+ "qid": "Q3726366",
+ "description": "species of bird",
+ "extract": "The black-headed shrike-babbler (Pteruthius rufiventer) is a bird species traditionally placed with the Old World babblers in the family Timaliidae. However, it might be one of the few Eurasian vireos (Vireonidae).",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Black-headed_Shrike-Babbler_-_Eaglenest_-_IndiaFJ0A1112_%2834154984221%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Black-headed_Shrike-Babbler_-_Eaglenest_-_IndiaFJ0A1112_%2834154984221%29.jpg/330px-Black-headed_Shrike-Babbler_-_Eaglenest_-_IndiaFJ0A1112_%2834154984221%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-headed_Shrike-Babbler_-_Eaglenest_-_IndiaFJ0A1112_(34154984221).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pteruthius"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3726366"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-headed_shrike-babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

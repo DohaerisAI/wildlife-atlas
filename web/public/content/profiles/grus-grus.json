@@ -1,0 +1,57 @@
+{
+ "scientific": "Grus grus",
+ "name": "Common Crane",
+ "qid": "Q4764",
+ "description": "species of bird",
+ "extract": "The common crane (Grus grus), also known as the Eurasian crane, is a bird of the family Gruidae, the cranes. A medium-sized species, it is the only crane commonly found in Europe besides the demoiselle crane (Grus virgo) and the Siberian crane (Leucogeranus leucogeranus) that only are regular in the far eastern part of the continent. Along with the sandhill crane (Antigone canadensis), demoiselle crane and the brolga (Antigone rubicunda), it is one of only four crane species not currently classified as threatened with extinction or conservation dependent on the species level. Despite the species' large numbers, local extinctions and extirpations have taken place in part of its range, and an ongoing reintroduction project is underway in the United Kingdom.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/2017.07.04.-01-Wendisch_Rietz--Kranich.jpg/1280px-2017.07.04.-01-Wendisch_Rietz--Kranich.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/2017.07.04.-01-Wendisch_Rietz--Kranich.jpg/330px-2017.07.04.-01-Wendisch_Rietz--Kranich.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2017.07.04.-01-Wendisch_Rietz--Kranich.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Andreas Eichler",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 222.0,
+   "max": 222.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Grus"
+  },
+  "family": {
+   "scientific": "Gruidae"
+  },
+  "order": {
+   "scientific": "Gruiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Eurasian Crane"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q4764"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_crane"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

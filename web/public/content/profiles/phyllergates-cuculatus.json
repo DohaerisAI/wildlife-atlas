@@ -1,0 +1,51 @@
+{
+ "scientific": "Phyllergates cuculatus",
+ "name": "Phyllergates cucullatus",
+ "qid": "Q2225318",
+ "description": "species of bird",
+ "extract": "The mountain tailorbird (Phyllergates cucullatus) is a songbird species formerly placed in the \"Old World warbler\" assemblage, but is now placed in the genus Phyllergates of the family Cettiidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Phyllergates_cucullatus_-_Chrissy_McClarren_and_Andy_Reago_-_452883044.jpeg/1280px-Phyllergates_cucullatus_-_Chrissy_McClarren_and_Andy_Reago_-_452883044.jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Phyllergates_cucullatus_-_Chrissy_McClarren_and_Andy_Reago_-_452883044.jpeg/330px-Phyllergates_cucullatus_-_Chrissy_McClarren_and_Andy_Reago_-_452883044.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Phyllergates_cucullatus_-_Chrissy_McClarren_and_Andy_Reago_-_452883044.jpeg",
+   "license": "CC0",
+   "artist": "Chrissy McClarren and Andy Reago",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phyllergates"
+  },
+  "family": {
+   "scientific": "Cettiidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Mountain tailor bird",
+  "Phyllergates cuculatus (unjustified emendation)",
+  "Mountain Tailorbird"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2225318"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mountain_tailorbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

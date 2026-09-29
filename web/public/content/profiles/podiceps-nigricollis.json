@@ -1,0 +1,73 @@
+{
+ "scientific": "Podiceps nigricollis",
+ "name": "Black-necked Grebe",
+ "qid": "Q185183",
+ "description": "species of bird",
+ "extract": "The black-necked grebe or eared grebe (Podiceps nigricollis) is a member of the grebe family of water birds. It was described in 1831 by Christian Ludwig Brehm. Its breeding plumage features distinctive ochre-coloured feathers which extend behind its eye and over its ear coverts. The rest of the upper parts, including the head, neck, and breast, are coloured black to blackish brown. The flanks are tawny rufous to maroon-chestnut, and the abdomen is white. In its non-breeding plumage, this bird has greyish-black upper parts, including the top of the head and a vertical stripe on the back of the neck. The flanks are also greyish-black. The rest of the body is a white or whitish colour. The juvenile has more brown in its darker areas. This species is present in parts of Africa, Eurasia, and the Americas.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Schwarzhalstaucher_%28Podiceps_nigricollis%29_im_NSG_Wagbachniederung_2_%28crop%29.jpg/1280px-Schwarzhalstaucher_%28Podiceps_nigricollis%29_im_NSG_Wagbachniederung_2_%28crop%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Schwarzhalstaucher_%28Podiceps_nigricollis%29_im_NSG_Wagbachniederung_2_%28crop%29.jpg/330px-Schwarzhalstaucher_%28Podiceps_nigricollis%29_im_NSG_Wagbachniederung_2_%28crop%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Schwarzhalstaucher_(Podiceps_nigricollis)_im_NSG_Wagbachniederung_2_(crop).jpg",
+   "license": "CC BY 4.0",
+   "artist": "Original: Stephan Sprinz; this edit: MPF",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Eared_Grebe%2C_breeding_plumage_%2833774036404%29.jpg/1280px-Eared_Grebe%2C_breeding_plumage_%2833774036404%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Eared_Grebe%2C_breeding_plumage_%2833774036404%29.jpg/330px-Eared_Grebe%2C_breeding_plumage_%2833774036404%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eared_Grebe,_breeding_plumage_(33774036404).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Becky Matsubara from El Sobrante, California",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Podiceps_nigricollis_gurneyi%2C_Grassy_Park%2C_Cape_Town%2C_Western_Cape%2C_South_Africa_1.jpg/1280px-Podiceps_nigricollis_gurneyi%2C_Grassy_Park%2C_Cape_Town%2C_Western_Cape%2C_South_Africa_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Podiceps_nigricollis_gurneyi%2C_Grassy_Park%2C_Cape_Town%2C_Western_Cape%2C_South_Africa_1.jpg/330px-Podiceps_nigricollis_gurneyi%2C_Grassy_Park%2C_Cape_Town%2C_Western_Cape%2C_South_Africa_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Podiceps_nigricollis_gurneyi,_Grassy_Park,_Cape_Town,_Western_Cape,_South_Africa_1.jpg",
+   "license": "CC BY 4.0",
+   "artist": "ryanvanhuyssteen",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 58.0,
+   "max": 58.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Podiceps"
+  },
+  "family": {
+   "scientific": "Podicipedidae"
+  },
+  "order": {
+   "scientific": "Podicipediformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Eared grebe"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q185183"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-necked_grebe"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

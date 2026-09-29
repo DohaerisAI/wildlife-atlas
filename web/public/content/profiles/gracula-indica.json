@@ -1,0 +1,46 @@
+{
+ "scientific": "Gracula indica",
+ "name": "Southern hill myna",
+ "qid": "Q13732338",
+ "description": "species of bird",
+ "extract": "The southern hill myna (Gracula indica) is a member of the starling family. It is a resident of the forested regions of south India and Sri Lanka. This species moves around in flocks in the forest, and members of a flock keep in contact with a wide range of vocalizations.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Starling_bird_%28India%2C_2012%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Starling_bird_%28India%2C_2012%29.jpg/330px-Starling_bird_%28India%2C_2012%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Starling_bird_(India,_2012).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Subramanya C K",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Gracula"
+  },
+  "family": {
+   "scientific": "Sturnidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q13732338"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Southern_hill_myna"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

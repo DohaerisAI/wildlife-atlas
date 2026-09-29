@@ -1,0 +1,63 @@
+{
+ "scientific": "Otus sunia",
+ "name": "Oriental Scops Owl",
+ "qid": "Q1260390",
+ "description": "species of bird",
+ "extract": "The oriental scops owl (Otus sunia) is a scops owl species native to South and Southeast Asia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Oriental_Scops_Owl_Otus_sunia%2C_Suklaphanta%2C_Nepal.jpg/1280px-Oriental_Scops_Owl_Otus_sunia%2C_Suklaphanta%2C_Nepal.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Oriental_Scops_Owl_Otus_sunia%2C_Suklaphanta%2C_Nepal.jpg/330px-Oriental_Scops_Owl_Otus_sunia%2C_Suklaphanta%2C_Nepal.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Oriental_Scops_Owl_Otus_sunia,_Suklaphanta,_Nepal.jpg",
+   "license": "CC BY 2.0",
+   "artist": "gailhampshire from Cradley, Malvern, U.K",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/ScopsTuniaJerdon.jpg/1280px-ScopsTuniaJerdon.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/ScopsTuniaJerdon.jpg/330px-ScopsTuniaJerdon.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:ScopsTuniaJerdon.jpg",
+   "license": "Public domain",
+   "artist": "artist - Miller",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 43.0,
+   "max": 53.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Otus"
+  },
+  "family": {
+   "scientific": "Strigidae",
+   "name": "true owls"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1260390"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Oriental_scops_owl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

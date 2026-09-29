@@ -1,0 +1,46 @@
+{
+ "scientific": "Carduelis caniceps",
+ "name": "Grey-crowned Goldfinch",
+ "qid": "Q606679",
+ "description": "species of bird",
+ "extract": "The grey-crowned goldfinch (Carduelis caniceps), also known as the eastern goldfinch, Himalayan goldfinch or the grey-capped goldfinch, is a small passerine bird in the family Fringillidae that is distributed throughout Central Asia and the Himalayas.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Grey-crowned_Goldfinch_%28Carduelis_caniceps%29%2C_Gilgit_%2853649993797%29.jpg/1280px-Grey-crowned_Goldfinch_%28Carduelis_caniceps%29%2C_Gilgit_%2853649993797%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Grey-crowned_Goldfinch_%28Carduelis_caniceps%29%2C_Gilgit_%2853649993797%29.jpg/330px-Grey-crowned_Goldfinch_%28Carduelis_caniceps%29%2C_Gilgit_%2853649993797%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grey-crowned_Goldfinch_(Carduelis_caniceps),_Gilgit_(53649993797).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Birds of Gilgit-Baltistan from Aliabad, Hunza, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Carduelis"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q606679"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey-crowned_goldfinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

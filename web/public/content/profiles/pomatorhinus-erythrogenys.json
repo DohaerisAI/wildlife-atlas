@@ -1,0 +1,34 @@
+{
+ "scientific": "Pomatorhinus erythrogenys",
+ "name": "Rusty-cheeked Scimitar Babbler",
+ "qid": "Q1307431",
+ "description": "species of bird",
+ "extract": "",
+ "images": [],
+ "facts": {
+  "mass": {
+   "min": 63.0,
+   "max": 63.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pomatorhinus"
+  },
+  "family": {
+   "scientific": "Timaliidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1307431"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

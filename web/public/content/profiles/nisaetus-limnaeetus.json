@@ -1,0 +1,31 @@
+{
+ "scientific": "Nisaetus limnaeetus",
+ "name": "Changeable Hawk-Eagle",
+ "qid": "Q31873679",
+ "description": "species of bird",
+ "extract": "",
+ "images": [],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Nisaetus"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q31873679"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

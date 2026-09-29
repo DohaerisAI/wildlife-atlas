@@ -1,0 +1,49 @@
+{
+ "scientific": "Zosterops palpebrosus",
+ "name": "Indian White-eye",
+ "qid": "Q795545",
+ "description": "species of bird",
+ "extract": "The Indian white-eye (Zosterops palpebrosus), formerly the Oriental white-eye, is a small species of passerine bird in the white-eye family. It is a resident breeder in open woodland on the Indian subcontinent. They forage in small groups, feeding on nectar and small insects. The distinctive white eye-ring and overall yellowish upperparts easily identify them. The range previously extended eastwards to Southeast Asia, Indonesia, and Malaysia. Their name was recently changed because previous members of Zosterops palpebrosus in Southeast Asia were reclassified as a new species, making the Indian White-eye a more geographically accurate term for this species.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Oriental_White_Eyes.jpg/1280px-Oriental_White_Eyes.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Oriental_White_Eyes.jpg/330px-Oriental_White_Eyes.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Oriental_White_Eyes.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "AshishTripurwar",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Zosterops"
+  },
+  "family": {
+   "scientific": "Zosteropidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Oriental white-eye"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q795545"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_white-eye"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

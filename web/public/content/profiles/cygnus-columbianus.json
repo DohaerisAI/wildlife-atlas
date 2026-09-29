@@ -1,0 +1,71 @@
+{
+ "scientific": "Cygnus columbianus",
+ "name": "Tundra Swan",
+ "qid": "Q26603",
+ "description": "species of bird",
+ "extract": "The tundra swan (Cygnus columbianus) is a species of swan which breeds in the arctic, and overwinters in North America, Europe, and Asia. It is the smallest of the Holarctic swans, at 115–150 cm (45–59 in) in length, 168–211 cm (66–83 in) in wingspan and 3.4–9.6 kg (7.5–21.2 lb) in weight. Typically, the plumage of adults is entirely white, with solid black feet, a black beak that has varying amounts of yellow, and a thin streak of pink along the mouthline, although colour variation is common.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Tundra_Swan_%28Cygnus_columbianus%29_%288571142484%29.jpg/1280px-Tundra_Swan_%28Cygnus_columbianus%29_%288571142484%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Tundra_Swan_%28Cygnus_columbianus%29_%288571142484%29.jpg/330px-Tundra_Swan_%28Cygnus_columbianus%29_%288571142484%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tundra_Swan_(Cygnus_columbianus)_(8571142484).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Dominic Sherony",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Cygnus_bewickii_01.jpg/1280px-Cygnus_bewickii_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Cygnus_bewickii_01.jpg/330px-Cygnus_bewickii_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cygnus_bewickii_01.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Maga-chan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 198.0,
+   "max": 198.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 6305.0,
+   "max": 7258.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cygnus"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Bewick's Swan",
+  "Whistling Swan"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26603"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tundra_swan"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

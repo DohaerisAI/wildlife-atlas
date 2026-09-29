@@ -1,0 +1,62 @@
+{
+ "scientific": "Catreus wallichii",
+ "name": "Cheer Pheasant",
+ "qid": "Q385891",
+ "description": "species of bird",
+ "extract": "The cheer pheasant (Catreus wallichii), also known as Wallich's pheasant and chir pheasant, is a vulnerable species of the pheasant family, Phasianidae. It is the only member in the genus Catreus. The scientific name commemorates Danish botanist Nathaniel Wallich.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Cheer_Pheasant.jpg/1280px-Cheer_Pheasant.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Cheer_Pheasant.jpg/330px-Cheer_Pheasant.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cheer_Pheasant.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Amit3333in",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Pheasant_at_Sudeley_Castle.jpg/1280px-Pheasant_at_Sudeley_Castle.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Pheasant_at_Sudeley_Castle.jpg/330px-Pheasant_at_Sudeley_Castle.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pheasant_at_Sudeley_Castle.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Patrick Gruban",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 1130.0,
+   "max": 1525.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Catreus"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q385891"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cheer_pheasant"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

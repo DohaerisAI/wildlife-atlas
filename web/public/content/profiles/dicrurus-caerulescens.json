@@ -1,0 +1,52 @@
+{
+ "scientific": "Dicrurus caerulescens",
+ "name": "White-bellied Drongo",
+ "qid": "Q948979",
+ "description": "species of bird",
+ "extract": "The white-bellied drongo  (Dicrurus caerulescens) is a species of drongo found across the Indian Subcontinent. Like other members of the family Dicruridae, they are insectivorous and mainly black in colour, but with a white belly and vent. Young birds are, however, all black and may be confused with the black drongo, which is smaller and more compact in appearance. The subspecies found in Sri Lanka has white restricted to the vent.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/White-bellied_Drongo_%28Dicrurus_caerulescens%29_at_Sindhrot_near_Vadodara%2C_Gujrat_Pix_078.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/White-bellied_Drongo_%28Dicrurus_caerulescens%29_at_Sindhrot_near_Vadodara%2C_Gujrat_Pix_078.jpg/330px-White-bellied_Drongo_%28Dicrurus_caerulescens%29_at_Sindhrot_near_Vadodara%2C_Gujrat_Pix_078.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-bellied_Drongo_(Dicrurus_caerulescens)_at_Sindhrot_near_Vadodara,_Gujrat_Pix_078.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 40.0,
+   "max": 40.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dicrurus"
+  },
+  "family": {
+   "scientific": "Dicruridae",
+   "name": "drongo"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q948979"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-bellied_drongo"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

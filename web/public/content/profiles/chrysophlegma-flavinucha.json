@@ -1,0 +1,49 @@
+{
+ "scientific": "Chrysophlegma flavinucha",
+ "name": "Greater Yellownape Woodpecker",
+ "qid": "Q27074946",
+ "description": "species of bird",
+ "extract": "The greater yellownape (Chrysophlegma flavinucha) is a species of bird in the woodpecker family Picidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Greater_Yellownape_-_Ghatgarh%2C_Uttarakhand%2C_India_%2815166128312%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Greater_Yellownape_-_Ghatgarh%2C_Uttarakhand%2C_India_%2815166128312%29.jpg/330px-Greater_Yellownape_-_Ghatgarh%2C_Uttarakhand%2C_India_%2815166128312%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Greater_Yellownape_-_Ghatgarh,_Uttarakhand,_India_(15166128312).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "soumyajit nandy from Kolkata, India",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chrysophlegma"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "other_names": [
+  "Picus flavinucha",
+  "Greater Yellownape"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27074946"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Greater_yellownape"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

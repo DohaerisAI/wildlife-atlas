@@ -1,0 +1,72 @@
+{
+ "scientific": "Regulus regulus",
+ "name": "Goldcrest",
+ "qid": "Q26657",
+ "description": "species of bird",
+ "extract": "The goldcrest (Regulus regulus) is a very small passerine bird in the kinglet family. Its colourful golden crest feathers, as well as being called the \"king of the birds\" in European folklore, gives rise to its English and scientific names. The scientific name, R. regulus, means 'petty king' or prince. Several subspecies are recognised across the very large distribution range that includes much of the Palearctic and the islands of Macaronesia and Iceland. Birds from the north and east of its breeding range migrate to winter further south.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Goldcrest_1.jpg/1280px-Goldcrest_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Goldcrest_1.jpg/330px-Goldcrest_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Goldcrest_1.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Francis C. Franklin",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Regulus_regulus_-Marwell_Wildlife%2C_Hampshire%2C_England-8.jpg/1280px-Regulus_regulus_-Marwell_Wildlife%2C_Hampshire%2C_England-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Regulus_regulus_-Marwell_Wildlife%2C_Hampshire%2C_England-8.jpg/330px-Regulus_regulus_-Marwell_Wildlife%2C_Hampshire%2C_England-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Regulus_regulus_-Marwell_Wildlife,_Hampshire,_England-8.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Missy Osborn from New Forest, England",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Tenerife_Goldcrest_%28Regulus_regulus_teneriffae%29_%28cropped%29.JPG/1280px-Tenerife_Goldcrest_%28Regulus_regulus_teneriffae%29_%28cropped%29.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Tenerife_Goldcrest_%28Regulus_regulus_teneriffae%29_%28cropped%29.JPG/330px-Tenerife_Goldcrest_%28Regulus_regulus_teneriffae%29_%28cropped%29.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Tenerife_Goldcrest_(Regulus_regulus_teneriffae)_(cropped).JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "DrPhilippLehmann",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 14.0,
+   "max": 14.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 0.8,
+   "max": 0.8,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Regulus"
+  },
+  "family": {
+   "scientific": "Regulidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26657"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Goldcrest"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

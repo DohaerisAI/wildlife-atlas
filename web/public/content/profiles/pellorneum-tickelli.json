@@ -1,0 +1,46 @@
+{
+ "scientific": "Pellorneum tickelli",
+ "name": "Buff-breasted Babbler",
+ "qid": "Q2828917",
+ "description": "species of bird",
+ "extract": "The buff-breasted babbler (Pellorneum tickelli) is a species of bird in the family Pellorneidae. It is found in Bangladesh, Cambodia, China, India, Laos, Malaysia, Myanmar, Thailand, and Vietnam. Its natural habitats are subtropical or tropical moist lowland forest and subtropical or tropical moist montane forest.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Pellorneum_tickelli_-_Chrissy_McClarren_and_Andy_Reago_-_448975064.jpeg/1280px-Pellorneum_tickelli_-_Chrissy_McClarren_and_Andy_Reago_-_448975064.jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Pellorneum_tickelli_-_Chrissy_McClarren_and_Andy_Reago_-_448975064.jpeg/330px-Pellorneum_tickelli_-_Chrissy_McClarren_and_Andy_Reago_-_448975064.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pellorneum_tickelli_-_Chrissy_McClarren_and_Andy_Reago_-_448975064.jpeg",
+   "license": "CC0",
+   "artist": "Chrissy McClarren and Andy Reago",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pellorneum"
+  },
+  "family": {
+   "scientific": "Pellorneidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2828917"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buff-breasted_babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

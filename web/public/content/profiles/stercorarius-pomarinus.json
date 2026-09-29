@@ -1,0 +1,62 @@
+{
+ "scientific": "Stercorarius pomarinus",
+ "name": "Pomarine Skua",
+ "qid": "Q212767",
+ "description": "species of bird",
+ "extract": "The pomarine jaeger (Stercorarius pomarinus), pomarine skua, or pomatorhine skua, is a seabird in the skua family Stercorariidae. It is a migrant, wintering at sea in the tropical oceans.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Pomarine_Skua_%28_Stercorarius_pomarinus_%29_Adult_summer_..._Coatham_Sands_%2C_Redcar_%2853247051024%29.jpg/1280px-Pomarine_Skua_%28_Stercorarius_pomarinus_%29_Adult_summer_..._Coatham_Sands_%2C_Redcar_%2853247051024%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Pomarine_Skua_%28_Stercorarius_pomarinus_%29_Adult_summer_..._Coatham_Sands_%2C_Redcar_%2853247051024%29.jpg/330px-Pomarine_Skua_%28_Stercorarius_pomarinus_%29_Adult_summer_..._Coatham_Sands_%2C_Redcar_%2853247051024%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pomarine_Skua_(_Stercorarius_pomarinus_)_Adult_summer_..._Coatham_Sands_,_Redcar_(53247051024).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "peterichman",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 118.0,
+   "max": 118.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 66.0,
+   "max": 740.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Stercorarius"
+  },
+  "family": {
+   "scientific": "Stercorariidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Pomarine jaeger"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q212767"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pomarine_jaeger"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

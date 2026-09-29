@@ -1,0 +1,54 @@
+{
+ "scientific": "Aceros nipalensis",
+ "name": "Rufous-necked Hornbill",
+ "qid": "Q924326",
+ "description": "species of bird",
+ "extract": "The rufous-necked hornbill (Aceros nipalensis) is a species of hornbill in Bhutan, northeastern India, especially in Arunachal Pradesh, Indian subcontinent and Southeast Asia. It is locally extinct in Nepal due to hunting and significant loss of habitat. There are less than 10,000 adults left in the wild. With a length of about 117 cm (46 in), it is among the largest Bucerotine hornbills. The underparts, neck and head are pigmented as a rich rufous in the male, but black in the female.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Rufous_necked_hornbill0462-1.jpg/1280px-Rufous_necked_hornbill0462-1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Rufous_necked_hornbill0462-1.jpg/330px-Rufous_necked_hornbill0462-1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rufous_necked_hornbill0462-1.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Uday.Kumar3675",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Rufous_necked_Hornbill_female.jpg/1280px-Rufous_necked_Hornbill_female.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Rufous_necked_Hornbill_female.jpg/330px-Rufous_necked_Hornbill_female.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rufous_necked_Hornbill_female.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Debmayukh285",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aceros"
+  },
+  "family": {
+   "scientific": "Bucerotidae",
+   "name": "hornbill"
+  },
+  "order": {
+   "scientific": "Bucerotiformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q924326"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rufous-necked_hornbill"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

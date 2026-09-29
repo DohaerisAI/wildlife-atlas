@@ -1,0 +1,54 @@
+{
+ "scientific": "Pycnonotus jocosus",
+ "name": "Red-whiskered Bulbul",
+ "qid": "Q501063",
+ "description": "species of bird",
+ "extract": "The red-whiskered bulbul (Pycnonotus jocosus), or crested bulbul, is a passerine bird native to Asia. It is a member of the bulbul family. It is a resident frugivore found mainly in tropical Asia. It has been introduced in many tropical areas of the world where populations have established themselves. It has a loud three or four note call, feeds on fruits and small insects and perches conspicuously on trees. It is common in hill forests and urban gardens.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Pycnonotus_jocosus_jocosus%2C_Nanning%2C_Guangxi%2C_China.jpg/1280px-Pycnonotus_jocosus_jocosus%2C_Nanning%2C_Guangxi%2C_China.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Pycnonotus_jocosus_jocosus%2C_Nanning%2C_Guangxi%2C_China.jpg/330px-Pycnonotus_jocosus_jocosus%2C_Nanning%2C_Guangxi%2C_China.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pycnonotus_jocosus_jocosus,_Nanning,_Guangxi,_China.jpg",
+   "license": "Public domain",
+   "artist": "myjkccd",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Red-whiskered_Bulbul_%28Pycnonotus_jocosus%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Red-whiskered_Bulbul_%28Pycnonotus_jocosus%29.jpg/330px-Red-whiskered_Bulbul_%28Pycnonotus_jocosus%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red-whiskered_Bulbul_(Pycnonotus_jocosus).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "K Hari Krishnan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pycnonotus"
+  },
+  "family": {
+   "scientific": "Pycnonotidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q501063"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-whiskered_bulbul"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

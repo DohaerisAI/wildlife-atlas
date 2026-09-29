@@ -1,0 +1,75 @@
+{
+ "scientific": "Netta rufina",
+ "name": "Red-crested Pochard",
+ "qid": "Q244350",
+ "description": "species of bird",
+ "extract": "The red-crested pochard (Netta rufina) is a large diving duck. The scientific name is derived from Greek Netta \"duck\", and Latin rufina, \"golden-red\" (from rufus, \"ruddy\"). Its breeding habitat is lowland marshes and lakes in southern Europe and it extends from the steppe and semi-desert areas on the Black Sea to Central Asia and Mongolia, wintering in the Indian subcontinent and Africa. It is somewhat migratory, and northern birds winter further south into north Africa.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Nette_rousse_%28Netta_rufina%29%2C_m%C3%A2le%2C_au_bord_du_L%C3%A9man.jpg/1280px-Nette_rousse_%28Netta_rufina%29%2C_m%C3%A2le%2C_au_bord_du_L%C3%A9man.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Nette_rousse_%28Netta_rufina%29%2C_m%C3%A2le%2C_au_bord_du_L%C3%A9man.jpg/330px-Nette_rousse_%28Netta_rufina%29%2C_m%C3%A2le%2C_au_bord_du_L%C3%A9man.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Nette_rousse_(Netta_rufina),_m%C3%A2le,_au_bord_du_L%C3%A9man.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Christian David",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Netta_rufina_-_Jona_%28SG%29_Stampf_2011-04-24_15-55-58.jpg/1280px-Netta_rufina_-_Jona_%28SG%29_Stampf_2011-04-24_15-55-58.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Netta_rufina_-_Jona_%28SG%29_Stampf_2011-04-24_15-55-58.jpg/330px-Netta_rufina_-_Jona_%28SG%29_Stampf_2011-04-24_15-55-58.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Netta_rufina_-_Jona_(SG)_Stampf_2011-04-24_15-55-58.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Roland zh",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Netta_rufina_m2.jpg/1280px-Netta_rufina_m2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Netta_rufina_m2.jpg/330px-Netta_rufina_m2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Netta_rufina_m2.jpg",
+   "license": "Public domain",
+   "artist": "Unknown",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 84.0,
+   "max": 90.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 56.0,
+   "max": 1115.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Netta"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q244350"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-crested_pochard"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

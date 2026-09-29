@@ -1,0 +1,60 @@
+{
+ "scientific": "Ducula badia",
+ "name": "Mountain Imperial Pigeon",
+ "qid": "Q964539",
+ "description": "species of bird",
+ "extract": "The mountain imperial pigeon (Ducula badia), also known as the maroon-backed imperial pigeon or Hodgson's imperial pigeon, is a species of bird in the pigeon and dove family with a wide range in southeastern Asia.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Mountain_Imperial_Pigeon.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Mountain_Imperial_Pigeon.jpg/330px-Mountain_Imperial_Pigeon.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mountain_Imperial_Pigeon.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Seshadri.K.S",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/DuculaBadiaInsignis.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/DuculaBadiaInsignis.jpg/330px-DuculaBadiaInsignis.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:DuculaBadiaInsignis.jpg",
+   "license": "Public domain",
+   "artist": "H. Gronvold and E C Stuart Baker",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ducula"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Maroon-backed Imperial pigeon"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q964539"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mountain_imperial_pigeon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

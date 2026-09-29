@@ -1,0 +1,57 @@
+{
+ "scientific": "Carpodacus rodopeplus",
+ "name": "Spot-winged Rosefinch",
+ "qid": "Q1304212",
+ "description": "species of bird",
+ "extract": "The spot-winged rosefinch (Carpodacus rodopeplus), also known as the spotted rosefinch, is a species of finch in the family Fringillidae.  It is found in India and Nepal. Sharpe's rosefinch was formerly considered conspecific with it. Its natural habitat is subtropical or tropical high-altitude shrubland.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Spot-winged_Rosefinch.jpg/1280px-Spot-winged_Rosefinch.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Spot-winged_Rosefinch.jpg/330px-Spot-winged_Rosefinch.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Spot-winged_Rosefinch.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Mildeep",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/A_century_of_birds_from_the_Himalaya_Mountains_%28TAB._XXXI%29_%289237239781%29.jpg/1280px-A_century_of_birds_from_the_Himalaya_Mountains_%28TAB._XXXI%29_%289237239781%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/A_century_of_birds_from_the_Himalaya_Mountains_%28TAB._XXXI%29_%289237239781%29.jpg/330px-A_century_of_birds_from_the_Himalaya_Mountains_%28TAB._XXXI%29_%289237239781%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:A_century_of_birds_from_the_Himalaya_Mountains_(TAB._XXXI)_(9237239781).jpg",
+   "license": "Public domain",
+   "artist": "Gould, John",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Carpodacus"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Carpodacus rhodopeplus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1304212"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spot-winged_rosefinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

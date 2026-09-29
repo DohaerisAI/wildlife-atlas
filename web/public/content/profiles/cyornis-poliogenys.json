@@ -1,0 +1,49 @@
+{
+ "scientific": "Cyornis poliogenys",
+ "name": "Pale-chinned Flycatcher",
+ "qid": "Q3315010",
+ "description": "species of bird",
+ "extract": "The pale-chinned flycatcher (Cyornis poliogenys) is a species of bird in the family Muscicapidae. It has also been known in the past as pale-chinned blue flycatcher (on the IOC World Bird List up to 2023), and Brook's flycatcher.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Cyornis_poliogenys_-_Rejoice_Gassah_-_177903883.jpeg/1280px-Cyornis_poliogenys_-_Rejoice_Gassah_-_177903883.jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Cyornis_poliogenys_-_Rejoice_Gassah_-_177903883.jpeg/330px-Cyornis_poliogenys_-_Rejoice_Gassah_-_177903883.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cyornis_poliogenys_-_Rejoice_Gassah_-_177903883.jpeg",
+   "license": "CC BY 4.0",
+   "artist": "Rejoice Gassah",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cyornis"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Brooks's niltava"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3315010"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pale-chinned_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

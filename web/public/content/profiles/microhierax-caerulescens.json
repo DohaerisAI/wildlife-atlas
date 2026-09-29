@@ -1,0 +1,59 @@
+{
+ "scientific": "Microhierax caerulescens",
+ "name": "Collared Falconet",
+ "qid": "Q754987",
+ "description": "species of bird",
+ "extract": "The collared falconet (Microhierax caerulescens) is a species of bird of prey in the family Falconidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Collared_Falconet_Microhierax_caerulescens_by_Dr._Raju_Kasambe_DSCN2045_%283%29.jpg/1280px-Collared_Falconet_Microhierax_caerulescens_by_Dr._Raju_Kasambe_DSCN2045_%283%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Collared_Falconet_Microhierax_caerulescens_by_Dr._Raju_Kasambe_DSCN2045_%283%29.jpg/330px-Collared_Falconet_Microhierax_caerulescens_by_Dr._Raju_Kasambe_DSCN2045_%283%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Collared_Falconet_Microhierax_caerulescens_by_Dr._Raju_Kasambe_DSCN2045_(3).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dr. Raju Kasambe",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 28.0,
+   "max": 34.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 40.0,
+   "max": 40.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Microhierax"
+  },
+  "family": {
+   "scientific": "Falconidae"
+  },
+  "order": {
+   "scientific": "Falconiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q754987"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Collared_falconet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,59 @@
+{
+ "scientific": "Luscinia svecica",
+ "name": "Bluethroat",
+ "qid": "Q26578",
+ "description": "species of bird",
+ "extract": "The bluethroat  (Luscinia svecica) is a small passerine bird in the Old World flycatcher family. It is a migratory insectivorous species breeding in wet birch wood or bushy swamp in Europe and across the Palearctic with a foothold in western Alaska. It nests in tussocks or low in dense bushes. It winters in the Iberian Peninsula, the northern half of Africa, and in southern Asia (among others including the Indian subcontinent). The bluethroat, and similar small European flycatchers, are often called chats.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Bl%C3%A5hake_Bluethroat_%2820162398078%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Bl%C3%A5hake_Bluethroat_%2820162398078%29.jpg/330px-Bl%C3%A5hake_Bluethroat_%2820162398078%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bl%C3%A5hake_Bluethroat_(20162398078).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Åsa Berndtsson",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Bl%C3%A5hake_-_bluethroat_%28Luscinia_svecica%29-5_-_Flickr_-_Ragnhild_%26_Neil_Crawford.jpg/1280px-Bl%C3%A5hake_-_bluethroat_%28Luscinia_svecica%29-5_-_Flickr_-_Ragnhild_%26_Neil_Crawford.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Bl%C3%A5hake_-_bluethroat_%28Luscinia_svecica%29-5_-_Flickr_-_Ragnhild_%26_Neil_Crawford.jpg/330px-Bl%C3%A5hake_-_bluethroat_%28Luscinia_svecica%29-5_-_Flickr_-_Ragnhild_%26_Neil_Crawford.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bl%C3%A5hake_-_bluethroat_(Luscinia_svecica)-5_-_Flickr_-_Ragnhild_%26_Neil_Crawford.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Ragnhild&Neil Crawford from Sweden",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 22.0,
+   "max": 22.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Luscinia"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26578"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bluethroat"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

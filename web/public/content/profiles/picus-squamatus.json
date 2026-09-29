@@ -1,0 +1,45 @@
+{
+ "scientific": "Picus squamatus",
+ "name": "Scaly-bellied Woodpecker",
+ "qid": "Q195727",
+ "description": "species of bird",
+ "extract": "The scaly-bellied woodpecker (Picus squamatus) is a species of bird in the family Picidae. It is found in the Indian subcontinent and adjoining regions, ranging across Afghanistan, Iran, India, Nepal, Pakistan, and Turkmenistan.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Scaly-bellied_Woodpecker.jpg/1280px-Scaly-bellied_Woodpecker.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Scaly-bellied_Woodpecker.jpg/330px-Scaly-bellied_Woodpecker.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Scaly-bellied_Woodpecker.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Mvshreeram",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Picus"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q195727"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Scaly-bellied_woodpecker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

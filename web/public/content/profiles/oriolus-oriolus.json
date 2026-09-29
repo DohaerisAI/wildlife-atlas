@@ -1,0 +1,64 @@
+{
+ "scientific": "Oriolus oriolus",
+ "name": "Eurasian Golden Oriole",
+ "qid": "Q25388",
+ "description": "species of bird",
+ "extract": "The Eurasian golden oriole (Oriolus oriolus), also known as the common golden oriole, is a species of passerine bird, measuring approximately 24cm in length with a wingspan of 44-45cm, and the only Old World oriole breeding in Northern Hemisphere temperate regions. It is a summer migrant in Europe and the Palearctic and spends the winter season in central and southern Africa.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Loriot_d%27Europe_by_Michel_Idre.jpg/1280px-Loriot_d%27Europe_by_Michel_Idre.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Loriot_d%27Europe_by_Michel_Idre.jpg/330px-Loriot_d%27Europe_by_Michel_Idre.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Loriot_d%27Europe_by_Michel_Idre.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Michel Idre from Plaisance du Touch, France",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Oriolus_oriolus_Ayodar_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Oriolus_oriolus_Ayodar_2.jpg/330px-Oriolus_oriolus_Ayodar_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Oriolus_oriolus_Ayodar_2.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Paco Gómez from Castellón, Spain",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 46.0,
+   "max": 46.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 7.3,
+   "max": 7.3,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Oriolus"
+  },
+  "family": {
+   "scientific": "Oriolidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25388"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eurasian_golden_oriole"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

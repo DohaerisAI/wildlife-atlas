@@ -1,0 +1,54 @@
+{
+ "scientific": "Phaethon lepturus",
+ "name": "White-tailed Tropicbird",
+ "qid": "Q528117",
+ "description": "species of bird",
+ "extract": "The white-tailed tropicbird (Phaethon lepturus) or yellow-billed tropicbird is a tropicbird. It is the smallest of three closely related seabirds of the tropical oceans and smallest member of the order Phaethontiformes. It is found in the tropical Atlantic, western Pacific and Indian Oceans. It also breeds on some Caribbean islands, and a few pairs have started nesting recently on Little Tobago, joining the red-billed tropicbird colony. In addition to the tropical Atlantic, it nests as far north as Bermuda, where it is locally called a \"longtail\".",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Phaethon_lepturus%2C_Seychelles.jpg/1280px-Phaethon_lepturus%2C_Seychelles.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Phaethon_lepturus%2C_Seychelles.jpg/330px-Phaethon_lepturus%2C_Seychelles.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Phaethon_lepturus,_Seychelles.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dreizung",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 91.0,
+   "max": 91.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phaethon"
+  },
+  "family": {
+   "scientific": "Phaethontidae"
+  },
+  "order": {
+   "scientific": "Phaethontiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q528117"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-tailed_tropicbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

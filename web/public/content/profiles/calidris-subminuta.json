@@ -1,0 +1,62 @@
+{
+ "scientific": "Calidris subminuta",
+ "name": "Long-toed Stint",
+ "qid": "Q845969",
+ "description": "species of bird",
+ "extract": "The long-toed stint (Calidris subminuta) is a small wader. The genus name is from Ancient Greek kalidris or skalidris, a term used by Aristotle for some grey-coloured waterside birds. The specific subminuta is from Latin sub, \"near to\" and minuta, \"small\" from its similarity to the little stint, Calidris minuta.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Calidris_subminuta_-_Pak_Thale.jpg/1280px-Calidris_subminuta_-_Pak_Thale.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Calidris_subminuta_-_Pak_Thale.jpg/330px-Calidris_subminuta_-_Pak_Thale.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Calidris_subminuta_-_Pak_Thale.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 26.0,
+   "max": 35.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 7.5,
+   "max": 32.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Calidris"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Erolia subminuta"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q845969"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Long-toed_stint"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

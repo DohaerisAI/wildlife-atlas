@@ -1,0 +1,51 @@
+{
+ "scientific": "Oriolus traillii",
+ "name": "Maroon oriole",
+ "qid": "Q2719196",
+ "description": "species of bird",
+ "extract": "The maroon oriole (Oriolus traillii) is a species of bird in the family Oriolidae. It is found in Southeast Asia.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Maroon_Oriole_at_Sikkim%2C_India.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Maroon_Oriole_at_Sikkim%2C_India.jpg/330px-Maroon_Oriole_at_Sikkim%2C_India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Maroon_Oriole_at_Sikkim,_India.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Godbolemandar",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 74.0,
+   "max": 74.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Oriolus"
+  },
+  "family": {
+   "scientific": "Oriolidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2719196"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Maroon_oriole"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,48 @@
+{
+ "scientific": "Sylvia nisoria",
+ "name": "Barred Warbler",
+ "qid": "Q215214",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Sylvia_nisoria.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Sylvia_nisoria.jpg/330px-Sylvia_nisoria.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sylvia_nisoria.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "photo taken by Artur Mikołajewski",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 25.0,
+   "max": 25.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 2.6,
+   "max": 2.6,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sylvia"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q215214"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

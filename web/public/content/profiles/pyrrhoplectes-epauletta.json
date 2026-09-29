@@ -1,0 +1,63 @@
+{
+ "scientific": "Pyrrhoplectes epauletta",
+ "name": "Gold-naped Finch",
+ "qid": "Q1299851",
+ "description": "species of bird",
+ "extract": "The golden-naped finch (Pyrrhoplectes epauletta) is a species of finch in the family Fringillidae. It is in the monotypic genus Pyrrhoplectes.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Gold-naped_Finch_Old_Silk_Route%2C_East_Sikkim%2C_India_23_April_2015.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Gold-naped_Finch_Old_Silk_Route%2C_East_Sikkim%2C_India_23_April_2015.jpg/330px-Gold-naped_Finch_Old_Silk_Route%2C_East_Sikkim%2C_India_23_April_2015.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gold-naped_Finch_Old_Silk_Route,_East_Sikkim,_India_23_April_2015.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Golden-naped_Finch_East_Sikkim_India_Asia_10.05.2014.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Golden-naped_Finch_East_Sikkim_India_Asia_10.05.2014.jpg/330px-Golden-naped_Finch_East_Sikkim_India_Asia_10.05.2014.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Golden-naped_Finch_East_Sikkim_India_Asia_10.05.2014.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 19.0,
+   "max": 19.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pyrrhoplectes"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Gold-headed finch",
+  "Pyrrhoplectes epaulette"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1299851"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Golden-naped_finch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

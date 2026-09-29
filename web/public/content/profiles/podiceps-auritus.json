@@ -1,0 +1,59 @@
+{
+ "scientific": "Podiceps auritus",
+ "name": "Horned Grebe",
+ "qid": "Q192058",
+ "description": "species of bird",
+ "extract": "The horned grebe or Slavonian grebe (Podiceps auritus) is a relatively small and threatened species of waterbird in the family Podicipedidae. There are two subspecies, P. a. auritus (Slavonian grebe), which breeds in Eurasia, and P. a. cornutus (horned grebe), which breeds in North America. The Eurasian subspecies is distributed over most of northern Europe and northern Asia, breeding from Iceland east to the Russian Far East. The North American subspecies spans most of Canada and some of the United States. A small population was cited in Greenland in 1973, but is not mapped or further mentioned by subsequent authors.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Podiceps_auritus_%2813909575538%29_%28cropped%29.jpg/1280px-Podiceps_auritus_%2813909575538%29_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Podiceps_auritus_%2813909575538%29_%28cropped%29.jpg/330px-Podiceps_auritus_%2813909575538%29_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Podiceps_auritus_(13909575538)_(cropped).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Ekaterina Chernetsova (Papchinskaya) from Saint-Petersburg, Russia",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 62.0,
+   "max": 62.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 22.5,
+   "max": 449.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Podiceps"
+  },
+  "family": {
+   "scientific": "Podicipedidae"
+  },
+  "order": {
+   "scientific": "Podicipediformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q192058"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Horned_grebe"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

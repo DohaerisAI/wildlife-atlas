@@ -1,0 +1,51 @@
+{
+ "scientific": "Ficedula mugimaki",
+ "name": "Mugimaki Flycatcher",
+ "qid": "Q1589248",
+ "description": "species of bird",
+ "extract": "The mugimaki flycatcher (Ficedula mugimaki) is a small passerine bird of eastern Asia belonging to the genus Ficedula in the Old World flycatcher family, Muscicapidae. The name \"mugimaki\" comes from Japanese and means \"wheat-sower\". The bird is also known as the robin flycatcher.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Ficedula_mugimaki_-_Khao_Yai.jpg/1280px-Ficedula_mugimaki_-_Khao_Yai.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Ficedula_mugimaki_-_Khao_Yai.jpg/330px-Ficedula_mugimaki_-_Khao_Yai.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ficedula_mugimaki_-_Khao_Yai.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 10.8,
+   "max": 10.8,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ficedula"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1589248"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mugimaki_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

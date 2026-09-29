@@ -1,0 +1,51 @@
+{
+ "scientific": "Turdus rubrocanus",
+ "name": "Chestnut Thrush",
+ "qid": "Q2672643",
+ "description": "species of bird",
+ "extract": "The chestnut thrush (Turdus rubrocanus) is a species of bird in the family Turdidae. It breeds in the western Himalayas and central/southwestern China; it winters in Eastern Himalaya and northern Southeast Asia. Its natural habitat is temperate forests.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Chestnut_Thrush_Khangchendzonga_Biosphere_Reserve_West_Sikkim_India_21.02.2016.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Chestnut_Thrush_Khangchendzonga_Biosphere_Reserve_West_Sikkim_India_21.02.2016.jpg/330px-Chestnut_Thrush_Khangchendzonga_Biosphere_Reserve_West_Sikkim_India_21.02.2016.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chestnut_Thrush_Khangchendzonga_Biosphere_Reserve_West_Sikkim_India_21.02.2016.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 92.0,
+   "max": 92.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turdus"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2672643"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chestnut_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

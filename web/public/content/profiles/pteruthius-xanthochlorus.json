@@ -1,0 +1,62 @@
+{
+ "scientific": "Pteruthius xanthochlorus",
+ "name": "Green Shrike-Babbler",
+ "qid": "Q3726360",
+ "description": "species of bird",
+ "extract": "The green shrike-babbler (Pteruthius xanthochlorus) is a bird species that was earlier placed in the family Timaliidae. The species is now considered to be an Asian offshoot of the American vireos and belongs in the family Vireonidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Green_Shrike-Babbler_-_Bhutan_S4E8256-Modifica_%2819521248546%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Green_Shrike-Babbler_-_Bhutan_S4E8256-Modifica_%2819521248546%29.jpg/330px-Green_Shrike-Babbler_-_Bhutan_S4E8256-Modifica_%2819521248546%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Green_Shrike-Babbler_-_Bhutan_S4E8256-Modifica_(19521248546).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/AllotriusXanthochlorisGould.jpg/1280px-AllotriusXanthochlorisGould.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/AllotriusXanthochlorisGould.jpg/330px-AllotriusXanthochlorisGould.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:AllotriusXanthochlorisGould.jpg",
+   "license": "Public domain",
+   "artist": "J. Gould, H C Richter",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 14.0,
+   "max": 14.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pteruthius"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Green Shrike Babbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3726360"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Green_shrike-babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

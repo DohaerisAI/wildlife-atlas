@@ -1,0 +1,76 @@
+{
+ "scientific": "Passer montanus",
+ "name": "Eurasian Tree Sparrow",
+ "qid": "Q25968",
+ "description": "species of bird",
+ "extract": "The tree sparrow (Passer montanus Latin pronunciation: [pas.ser mon.ta.nus]) is a passerine bird in the sparrow family with a rich chestnut crown and nape and a black patch on each pure white cheek. The sexes have similar plumage, and young birds are  duller versions of the adult. This sparrow breeds across much of temperate Eurasia and Southeast Asia and has been introduced elsewhere, including the United States, where it is known as the Eurasian tree sparrow or German sparrow to differentiate it from the native American tree sparrow. Although several subspecies are recognised, the appearance of this bird varies little across its extensive range.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Tree-Sparrow-2009-16-02.jpg/1280px-Tree-Sparrow-2009-16-02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Tree-Sparrow-2009-16-02.jpg/330px-Tree-Sparrow-2009-16-02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tree-Sparrow-2009-16-02.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Tree_Sparrow_August_2007_Osaka_Japan.jpg/1280px-Tree_Sparrow_August_2007_Osaka_Japan.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Tree_Sparrow_August_2007_Osaka_Japan.jpg/330px-Tree_Sparrow_August_2007_Osaka_Japan.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tree_Sparrow_August_2007_Osaka_Japan.jpg",
+   "license": "Public domain",
+   "artist": "Laitche",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Eurasian_Tree_Sparrow.jpg/1280px-Eurasian_Tree_Sparrow.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Eurasian_Tree_Sparrow.jpg/330px-Eurasian_Tree_Sparrow.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eurasian_Tree_Sparrow.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Yiwenyiwen",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 20.0,
+   "max": 22.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 20.0,
+   "max": 32.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Passer"
+  },
+  "family": {
+   "scientific": "Passeridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Tree Sparrow",
+  "German sparrow"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25968"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eurasian_tree_sparrow"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

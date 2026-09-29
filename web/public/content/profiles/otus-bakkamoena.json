@@ -1,0 +1,50 @@
+{
+ "scientific": "Otus bakkamoena",
+ "name": "Indian Scops Owl",
+ "qid": "Q795515",
+ "description": "species of bird",
+ "extract": "The Indian scops owl (Otus bakkamoena) is a species of owl native to South Asia.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Otus_bakkamoena.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Otus_bakkamoena.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Otus_bakkamoena.jpg",
+   "license": "CC BY 2.5",
+   "artist": "Unknown",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Otus"
+  },
+  "family": {
+   "scientific": "Strigidae",
+   "name": "true owls"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q795515"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_scops_owl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,46 @@
+{
+ "scientific": "Pomatorhinus phayrei",
+ "name": "Brown-crowned Scimitar Babbler",
+ "qid": "Q31874661",
+ "description": "species of bird",
+ "extract": "The brown-crowned scimitar babbler (Pomatorhinus phayrei) is a species of bird in the family Timaliidae. It is found in Bhutan, India, Myanmar, Thailand, Laos, Vietnam, and China. Its natural habitat is subtropical moist montane forest.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Brown-crowned_Scimitar-Babbler_0A2A6063_%28cropped%29.jpg/1280px-Brown-crowned_Scimitar-Babbler_0A2A6063_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Brown-crowned_Scimitar-Babbler_0A2A6063_%28cropped%29.jpg/330px-Brown-crowned_Scimitar-Babbler_0A2A6063_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brown-crowned_Scimitar-Babbler_0A2A6063_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "JJ Harrison",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pomatorhinus"
+  },
+  "family": {
+   "scientific": "Timaliidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q31874661"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown-crowned_scimitar_babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

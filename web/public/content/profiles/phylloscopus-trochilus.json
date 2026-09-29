@@ -1,0 +1,51 @@
+{
+ "scientific": "Phylloscopus trochilus",
+ "name": "Willow Warbler",
+ "qid": "Q27239",
+ "description": "species of bird",
+ "extract": "The willow warbler (Phylloscopus trochilus) is a very common and widespread leaf warbler which breeds throughout northern and temperate Europe and the Palearctic, from Ireland east to the Anadyr River basin in eastern Siberia. It is strongly migratory, with almost all of the population wintering in sub-Saharan Africa.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Willow_Warbler_Phylloscopus_trochilus.jpg/1280px-Willow_Warbler_Phylloscopus_trochilus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Willow_Warbler_Phylloscopus_trochilus.jpg/330px-Willow_Warbler_Phylloscopus_trochilus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Willow_Warbler_Phylloscopus_trochilus.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 19.0,
+   "max": 19.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phylloscopus"
+  },
+  "family": {
+   "scientific": "Phylloscopidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27239"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Willow_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

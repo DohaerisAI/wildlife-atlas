@@ -1,0 +1,57 @@
+{
+ "scientific": "Bucanetes githagineus",
+ "name": "Trumpeter Finch",
+ "qid": "Q559883",
+ "description": "species of bird",
+ "extract": "The trumpeter finch (Bucanetes githagineus) is a small passerine bird in the finch family Fringillidae. It is mainly a desert species which is found in North Africa and Spain through to southern Asia. It has occurred as a vagrant in areas north of its breeding range.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Roselin_githagine.jpg/1280px-Roselin_githagine.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Roselin_githagine.jpg/330px-Roselin_githagine.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Roselin_githagine.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "El Golli Mohamed",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Bucanetes_githagineus_amantum_1.jpg/1280px-Bucanetes_githagineus_amantum_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Bucanetes_githagineus_amantum_1.jpg/330px-Bucanetes_githagineus_amantum_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bucanetes_githagineus_amantum_1.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Frank Vassen",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Bucanetes"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Rhodopechys githaginea"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q559883"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Trumpeter_finch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

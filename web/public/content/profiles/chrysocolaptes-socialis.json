@@ -1,0 +1,40 @@
+{
+ "scientific": "Chrysocolaptes socialis",
+ "name": "Malabar flameback",
+ "qid": "Q110876730",
+ "description": "species of bird",
+ "extract": "The Malabar flameback (Chrysocolaptes socialis) is a species of bird in the woodpecker family Picidae. It is endemic to the Western Ghats of India.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/GreaterFlameback.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/GreaterFlameback.jpg/330px-GreaterFlameback.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:GreaterFlameback.jpg",
+   "license": "CC BY 2.5",
+   "artist": "Photo by Suresh V S <sureshsv AT freeshell.org>",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chrysocolaptes"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q110876730"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Malabar_flameback"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,51 @@
+{
+ "scientific": "Phylloscopus griseolus",
+ "name": "Sulphur-bellied Warbler",
+ "qid": "Q3239209",
+ "description": "species of bird",
+ "extract": "The sulphur-bellied warbler (Phylloscopus griseolus) is a species of leaf-warbler found in the Palearctic region (Afghanistan, Kazakhstan, Kyrgyzstan, Mongolia, Russian Federation [Central Asian Russia], Tajikistan and Turkmenistan). It was earlier also known by the name of olivaceous leaf-warbler.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Sulpher-bellied_Warbler_%28Phylloscopus_griseolus%29at_Sindhrot_near_Vadodara%2C_Gujrat_Pix_175.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Sulpher-bellied_Warbler_%28Phylloscopus_griseolus%29at_Sindhrot_near_Vadodara%2C_Gujrat_Pix_175.jpg/330px-Sulpher-bellied_Warbler_%28Phylloscopus_griseolus%29at_Sindhrot_near_Vadodara%2C_Gujrat_Pix_175.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sulpher-bellied_Warbler_(Phylloscopus_griseolus)at_Sindhrot_near_Vadodara,_Gujrat_Pix_175.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 7.6,
+   "max": 7.6,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phylloscopus"
+  },
+  "family": {
+   "scientific": "Phylloscopidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3239209"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sulphur-bellied_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

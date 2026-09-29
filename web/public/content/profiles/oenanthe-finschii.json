@@ -1,0 +1,59 @@
+{
+ "scientific": "Oenanthe finschii",
+ "name": "Finsch's Wheatear",
+ "qid": "Q769093",
+ "description": "species of bird",
+ "extract": "Finsch's wheatear (Oenanthe finschii) is a wheatear, a small insectivorous passerine that was formerly classed as a member of the thrush family, Turdidae, but is now more generally considered to be an Old World flycatcher of the family Muscicapidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/%C3%87ilfer%C5%9Fik.jpg/1280px-%C3%87ilfer%C5%9Fik.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/%C3%87ilfer%C5%9Fik.jpg/330px-%C3%87ilfer%C5%9Fik.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%C3%87ilfer%C5%9Fik.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dûrzan cîrano",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Oenanthe_finschii.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Oenanthe_finschii.jpg/330px-Oenanthe_finschii.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Oenanthe_finschii.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dûrzan cîrano",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 26.0,
+   "max": 29.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Oenanthe"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q769093"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Finsch%27s_wheatear"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

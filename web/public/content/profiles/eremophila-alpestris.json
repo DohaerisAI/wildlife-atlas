@@ -1,0 +1,70 @@
+{
+ "scientific": "Eremophila alpestris",
+ "name": "Horned Lark",
+ "qid": "Q207249",
+ "description": "species of bird",
+ "extract": "The horned lark or shore lark (Eremophila alpestris) is a species of lark in the family Alaudidae found across the northern hemisphere. It is known as \"horned lark\" in North America for distinctive feathers on the heads of the male birds in summer, and as \"shore lark\" in Europe because it can be found on shorelines in the winter.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Horned_Lark_%28Eremophila_alpestris%29_%2812391512375%29.jpg/1280px-Horned_Lark_%28Eremophila_alpestris%29_%2812391512375%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Horned_Lark_%28Eremophila_alpestris%29_%2812391512375%29.jpg/330px-Horned_Lark_%28Eremophila_alpestris%29_%2812391512375%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Horned_Lark_(Eremophila_alpestris)_(12391512375).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Andrew C",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Horned_Lark_on_Seedskadee_NWR_%2824752443620%29.jpg/1280px-Horned_Lark_on_Seedskadee_NWR_%2824752443620%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Horned_Lark_on_Seedskadee_NWR_%2824752443620%29.jpg/330px-Horned_Lark_on_Seedskadee_NWR_%2824752443620%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Horned_Lark_on_Seedskadee_NWR_(24752443620).jpg",
+   "license": "Public domain",
+   "artist": "USFWS Mountain-Prairie",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Eremophila_alpestris_flava%2C_Blyth_3.jpg/1280px-Eremophila_alpestris_flava%2C_Blyth_3.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Eremophila_alpestris_flava%2C_Blyth_3.jpg/330px-Eremophila_alpestris_flava%2C_Blyth_3.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eremophila_alpestris_flava,_Blyth_3.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "MPF",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 32.0,
+   "max": 32.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Eremophila"
+  },
+  "family": {
+   "scientific": "Alaudidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Shore Lark"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q207249"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Horned_lark"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

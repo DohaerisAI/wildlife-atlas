@@ -1,0 +1,50 @@
+{
+ "scientific": "Merops persicus",
+ "name": "Blue-cheeked Bee-eater",
+ "qid": "Q1951359",
+ "description": "species of bird",
+ "extract": "The blue-cheeked bee-eater (Merops persicus) is a species of bee-eater that breeds in Northern Africa and the Middle East from eastern Turkey to Kazakhstan and India. It is generally strongly migratory, wintering in tropical Africa, although some populations are resident year-round in the Sahel.  This species occurs as a rare vagrant north of its breeding range, with most vagrants occurring in Italy and Greece.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Guepier_de_Perse_Jebil_NP.jpg/1280px-Guepier_de_Perse_Jebil_NP.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Guepier_de_Perse_Jebil_NP.jpg/330px-Guepier_de_Perse_Jebil_NP.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Guepier_de_Perse_Jebil_NP.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "El Golli Mohamed",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 49.4,
+   "max": 49.4,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Merops"
+  },
+  "family": {
+   "scientific": "Meropidae"
+  },
+  "order": {
+   "scientific": "Coraciiformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1951359"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blue-cheeked_bee-eater"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

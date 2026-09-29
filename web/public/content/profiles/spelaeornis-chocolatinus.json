@@ -1,0 +1,54 @@
+{
+ "scientific": "Spelaeornis chocolatinus",
+ "name": "Naga Wren-Babbler",
+ "qid": "Q1038029",
+ "description": "species of bird",
+ "extract": "The Naga wren-babbler or long-tailed wren-babbler (Spelaeornis chocolatinus) is a bird species in the family Timaliidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Naga_Wren-Babbler.jpg/1280px-Naga_Wren-Babbler.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Naga_Wren-Babbler.jpg/330px-Naga_Wren-Babbler.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Naga_Wren-Babbler.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Subhajit Chaudhuri",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 13.0,
+   "max": 13.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Spelaeornis"
+  },
+  "family": {
+   "scientific": "Timaliidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Long-tailed wren-babbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1038029"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Naga_wren-babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

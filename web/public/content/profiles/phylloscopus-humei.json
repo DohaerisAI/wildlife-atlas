@@ -1,0 +1,49 @@
+{
+ "scientific": "Phylloscopus humei",
+ "name": "Hume’s Leaf Warbler",
+ "qid": "Q608313",
+ "description": "species of bird",
+ "extract": "Hume's leaf warbler or Hume's warbler (Phylloscopus humei) is a small leaf warbler which breeds in the mountains of inner Asia. This warbler is migratory and winters mainly in India.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Hume%27s_Warbler_I2_IMG_3401.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Hume%27s_Warbler_I2_IMG_3401.jpg/330px-Hume%27s_Warbler_I2_IMG_3401.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hume%27s_Warbler_I2_IMG_3401.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phylloscopus"
+  },
+  "family": {
+   "scientific": "Phylloscopidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Hume’s leaf-warbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q608313"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hume%27s_leaf_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

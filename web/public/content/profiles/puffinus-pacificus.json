@@ -1,0 +1,54 @@
+{
+ "scientific": "Puffinus pacificus",
+ "name": "Wedge-tailed shearwater",
+ "qid": "Q1267816",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Wedge_tailed_shearwater2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Wedge_tailed_shearwater2.jpg/330px-Wedge_tailed_shearwater2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wedge_tailed_shearwater2.jpg",
+   "license": "Public domain",
+   "artist": "The original uploader was Svtiste at French Wikipedia.",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Puffinus_pacificus_MHNT_ZOO_2010_11_42_ilot_Lagon_Nv.Cal%C3%A9donie_de_Naurois.jpg/1280px-Puffinus_pacificus_MHNT_ZOO_2010_11_42_ilot_Lagon_Nv.Cal%C3%A9donie_de_Naurois.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Puffinus_pacificus_MHNT_ZOO_2010_11_42_ilot_Lagon_Nv.Cal%C3%A9donie_de_Naurois.jpg/330px-Puffinus_pacificus_MHNT_ZOO_2010_11_42_ilot_Lagon_Nv.Cal%C3%A9donie_de_Naurois.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Puffinus_pacificus_MHNT_ZOO_2010_11_42_ilot_Lagon_Nv.Cal%C3%A9donie_de_Naurois.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Didier Descouens",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 100.0,
+   "max": 100.0,
+   "unit": "cm"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Puffinus"
+  },
+  "family": {
+   "scientific": "Procellariidae"
+  },
+  "order": {
+   "scientific": "Procellariiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1267816"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

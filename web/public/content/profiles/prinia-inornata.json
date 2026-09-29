@@ -1,0 +1,46 @@
+{
+ "scientific": "Prinia inornata",
+ "name": "Plain Prinia",
+ "qid": "Q73928",
+ "description": "species of bird",
+ "extract": "The plain prinia (Prinia inornata), also known as the plain wren-warbler or white-browed wren-warbler, is a small cisticolid warbler found in Southeast Asia. It is a resident breeder from Pakistan and India to south China and southeast Asia. It was formerly included in the tawny-flanked prinia (Prinia subflava), resident in Africa south of the Sahara. The two are now usually considered to be separate species.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Plain_Prinia_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg/1280px-Plain_Prinia_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Plain_Prinia_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg/330px-Plain_Prinia_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Plain_Prinia_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Prinia"
+  },
+  "family": {
+   "scientific": "Cisticolidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q73928"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Plain_prinia"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

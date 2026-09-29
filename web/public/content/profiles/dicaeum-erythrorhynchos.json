@@ -1,0 +1,51 @@
+{
+ "scientific": "Dicaeum erythrorhynchos",
+ "name": "Pale-billed Flowerpecker",
+ "qid": "Q905057",
+ "description": "species of bird",
+ "extract": "The pale-billed flowerpecker or Tickell's flowerpecker (Dicaeum erythrorhynchos) is a tiny bird that feeds on nectar and berries, found in India, Sri Lanka, Bangladesh and western Myanmar. The bird is common especially in urban gardens with berry bearing trees. They have a rapid chipping call and the pinkish curved beak separates it from other species in the region.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Pale-billed_Flowerpecker_%28Dicaeum_erythrorhynchos%29_preening_in_Hyderabad%2C_AP_W_IMG_7326.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Pale-billed_Flowerpecker_%28Dicaeum_erythrorhynchos%29_preening_in_Hyderabad%2C_AP_W_IMG_7326.jpg/330px-Pale-billed_Flowerpecker_%28Dicaeum_erythrorhynchos%29_preening_in_Hyderabad%2C_AP_W_IMG_7326.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pale-billed_Flowerpecker_(Dicaeum_erythrorhynchos)_preening_in_Hyderabad,_AP_W_IMG_7326.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 6.3,
+   "max": 6.3,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dicaeum"
+  },
+  "family": {
+   "scientific": "Dicaeidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q905057"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pale-billed_flowerpecker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

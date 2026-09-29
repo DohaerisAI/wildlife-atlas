@@ -1,0 +1,46 @@
+{
+ "scientific": "Hirundo javanica",
+ "name": "Pacific Swallow",
+ "qid": "Q31874703",
+ "description": "species of bird",
+ "extract": "The Pacific swallow (Hirundo javanica) is a small  passerine bird in the swallow family Hirundinidae. It breeds in tropical southern Asia and the islands of the south Pacific. It is resident apart from some local seasonal movements. This bird is associated with coasts, but is increasingly spreading to forested uplands. It was formerly treated as conspecific with hill swallow, the welcome swallow and the Tahiti swallow.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Pacific_swallow_%28Hirundo_tahitica_javanica%29_Danum_Valley.jpg/1280px-Pacific_swallow_%28Hirundo_tahitica_javanica%29_Danum_Valley.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Pacific_swallow_%28Hirundo_tahitica_javanica%29_Danum_Valley.jpg/330px-Pacific_swallow_%28Hirundo_tahitica_javanica%29_Danum_Valley.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pacific_swallow_(Hirundo_tahitica_javanica)_Danum_Valley.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Hirundo"
+  },
+  "family": {
+   "scientific": "Hirundinidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q31874703"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pacific_swallow"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,46 @@
+{
+ "scientific": "Carpodacus dubius",
+ "name": "Chinese White-browed Rosefinch",
+ "qid": "Q3726845",
+ "description": "species of bird",
+ "extract": "The Chinese white-browed rosefinch (Carpodacus dubius) is a true finch species (family Fringillidae).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Carpodacus_dubius.jpg/1280px-Carpodacus_dubius.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Carpodacus_dubius.jpg/330px-Carpodacus_dubius.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Carpodacus_dubius.jpg",
+   "license": "Public domain",
+   "artist": "Nikolay Przhevalsky",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Carpodacus"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3726845"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chinese_white-browed_rosefinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

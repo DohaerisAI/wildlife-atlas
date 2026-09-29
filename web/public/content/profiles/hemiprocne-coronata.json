@@ -1,0 +1,49 @@
+{
+ "scientific": "Hemiprocne coronata",
+ "name": "Crested Treeswift",
+ "qid": "Q950441",
+ "description": "species of bird",
+ "extract": "The crested treeswift (Hemiprocne coronata) is a species of tree swift. It was for some time considered the same species as its eastern relative, the gray-rumped treeswift (Hemiprocne longipennis), but they do not interbreed where their ranges overlap. It is distinct in flight, with long, bowed wings and a deeply forked tail that usually appears narrow and pointed.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Hemiprocne_coronata_-Wilpattu_National_Park%2C_Sri_Lanka-8%2C_crop.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Hemiprocne_coronata_-Wilpattu_National_Park%2C_Sri_Lanka-8%2C_crop.jpg/330px-Hemiprocne_coronata_-Wilpattu_National_Park%2C_Sri_Lanka-8%2C_crop.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hemiprocne_coronata_-Wilpattu_National_Park,_Sri_Lanka-8,_crop.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Thimindu Goonatillake from Colombo, Sri Lanka",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Hemiprocne"
+  },
+  "family": {
+   "scientific": "Hemiprocnidae"
+  },
+  "order": {
+   "scientific": "Apodiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q950441"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Crested_treeswift"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

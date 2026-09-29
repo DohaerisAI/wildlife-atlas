@@ -1,0 +1,63 @@
+{
+ "scientific": "Calidris tenuirostris",
+ "name": "Great Knot",
+ "qid": "Q18876",
+ "description": "species of bird",
+ "extract": "The great knot (Calidris tenuirostris) is a medium-sized wader. It is one of the largest species in the genus Calidris. It is a migratory bird which breeds in eastern Siberia, Russia, and flies to southern Asia and Australia in the northern winter.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Calidris_tenuirostris%2C_Nadezhdinsky%2C_Primorsky_Krai%2C_Russia_1_%28crop%29.jpg/1280px-Calidris_tenuirostris%2C_Nadezhdinsky%2C_Primorsky_Krai%2C_Russia_1_%28crop%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Calidris_tenuirostris%2C_Nadezhdinsky%2C_Primorsky_Krai%2C_Russia_1_%28crop%29.jpg/330px-Calidris_tenuirostris%2C_Nadezhdinsky%2C_Primorsky_Krai%2C_Russia_1_%28crop%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Calidris_tenuirostris,_Nadezhdinsky,_Primorsky_Krai,_Russia_1_(crop).jpg",
+   "license": "CC0",
+   "artist": "Original: tcager; this edit: User:MPF",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Calidris_tenuirostris_-_Laem_Phak_Bia.jpg/1280px-Calidris_tenuirostris_-_Laem_Phak_Bia.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Calidris_tenuirostris_-_Laem_Phak_Bia.jpg/330px-Calidris_tenuirostris_-_Laem_Phak_Bia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Calidris_tenuirostris_-_Laem_Phak_Bia.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 56.0,
+   "max": 66.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 22.0,
+   "max": 174.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Calidris"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q18876"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_knot"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

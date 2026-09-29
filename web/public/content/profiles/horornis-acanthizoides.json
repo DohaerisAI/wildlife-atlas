@@ -1,0 +1,51 @@
+{
+ "scientific": "Horornis acanthizoides",
+ "name": "Yellowish-bellied Bush Warbler",
+ "qid": "Q27075468",
+ "description": "species of bird",
+ "extract": "The yellow-bellied bush warbler (Horornis acanthizoides), also known as the yellowish-bellied bush warbler, is a species of bush warbler in the family Cettiidae. It was formerly included in the \"Old World warbler\" assemblage.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Horornis_acanthizoides_40117918.jpg/1280px-Horornis_acanthizoides_40117918.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Horornis_acanthizoides_40117918.jpg/330px-Horornis_acanthizoides_40117918.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Horornis_acanthizoides_40117918.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Jerome Ko",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 6.5,
+   "max": 6.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Horornis"
+  },
+  "family": {
+   "scientific": "Cettiidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075468"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yellow-bellied_bush_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

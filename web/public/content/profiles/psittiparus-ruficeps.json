@@ -1,0 +1,43 @@
+{
+ "scientific": "Psittiparus ruficeps",
+ "name": "White-breasted Parrotbill",
+ "qid": "Q12266298",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Paradoxornis_ruficeps.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Paradoxornis_ruficeps.jpg/330px-Paradoxornis_ruficeps.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Paradoxornis_ruficeps.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Umeshsrinivasan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 32.0,
+   "max": 32.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Psittiparus"
+  },
+  "family": {
+   "scientific": "Paradoxornithidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q12266298"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

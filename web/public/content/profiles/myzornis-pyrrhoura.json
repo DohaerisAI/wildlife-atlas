@@ -1,0 +1,51 @@
+{
+ "scientific": "Myzornis pyrrhoura",
+ "name": "Fire-tailed Myzornis",
+ "qid": "Q1064005",
+ "description": "species of bird",
+ "extract": "The fire-tailed myzornis (Myzornis pyrrhoura) is a species of bird. Its genus Myzornis is monotypic, and has recently been transferred to the family Paradoxornithidae, having formerly been treated in the family Timaliidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Fire-tailed_Myzornis_Old_Silk_Route%2C_Sikkim%2C_India_17_April_2015.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Fire-tailed_Myzornis_Old_Silk_Route%2C_Sikkim%2C_India_17_April_2015.jpg/330px-Fire-tailed_Myzornis_Old_Silk_Route%2C_Sikkim%2C_India_17_April_2015.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Fire-tailed_Myzornis_Old_Silk_Route,_Sikkim,_India_17_April_2015.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 11.5,
+   "max": 11.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Myzornis"
+  },
+  "family": {
+   "scientific": "Paradoxornithidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1064005"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fire-tailed_myzornis"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

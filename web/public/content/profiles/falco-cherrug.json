@@ -1,0 +1,64 @@
+{
+ "scientific": "Falco cherrug",
+ "name": "Saker Falcon",
+ "qid": "Q165974",
+ "description": "species of bird",
+ "extract": "The saker falcon (Falco cherrug) is a large falcon species. It breeds from Central Europe eastwards across the Palearctic to Manchuria. It is a partial migrant, which means that some part of the population is migratory, some part is not. In Europe, for example, a part of the juveniles are migrating, while adults are mostly resident.  The European and West Asian migratory sakers spend the winter in the Sahel region. On migration, they cross the Middle East, the Arabian Peninsula, and Pakistan, where they are exposed to illegal trapping. The migratory birds to the east from Altai Mountains spend the winter in the Qinghai-Tibet Plateau.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Falco_cherrug_1_%28Bohu%C5%A1_%C4%8C%C3%AD%C4%8Del%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Falco_cherrug_1_%28Bohu%C5%A1_%C4%8C%C3%AD%C4%8Del%29.jpg/330px-Falco_cherrug_1_%28Bohu%C5%A1_%C4%8C%C3%AD%C4%8Del%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Falco_cherrug_1_(Bohu%C5%A1_%C4%8C%C3%AD%C4%8Del).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Bohuš Číčel (https://www.flickr.com/photos/bcicel/)",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/SakerFalcon.jpg/1280px-SakerFalcon.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/SakerFalcon.jpg/330px-SakerFalcon.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:SakerFalcon.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Saumitra Newalkar",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 97.0,
+   "max": 126.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 53.0,
+   "max": 1130.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Falco",
+   "name": "falcon"
+  },
+  "family": {
+   "scientific": "Falconidae"
+  },
+  "order": {
+   "scientific": "Falconiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q165974"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Saker_falcon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

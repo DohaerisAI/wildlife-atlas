@@ -1,0 +1,51 @@
+{
+ "scientific": "Lioparus chrysotis",
+ "name": "Golden-breasted Fulvetta",
+ "qid": "Q1441996",
+ "description": "species of bird",
+ "extract": "The golden-breasted fulvetta (Lioparus chrysotis) is a species of songbird found in Bhutan, China, India, Myanmar, Nepal, and Vietnam. Its natural habitats are temperate forests and subtropical or tropical moist montane forests.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Lioparus_chrysotis_camera.jpg/1280px-Lioparus_chrysotis_camera.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Lioparus_chrysotis_camera.jpg/330px-Lioparus_chrysotis_camera.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lioparus_chrysotis_camera.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Lilauid (上傳者)/甘澤楷 (拍攝者)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 7.5,
+   "max": 7.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lioparus"
+  },
+  "family": {
+   "scientific": "Paradoxornithidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1441996"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Golden-breasted_fulvetta"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

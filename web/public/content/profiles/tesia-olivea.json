@@ -1,0 +1,51 @@
+{
+ "scientific": "Tesia olivea",
+ "name": "Slaty-bellied Tesia",
+ "qid": "Q3726291",
+ "description": "species of bird",
+ "extract": "The slaty-bellied tesia (Tesia olivea) is a species of warbler in the family Cettiidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Tesia_olivea_Brian_Small.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Tesia_olivea_Brian_Small.jpg/330px-Tesia_olivea_Brian_Small.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tesia_olivea_Brian_Small.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Brian Small",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 7.5,
+   "max": 7.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tesia"
+  },
+  "family": {
+   "scientific": "Cettiidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3726291"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Slaty-bellied_tesia"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

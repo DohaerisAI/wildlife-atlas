@@ -1,0 +1,54 @@
+{
+ "scientific": "Agropsar philippensis",
+ "name": "Chestnut-cheeked Starling",
+ "qid": "Q1586190",
+ "description": "species of bird",
+ "extract": "The chestnut-cheeked starling (Agropsar philippensis) is a species of starling in the family Sturnidae. It breeds in Japan and the Russian islands of Sakhalin and Kuriles; it winters in Taiwan, the Philippines and northern Borneo.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Sturnus_philippensis.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Sturnus_philippensis.jpg/330px-Sturnus_philippensis.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sturnus_philippensis.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "M.Nishimura",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 50.0,
+   "max": 50.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Agropsar"
+  },
+  "family": {
+   "scientific": "Sturnidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Sturnus philippensis"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1586190"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chestnut-cheeked_starling"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

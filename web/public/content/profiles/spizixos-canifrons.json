@@ -1,0 +1,51 @@
+{
+ "scientific": "Spizixos canifrons",
+ "name": "Crested Finchbill",
+ "qid": "Q2927921",
+ "description": "species of bird",
+ "extract": "The crested finchbill (Spizixos canifrons) is a species of songbird in the bulbul family, Pycnonotidae. It is found in south-eastern Asia from China and India to Indochina.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/SpizixosCanifronsGould.jpg/1280px-SpizixosCanifronsGould.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/SpizixosCanifronsGould.jpg/330px-SpizixosCanifronsGould.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:SpizixosCanifronsGould.jpg",
+   "license": "Public domain",
+   "artist": "John Gould and HC Richter",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 44.0,
+   "max": 44.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Spizixos"
+  },
+  "family": {
+   "scientific": "Pycnonotidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2927921"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Crested_finchbill"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

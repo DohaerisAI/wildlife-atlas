@@ -1,0 +1,61 @@
+{
+ "scientific": "Eudynamys scolopaceus",
+ "name": "Asian Koel",
+ "qid": "Q798401",
+ "description": "species of bird",
+ "extract": "The Asian koel (Eudynamys scolopaceus) is a member of the cuckoo family of birds, the Cuculidae. It is found in the Indian subcontinent,  China, and Southeast Asia. It forms a superspecies with the closely related black-billed koels, and Pacific koels which are sometimes treated as subspecies. The Asian koel, like many of its related cuckoo kin, is a brood parasite that lays its eggs in the nests of crows and other hosts, who raise its young. They are unusual among the cuckoos in being largely frugivorous as adults. The name koel is echoic in origin with several language variants.  The bird is a widely used symbol in Indian, Pakistani and Nepali poetry.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Asian_koel.jpg/1280px-Asian_koel.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Asian_koel.jpg/330px-Asian_koel.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Asian_koel.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Challiyan",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Eudynamys_scolopacea_-_20080801.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Eudynamys_scolopacea_-_20080801.jpg/330px-Eudynamys_scolopacea_-_20080801.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eudynamys_scolopacea_-_20080801.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Doug Janson",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Eudynamys",
+   "name": "Koel"
+  },
+  "family": {
+   "scientific": "Cuculidae"
+  },
+  "order": {
+   "scientific": "Cuculiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Common koel"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q798401"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Asian_koel"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

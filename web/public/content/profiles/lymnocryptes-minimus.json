@@ -1,0 +1,59 @@
+{
+ "scientific": "Lymnocryptes minimus",
+ "name": "Jack Snipe",
+ "qid": "Q26711",
+ "description": "species of bird",
+ "extract": "The jack snipe or jacksnipe (Lymnocryptes minimus) is a small stocky wader. It is the smallest snipe, and the only member of the genus Lymnocryptes. Features such as its sternum and its continuous 'bobbing up and down' make it quite distinct from other snipes or woodcocks.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Lymnocryptes_minimus.jpg/1280px-Lymnocryptes_minimus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Lymnocryptes_minimus.jpg/330px-Lymnocryptes_minimus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lymnocryptes_minimus.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dûrzan cîrano",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 40.0,
+   "max": 40.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 46.7,
+   "max": 53.7,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lymnocryptes"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26711"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jack_snipe"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

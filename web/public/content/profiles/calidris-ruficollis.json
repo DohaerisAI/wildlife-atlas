@@ -1,0 +1,59 @@
+{
+ "scientific": "Calidris ruficollis",
+ "name": "Red-necked Stint",
+ "qid": "Q18860",
+ "description": "species of bird",
+ "extract": "The red-necked stint or rufous-necked stint (Calidris ruficollis) is a small migratory wader that breeds in northeast Russia and spends the non-breeding season along the coastlines of Southeast Asia and Australasia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Calidris_ruficollis_-_Marion_Bay.jpg/1280px-Calidris_ruficollis_-_Marion_Bay.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Calidris_ruficollis_-_Marion_Bay.jpg/330px-Calidris_ruficollis_-_Marion_Bay.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Calidris_ruficollis_-_Marion_Bay.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 29.0,
+   "max": 33.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 8.3,
+   "max": 26.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Calidris"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q18860"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-necked_stint"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

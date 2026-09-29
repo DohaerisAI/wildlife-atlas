@@ -1,0 +1,46 @@
+{
+ "scientific": "Saxicola torquatus",
+ "name": "African Stonechat",
+ "qid": "Q1315689",
+ "description": "species of bird",
+ "extract": "The African stonechat or common stonechat (Saxicola torquatus) is a species of the Old World flycatcher family (Muscicapidae), inhabiting sub-Saharan Africa and adjacent regions. Like the other chats, it was long assigned to the thrush family (Turdidae), to which the chats are convergent. Its scientific name refer to its appearance and habitat and means \"collared rock-dweller\": Saxicola from Latin saxum (\"rock\") + incola (\"one who dwells in a place\"), torquatus, Latin for \"collared\".",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/African_Stonechat_%28Saxicola_torquatus%29_male_%2831251199192%29.jpg/1280px-African_Stonechat_%28Saxicola_torquatus%29_male_%2831251199192%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/African_Stonechat_%28Saxicola_torquatus%29_male_%2831251199192%29.jpg/330px-African_Stonechat_%28Saxicola_torquatus%29_male_%2831251199192%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:African_Stonechat_(Saxicola_torquatus)_male_(31251199192).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Bernard DUPONT from FRANCE",
+   "caption": "Male"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Saxicola"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1315689"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/African_stonechat"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

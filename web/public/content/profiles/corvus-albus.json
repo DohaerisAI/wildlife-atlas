@@ -1,0 +1,51 @@
+{
+ "scientific": "Corvus albus",
+ "name": "Pied Crow",
+ "qid": "Q949603",
+ "description": "species of bird",
+ "extract": "The pied crow (Corvus albus) is a widely distributed African bird species in the crow genus of the family Corvidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Corvus_albus_-Etosha_National_Park%2C_Namibia-8.jpg/1280px-Corvus_albus_-Etosha_National_Park%2C_Namibia-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Corvus_albus_-Etosha_National_Park%2C_Namibia-8.jpg/330px-Corvus_albus_-Etosha_National_Park%2C_Namibia-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Corvus_albus_-Etosha_National_Park,_Namibia-8.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Frank Vassen from Brussels, Belgium",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 21.8,
+   "max": 21.8,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Corvus"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q949603"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pied_crow"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

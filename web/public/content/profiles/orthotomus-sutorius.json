@@ -1,0 +1,51 @@
+{
+ "scientific": "Orthotomus sutorius",
+ "name": "Common Tailorbird",
+ "qid": "Q795556",
+ "description": "species of bird",
+ "extract": "The common tailorbird (Orthotomus sutorius) is a songbird found across tropical and subtropical Asia. Popular for its nest made of leaves \"sewn\" together and immortalized by Rudyard Kipling as Darzee in his Jungle Book, it is a common resident in urban gardens. Although shy birds that are usually hidden within vegetation, their loud calls are familiar and give away their presence. They are distinctive in having a long upright tail, greenish upper body plumage and rust coloured forehead and crown. This passerine bird is typically found in open farmland, scrub, forest edges and gardens.  Tailorbirds get their name from the way their nest is constructed. The edges of a large leaf are pierced and sewn together with plant fibre or spider silk to make a cradle in which the actual nest is built.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/2005-tailor-bird.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/2005-tailor-bird.jpg/330px-2005-tailor-bird.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2005-tailor-bird.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Yathin S Krishnappa",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 7.5,
+   "max": 7.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Orthotomus"
+  },
+  "family": {
+   "scientific": "Cisticolidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q795556"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_tailorbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

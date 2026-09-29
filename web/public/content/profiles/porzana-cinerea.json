@@ -1,0 +1,63 @@
+{
+ "scientific": "Porzana cinerea",
+ "name": "White-browed Crake",
+ "qid": "Q782463",
+ "description": "species of bird",
+ "extract": "The white-browed crake (Poliolimnas cinereus) is a species of bird in the family Rallidae. It is found in Australia, Brunei, Cambodia, Fiji, Hong Kong, Indonesia, Japan, India, Malaysia, Micronesia, New Caledonia, Palau, Papua New Guinea, the Philippines, Samoa, Singapore, Solomon Islands, Thailand, and Vanuatu.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Porzana_cinerea_-_Bueng_Boraphet.jpg/1280px-Porzana_cinerea_-_Bueng_Boraphet.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Porzana_cinerea_-_Bueng_Boraphet.jpg/330px-Porzana_cinerea_-_Bueng_Boraphet.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Porzana_cinerea_-_Bueng_Boraphet.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 27.0,
+   "max": 27.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 7.3,
+   "max": 52.1,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Porzana"
+  },
+  "family": {
+   "scientific": "Rallidae"
+  },
+  "order": {
+   "scientific": "Gruiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Poliolimnas cinereus",
+  "Amaurornis cinerea"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q782463"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-browed_crake"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

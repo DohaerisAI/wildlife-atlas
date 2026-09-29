@@ -1,0 +1,62 @@
+{
+ "scientific": "Monticola solitarius",
+ "name": "Blue Rock Thrush",
+ "qid": "Q152144",
+ "description": "species of bird",
+ "extract": "The blue rock thrush (Monticola solitarius) is a species of chat. This thrush-like Old World flycatcher was formerly placed in the family Turdidae. It breeds in southern Europe, northwest Africa, and from Central Asia to northern China and Malaysia. The blue rock thrush is the official national bird of Malta.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Monticola_solitarius%2C_Spain_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Monticola_solitarius%2C_Spain_1.jpg/330px-Monticola_solitarius%2C_Spain_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Monticola_solitarius,_Spain_1.jpg",
+   "license": "CC BY 2.0",
+   "artist": "jose maria carretero palacios from jerez de los caballeros, españa",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Monticola_solitarius_29-August-2015.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Monticola_solitarius_29-August-2015.jpg/330px-Monticola_solitarius_29-August-2015.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Monticola_solitarius_29-August-2015.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Juan lacruz",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 6.0,
+   "max": 6.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Monticola"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Blue rock-thrush"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q152144"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blue_rock_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

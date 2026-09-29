@@ -1,0 +1,49 @@
+{
+ "scientific": "Phodilus assimilis",
+ "name": "Sri Lanka Bay Owl",
+ "qid": "Q2315214",
+ "description": "species of bird",
+ "extract": "The Sri Lanka bay owl (Phodilus assimilis) is a species of bay owl in the family Tytonidae. It is endemic to the island of Sri Lanka and the Western Ghats in Kerala, South Western India.  It was considered a subspecies of the Oriental bay owl (Phodilus badius) but is now treated as a full species due to its distinctive call, plumage and disjunct distribution.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Phodilus_assimilis_132558699.jpg/1280px-Phodilus_assimilis_132558699.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Phodilus_assimilis_132558699.jpg/330px-Phodilus_assimilis_132558699.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Phodilus_assimilis_132558699.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Renjith Jacob Mathews",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phodilus"
+  },
+  "family": {
+   "scientific": "Tytonidae"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2315214"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sri_Lanka_bay_owl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

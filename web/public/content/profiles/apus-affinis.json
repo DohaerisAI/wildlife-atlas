@@ -1,0 +1,49 @@
+{
+ "scientific": "Apus affinis",
+ "name": "Little Swift",
+ "qid": "Q611324",
+ "description": "species of bird",
+ "extract": "The little swift (Apus affinis) is a small species of swift found in Africa and southwestern Asia, and are vagrants and local breeders in southern Europe. They are found both in urban areas and at rocky cliffs where they build nests in a way typical of all members of the order Apodiformes. The genus name Apus is Latin for a swift, thought by the ancients to be a type of swallow without feet (from Ancient Greek α, a, \"without\", and πούς, pous, \"foot\"). The Latin specific affinis means similar to or related to, but in this case the species that the little swift supposedly resembles is not clear from the description. A population formerly considered to be an eastern subspecies of little swift is now separated as a distinct species, the house swift (Apus nipalensis).",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Little_Swift_-_Aberdares_-_Kenya.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Little_Swift_-_Aberdares_-_Kenya.jpg/330px-Little_Swift_-_Aberdares_-_Kenya.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Little_Swift_-_Aberdares_-_Kenya.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Apus"
+  },
+  "family": {
+   "scientific": "Apodidae"
+  },
+  "order": {
+   "scientific": "Apodiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q611324"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Little_swift"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

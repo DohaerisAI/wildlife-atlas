@@ -1,0 +1,59 @@
+{
+ "scientific": "Tarsiger hyperythrus",
+ "name": "Rufous-breasted Bush Robin",
+ "qid": "Q905824",
+ "description": "species of bird",
+ "extract": "The rufous-breasted bush robin (Tarsiger hyperythrus) is a species of bird in the family Muscicapidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Tarsiger_hyperythrus_-Eaglenest_Wildlife_Sanctuary%2C_Arunachal_Pradesh%2C_India_-male-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Tarsiger_hyperythrus_-Eaglenest_Wildlife_Sanctuary%2C_Arunachal_Pradesh%2C_India_-male-8.jpg/330px-Tarsiger_hyperythrus_-Eaglenest_Wildlife_Sanctuary%2C_Arunachal_Pradesh%2C_India_-male-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tarsiger_hyperythrus_-Eaglenest_Wildlife_Sanctuary,_Arunachal_Pradesh,_India_-male-8.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "soumyajit nandy",
+   "caption": "Male"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Rufous-breasted_Bush_Robin_Pangolakha_Wildlife_Sanctuary_East_Sikkim_India_12.02.2016.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Rufous-breasted_Bush_Robin_Pangolakha_Wildlife_Sanctuary_East_Sikkim_India_12.02.2016.jpg/330px-Rufous-breasted_Bush_Robin_Pangolakha_Wildlife_Sanctuary_East_Sikkim_India_12.02.2016.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rufous-breasted_Bush_Robin_Pangolakha_Wildlife_Sanctuary_East_Sikkim_India_12.02.2016.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 13.5,
+   "max": 13.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tarsiger"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q905824"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rufous-breasted_bush_robin"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,46 @@
+{
+ "scientific": "Cyanoptila cumatilis",
+ "name": "Zappey's Flycatcher",
+ "qid": "Q15461907",
+ "description": "species of bird",
+ "extract": "Zappey's flycatcher (Cyanoptila cumatilis) is a songbird in the Old World flycatcher family Muscicapidae. It is migratory, breeding in central China from central Sichuan northeast to the mountains west of Beijing, and wintering south to the Malay Peninsula, Sumatra, and Java. It closely similar to, and was formerly considered to be conspecific with, the blue-and-white flycatcher, which breeds further east from northeastern China east to Japan.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Cyanoptila_cumatilis_185974190.jpg/1280px-Cyanoptila_cumatilis_185974190.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Cyanoptila_cumatilis_185974190.jpg/330px-Cyanoptila_cumatilis_185974190.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cyanoptila_cumatilis_185974190.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Wich'yanan L",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cyanoptila"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q15461907"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Zappey%27s_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

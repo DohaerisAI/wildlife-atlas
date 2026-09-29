@@ -1,0 +1,58 @@
+{
+ "scientific": "Sasia ochracea",
+ "name": "White-browed Piculet",
+ "qid": "Q2670949",
+ "description": "species of bird",
+ "extract": "The white-browed piculet (Sasia ochracea) is a species of bird in the family Picidae.  It is found in Bangladesh, Bhutan, Cambodia, India, Laos, Myanmar, Nepal, Thailand, and Vietnam. Its natural habitats are temperate forests and subtropical or tropical moist montane forests.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/White-browed_piculet.jpg/1280px-White-browed_piculet.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/White-browed_piculet.jpg/330px-White-browed_piculet.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-browed_piculet.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tareqctg",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/White-browed_Piculet_Khangchendzonga_National_Park_West_Sikkim_Sikkim_India_19.02.2016.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/White-browed_Piculet_Khangchendzonga_National_Park_West_Sikkim_Sikkim_India_19.02.2016.jpg/330px-White-browed_Piculet_Khangchendzonga_National_Park_West_Sikkim_Sikkim_India_19.02.2016.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-browed_Piculet_Khangchendzonga_National_Park_West_Sikkim_Sikkim_India_19.02.2016.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 10.0,
+   "max": 10.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sasia"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2670949"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-browed_piculet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

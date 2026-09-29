@@ -1,0 +1,51 @@
+{
+ "scientific": "Phylloscopus affinis",
+ "name": "Tickell's Leaf Warbler",
+ "qid": "Q3726323",
+ "description": "species of bird",
+ "extract": "Tickell's leaf warbler (Phylloscopus affinis) is a leaf warbler found in Asia in the countries of Bangladesh, Bhutan, China, India, Myanmar, Nepal, Pakistan and Thailand. The species has a yellowish underside and supercilium. Like other leaf warblers it feeds mostly on insects by gleaning and short sallies. An active bird, it prefers the canopy and low shrubbery and can be difficult to track as it moves actively from branch to branch, acrobatically exploring the underside of leaves and twigs. The clear yellowish undersides and lack of a wing bar can be used to tell it apart from similar species. It has slim dark legs with largely pale lower mandible and grayish wing panel.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Tickell%27s_Leaf_Warbler.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Tickell%27s_Leaf_Warbler.JPG/330px-Tickell%27s_Leaf_Warbler.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Tickell%27s_Leaf_Warbler.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Earthshine..",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 6.6,
+   "max": 6.6,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phylloscopus"
+  },
+  "family": {
+   "scientific": "Phylloscopidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3726323"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tickell%27s_leaf_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,54 @@
+{
+ "scientific": "Dicaeum concolor",
+ "name": "Nilgiri Flowerpecker",
+ "qid": "Q74106",
+ "description": "species of bird",
+ "extract": "The Nilgiri flowerpecker (Dicaeum concolor) is a tiny bird in the flowerpecker family. Formerly a subspecies of what used to be termed as the plain flowerpecker although that name is now reserved for Dicaeum minullum. Like others of the group, it feeds predominantly on nectar and fruits. They forage within the canopy of forests and are found in India. They are non-migratory and the widespread distribution range includes several populations that are non-overlapping and morphologically distinct, some of which are recognized as full species. They are important pollinators and dispersers of mistletoes in forests.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Dicaeum_concolor.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Dicaeum_concolor.jpg/330px-Dicaeum_concolor.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dicaeum_concolor.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee Yap from Singapore, Republic of Singapore",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 6.2,
+   "max": 6.2,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dicaeum"
+  },
+  "family": {
+   "scientific": "Dicaeidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Plain Flowerpecker"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q74106"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nilgiri_flowerpecker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

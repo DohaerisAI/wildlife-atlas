@@ -1,0 +1,46 @@
+{
+ "scientific": "Calliope tschebaiewi",
+ "name": "Chinese Rubythroat",
+ "qid": "Q29828580",
+ "description": "species of bird",
+ "extract": "The  Chinese rubythroat (Calliope tschebaiewi) is a small passerine bird in the family Muscicapidae. It is closely related to the Siberian rubythroat which however lacks the distinctive white tail-tips and white tail bases. It was also previously considered conspecific with the Himalayan rubythroat, together called the white-tailed rubythroat. It is found along the Himalayan ranges from Pakistan to Myanmar.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Chinese_Rubythroat_Calliope_tschebaiewi%2C_male%2C_Loktak_Lake%2C_Manipur_DSC_8987_%2804%29.jpg/1280px-Chinese_Rubythroat_Calliope_tschebaiewi%2C_male%2C_Loktak_Lake%2C_Manipur_DSC_8987_%2804%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Chinese_Rubythroat_Calliope_tschebaiewi%2C_male%2C_Loktak_Lake%2C_Manipur_DSC_8987_%2804%29.jpg/330px-Chinese_Rubythroat_Calliope_tschebaiewi%2C_male%2C_Loktak_Lake%2C_Manipur_DSC_8987_%2804%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chinese_Rubythroat_Calliope_tschebaiewi,_male,_Loktak_Lake,_Manipur_DSC_8987_(04).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dr. Raju Kasambe",
+   "caption": "Male"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Calliope"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q29828580"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chinese_rubythroat"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

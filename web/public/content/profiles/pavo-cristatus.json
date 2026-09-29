@@ -1,0 +1,60 @@
+{
+ "scientific": "Pavo cristatus",
+ "name": "Indian Peafowl",
+ "qid": "Q61865",
+ "description": "species of bird",
+ "extract": "The Indian peafowl (Pavo cristatus), also known as the common peafowl, or blue peafowl, is a species of peafowl native to the Indian subcontinent. While it originated in the Indian subcontinent, it has since been introduced to many other parts of the world. Male peafowl are referred to as peacocks, and female peafowl are referred to as peahens, although both sexes are often referred to colloquially as a \"peacock\".",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Indian_Peacock_in_Tholpetty_Wildlife_Sanctuary_01.JPG/1280px-Indian_Peacock_in_Tholpetty_Wildlife_Sanctuary_01.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Indian_Peacock_in_Tholpetty_Wildlife_Sanctuary_01.JPG/330px-Indian_Peacock_in_Tholpetty_Wildlife_Sanctuary_01.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Indian_Peacock_in_Tholpetty_Wildlife_Sanctuary_01.JPG",
+   "license": "CC BY-SA 4.0",
+   "artist": "Praveenp",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Indian_peafowls_1.jpg/1280px-Indian_peafowls_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Indian_peafowls_1.jpg/330px-Indian_peafowls_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Indian_peafowls_1.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Jameela P.",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pavo"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Indian peacock"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q61865"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_peafowl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

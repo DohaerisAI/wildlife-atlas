@@ -1,0 +1,64 @@
+{
+ "scientific": "Saxicola rubetra",
+ "name": "Whinchat",
+ "qid": "Q155869",
+ "description": "species of bird",
+ "extract": "The whinchat (Saxicola rubetra) is a small migratory passerine bird breeding in Europe and western Asia and wintering in central Africa. At one time considered to be in the thrush family, Turdidae, it is now placed in the Old World flycatcher family, Muscicapidae. Both sexes have a strong supercilium, brownish upper parts mottled darker, a pale throat and breast, a pale buff to whitish belly, and a blackish tail with white bases to the outer tail feathers, but in the breeding season, the male has an orange-buff throat and breast.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Tarier_des_pr%C3%A8s_Zaghouan_NP001.jpg/1280px-Tarier_des_pr%C3%A8s_Zaghouan_NP001.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Tarier_des_pr%C3%A8s_Zaghouan_NP001.jpg/330px-Tarier_des_pr%C3%A8s_Zaghouan_NP001.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tarier_des_pr%C3%A8s_Zaghouan_NP001.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "El Golli Mohamed",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Saxicola_rubetra_poklaskwa_AM.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Saxicola_rubetra_poklaskwa_AM.jpg/330px-Saxicola_rubetra_poklaskwa_AM.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Saxicola_rubetra_poklaskwa_AM.jpg",
+   "license": "CC BY 2.5",
+   "artist": "Artur Mikołajewski",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 22.0,
+   "max": 22.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 2.1,
+   "max": 2.1,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Saxicola"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q155869"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Whinchat"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

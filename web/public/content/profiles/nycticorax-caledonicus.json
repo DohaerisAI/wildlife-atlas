@@ -1,0 +1,72 @@
+{
+ "scientific": "Nycticorax caledonicus",
+ "name": "Nankeen Night Heron",
+ "qid": "Q372383",
+ "description": "species of bird",
+ "extract": "The nankeen night heron (Nycticorax caledonicus) is a heron that belongs to the genus Nycticorax and the family Ardeidae. Due to its distinctive reddish-brown colour, it is also commonly referred to as the rufous night heron. It is primarily nocturnal and is observed in a broad range of habitats, including forests, meadows, shores, reefs, marshes, grasslands, and swamps. The species is 55 to 65 cm (22 to 26 in) in length, with rich cinnamon upperparts and white underparts. The nankeen night heron has a stable population size, and is classified as a species of least concern by the International Union for Conservation of Nature (IUCN).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Nankeen_%28Rufous%29_Night_Heron_%2823333548021%29.jpg/1280px-Nankeen_%28Rufous%29_Night_Heron_%2823333548021%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Nankeen_%28Rufous%29_Night_Heron_%2823333548021%29.jpg/330px-Nankeen_%28Rufous%29_Night_Heron_%2823333548021%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Nankeen_(Rufous)_Night_Heron_(23333548021).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Andrew from Fremantle, Australia",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Nankeen_Night_Heron_Fremantle_Harbour.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Nankeen_Night_Heron_Fremantle_Harbour.jpg/330px-Nankeen_Night_Heron_Fremantle_Harbour.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Nankeen_Night_Heron_Fremantle_Harbour.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Helenabella",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 95.0,
+   "max": 116.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 38.0,
+   "max": 760.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Nycticorax"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Rufous night-heron",
+  "Rufous Night Heron"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q372383"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nankeen_night_heron"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

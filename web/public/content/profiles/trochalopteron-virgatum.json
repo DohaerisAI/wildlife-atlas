@@ -1,0 +1,46 @@
+{
+ "scientific": "Trochalopteron virgatum",
+ "name": "Striped Laughingthrush",
+ "qid": "Q12268216",
+ "description": "species of bird",
+ "extract": "The striped laughingthrush (Trochalopteron virgatum) is a species of bird in the family Leiothrichidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/STRIPED-LAUGHINGTHRUSH.jpg/1280px-STRIPED-LAUGHINGTHRUSH.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/STRIPED-LAUGHINGTHRUSH.jpg/330px-STRIPED-LAUGHINGTHRUSH.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:STRIPED-LAUGHINGTHRUSH.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Rajkimar99",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Trochalopteron"
+  },
+  "family": {
+   "scientific": "Leiothrichidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q12268216"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Striped_laughingthrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

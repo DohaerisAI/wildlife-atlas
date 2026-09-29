@@ -1,0 +1,63 @@
+{
+ "scientific": "Phoeniconaias minor",
+ "name": "Lesser Flamingo",
+ "qid": "Q242369",
+ "description": "species of bird",
+ "extract": "The lesser flamingo (Phoeniconaias minor) is a species of flamingo occurring in sub-Saharan Africa and western India. Birds are occasionally reported from farther north, but these are generally considered vagrants.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Flamingo_in_Amboseli_National_Park.jpg/1280px-Flamingo_in_Amboseli_National_Park.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Flamingo_in_Amboseli_National_Park.jpg/330px-Flamingo_in_Amboseli_National_Park.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Flamingo_in_Amboseli_National_Park.jpg",
+   "license": "CC BY-SA 3.0 de",
+   "artist": "taken by myself",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Lesser-flamingos.jpg/1280px-Lesser-flamingos.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Lesser-flamingos.jpg/330px-Lesser-flamingos.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lesser-flamingos.jpg",
+   "license": "CC BY 2.5",
+   "artist": "Charles J Sharp",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 95.0,
+   "max": 100.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phoeniconaias"
+  },
+  "family": {
+   "scientific": "Phoenicopteridae",
+   "name": "Flamingos"
+  },
+  "order": {
+   "scientific": "Phoenicopteriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q242369"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lesser_flamingo"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

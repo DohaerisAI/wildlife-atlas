@@ -1,0 +1,62 @@
+{
+ "scientific": "Tragopan melanocephalus",
+ "name": "Western Tragopan",
+ "qid": "Q845992",
+ "description": "species of bird",
+ "extract": "The western tragopan or western horned tragopan (Tragopan melanocephalus) is a medium-sized brightly plumed landfowl found along the range of Western Himalayas from north-eastern districts of Khyber Pakhtunkhwa province in northern Pakistan in the west to Uttarakhand within India to the east. The species is highly endangered and globally threatened.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/WesternTragopan.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/WesternTragopan.jpg/330px-WesternTragopan.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:WesternTragopan.jpg",
+   "license": "Public domain",
+   "artist": "Archibald Thorburn",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/WestTragopan.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/WestTragopan.jpg/330px-WestTragopan.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:WestTragopan.jpg",
+   "license": "Public domain",
+   "artist": "Daniel Giraud Elliot",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 1325.0,
+   "max": 1975.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tragopan"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q845992"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Western_tragopan"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

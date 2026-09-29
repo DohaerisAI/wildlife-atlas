@@ -1,0 +1,51 @@
+{
+ "scientific": "Ploceus manyar",
+ "name": "Streaked Weaver",
+ "qid": "Q1306610",
+ "description": "species of bird",
+ "extract": "The streaked weaver (Ploceus manyar) is a species of weaver bird found in South Asia and South-east Asia in the countries of Bangladesh, Bhutan, Cambodia, China, Egypt, India, Indonesia, Myanmar, Nepal, Pakistan, Singapore, Sri Lanka, Thailand, Vietnam and also introduced in Qatar and United Arab Emirates (UAE). These are not as common as the baya weaver but are similar looking but have streaked underparts.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Streaked_Weaver_%28Ploceus_manyar%29_W_IMG_6837.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Streaked_Weaver_%28Ploceus_manyar%29_W_IMG_6837.jpg/330px-Streaked_Weaver_%28Ploceus_manyar%29_W_IMG_6837.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Streaked_Weaver_(Ploceus_manyar)_W_IMG_6837.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 2.3,
+   "max": 2.3,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ploceus"
+  },
+  "family": {
+   "scientific": "Ploceidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1306610"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Streaked_weaver"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

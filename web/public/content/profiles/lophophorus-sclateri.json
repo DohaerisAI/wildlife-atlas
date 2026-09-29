@@ -1,0 +1,67 @@
+{
+ "scientific": "Lophophorus sclateri",
+ "name": "Sclater’s Monal",
+ "qid": "Q252488",
+ "description": "species of bird",
+ "extract": "Sclater's monal (Lophophorus sclateri) also known as the crestless monal is a Himalayan landfowl. The name commemorates the British zoologist Philip Lutley Sclater.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Lophophorus_sclateri.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Lophophorus_sclateri.jpg/330px-Lophophorus_sclateri.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lophophorus_sclateri.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Prasad BR (Prasadbr at en.wikipedia)",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/LophophorusSclateriKeulemans.jpg/1280px-LophophorusSclateriKeulemans.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/LophophorusSclateriKeulemans.jpg/330px-LophophorusSclateriKeulemans.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:LophophorusSclateriKeulemans.jpg",
+   "license": "Public domain",
+   "artist": "J G Keulemans",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 2200.0,
+   "max": 2605.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lophophorus",
+   "name": "Monal"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Sclaterís monal",
+  "Sclateris monal"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q252488"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sclater%27s_monal"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

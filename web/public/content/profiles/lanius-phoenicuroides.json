@@ -1,0 +1,49 @@
+{
+ "scientific": "Lanius phoenicuroides",
+ "name": "Rufous-tailed Shrike",
+ "qid": "Q15055407",
+ "description": "species of bird",
+ "extract": "The red-tailed shrike or Turkestan shrike (Lanius phoenicuroides) is a member of the shrike family (Laniidae). It was formerly considered conspecific with the isabelline shrike and the red-backed shrike.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Isabelline_Shrike_%28Lanius_isabellinus_phoenicuroides%29.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Isabelline_Shrike_%28Lanius_isabellinus_phoenicuroides%29.JPG/330px-Isabelline_Shrike_%28Lanius_isabellinus_phoenicuroides%29.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Isabelline_Shrike_(Lanius_isabellinus_phoenicuroides).JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "DrPhilippLehmann",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lanius"
+  },
+  "family": {
+   "scientific": "Laniidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Turkestan shrike"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q15055407"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-tailed_shrike"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,46 @@
+{
+ "scientific": "Oenanthe chrysopygia",
+ "name": "Red-tailed Wheatear",
+ "qid": "Q769528",
+ "description": "species of bird",
+ "extract": "The red-tailed wheatear (Oenanthe chrysopygia), also known as the rusty-tailed wheatear, Persian wheatear or Afghan wheatear, is a small passerine bird breeding in mountainous areas of south-west and central Asia. It belongs to the wheatear genus Oenanthe which was formerly placed in the thrush family Turdidae but is now in the Old World flycatcher family Muscicapidae. The red-tailed wheatear used to be considered a subspecies of the Kurdish wheatear (O. xanthoprymna) but is now often regarded as a separate species.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Oenanthe_chrysopygia.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Oenanthe_chrysopygia.JPG/330px-Oenanthe_chrysopygia.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Oenanthe_chrysopygia.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Pkspks",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Oenanthe"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q769528"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-tailed_wheatear"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

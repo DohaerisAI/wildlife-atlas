@@ -1,0 +1,46 @@
+{
+ "scientific": "Pterorhinus sannio",
+ "name": "White-browed Laughingthrush",
+ "qid": "Q62086090",
+ "description": "species of bird",
+ "extract": "The white-browed laughingthrush (Pterorhinus sannio) is a bird in the family Leiothrichidae. The species was first described by Robert Swinhoe in 1867. It is found in China, Hong Kong, India, Laos, Myanmar, Thailand, and Vietnam.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Garrulax_sannio.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Garrulax_sannio.jpg/330px-Garrulax_sannio.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Garrulax_sannio.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Ron Knight from Seaford, East Sussex, United Kingdom",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pterorhinus"
+  },
+  "family": {
+   "scientific": "Leiothrichidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q62086090"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-browed_laughingthrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

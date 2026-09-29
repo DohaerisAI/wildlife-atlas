@@ -1,0 +1,44 @@
+{
+ "scientific": "Tyto deroepstorffi",
+ "name": "Andaman Masked-Owl",
+ "qid": "Q489866",
+ "description": "species of bird",
+ "extract": "The Andaman masked owl (Tyto deroepstorffi) is a barn owl endemic to the southern Andaman Islands archipelago of India, in the Bay of Bengal, Indian Ocean. Regarded by some authors as a subspecies of the common barn owl (Tyto alba), it is recognized by others as a species in its own right.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Andaman_Masked_Owl_SS.jpg/1280px-Andaman_Masked_Owl_SS.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Andaman_Masked_Owl_SS.jpg/330px-Andaman_Masked_Owl_SS.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Andaman_Masked_Owl_SS.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Savithri Singh",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tyto"
+  },
+  "family": {
+   "scientific": "Tytonidae"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q489866"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Andaman_masked_owl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

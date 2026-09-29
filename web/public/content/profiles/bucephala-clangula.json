@@ -1,0 +1,78 @@
+{
+ "scientific": "Bucephala clangula",
+ "name": "Common Goldeneye",
+ "qid": "Q29865",
+ "description": "species of bird",
+ "extract": "The common goldeneye or simply goldeneye (Bucephala clangula) is a medium-sized sea duck of the genus Bucephala, the goldeneyes. Its closest relative is the similar Barrow's goldeneye. The genus name is derived from the Ancient Greek boukephalos (\"bullheaded\", from bous, \"bull\" and kephale, \"head\"), a reference to the bulbous head shape of the bufflehead. The species name is derived from the Latin clangere (\"to resound\").",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Common_Goldeneye_%28Bucephala_clangula%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Common_Goldeneye_%28Bucephala_clangula%29.jpg/330px-Common_Goldeneye_%28Bucephala_clangula%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_Goldeneye_(Bucephala_clangula).jpg",
+   "license": "CC BY 2.0",
+   "artist": "https://www.flickr.com/photos/sbern/",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Common_Goldeneye_%28Bucephala_clangula%29-_female.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Common_Goldeneye_%28Bucephala_clangula%29-_female.jpg/330px-Common_Goldeneye_%28Bucephala_clangula%29-_female.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_Goldeneye_(Bucephala_clangula)-_female.jpg",
+   "license": "CC BY 2.0",
+   "artist": "https://www.flickr.com/photos/sbern/",
+   "caption": "Female"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Common_Goldeneye.jpg/1280px-Common_Goldeneye.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Common_Goldeneye.jpg/330px-Common_Goldeneye.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_Goldeneye.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Calibas",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 70.0,
+   "max": 70.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 800.0,
+   "max": 1000.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Bucephala"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Goldeneye"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q29865"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_goldeneye"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

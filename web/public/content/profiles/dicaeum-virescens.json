@@ -1,0 +1,41 @@
+{
+ "scientific": "Dicaeum virescens",
+ "name": "Andaman Flowerpecker",
+ "qid": "Q3026814",
+ "description": "species of bird",
+ "extract": "The Andaman flowerpecker (Dicaeum virescens) is a species of bird in the family Dicaeidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Andaman_Flowerpecker.png",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Andaman_Flowerpecker.png/330px-Andaman_Flowerpecker.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Andaman_Flowerpecker.png",
+   "license": "CC BY-SA 4.0",
+   "artist": "Kelkarguruji",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dicaeum"
+  },
+  "family": {
+   "scientific": "Dicaeidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3026814"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Andaman_flowerpecker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

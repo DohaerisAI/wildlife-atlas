@@ -1,0 +1,66 @@
+{
+ "scientific": "Leucophaeus pipixcan",
+ "name": "Franklin's Gull",
+ "qid": "Q756795",
+ "description": "species of bird",
+ "extract": "Franklin's gull (Leucophaeus pipixcan) is a small (length 12.6–14.2 in, 32–36 cm) gull. The genus name Leucophaeus is from Ancient Greek leukos, \"white\", and phaios, \"dusky\". The specific pipixcan is a Nahuatl name for a type of gull.  The English common name was given to commemorate the arctic explorer Sir John Franklin, who led an expedition in 1825 on which the type was collected.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Franklin%27s_Gull_Brisbane98.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Franklin%27s_Gull_Brisbane98.jpg/330px-Franklin%27s_Gull_Brisbane98.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Franklin%27s_Gull_Brisbane98.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Aviceda",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Leucophaeus_pipixcan_Tule_Lake_California_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Leucophaeus_pipixcan_Tule_Lake_California_2.jpg/330px-Leucophaeus_pipixcan_Tule_Lake_California_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Leucophaeus_pipixcan_Tule_Lake_California_2.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Alan Vernon",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 86.0,
+   "max": 97.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 35.8,
+   "max": 280.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Leucophaeus"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Larus pipixcan"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q756795"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Franklin%27s_gull"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

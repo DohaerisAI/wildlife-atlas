@@ -1,0 +1,50 @@
+{
+ "scientific": "Spilornis klossi",
+ "name": "Great Nicobar Serpent Eagle",
+ "qid": "Q948577",
+ "description": "species of bird",
+ "extract": "The Great Nicobar serpent eagle (Spilornis klossi), also known as the South Nicobar serpent eagle, is a species of bird of prey in the family Accipitridae. It is probably the smallest known eagle, with a weight of about 450 g (0.99 lb), a wingspan of 85 to 95 cm (33 to 37 in) and a body length of about 38 to 42 cm (15 to 17 in). It is endemic to forest on the Indian island of Great Nicobar. It is threatened by habitat loss.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Great_Nicobar_Serpent_Eagle_%28Spilornis_klossi%29_by_Shreeram_MV.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Great_Nicobar_Serpent_Eagle_%28Spilornis_klossi%29_by_Shreeram_MV.jpg/330px-Great_Nicobar_Serpent_Eagle_%28Spilornis_klossi%29_by_Shreeram_MV.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Great_Nicobar_Serpent_Eagle_(Spilornis_klossi)_by_Shreeram_MV.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Shreeram M V",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 85.0,
+   "max": 95.0,
+   "unit": "cm"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Spilornis"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q948577"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_Nicobar_serpent_eagle"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

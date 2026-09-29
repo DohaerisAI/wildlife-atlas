@@ -1,0 +1,59 @@
+{
+ "scientific": "Heterophasia pulchella",
+ "name": "Beautiful Sibia",
+ "qid": "Q3313699",
+ "description": "species of bird",
+ "extract": "The beautiful sibia (Heterophasia pulchella) is a species of bird in the family Leiothrichidae. It is found in China, India, and Myanmar.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Beautiful_Sibia_from_Khonoma_in_Nagaland.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Beautiful_Sibia_from_Khonoma_in_Nagaland.jpg/330px-Beautiful_Sibia_from_Khonoma_in_Nagaland.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Beautiful_Sibia_from_Khonoma_in_Nagaland.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Heterophasia_pulchella.jpg/1280px-Heterophasia_pulchella.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Heterophasia_pulchella.jpg/330px-Heterophasia_pulchella.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Heterophasia_pulchella.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Yathin S Krishnappa",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 42.0,
+   "max": 42.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Heterophasia"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3313699"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Beautiful_sibia"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

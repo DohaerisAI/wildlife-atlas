@@ -1,0 +1,49 @@
+{
+ "scientific": "Taccocua leschenaultii",
+ "name": "Sirkeer Malkoha",
+ "qid": "Q1259789",
+ "description": "species of bird in the order Cuculiformes",
+ "extract": "The sirkeer malkoha or sirkeer cuckoo (Taccocua leschenaultii), is a non-parasitic cuckoo found in dry scrub forest and open woodland habitats in the Indian subcontinent. The species is long-tailed, largely olive brown on the upper side with a distinctive curved red beak tipped in yellow. They forage singly or in pairs mainly on or close to the ground creeping between grasses and bushes, often on rocky habitats where they feed on small lizards, insects, and sometimes berries and seeds. They are very silent and the sexes are identical in plumage.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Sirkeer_Malkoha_Cuckoo_%28cropped%29.jpg/1280px-Sirkeer_Malkoha_Cuckoo_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Sirkeer_Malkoha_Cuckoo_%28cropped%29.jpg/330px-Sirkeer_Malkoha_Cuckoo_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sirkeer_Malkoha_Cuckoo_(cropped).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Jaiprakashsingh",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Taccocua"
+  },
+  "family": {
+   "scientific": "Cuculidae"
+  },
+  "order": {
+   "scientific": "Cuculiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1259789"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sirkeer_malkoha"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

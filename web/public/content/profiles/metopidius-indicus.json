@@ -1,0 +1,59 @@
+{
+ "scientific": "Metopidius indicus",
+ "name": "Bronze-winged Jacana",
+ "qid": "Q753755",
+ "description": "species of bird",
+ "extract": "The bronze-winged jacana (Metopidius indicus) is a wader in the family Jacanidae. It is found across South and Southeast Asia and is the sole species in the genus Metopidius. Like other jacanas it forages on lilies and other floating aquatic vegetation, using its long feet and legs for balance. The sexes are alike but females are slightly larger and are polyandrous, maintaining a harem of males during the breeding season in the monsoon rains. Males maintain territories, with one male in the harem chosen to incubate the eggs and take care of the young. When threatened, young chicks may be carried to safety by the male under his wings.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Bronze-winged_jacana_%28Metopidius_indicus%29.jpg/1280px-Bronze-winged_jacana_%28Metopidius_indicus%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Bronze-winged_jacana_%28Metopidius_indicus%29.jpg/330px-Bronze-winged_jacana_%28Metopidius_indicus%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bronze-winged_jacana_(Metopidius_indicus).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 54.0,
+   "max": 54.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 11.9,
+   "max": 282.4,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Metopidius"
+  },
+  "family": {
+   "scientific": "Jacanidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q753755"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bronze-winged_jacana"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

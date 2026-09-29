@@ -1,0 +1,54 @@
+{
+ "scientific": "Ardeotis nigriceps",
+ "name": "Great Indian Bustard",
+ "qid": "Q864359",
+ "description": "species of bird",
+ "extract": "The great Indian bustard (Ardeotis nigriceps) or Indian bustard is a bustard occurring on the Indian subcontinent. It is a large bird with a horizontal body, long bare legs and is among the heaviest of the flying birds. Once common on the dry grasslands and shrubland in India, as few as 150 individuals were estimated to survive as of 2018, reduced from an estimated 250 individuals in 2011. It is critically endangered due to hunting and habitat loss. It is protected under the Indian Wild Life (Protection) Act, 1972.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Ardeotis_nigriceps%2C_Desert_National_Park%2C_Rajasthan%2C_India_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Ardeotis_nigriceps%2C_Desert_National_Park%2C_Rajasthan%2C_India_1.jpg/330px-Ardeotis_nigriceps%2C_Desert_National_Park%2C_Rajasthan%2C_India_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ardeotis_nigriceps,_Desert_National_Park,_Rajasthan,_India_1.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Original: SVKMBFLY; this edit: MPF",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 145.0,
+   "max": 145.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "CR",
+   "label": "Critically Endangered"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ardeotis"
+  },
+  "family": {
+   "scientific": "Otididae"
+  },
+  "order": {
+   "scientific": "Otidiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q864359"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_Indian_bustard"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

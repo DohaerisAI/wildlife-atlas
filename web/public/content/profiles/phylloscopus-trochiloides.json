@@ -1,0 +1,46 @@
+{
+ "scientific": "Phylloscopus trochiloides",
+ "name": "Greenish Warbler",
+ "qid": "Q460229",
+ "description": "species of bird",
+ "extract": "The greenish warbler (Phylloscopus trochiloides) is a widespread leaf warbler with a breeding range in northeastern Europe, and temperate to subtropical continental Asia. This warbler is strongly migratory and winters in India. It is not uncommon as a spring or early autumn vagrant in Western Europe and is annually seen in Great Britain. In Central Europe large numbers of vagrant birds are encountered in some years; some of these may stay to breed, as a handful of pairs does each year in Germany.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Greenish_Warbler_Sikkim_India_11.05.2014.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Greenish_Warbler_Sikkim_India_11.05.2014.jpg/330px-Greenish_Warbler_Sikkim_India_11.05.2014.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Greenish_Warbler_Sikkim_India_11.05.2014.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phylloscopus"
+  },
+  "family": {
+   "scientific": "Phylloscopidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q460229"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Greenish_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

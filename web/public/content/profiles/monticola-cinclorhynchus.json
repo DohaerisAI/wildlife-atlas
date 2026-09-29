@@ -1,0 +1,57 @@
+{
+ "scientific": "Monticola cinclorhynchus",
+ "name": "Blue-capped Rock Thrush",
+ "qid": "Q27043",
+ "description": "bird species",
+ "extract": "The blue-capped rock thrush (Monticola cinclorhyncha) is a species of bird in the family Muscicapidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Blue-capped_Rock_Thrush%2C_Seminary_Hills%2C_Nagpur_April_2018_1.jpg/1280px-Blue-capped_Rock_Thrush%2C_Seminary_Hills%2C_Nagpur_April_2018_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Blue-capped_Rock_Thrush%2C_Seminary_Hills%2C_Nagpur_April_2018_1.jpg/330px-Blue-capped_Rock_Thrush%2C_Seminary_Hills%2C_Nagpur_April_2018_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blue-capped_Rock_Thrush,_Seminary_Hills,_Nagpur_April_2018_1.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Apoorva2000",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Blue-capped_Rock-Thrush_in_Kolakham_May_2025_by_Tisha_Mukherjee_01.jpg/1280px-Blue-capped_Rock-Thrush_in_Kolakham_May_2025_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Blue-capped_Rock-Thrush_in_Kolakham_May_2025_by_Tisha_Mukherjee_01.jpg/330px-Blue-capped_Rock-Thrush_in_Kolakham_May_2025_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blue-capped_Rock-Thrush_in_Kolakham_May_2025_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Monticola"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Monticola cinclorhyncha"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27043"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blue-capped_rock_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

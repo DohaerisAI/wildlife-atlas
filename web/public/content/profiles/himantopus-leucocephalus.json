@@ -1,0 +1,55 @@
+{
+ "scientific": "Himantopus leucocephalus",
+ "name": "Pied Stilt",
+ "qid": "Q18844",
+ "description": "species of bird",
+ "extract": "The pied stilt (Himantopus leucocephalus), also known as the white-headed stilt, is a shorebird in the family Recurvirostridae. It is widely distributed with a large total population size and apparently stable population trend, occurring in Malaysia, Japan, the Philippines, Brunei, Christmas Island, Indonesia, Palau, Papua New Guinea, Australia, and New Zealand. It is listed as Least Concern on the IUCN Red List. It is sometimes considered a subspecies of the black-winged stilt (H. himantopus).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Himantopus_himantopus_leucocephalus_-_Lake_Joondalup.jpg/1280px-Himantopus_himantopus_leucocephalus_-_Lake_Joondalup.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Himantopus_himantopus_leucocephalus_-_Lake_Joondalup.jpg/330px-Himantopus_himantopus_leucocephalus_-_Lake_Joondalup.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Himantopus_himantopus_leucocephalus_-_Lake_Joondalup.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Himantopus_leucocephalus_-_Hexham.jpg/1280px-Himantopus_leucocephalus_-_Hexham.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Himantopus_leucocephalus_-_Hexham.jpg/330px-Himantopus_leucocephalus_-_Hexham.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Himantopus_leucocephalus_-_Hexham.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Himantopus"
+  },
+  "family": {
+   "scientific": "Recurvirostridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "white-headed stilt"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q18844"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pied_stilt"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

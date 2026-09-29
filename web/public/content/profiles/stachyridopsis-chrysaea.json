@@ -1,0 +1,43 @@
+{
+ "scientific": "Stachyridopsis chrysaea",
+ "name": "Golden Babbler",
+ "qid": "Q1038099",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Golden_Babbler_-_Bhutan.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Golden_Babbler_-_Bhutan.jpg/330px-Golden_Babbler_-_Bhutan.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Golden_Babbler_-_Bhutan.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 9.0,
+   "max": 9.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Stachyridopsis"
+  },
+  "family": {
+   "scientific": "Timaliidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1038099"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

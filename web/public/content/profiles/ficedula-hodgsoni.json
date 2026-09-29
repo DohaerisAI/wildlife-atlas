@@ -1,0 +1,41 @@
+{
+ "scientific": "Ficedula hodgsoni",
+ "name": "Pygmy Flycatcher",
+ "qid": "Q137455520",
+ "description": "species of bird",
+ "extract": "The pygmy flycatcher (Ficedula hodgsoni), also known as the pygmy blue-flycatcher, is a bird species of the family Muscicapidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Muscicapella_hodgsoni.jpg/1280px-Muscicapella_hodgsoni.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Muscicapella_hodgsoni.jpg/330px-Muscicapella_hodgsoni.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Muscicapella_hodgsoni.jpg",
+   "license": "Public domain",
+   "artist": "Joseph Wolf",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ficedula"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q137455520"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pygmy_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

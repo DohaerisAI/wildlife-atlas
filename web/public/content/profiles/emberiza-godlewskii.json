@@ -1,0 +1,54 @@
+{
+ "scientific": "Emberiza godlewskii",
+ "name": "Godlewski's Bunting",
+ "qid": "Q1011320",
+ "description": "species of bird",
+ "extract": "Godlewski's bunting (Emberiza godlewskii) is a species of bird in the family Emberizidae. It is named after the Polish collector Victor Godlewski who obtained a specimen of which on the basis of which it was described by Taczanowski.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Emberiza_godlewskii.jpg/1280px-Emberiza_godlewskii.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Emberiza_godlewskii.jpg/330px-Emberiza_godlewskii.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Emberiza_godlewskii.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Sun Jiao (Interaccoonale)",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Godlewski%27s_Bunting_%28Emberiza_godlewskii%29_%2816804118611%29_%28cropped%29.jpg/1280px-Godlewski%27s_Bunting_%28Emberiza_godlewskii%29_%2816804118611%29_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Godlewski%27s_Bunting_%28Emberiza_godlewskii%29_%2816804118611%29_%28cropped%29.jpg/330px-Godlewski%27s_Bunting_%28Emberiza_godlewskii%29_%2816804118611%29_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Godlewski%27s_Bunting_(Emberiza_godlewskii)_(16804118611)_(cropped).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jargal Lamjav from Ulaanbaatar, Mongolia",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Emberiza"
+  },
+  "family": {
+   "scientific": "Emberizidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1011320"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Godlewski%27s_bunting"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

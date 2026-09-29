@@ -1,0 +1,46 @@
+{
+ "scientific": "Phylloscopus fuligiventer",
+ "name": "Smoky Warbler",
+ "qid": "Q2667829",
+ "description": "species of bird",
+ "extract": "The smoky warbler (Phylloscopus fuligiventer) is a species of Old World warbler in the family Phylloscopidae. It is found in the eastern Himalayas, the Tibetan Plateau, and as an occasional vagrant to Myanmar.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Smoky_warbler.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Smoky_warbler.jpg/330px-Smoky_warbler.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Smoky_warbler.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "CLPramod",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phylloscopus"
+  },
+  "family": {
+   "scientific": "Phylloscopidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2667829"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Smoky_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

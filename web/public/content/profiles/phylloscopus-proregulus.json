@@ -1,0 +1,54 @@
+{
+ "scientific": "Phylloscopus proregulus",
+ "name": "Pallas's Leaf Warbler",
+ "qid": "Q752513",
+ "description": "species of bird",
+ "extract": "Pallas's leaf warbler (Phylloscopus proregulus) or Pallas's warbler is a bird that breeds in mountain forests from southern Siberia east to northern Mongolia and northeast China. It is named after the German zoologist Peter Simon Pallas, who first formally described it. This leaf warbler is strongly migratory, wintering mainly in south China and adjacent areas of southeast Asia, although in recent decades increasing numbers have been found in Europe in autumn.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Goldh%C3%A4hnchen-Laubs%C3%A4nger%2C_Heligoland%2C_Germany_2.jpg/1280px-Goldh%C3%A4hnchen-Laubs%C3%A4nger%2C_Heligoland%2C_Germany_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Goldh%C3%A4hnchen-Laubs%C3%A4nger%2C_Heligoland%2C_Germany_2.jpg/330px-Goldh%C3%A4hnchen-Laubs%C3%A4nger%2C_Heligoland%2C_Germany_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Goldh%C3%A4hnchen-Laubs%C3%A4nger,_Heligoland,_Germany_2.jpg",
+   "license": "CC BY 4.0",
+   "artist": "christoph_moning",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 0.9,
+   "max": 6.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phylloscopus"
+  },
+  "family": {
+   "scientific": "Phylloscopidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Pallas's warbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q752513"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pallas%27s_leaf_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

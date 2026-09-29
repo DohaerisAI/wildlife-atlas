@@ -1,0 +1,54 @@
+{
+ "scientific": "Turdus boulboul",
+ "name": "Grey-winged Blackbird",
+ "qid": "Q773961",
+ "description": "species of bird",
+ "extract": "The grey-winged blackbird (Turdus boulboul) is a species of Turdus in the thrush family, found at in the mountains of southern and eastern Asia from the Himalayas to northern Vietnam. Its natural habitat is in the middle altitudes of subtropical or tropical moist montane forests, mostly at 1800–2700 m altitude, but occasionally down to 1200 m in winter, and as high as 3300 m in summer.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Grey-winged_Blackbird_-_Bhutan_S4E0223_%2817234373941%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Grey-winged_Blackbird_-_Bhutan_S4E0223_%2817234373941%29.jpg/330px-Grey-winged_Blackbird_-_Bhutan_S4E0223_%2817234373941%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grey-winged_Blackbird_-_Bhutan_S4E0223_(17234373941).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 97.0,
+   "max": 97.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turdus"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Gray-winged Blackbird"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q773961"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey-winged_blackbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

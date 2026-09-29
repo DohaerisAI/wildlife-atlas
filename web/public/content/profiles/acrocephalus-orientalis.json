@@ -1,0 +1,54 @@
+{
+ "scientific": "Acrocephalus orientalis",
+ "name": "Oriental Reed Warbler",
+ "qid": "Q73456",
+ "description": "species of bird",
+ "extract": "The Oriental reed warbler (Acrocephalus orientalis)  is a passerine bird of eastern Asia belonging to the reed warbler genus Acrocephalus. It was formerly classified as a subspecies of the great reed warbler (A. arundinaceus) of the western Palearctic.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Oriental_Reed_Warbler_I_IMG_0246.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Oriental_Reed_Warbler_I_IMG_0246.jpg/330px-Oriental_Reed_Warbler_I_IMG_0246.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Oriental_Reed_Warbler_I_IMG_0246.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Oriental_Reed_Warbler_%28Acrocephalus_orientalis%29_in_Kolkata_W_IMG_3235.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Oriental_Reed_Warbler_%28Acrocephalus_orientalis%29_in_Kolkata_W_IMG_3235.jpg/330px-Oriental_Reed_Warbler_%28Acrocephalus_orientalis%29_in_Kolkata_W_IMG_3235.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Oriental_Reed_Warbler_(Acrocephalus_orientalis)_in_Kolkata_W_IMG_3235.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Acrocephalus"
+  },
+  "family": {
+   "scientific": "Acrocephalidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q73456"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Oriental_reed_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

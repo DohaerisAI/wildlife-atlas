@@ -1,0 +1,62 @@
+{
+ "scientific": "Meleagris gallopavo",
+ "name": "Wild Turkey",
+ "qid": "Q26844",
+ "description": "species of turkey native to North America",
+ "extract": "The wild turkey (Meleagris gallopavo) is an upland game bird native to North America, one of two extant species of turkey and the heaviest member of the order Galliformes. It is the ancestor to the domestic turkey (M. g. domesticus), which was originally derived from a southern Mexican subspecies of wild turkey (not the related ocellated turkey).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Wild_Turkey%2C_Creekside_Park%2C_8_May_2014_%2814145843695%29.jpg/1280px-Wild_Turkey%2C_Creekside_Park%2C_8_May_2014_%2814145843695%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Wild_Turkey%2C_Creekside_Park%2C_8_May_2014_%2814145843695%29.jpg/330px-Wild_Turkey%2C_Creekside_Park%2C_8_May_2014_%2814145843695%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wild_Turkey,_Creekside_Park,_8_May_2014_(14145843695).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Caleb Putnam",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Wild_Turkey_%28female%29_-_Meleagris_gallopavo%2C_Occoquan_Bay_National_Wildlife_Refuge%2C_Woodbridge%2C_Virginia.jpg/1280px-Wild_Turkey_%28female%29_-_Meleagris_gallopavo%2C_Occoquan_Bay_National_Wildlife_Refuge%2C_Woodbridge%2C_Virginia.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Wild_Turkey_%28female%29_-_Meleagris_gallopavo%2C_Occoquan_Bay_National_Wildlife_Refuge%2C_Woodbridge%2C_Virginia.jpg/330px-Wild_Turkey_%28female%29_-_Meleagris_gallopavo%2C_Occoquan_Bay_National_Wildlife_Refuge%2C_Woodbridge%2C_Virginia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wild_Turkey_(female)_-_Meleagris_gallopavo,_Occoquan_Bay_National_Wildlife_Refuge,_Woodbridge,_Virginia.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Judy Gallagher",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 103.0,
+   "max": 135.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Meleagris"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26844"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wild_turkey"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

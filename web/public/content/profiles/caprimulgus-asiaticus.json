@@ -1,0 +1,57 @@
+{
+ "scientific": "Caprimulgus asiaticus",
+ "name": "Indian Nightjar",
+ "qid": "Q1151175",
+ "description": "species of bird",
+ "extract": "The Indian nightjar (Caprimulgus asiaticus) is a small nightjar which is a resident breeder in open lands across South Asia and Southeast Asia. Like most nightjars it is crepuscular and is best detected from its characteristic calls at dawn and dusk that have been likened to a stone skipping on a frozen lake - a series of clicks that become shorter and more rapid. They are sometimes spotted on roads when their eyes gleam red in the spotlight of a vehicle. There is considerable plumage variation across its range and can be hard to differentiate from other nightjars in the region especially in the field.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Common_Indian_Nightjar_joby.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Common_Indian_Nightjar_joby.JPG/330px-Common_Indian_Nightjar_joby.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_Indian_Nightjar_joby.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Badjoby",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 42.0,
+   "max": 42.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Caprimulgus"
+  },
+  "family": {
+   "scientific": "Caprimulgidae"
+  },
+  "order": {
+   "scientific": "Caprimulgiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "ice-bird"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1151175"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_nightjar"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

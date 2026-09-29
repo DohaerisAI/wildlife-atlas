@@ -1,0 +1,50 @@
+{
+ "scientific": "Glaucidium brodiei",
+ "name": "Collared Owlet",
+ "qid": "Q517694",
+ "description": "species of bird",
+ "extract": "The collared owlet (Taenioptynx brodiei), also known as the collared pygmy owl, is a species of owl in the family Strigidae. Its natural habitat is submontane and montane forests with open spaces and is distributed throughout oriental Asia. It is the smallest owl in Asia, at 15 cm (5.9 in) and 60 g (2.1 oz).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Collared_Owlet_%28Glaucidium_brodiei%29_%2848027990903%29.jpg/1280px-Collared_Owlet_%28Glaucidium_brodiei%29_%2848027990903%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Collared_Owlet_%28Glaucidium_brodiei%29_%2848027990903%29.jpg/330px-Collared_Owlet_%28Glaucidium_brodiei%29_%2848027990903%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Collared_Owlet_(Glaucidium_brodiei)_(48027990903).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Glaucidium"
+  },
+  "family": {
+   "scientific": "Strigidae",
+   "name": "true owls"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q517694"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Collared_owlet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

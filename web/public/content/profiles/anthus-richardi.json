@@ -1,0 +1,54 @@
+{
+ "scientific": "Anthus richardi",
+ "name": "Richard's Pipit",
+ "qid": "Q904790",
+ "description": "species of bird",
+ "extract": "Richard's pipit (Anthus richardi) is a medium-sized passerine bird which breeds in open grasslands in the East Palearctic. It is a long-distance migrant moving to open lowlands in the Indian subcontinent and Southeast Asia. It is a rare but regular vagrant to western Europe.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Anthus_richardi_-_Laem_Pak_Bia.jpg/1280px-Anthus_richardi_-_Laem_Pak_Bia.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Anthus_richardi_-_Laem_Pak_Bia.jpg/330px-Anthus_richardi_-_Laem_Pak_Bia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Anthus_richardi_-_Laem_Pak_Bia.jpg",
+   "license": "CC BY 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Richard%27s_Pipit_I_-Haryana_IMG_9961.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Richard%27s_Pipit_I_-Haryana_IMG_9961.jpg/330px-Richard%27s_Pipit_I_-Haryana_IMG_9961.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Richard%27s_Pipit_I_-Haryana_IMG_9961.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anthus"
+  },
+  "family": {
+   "scientific": "Motacillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q904790"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Richard%27s_pipit"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

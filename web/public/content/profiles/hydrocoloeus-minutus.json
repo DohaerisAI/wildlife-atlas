@@ -1,0 +1,70 @@
+{
+ "scientific": "Hydrocoloeus minutus",
+ "name": "Little Gull",
+ "qid": "Q164467",
+ "description": "species of bird",
+ "extract": "The little gull (Hydrocoloeus minutus) is a species of gull belonging to the family Laridae which is mainly found in the Palearctic with some small colonies in North America. It breeds on freshwater lakes and marshes, and spends winters at sea. It is the smallest species of gull in the world, and the only species in the monospecific genus Hydrocoloeus.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Hydrocoloeus_minutus_Russia_42.jpg/1280px-Hydrocoloeus_minutus_Russia_42.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Hydrocoloeus_minutus_Russia_42.jpg/330px-Hydrocoloeus_minutus_Russia_42.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hydrocoloeus_minutus_Russia_42.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Ekaterina Chernetsova (Papchinskaya) from Saint-Petersburg, Russia",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Bird_Yyterin_lietteet_4.jpg/1280px-Bird_Yyterin_lietteet_4.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Bird_Yyterin_lietteet_4.jpg/330px-Bird_Yyterin_lietteet_4.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bird_Yyterin_lietteet_4.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "kallerna",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 78.0,
+   "max": 78.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 98.0,
+   "max": 98.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Hydrocoloeus"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Larus minutus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q164467"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Little_gull"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,67 @@
+{
+ "scientific": "Aythya fuligula",
+ "name": "Tufted Duck",
+ "qid": "Q26444",
+ "description": "species of bird",
+ "extract": "The tufted duck (or tufted pochard) (Aythya fuligula) is a small diving duck with a population of nearly one million birds, found in northern Eurasia. They are partially migratory. The scientific name is derived from Ancient Greek aithuia, an unidentified seabird mentioned by authors such as Hesychius and Aristotle, and Latin fuligo 'soot' and gula 'throat'. It is a game bird.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Tufted_Duck_09_05_2025_02.jpg/1280px-Tufted_Duck_09_05_2025_02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Tufted_Duck_09_05_2025_02.jpg/330px-Tufted_Duck_09_05_2025_02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tufted_Duck_09_05_2025_02.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Alexis Lours",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Tufted_Duck_09_05_2025_01.jpg/1280px-Tufted_Duck_09_05_2025_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Tufted_Duck_09_05_2025_01.jpg/330px-Tufted_Duck_09_05_2025_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tufted_Duck_09_05_2025_01.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Alexis Lours",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 71.0,
+   "max": 71.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 56.0,
+   "max": 56.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aythya"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26444"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tufted_duck"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

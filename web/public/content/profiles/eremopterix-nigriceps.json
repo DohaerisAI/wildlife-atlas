@@ -1,0 +1,59 @@
+{
+ "scientific": "Eremopterix nigriceps",
+ "name": "Black-crowned Sparrow-Lark",
+ "qid": "Q1584282",
+ "description": "species of bird",
+ "extract": "The black-crowned sparrow-lark (Eremopterix nigriceps) is a species of lark in the family Alaudidae. It is found across northern Africa from Mauritania through the Middle East to north-western India. Its natural habitat is dry savanna.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/The_birds_of_Africa_%28Shelley%29_-_Plate_20%2C_1902_%2810575353925%29.jpg/1280px-The_birds_of_Africa_%28Shelley%29_-_Plate_20%2C_1902_%2810575353925%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/The_birds_of_Africa_%28Shelley%29_-_Plate_20%2C_1902_%2810575353925%29.jpg/330px-The_birds_of_Africa_%28Shelley%29_-_Plate_20%2C_1902_%2810575353925%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:The_birds_of_Africa_(Shelley)_-_Plate_20,_1902_(10575353925).jpg",
+   "license": "Public domain",
+   "artist": "Henrik Grønvold",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Black-crowned_Sparrow_Lark_small.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Black-crowned_Sparrow_Lark_small.jpg/330px-Black-crowned_Sparrow_Lark_small.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-crowned_Sparrow_Lark_small.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "ChriKo",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 1.7,
+   "max": 1.7,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Eremopterix"
+  },
+  "family": {
+   "scientific": "Alaudidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1584282"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-crowned_sparrow-lark"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

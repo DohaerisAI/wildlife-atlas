@@ -1,0 +1,74 @@
+{
+ "scientific": "Anas crecca",
+ "name": "Eurasian Teal",
+ "qid": "Q25700",
+ "description": "species of duck in the genus Anas",
+ "extract": "The Eurasian teal (Anas crecca), common teal, or Eurasian green-winged teal is a common and widespread duck that breeds in temperate Eurosiberia and migrates south in winter. The Eurasian teal is often called simply the teal due to being the only one of these small dabbling ducks in much of its range. The bird gives its name to the blue-green colour teal.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Common_Teal_Male_%288602525826%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Common_Teal_Male_%288602525826%29.jpg/330px-Common_Teal_Male_%288602525826%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_Teal_Male_(8602525826).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Koshy Koshy from Faridabad, Haryana, India",
+   "caption": "Male"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Krickente.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Krickente.jpg/330px-Krickente.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Krickente.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "FokusNatur",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Eurasian_Teal_Anas_crecca%2C_RSPB_Titchwell%2C_Norfolk_%2833675784246%29.jpg/1280px-Eurasian_Teal_Anas_crecca%2C_RSPB_Titchwell%2C_Norfolk_%2833675784246%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Eurasian_Teal_Anas_crecca%2C_RSPB_Titchwell%2C_Norfolk_%2833675784246%29.jpg/330px-Eurasian_Teal_Anas_crecca%2C_RSPB_Titchwell%2C_Norfolk_%2833675784246%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eurasian_Teal_Anas_crecca,_RSPB_Titchwell,_Norfolk_(33675784246).jpg",
+   "license": "CC BY 2.0",
+   "artist": "gailhampshire from Cradley, Malvern, U.K",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 59.0,
+   "max": 59.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anas"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "common teal",
+  "teal"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25700"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eurasian_teal"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,69 @@
+{
+ "scientific": "Anser albifrons",
+ "name": "Greater white-fronted goose",
+ "qid": "Q172093",
+ "description": "species of bird",
+ "extract": "The greater white-fronted goose (Anser albifrons) is a species of goose, closely related to the smaller lesser white-fronted goose (A. erythropus). The greater white-fronted goose is migratory, breeding in northern Canada, Alaska, Greenland, and Russia, and winters farther south in North America, Europe, and Asia. It is named for the patch of white feathers bordering the base of its bill;  its specific name albifrons comes from the Latin albus \"white\" and frons \"forehead\".  In the United Kingdom and Ireland, it has been known as the white-fronted goose; in North America, it is known as the greater white-fronted goose (or \"greater whitefront\"), and this name is also increasingly adopted internationally. Even more distinctive are the salt-and-pepper markings on the breast of adult birds, which is why the goose is colloquially called the \"specklebelly\" in North America.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Anser_albifrons_albifrons_Swallow_Pond_2.jpg/1280px-Anser_albifrons_albifrons_Swallow_Pond_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Anser_albifrons_albifrons_Swallow_Pond_2.jpg/330px-Anser_albifrons_albifrons_Swallow_Pond_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Anser_albifrons_albifrons_Swallow_Pond_2.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "MPF",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Anser_albifrons_30050.JPG/1280px-Anser_albifrons_30050.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Anser_albifrons_30050.JPG/330px-Anser_albifrons_30050.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Anser_albifrons_30050.JPG",
+   "license": "CC BY 2.5",
+   "artist": "Walter Siegmund",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/2020-03-04_Anser_albifrons_flavirostris%2C_Gosforth_Park%2C_Northumberland_07.jpg/1280px-2020-03-04_Anser_albifrons_flavirostris%2C_Gosforth_Park%2C_Northumberland_07.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/2020-03-04_Anser_albifrons_flavirostris%2C_Gosforth_Park%2C_Northumberland_07.jpg/330px-2020-03-04_Anser_albifrons_flavirostris%2C_Gosforth_Park%2C_Northumberland_07.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2020-03-04_Anser_albifrons_flavirostris,_Gosforth_Park,_Northumberland_07.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "MPF",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 141.0,
+   "max": 141.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anser"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  }
+ },
+ "other_names": [
+  "white-fronted goose"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q172093"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Greater_white-fronted_goose"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

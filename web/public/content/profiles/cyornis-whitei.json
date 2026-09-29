@@ -1,0 +1,54 @@
+{
+ "scientific": "Cyornis whitei",
+ "name": "Hill Blue Flycatcher",
+ "qid": "Q40990975",
+ "description": "species of bird",
+ "extract": "The hill blue flycatcher (Cyornis whitei) is a species of bird in the family Muscicapidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Hill_Blue_Flycatcher_%28Cyornis_whitei%29%2C_Bangkok%2C_Thailand_%2838246246821%29.jpg/1280px-Hill_Blue_Flycatcher_%28Cyornis_whitei%29%2C_Bangkok%2C_Thailand_%2838246246821%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Hill_Blue_Flycatcher_%28Cyornis_whitei%29%2C_Bangkok%2C_Thailand_%2838246246821%29.jpg/330px-Hill_Blue_Flycatcher_%28Cyornis_whitei%29%2C_Bangkok%2C_Thailand_%2838246246821%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hill_Blue_Flycatcher_(Cyornis_whitei),_Bangkok,_Thailand_(38246246821).jpg",
+   "license": "CC0",
+   "artist": "lonelyshrimp",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Cyornis_whitei%2C_female_-_Mae_Wong%2C_Thailand.jpg/1280px-Cyornis_whitei%2C_female_-_Mae_Wong%2C_Thailand.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Cyornis_whitei%2C_female_-_Mae_Wong%2C_Thailand.jpg/330px-Cyornis_whitei%2C_female_-_Mae_Wong%2C_Thailand.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cyornis_whitei,_female_-_Mae_Wong,_Thailand.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cyornis"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q40990975"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hill_blue_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

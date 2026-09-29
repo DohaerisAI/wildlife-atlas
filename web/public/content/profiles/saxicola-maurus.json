@@ -1,0 +1,49 @@
+{
+ "scientific": "Saxicola maurus",
+ "name": "Siberian Stonechat",
+ "qid": "Q1589281",
+ "description": "species of bird",
+ "extract": "The Siberian stonechat or Asian stonechat (Saxicola maurus) is a recently validated species of the Old World flycatcher family (Muscicapidae). Like the other thrush-like flycatchers, it was often placed in the Turdidae in the past. It breeds in the East Palearctic including in easternmost Europe and winters in the Old World tropics.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Siberian_Stonechat_%28Saxicola_maura%29-_Male_at_Bharatpur_I_IMG_5768.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Siberian_Stonechat_%28Saxicola_maura%29-_Male_at_Bharatpur_I_IMG_5768.jpg/330px-Siberian_Stonechat_%28Saxicola_maura%29-_Male_at_Bharatpur_I_IMG_5768.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Siberian_Stonechat_(Saxicola_maura)-_Male_at_Bharatpur_I_IMG_5768.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Siberian_Stonechat_%28Saxicola_maurus%29_female%2C_Salai%2C_UP%2C_India.jpg/1280px-Siberian_Stonechat_%28Saxicola_maurus%29_female%2C_Salai%2C_UP%2C_India.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Siberian_Stonechat_%28Saxicola_maurus%29_female%2C_Salai%2C_UP%2C_India.jpg/330px-Siberian_Stonechat_%28Saxicola_maurus%29_female%2C_Salai%2C_UP%2C_India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Siberian_Stonechat_(Saxicola_maurus)_female,_Salai,_UP,_India.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": "Female"
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Saxicola"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1589281"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siberian_stonechat"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

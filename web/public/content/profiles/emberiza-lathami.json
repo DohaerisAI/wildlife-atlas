@@ -1,0 +1,54 @@
+{
+ "scientific": "Emberiza lathami",
+ "name": "Crested Bunting",
+ "qid": "Q27076024",
+ "description": "species of bird",
+ "extract": "The crested bunting (Emberiza lathami) is a species of bird in the family Emberizidae. It is sparrow sized with males having rufous wings and tail on a black body and females being less contrastingly coloured in dull brown. Both males and females have the distinctive crest. The species was formerly placed in an monotypic genus Melophus on account of its crest, unique among the buntings. The species has a wide but scattered distribution in Asia. They are found in mostly open and dry habitats over a range of altitudes. Populations in the higher elevations of the Himalayas show seasonal altitudinal movements. They are more gregarious in winter.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Crested_Bunting_in_Saswad_August_2025_by_Tisha_Mukherjee_07.jpg/1280px-Crested_Bunting_in_Saswad_August_2025_by_Tisha_Mukherjee_07.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Crested_Bunting_in_Saswad_August_2025_by_Tisha_Mukherjee_07.jpg/330px-Crested_Bunting_in_Saswad_August_2025_by_Tisha_Mukherjee_07.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Crested_Bunting_in_Saswad_August_2025_by_Tisha_Mukherjee_07.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Crested_Bunting_in_Saswad_August_2025_by_Tisha_Mukherjee_14.jpg/1280px-Crested_Bunting_in_Saswad_August_2025_by_Tisha_Mukherjee_14.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Crested_Bunting_in_Saswad_August_2025_by_Tisha_Mukherjee_14.jpg/330px-Crested_Bunting_in_Saswad_August_2025_by_Tisha_Mukherjee_14.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Crested_Bunting_in_Saswad_August_2025_by_Tisha_Mukherjee_14.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Emberiza"
+  },
+  "family": {
+   "scientific": "Emberizidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27076024"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Crested_bunting"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,79 @@
+{
+ "scientific": "Ciconia ciconia",
+ "name": "White stork",
+ "qid": "Q25352",
+ "description": "species of bird",
+ "extract": "The white stork (Ciconia ciconia) is a large bird in the stork family, Ciconiidae. Its plumage is mainly white, with black on the bird's wings. Adults have long red legs and long pointed red beaks, and measure on average 100–115 cm (39–45 in) from beak tip to end of tail, with a 155–215 cm (61–85 in) wingspan. The two subspecies, which differ slightly in size, breed in Europe north to Finland, northwestern Africa, Palearctic east to southern Kazakhstan and southern Africa. The white stork is a long-distance migrant, wintering in Africa from tropical Sub-Saharan Africa to as far south as South Africa, or on the Indian subcontinent. When migrating between Europe and Africa, it avoids crossing the Mediterranean Sea and detours via the Levant in the east or the Strait of Gibraltar in the west, because the air thermals on which it depends for soaring do not form over water.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Ciconia_ciconia.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Ciconia_ciconia.jpg/330px-Ciconia_ciconia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ciconia_ciconia.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Krzysztof Kin",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Ciconia_ciconia_-_01.jpg/1280px-Ciconia_ciconia_-_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Ciconia_ciconia_-_01.jpg/330px-Ciconia_ciconia_-_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ciconia_ciconia_-_01.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Carlos Delgado",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/00_4439_Storchennest_mit_K%C3%BCken.jpg/1280px-00_4439_Storchennest_mit_K%C3%BCken.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/00_4439_Storchennest_mit_K%C3%BCken.jpg/330px-00_4439_Storchennest_mit_K%C3%BCken.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:00_4439_Storchennest_mit_K%C3%BCken.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "W. Bulach",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 191.0,
+   "max": 191.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 110.0,
+   "max": 110.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ciconia"
+  },
+  "family": {
+   "scientific": "Ciconiidae",
+   "name": "stork"
+  },
+  "order": {
+   "scientific": "Ciconiiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "European white stork"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25352"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White_stork"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

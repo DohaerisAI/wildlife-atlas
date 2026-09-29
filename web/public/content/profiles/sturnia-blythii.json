@@ -1,0 +1,41 @@
+{
+ "scientific": "Sturnia blythii",
+ "name": "Malabar Starling",
+ "qid": "Q10821987",
+ "description": "species of bird",
+ "extract": "The Malabar starling (Sturnia blythii) is a species of starling found in southwestern India. It was previously considered a subspecies of the chestnut-tailed starling.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Sturnia_blythii.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Sturnia_blythii.jpg/330px-Sturnia_blythii.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sturnia_blythii.jpg",
+   "license": "CC BY 2.5",
+   "artist": "Unknown",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sturnia"
+  },
+  "family": {
+   "scientific": "Sturnidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q10821987"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Malabar_starling"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

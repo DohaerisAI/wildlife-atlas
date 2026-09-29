@@ -1,0 +1,56 @@
+{
+ "scientific": "Dendrocopos himalayensis",
+ "name": "Himalayan Woodpecker",
+ "qid": "Q1269250",
+ "description": "species of bird",
+ "extract": "The Himalayan woodpecker (Dendrocopos himalayensis) is a species of bird in the family Picidae. It is found in the northern regions of the Indian subcontinent, primarily the Himalayas and some adjoining areas, and ranges across Afghanistan, India, Nepal, Bhutan and Pakistan. Its natural habitats are boreal forests and temperate forests. The International Union for Conservation of Nature has assessed its conservation status as being of \"least concern\".",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Himalayan_Woodpecker_%28female%29_I_IMG_6732.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Himalayan_Woodpecker_%28female%29_I_IMG_6732.jpg/330px-Himalayan_Woodpecker_%28female%29_I_IMG_6732.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Himalayan_Woodpecker_(female)_I_IMG_6732.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": "Female"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Himalayan_Woodpecker_%28male%29.jpg/1280px-Himalayan_Woodpecker_%28male%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Himalayan_Woodpecker_%28male%29.jpg/330px-Himalayan_Woodpecker_%28male%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Himalayan_Woodpecker_(male).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Prateik Kulkarni",
+   "caption": "Male"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dendrocopos"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "other_names": [
+  "Picoides himalayensis"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1269250"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Himalayan_woodpecker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

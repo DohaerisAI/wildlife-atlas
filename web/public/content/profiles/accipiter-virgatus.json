@@ -1,0 +1,49 @@
+{
+ "scientific": "Accipiter virgatus",
+ "name": "Besra",
+ "qid": "Q1265270",
+ "description": "species of bird",
+ "extract": "The besra  (Tachyspiza virgata), also called the besra sparrowhawk, is a bird of prey in the family Accipitridae. It was formerly placed in the genus Accipiter. The name \"besra\" is from the Hindi word for the species.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Accipiter_virgatus_fuscipectus.jpg/1280px-Accipiter_virgatus_fuscipectus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Accipiter_virgatus_fuscipectus.jpg/330px-Accipiter_virgatus_fuscipectus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Accipiter_virgatus_fuscipectus.jpg",
+   "license": "CC BY 2.0",
+   "artist": "LiCheng Shih",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Accipiter"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1265270"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Besra"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

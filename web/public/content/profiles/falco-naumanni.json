@@ -1,0 +1,68 @@
+{
+ "scientific": "Falco naumanni",
+ "name": "Lesser Kestrel",
+ "qid": "Q229408",
+ "description": "species of bird",
+ "extract": "The lesser kestrel (Falco naumanni) is a small falcon. This species breeds from the Mediterranean across Afghanistan and Central Asia, to China and Mongolia. It is a summer migrant, wintering in Africa and Pakistan and sometimes even to India and Iraq. It is rare north of its breeding range, and declining in its European range. The genus name derives from Late Latin falx, falcis, a sickle, referencing the claws of the bird, and the species name commemorates the German naturalist Johann Friedrich Naumann.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Falco_naumanni%2C_Israel_11.jpg/1280px-Falco_naumanni%2C_Israel_11.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Falco_naumanni%2C_Israel_11.jpg/330px-Falco_naumanni%2C_Israel_11.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Falco_naumanni,_Israel_11.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "מינוזיג - MinoZig",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/A_Lesser_Kestrel_on_a_Weak_Perch_%2849591372658%29.jpg/1280px-A_Lesser_Kestrel_on_a_Weak_Perch_%2849591372658%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/A_Lesser_Kestrel_on_a_Weak_Perch_%2849591372658%29.jpg/330px-A_Lesser_Kestrel_on_a_Weak_Perch_%2849591372658%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:A_Lesser_Kestrel_on_a_Weak_Perch_(49591372658).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Hari K  Patibanda",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 65.0,
+   "max": 65.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 16.0,
+   "max": 170.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Falco",
+   "name": "falcon"
+  },
+  "family": {
+   "scientific": "Falconidae"
+  },
+  "order": {
+   "scientific": "Falconiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q229408"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lesser_kestrel"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

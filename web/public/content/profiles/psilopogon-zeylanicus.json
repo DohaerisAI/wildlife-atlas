@@ -1,0 +1,45 @@
+{
+ "scientific": "Psilopogon zeylanicus",
+ "name": "Brown-headed Barbet",
+ "qid": "Q26834012",
+ "description": "species of bird",
+ "extract": "The brown-headed barbet (Psilopogon zeylanicus) is an Asian barbet species native to the Indian subcontinent, where it inhabits tropical and subtropical moist broadleaf forests.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Brown_headed_Barbet_I2_IMG_8449.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Brown_headed_Barbet_I2_IMG_8449.jpg/330px-Brown_headed_Barbet_I2_IMG_8449.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brown_headed_Barbet_I2_IMG_8449.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Psilopogon"
+  },
+  "family": {
+   "scientific": "Megalaimidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26834012"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown-headed_barbet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

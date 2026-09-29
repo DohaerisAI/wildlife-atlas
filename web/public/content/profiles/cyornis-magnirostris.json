@@ -1,0 +1,46 @@
+{
+ "scientific": "Cyornis magnirostris",
+ "name": "Large Blue Flycatcher",
+ "qid": "Q5400036",
+ "description": "species of bird",
+ "extract": "The large blue flycatcher (Cyornis magnirostris) is a medium-sized bird species characterized by distinctive sexual dimorphism along with most others of the Flycatcher family. This species of bird is in the family Muscicapidae. It is found in the eastern Himalayas, from Nepal to Bangladesh. It winters in the northern Malay Peninsula.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Cyornis_magnirostris%2C_Mishmi_Hills%2C_Arunachal_Pradesh_1.jpg/1280px-Cyornis_magnirostris%2C_Mishmi_Hills%2C_Arunachal_Pradesh_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Cyornis_magnirostris%2C_Mishmi_Hills%2C_Arunachal_Pradesh_1.jpg/330px-Cyornis_magnirostris%2C_Mishmi_Hills%2C_Arunachal_Pradesh_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cyornis_magnirostris,_Mishmi_Hills,_Arunachal_Pradesh_1.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Mike Prince",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cyornis"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q5400036"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Large_blue_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

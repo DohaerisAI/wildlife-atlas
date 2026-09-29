@@ -1,0 +1,54 @@
+{
+ "scientific": "Urocissa erythroryncha",
+ "name": "Red-billed Blue Magpie",
+ "qid": "Q766306",
+ "description": "species of bird",
+ "extract": "The red-billed blue magpie (Urocissa erythroryncha) is a species of bird (magpie) in the crow family, Corvidae. It is about the same size as the Eurasian magpie, but has a much longer tail, one of the longest of any corvid. It is 65–68 cm (25.5–27 in) long and weighs 196–232 g (6.9–8.2 oz).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Urocissa_erythrorhyncha.jpg/1280px-Urocissa_erythrorhyncha.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Urocissa_erythrorhyncha.jpg/330px-Urocissa_erythrorhyncha.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Urocissa_erythrorhyncha.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Charles Lam from Hong Kong, China",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 130.0,
+   "max": 164.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Urocissa"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Urocissa erythrorhyncha (unjustified emendation)"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q766306"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-billed_blue_magpie"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

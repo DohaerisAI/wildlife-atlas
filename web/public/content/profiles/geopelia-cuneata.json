@@ -1,0 +1,62 @@
+{
+ "scientific": "Geopelia cuneata",
+ "name": "Diamond Dove",
+ "qid": "Q58904",
+ "description": "species of bird",
+ "extract": "The diamond dove (Geopelia cuneata) is a resident bird in Australia. The pigeon predominantly exists in areas near water but which are lightly arid or semi-arid in nature, being Central, West and Northern Australia. They are one of Australia's smallest pigeons along with the peaceful dove. They have been spotted occasionally in Southern Australia in parks and gardens when the centre of Australia is very dry.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Geopelia_cuneata_-Pilbara%2C_Western_Australia%2C_Australia-8_%281%29.jpg/1280px-Geopelia_cuneata_-Pilbara%2C_Western_Australia%2C_Australia-8_%281%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Geopelia_cuneata_-Pilbara%2C_Western_Australia%2C_Australia-8_%281%29.jpg/330px-Geopelia_cuneata_-Pilbara%2C_Western_Australia%2C_Australia-8_%281%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Geopelia_cuneata_-Pilbara,_Western_Australia,_Australia-8_(1).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Jim  Bendon from Karratha, Australia",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Diamond_Dove_1_%2820039112449%29.jpg/1280px-Diamond_Dove_1_%2820039112449%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Diamond_Dove_1_%2820039112449%29.jpg/330px-Diamond_Dove_1_%2820039112449%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Diamond_Dove_1_(20039112449).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Jim  Bendon from Karratha, Australia",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 2.5,
+   "max": 31.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Geopelia"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q58904"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Diamond_dove"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

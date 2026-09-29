@@ -1,0 +1,62 @@
+{
+ "scientific": "Charadrius mongolus",
+ "name": "Lesser Sand Plover",
+ "qid": "Q305255",
+ "description": "species of bird",
+ "extract": "The Siberian sand plover (Anarhynchus mongolus) is a small wader in the plover family of birds. The International Ornithologists' Union split the Tibetan sand plover from the lesser sand plover and changed its vernacular name to Siberian sand plover. The specific mongolus is  Latin and refers to Mongolia, which at the time of naming referred to a larger area than the present country.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Lesser_Sand_Plover_Charadrius_mongolus_in_breeding_plumage_best_by_Vedant_Kasambe_DSC_5787.jpg/1280px-Lesser_Sand_Plover_Charadrius_mongolus_in_breeding_plumage_best_by_Vedant_Kasambe_DSC_5787.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Lesser_Sand_Plover_Charadrius_mongolus_in_breeding_plumage_best_by_Vedant_Kasambe_DSC_5787.jpg/330px-Lesser_Sand_Plover_Charadrius_mongolus_in_breeding_plumage_best_by_Vedant_Kasambe_DSC_5787.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lesser_Sand_Plover_Charadrius_mongolus_in_breeding_plumage_best_by_Vedant_Kasambe_DSC_5787.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Vedant Raju Kasambe",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Charadrius_mongolus_-_Laem_Phak_Bia.jpg/1280px-Charadrius_mongolus_-_Laem_Phak_Bia.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Charadrius_mongolus_-_Laem_Phak_Bia.jpg/330px-Charadrius_mongolus_-_Laem_Phak_Bia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Charadrius_mongolus_-_Laem_Phak_Bia.jpg",
+   "license": "CC BY 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 45.0,
+   "max": 58.0,
+   "unit": "cm"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Charadrius"
+  },
+  "family": {
+   "scientific": "Charadriidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Mongolian sand plover",
+  "Anarhynchus mongolus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q305255"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siberian_sand_plover"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

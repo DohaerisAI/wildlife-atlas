@@ -1,0 +1,44 @@
+{
+ "scientific": "Saxicola stejnegeri",
+ "name": "Amur Stonechat",
+ "qid": "Q6739527",
+ "description": "species of stonechat",
+ "extract": "The Siberian stonechat or Asian stonechat (Saxicola maurus) is a recently validated species of the Old World flycatcher family (Muscicapidae). Like the other thrush-like flycatchers, it was often placed in the Turdidae in the past. It breeds in the East Palearctic including in easternmost Europe and winters in the Old World tropics.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Stejneger%27s_Stonechat.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Stejneger%27s_Stonechat.jpg/330px-Stejneger%27s_Stonechat.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Stejneger%27s_Stonechat.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Flickr users CharlesLam",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Saxicola"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Stejneger's Stonechat"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q6739527"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siberian_stonechat"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

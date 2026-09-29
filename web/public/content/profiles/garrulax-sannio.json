@@ -1,0 +1,43 @@
+{
+ "scientific": "Garrulax sannio",
+ "name": "White-browed Laughingthrush",
+ "qid": "Q3315640",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Garrulax_sannio.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Garrulax_sannio.jpg/330px-Garrulax_sannio.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Garrulax_sannio.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Ron Knight from Seaford, East Sussex, United Kingdom",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 67.0,
+   "max": 67.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Garrulax"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3315640"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

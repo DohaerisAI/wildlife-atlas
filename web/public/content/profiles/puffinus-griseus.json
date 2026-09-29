@@ -1,0 +1,35 @@
+{
+ "scientific": "Puffinus griseus",
+ "name": "Sooty shearwater",
+ "qid": "Q215267",
+ "description": "species of bird",
+ "extract": "The sooty shearwater (Ardenna grisea) is a medium-large shearwater in the seabird family Procellariidae. In New Zealand, it is also known by its Māori name tītī, and is harvested by Māori people for muttonbird, like its relatives the wedge-tailed shearwater (A. pacificus) and the Australian short-tailed shearwater (A. tenuirostris).",
+ "images": [],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Puffinus"
+  },
+  "family": {
+   "scientific": "Procellariidae"
+  },
+  "order": {
+   "scientific": "Procellariiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q215267"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sooty_shearwater"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

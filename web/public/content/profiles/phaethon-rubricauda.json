@@ -1,0 +1,67 @@
+{
+ "scientific": "Phaethon rubricauda",
+ "name": "Red-tailed Tropicbird",
+ "qid": "Q756640",
+ "description": "species of bird",
+ "extract": "The red-tailed tropicbird (Phaethon rubricauda) is a seabird native to tropical parts of the Indian and Pacific Oceans. One of three closely related species of tropicbird (Phaethontidae), it was described by Pieter Boddaert in 1783. Superficially resembling a tern in appearance, it has almost all-white plumage with a black mask and a red bill. The sexes have similar plumage. As referenced in the common name, adults have red tail streamers that are about twice their body length. Four subspecies are recognised, but there is evidence of clinal variation in body size—with smaller birds in the north and larger in the south—and hence no grounds for subspecies.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Red-tailed_Tropicbird3.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Red-tailed_Tropicbird3.jpg/330px-Red-tailed_Tropicbird3.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red-tailed_Tropicbird3.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Brocken Inaglory / Brocken Inaglory",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Red-tail.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Red-tail.jpg/330px-Red-tail.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red-tail.jpg",
+   "license": "Public domain",
+   "artist": "Re-tail.jpg: Sabine's Sunbird\nderivative work: Haplochromis (talk)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 100.0,
+   "max": 100.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 219.0,
+   "max": 219.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phaethon"
+  },
+  "family": {
+   "scientific": "Phaethontidae"
+  },
+  "order": {
+   "scientific": "Phaethontiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q756640"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-tailed_tropicbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

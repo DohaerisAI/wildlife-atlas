@@ -1,0 +1,49 @@
+{
+ "scientific": "Trichoglossus haematodus",
+ "name": "Coconut Lorikeet",
+ "qid": "Q319545",
+ "description": "species of bird",
+ "extract": "The coconut lorikeet (Trichoglossus haematodus), also known as the green-naped lorikeet and Swainson’s lorikeet, is a parrot in the family Psittaculidae. Several species of lorikeets now recognised as distinct were once lumped together under Trichoglossus haematodus; together they form the \"rainbow lorikeet\" species complex.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Coconut_Lorikeets_Trichoglossus_haematodus%2C_Variata_National_Park%2C_Port_Moresby%2C_PNG_%2848743693166%29.jpg/1280px-Coconut_Lorikeets_Trichoglossus_haematodus%2C_Variata_National_Park%2C_Port_Moresby%2C_PNG_%2848743693166%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Coconut_Lorikeets_Trichoglossus_haematodus%2C_Variata_National_Park%2C_Port_Moresby%2C_PNG_%2848743693166%29.jpg/330px-Coconut_Lorikeets_Trichoglossus_haematodus%2C_Variata_National_Park%2C_Port_Moresby%2C_PNG_%2848743693166%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Coconut_Lorikeets_Trichoglossus_haematodus,_Variata_National_Park,_Port_Moresby,_PNG_(48743693166).jpg",
+   "license": "CC BY 2.0",
+   "artist": "gailhampshire from Cradley, Malvern, U.K",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Trichoglossus"
+  },
+  "family": {
+   "scientific": "Psittacidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "other_names": [
+  "green-naped lorikeet"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q319545"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Coconut_lorikeet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

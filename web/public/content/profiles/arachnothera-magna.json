@@ -1,0 +1,60 @@
+{
+ "scientific": "Arachnothera magna",
+ "name": "Streaked Spiderhunter",
+ "qid": "Q773105",
+ "description": "species of bird",
+ "extract": "The streaked spiderhunter (Arachnothera magna) is a species of bird in the family Nectariniidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Arachnothera_magna_-_Chrissy_McClarren_and_Andy_Reago_-_449249567.jpeg/1280px-Arachnothera_magna_-_Chrissy_McClarren_and_Andy_Reago_-_449249567.jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Arachnothera_magna_-_Chrissy_McClarren_and_Andy_Reago_-_449249567.jpeg/330px-Arachnothera_magna_-_Chrissy_McClarren_and_Andy_Reago_-_449249567.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Arachnothera_magna_-_Chrissy_McClarren_and_Andy_Reago_-_449249567.jpeg",
+   "license": "CC0",
+   "artist": "Chrissy McClarren and Andy Reago",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Arachnothera_magna_-_Kaeng_Krachan.jpg/1280px-Arachnothera_magna_-_Kaeng_Krachan.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Arachnothera_magna_-_Kaeng_Krachan.jpg/330px-Arachnothera_magna_-_Kaeng_Krachan.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Arachnothera_magna_-_Kaeng_Krachan.jpg",
+   "license": "CC BY 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 31.0,
+   "max": 31.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Arachnothera"
+  },
+  "family": {
+   "scientific": "Nectariniidae",
+   "name": "sunbird"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q773105"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Streaked_spiderhunter"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

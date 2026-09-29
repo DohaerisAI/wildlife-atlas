@@ -1,0 +1,37 @@
+{
+ "scientific": "Luscinia cyane",
+ "name": "Siberian Blue Robin",
+ "qid": "Q1586281",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Luscinia_cyane_-_Khao_Yai.jpg/1280px-Luscinia_cyane_-_Khao_Yai.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Luscinia_cyane_-_Khao_Yai.jpg/330px-Luscinia_cyane_-_Khao_Yai.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Luscinia_cyane_-_Khao_Yai.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Luscinia"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1586281"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

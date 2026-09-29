@@ -1,0 +1,51 @@
+{
+ "scientific": "Dendrocitta leucogastra",
+ "name": "White-bellied Treepie",
+ "qid": "Q1591852",
+ "description": "species of bird",
+ "extract": "The white-bellied treepie (Dendrocitta leucogastra) is a bird of the crow family endemic to the forests of southern India. They overlap in distribution in some areas with the rufous treepie but are easy to tell apart both from appearance and call.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/White-bellied_Treepie_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/White-bellied_Treepie_2.jpg/330px-White-bellied_Treepie_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-bellied_Treepie_2.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Vivekpuliyeri",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 125.0,
+   "max": 125.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dendrocitta"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1591852"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-bellied_treepie"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

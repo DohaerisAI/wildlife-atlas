@@ -1,0 +1,54 @@
+{
+ "scientific": "Alauda arvensis",
+ "name": "Eurasian Skylark",
+ "qid": "Q25961",
+ "description": "species of bird",
+ "extract": "The Eurasian skylark (Alauda arvensis), commonly referred to in Europe as the lark, is a passerine bird in the lark family, Alaudidae. It is a widespread species found across Europe and the Palearctic with introduced populations in Australia, New Zealand, Canada, and on the Hawaiian Islands. It is a bird of open farmland and heath, known for the song of the male, which is delivered in hovering flight from heights of 50 to 100 metres (160 to 330 ft). The sexes are alike. It is streaked greyish-brown above and on the breast and has a buff-white belly.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Alouette_des_champs_Zaghouan001.jpg/1280px-Alouette_des_champs_Zaghouan001.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Alouette_des_champs_Zaghouan001.jpg/330px-Alouette_des_champs_Zaghouan001.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Alouette_des_champs_Zaghouan001.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "El Golli Mohamed",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 35.0,
+   "max": 35.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Alauda"
+  },
+  "family": {
+   "scientific": "Alaudidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Skylark"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25961"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eurasian_skylark"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,51 @@
+{
+ "scientific": "Pachycephala cinerea",
+ "name": "Mangrove Whistler",
+ "qid": "Q73916",
+ "description": "species of bird",
+ "extract": "The mangrove whistler (Pachycephala cinerea) is a species of bird in the family Pachycephalidae found in South-east Asia.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Mangrove_Whistler.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Mangrove_Whistler.jpg/330px-Mangrove_Whistler.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mangrove_Whistler.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 22.0,
+   "max": 22.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pachycephala"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q73916"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mangrove_whistler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,46 @@
+{
+ "scientific": "Gymnoris xanthocollis",
+ "name": "Yellow-throated Sparrow",
+ "qid": "Q25586001",
+ "description": "species of bird",
+ "extract": "The yellow-throated sparrow or chestnut-shouldered petronia (Gymnoris xanthocollis) is a species of sparrow found in southern Asia. It is a species mostly of the dry savannah. They forage on the ground for grain and for berries in bushes. They are often seen perched atop bare branches on trees while calling.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Chestnut-shouldered_Petronia_%28Petronia_xanthocollis%29_at_Bharatpur_I_IMG_5262.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Chestnut-shouldered_Petronia_%28Petronia_xanthocollis%29_at_Bharatpur_I_IMG_5262.jpg/330px-Chestnut-shouldered_Petronia_%28Petronia_xanthocollis%29_at_Bharatpur_I_IMG_5262.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chestnut-shouldered_Petronia_(Petronia_xanthocollis)_at_Bharatpur_I_IMG_5262.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Gymnoris"
+  },
+  "family": {
+   "scientific": "Passeridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25586001"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yellow-throated_sparrow"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

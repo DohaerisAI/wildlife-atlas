@@ -1,0 +1,62 @@
+{
+ "scientific": "Stercorarius longicaudus",
+ "name": "Long-tailed Jaeger",
+ "qid": "Q216921",
+ "description": "species of bird",
+ "extract": "The long-tailed jaeger or long-tailed skua (Stercorarius longicaudus) is a seabird in the skua family Stercorariidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Long-tailed_Skua_%28js%29_26.jpg/1280px-Long-tailed_Skua_%28js%29_26.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Long-tailed_Skua_%28js%29_26.jpg/330px-Long-tailed_Skua_%28js%29_26.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Long-tailed_Skua_(js)_26.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Jerzy Strzelecki",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 100.0,
+   "max": 100.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 39.2,
+   "max": 307.2,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Stercorarius"
+  },
+  "family": {
+   "scientific": "Stercorariidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Long-tailed Skua"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q216921"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Long-tailed_jaeger"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

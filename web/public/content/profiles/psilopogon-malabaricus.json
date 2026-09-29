@@ -1,0 +1,45 @@
+{
+ "scientific": "Psilopogon malabaricus",
+ "name": "Malabar Barbet",
+ "qid": "Q27074869",
+ "description": "species of bird",
+ "extract": "The Malabar barbet (Psilopogon malabaricus) is an Asian barbet native to the Western Ghats in India.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Malabar_Barbet_DSCN8039_%28cropped%29.jpg/1280px-Malabar_Barbet_DSCN8039_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Malabar_Barbet_DSCN8039_%28cropped%29.jpg/330px-Malabar_Barbet_DSCN8039_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Malabar_Barbet_DSCN8039_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "T. R. Shankar Raman",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Psilopogon"
+  },
+  "family": {
+   "scientific": "Megalaimidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27074869"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Malabar_barbet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,41 @@
+{
+ "scientific": "Laticilla cinerascens",
+ "name": "Swamp grass babbler",
+ "qid": "Q21970633",
+ "description": "species of bird",
+ "extract": "The swamp grass babbler or swamp prinia (Laticilla cinerascens) is a small bird of the Indian subcontinent. Some authorities consider it a subspecies of the rufous-vented grass babbler.",
+ "images": [],
+ "facts": {
+  "mass": {
+   "min": 19.0,
+   "max": 19.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Laticilla"
+  },
+  "family": {
+   "scientific": "Pellorneidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Assam prinia"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q21970633"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Swamp_grass_babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

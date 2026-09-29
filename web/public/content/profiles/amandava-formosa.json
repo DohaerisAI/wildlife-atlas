@@ -1,0 +1,57 @@
+{
+ "scientific": "Amandava formosa",
+ "name": "Green Avadavat",
+ "qid": "Q1049611",
+ "description": "species of bird",
+ "extract": "The green avadavat or green munia (Amandava formosa) is a species of Estrildid finch with green and yellow on the body, a bright red bill and black \"zebra stripes\" on the flanks. They are endemic to the Indian subcontinent and were formerly popular as cagebirds. The name \"avadavat\" is a corruption of the name the city of Ahmedabad in Gujarat, India, which was a centre of bird trade. They have a restricted distribution and populations are threatened by the bird trade.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Amandava_formosa.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Amandava_formosa.jpg/330px-Amandava_formosa.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Amandava_formosa.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Pkspks",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Greenwaxbill.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Greenwaxbill.jpg/330px-Greenwaxbill.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Greenwaxbill.jpg",
+   "license": "Public domain",
+   "artist": "Author: \nArthur G. Butler (create creator page)\nEngraver: \nUnknownUnknown \nIllustrator: \nF.W. Frohawk (create creator page)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Amandava"
+  },
+  "family": {
+   "scientific": "Estrildidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Green Munia"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1049611"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Green_avadavat"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

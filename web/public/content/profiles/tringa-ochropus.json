@@ -1,0 +1,59 @@
+{
+ "scientific": "Tringa ochropus",
+ "name": "Green Sandpiper",
+ "qid": "Q28450",
+ "description": "species of bird",
+ "extract": "The green sandpiper (Tringa ochropus) is a small wader (shorebird) of the Old World.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Green_Sandpiper_%28_Tringa_ochropus_%29_..._Tophill_Low_%2C_Yorkshire_%2853182606905%29.jpg/1280px-Green_Sandpiper_%28_Tringa_ochropus_%29_..._Tophill_Low_%2C_Yorkshire_%2853182606905%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Green_Sandpiper_%28_Tringa_ochropus_%29_..._Tophill_Low_%2C_Yorkshire_%2853182606905%29.jpg/330px-Green_Sandpiper_%28_Tringa_ochropus_%29_..._Tophill_Low_%2C_Yorkshire_%2853182606905%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Green_Sandpiper_(_Tringa_ochropus_)_..._Tophill_Low_,_Yorkshire_(53182606905).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "peterichman",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 59.0,
+   "max": 59.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 15.5,
+   "max": 85.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tringa"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q28450"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Green_sandpiper"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

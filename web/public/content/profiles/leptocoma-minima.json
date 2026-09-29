@@ -1,0 +1,55 @@
+{
+ "scientific": "Leptocoma minima",
+ "name": "Crimson-backed Sunbird",
+ "qid": "Q751962",
+ "description": "species of bird",
+ "extract": "The crimson-backed sunbird or small sunbird (Leptocoma minima) is a sunbird endemic to the Western Ghats of India. Like other sunbirds, they feed mainly on nectar although they take insects, especially to feed their young. They are tiny birds that are resident and are found in forests but are particularly attracted to gardens at the edge of the forest where people grow suitable flower-bearing plants. They usually perch while taking nectar.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Crimson-backed_sunbird_or_small_sunbird_%28Leptocoma_minima%29_by_Shantanu_Kuveskar.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Crimson-backed_sunbird_or_small_sunbird_%28Leptocoma_minima%29_by_Shantanu_Kuveskar.jpg/330px-Crimson-backed_sunbird_or_small_sunbird_%28Leptocoma_minima%29_by_Shantanu_Kuveskar.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Crimson-backed_sunbird_or_small_sunbird_(Leptocoma_minima)_by_Shantanu_Kuveskar.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Shantanu Kuveskar",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 5.0,
+   "max": 5.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Leptocoma"
+  },
+  "family": {
+   "scientific": "Nectariniidae",
+   "name": "sunbird"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Necterinia minima"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q751962"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Crimson-backed_sunbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

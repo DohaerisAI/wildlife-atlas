@@ -1,0 +1,73 @@
+{
+ "scientific": "Grus nigricollis",
+ "name": "Black-necked Crane",
+ "qid": "Q261445",
+ "description": "species of bird",
+ "extract": "The black-necked crane (Grus nigricollis) is a medium-sized crane in Asia that breeds on the Tibetan Plateau and remote parts of India and Bhutan. It is 139 cm (55 in) long with a 235 cm (7.71 ft) wingspan, and it weighs 5.5 kg (12 lb). It is whitish-gray, with a black head, red crown patch, black upper neck and legs, and white patch to the rear of the eye. It has black primaries and secondaries. Both sexes are similar. Some populations are known to make seasonal movements. It is revered in Buddhist traditions and culturally protected across much of its range. A festival in Bhutan celebrates the bird while the Indian union territory of Ladakh has designated it as the state bird.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Black_necked_crane_at_Hanle.jpg/1280px-Black_necked_crane_at_Hanle.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Black_necked_crane_at_Hanle.jpg/330px-Black_necked_crane_at_Hanle.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black_necked_crane_at_Hanle.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Sumeetmoghe",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Grus_nigricollis_-Bronx_Zoo-8-3c.jpg/1280px-Grus_nigricollis_-Bronx_Zoo-8-3c.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Grus_nigricollis_-Bronx_Zoo-8-3c.jpg/330px-Grus_nigricollis_-Bronx_Zoo-8-3c.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grus_nigricollis_-Bronx_Zoo-8-3c.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "derivative work: Snowmanradio (talk)\nGrus_nigricollis_-Bronx_Zoo-8.jpg: Eric Savage",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Stavenn_Grus_nigricollis_00.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Stavenn_Grus_nigricollis_00.jpg/330px-Stavenn_Grus_nigricollis_00.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Stavenn_Grus_nigricollis_00.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Stavenn",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 180.0,
+   "max": 200.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Grus"
+  },
+  "family": {
+   "scientific": "Gruidae"
+  },
+  "order": {
+   "scientific": "Gruiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Tibetan crane"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q261445"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-necked_crane"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

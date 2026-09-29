@@ -1,0 +1,51 @@
+{
+ "scientific": "Phylloscopus pulcher",
+ "name": "Buff-barred Warbler",
+ "qid": "Q3727676",
+ "description": "species of bird",
+ "extract": "The buff-barred warbler (Phylloscopus pulcher) is a species of leaf warbler (family Phylloscopidae). It was formerly included in the \"Old World warbler\" assemblage.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Buff-barred_Warbler_-_Bhutan_S4E0266_%2819081373989%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Buff-barred_Warbler_-_Bhutan_S4E0266_%2819081373989%29.jpg/330px-Buff-barred_Warbler_-_Bhutan_S4E0266_%2819081373989%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Buff-barred_Warbler_-_Bhutan_S4E0266_(19081373989).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 6.8,
+   "max": 6.8,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phylloscopus"
+  },
+  "family": {
+   "scientific": "Phylloscopidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3727676"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buff-barred_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

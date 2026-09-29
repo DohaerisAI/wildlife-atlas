@@ -1,0 +1,60 @@
+{
+ "scientific": "Ardeola ralloides",
+ "name": "Squacco Heron",
+ "qid": "Q191394",
+ "description": "species of bird",
+ "extract": "The squacco heron (Ardeola ralloides) is a small heron, 44–47 cm (17+1⁄2–18+1⁄2 in) long, of which the body is 20–23 cm (8–9 in), with 80–92 cm (31+1⁄2–36 in) wingspan. It is of Old World origins, breeding in southern Europe and the Greater Middle East.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Gar%C3%A7a-caranguejeira-PE_do_Coc%C3%B3-Levi_Adriano_Dias%28002%29.jpg/1280px-Gar%C3%A7a-caranguejeira-PE_do_Coc%C3%B3-Levi_Adriano_Dias%28002%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Gar%C3%A7a-caranguejeira-PE_do_Coc%C3%B3-Levi_Adriano_Dias%28002%29.jpg/330px-Gar%C3%A7a-caranguejeira-PE_do_Coc%C3%B3-Levi_Adriano_Dias%28002%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gar%C3%A7a-caranguejeira-PE_do_Coc%C3%B3-Levi_Adriano_Dias(002).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Levi Adriano Dias",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 86.0,
+   "max": 86.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 16.0,
+   "max": 288.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ardeola"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q191394"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Squacco_heron"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

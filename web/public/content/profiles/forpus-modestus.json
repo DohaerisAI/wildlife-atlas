@@ -1,0 +1,59 @@
+{
+ "scientific": "Forpus modestus",
+ "name": "Dusky-billed Parrotlet",
+ "qid": "Q531132",
+ "description": "species of bird",
+ "extract": "The dusky-billed parrotlet (Forpus modestus), also known as Sclater's parrotlet, is a small species of parrot in the family Psittacidae. It is the nominate species (F. m. modestus).",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Forpus_sclateri_-_Dusky-billed_Parrotlet_01.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Forpus_sclateri_-_Dusky-billed_Parrotlet_01.JPG/330px-Forpus_sclateri_-_Dusky-billed_Parrotlet_01.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Forpus_sclateri_-_Dusky-billed_Parrotlet_01.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Hector Bottai",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/PsittaculaSclateriKeulemans.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/PsittaculaSclateriKeulemans.jpg/330px-PsittaculaSclateriKeulemans.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:PsittaculaSclateriKeulemans.jpg",
+   "license": "Public domain",
+   "artist": "John Gerrard Keulemans",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 27.0,
+   "max": 27.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Forpus"
+  },
+  "family": {
+   "scientific": "Psittacidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q531132"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dusky-billed_parrotlet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

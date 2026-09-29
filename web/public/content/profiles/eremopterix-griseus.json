@@ -1,0 +1,59 @@
+{
+ "scientific": "Eremopterix griseus",
+ "name": "Ashy-crowned Sparrow-Lark",
+ "qid": "Q1590674",
+ "description": "bird species",
+ "extract": "The ashy-crowned sparrow-lark (Eremopterix griseus) is a small sparrow-sized member of the lark family. It is found in the plains in open land with bare ground, grass and scrub across South Asia. The males are well marked with a contrasting black-and-white face pattern, while females are sandy brown, looking similar to a female sparrow. Males are easily detected during the breeding season by the long descending whistle that accompanies their undulating and dive-bombing flight displays.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Ashy-crowned_Sparrow_Lark_%28Male%29_I_IMG_8244.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Ashy-crowned_Sparrow_Lark_%28Male%29_I_IMG_8244.jpg/330px-Ashy-crowned_Sparrow_Lark_%28Male%29_I_IMG_8244.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ashy-crowned_Sparrow_Lark_(Male)_I_IMG_8244.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Ashy-crowned_Sparrow_Lark_by_Dr._Raju_Kasambe_DSCN1991_%283%29.jpg/1280px-Ashy-crowned_Sparrow_Lark_by_Dr._Raju_Kasambe_DSCN1991_%283%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Ashy-crowned_Sparrow_Lark_by_Dr._Raju_Kasambe_DSCN1991_%283%29.jpg/330px-Ashy-crowned_Sparrow_Lark_by_Dr._Raju_Kasambe_DSCN1991_%283%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ashy-crowned_Sparrow_Lark_by_Dr._Raju_Kasambe_DSCN1991_(3).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dr. Raju Kasambe",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 16.0,
+   "max": 16.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Eremopterix"
+  },
+  "family": {
+   "scientific": "Alaudidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1590674"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ashy-crowned_sparrow-lark"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

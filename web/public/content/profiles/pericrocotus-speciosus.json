@@ -1,0 +1,55 @@
+{
+ "scientific": "Pericrocotus speciosus",
+ "name": "Scarlet Minivet",
+ "qid": "Q12265751",
+ "description": "species of bird",
+ "extract": "The scarlet minivet (Pericrocotus speciosus) is a small passerine bird in the cuckooshrike family Campephagidae. This minivet is found in tropical southern Asia from Northeast India to southern China, Indonesia, and the Philippines. They are common resident breeding birds in forests and other well-wooded habitats including gardens, especially in hilly country. While the male of most subspecies are scarlet to orange with black upper parts, the females are usually yellow with greyish olive upper parts. Several former subspecies have been elevated to a species status in recent works. These include the orange minivet.  All subspecies have the same habits of gleaning for insects and are often seen in mixed-species foraging flocks, usually foraging in small groups, high up in the forest canopy.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/20221225_Pericrocotus_speciosus.jpg/1280px-20221225_Pericrocotus_speciosus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/20221225_Pericrocotus_speciosus.jpg/330px-20221225_Pericrocotus_speciosus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:20221225_Pericrocotus_speciosus.jpg",
+   "license": "CC BY 4.0",
+   "artist": "James Jolokia (james1203)",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Female_scarlet_minivet.jpg/1280px-Female_scarlet_minivet.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Female_scarlet_minivet.jpg/330px-Female_scarlet_minivet.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Female_scarlet_minivet.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Avijitsutradhar7176",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pericrocotus",
+   "name": "Minivet"
+  },
+  "family": {
+   "scientific": "Campephagidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q12265751"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Scarlet_minivet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

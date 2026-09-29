@@ -1,0 +1,57 @@
+{
+ "scientific": "Carpodacus rubicilla",
+ "name": "Caucasian Great Rosefinch",
+ "qid": "Q819706",
+ "description": "species of bird",
+ "extract": "The great rosefinch (Carpodacus rubicilla) is a species of finch in the family Fringillidae. It is found in Afghanistan, Armenia, Azerbaijan, Georgia, Iran, Kazakhstan, Kyrgyzstan, Mongolia, India, Pakistan, Russia, Tajikistan, and Uzbekistan and east to China.  Its natural habitats are tundra and temperate grassland.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Great_Rosefinch.jpg/1280px-Great_Rosefinch.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Great_Rosefinch.jpg/330px-Great_Rosefinch.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Great_Rosefinch.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Alastair Rae",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Great_Rosefinch_North_Sikkim_India_15.10.2019.jpg/1280px-Great_Rosefinch_North_Sikkim_India_15.10.2019.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Great_Rosefinch_North_Sikkim_India_15.10.2019.jpg/330px-Great_Rosefinch_North_Sikkim_India_15.10.2019.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Great_Rosefinch_North_Sikkim_India_15.10.2019.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Carpodacus"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Spotted Great Rosefinch"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q819706"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_rosefinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

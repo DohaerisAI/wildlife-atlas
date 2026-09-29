@@ -1,0 +1,53 @@
+{
+ "scientific": "Synoicus chinensis",
+ "name": "King Quail",
+ "qid": "Q27043839",
+ "description": "species of bird",
+ "extract": "The king quail (Synoicus chinensis), also known as the Asian blue quail, blue-breasted quail, Chinese painted quail, button quail, or Chung-Chi, is a very small, diminutive galliform of the tribe Coturnicini in the subfamily Phasianinae. They are the smallest member in this subfamily and the family Phasianidae, as well as being the smallest and lightest member of the order Galliformes. It is quite common in aviculture worldwide, where it is sometimes referred to as the \"button quail\", although it is not closely related to the family of birds called buttonquails. Its voice is a piping whistle, ti-yu or ti-ti-yu. It also gives sharp cheeps or a tir-tir-tir sound when flushed.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Synoicus_chinensis_chinensis%2C_Tanglin%2C_Singapore_1.jpg/1280px-Synoicus_chinensis_chinensis%2C_Tanglin%2C_Singapore_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Synoicus_chinensis_chinensis%2C_Tanglin%2C_Singapore_1.jpg/330px-Synoicus_chinensis_chinensis%2C_Tanglin%2C_Singapore_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Synoicus_chinensis_chinensis,_Tanglin,_Singapore_1.jpg",
+   "license": "CC BY 4.0",
+   "artist": "sympiotr",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Synoicus"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Asian Blue Quail",
+  "Blue-breasted Quail"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27043839"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/King_quail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

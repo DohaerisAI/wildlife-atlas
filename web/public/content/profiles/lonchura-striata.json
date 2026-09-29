@@ -1,0 +1,59 @@
+{
+ "scientific": "Lonchura striata",
+ "name": "White-rumped Munia",
+ "qid": "Q574939",
+ "description": "species of bird",
+ "extract": "The white-rumped munia (Lonchura striata) or white-rumped mannikin, sometimes called striated finch in aviculture, is a small passerine bird from the family of waxbill \"finches\" (Estrildidae). These are not close relatives of the true finches (Fringillidae) or true sparrows (Passeridae).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/White-rumped_Munia%2C_Bengaluru%2C_Vimal_Rajyaguru%2C_01.jpg/1280px-White-rumped_Munia%2C_Bengaluru%2C_Vimal_Rajyaguru%2C_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/White-rumped_Munia%2C_Bengaluru%2C_Vimal_Rajyaguru%2C_01.jpg/330px-White-rumped_Munia%2C_Bengaluru%2C_Vimal_Rajyaguru%2C_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-rumped_Munia,_Bengaluru,_Vimal_Rajyaguru,_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Vimal Rajyaguru",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/White-rumped_Munia_%28Lonchura_striata%29_%285780780488%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/White-rumped_Munia_%28Lonchura_striata%29_%285780780488%29.jpg/330px-White-rumped_Munia_%28Lonchura_striata%29_%285780780488%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-rumped_Munia_(Lonchura_striata)_(5780780488).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Thomas Brown",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 0.9,
+   "max": 0.9,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lonchura"
+  },
+  "family": {
+   "scientific": "Estrildidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q574939"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-rumped_munia"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

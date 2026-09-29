@@ -1,0 +1,78 @@
+{
+ "scientific": "Charadrius dubius",
+ "name": "Little Ringed Plover",
+ "qid": "Q18851",
+ "description": "species of bird",
+ "extract": "The little ringed plover (Thinornis dubius) is a small plover native to the Old World. It has mostly brown upperparts, a black neckband and a black mask around the eye with a noticeable yellow eyering. Its forehead, belly and the rest of the breast are white. A migratory species, it breeds in open gravel areas near freshwater, including gravel pits, islands and river edges. Its diet consists mainly of insects and worms, which it forages for in muddy areas.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Charadrius_dubius_%2849820761043%29.jpg/1280px-Charadrius_dubius_%2849820761043%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Charadrius_dubius_%2849820761043%29.jpg/330px-Charadrius_dubius_%2849820761043%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Charadrius_dubius_(49820761043).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "xulescu_g",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Charadrius_dubius_-_Little_ringed_plover_05.jpg/1280px-Charadrius_dubius_-_Little_ringed_plover_05.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Charadrius_dubius_-_Little_ringed_plover_05.jpg/330px-Charadrius_dubius_-_Little_ringed_plover_05.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Charadrius_dubius_-_Little_ringed_plover_05.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Zeynel Cebeci",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Charadrius_dubius_-_Little_ringed_plover_06.jpg/1280px-Charadrius_dubius_-_Little_ringed_plover_06.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Charadrius_dubius_-_Little_ringed_plover_06.jpg/330px-Charadrius_dubius_-_Little_ringed_plover_06.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Charadrius_dubius_-_Little_ringed_plover_06.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Zeynel Cebeci",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 45.0,
+   "max": 45.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 7.7,
+   "max": 7.7,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Charadrius"
+  },
+  "family": {
+   "scientific": "Charadriidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Thinornis dubius"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q18851"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Little_ringed_plover"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

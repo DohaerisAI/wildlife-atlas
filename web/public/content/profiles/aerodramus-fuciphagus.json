@@ -1,0 +1,65 @@
+{
+ "scientific": "Aerodramus fuciphagus",
+ "name": "Edible-nest Swiftlet",
+ "qid": "Q31801",
+ "description": "species of bird",
+ "extract": "The edible-nest swiftlet (Aerodramus fuciphagus), also known as the white-nest swiftlet, is a small bird of the swift family which is found in Southeast Asia. Its opaque and whitish nest is made exclusively of solidified saliva and is the main ingredient of bird's nest soup, a delicacy of Chinese cuisine. Germain's swiftlet (Aerodramus germani) is now treated as conspecific with this species.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Esculent.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Esculent.jpg/330px-Esculent.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Esculent.jpg",
+   "license": "Public domain",
+   "artist": "Unknown",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/AerodramusFuciphagus.LipKee.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/AerodramusFuciphagus.LipKee.jpg/330px-AerodramusFuciphagus.LipKee.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:AerodramusFuciphagus.LipKee.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee Yap from Singapore, Republic of Singapore",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 15.5,
+   "max": 15.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aerodramus"
+  },
+  "family": {
+   "scientific": "Apodidae"
+  },
+  "order": {
+   "scientific": "Apodiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "white-nest swiftlet"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q31801"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Edible-nest_swiftlet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

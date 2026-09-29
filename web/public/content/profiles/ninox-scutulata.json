@@ -1,0 +1,63 @@
+{
+ "scientific": "Ninox scutulata",
+ "name": "Brown Boobook",
+ "qid": "Q856009",
+ "description": "species of bird",
+ "extract": "The brown boobook (Ninox scutulata), also known as the brown hawk-owl, is a typical owl species. It has dark brown upperparts, whitish underparts with reddish-brown streaking, and a barred tail. It is a resident breeder in India, Nepal, Bangladesh, Bhutan, Sri Lanka, southern China and western Indonesia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Brown_Hawk-Owl_in_Purbasthali_January_2026_by_Tisha_Mukherjee_07.jpg/1280px-Brown_Hawk-Owl_in_Purbasthali_January_2026_by_Tisha_Mukherjee_07.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Brown_Hawk-Owl_in_Purbasthali_January_2026_by_Tisha_Mukherjee_07.jpg/330px-Brown_Hawk-Owl_in_Purbasthali_January_2026_by_Tisha_Mukherjee_07.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brown_Hawk-Owl_in_Purbasthali_January_2026_by_Tisha_Mukherjee_07.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/004_Brown_boobook.jpg/1280px-004_Brown_boobook.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/004_Brown_boobook.jpg/330px-004_Brown_boobook.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:004_Brown_boobook.jpg",
+   "license": "CC0",
+   "artist": "Drsssuresh1961",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 195.0,
+   "max": 195.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ninox"
+  },
+  "family": {
+   "scientific": "Strigidae",
+   "name": "true owls"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q856009"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown_boobook"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

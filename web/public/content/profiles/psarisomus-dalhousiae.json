@@ -1,0 +1,47 @@
+{
+ "scientific": "Psarisomus dalhousiae",
+ "name": "Long-tailed Broadbill",
+ "qid": "Q282943",
+ "description": "species of bird",
+ "extract": "The long-tailed broadbill (Psarisomus dalhousiae) is a species of bird that is found in the Himalayas, extending east through Northeastern India to Southeast Asia. It is the only bird in the genus Psarisomus.  The long-tailed broadbill is about 25 cm (10 inches) in length and weighs between 50 and 60 grams. It can be identified by its shrill call.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Psarisomus_dalhousiae_-_Ian_Dugdale_-_546696102_%28cropped%29.jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Psarisomus_dalhousiae_-_Ian_Dugdale_-_546696102_%28cropped%29.jpeg/330px-Psarisomus_dalhousiae_-_Ian_Dugdale_-_546696102_%28cropped%29.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Psarisomus_dalhousiae_-_Ian_Dugdale_-_546696102_(cropped).jpeg",
+   "license": "CC BY 4.0",
+   "artist": "Ian Dugdale",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Psarisomus"
+  },
+  "family": {
+   "scientific": "Eurylaimidae",
+   "name": "Broadbill"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q282943"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Long-tailed_broadbill"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

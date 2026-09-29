@@ -1,0 +1,50 @@
+{
+ "scientific": "Cacatua goffiniana",
+ "name": "Tanimbar Corella",
+ "qid": "Q757402",
+ "description": "species of bird",
+ "extract": "The Tanimbar corella (Cacatua goffiniana), also known as Goffin's cockatoo or Tanimbar cockatoo, is a species of cockatoo endemic to forests of Yamdena, Larat, and Selaru, all islands in the Tanimbar Islands archipelago in Indonesia. It has been introduced to the Kai Islands, Indonesia; Puerto Rico; and Singapore. This species was only formally described in 2004, after it was discovered that the previous formal descriptions pertained to individuals of a different cockatoo species, Ducorps' or Solomons cockatoo (Cacatua ducorpsii). Tanimbar corellas are the smallest of the white cockatoos. It is classified as near threatened due to deforestation and cage-bird trade. It breeds well in captivity and a large avicultural population exists.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Cacatua_goffiniana%2C_Yamdena%2C_Tanimbar%2C_Indonesia_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Cacatua_goffiniana%2C_Yamdena%2C_Tanimbar%2C_Indonesia_1.jpg/330px-Cacatua_goffiniana%2C_Yamdena%2C_Tanimbar%2C_Indonesia_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cacatua_goffiniana,_Yamdena,_Tanimbar,_Indonesia_1.jpg",
+   "license": "CC0",
+   "artist": "james_birdtourasia",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cacatua"
+  },
+  "family": {
+   "scientific": "Cacatuidae",
+   "name": "Cockatoos"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "other_names": [
+  "Goffin’s cockatoo"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q757402"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tanimbar_corella"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

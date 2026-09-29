@@ -1,0 +1,46 @@
+{
+ "scientific": "Sitta nagaensis",
+ "name": "Chestnut-vented Nuthatch",
+ "qid": "Q902434",
+ "description": "species of bird",
+ "extract": "The chestnut-vented nuthatch (Sitta nagaensis) is a species of bird in the nuthatch family Sittidae. It is a medium-sized nuthatch, measuring 12.5–14 cm (4.9–5.5 in) in length. The upperparts are a solid grey-blue, with a markedly black loral stripe. The underparts are uniform grey to buff from the throat to belly, with brick red on the flanks. The undertail is white with a rufous border. The chestnut-vented nuthatch utters different kinds of calls, which can sometimes sound like a wren alarm, and its song is a monotonous, stereotypical crackle, typically chichichichi. Its ecology is poorly known, but it probably feeds on small arthropods and seeds, and the breeding season begins between March and May. The nest is typically located in a hole in the trunk of a tree, and the clutch has two to five eggs.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Chestnut-vented_Nuthatch_%28Sitta_nagaensis%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Chestnut-vented_Nuthatch_%28Sitta_nagaensis%29.jpg/330px-Chestnut-vented_Nuthatch_%28Sitta_nagaensis%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chestnut-vented_Nuthatch_(Sitta_nagaensis).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Ron Knight",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sitta"
+  },
+  "family": {
+   "scientific": "Sittidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q902434"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chestnut-vented_nuthatch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

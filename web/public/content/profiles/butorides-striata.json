@@ -1,0 +1,59 @@
+{
+ "scientific": "Butorides striata",
+ "name": "Striated Heron",
+ "qid": "Q270722",
+ "description": "species of bird",
+ "extract": "The striated heron (Butorides striata) also known as mangrove heron or little green heron, is a small heron, about 44 cm tall. It is mostly sedentary and noted for some interesting behavioural traits. The breeding habitat is in South America and the Caribbean. The striated heron was formerly considered to be conspecific with the little heron that is found in the Old World tropics from west Africa to Japan and Australia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Butorides_striata_Garcita_rayada_Striated_Heron_%286549356697%29.jpg/1280px-Butorides_striata_Garcita_rayada_Striated_Heron_%286549356697%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Butorides_striata_Garcita_rayada_Striated_Heron_%286549356697%29.jpg/330px-Butorides_striata_Garcita_rayada_Striated_Heron_%286549356697%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Butorides_striata_Garcita_rayada_Striated_Heron_(6549356697).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Félix Uribe from Rionegro, Antioquia, Colombia",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 56.0,
+   "max": 56.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Butorides"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Mangrove heron",
+  "Green-backed heron"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q270722"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Striated_heron"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

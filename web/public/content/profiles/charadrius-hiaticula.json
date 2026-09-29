@@ -1,0 +1,78 @@
+{
+ "scientific": "Charadrius hiaticula",
+ "name": "Common Ringed Plover",
+ "qid": "Q26816",
+ "description": "species of bird",
+ "extract": "The common ringed plover, great ringed plover or ringed plover (Charadrius hiaticula) is a species of bird in the family Charadriidae. It breeds across much of northern Eurasia, as well as Greenland.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Charadrius_hiaticula_3_breeding.jpg/1280px-Charadrius_hiaticula_3_breeding.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Charadrius_hiaticula_3_breeding.jpg/330px-Charadrius_hiaticula_3_breeding.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Charadrius_hiaticula_3_breeding.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Arnoldius",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Charadrius_hiaticula_tundrae_Varanger.jpg/1280px-Charadrius_hiaticula_tundrae_Varanger.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Charadrius_hiaticula_tundrae_Varanger.jpg/330px-Charadrius_hiaticula_tundrae_Varanger.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Charadrius_hiaticula_tundrae_Varanger.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Charadrius_hiaticula_psammodromus_Iceland_9.jpg/1280px-Charadrius_hiaticula_psammodromus_Iceland_9.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Charadrius_hiaticula_psammodromus_Iceland_9.jpg/330px-Charadrius_hiaticula_psammodromus_Iceland_9.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Charadrius_hiaticula_psammodromus_Iceland_9.jpg",
+   "license": "CC BY 2.0",
+   "artist": "óskar elías sigurðsson",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 41.0,
+   "max": 41.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 10.9,
+   "max": 10.9,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Charadrius"
+  },
+  "family": {
+   "scientific": "Charadriidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Ringed Plover"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26816"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_ringed_plover"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

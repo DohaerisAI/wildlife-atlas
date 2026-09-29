@@ -1,0 +1,66 @@
+{
+ "scientific": "Sternula saundersi",
+ "name": "Saunders's Tern",
+ "qid": "Q1265260",
+ "description": "species of bird",
+ "extract": "Saunders's tern (Sternula saundersi), sometimes known as the black-shafted tern, is a species of bird in the family Laridae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Saunders%27s_Tern_%28Sternula_saundersi%29%2C_Jeddah%2C_Saudi_Arabia_%28crop%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Saunders%27s_Tern_%28Sternula_saundersi%29%2C_Jeddah%2C_Saudi_Arabia_%28crop%29.jpg/330px-Saunders%27s_Tern_%28Sternula_saundersi%29%2C_Jeddah%2C_Saudi_Arabia_%28crop%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Saunders%27s_Tern_(Sternula_saundersi),_Jeddah,_Saudi_Arabia_(crop).jpg",
+   "license": "CC BY 4.0",
+   "artist": "Original: hungryholobiont at inaturalist; this edit: MPF",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Saunders%27s_Tern_%28Sternula_saundersi%29_in_flight%2C_Jeddah%2C_Saudi_Arabia.jpg/1280px-Saunders%27s_Tern_%28Sternula_saundersi%29_in_flight%2C_Jeddah%2C_Saudi_Arabia.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Saunders%27s_Tern_%28Sternula_saundersi%29_in_flight%2C_Jeddah%2C_Saudi_Arabia.jpg/330px-Saunders%27s_Tern_%28Sternula_saundersi%29_in_flight%2C_Jeddah%2C_Saudi_Arabia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Saunders%27s_Tern_(Sternula_saundersi)_in_flight,_Jeddah,_Saudi_Arabia.jpg",
+   "license": "CC BY 4.0",
+   "artist": "hungryholobiont",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 50.0,
+   "max": 55.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sternula"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Sterna saundersii",
+  "Black-shafted tern"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1265260"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Saunders%27s_tern"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

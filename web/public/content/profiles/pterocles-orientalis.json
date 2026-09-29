@@ -1,0 +1,67 @@
+{
+ "scientific": "Pterocles orientalis",
+ "name": "Black-bellied Sandgrouse",
+ "qid": "Q383182",
+ "description": "species of bird",
+ "extract": "The black-bellied sandgrouse (Pterocles orientalis) is a medium large bird in the sandgrouse family.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Pterocles_orientalis_in_flight.jpg/1280px-Pterocles_orientalis_in_flight.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Pterocles_orientalis_in_flight.jpg/330px-Pterocles_orientalis_in_flight.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pterocles_orientalis_in_flight.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Pterocles_orientalis_1921.jpg/1280px-Pterocles_orientalis_1921.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Pterocles_orientalis_1921.jpg/330px-Pterocles_orientalis_1921.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pterocles_orientalis_1921.jpg",
+   "license": "Public domain",
+   "artist": "Henrik Grønvold",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 70.0,
+   "max": 73.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 28.0,
+   "max": 428.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pterocles"
+  },
+  "family": {
+   "scientific": "Pteroclidae"
+  },
+  "order": {
+   "scientific": "Pterocliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q383182"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-bellied_sandgrouse"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

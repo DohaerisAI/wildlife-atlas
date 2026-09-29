@@ -1,0 +1,75 @@
+{
+ "scientific": "Larus canus",
+ "name": "Common Gull",
+ "qid": "Q26427",
+ "description": "species of bird",
+ "extract": "The common gull (Larus canus) is a gull that breeds in cool temperate regions of the Palearctic from Iceland and Scotland east to Kamchatka in the Russian Far East. Most common gulls migrate further south in winter, reaching the Mediterranean Sea, the southern Caspian Sea, and the seas around China and Japan; northwest European populations are at least partly resident. The closely related short-billed gull was formerly often included in this species, which was then sometimes known collectively as \"mew gull\".",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Larus_canus_Common_Gull_in_Norway.jpg/1280px-Larus_canus_Common_Gull_in_Norway.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Larus_canus_Common_Gull_in_Norway.jpg/330px-Larus_canus_Common_Gull_in_Norway.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Larus_canus_Common_Gull_in_Norway.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Sturmm%C3%B6we_-_Auenlandschaft_Hohenrode_HA_222_Landkreis_Schaumburg.jpg/1280px-Sturmm%C3%B6we_-_Auenlandschaft_Hohenrode_HA_222_Landkreis_Schaumburg.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Sturmm%C3%B6we_-_Auenlandschaft_Hohenrode_HA_222_Landkreis_Schaumburg.jpg/330px-Sturmm%C3%B6we_-_Auenlandschaft_Hohenrode_HA_222_Landkreis_Schaumburg.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sturmm%C3%B6we_-_Auenlandschaft_Hohenrode_HA_222_Landkreis_Schaumburg.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Kathy2408",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Larus_canus_in_S%C3%B6dra_Hammarbyhamnen%2C_Stockholm.jpg/1280px-Larus_canus_in_S%C3%B6dra_Hammarbyhamnen%2C_Stockholm.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Larus_canus_in_S%C3%B6dra_Hammarbyhamnen%2C_Stockholm.jpg/330px-Larus_canus_in_S%C3%B6dra_Hammarbyhamnen%2C_Stockholm.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Larus_canus_in_S%C3%B6dra_Hammarbyhamnen,_Stockholm.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "ArildV",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 111.0,
+   "max": 111.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 360.0,
+   "max": 413.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Larus"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26427"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_gull"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

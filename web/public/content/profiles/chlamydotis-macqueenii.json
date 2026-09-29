@@ -1,0 +1,49 @@
+{
+ "scientific": "Chlamydotis macqueenii",
+ "name": "Macqueen's Bustard",
+ "qid": "Q1262382",
+ "description": "bird species",
+ "extract": "The Asian houbara (Chlamydotis macqueenii), also known as MacQueen's bustard, is a large bird in the bustard family. It is native to the desert and steppe regions of Asia, east from the Sinai Peninsula extending across Iran and further north toward Kazakhstan and Mongolia. In the 19th century, vagrants were found as far west of their range as Great Britain. Populations have decreased by 20–50% between 1984 and 2004 mainly due to hunting and changes in land-use. The Asian houbara is a partial latitudinal migrant while the African houbara (C. undulata) is more sedentary. These two species are the only members of the genus Chlamydotis. The Asian houbara used to be regarded as a subspecies of the African houbara.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/MacQueens_Bustard_in_Greater_Rann_of_Kutch%2C_Gujarat%2C_India.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/MacQueens_Bustard_in_Greater_Rann_of_Kutch%2C_Gujarat%2C_India.jpg/330px-MacQueens_Bustard_in_Greater_Rann_of_Kutch%2C_Gujarat%2C_India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:MacQueens_Bustard_in_Greater_Rann_of_Kutch,_Gujarat,_India.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Kannan AS",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chlamydotis"
+  },
+  "family": {
+   "scientific": "Otididae"
+  },
+  "order": {
+   "scientific": "Otidiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1262382"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Asian_houbara"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

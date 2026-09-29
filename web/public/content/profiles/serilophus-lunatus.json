@@ -1,0 +1,55 @@
+{
+ "scientific": "Serilophus lunatus",
+ "name": "Silver-breasted Broadbill",
+ "qid": "Q263854",
+ "description": "species of bird",
+ "extract": "The silver-breasted broadbill (Serilophus lunatus) is a species of bird in the broadbill family, Eurylaimidae that is found in parts of Southeast Asia. There are seven currently recognised subspecies; the other species in the genus Serilophus, the grey-lored broadbill, was also previously treated as being a subspecies of this species.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Serilophus_lunatus_by_Jason_Thompson.jpg/1280px-Serilophus_lunatus_by_Jason_Thompson.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Serilophus_lunatus_by_Jason_Thompson.jpg/330px-Serilophus_lunatus_by_Jason_Thompson.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Serilophus_lunatus_by_Jason_Thompson.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jason Thompson",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Silverbreastedbroadbill.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Silverbreastedbroadbill.jpg/330px-Silverbreastedbroadbill.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Silverbreastedbroadbill.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Yiwenyiwen",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Serilophus"
+  },
+  "family": {
+   "scientific": "Eurylaimidae",
+   "name": "Broadbill"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q263854"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Silver-breasted_broadbill"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

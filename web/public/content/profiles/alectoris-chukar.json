@@ -1,0 +1,72 @@
+{
+ "scientific": "Alectoris chukar",
+ "name": "Chukar Partridge",
+ "qid": "Q194043",
+ "description": "species of bird",
+ "extract": "The chukar partridge (Alectoris chukar), or simply chukar, is a Palearctic upland gamebird in the pheasant family Phasianidae. It has been considered to form a superspecies complex along with the rock partridge, Philby's partridge and Przevalski's partridge and treated in the past as conspecific particularly with the first. This partridge has well-marked black and white bars on the flanks and a black band running from the forehead across the eye down the head to form a necklace that encloses a white throat. Native to Asia, the species has been introduced into many other places and feral populations have established themselves in parts of North America, Malta and New Zealand. This bird can be found in parts of Middle East and temperate Asia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Chukar_Partridge_%28Alectoris_chukar%29_%2839660989151%29.jpg/1280px-Chukar_Partridge_%28Alectoris_chukar%29_%2839660989151%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Chukar_Partridge_%28Alectoris_chukar%29_%2839660989151%29.jpg/330px-Chukar_Partridge_%28Alectoris_chukar%29_%2839660989151%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chukar_Partridge_(Alectoris_chukar)_(39660989151).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Chukar_Partridge_Leh.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Chukar_Partridge_Leh.jpg/330px-Chukar_Partridge_Leh.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chukar_Partridge_Leh.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Karunakar Rayker from India",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 48.7,
+   "max": 53.3,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 22.5,
+   "max": 650.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Alectoris"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "chukar",
+  "Caccabis chukar",
+  "chukor partridge"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q194043"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chukar_partridge"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

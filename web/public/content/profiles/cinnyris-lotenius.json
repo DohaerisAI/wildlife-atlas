@@ -1,0 +1,55 @@
+{
+ "scientific": "Cinnyris lotenius",
+ "name": "Loten's Sunbird",
+ "qid": "Q3595570",
+ "description": "species of bird",
+ "extract": "Loten's sunbird (Cinnyris lotenius), also known as the long-billed sunbird or maroon-breasted sunbird, is a sunbird endemic to peninsular India and Sri Lanka. Named after Joan Gideon Loten, who was the Dutch governor of colonial Ceylon, it is very similar to the purple sunbird that is found in the same areas and also tends to hover at flowers for nectar, but can be distinguished by the longer bill, the maroon band on the breast and brownish wings. Like other sunbirds, it is also insectivorous and builds characteristic hanging nests.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Loten%27sSunbird%28M%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Loten%27sSunbird%28M%29.jpg/330px-Loten%27sSunbird%28M%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Loten%27sSunbird(M).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Swardeepak",
+   "caption": "Male"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Loten%27sSunbird%28F%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Loten%27sSunbird%28F%29.jpg/330px-Loten%27sSunbird%28F%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Loten%27sSunbird(F).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Swardeepak",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cinnyris"
+  },
+  "family": {
+   "scientific": "Nectariniidae",
+   "name": "sunbird"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3595570"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Loten%27s_sunbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

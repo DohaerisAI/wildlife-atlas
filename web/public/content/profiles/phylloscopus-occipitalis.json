@@ -1,0 +1,51 @@
+{
+ "scientific": "Phylloscopus occipitalis",
+ "name": "Western Crowned Warbler",
+ "qid": "Q3727706",
+ "description": "species of bird",
+ "extract": "The western crowned warbler (Phylloscopus occipitalis) is a leaf warbler which breeds in Central Asia. It winters in the forests of the Western Ghats. It prefers forests with high foliage complexity and tree density.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Western_Crowned_Warbler_%28Phylloscopus_occipitalis%29_%2847956929677%29.jpg/1280px-Western_Crowned_Warbler_%28Phylloscopus_occipitalis%29_%2847956929677%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Western_Crowned_Warbler_%28Phylloscopus_occipitalis%29_%2847956929677%29.jpg/330px-Western_Crowned_Warbler_%28Phylloscopus_occipitalis%29_%2847956929677%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Western_Crowned_Warbler_(Phylloscopus_occipitalis)_(47956929677).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 9.0,
+   "max": 9.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phylloscopus"
+  },
+  "family": {
+   "scientific": "Phylloscopidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3727706"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Western_crowned_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

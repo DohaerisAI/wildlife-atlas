@@ -1,0 +1,54 @@
+{
+ "scientific": "Bubulcus ibis",
+ "name": "Cattle Egret",
+ "qid": "Q132669",
+ "description": "species of bird in the genus Bubulcus",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Bubulcus_ibis_%28Linnaeus%2C_1758%29_5938046541_%283%29.jpg/1280px-Bubulcus_ibis_%28Linnaeus%2C_1758%29_5938046541_%283%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Bubulcus_ibis_%28Linnaeus%2C_1758%29_5938046541_%283%29.jpg/330px-Bubulcus_ibis_%28Linnaeus%2C_1758%29_5938046541_%283%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bubulcus_ibis_(Linnaeus,_1758)_5938046541_(3).jpg",
+   "license": "CC0",
+   "artist": "iNaturalist.org (Patrick Le Mao)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 88.0,
+   "max": 96.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ardea"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Western Cattle Egret"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q132669"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

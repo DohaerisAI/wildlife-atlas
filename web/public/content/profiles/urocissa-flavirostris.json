@@ -1,0 +1,49 @@
+{
+ "scientific": "Urocissa flavirostris",
+ "name": "Yellow-billed Blue Magpie",
+ "qid": "Q671657",
+ "description": "species of bird",
+ "extract": "The yellow-billed blue-magpie or gold-billed magpie (Urocissa flavirostris) is a passerine bird in the family Corvidae, along with crows and jays. It forms a superspecies with the Taiwan blue magpie and the red-billed blue magpie. The species' range covers the northern parts of the Indian subcontinent, including the lower Himalayan foothills, with a disjunct population in Vietnam.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Yellow_Billed_Blue_Magpie-Dogra.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Yellow_Billed_Blue_Magpie-Dogra.jpg/330px-Yellow_Billed_Blue_Magpie-Dogra.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Yellow_Billed_Blue_Magpie-Dogra.jpg",
+   "license": "CC BY 2.0",
+   "artist": "https://www.flickr.com/people/33126323@N04 Rakesh Dogra] from Dehradun, India",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Urocissa"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Gold-billed Magpie"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q671657"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yellow-billed_blue_magpie"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

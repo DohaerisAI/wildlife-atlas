@@ -1,0 +1,59 @@
+{
+ "scientific": "Syrmaticus humiae",
+ "name": "Hume's Pheasant",
+ "qid": "Q852185",
+ "description": "species of bird",
+ "extract": "Mrs Hume's pheasant (Syrmaticus humiae) (Meitei: Nongin; literally, \"one who follows the track of rain\", Mizo: Vavu), also known as Hume's pheasant or the bar-tailed pheasant, is a large forest pheasant. It is the state bird of Mizoram and Manipur. The name commemorates Mary Ann Grindall Hume, wife of the British naturalist Allan Octavian Hume, one of the key founders of the Indian National Congress.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Syrmaticus_humiae.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Syrmaticus_humiae.jpg/330px-Syrmaticus_humiae.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Syrmaticus_humiae.jpg",
+   "license": "Public domain",
+   "artist": "Unknown",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 750.0,
+   "max": 1030.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Syrmaticus"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Humeís pheasant",
+  "Humeis pheasant",
+  "Syrmaticus humaie"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q852185"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mrs._Hume%27s_pheasant"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

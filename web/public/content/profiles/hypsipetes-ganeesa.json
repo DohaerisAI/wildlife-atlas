@@ -1,0 +1,46 @@
+{
+ "scientific": "Hypsipetes ganeesa",
+ "name": "Square-tailed Bulbul",
+ "qid": "Q15707875",
+ "description": "species of bird",
+ "extract": "The square-tailed bulbul (Hypsipetes ganeesa) is a species of songbird in the bulbul family, Pycnonotidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Flickr_-_Rainbirder_-_Square-tailed_Black_Bulbul_%28_Hypsipetes_ganeesa_humii%29_in_the_rain%2C_cropped.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Flickr_-_Rainbirder_-_Square-tailed_Black_Bulbul_%28_Hypsipetes_ganeesa_humii%29_in_the_rain%2C_cropped.jpg/330px-Flickr_-_Rainbirder_-_Square-tailed_Black_Bulbul_%28_Hypsipetes_ganeesa_humii%29_in_the_rain%2C_cropped.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_Rainbirder_-_Square-tailed_Black_Bulbul_(_Hypsipetes_ganeesa_humii)_in_the_rain,_cropped.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Steve Garvie from Dunfermline, Fife, Scotland",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Hypsipetes"
+  },
+  "family": {
+   "scientific": "Pycnonotidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q15707875"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Square-tailed_bulbul"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

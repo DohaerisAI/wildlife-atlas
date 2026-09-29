@@ -1,0 +1,57 @@
+{
+ "scientific": "Phodilus badius",
+ "name": "Oriental Bay Owl",
+ "qid": "Q770529",
+ "description": "species of bird",
+ "extract": "The Oriental bay owl (Phodilus badius) is a species of bay owl. It is completely nocturnal, and can be found throughout Southeast Asia and parts of India. It has several subspecies. It has a heart-shaped face with earlike extensions. The Congo bay owl (Phodilus prigoginei) was formerly classified as a subspecies of Oriental bay owl due to insufficient knowledge, but it has turned out that it might not even belong to the same genus. The Sri Lanka bay owl was also considered a subspecies.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Oriental_bay_owl%2C_Phodilus_badius_-_Khao_Yai_National_Park.jpg/1280px-Oriental_bay_owl%2C_Phodilus_badius_-_Khao_Yai_National_Park.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Oriental_bay_owl%2C_Phodilus_badius_-_Khao_Yai_National_Park.jpg/330px-Oriental_bay_owl%2C_Phodilus_badius_-_Khao_Yai_National_Park.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Oriental_bay_owl,_Phodilus_badius_-_Khao_Yai_National_Park.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Rushenb",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Oriental_bay_owl_%2838209991161%29.jpg/1280px-Oriental_bay_owl_%2838209991161%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Oriental_bay_owl_%2838209991161%29.jpg/330px-Oriental_bay_owl_%2838209991161%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Oriental_bay_owl_(38209991161).jpg",
+   "license": "CC0",
+   "artist": "lonelyshrimp",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phodilus"
+  },
+  "family": {
+   "scientific": "Tytonidae"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q770529"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Oriental_bay_owl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

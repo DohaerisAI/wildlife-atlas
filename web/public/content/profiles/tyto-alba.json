@@ -1,0 +1,75 @@
+{
+ "scientific": "Tyto alba",
+ "name": "Western Barn Owl",
+ "qid": "Q25317",
+ "description": "species of bird",
+ "extract": "The western barn owl (Tyto alba) is a species of barn owl native to Europe, southwestern Asia, and Africa. It was formerly considered a subspecies group together with barn owls native to other parts of the world, but this classification was found to be paraphyletic with respect to some other members of the genus.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Tyto_alba_tylluan_wen_detail.jpg/1280px-Tyto_alba_tylluan_wen_detail.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Tyto_alba_tylluan_wen_detail.jpg/330px-Tyto_alba_tylluan_wen_detail.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tyto_alba_tylluan_wen_detail.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "User:Alun Williams333",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Kerkuil_Andr%C3%A9.JPG/1280px-Kerkuil_Andr%C3%A9.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Kerkuil_Andr%C3%A9.JPG/330px-Kerkuil_Andr%C3%A9.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Kerkuil_Andr%C3%A9.JPG",
+   "license": "CC BY 3.0 nl",
+   "artist": "André Eijkenaar",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 90.0,
+   "max": 90.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 580.0,
+   "max": 580.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tyto"
+  },
+  "family": {
+   "scientific": "Tytonidae"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Strix alba",
+  "common barn-owl",
+  "common barn owl",
+  "barnowl",
+  "white houlet",
+  "barn owl"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25317"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Western_barn_owl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,46 @@
+{
+ "scientific": "Coracina macei",
+ "name": "Large Cuckoo-shrike",
+ "qid": "Q508272",
+ "description": "species of bird",
+ "extract": "The Indian cuckooshrike (Coracina macei) is a species of bird in the cuckooshrike family Campephagidae that is found on the Indian subcontinent. Formerly under the English name \"large cuckooshrike\" this species included many subspecies and had a large range that included Southeast Asia.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Coracina_macei_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Coracina_macei_2.jpg/330px-Coracina_macei_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Coracina_macei_2.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Shanthanu Bhardwaj",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Coracina"
+  },
+  "family": {
+   "scientific": "Campephagidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q508272"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_cuckooshrike"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

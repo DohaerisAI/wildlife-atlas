@@ -1,0 +1,58 @@
+{
+ "scientific": "Pericrocotus flammeus",
+ "name": "Orange Minivet",
+ "qid": "Q605732",
+ "description": "species of bird",
+ "extract": "The orange minivet (Pericrocotus flammeus) is a brightly colored bird in the cuckooshrike family, Campephagidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Pericrocotus_flammeus_-Sri_Lanka_-male-8a.jpg/1280px-Pericrocotus_flammeus_-Sri_Lanka_-male-8a.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Pericrocotus_flammeus_-Sri_Lanka_-male-8a.jpg/330px-Pericrocotus_flammeus_-Sri_Lanka_-male-8a.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pericrocotus_flammeus_-Sri_Lanka_-male-8a.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Hafiz Issadeen from Dharga Town, Sri Lanka",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Pericrocotus_flammeus_-Sri_Lanka_-female-8a.jpg/1280px-Pericrocotus_flammeus_-Sri_Lanka_-female-8a.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Pericrocotus_flammeus_-Sri_Lanka_-female-8a.jpg/330px-Pericrocotus_flammeus_-Sri_Lanka_-female-8a.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pericrocotus_flammeus_-Sri_Lanka_-female-8a.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Hafiz Issadeen from Dharga Town, Sri Lanka",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pericrocotus",
+   "name": "Minivet"
+  },
+  "family": {
+   "scientific": "Campephagidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Scarlet minivet"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q605732"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Orange_minivet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

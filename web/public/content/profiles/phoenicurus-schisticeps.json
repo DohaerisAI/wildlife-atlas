@@ -1,0 +1,59 @@
+{
+ "scientific": "Phoenicurus schisticeps",
+ "name": "White-throated Redstart",
+ "qid": "Q796383",
+ "description": "species of bird",
+ "extract": "The white-throated redstart (Phoenicurus schisticeps) is a species of bird in the family Muscicapidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/White-throated_Redstart.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/White-throated_Redstart.jpg/330px-White-throated_Redstart.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-throated_Redstart.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Prabhakarmanjunath",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/White-throated_Redstart_-_Khangchendzonga_Biosphere_Reserve_-_West_Sikkim%2C_Sikkim%2C_India.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/White-throated_Redstart_-_Khangchendzonga_Biosphere_Reserve_-_West_Sikkim%2C_Sikkim%2C_India.jpg/330px-White-throated_Redstart_-_Khangchendzonga_Biosphere_Reserve_-_West_Sikkim%2C_Sikkim%2C_India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-throated_Redstart_-_Khangchendzonga_Biosphere_Reserve_-_West_Sikkim,_Sikkim,_India.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 18.1,
+   "max": 18.1,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phoenicurus"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q796383"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-throated_redstart"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

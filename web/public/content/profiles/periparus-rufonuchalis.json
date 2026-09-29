@@ -1,0 +1,46 @@
+{
+ "scientific": "Periparus rufonuchalis",
+ "name": "Rufous-naped Tit",
+ "qid": "Q839135",
+ "description": "species of bird",
+ "extract": "The rufous-naped tit (Periparus rufonuchalis), also known as the black-breasted tit or dark-grey tit, is an Asian songbird species in the tit and chickadee family (Paridae). It was sometimes considered conspecific with the rufous-vented tit (P. rubidiventris), and was formerly placed in the genus Parus.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Rufous-naped_Tit_%28Periparus_rufonuchalis%29_%2849185204456%29.jpg/1280px-Rufous-naped_Tit_%28Periparus_rufonuchalis%29_%2849185204456%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Rufous-naped_Tit_%28Periparus_rufonuchalis%29_%2849185204456%29.jpg/330px-Rufous-naped_Tit_%28Periparus_rufonuchalis%29_%2849185204456%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rufous-naped_Tit_(Periparus_rufonuchalis)_(49185204456).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Periparus"
+  },
+  "family": {
+   "scientific": "Paridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q839135"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rufous-naped_tit"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

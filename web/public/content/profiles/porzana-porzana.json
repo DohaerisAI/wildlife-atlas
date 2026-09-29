@@ -1,0 +1,59 @@
+{
+ "scientific": "Porzana porzana",
+ "name": "Spotted Crake",
+ "qid": "Q194024",
+ "description": "species of bird",
+ "extract": "The spotted crake (Porzana porzana) is a small waterbird of the family Rallidae. The scientific name is derived from Venetian terms for small rails.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Porzana_porzana_3_%28Marek_Szczepanek%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Porzana_porzana_3_%28Marek_Szczepanek%29.jpg/330px-Porzana_porzana_3_%28Marek_Szczepanek%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Porzana_porzana_3_(Marek_Szczepanek).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Unknown",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 38.0,
+   "max": 38.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 10.9,
+   "max": 80.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Porzana"
+  },
+  "family": {
+   "scientific": "Rallidae"
+  },
+  "order": {
+   "scientific": "Gruiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q194024"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spotted_crake"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

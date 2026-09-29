@@ -1,0 +1,54 @@
+{
+ "scientific": "Phylloscopus sindianus",
+ "name": "Mountain Chiffchaff",
+ "qid": "Q3729103",
+ "description": "species of bird",
+ "extract": "The mountain chiffchaff or eastern chiffchaff (Phylloscopus sindianus) is a species of leaf warbler found in the Caucasus (P. s. lorenzii) and Tian Shan (P. s. sindianus). It is an altitudinal migrant, moving to lower levels in winter. The nominate subspecies is similar to the Siberian chiffchaff, but with a finer darker bill, browner upperparts and buff flanks; its song is almost identical to the common chiffchaff, but the call is a weak psew. P. s. lorenzii is warmer and darker brown than the nominate race; it is sympatric with common chiffchaff in a small area in the Western Caucasus, but interbreeding occurs rarely, if ever. The mountain chiffchaff differs from tristis in vocalisations, external morphology and mtDNA sequences. Its two subspecies appear to be distinct vocally, and also show some difference in mtDNA sequences.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Phylloscopus_sindianus_1889.jpg/1280px-Phylloscopus_sindianus_1889.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Phylloscopus_sindianus_1889.jpg/330px-Phylloscopus_sindianus_1889.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Phylloscopus_sindianus_1889.jpg",
+   "license": "Public domain",
+   "artist": "Gustav Mützel",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 7.0,
+   "max": 7.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phylloscopus"
+  },
+  "family": {
+   "scientific": "Phylloscopidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "eastern chiffchaff"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3729103"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mountain_chiffchaff"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

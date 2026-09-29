@@ -1,0 +1,75 @@
+{
+ "scientific": "Sula sula",
+ "name": "Red-footed Booby",
+ "qid": "Q217122",
+ "description": "species of seabird",
+ "extract": "The red-footed booby (Sula sula) is a large seabird of the booby family, Sulidae. Adults always have red feet, but the colour of the plumage varies. They are powerful and agile fliers, harnessing the wind to fly efficiently, but they are clumsy in takeoffs and landings. They forage by catching flying fish from above the ocean's surface and by performing shallow dives. They are found widely in the tropics, and breed colonially in coastal regions, especially isolated islands such as St. Brandon, Mauritius (Cargados Carajos shoals), and the Chagos Archipelago. Although its population is declining, it is considered to be a least-concern species by the International Union for Conservation of Nature (IUCN). It faces threats  from climate change, competition with fisheries, human disturbance, and invasive species.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Red-footed_Booby_%28Sula_sula%29_%2822079771838%29.jpg/1280px-Red-footed_Booby_%28Sula_sula%29_%2822079771838%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Red-footed_Booby_%28Sula_sula%29_%2822079771838%29.jpg/330px-Red-footed_Booby_%28Sula_sula%29_%2822079771838%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red-footed_Booby_(Sula_sula)_(22079771838).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Bernard DUPONT from FRANCE",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Parque_Nacional_Marinho_de_Fernando_de_Noronha_Camilla_Bellini_05.jpg/1280px-Parque_Nacional_Marinho_de_Fernando_de_Noronha_Camilla_Bellini_05.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Parque_Nacional_Marinho_de_Fernando_de_Noronha_Camilla_Bellini_05.jpg/330px-Parque_Nacional_Marinho_de_Fernando_de_Noronha_Camilla_Bellini_05.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Marinho_de_Fernando_de_Noronha_Camilla_Bellini_05.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Camilla Bonatto Bellini",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Sula_sula_by_Gregg_Yan_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Sula_sula_by_Gregg_Yan_01.jpg/330px-Sula_sula_by_Gregg_Yan_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sula_sula_by_Gregg_Yan_01.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Gregg Yan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 96.0,
+   "max": 96.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 928.0,
+   "max": 1068.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sula"
+  },
+  "family": {
+   "scientific": "Sulidae"
+  },
+  "order": {
+   "scientific": "Suliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q217122"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-footed_booby"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

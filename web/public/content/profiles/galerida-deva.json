@@ -1,0 +1,46 @@
+{
+ "scientific": "Galerida deva",
+ "name": "Sykes's Lark",
+ "qid": "Q1007616",
+ "description": "species of bird",
+ "extract": "Sykes's lark (Galerida deva) is a species of lark found in the dry open country of India. Its distribution is mainly restricted to central India, although stray records have been found elsewhere on the sub-continent. It is identified by its prominent crest and its overall rufous colouration. It has streaks on its breast which are less prominent than those found in the Oriental skylark.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/A_Sykes%27s_Lark_at_Osman_Sagar%2C_Hyderabad_%2849869179593%29.jpg/1280px-A_Sykes%27s_Lark_at_Osman_Sagar%2C_Hyderabad_%2849869179593%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/A_Sykes%27s_Lark_at_Osman_Sagar%2C_Hyderabad_%2849869179593%29.jpg/330px-A_Sykes%27s_Lark_at_Osman_Sagar%2C_Hyderabad_%2849869179593%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:A_Sykes%27s_Lark_at_Osman_Sagar,_Hyderabad_(49869179593).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Hari K  Patibanda",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Galerida"
+  },
+  "family": {
+   "scientific": "Alaudidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1007616"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sykes%27s_lark"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

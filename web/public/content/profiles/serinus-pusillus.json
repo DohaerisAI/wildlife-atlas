@@ -1,0 +1,54 @@
+{
+ "scientific": "Serinus pusillus",
+ "name": "Fire-fronted Serin",
+ "qid": "Q621833",
+ "description": "species of bird",
+ "extract": "The red-fronted serin or fire-fronted serin (Serinus pusillus) is a small passerine bird in the finch family Fringillidae.  It prefers high mountain regions and is 11–12 cm (4.3–4.7 in) long.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Serinus_pusillus_-_Red-fronted_serin_01.jpg/1280px-Serinus_pusillus_-_Red-fronted_serin_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Serinus_pusillus_-_Red-fronted_serin_01.jpg/330px-Serinus_pusillus_-_Red-fronted_serin_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Serinus_pusillus_-_Red-fronted_serin_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Zeynel Cebeci",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 1.4,
+   "max": 1.4,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Serinus"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Red-fronted Serin"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q621833"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-fronted_serin"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

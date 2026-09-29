@@ -1,0 +1,73 @@
+{
+ "scientific": "Vanellus indicus",
+ "name": "Red-wattled Lapwing",
+ "qid": "Q752398",
+ "description": "species of bird",
+ "extract": "The red-wattled lapwing (Vanellus indicus) is an Asian lapwing or large plover, a wader in the family Charadriidae. Like other lapwings they are ground birds that are incapable of perching. Their characteristic loud alarm calls are indicators of human or animal movements and the sounds have been variously rendered as did he do it or pity to do it leading to the colloquial name of did-he-do-it bird. Usually seen in pairs or small groups not far from water, they sometimes form large aggregations in the non-breeding season (winter). They nest in a ground scrape laying three to four camouflaged eggs. Adults near the nest fly around, diving at potential predators while calling noisily. The cryptically patterned chicks hatch and immediately follow their parents to feed, hiding by lying low on the ground or in the grass when threatened.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Red-wattled_Lapwing_denoised.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Red-wattled_Lapwing_denoised.jpg/330px-Red-wattled_Lapwing_denoised.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red-wattled_Lapwing_denoised.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Red-wattled_Lapwing_cropped.jpg: *Red-wattled_Lapwing.jpg: Karunakar Rayker from India\nderivative work: Samsara (talk)\nderivative work: Samsara",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/SL_Bundala_NP_asv2020-01_img18.jpg/1280px-SL_Bundala_NP_asv2020-01_img18.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/SL_Bundala_NP_asv2020-01_img18.jpg/330px-SL_Bundala_NP_asv2020-01_img18.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:SL_Bundala_NP_asv2020-01_img18.jpg",
+   "license": "FAL",
+   "artist": "A.Savin",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Vanellus_indicus_aigneri_MHNT.ZOO.2010.11.147.1.jpg/1280px-Vanellus_indicus_aigneri_MHNT.ZOO.2010.11.147.1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Vanellus_indicus_aigneri_MHNT.ZOO.2010.11.147.1.jpg/330px-Vanellus_indicus_aigneri_MHNT.ZOO.2010.11.147.1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Vanellus_indicus_aigneri_MHNT.ZOO.2010.11.147.1.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Roger Culos",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 68.3,
+   "max": 68.3,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Vanellus"
+  },
+  "family": {
+   "scientific": "Charadriidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Red-wattled Plover"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q752398"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-wattled_lapwing"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

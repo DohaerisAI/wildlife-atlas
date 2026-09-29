@@ -1,0 +1,64 @@
+{
+ "scientific": "Anthus pratensis",
+ "name": "Meadow Pipit",
+ "qid": "Q26956",
+ "description": "species of bird",
+ "extract": "The meadow pipit (Anthus pratensis) is a small passerine bird that breeds throughout much of the Palearctic, from south-eastern Greenland and Iceland east to just east of the Ural Mountains in Russia, and south to central France and Romania; an isolated population also occurs in the Caucasus Mountains. It is migratory over most of its range, wintering in southern Europe, North Africa, and south-western Asia, but is resident year-round in western Europe, although even here many birds move to the coast or lowlands in winter.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Wiesenpieper_Meadow_pipit.jpg/1280px-Wiesenpieper_Meadow_pipit.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Wiesenpieper_Meadow_pipit.jpg/330px-Wiesenpieper_Meadow_pipit.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wiesenpieper_Meadow_pipit.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Meadow-Pipit.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Meadow-Pipit.jpg/330px-Meadow-Pipit.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Meadow-Pipit.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 26.0,
+   "max": 26.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 2.1,
+   "max": 2.1,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anthus"
+  },
+  "family": {
+   "scientific": "Motacillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26956"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Meadow_pipit"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

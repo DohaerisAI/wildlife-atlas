@@ -1,0 +1,44 @@
+{
+ "scientific": "Aerodramus germani",
+ "name": "German's Swiftlet",
+ "qid": "Q27470",
+ "description": "species of bird",
+ "extract": "The edible-nest swiftlet (Aerodramus fuciphagus), also known as the white-nest swiftlet, is a small bird of the swift family which is found in Southeast Asia. Its opaque and whitish nest is made exclusively of solidified saliva and is the main ingredient of bird's nest soup, a delicacy of Chinese cuisine. Germain's swiftlet (Aerodramus germani) is now treated as conspecific with this species.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/GermansSwiftlet_048.jpg/1280px-GermansSwiftlet_048.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/GermansSwiftlet_048.jpg/330px-GermansSwiftlet_048.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:GermansSwiftlet_048.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "The original uploader was Jimfbleak at English Wikipedia.",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aerodramus"
+  },
+  "family": {
+   "scientific": "Apodidae"
+  },
+  "order": {
+   "scientific": "Apodiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27470"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Edible-nest_swiftlet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

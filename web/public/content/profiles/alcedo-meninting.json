@@ -1,0 +1,45 @@
+{
+ "scientific": "Alcedo meninting",
+ "name": "Blue-eared Kingfisher",
+ "qid": "Q32048",
+ "description": "species of bird",
+ "extract": "The blue-eared kingfisher (Alcedo meninting) is found in Asia, ranging across the Indian subcontinent and Southeast Asia. It is found mainly in dense shaded forests where it hunts in small streams. It is darker crowned, with darker rufous underparts and lacking the rufous ear stripe of the common kingfisher (Alcedo atthis) which is found in more open habitats. A number of subspecies have been described that differ in measurement and colour shade. Adult males have an all dark bill while females have a reddish lower mandible.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Blue-eared_Kingfisher_%28Alcedo_meninting%29_%288071061758%29.jpg/1280px-Blue-eared_Kingfisher_%28Alcedo_meninting%29_%288071061758%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Blue-eared_Kingfisher_%28Alcedo_meninting%29_%288071061758%29.jpg/330px-Blue-eared_Kingfisher_%28Alcedo_meninting%29_%288071061758%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blue-eared_Kingfisher_(Alcedo_meninting)_(8071061758).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Bernard DUPONT from FRANCE",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Alcedo"
+  },
+  "family": {
+   "scientific": "Alcedinidae"
+  },
+  "order": {
+   "scientific": "Coraciiformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q32048"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blue-eared_kingfisher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

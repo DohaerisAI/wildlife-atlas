@@ -1,0 +1,51 @@
+{
+ "scientific": "Tickellia hodgsoni",
+ "name": "Broad-billed warbler",
+ "qid": "Q691183",
+ "description": "species of bird",
+ "extract": "The broad-billed warbler (Tickellia hodgsoni) is a species of bush warbler (family Cettiidae). It was formerly included in the \"Old World warbler\" assemblage, and belongs to the monotypic genus Tickellia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Broad-billed_Warbler_in_Lepcha_Jagat_October_2025_by_Tisha_Mukherjee_01.jpg/1280px-Broad-billed_Warbler_in_Lepcha_Jagat_October_2025_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Broad-billed_Warbler_in_Lepcha_Jagat_October_2025_by_Tisha_Mukherjee_01.jpg/330px-Broad-billed_Warbler_in_Lepcha_Jagat_October_2025_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Broad-billed_Warbler_in_Lepcha_Jagat_October_2025_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 4.5,
+   "max": 4.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tickellia"
+  },
+  "family": {
+   "scientific": "Cettiidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q691183"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Broad-billed_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

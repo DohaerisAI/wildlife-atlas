@@ -1,0 +1,46 @@
+{
+ "scientific": "Pomatorhinus mcclellandi",
+ "name": "Pomatorhinus mcclellandi",
+ "qid": "Q1091284",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Pomatorhinus_mcclellandi.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Pomatorhinus_mcclellandi.jpg/330px-Pomatorhinus_mcclellandi.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pomatorhinus_mcclellandi.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Pkspks",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 51.0,
+   "max": 51.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pomatorhinus"
+  },
+  "family": {
+   "scientific": "Timaliidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Spot-breasted Scimitar Babbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1091284"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

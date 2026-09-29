@@ -1,0 +1,46 @@
+{
+ "scientific": "Corvus palmarum",
+ "name": "Hispaniolan Palm Crow",
+ "qid": "Q1586680",
+ "description": "species of bird",
+ "extract": "The Hispaniolan palm crow (Corvus palmarum) is a relatively small corvid endemic to the Caribbean island of Hispaniola, which is shared by Haiti and the Dominican Republic.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Corvus_palmarum%2C_Duverge%2C_Dominican_Republic_1.jpg/1280px-Corvus_palmarum%2C_Duverge%2C_Dominican_Republic_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Corvus_palmarum%2C_Duverge%2C_Dominican_Republic_1.jpg/330px-Corvus_palmarum%2C_Duverge%2C_Dominican_Republic_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Corvus_palmarum,_Duverge,_Dominican_Republic_1.jpg",
+   "license": "CC BY 4.0",
+   "artist": "ntitelbaum",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Corvus"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1586680"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hispaniolan_palm_crow"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

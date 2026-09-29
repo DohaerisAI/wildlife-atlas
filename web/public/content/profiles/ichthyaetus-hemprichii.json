@@ -1,0 +1,66 @@
+{
+ "scientific": "Ichthyaetus hemprichii",
+ "name": "Sooty Gull",
+ "qid": "Q589869",
+ "description": "species of bird",
+ "extract": "The sooty gull (Ichthyaetus hemprichii) is a species of gull in the family Laridae, also known as the Aden gull or Hemprich's gull. It is found in Bahrain, Djibouti, Egypt, Eritrea, India, Iran, Israel, Jordan, Kenya, Lebanon, Maldives, Mozambique, Oman, Pakistan, Palestine, Qatar, Saudi Arabia, Somalia, Sri Lanka, Sudan, Tanzania, United Arab Emirates, and Yemen. As is the case with many gulls, it has traditionally been placed in the genus Larus. The sooty gull is named in honour of the German naturalist Wilhelm Hemprich who died in 1825 while on a scientific expedition to Egypt and the Middle East with his friend Christian Gottfried Ehrenberg.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Ichthyaetus_hemprichii%2C_Qurayyat%2C_Oman_06.jpg/1280px-Ichthyaetus_hemprichii%2C_Qurayyat%2C_Oman_06.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Ichthyaetus_hemprichii%2C_Qurayyat%2C_Oman_06.jpg/330px-Ichthyaetus_hemprichii%2C_Qurayyat%2C_Oman_06.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ichthyaetus_hemprichii,_Qurayyat,_Oman_06.jpg",
+   "license": "CC BY 4.0",
+   "artist": "williamstephens56",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Ichthyaetus_hemprichii%2C_juvenile%2C_Taqah%2C_Oman_6.jpg/1280px-Ichthyaetus_hemprichii%2C_juvenile%2C_Taqah%2C_Oman_6.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Ichthyaetus_hemprichii%2C_juvenile%2C_Taqah%2C_Oman_6.jpg/330px-Ichthyaetus_hemprichii%2C_juvenile%2C_Taqah%2C_Oman_6.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ichthyaetus_hemprichii,_juvenile,_Taqah,_Oman_6.jpg",
+   "license": "CC BY 4.0",
+   "artist": "christoph_moning",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 105.0,
+   "max": 118.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ichthyaetus"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Larus hemprichii",
+  "Larus hemprichi"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q589869"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sooty_gull"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

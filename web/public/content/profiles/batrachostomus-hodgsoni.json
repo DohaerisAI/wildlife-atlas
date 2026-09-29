@@ -1,0 +1,49 @@
+{
+ "scientific": "Batrachostomus hodgsoni",
+ "name": "Hodgson's Frogmouth",
+ "qid": "Q1260171",
+ "description": "species of bird",
+ "extract": "Hodgson's frogmouth (Batrachostomus hodgsoni) is a species of bird in the family Podargidae. It is found in Bangladesh, Bhutan, China, India, Laos, Myanmar, Thailand, Cambodia and Vietnam. Its natural habitat is temperate forests.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Hodgson%E2%80%99sFrogmouth.jpg/1280px-Hodgson%E2%80%99sFrogmouth.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Hodgson%E2%80%99sFrogmouth.jpg/330px-Hodgson%E2%80%99sFrogmouth.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hodgson%E2%80%99sFrogmouth.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "TonyCastro",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Batrachostomus"
+  },
+  "family": {
+   "scientific": "Podargidae"
+  },
+  "order": {
+   "scientific": "Podargiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1260171"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hodgson%27s_frogmouth"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

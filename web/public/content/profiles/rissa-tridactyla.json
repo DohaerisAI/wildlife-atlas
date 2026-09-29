@@ -1,0 +1,70 @@
+{
+ "scientific": "Rissa tridactyla",
+ "name": "Black-legged Kittiwake",
+ "qid": "Q26612",
+ "description": "species of bird",
+ "extract": "The black-legged kittiwake (Rissa tridactyla) is a seabird species in the gull family Laridae. This species was first described by Carl Linnaeus in his landmark 1758 10th edition of Systema Naturae as Larus tridactylus. The English name is derived from its call, a shrill 'kittee-wa-aaake, kitte-wa-aaake'. In North America, this species is known as the black-legged kittiwake to differentiate it from the red-legged kittiwake, but in Europe, where it is the only member of the genus, it is often known just as kittiwake.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Rissa_tridactyla_%28Vard%C3%B8%2C_2012%29.jpg/1280px-Rissa_tridactyla_%28Vard%C3%B8%2C_2012%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Rissa_tridactyla_%28Vard%C3%B8%2C_2012%29.jpg/330px-Rissa_tridactyla_%28Vard%C3%B8%2C_2012%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rissa_tridactyla_(Vard%C3%B8,_2012).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Yathin S Krishnappa",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Black-legged-Kittiwake.jpg/1280px-Black-legged-Kittiwake.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Black-legged-Kittiwake.jpg/330px-Black-legged-Kittiwake.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-legged-Kittiwake.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 96.0,
+   "max": 96.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 393.0,
+   "max": 443.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Rissa"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Kittiwake"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26612"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-legged_kittiwake"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

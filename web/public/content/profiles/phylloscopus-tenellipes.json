@@ -1,0 +1,46 @@
+{
+ "scientific": "Phylloscopus tenellipes",
+ "name": "Pale-legged Warbler",
+ "qid": "Q1589105",
+ "description": "species of bird",
+ "extract": "The pale-legged leaf warbler (Phylloscopus tenellipes) is a species of Old World warbler in the family Phylloscopidae. The species was first described by Robert Swinhoe in 1860. It is found in Manchuria; it winters in Southeast Asia. Its natural habitat is temperate forests.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Pale-legged_Leaf_Warbler_0A2A8189_%28cropped%29.jpg/1280px-Pale-legged_Leaf_Warbler_0A2A8189_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Pale-legged_Leaf_Warbler_0A2A8189_%28cropped%29.jpg/330px-Pale-legged_Leaf_Warbler_0A2A8189_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pale-legged_Leaf_Warbler_0A2A8189_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "JJ Harrison",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phylloscopus"
+  },
+  "family": {
+   "scientific": "Phylloscopidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1589105"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pale-legged_leaf_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

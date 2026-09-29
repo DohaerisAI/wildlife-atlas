@@ -1,0 +1,46 @@
+{
+ "scientific": "Psittacula caniceps",
+ "name": "Nicobar Parakeet",
+ "qid": "Q1270794",
+ "description": "species of bird",
+ "extract": "The Nicobar parakeet (Psittacula caniceps), also known as Blyth's parakeet, is a parrot in the genus Psittacula,  endemic to the Nicobar Islands of the Indian Ocean. It is one of the largest parakeets, measuring 56 to 60 cm from the top of the head to the tip of the tail and weighing about 224 g.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/PalaeornisCanicepsGould.jpg/1280px-PalaeornisCanicepsGould.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/PalaeornisCanicepsGould.jpg/330px-PalaeornisCanicepsGould.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:PalaeornisCanicepsGould.jpg",
+   "license": "Public domain",
+   "artist": "John Gould",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Psittacula"
+  },
+  "family": {
+   "scientific": "Psittaculidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1270794"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nicobar_parakeet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

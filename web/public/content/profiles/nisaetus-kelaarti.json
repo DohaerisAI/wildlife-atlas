@@ -1,0 +1,60 @@
+{
+ "scientific": "Nisaetus kelaarti",
+ "name": "Legge's Hawk-eagle",
+ "qid": "Q2827839",
+ "description": "species of bird",
+ "extract": "Legge's hawk-eagle (Nisaetus kelaarti) is a bird of prey. Like all eagles, it is in the family Accipitridae. It breeds in the Indian subcontinent, from southern India to Sri Lanka. Its specific name kelaarti honors the physician-zoologist E.F. Kelaart. The English common name honours William Vincent Legge, who described the species in 1878.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Nisaetus_kelaarti_%28Thattekad%2C_Kerala%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Nisaetus_kelaarti_%28Thattekad%2C_Kerala%29.jpg/330px-Nisaetus_kelaarti_%28Thattekad%2C_Kerala%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Nisaetus_kelaarti_(Thattekad,_Kerala).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Yathin S Krishnappa",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/SpizaetusKelaarti.jpg/1280px-SpizaetusKelaarti.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/SpizaetusKelaarti.jpg/330px-SpizaetusKelaarti.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:SpizaetusKelaarti.jpg",
+   "license": "Public domain",
+   "artist": "John Gerrard Keulemans",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Crested_Hawk_E.jpg/1280px-Crested_Hawk_E.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Crested_Hawk_E.jpg/330px-Crested_Hawk_E.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Crested_Hawk_E.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Suriyakumars",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Nisaetus"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2827839"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Legge%27s_hawk-eagle"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

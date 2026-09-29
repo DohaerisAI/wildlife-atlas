@@ -1,0 +1,46 @@
+{
+ "scientific": "Phylloscopus inornatus",
+ "name": "Yellow-browed Warbler",
+ "qid": "Q330318",
+ "description": "species of bird",
+ "extract": "The yellow-browed warbler (Phylloscopus inornatus) is a leaf warbler (family Phylloscopidae) which breeds in the east Palearctic. This warbler is strongly migratory and winters mainly in tropical South Asia and South-east Asia, but also in small numbers in western Europe. Like the rest of Phylloscopidae, it was formerly included in the Old World warbler assemblage.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Phylloscopus_inornatus_456140817.jpg/1280px-Phylloscopus_inornatus_456140817.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Phylloscopus_inornatus_456140817.jpg/330px-Phylloscopus_inornatus_456140817.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Phylloscopus_inornatus_456140817.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Wich’yanan (Jay) Limparungpatthanakij",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phylloscopus"
+  },
+  "family": {
+   "scientific": "Phylloscopidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q330318"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yellow-browed_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

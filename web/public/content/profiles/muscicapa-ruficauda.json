@@ -1,0 +1,28 @@
+{
+ "scientific": "Muscicapa ruficauda",
+ "name": "Rusty-tailed Flycatcher",
+ "qid": "Q1316526",
+ "description": "species of bird",
+ "extract": "",
+ "images": [],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Muscicapa"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1316526"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

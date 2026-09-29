@@ -1,0 +1,57 @@
+{
+ "scientific": "Chroicocephalus brunnicephalus",
+ "name": "Brown-headed Gull",
+ "qid": "Q26064",
+ "description": "species of bird",
+ "extract": "The brown-headed gull (Chroicocephalus brunnicephalus) is a small gull which breeds in the high plateaus of central Asia from Tajikistan to Ordos in Inner Mongolia. It is migratory, wintering on the coasts and large inland lakes of the Indian subcontinent. As is the case with many gulls, was traditionally placed in the genus Larus.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Brown-headed_Gull._in_breeding_plumage.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Brown-headed_Gull._in_breeding_plumage.jpg/330px-Brown-headed_Gull._in_breeding_plumage.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brown-headed_Gull._in_breeding_plumage.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Mvshreeram",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 33.0,
+   "max": 33.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chroicocephalus"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Larus brunnicephalus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26064"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown-headed_gull"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

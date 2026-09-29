@@ -1,0 +1,59 @@
+{
+ "scientific": "Anastomus lamelligerus",
+ "name": "African Openbill",
+ "qid": "Q26902",
+ "description": "species of bird",
+ "extract": "The African openbill (Anastomus lamelligerus) is a species of stork from the family Ciconiidae. It is widely distributed in Sub-Saharan Africa and western regions of Madagascar. This species is considered common to locally abundant across its range, although it has a patchy distribution. Some experts consider there to be two sub-species, A. l. lamelligerus distributed on the continent and A. l. madagascariensis living on the island of Madagascar. Scientists distinguish between the two sub-species due to the more pronounced longitudinal ridges on the bills of adult A. l. madagascariensis. The Asian openbill (Anastomus oscitans) found in Asia is the African openbill's closest relative. The two species share the same notably large bill of a peculiar shape that gives them their name.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/African_Openbill.jpg/1280px-African_Openbill.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/African_Openbill.jpg/330px-African_Openbill.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:African_Openbill.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "ColdCalifornian",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/African_Openbill_%28Anastomus_lamelligerus%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/African_Openbill_%28Anastomus_lamelligerus%29.jpg/330px-African_Openbill_%28Anastomus_lamelligerus%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:African_Openbill_(Anastomus_lamelligerus).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee Yap",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anastomus",
+   "name": "Openbill stork"
+  },
+  "family": {
+   "scientific": "Ciconiidae",
+   "name": "stork"
+  },
+  "order": {
+   "scientific": "Ciconiiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26902"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/African_openbill"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,62 @@
+{
+ "scientific": "Tarsiger cyanurus",
+ "name": "Red-flanked Bluetail",
+ "qid": "Q129219",
+ "description": "species of bird",
+ "extract": "The red-flanked bluetail (Tarsiger cyanurus), also known as the orange-flanked bush-robin, is a small passerine bird in the Old World flycatcher family. It breeds in mixed coniferous forests in northern Asia, parts of central Asia, and northeastern Europe. It is migratory, wintering mainly in southeast Asia, in the Indian subcontinent, the Himalayas, Taiwan, and northern Indochina.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Tarsiger_cyanurus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Tarsiger_cyanurus.jpg/330px-Tarsiger_cyanurus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tarsiger_cyanurus.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "M.Nishimura",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Ruribitakif1.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Ruribitakif1.JPG/330px-Ruribitakif1.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Ruribitakif1.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Materialscientist (talk)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 1.9,
+   "max": 14.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tarsiger"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "orange-flanked bush-robin"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q129219"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-flanked_bluetail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

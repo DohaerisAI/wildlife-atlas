@@ -1,0 +1,49 @@
+{
+ "scientific": "Treron chloropterus",
+ "name": "Andaman Green-Pigeon",
+ "qid": "Q10827838",
+ "description": "species of bird",
+ "extract": "The Andaman green pigeon (Treron chloropterus) is a pigeon in the genus Treron. It is found in the Andaman and Nicobar Islands. Many authorities split the species from the pompadour green pigeon complex. It was first added to the IUCN Red List in July 2014.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Andaman_Green-pigeon_flight.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Andaman_Green-pigeon_flight.JPG/330px-Andaman_Green-pigeon_flight.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Andaman_Green-pigeon_flight.JPG",
+   "license": "CC BY-SA 4.0",
+   "artist": "T R Shankar Raman",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Treron"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q10827838"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Andaman_green_pigeon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -3,10 +3,11 @@
  "name": "Demoiselle Crane",
  "qid": "Q23759614",
  "description": "species of bird",
- "extract": "",
+ "extract": "The demoiselle crane (Grus virgo) is a species of crane found in central Eurosiberia, ranging from the Black Sea to Mongolia and Northeast China. There is also a small breeding population in Turkey. These cranes are migratory birds. Birds from western Eurasia will spend the winter in Africa while the birds from Asia, Mongolia and China will spend the winter in the Indian subcontinent. The bird is symbolically significant in the culture of India, where it is known as koonj or kurjaa.",
  "images": [
   {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Demoiselle_Cranes_at_Tal_Chappar.jpg/960px-Demoiselle_Cranes_at_Tal_Chappar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Demoiselle_Cranes_at_Tal_Chappar.jpg/1280px-Demoiselle_Cranes_at_Tal_Chappar.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Demoiselle_Cranes_at_Tal_Chappar.jpg/330px-Demoiselle_Cranes_at_Tal_Chappar.jpg",
    "page": "https://commons.wikimedia.org/wiki/File:Demoiselle_Cranes_at_Tal_Chappar.jpg",
    "license": "CC BY-SA 3.0",
    "artist": "Sumeet Moghe",
@@ -14,10 +15,29 @@
   }
  ],
  "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Grus"
+  },
+  "family": {
+   "scientific": "Gruidae"
+  },
+  "order": {
+   "scientific": "Gruiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
  "sources": [
   {
    "label": "Wikidata",
    "url": "https://www.wikidata.org/wiki/Q23759614"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Demoiselle_crane"
   }
  ],
  "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."

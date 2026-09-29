@@ -1,0 +1,70 @@
+{
+ "scientific": "Microcarbo niger",
+ "name": "Little Cormorant",
+ "qid": "Q72260",
+ "description": "species of bird",
+ "extract": "The little cormorant (Microcarbo niger) is a member of the cormorant family of seabirds. Slightly smaller than the Indian cormorant it lacks a peaked head and has a shorter beak. It is widely distributed across the Indian subcontinent and extends east to Java, where it is sometimes called the Javanese cormorant. It forages singly or sometimes in loose groups in lowland freshwater bodies, including small ponds, large lakes, streams and sometimes coastal estuaries. Like other cormorants, it is often found perched on a waterside rock with its wings spread out after coming out of the water. The entire body is black in the breeding season but the plumage is brownish, and the throat has a small whitish patch in the non-breeding season. These birds breed gregariously in trees, often joining other waterbirds at heronries.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Little_Cormorant%2C_Balapitiya%2C_Sri_Lanka_%287568505286%29.jpg/1280px-Little_Cormorant%2C_Balapitiya%2C_Sri_Lanka_%287568505286%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Little_Cormorant%2C_Balapitiya%2C_Sri_Lanka_%287568505286%29.jpg/330px-Little_Cormorant%2C_Balapitiya%2C_Sri_Lanka_%287568505286%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Little_Cormorant,_Balapitiya,_Sri_Lanka_(7568505286).jpg",
+   "license": "CC BY 2.0",
+   "artist": "shankar s. from Dubai, united arab emirates",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/SL_Bundala_NP_asv2020-01_img11.jpg/1280px-SL_Bundala_NP_asv2020-01_img11.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/SL_Bundala_NP_asv2020-01_img11.jpg/330px-SL_Bundala_NP_asv2020-01_img11.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:SL_Bundala_NP_asv2020-01_img11.jpg",
+   "license": "FAL",
+   "artist": "A.Savin",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 90.0,
+   "max": 90.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 427.0,
+   "max": 427.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Microcarbo"
+  },
+  "family": {
+   "scientific": "Phalacrocoracidae"
+  },
+  "order": {
+   "scientific": "Suliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Phalacrocorax niger"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q72260"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Little_cormorant"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

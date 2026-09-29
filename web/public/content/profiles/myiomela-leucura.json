@@ -1,0 +1,62 @@
+{
+ "scientific": "Myiomela leucura",
+ "name": "White-tailed Robin",
+ "qid": "Q1589083",
+ "description": "species of bird",
+ "extract": "The white-tailed robin (Myiomela leucura) is an Old World flycatcher in the family Muscicapidae.  It ranges across the northern regions of the Indian subcontinent and adjacent areas of Southeast Asia. It is found in Bangladesh, Bhutan, Cambodia, India, Laos, Malaysia, Myanmar, Nepal, Taiwan, Thailand, and Vietnam. Its natural habitats are subtropical or tropical moist lowland forest and subtropical or tropical moist montane forest.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Myiomela_leucura_-_Mae_Wong.jpg/1280px-Myiomela_leucura_-_Mae_Wong.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Myiomela_leucura_-_Mae_Wong.jpg/330px-Myiomela_leucura_-_Mae_Wong.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Myiomela_leucura_-_Mae_Wong.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Cinclidium_leucurum_female_-_Ang_Khang.jpg/1280px-Cinclidium_leucurum_female_-_Ang_Khang.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Cinclidium_leucurum_female_-_Ang_Khang.jpg/330px-Cinclidium_leucurum_female_-_Ang_Khang.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cinclidium_leucurum_female_-_Ang_Khang.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 25.0,
+   "max": 25.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Myiomela"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "White-tailed blue robin"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1589083"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-tailed_robin"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,57 @@
+{
+ "scientific": "Calidris pygmaea",
+ "name": "Spoon-billed Sandpiper",
+ "qid": "Q28065684",
+ "description": "species of bird",
+ "extract": "The spoon-billed sandpiper (Calidris pygmaea) is a small wader which breeds on the coasts of the Bering Sea and winters in Southeast Asia. This species is highly threatened, and it is said that since the 1970s the breeding population has decreased significantly. By 2000, the estimated breeding population of the species was 350–500.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Skeryle_han_p%C3%A5_ynglepladsen.jpg/1280px-Skeryle_han_p%C3%A5_ynglepladsen.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Skeryle_han_p%C3%A5_ynglepladsen.jpg/330px-Skeryle_han_p%C3%A5_ynglepladsen.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Skeryle_han_p%C3%A5_ynglepladsen.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "MadsSyndergaard",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Eurynorhynchus_pygmeus_2_-_Pak_Thale.jpg/1280px-Eurynorhynchus_pygmeus_2_-_Pak_Thale.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Eurynorhynchus_pygmeus_2_-_Pak_Thale.jpg/330px-Eurynorhynchus_pygmeus_2_-_Pak_Thale.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eurynorhynchus_pygmeus_2_-_Pak_Thale.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "CR",
+   "label": "Critically Endangered"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Calidris"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q28065684"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spoon-billed_sandpiper"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

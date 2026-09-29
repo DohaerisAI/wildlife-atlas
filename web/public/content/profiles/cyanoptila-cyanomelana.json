@@ -1,0 +1,54 @@
+{
+ "scientific": "Cyanoptila cyanomelana",
+ "name": "Blue-and-white Flycatcher",
+ "qid": "Q73477",
+ "description": "species of bird",
+ "extract": "The blue-and-white flycatcher (Cyanoptila cyanomelana) is a migratory songbird in the Old World flycatcher family Muscicapidae. The species is also known as the Japanese flycatcher. It breeds in Japan, Korea, and in parts of north eastern China and the Russian Far East. It winters in South East Asia, especially in Vietnam, Cambodia, Thailand, Sumatra and Borneo. This species has been recorded as a vagrant from the Sinharaja Rainforest in Sri Lanka in 2014.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Blue-and-white_Flycatcher.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Blue-and-white_Flycatcher.jpg/330px-Blue-and-white_Flycatcher.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blue-and-white_Flycatcher.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Flickr user arudhio . Photo uploaded to commons by user ltshears",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 23.0,
+   "max": 23.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cyanoptila"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Blue and white flycatcher"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q73477"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blue-and-white_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

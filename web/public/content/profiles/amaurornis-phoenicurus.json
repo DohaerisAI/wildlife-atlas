@@ -1,0 +1,54 @@
+{
+ "scientific": "Amaurornis phoenicurus",
+ "name": "White-breasted Waterhen",
+ "qid": "Q862825",
+ "description": "species of bird",
+ "extract": "The white-breasted waterhen (Amaurornis phoenicurus) is a waterbird of the rail and crake family, Rallidae, that is widely distributed across South and Southeast Asia. They are dark slaty birds with a clean white face, breast and belly. They are somewhat bolder than most other rails and are often seen stepping slowly with their tail cocked upright in open marshes or even drains near busy roads. They are largely crepuscular in activity and during the breeding season, just after the first rains, make loud and repetitive croaking calls.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/White_breasted_Waterhen_I4-Bhopal_IMG_0515.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/White_breasted_Waterhen_I4-Bhopal_IMG_0515.jpg/330px-White_breasted_Waterhen_I4-Bhopal_IMG_0515.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White_breasted_Waterhen_I4-Bhopal_IMG_0515.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 49.0,
+   "max": 49.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Amaurornis"
+  },
+  "family": {
+   "scientific": "Rallidae"
+  },
+  "order": {
+   "scientific": "Gruiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q862825"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-breasted_waterhen"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -3,24 +3,27 @@
  "name": "Indian Golden Oriole",
  "qid": "Q1308173",
  "description": "species of bird",
- "extract": "The Indian golden oriole is a species of oriole found in the Indian subcontinent and Central Asia. The species was formerly considered to be a subspecies of the Eurasian golden oriole, but is now considered a full species. Adults can be told apart from the Eurasian golden oriole by the black of the eye stripe extending behind the eye.",
+ "extract": "The Indian golden oriole (Oriolus kundoo) is a species of oriole found in the Indian subcontinent and Central Asia. The species was formerly considered to be a subspecies of the Eurasian golden oriole, but is now considered a full species. Adults can be told apart from the Eurasian golden oriole by the black of the eye stripe extending behind the eye.",
  "images": [
   {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/IndianGoldenOriole_M.jpg/960px-IndianGoldenOriole_M.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/IndianGoldenOriole_M.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/IndianGoldenOriole_M.jpg/330px-IndianGoldenOriole_M.jpg",
    "page": "https://commons.wikimedia.org/wiki/File:IndianGoldenOriole_M.jpg",
    "license": "CC BY 4.0",
    "artist": "Swardeepak",
    "caption": ""
   },
   {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/IndianGoldenOriole_F.jpg/960px-IndianGoldenOriole_F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/IndianGoldenOriole_F.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/IndianGoldenOriole_F.jpg/330px-IndianGoldenOriole_F.jpg",
    "page": "https://commons.wikimedia.org/wiki/File:IndianGoldenOriole_F.jpg",
    "license": "CC BY 4.0",
    "artist": "Swardeepak",
    "caption": "Female"
   },
   {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Indian_Golden_Oriole_in_Kuldiha_Wildlife_Sanctuary_March_2025_by_Tisha_Mukherjee_01.jpg/960px-Indian_Golden_Oriole_in_Kuldiha_Wildlife_Sanctuary_March_2025_by_Tisha_Mukherjee_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Indian_Golden_Oriole_in_Kuldiha_Wildlife_Sanctuary_March_2025_by_Tisha_Mukherjee_01.jpg/1280px-Indian_Golden_Oriole_in_Kuldiha_Wildlife_Sanctuary_March_2025_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Indian_Golden_Oriole_in_Kuldiha_Wildlife_Sanctuary_March_2025_by_Tisha_Mukherjee_01.jpg/330px-Indian_Golden_Oriole_in_Kuldiha_Wildlife_Sanctuary_March_2025_by_Tisha_Mukherjee_01.jpg",
    "page": "https://commons.wikimedia.org/wiki/File:Indian_Golden_Oriole_in_Kuldiha_Wildlife_Sanctuary_March_2025_by_Tisha_Mukherjee_01.jpg",
    "license": "CC BY-SA 4.0",
    "artist": "Tisha Mukherjee",
@@ -31,6 +34,18 @@
   "status": {
    "code": "LC",
    "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Oriolus"
+  },
+  "family": {
+   "scientific": "Oriolidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
   }
  },
  "sources": [

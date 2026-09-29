@@ -1,0 +1,44 @@
+{
+ "scientific": "Tyto javanica",
+ "name": "Eastern Barn Owl",
+ "qid": "Q30588297",
+ "description": "species of bird",
+ "extract": "The Eastern barn owl (Tyto javanica) is usually considered a subspecies group and together with the American barn owl group, the western barn owl group, and sometimes the Andaman masked owl make up the genus Tyto.  The cosmopolitan barn owl is recognized by most taxonomic authorities. A few (including the International Ornithologists' Union) separate them into distinct species, as is done here. The eastern barn owl is native to southeastern Asia, New Zealand, and Australasia.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Pacific_Barn_owl_by_wattol_-_Christopher_Watson.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Pacific_Barn_owl_by_wattol_-_Christopher_Watson.jpg/330px-Pacific_Barn_owl_by_wattol_-_Christopher_Watson.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pacific_Barn_owl_by_wattol_-_Christopher_Watson.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Christopher Watson (http://www.comebirdwatching.blogspot.com/)",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tyto"
+  },
+  "family": {
+   "scientific": "Tytonidae"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q30588297"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eastern_barn_owl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

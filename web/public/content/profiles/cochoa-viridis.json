@@ -1,0 +1,59 @@
+{
+ "scientific": "Cochoa viridis",
+ "name": "Green Cochoa",
+ "qid": "Q1585763",
+ "description": "species of bird",
+ "extract": "The green cochoa (Cochoa viridis) is a bird species that was variously placed with the thrushes of family Turdidae or the related Muscicapidae (Old World flycatchers). It is considered closer to the former.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Cochoa_viridis_2.jpg/1280px-Cochoa_viridis_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Cochoa_viridis_2.jpg/330px-Cochoa_viridis_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cochoa_viridis_2.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Umeshsrinivasan",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/C%C3%B4_C%C3%B4_Xanh_chim_m%C3%A1i_%28femal%29.jpg/1280px-C%C3%B4_C%C3%B4_Xanh_chim_m%C3%A1i_%28femal%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/C%C3%B4_C%C3%B4_Xanh_chim_m%C3%A1i_%28femal%29.jpg/330px-C%C3%B4_C%C3%B4_Xanh_chim_m%C3%A1i_%28femal%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:C%C3%B4_C%C3%B4_Xanh_chim_m%C3%A1i_(femal).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Khoitran1957",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 93.0,
+   "max": 119.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cochoa"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1585763"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Green_cochoa"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,19 +1,21 @@
 {
  "scientific": "Motacilla cinerea",
- "name": "Grey wagtail",
+ "name": "Gray Wagtail",
  "qid": "Q201316",
  "description": "species of bird",
- "extract": "The grey wagtail is a member of the wagtail family, Motacillidae, measuring around 18–19 cm overall length. The species looks somewhat similar to the yellow wagtail but has the yellow on its underside restricted to the throat and vent. Breeding males have a black throat. The species is widely distributed, with several populations breeding in Eurosiberia and migrating to tropical regions in Asia and Africa. The species is always associated with running water when breeding, although they may use man-made structures near streams for the nest. Outside the breeding season, they may also be seen around lakes, coasts and other watery habitats. Like other wagtails, they frequently wag their tail and fly low with undulations and they have a sharp call that is often given in flight.",
+ "extract": "The grey wagtail (Motacilla cinerea) is a member of the wagtail family, Motacillidae, measuring around 18–19 cm overall length. The species looks somewhat similar to the yellow wagtail but has the yellow on its underside restricted to the throat and vent. Breeding males have a black throat. The species is widely distributed, with several populations breeding in Eurosiberia and migrating to tropical regions in Asia and Africa. The species is always associated with running water when breeding, although they may use man-made structures near streams for the nest. Outside the breeding season, they may also be seen around lakes, coasts and other watery habitats. Like other wagtails, they frequently wag their tail and fly low with undulations and they have a sharp call that is often given in flight.",
  "images": [
   {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Ter%C3%AEhejoka_bo%C3%A7ikzer.jpg/960px-Ter%C3%AEhejoka_bo%C3%A7ikzer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Ter%C3%AEhejoka_bo%C3%A7ikzer.jpg/1280px-Ter%C3%AEhejoka_bo%C3%A7ikzer.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Ter%C3%AEhejoka_bo%C3%A7ikzer.jpg/330px-Ter%C3%AEhejoka_bo%C3%A7ikzer.jpg",
    "page": "https://commons.wikimedia.org/wiki/File:Ter%C3%AEhejoka_bo%C3%A7ikzer.jpg",
    "license": "CC BY-SA 3.0",
    "artist": "Dûrzan cîrano",
    "caption": ""
   },
   {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Grey_Wagtail_Motacilla_cinerea_%2839682090233%29.jpg/960px-Grey_Wagtail_Motacilla_cinerea_%2839682090233%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Grey_Wagtail_Motacilla_cinerea_%2839682090233%29.jpg/1280px-Grey_Wagtail_Motacilla_cinerea_%2839682090233%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Grey_Wagtail_Motacilla_cinerea_%2839682090233%29.jpg/330px-Grey_Wagtail_Motacilla_cinerea_%2839682090233%29.jpg",
    "page": "https://commons.wikimedia.org/wiki/File:Grey_Wagtail_Motacilla_cinerea_(39682090233).jpg",
    "license": "CC BY 2.0",
    "artist": "gailhampshire from Cradley, Malvern, U.K",
@@ -36,6 +38,22 @@
    "label": "Least Concern"
   }
  },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Motacilla"
+  },
+  "family": {
+   "scientific": "Motacillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Motacilla (Calobates) cinerea",
+  "Grey Wagtail"
+ ],
  "sources": [
   {
    "label": "Wikidata",

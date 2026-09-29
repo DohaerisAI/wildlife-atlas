@@ -1,0 +1,50 @@
+{
+ "scientific": "Mirafra affinis",
+ "name": "Jerdon's Bush Lark",
+ "qid": "Q945213",
+ "description": "species of bird",
+ "extract": "Jerdon's bush lark (Plocealauda affinis) or Jerdon's lark is a species of lark in the family Alaudidae found in south Asia. This was formerly placed in the genus Mirafra and considered as a subspecies of Mirafra assamica and termed as the Madras bushlark. Two other species in the complex include Mirafra marionae and Mirafra microptera. Jerdon's bush lark is typically very pale on the underside",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Jerdon%27s_bushlark_%28Mirafra_affinis%29.jpg/1280px-Jerdon%27s_bushlark_%28Mirafra_affinis%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Jerdon%27s_bushlark_%28Mirafra_affinis%29.jpg/330px-Jerdon%27s_bushlark_%28Mirafra_affinis%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Jerdon%27s_bushlark_(Mirafra_affinis).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Plocealauda"
+  },
+  "family": {
+   "scientific": "Alaudidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Jerdon's bushlark",
+  "Plocealauda affinis"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q945213"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jerdon%27s_bush_lark"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

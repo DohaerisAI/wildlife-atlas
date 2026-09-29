@@ -1,0 +1,51 @@
+{
+ "scientific": "Gampsorhynchus rufulus",
+ "name": "White-hooded babbler",
+ "qid": "Q1442318",
+ "description": "species of bird",
+ "extract": "The white-hooded babbler (Gampsorhynchus rufulus) is a species of bird in the family Pellorneidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/White-hooded_Babbler_-_Central_Thailand_S4E5030_%2818924793224%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/White-hooded_Babbler_-_Central_Thailand_S4E5030_%2818924793224%29.jpg/330px-White-hooded_Babbler_-_Central_Thailand_S4E5030_%2818924793224%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-hooded_Babbler_-_Central_Thailand_S4E5030_(18924793224).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 43.0,
+   "max": 43.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Gampsorhynchus"
+  },
+  "family": {
+   "scientific": "Pellorneidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1442318"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-hooded_babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

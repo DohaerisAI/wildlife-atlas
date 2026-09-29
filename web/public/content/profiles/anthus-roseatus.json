@@ -1,0 +1,51 @@
+{
+ "scientific": "Anthus roseatus",
+ "name": "Rosy Pipit",
+ "qid": "Q1586314",
+ "description": "species of bird",
+ "extract": "The Rosy pipit (Anthus roseatus) is a species of bird in the family Motacillidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Rosy_Pipit_%28Anthus_roseatus%29_%2848340040127%29.jpg/1280px-Rosy_Pipit_%28Anthus_roseatus%29_%2848340040127%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Rosy_Pipit_%28Anthus_roseatus%29_%2848340040127%29.jpg/330px-Rosy_Pipit_%28Anthus_roseatus%29_%2848340040127%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rosy_Pipit_(Anthus_roseatus)_(48340040127).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 21.0,
+   "max": 21.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anthus"
+  },
+  "family": {
+   "scientific": "Motacillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1586314"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rosy_pipit"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

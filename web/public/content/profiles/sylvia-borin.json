@@ -1,0 +1,51 @@
+{
+ "scientific": "Sylvia borin",
+ "name": "Garden Warbler",
+ "qid": "Q202478",
+ "description": "species of bird",
+ "extract": "The garden warbler (Sylvia borin) is a common and widespread small bird that breeds in most of Europe and in the Palearctic to western Siberia. It is a plain, long-winged and long-tailed warbler with brown upperparts and dull white underparts; the sexes are similar and juveniles resemble the adults. Its two subspecies differ only slightly and interbreed where their ranges overlap. Due to its lack of distinguishing features, this species can be confused with a number of other unstreaked warblers. The garden warbler's rich melodic song is similar to that of the blackcap, its closest relative, which competes with it for territory when nesting in the same woodland.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Sylvia_borin_%28%C3%96rebro_County%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Sylvia_borin_%28%C3%96rebro_County%29.jpg/330px-Sylvia_borin_%28%C3%96rebro_County%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sylvia_borin_(%C3%96rebro_County).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Biillyboy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 22.0,
+   "max": 22.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sylvia"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q202478"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Garden_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

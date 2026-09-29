@@ -1,0 +1,45 @@
+{
+ "scientific": "Picus chlorolophus",
+ "name": "Lesser Yellownape Woodpecker",
+ "qid": "Q1273697",
+ "description": "species of bird",
+ "extract": "The lesser yellownape (Picus chlorolophus) is a type of woodpecker which is a widespread and often common breeder in tropical and sub-tropical Asia, primarily the Indian subcontinent and Southeast Asia.  It ranges from India, Bhutan, Nepal, Bangladesh and Sri Lanka eastwards to Thailand, Burma, Cambodia, Laos, Indonesia, Malaysia and Vietnam. Much of the scientific knowledge gathered about this species is sourced from formal studies in various parts of India.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Lesser_Yellownape_Female_%2846120107162%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Lesser_Yellownape_Female_%2846120107162%29.jpg/330px-Lesser_Yellownape_Female_%2846120107162%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lesser_Yellownape_Female_(46120107162).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Koshy Koshy from Faridabad, Haryana, India",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Picus"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1273697"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lesser_yellownape"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,58 @@
+{
+ "scientific": "Oceanodroma monorhis",
+ "name": "Swinhoe's Storm Petrel",
+ "qid": "Q1658724",
+ "description": "species of bird",
+ "extract": "Swinhoe's storm petrel or Swinhoe's petrel (Hydrobates monorhis) is a small, all-brown seabird of the storm petrel family Hydrobatidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/OceanodromaMonorhisSmit.jpg/1280px-OceanodromaMonorhisSmit.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/OceanodromaMonorhisSmit.jpg/330px-OceanodromaMonorhisSmit.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:OceanodromaMonorhisSmit.jpg",
+   "license": "Public domain",
+   "artist": "Joseph Smit",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 44.0,
+   "max": 50.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Oceanodroma"
+  },
+  "family": {
+   "scientific": "Hydrobatidae"
+  },
+  "order": {
+   "scientific": "Procellariiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Swinhoe's Petrel",
+  "Hydrobates monorhis"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1658724"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Swinhoe%27s_storm_petrel"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

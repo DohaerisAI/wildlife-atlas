@@ -1,0 +1,46 @@
+{
+ "scientific": "Sphenocichla roberti",
+ "name": "Sphenocichla roberti",
+ "qid": "Q1315045",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/SphenocichlaRobertiGodwinAusten.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/SphenocichlaRobertiGodwinAusten.jpg/330px-SphenocichlaRobertiGodwinAusten.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:SphenocichlaRobertiGodwinAusten.jpg",
+   "license": "Public domain",
+   "artist": "H. H. Godwin-Austen",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 36.0,
+   "max": 36.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sphenocichla"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Cachar wedge-billed babbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1315045"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

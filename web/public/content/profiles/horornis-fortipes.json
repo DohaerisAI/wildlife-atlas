@@ -1,0 +1,51 @@
+{
+ "scientific": "Horornis fortipes",
+ "name": "Brownish-flanked Bush Warbler",
+ "qid": "Q27075466",
+ "description": "species of bird",
+ "extract": "The brown-flanked bush warbler (Horornis fortipes), also known as the brownish-flanked bush warbler, is a species of bush-warbler of the family Cettiidae. It was formerly included in the \"Old World warbler\" assemblage.  It is found in Himalayas, South China and Southeast Asia.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Brownish-flanked_Bush_Warbler_I_IMG_6777.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Brownish-flanked_Bush_Warbler_I_IMG_6777.jpg/330px-Brownish-flanked_Bush_Warbler_I_IMG_6777.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brownish-flanked_Bush_Warbler_I_IMG_6777.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 10.0,
+   "max": 10.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Horornis"
+  },
+  "family": {
+   "scientific": "Cettiidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075466"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown-flanked_bush_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

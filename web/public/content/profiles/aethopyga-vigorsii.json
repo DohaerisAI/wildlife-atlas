@@ -1,0 +1,50 @@
+{
+ "scientific": "Aethopyga vigorsii",
+ "name": "Vigors's Sunbird",
+ "qid": "Q5420068",
+ "description": "species of bird",
+ "extract": "Vigors's sunbird (Aethopyga vigorsii), Sahyadri sunbird, or western crimson sunbird, is a species of sunbird which is endemic to the Western Ghats of India. It has been considered as a subspecies of the crimson sunbird (Aethopyga siparaja) but it does not have the central tail as elongated and is restricted in its distribution.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Vigors%27s_Sunbird_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_03.jpg/1280px-Vigors%27s_Sunbird_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_03.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Vigors%27s_Sunbird_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_03.jpg/330px-Vigors%27s_Sunbird_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_03.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Vigors%27s_Sunbird_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_03.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aethopyga"
+  },
+  "family": {
+   "scientific": "Nectariniidae",
+   "name": "sunbird"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "western crimson sunbird"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q5420068"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Vigors%27s_sunbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

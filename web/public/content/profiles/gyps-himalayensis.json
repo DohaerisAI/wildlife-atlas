@@ -1,0 +1,57 @@
+{
+ "scientific": "Gyps himalayensis",
+ "name": "Himalayan Vulture",
+ "qid": "Q643101",
+ "description": "species of bird",
+ "extract": "The Himalayan vulture (Gyps himalayensis) or Himalayan griffon vulture is an Old World vulture native to the Himalayas and foothills in North and Northeastern India, as well as the adjacent Tibetan Plateau. After the cinereous vulture (Aegypius monachus), it is the second-largest Old World vulture species, and among the world's largest true raptors. It is listed as Near Threatened on the IUCN Red List. It is not to be confused with the Eurasian griffon vulture (Gyps fulvus), which is a visually similar, sympatric species.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Himalayan_Vulture_%28by_a_road%29_%282926948182%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Himalayan_Vulture_%28by_a_road%29_%282926948182%29.jpg/330px-Himalayan_Vulture_%28by_a_road%29_%282926948182%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Himalayan_Vulture_(by_a_road)_(2926948182).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jan Reurink from Netherlands",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 289.6,
+   "max": 289.6,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Gyps"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Himalayan griffon vulture"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q643101"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Himalayan_vulture"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

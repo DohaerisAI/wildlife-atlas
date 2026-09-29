@@ -1,0 +1,54 @@
+{
+ "scientific": "Loriculus vernalis",
+ "name": "Vernal Hanging Parrot",
+ "qid": "Q1260153",
+ "description": "species of bird",
+ "extract": "The vernal hanging parrot (Loriculus vernalis) is a small parrot which is a resident breeder in the Indian subcontinent and some other areas of Southeast Asia. It undergoes local movements, driven mainly by the availability of the fruit, seeds, buds and blossoms that make up its diet. They frequent the banyan tree for the fruit and plantain trees for the nectar from the flowers.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Loriculus_vernalis_-Ganeshgudi%2C_Karnataka%2C_India_-male-8-1c.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Loriculus_vernalis_-Ganeshgudi%2C_Karnataka%2C_India_-male-8-1c.jpg/330px-Loriculus_vernalis_-Ganeshgudi%2C_Karnataka%2C_India_-male-8-1c.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Loriculus_vernalis_-Ganeshgudi,_Karnataka,_India_-male-8-1c.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Loriculus_vernalis_-Ganeshgudi,_Karnataka,_India_-male-8.jpg: viwake\nderivative work: Snowmanradio",
+   "caption": "Male"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Vernal_Hanging_Parrot-3.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Vernal_Hanging_Parrot-3.jpg/330px-Vernal_Hanging_Parrot-3.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Vernal_Hanging_Parrot-3.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Sandeep Gangadharan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Loriculus"
+  },
+  "family": {
+   "scientific": "Psittaculidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1260153"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Vernal_hanging_parrot"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

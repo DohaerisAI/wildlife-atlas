@@ -1,0 +1,46 @@
+{
+ "scientific": "Sitta cashmirensis",
+ "name": "Kashmir Nuthatch",
+ "qid": "Q943570",
+ "description": "species of bird",
+ "extract": "The Kashmir nuthatch (Sitta cashmirensis) is a species of bird in the family Sittidae. It is found in the northernmost regions of the Indian subcontinent, primarily in the mid-altitudes of the Himalayas.  The species ranges across Afghanistan, India, Nepal and Pakistan. The global population size has not been quantified, but the species is described as common in eastern Afghanistan and north-western India, and fairly common in Nepal (Harrap and Quinn 1996).",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Kashmir_Nuthatch_%28Sitta_cashmirensis%29_%2847088107744%29_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Kashmir_Nuthatch_%28Sitta_cashmirensis%29_%2847088107744%29_%28cropped%29.jpg/330px-Kashmir_Nuthatch_%28Sitta_cashmirensis%29_%2847088107744%29_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Kashmir_Nuthatch_(Sitta_cashmirensis)_(47088107744)_(cropped).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sitta"
+  },
+  "family": {
+   "scientific": "Sittidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q943570"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kashmir_nuthatch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,63 @@
+{
+ "scientific": "Dryobates pubescens",
+ "name": "Downy Woodpecker",
+ "qid": "Q27074911",
+ "description": "species of bird",
+ "extract": "The downy woodpecker (Dryobates pubescens) is a species of woodpecker, the smallest in North America. Length ranges from 14 to 18 cm (5.5 to 7.1 in). Downy woodpeckers primarily live in forested areas throughout the United States and Canada, with the exception of deserts in the southwest and the northern tundra. The bird nests in tree cavities and feeds primarily on insects, although it supplements its diet with seeds and berries. The downy woodpecker is very similar in appearance to the hairy woodpecker, although they are not closely related.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Downy_Woodpecker01.jpg/1280px-Downy_Woodpecker01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Downy_Woodpecker01.jpg/330px-Downy_Woodpecker01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Downy_Woodpecker01.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Wolfgang Wander",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/FemaleDownyWoodpecker.jpg/1280px-FemaleDownyWoodpecker.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/FemaleDownyWoodpecker.jpg/330px-FemaleDownyWoodpecker.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:FemaleDownyWoodpecker.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Cosmic Pomegranate",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 30.2,
+   "max": 31.4,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 28.0,
+   "max": 28.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dryobates"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27074911"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Downy_woodpecker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

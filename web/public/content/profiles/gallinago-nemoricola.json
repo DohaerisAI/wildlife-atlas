@@ -1,0 +1,67 @@
+{
+ "scientific": "Gallinago nemoricola",
+ "name": "Wood Snipe",
+ "qid": "Q1262633",
+ "description": "species of bird",
+ "extract": "The wood snipe (Gallinago nemoricola) is a species of snipe which breeds in the Himalayas of northern India, Nepal, Bhutan and southern China. In winter, it occurs at lower altitudes in the Himalayas, as a regular visitor in small numbers to north Vietnam. it also occurs as a vagrant in central and southern India, Sri Lanka, Bangladesh, Myanmar, north Thailand and Laos. It is reportedly very well-known to Chauri herders in the Himalayas.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Gallinago_nemoricola.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Gallinago_nemoricola.jpg/330px-Gallinago_nemoricola.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gallinago_nemoricola.jpg",
+   "license": "Public domain",
+   "artist": "S.Herbert, published in Hume & Marshall",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Gallinago_nemoricola_1921.jpg/1280px-Gallinago_nemoricola_1921.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Gallinago_nemoricola_1921.jpg/330px-Gallinago_nemoricola_1921.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gallinago_nemoricola_1921.jpg",
+   "license": "Public domain",
+   "artist": "Henrik Grønvold",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 46.0,
+   "max": 46.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 170.0,
+   "max": 170.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Gallinago"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1262633"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wood_snipe"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

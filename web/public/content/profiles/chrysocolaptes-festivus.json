@@ -1,0 +1,45 @@
+{
+ "scientific": "Chrysocolaptes festivus",
+ "name": "White-naped Woodpecker",
+ "qid": "Q1261947",
+ "description": "species of bird",
+ "extract": "The white-naped woodpecker (Chrysocolaptes festivus) is woodpecker which is a widespread but a scarce breeder in the Indian subcontinent.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/White-naped_Woodpecker_%28Chrysocolaptes_festivus%29_in_Hyderabad_W_IMG_7547.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/White-naped_Woodpecker_%28Chrysocolaptes_festivus%29_in_Hyderabad_W_IMG_7547.jpg/330px-White-naped_Woodpecker_%28Chrysocolaptes_festivus%29_in_Hyderabad_W_IMG_7547.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-naped_Woodpecker_(Chrysocolaptes_festivus)_in_Hyderabad_W_IMG_7547.jpg",
+   "license": "CC BY 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chrysocolaptes"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1261947"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-naped_woodpecker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

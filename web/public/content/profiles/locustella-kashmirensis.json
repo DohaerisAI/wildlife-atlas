@@ -1,0 +1,37 @@
+{
+ "scientific": "Locustella kashmirensis",
+ "name": "West Himalayan Bush Warbler",
+ "qid": "Q2922481",
+ "description": "species of bird",
+ "extract": "The West Himalayan bush warbler (Locustella kashmirensis) is a species of Old World warbler in the family Locustellidae.",
+ "images": [],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Locustella"
+  },
+  "family": {
+   "scientific": "Locustellidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2922481"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/West_Himalayan_bush_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

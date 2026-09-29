@@ -1,0 +1,49 @@
+{
+ "scientific": "Lyncornis macrotis",
+ "name": "Great Eared Nightjar",
+ "qid": "Q1263584",
+ "description": "species of bird",
+ "extract": "The great eared nightjar (Lyncornis macrotis) is a species of nightjar in the genus Lyncornis. It is found in southwest India and in parts of Southeast Asia. This very large nightjar has long barred wings, a barred tail and long ear-tufts which are often recumbent. It has a white throat band but has no white on its wings or on its tail.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Lyncornis_macrotis.jpg/1280px-Lyncornis_macrotis.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Lyncornis_macrotis.jpg/330px-Lyncornis_macrotis.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lyncornis_macrotis.jpg",
+   "license": "CC BY 2.0",
+   "artist": "https://www.flickr.com/photos/79492850@N00/",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lyncornis"
+  },
+  "family": {
+   "scientific": "Caprimulgidae"
+  },
+  "order": {
+   "scientific": "Caprimulgiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1263584"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_eared_nightjar"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

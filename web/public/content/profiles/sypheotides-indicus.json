@@ -1,0 +1,60 @@
+{
+ "scientific": "Sypheotides indicus",
+ "name": "Lesser Florican",
+ "qid": "Q1273465",
+ "description": "species of bird",
+ "extract": "The lesser florican (Sypheotides indicus), also known as the likh or kharmore, is the smallest in the bustard family and the only member of the genus Sypheotides. It is endemic to the Indian Subcontinent where it is found in tall grasslands and is best known for the leaping breeding displays made by the males during the monsoon season. The male has a contrasting black and white breeding plumage and distinctive elongated head feathers that extend behind the neck. These bustards are found mainly in northwestern and central India during the summer but are found more widely distributed across India in winter. The species is highly endangered and has been extirpated in some parts of its range such as Pakistan. It is threatened both by hunting and habitat degradation. The only similar species is the Bengal florican (Houbarobsis bengalensis) which is larger and lacks the white throat, collar and elongated plumes.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Male_Lesser_Florican_%28crop%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Male_Lesser_Florican_%28crop%29.jpg/330px-Male_Lesser_Florican_%28crop%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Male_Lesser_Florican_(crop).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Angad Achappa",
+   "caption": "Male"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Eupodotis_indica.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Eupodotis_indica.jpg/330px-Eupodotis_indica.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eupodotis_indica.jpg",
+   "license": "Public domain",
+   "artist": "John Gould",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "CR",
+   "label": "Critically Endangered"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Eupodotis"
+  },
+  "family": {
+   "scientific": "Otididae"
+  },
+  "order": {
+   "scientific": "Otidiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Sypheotides indica"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1273465"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lesser_florican"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,60 @@
+{
+ "scientific": "Ortygornis gularis",
+ "name": "Swamp Francolin",
+ "qid": "Q1261919",
+ "description": "species of bird",
+ "extract": "The swamp francolin (Ortygornis gularis), also called swamp partridge, is a francolin species native to the foothills of the Himalayas in northern India and Nepal. It is considered extinct in the Ganges-Brahmaputra delta in Bangladesh. It is listed as Near Threatened on the IUCN Red List.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Swamp_Francolin_from_Kaziranga_Assam_India_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Swamp_Francolin_from_Kaziranga_Assam_India_%28cropped%29.jpg/330px-Swamp_Francolin_from_Kaziranga_Assam_India_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Swamp_Francolin_from_Kaziranga_Assam_India_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Francolinus_gularis_hm.jpg/1280px-Francolinus_gularis_hm.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Francolinus_gularis_hm.jpg/330px-Francolinus_gularis_hm.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Francolinus_gularis_hm.jpg",
+   "license": "Public domain",
+   "artist": "Hume and Marshall",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ortygornis"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Francolinus gularis"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1261919"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Swamp_francolin"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

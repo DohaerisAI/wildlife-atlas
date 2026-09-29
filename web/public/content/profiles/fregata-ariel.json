@@ -1,0 +1,55 @@
+{
+ "scientific": "Fregata ariel",
+ "name": "Lesser Frigatebird",
+ "qid": "Q870775",
+ "description": "species of bird",
+ "extract": "The lesser frigatebird (Fregata ariel) is a seabird of the frigatebird family Fregatidae. Around 75 cm (30 in) in length, it is the smallest species of frigatebird. It occurs over tropical and subtropical waters across the Indian and Pacific Oceans, as well as off the Atlantic coast of Brazil.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Lesser_frigatebird_lei.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Lesser_frigatebird_lei.jpg/330px-Lesser_frigatebird_lei.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lesser_frigatebird_lei.jpg",
+   "license": "CC BY 3.0",
+   "artist": "Aviceda at English Wikipedia\n\n(Original text: Tom Tarrant)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 66.0,
+   "max": 858.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Fregata"
+  },
+  "family": {
+   "scientific": "Fregatidae",
+   "name": "Frigatebirds"
+  },
+  "order": {
+   "scientific": "Suliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q870775"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lesser_frigatebird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

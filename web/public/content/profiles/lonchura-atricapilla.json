@@ -1,0 +1,54 @@
+{
+ "scientific": "Lonchura atricapilla",
+ "name": "Chestnut Munia",
+ "qid": "Q766579",
+ "description": "species of bird",
+ "extract": "The chestnut munia or black-headed munia (Lonchura atricapilla) is a small passerine. It was formerly considered conspecific with the closely related tricoloured munia, but is now widely accepted as a separate species. This estrildid finch is a resident breeding bird in Bangladesh, Brunei, Cambodia, China, India, Indonesia, Laos, Malaysia, Burma, Nepal, the Philippines, Singapore, Taiwan, Thailand, Vietnam and Hawaii. It also has been introduced to all the Greater Antilles and Martinique in the Caribbean.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Lonchura_atricapilla_jagori_-Cebu-8-3c.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Lonchura_atricapilla_jagori_-Cebu-8-3c.jpg/330px-Lonchura_atricapilla_jagori_-Cebu-8-3c.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lonchura_atricapilla_jagori_-Cebu-8-3c.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Lonchura_atricapilla_jagori_-Camiguin_Sur-8.jpg: Heini Wang\nderivative work: Snowmanradio (talk)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 13.0,
+   "max": 13.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lonchura"
+  },
+  "family": {
+   "scientific": "Estrildidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Southern Black-headed Munia"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q766579"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chestnut_munia"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

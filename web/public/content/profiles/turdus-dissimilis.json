@@ -1,0 +1,54 @@
+{
+ "scientific": "Turdus dissimilis",
+ "name": "Black-breasted Thrush",
+ "qid": "Q1589013",
+ "description": "species of bird",
+ "extract": "The black-breasted thrush (Turdus dissimilis) is a species of bird in the family Turdidae. It is found from north-eastern India to northern Vietnam. Although both male and female birds have the same colour on their lower parts, the upper section of males is mostly black in colour, while females are mostly grey-brown. Thus, the bird's common name refers to the colour of the male bird's breast. They tend to live in forests located at high altitude.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Turdus_dissimilis_male_-_Ang_Khang.jpg/1280px-Turdus_dissimilis_male_-_Ang_Khang.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Turdus_dissimilis_male_-_Ang_Khang.jpg/330px-Turdus_dissimilis_male_-_Ang_Khang.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Turdus_dissimilis_male_-_Ang_Khang.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Turdus_dissimilis_female_-_Ang_Khang.jpg/1280px-Turdus_dissimilis_female_-_Ang_Khang.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Turdus_dissimilis_female_-_Ang_Khang.jpg/330px-Turdus_dissimilis_female_-_Ang_Khang.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Turdus_dissimilis_female_-_Ang_Khang.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turdus"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1589013"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-breasted_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

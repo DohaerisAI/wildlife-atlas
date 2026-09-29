@@ -1,0 +1,59 @@
+{
+ "scientific": "Larus crassirostris",
+ "name": "Black-tailed Gull",
+ "qid": "Q623194",
+ "description": "species of bird",
+ "extract": "The black-tailed gull (Larus crassirostris) is a gull native to shorelines of East Asia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Gull_in_water3.jpg/1280px-Gull_in_water3.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Gull_in_water3.jpg/330px-Gull_in_water3.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gull_in_water3.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Angie from Sawara, Chiba-ken, Japan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 120.0,
+   "max": 128.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 522.0,
+   "max": 591.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Larus"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q623194"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-tailed_gull"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

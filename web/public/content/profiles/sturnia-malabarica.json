@@ -1,0 +1,71 @@
+{
+ "scientific": "Sturnia malabarica",
+ "name": "Chestnut-tailed Starling",
+ "qid": "Q1048674",
+ "description": "species of bird",
+ "extract": "The chestnut-tailed starling (Sturnia malabarica), also called grey-headed starling and grey-headed myna is a member of the starling family. It is a resident or partially migratory species found in wooded habitats in India and Southeast Asia. The species name is after the distribution of a former subspecies in the Malabar region. While the chestnut-tailed starling is a winter visitor to peninsular India, the closely related resident breeding population with a white head is now treated as a full species, the Malabar starling (Sturnia blythii).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Chestnut-tailed_starling_-_%E0%A6%95%E0%A6%BE%E0%A6%A0_%E0%A6%B6%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%95.jpg/1280px-Chestnut-tailed_starling_-_%E0%A6%95%E0%A6%BE%E0%A6%A0_%E0%A6%B6%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%95.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Chestnut-tailed_starling_-_%E0%A6%95%E0%A6%BE%E0%A6%A0_%E0%A6%B6%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%95.jpg/330px-Chestnut-tailed_starling_-_%E0%A6%95%E0%A6%BE%E0%A6%A0_%E0%A6%B6%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%95.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chestnut-tailed_starling_-_%E0%A6%95%E0%A6%BE%E0%A6%A0_%E0%A6%B6%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%95.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Touhid biplob",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Grey_Headed_Starling_%28Sturnus_malabaricus%29_Photograph_by_Shantanu_Kuveskar.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Grey_Headed_Starling_%28Sturnus_malabaricus%29_Photograph_by_Shantanu_Kuveskar.jpg/330px-Grey_Headed_Starling_%28Sturnus_malabaricus%29_Photograph_by_Shantanu_Kuveskar.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grey_Headed_Starling_(Sturnus_malabaricus)_Photograph_by_Shantanu_Kuveskar.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Shantanu Kuveskar",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Chestnut-tailed_starling%2C_Satchari_National_Park_01.jpg/1280px-Chestnut-tailed_starling%2C_Satchari_National_Park_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Chestnut-tailed_starling%2C_Satchari_National_Park_01.jpg/330px-Chestnut-tailed_starling%2C_Satchari_National_Park_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chestnut-tailed_starling,_Satchari_National_Park_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Md shahanshah bappy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 40.0,
+   "max": 40.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sturnia"
+  },
+  "family": {
+   "scientific": "Sturnidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Ashy-headed starling",
+  "Sturnus malabaricus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1048674"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chestnut-tailed_starling"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,43 @@
+{
+ "scientific": "Turdoides longirostris",
+ "name": "Slender-billed Babbler",
+ "qid": "Q3002241",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Slender-billed_Babbler.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Slender-billed_Babbler.jpg/330px-Slender-billed_Babbler.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Slender-billed_Babbler.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Nejib Ahmed",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 35.0,
+   "max": 35.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turdoides"
+  },
+  "family": {
+   "scientific": "Leiothrichidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3002241"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,63 @@
+{
+ "scientific": "Scolopax rusticola",
+ "name": "Eurasian Woodcock",
+ "qid": "Q26114",
+ "description": "species of bird",
+ "extract": "The Eurasian woodcock (Scolopax rusticola) is a medium-small wading bird found in temperate and subarctic Eurasia. It has cryptic camouflage to suit its woodland habitat, with reddish-brown upperparts and buff-coloured underparts. Its eyes are set far back on its head to give it 360-degree vision and it probes in the ground for food with its long, sensitive bill, making it vulnerable to cold weather when the ground remains frozen.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Waldschnepfe_%28scolopax_rusticola%29_-_Spiekeroog%2C_Nationalpark_Nieders%C3%A4chsisches_Wattenmeer.jpg/1280px-Waldschnepfe_%28scolopax_rusticola%29_-_Spiekeroog%2C_Nationalpark_Nieders%C3%A4chsisches_Wattenmeer.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Waldschnepfe_%28scolopax_rusticola%29_-_Spiekeroog%2C_Nationalpark_Nieders%C3%A4chsisches_Wattenmeer.jpg/330px-Waldschnepfe_%28scolopax_rusticola%29_-_Spiekeroog%2C_Nationalpark_Nieders%C3%A4chsisches_Wattenmeer.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Waldschnepfe_(scolopax_rusticola)_-_Spiekeroog,_Nationalpark_Nieders%C3%A4chsisches_Wattenmeer.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Stephan Sprinz",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 58.0,
+   "max": 58.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 24.5,
+   "max": 24.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Scolopax",
+   "name": "Woodcock"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Woodcock"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26114"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eurasian_woodcock"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

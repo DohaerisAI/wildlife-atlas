@@ -3,24 +3,27 @@
  "name": "Amur Falcon",
  "qid": "Q481742",
  "description": "species of bird",
- "extract": "The Amur falcon is a small raptor of the falcon family. It breeds in south-eastern Siberia and Northern China before migrating in large flocks across India and over the Arabian Sea to winter in Southern and East African coasts.",
+ "extract": "The Amur falcon (Falco amurensis) is a small raptor of the falcon family. It breeds in south-eastern Siberia and Northern China before migrating in large flocks across India and over the Arabian Sea to winter in Southern and East African coasts.",
  "images": [
   {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Amur_Falcon_%28Falco_amurensis%29_male_%2816794543415%29.jpg/960px-Amur_Falcon_%28Falco_amurensis%29_male_%2816794543415%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Amur_Falcon_%28Falco_amurensis%29_male_%2816794543415%29.jpg/1280px-Amur_Falcon_%28Falco_amurensis%29_male_%2816794543415%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Amur_Falcon_%28Falco_amurensis%29_male_%2816794543415%29.jpg/330px-Amur_Falcon_%28Falco_amurensis%29_male_%2816794543415%29.jpg",
    "page": "https://commons.wikimedia.org/wiki/File:Amur_Falcon_(Falco_amurensis)_male_(16794543415).jpg",
    "license": "CC BY-SA 2.0",
    "artist": "Bernard DUPONT from FRANCE",
    "caption": "Male"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Amur_Falcon_%28F%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Amur_Falcon_%28F%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Amur_Falcon_%28F%29.jpg/330px-Amur_Falcon_%28F%29.jpg",
    "page": "https://commons.wikimedia.org/wiki/File:Amur_Falcon_(F).jpg",
    "license": "CC BY-SA 4.0",
    "artist": "DrewHeath",
    "caption": "Female"
   },
   {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Falco_amurensis_-Mongolia-8.jpg/960px-Falco_amurensis_-Mongolia-8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Falco_amurensis_-Mongolia-8.jpg/1280px-Falco_amurensis_-Mongolia-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Falco_amurensis_-Mongolia-8.jpg/330px-Falco_amurensis_-Mongolia-8.jpg",
    "page": "https://commons.wikimedia.org/wiki/File:Falco_amurensis_-Mongolia-8.jpg",
    "license": "CC BY-SA 2.0",
    "artist": "Alastair Rae from London, United Kingdom",
@@ -41,6 +44,22 @@
   "status": {
    "code": "LC",
    "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Falco",
+   "name": "falcon"
+  },
+  "family": {
+   "scientific": "Falconidae"
+  },
+  "order": {
+   "scientific": "Falconiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
   }
  },
  "sources": [

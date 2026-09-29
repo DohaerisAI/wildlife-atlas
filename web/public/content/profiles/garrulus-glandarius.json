@@ -1,0 +1,68 @@
+{
+ "scientific": "Garrulus glandarius",
+ "name": "Eurasian Jay",
+ "qid": "Q25354",
+ "description": "species of bird",
+ "extract": "The Eurasian jay (Garrulus glandarius) is a species of passerine bird in the family Corvidae. It has pinkish brown plumage with a black stripe on each side of a whitish throat, a bright blue panel on the upper wing and a black tail. The Eurasian jay is a woodland bird that occurs over a vast region from western Europe and north-west Africa to the Indian subcontinent and farther to the eastern seaboard of Asia and down into south-east Asia. Across this vast range, several distinct racial forms have evolved which look different from each other, especially when comparing forms at the extremes of its range.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Garrulus_glandarius_1_Luc_Viatour.jpg/1280px-Garrulus_glandarius_1_Luc_Viatour.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Garrulus_glandarius_1_Luc_Viatour.jpg/330px-Garrulus_glandarius_1_Luc_Viatour.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Garrulus_glandarius_1_Luc_Viatour.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Luc Viatour",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Garrulus_glandarius_-_Eurasian_Jay_01.jpg/1280px-Garrulus_glandarius_-_Eurasian_Jay_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Garrulus_glandarius_-_Eurasian_Jay_01.jpg/330px-Garrulus_glandarius_-_Eurasian_Jay_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Garrulus_glandarius_-_Eurasian_Jay_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Zeynel Cebeci",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 54.0,
+   "max": 54.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 8.5,
+   "max": 8.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Garrulus"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Jay",
+  "European Jay"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25354"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eurasian_jay"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

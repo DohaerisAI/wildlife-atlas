@@ -1,0 +1,47 @@
+{
+ "scientific": "Chalcoparia singalensis",
+ "name": "Ruby-cheeked Sunbird",
+ "qid": "Q27075705",
+ "description": "species of bird",
+ "extract": "The ruby-cheeked sunbird (Chalcoparia singalensis) is a species of sunbird in the family Nectariniidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Ruby-cheeked_Sunbird%281%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Ruby-cheeked_Sunbird%281%29.jpg/330px-Ruby-cheeked_Sunbird%281%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ruby-cheeked_Sunbird(1).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Rejaul karim.rk",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chalcoparia"
+  },
+  "family": {
+   "scientific": "Nectariniidae",
+   "name": "sunbird"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075705"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ruby-cheeked_sunbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

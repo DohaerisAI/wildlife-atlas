@@ -1,0 +1,65 @@
+{
+ "scientific": "Gyps bengalensis",
+ "name": "White-rumped Vulture",
+ "qid": "Q327118",
+ "description": "species of bird",
+ "extract": "The white-rumped vulture (Gyps bengalensis) is an Old World vulture native to South and Southeast Asia. It has been listed as Critically Endangered on the IUCN Red List since 2000, as the population severely declined. White-rumped vultures are threatened by diclofenac poisoning, which kills them by causing kidney failure.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Gyps_bengalensis_PLoS.png/1280px-Gyps_bengalensis_PLoS.png",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Gyps_bengalensis_PLoS.png/330px-Gyps_bengalensis_PLoS.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Gyps_bengalensis_PLoS.png",
+   "license": "CC BY 2.5",
+   "artist": "(Image: Goran Ekstrom)",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/RAVI.WIKI.WHITERUMPEDVULTURE1.jpg/1280px-RAVI.WIKI.WHITERUMPEDVULTURE1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/RAVI.WIKI.WHITERUMPEDVULTURE1.jpg/330px-RAVI.WIKI.WHITERUMPEDVULTURE1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:RAVI.WIKI.WHITERUMPEDVULTURE1.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Ravi.sangeetha",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 243.8,
+   "max": 243.8,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "CR",
+   "label": "Critically Endangered"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Gyps"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Asian white-backed vulture"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q327118"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-rumped_vulture"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

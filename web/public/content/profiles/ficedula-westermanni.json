@@ -1,0 +1,59 @@
+{
+ "scientific": "Ficedula westermanni",
+ "name": "Little Pied Flycatcher",
+ "qid": "Q73829",
+ "description": "species of bird",
+ "extract": "The little pied flycatcher (Ficedula westermanni) is a species of bird in the family Muscicapidae. It is native to the Himalayas and Southeast Asia.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Ficedula_westermanni_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Ficedula_westermanni_1.jpg/330px-Ficedula_westermanni_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ficedula_westermanni_1.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee Yap from Singapore, Republic of Singapore",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Little_Pied_Flycatcher_Khangchendzonga_Biosphere_Reserve_West_Sikkim_India_30.03.2016.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Little_Pied_Flycatcher_Khangchendzonga_Biosphere_Reserve_West_Sikkim_India_30.03.2016.jpg/330px-Little_Pied_Flycatcher_Khangchendzonga_Biosphere_Reserve_West_Sikkim_India_30.03.2016.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Little_Pied_Flycatcher_Khangchendzonga_Biosphere_Reserve_West_Sikkim_India_30.03.2016.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 7.8,
+   "max": 7.8,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ficedula"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q73829"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Little_pied_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

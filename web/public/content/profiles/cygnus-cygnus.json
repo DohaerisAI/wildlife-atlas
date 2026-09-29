@@ -1,0 +1,62 @@
+{
+ "scientific": "Cygnus cygnus",
+ "name": "Whooper Swan",
+ "qid": "Q25612",
+ "description": "species of bird",
+ "extract": "The whooper swan (/ˈhuːpə(ɹ) swɒn/ \"hooper swan\"; Cygnus cygnus), is a large northern hemisphere swan. It is the Eurasian counterpart of the North American trumpeter swan.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Cygnus_cygnus_070416_IOL.jpg/1280px-Cygnus_cygnus_070416_IOL.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Cygnus_cygnus_070416_IOL.jpg/330px-Cygnus_cygnus_070416_IOL.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cygnus_cygnus_070416_IOL.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Pascal Aleixandre",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 229.0,
+   "max": 229.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 331.0,
+   "max": 14000.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cygnus"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "common swan"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25612"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Whooper_swan"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

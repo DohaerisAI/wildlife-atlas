@@ -1,0 +1,71 @@
+{
+ "scientific": "Turnix suscitator",
+ "name": "Barred Buttonquail",
+ "qid": "Q1262057",
+ "description": "species of bird",
+ "extract": "The barred buttonquail or common bustard-quail (Turnix suscitator) is a species of buttonquail, one of a small family (Turnicidae) of birds which resemble, but are not closely related to, the true quails. This species is resident from India across tropical Asia to south China, Indonesia and the Philippines.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Barred_Buttonquail_in_Bhigwan_August_2025_by_Tisha_Mukherjee_17.jpg/1280px-Barred_Buttonquail_in_Bhigwan_August_2025_by_Tisha_Mukherjee_17.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Barred_Buttonquail_in_Bhigwan_August_2025_by_Tisha_Mukherjee_17.jpg/330px-Barred_Buttonquail_in_Bhigwan_August_2025_by_Tisha_Mukherjee_17.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Barred_Buttonquail_in_Bhigwan_August_2025_by_Tisha_Mukherjee_17.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Barred_Buttonquail_in_Bhigwan_August_2025_by_Tisha_Mukherjee_14.jpg/1280px-Barred_Buttonquail_in_Bhigwan_August_2025_by_Tisha_Mukherjee_14.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Barred_Buttonquail_in_Bhigwan_August_2025_by_Tisha_Mukherjee_14.jpg/330px-Barred_Buttonquail_in_Bhigwan_August_2025_by_Tisha_Mukherjee_14.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Barred_Buttonquail_in_Bhigwan_August_2025_by_Tisha_Mukherjee_14.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Barred_Buttonquail_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg/1280px-Barred_Buttonquail_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Barred_Buttonquail_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg/330px-Barred_Buttonquail_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Barred_Buttonquail_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 44.0,
+   "max": 58.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turnix"
+  },
+  "family": {
+   "scientific": "Turnicidae",
+   "name": "Buttonquail"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1262057"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barred_buttonquail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

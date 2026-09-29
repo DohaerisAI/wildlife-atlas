@@ -1,0 +1,57 @@
+{
+ "scientific": "Cacomantis merulinus",
+ "name": "Plaintive cuckoo",
+ "qid": "Q862874",
+ "description": "species of bird",
+ "extract": "The plaintive cuckoo (Cacomantis merulinus) is a species of bird belonging to the genus Cacomantis in the cuckoo family Cuculidae. It is native to Asia, from India, Nepal and China to Indonesia.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Plaintive_Cuckoo.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Plaintive_Cuckoo.jpg/330px-Plaintive_Cuckoo.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Plaintive_Cuckoo.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Flickr users CharlesLam",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Plaintive_Cuckoo_I_IMG_6972.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Plaintive_Cuckoo_I_IMG_6972.jpg/330px-Plaintive_Cuckoo_I_IMG_6972.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Plaintive_Cuckoo_I_IMG_6972.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cacomantis"
+  },
+  "family": {
+   "scientific": "Cuculidae"
+  },
+  "order": {
+   "scientific": "Cuculiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q862874"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Plaintive_cuckoo"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

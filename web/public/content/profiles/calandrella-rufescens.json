@@ -1,0 +1,28 @@
+{
+ "scientific": "Calandrella rufescens",
+ "name": "Lesser short-toed lark",
+ "qid": "Q728738",
+ "description": "species of bird",
+ "extract": "",
+ "images": [],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Calandrella"
+  },
+  "family": {
+   "scientific": "Alaudidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q728738"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,51 @@
+{
+ "scientific": "Napothera epilepidota",
+ "name": "Eyebrowed Wren-Babbler",
+ "qid": "Q2667873",
+ "description": "species of bird",
+ "extract": "The eyebrowed wren-babbler (Napothera epilepidota) is a species of bird in the family Pellorneidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/EYE-BROWED-WREN-BABBLER-NAMDAPHA.jpg/1280px-EYE-BROWED-WREN-BABBLER-NAMDAPHA.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/EYE-BROWED-WREN-BABBLER-NAMDAPHA.jpg/330px-EYE-BROWED-WREN-BABBLER-NAMDAPHA.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:EYE-BROWED-WREN-BABBLER-NAMDAPHA.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Rajkimar99",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 16.0,
+   "max": 16.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Napothera"
+  },
+  "family": {
+   "scientific": "Pellorneidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2667873"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eyebrowed_wren-babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

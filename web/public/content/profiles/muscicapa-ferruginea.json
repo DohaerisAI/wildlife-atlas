@@ -1,0 +1,51 @@
+{
+ "scientific": "Muscicapa ferruginea",
+ "name": "Ferruginous Flycatcher",
+ "qid": "Q1313892",
+ "description": "species of bird",
+ "extract": "The ferruginous flycatcher (Muscicapa ferruginea) is a species of bird in the family Muscicapidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Muscicapa_ferruginea_-back-8.jpg/1280px-Muscicapa_ferruginea_-back-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Muscicapa_ferruginea_-back-8.jpg/330px-Muscicapa_ferruginea_-back-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Muscicapa_ferruginea_-back-8.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Andy Ng",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 12.9,
+   "max": 12.9,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Muscicapa"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1313892"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ferruginous_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

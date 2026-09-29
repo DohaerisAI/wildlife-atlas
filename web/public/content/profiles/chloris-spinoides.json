@@ -1,0 +1,46 @@
+{
+ "scientific": "Chloris spinoides",
+ "name": "Yellow-breasted Greenfinch",
+ "qid": "Q27075788",
+ "description": "species of bird",
+ "extract": "The yellow-breasted greenfinch (Chloris spinoides) is a small passerine bird in the family Fringillidae that is native to the northern regions of the Indian subcontinent.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Yellow-breasted_Greenfinch_%28Chloris_spinoides%29_%2832003301767%29.jpg/1280px-Yellow-breasted_Greenfinch_%28Chloris_spinoides%29_%2832003301767%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Yellow-breasted_Greenfinch_%28Chloris_spinoides%29_%2832003301767%29.jpg/330px-Yellow-breasted_Greenfinch_%28Chloris_spinoides%29_%2832003301767%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Yellow-breasted_Greenfinch_(Chloris_spinoides)_(32003301767).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chloris"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075788"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yellow-breasted_greenfinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

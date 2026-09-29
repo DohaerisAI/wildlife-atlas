@@ -1,0 +1,38 @@
+{
+ "scientific": "Chloropsis moluccensis",
+ "name": "Blue-winged Leafbird",
+ "qid": "Q31874662",
+ "description": "species of bird",
+ "extract": "The blue-winged leafbird (Chloropsis moluccensis) is a species of leafbird found in forest and second growth throughout Southeast Asia as far east as Borneo and as far south as southern Sumatra. It previously included Jerdon's leafbird (C. jerdoni) from the Indian subcontinent, and the Bornean leafbird (C. kinabaluensis) from northern Borneo as subspecies, but differs from both in measurements and morphology, with Jerdon's lacking any blue to the flight feathers, and Bornean having a distinctive male-like female plumage. The Javan leafbird (C. cochinchinensis), which is endemic to Java, was also formerly grouped with the species, but more recent phylogenetic studies have split both. The distribution of the blue-winged and the Bornean leafbird are known to approach each other, but there is no evidence of intergradation.",
+ "images": [],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chloropsis"
+  },
+  "family": {
+   "scientific": "Chloropseidae",
+   "name": "leafbird"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q31874662"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blue-winged_leafbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,53 @@
+{
+ "scientific": "Strix nivicolum",
+ "name": "Himalayan Owl",
+ "qid": "Q1237607",
+ "description": "species of bird",
+ "extract": "The Himalayan owl or Himalayan wood owl (Strix nivicolum) is a medium-sized owl native to the forests and mountain ranges of the Himalayas, Taiwan and Korea. Although populations are declining, this owl is not considered endangered and is currently listed as a species of Least Concern on the IUCN Red List due to its large range and slow decline. The Himalayan owl is nocturnal and is rarely seen in most areas of its range. Few studies have been done on its lifestyle and current population trends.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Himalayan_Wood_Owl.jpg/1280px-Himalayan_Wood_Owl.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Himalayan_Wood_Owl.jpg/330px-Himalayan_Wood_Owl.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Himalayan_Wood_Owl.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Mousam ray",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Strix"
+  },
+  "family": {
+   "scientific": "Strigidae",
+   "name": "true owls"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Strix nivicola"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1237607"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Himalayan_owl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

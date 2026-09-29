@@ -1,0 +1,43 @@
+{
+ "scientific": "Rhopocichla atriceps",
+ "name": "Dark-fronted Babbler",
+ "qid": "Q1303878",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Dark_fronted_babblers.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Dark_fronted_babblers.jpg/330px-Dark_fronted_babblers.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dark_fronted_babblers.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Prajwalkm",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 16.0,
+   "max": 16.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Rhopocichla"
+  },
+  "family": {
+   "scientific": "Timaliidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1303878"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

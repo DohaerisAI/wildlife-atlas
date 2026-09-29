@@ -1,0 +1,54 @@
+{
+ "scientific": "Aegithalos iouschistos",
+ "name": "Black-browed Bushtit",
+ "qid": "Q1590485",
+ "description": "species of bird",
+ "extract": "The black-browed bushtit  (Aegithalos iouschistos), also known as the black-browed tit or rufous-fronted bushtit, is a species of bird in the family Aegithalidae. It is found in mid-southern China and sporadically in Myanmar. Its natural habitats are boreal forests and temperate forests.  The subspecies A. b. sharpei (Burmese tit) of western Burma and A. i. bonvaloti of southern China have sometimes been treated as separate species.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Rufous-fronted_Tit_MG_9518_GarimaBhatia.jpg/1280px-Rufous-fronted_Tit_MG_9518_GarimaBhatia.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Rufous-fronted_Tit_MG_9518_GarimaBhatia.jpg/330px-Rufous-fronted_Tit_MG_9518_GarimaBhatia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rufous-fronted_Tit_MG_9518_GarimaBhatia.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Garima Bhatia",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 7.0,
+   "max": 7.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aegithalos"
+  },
+  "family": {
+   "scientific": "Aegithalidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Rufous-fronted Bushtit"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1590485"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-browed_bushtit"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

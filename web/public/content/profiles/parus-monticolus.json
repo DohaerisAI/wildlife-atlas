@@ -1,0 +1,46 @@
+{
+ "scientific": "Parus monticolus",
+ "name": "Green-backed Tit",
+ "qid": "Q500024",
+ "description": "species of bird in the Paridae family",
+ "extract": "The green-backed tit (Parus monticolus) is a species of bird in the family Paridae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Green-backed_Tit_%2838039191995%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Green-backed_Tit_%2838039191995%29.jpg/330px-Green-backed_Tit_%2838039191995%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Green-backed_Tit_(38039191995).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Koshy Koshy from Faridabad, Haryana, India",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Parus"
+  },
+  "family": {
+   "scientific": "Paridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q500024"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Green-backed_tit"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

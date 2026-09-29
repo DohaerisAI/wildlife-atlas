@@ -1,0 +1,40 @@
+{
+ "scientific": "Chaimarrornis leucocephalus",
+ "name": "White-capped Redstart",
+ "qid": "Q662645",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Chaimarrornis_leucocephalus_2_-_Doi_Inthanon.jpg/1280px-Chaimarrornis_leucocephalus_2_-_Doi_Inthanon.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Chaimarrornis_leucocephalus_2_-_Doi_Inthanon.jpg/330px-Chaimarrornis_leucocephalus_2_-_Doi_Inthanon.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chaimarrornis_leucocephalus_2_-_Doi_Inthanon.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chaimarrornis"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "White-capped Water Redstart"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q662645"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

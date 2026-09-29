@@ -1,0 +1,51 @@
+{
+ "scientific": "Acrocephalus dumetorum",
+ "name": "Blyth’s Reed Warbler",
+ "qid": "Q312779",
+ "description": "species of bird",
+ "extract": "Blyth's reed warbler (Acrocephalus dumetorum) is a species of reed warbler belonging to the family Acrocephalidae, which also includes the tree warblers. Blyth's reed warbler breeds across the Palearctic zoogeographical region and winters in South Asia. The species has been expanding its range westwards in Europe.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Blyth%27s_Reed_Warbler_in_Baruipur_December_2024_by_Tisha_Mukherjee_02.jpg/1280px-Blyth%27s_Reed_Warbler_in_Baruipur_December_2024_by_Tisha_Mukherjee_02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Blyth%27s_Reed_Warbler_in_Baruipur_December_2024_by_Tisha_Mukherjee_02.jpg/330px-Blyth%27s_Reed_Warbler_in_Baruipur_December_2024_by_Tisha_Mukherjee_02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blyth%27s_Reed_Warbler_in_Baruipur_December_2024_by_Tisha_Mukherjee_02.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 1.7,
+   "max": 1.7,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Acrocephalus"
+  },
+  "family": {
+   "scientific": "Acrocephalidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q312779"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blyth%27s_reed_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

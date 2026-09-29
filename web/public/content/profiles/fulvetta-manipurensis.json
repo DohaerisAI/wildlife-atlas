@@ -1,0 +1,54 @@
+{
+ "scientific": "Fulvetta manipurensis",
+ "name": "Streak-throated Fulvetta",
+ "qid": "Q2667898",
+ "description": "species of bird",
+ "extract": "The Manipur fulvetta  or streak-throated fulvetta (Fulvetta manipurensis) is a bird species in the family Paradoxornithidae.  It is named for the state of Manipur in Northeast India. Like the other typical fulvettas, it was long included in the Timaliidae genus Alcippe or in the Sylviidae. In addition, it was long included in F. cinereiceps as a subspecies, and the common name \"streak-throated fulvetta\" was applied to all these birds. The typical F. cinereiceps are now called grey-hooded fulvetta.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Manipur_Fulvetta_Mishmi_Hills_Arunachal_Pradesh_April_2019.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Manipur_Fulvetta_Mishmi_Hills_Arunachal_Pradesh_April_2019.jpg/330px-Manipur_Fulvetta_Mishmi_Hills_Arunachal_Pradesh_April_2019.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Manipur_Fulvetta_Mishmi_Hills_Arunachal_Pradesh_April_2019.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 11.0,
+   "max": 11.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Fulvetta"
+  },
+  "family": {
+   "scientific": "Paradoxornithidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Manipur fulvetta"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2667898"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Manipur_fulvetta"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,65 @@
+{
+ "scientific": "Bambusicola fytchii",
+ "name": "Mountain Bamboo Partridge",
+ "qid": "Q1259751",
+ "description": "species of bird",
+ "extract": "The mountain bamboo partridge (Bambusicola fytchii) is a species of bird in the family Phasianidae. It is found in Bangladesh, Tibet, India, Laos, Myanmar, Thailand, and Vietnam.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Bambusicola_fytchii_-Smithsonian_National_Zoo%2C_Washington%2C_USA-8a.jpg/1280px-Bambusicola_fytchii_-Smithsonian_National_Zoo%2C_Washington%2C_USA-8a.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Bambusicola_fytchii_-Smithsonian_National_Zoo%2C_Washington%2C_USA-8a.jpg/330px-Bambusicola_fytchii_-Smithsonian_National_Zoo%2C_Washington%2C_USA-8a.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bambusicola_fytchii_-Smithsonian_National_Zoo,_Washington,_USA-8a.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Ted",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Mountain_Bamboo_Partridge.jpg/1280px-Mountain_Bamboo_Partridge.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Mountain_Bamboo_Partridge.jpg/330px-Mountain_Bamboo_Partridge.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mountain_Bamboo_Partridge.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Subhajit Chaudhuri",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 300.0,
+   "max": 340.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Bambusicola"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Mountain bamboo-partridge"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1259751"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mountain_bamboo_partridge"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

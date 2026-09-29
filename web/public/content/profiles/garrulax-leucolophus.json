@@ -1,0 +1,46 @@
+{
+ "scientific": "Garrulax leucolophus",
+ "name": "White-crested Laughingthrush",
+ "qid": "Q862812",
+ "description": "species of bird",
+ "extract": "The white-crested laughingthrush (Garrulax leucolophus) is a member of the family Leiothrichidae. It is a highly social and vocal bird found in forest and scrub from the Himalayan foothills to Southeast Asia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/White-Crested_Laughingthrush.jpg/1280px-White-Crested_Laughingthrush.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/White-Crested_Laughingthrush.jpg/330px-White-Crested_Laughingthrush.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-Crested_Laughingthrush.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jason Thompson",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Garrulax"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q862812"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-crested_laughingthrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

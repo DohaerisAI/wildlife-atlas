@@ -1,0 +1,53 @@
+{
+ "scientific": "Chrysocolaptes guttacristatus",
+ "name": "Greater Flameback",
+ "qid": "Q15213904",
+ "description": "species of bird",
+ "extract": "The greater flameback (Chrysocolaptes guttacristatus), also known as the greater goldenback or large golden-backed woodpecker, is a woodpecker species. It occurs widely in the northern Indian subcontinent, eastwards to southern China, the Malay Peninsula, Sumatra, western and central Java and northeast Borneo.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Chrysocolaptes_guttacristatus%2C_Kaeng_Krachan.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Chrysocolaptes_guttacristatus%2C_Kaeng_Krachan.jpg/330px-Chrysocolaptes_guttacristatus%2C_Kaeng_Krachan.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chrysocolaptes_guttacristatus,_Kaeng_Krachan.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Greater_flameback_female_in_Nepal_PG_2019_10.jpg/1280px-Greater_flameback_female_in_Nepal_PG_2019_10.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Greater_flameback_female_in_Nepal_PG_2019_10.jpg/330px-Greater_flameback_female_in_Nepal_PG_2019_10.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Greater_flameback_female_in_Nepal_PG_2019_10.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Prataap Gurung",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chrysocolaptes"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q15213904"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Greater_flameback"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

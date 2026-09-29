@@ -1,0 +1,62 @@
+{
+ "scientific": "Sturnus vulgaris",
+ "name": "Common Starling",
+ "qid": "Q25469",
+ "description": "species of bird",
+ "extract": "The common starling (Sturnus vulgaris), also known simply as the starling in Great Britain and Ireland, and as the European starling in North America, is a medium-sized passerine bird in the starling family, Sturnidae. It is about 20 cm (8 in) long and has glossy black plumage with a metallic sheen, which is speckled with white at some times of the year. The legs are pink and the bill is black in winter and yellow in summer; young birds have browner plumage than the adults. Its gift for mimicry has been noted in literature including the Mabinogion and the works of Pliny the Elder and William Shakespeare.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Toulouse_-_Sturnus_vulgaris_-_2012-02-26_-_2.jpg/1280px-Toulouse_-_Sturnus_vulgaris_-_2012-02-26_-_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Toulouse_-_Sturnus_vulgaris_-_2012-02-26_-_2.jpg/330px-Toulouse_-_Sturnus_vulgaris_-_2012-02-26_-_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Toulouse_-_Sturnus_vulgaris_-_2012-02-26_-_2.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "PierreSelim",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Common_Starling%2C_Blyth_%2812598795653%29.jpg/1280px-Common_Starling%2C_Blyth_%2812598795653%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Common_Starling%2C_Blyth_%2812598795653%29.jpg/330px-Common_Starling%2C_Blyth_%2812598795653%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_Starling,_Blyth_(12598795653).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "marsupium photography",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 38.0,
+   "max": 38.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sturnus"
+  },
+  "family": {
+   "scientific": "Sturnidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "starling"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25469"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_starling"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

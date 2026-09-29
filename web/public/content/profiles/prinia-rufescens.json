@@ -1,0 +1,51 @@
+{
+ "scientific": "Prinia rufescens",
+ "name": "Rufescent Prinia",
+ "qid": "Q3726328",
+ "description": "species of bird",
+ "extract": "The rufescent prinia (Prinia rufescens) is a species of bird in the family Cisticolidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Rufescent_Prinia_0A2A7958_%28cropped%29.jpg/1280px-Rufescent_Prinia_0A2A7958_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Rufescent_Prinia_0A2A7958_%28cropped%29.jpg/330px-Rufescent_Prinia_0A2A7958_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rufescent_Prinia_0A2A7958_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "JJ Harrison",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 6.5,
+   "max": 6.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Prinia"
+  },
+  "family": {
+   "scientific": "Cisticolidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3726328"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rufescent_prinia"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

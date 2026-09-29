@@ -1,0 +1,46 @@
+{
+ "scientific": "Ammomanes phoenicura",
+ "name": "Rufous-tailed Lark",
+ "qid": "Q1591143",
+ "description": "species of bird",
+ "extract": "The rufous-tailed lark (Ammomanes phoenicura), also sometimes called the rufous-tailed finch-lark, is a ground bird found in the drier open stony habitats of India and parts of Pakistan. Like other species in the genus it has a large finch-like bill with a slightly curved edge to the upper mandible. The dull brown colour matches the soil as it forages for grass seeds, grain and insects. Males and females are indistinguishable in the field but during the breeding season, the male has a courtship display that involves flying up steeply and then nose-diving and pulling up in a series of stepped wavy dips accompanied by calling. They forage on the ground in pairs or small groups.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Rufous-tailed_Lark_%28Ammomanes_phoenicurus%29_in_Kawal_WS%2C_AP_W_IMG_2004.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Rufous-tailed_Lark_%28Ammomanes_phoenicurus%29_in_Kawal_WS%2C_AP_W_IMG_2004.jpg/330px-Rufous-tailed_Lark_%28Ammomanes_phoenicurus%29_in_Kawal_WS%2C_AP_W_IMG_2004.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rufous-tailed_Lark_(Ammomanes_phoenicurus)_in_Kawal_WS,_AP_W_IMG_2004.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ammomanes"
+  },
+  "family": {
+   "scientific": "Alaudidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1591143"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rufous-tailed_lark"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

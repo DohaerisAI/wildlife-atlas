@@ -1,0 +1,73 @@
+{
+ "scientific": "Aythya marila",
+ "name": "Greater Scaup",
+ "qid": "Q26635",
+ "description": "species of bird",
+ "extract": "The greater scaup (Aythya marila), just scaup in Europe or, colloquially, \"bluebill\" in North America, is a mid-sized diving duck, larger than the closely related lesser scaup and tufted duck. It spends the summer months breeding in Iceland, east across Scandinavia, northern Russia and Siberia, Alaska, and northern Canada. During the winter, it migrates south to the coasts of Europe, eastern Asia, and North America.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/2017-03-24_Aythya_marila%2C_male%2C_Killingworth_Lake%2C_Northumberland_20.jpg/1280px-2017-03-24_Aythya_marila%2C_male%2C_Killingworth_Lake%2C_Northumberland_20.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/2017-03-24_Aythya_marila%2C_male%2C_Killingworth_Lake%2C_Northumberland_20.jpg/330px-2017-03-24_Aythya_marila%2C_male%2C_Killingworth_Lake%2C_Northumberland_20.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2017-03-24_Aythya_marila,_male,_Killingworth_Lake,_Northumberland_20.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "MPF",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/2014-04-14_Aythya_marila%2C_female%2C_Killingworth_Lake%2C_Northumberland_04.jpg/1280px-2014-04-14_Aythya_marila%2C_female%2C_Killingworth_Lake%2C_Northumberland_04.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/2014-04-14_Aythya_marila%2C_female%2C_Killingworth_Lake%2C_Northumberland_04.jpg/330px-2014-04-14_Aythya_marila%2C_female%2C_Killingworth_Lake%2C_Northumberland_04.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2014-04-14_Aythya_marila,_female,_Killingworth_Lake,_Northumberland_04.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "MPF",
+   "caption": "Female"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Drake_Greater_scaup_%28Aythya_marila%29_Barnegat_Inlet%2C_New_Jersey%2C_USA.jpg/1280px-Drake_Greater_scaup_%28Aythya_marila%29_Barnegat_Inlet%2C_New_Jersey%2C_USA.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Drake_Greater_scaup_%28Aythya_marila%29_Barnegat_Inlet%2C_New_Jersey%2C_USA.jpg/330px-Drake_Greater_scaup_%28Aythya_marila%29_Barnegat_Inlet%2C_New_Jersey%2C_USA.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Drake_Greater_scaup_(Aythya_marila)_Barnegat_Inlet,_New_Jersey,_USA.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Chuck Homler d/b/a Focus On Wildlife",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 82.0,
+   "max": 82.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aythya"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Scaup"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26635"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Greater_scaup"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

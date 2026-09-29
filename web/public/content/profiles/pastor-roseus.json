@@ -3,17 +3,19 @@
  "name": "Rosy Starling",
  "qid": "Q20823352",
  "description": "species of bird",
- "extract": "The rosy starling, also known as the rose-coloured starling, is a passerine bird in the starling family Sturnidae. The species was restored to its own monotypic genus Pastor in 2008, formerly being included in a wide interpretation of the genus Sturnus. This split is supported by further studies, with its closest relative now thought to be the wattled starling of tropical Africa, with these two then closest to a large group of Asian starlings and mynas.",
+ "extract": "The rosy starling (Pastor roseus), also known as the rose-coloured starling, is a passerine bird in the starling family Sturnidae. The species was restored to its own monotypic genus Pastor in 2008, formerly being included in a wide interpretation of the genus Sturnus. This split is supported by further studies, with its closest relative now thought to be the wattled starling (Creatophora cinerea) of tropical Africa, with these two then closest to a large group of Asian starlings and mynas.",
  "images": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Pastor_roseus_by_Koshy_Koshy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Pastor_roseus_by_Koshy_Koshy.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Pastor_roseus_by_Koshy_Koshy.jpg/330px-Pastor_roseus_by_Koshy_Koshy.jpg",
    "page": "https://commons.wikimedia.org/wiki/File:Pastor_roseus_by_Koshy_Koshy.jpg",
    "license": "CC BY 2.0",
    "artist": "Koshy Koshy",
    "caption": ""
   },
   {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Pastor_roseus_-_Rosenstar_%28Jungvogel%29.jpg/960px-Pastor_roseus_-_Rosenstar_%28Jungvogel%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Pastor_roseus_-_Rosenstar_%28Jungvogel%29.jpg/1280px-Pastor_roseus_-_Rosenstar_%28Jungvogel%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Pastor_roseus_-_Rosenstar_%28Jungvogel%29.jpg/330px-Pastor_roseus_-_Rosenstar_%28Jungvogel%29.jpg",
    "page": "https://commons.wikimedia.org/wiki/File:Pastor_roseus_-_Rosenstar_(Jungvogel).jpg",
    "license": "CC BY-SA 4.0",
    "artist": "Johannes Sander",
@@ -29,6 +31,18 @@
   "status": {
    "code": "LC",
    "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pastor"
+  },
+  "family": {
+   "scientific": "Sturnidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
   }
  },
  "sources": [

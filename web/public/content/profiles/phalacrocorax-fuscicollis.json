@@ -1,0 +1,62 @@
+{
+ "scientific": "Phalacrocorax fuscicollis",
+ "name": "Indian Cormorant",
+ "qid": "Q749326",
+ "description": "species of bird",
+ "extract": "The Indian cormorant or Indian shag (Phalacrocorax fuscicollis) is a member of the cormorant family. It is found mainly along the inland waters of the Indian subcontinent but extends west to Sind and east to Thailand and Cambodia. It is a gregarious species that can be easily distinguished from the similar sized little cormorant by its blue eyes, small head with a sloping forehead and a long narrow bill ending in a hooked tip.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Indian_Cormorant_%28Br.%29_I_IMG_8092.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Indian_Cormorant_%28Br.%29_I_IMG_8092.jpg/330px-Indian_Cormorant_%28Br.%29_I_IMG_8092.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Indian_Cormorant_(Br.)_I_IMG_8092.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Indian_Cormorant_%28Phalacrocorax_fuscicollis%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Indian_Cormorant_%28Phalacrocorax_fuscicollis%29.jpg/330px-Indian_Cormorant_%28Phalacrocorax_fuscicollis%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Indian_Cormorant_(Phalacrocorax_fuscicollis).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee Yap",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 706.0,
+   "max": 706.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phalacrocorax"
+  },
+  "family": {
+   "scientific": "Phalacrocoracidae"
+  },
+  "order": {
+   "scientific": "Suliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q749326"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_cormorant"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

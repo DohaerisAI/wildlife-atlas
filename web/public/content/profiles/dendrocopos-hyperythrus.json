@@ -1,0 +1,48 @@
+{
+ "scientific": "Dendrocopos hyperythrus",
+ "name": "Rufous-bellied Woodpecker",
+ "qid": "Q1274458",
+ "description": "species of bird",
+ "extract": "The rufous-bellied woodpecker or rufous-bellied sapsucker (Dendrocopos hyperythrus) is a species of bird in the family Picidae. This woodpecker has a habit of making a series of small pits on the bark of trees leading to its being considered an Asiatic member of the sapsuckers in the past. It is found along the Himalayas in the Indian subcontinent and Southeast Asia, ranging across Bangladesh, Bhutan, Cambodia, Hong Kong, India, Korea, Myanmar, Nepal, Thailand, Manchuria, Ussuriland and Vietnam. Its natural habitats are subtropical or tropical moist lowland forests and subtropical or tropical moist montane forests.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Dendrocopos_hyperythrus_366832170.jpg/1280px-Dendrocopos_hyperythrus_366832170.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Dendrocopos_hyperythrus_366832170.jpg/330px-Dendrocopos_hyperythrus_366832170.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dendrocopos_hyperythrus_366832170.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Maya Lodhiyal",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dendrocopos"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "other_names": [
+  "Picoides hyperythrus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1274458"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rufous-bellied_woodpecker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

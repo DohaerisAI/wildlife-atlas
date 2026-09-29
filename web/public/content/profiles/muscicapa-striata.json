@@ -1,0 +1,56 @@
+{
+ "scientific": "Muscicapa striata",
+ "name": "Spotted Flycatcher",
+ "qid": "Q26607",
+ "description": "species of bird",
+ "extract": "The spotted flycatcher (Muscicapa striata) is a small passerine bird in the Old World flycatcher family.  It breeds in most of Europe and in the Palearctic to Siberia, and is migratory, wintering in Africa and south western Asia. It is declining in parts of its range.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/SpottedFlycatcheronfence.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/SpottedFlycatcheronfence.jpg/330px-SpottedFlycatcheronfence.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:SpottedFlycatcheronfence.jpg",
+   "license": "Attribution",
+   "artist": "Andrew Easton",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 24.0,
+   "max": 24.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 1.9,
+   "max": 1.9,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Muscicapa"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26607"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spotted_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

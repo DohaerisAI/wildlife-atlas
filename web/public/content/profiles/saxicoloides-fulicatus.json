@@ -1,0 +1,41 @@
+{
+ "scientific": "Saxicoloides fulicatus",
+ "name": "Saxicoloides fulicatus",
+ "qid": "Q1591245",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Saxicoloides_fulicatus_-Pune%2C_Maharashtra%2C_India_-male-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Saxicoloides_fulicatus_-Pune%2C_Maharashtra%2C_India_-male-8.jpg/330px-Saxicoloides_fulicatus_-Pune%2C_Maharashtra%2C_India_-male-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Saxicoloides_fulicatus_-Pune,_Maharashtra,_India_-male-8.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Yogendra Joshi",
+   "caption": "Male"
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Saxicoloides"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Indian Robin",
+  "Copsychus fulicatus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1591245"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

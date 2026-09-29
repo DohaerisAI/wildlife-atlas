@@ -1,0 +1,51 @@
+{
+ "scientific": "Phylloscopus cantator",
+ "name": "Yellow-vented Warbler",
+ "qid": "Q3315809",
+ "description": "species of bird",
+ "extract": "The yellow-vented warbler (Phylloscopus cantator) is a species of leaf warbler (family Phylloscopidae). It was formerly included in the \"Old World warbler\" assemblage.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Yellow_vented_warbler_Manas.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Yellow_vented_warbler_Manas.JPG/330px-Yellow_vented_warbler_Manas.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Yellow_vented_warbler_Manas.JPG",
+   "license": "CC0",
+   "artist": "Pkspks at English Wikipedia",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 6.5,
+   "max": 6.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phylloscopus"
+  },
+  "family": {
+   "scientific": "Phylloscopidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3315809"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yellow-vented_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

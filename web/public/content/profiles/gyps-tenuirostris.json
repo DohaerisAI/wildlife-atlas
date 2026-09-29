@@ -1,0 +1,62 @@
+{
+ "scientific": "Gyps tenuirostris",
+ "name": "Slender-billed Vulture",
+ "qid": "Q862806",
+ "description": "species of bird",
+ "extract": "The slender-billed vulture (Gyps tenuirostris) is an Old World vulture species native to sub-Himalayan regions and Southeast Asia. It is Critically Endangered since 2002 as the population on the Indian subcontinent has declined rapidly. As of 2021, fewer than 870 mature individuals are thought to remain.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Slender-billed_Vulture%2C_Mishmi_Hills%2C_India_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Slender-billed_Vulture%2C_Mishmi_Hills%2C_India_%28cropped%29.jpg/330px-Slender-billed_Vulture%2C_Mishmi_Hills%2C_India_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Slender-billed_Vulture,_Mishmi_Hills,_India_(cropped).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Mike Prince from Bangalore, India",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Gyps_tenuirostris.png",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Gyps_tenuirostris.png/330px-Gyps_tenuirostris.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Gyps_tenuirostris.png",
+   "license": "Public domain",
+   "artist": "W. T. Blanford",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 228.6,
+   "max": 228.6,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "CR",
+   "label": "Critically Endangered"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Gyps"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q862806"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Slender-billed_vulture"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

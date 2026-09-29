@@ -1,0 +1,62 @@
+{
+ "scientific": "Riparia paludicola",
+ "name": "Brown-throated Martin",
+ "qid": "Q675850",
+ "description": "species of bird",
+ "extract": "The  brown-throated martin, brown-throated sand martin or plain martin (Riparia paludicola) is a small passerine bird in the swallow family, Hirundinidae, that is widely distributed across Africa. It was formerly regarded as conspecific with the grey-throated martin (Riparia chinensis) and the Madagascar martin (Riparia cowani).",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Plain_Martin_-_Natal_-_South_Africa_S4E6445_%2816978324252%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Plain_Martin_-_Natal_-_South_Africa_S4E6445_%2816978324252%29.jpg/330px-Plain_Martin_-_Natal_-_South_Africa_S4E6445_%2816978324252%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Plain_Martin_-_Natal_-_South_Africa_S4E6445_(16978324252).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Plain_Martin_-_Brown-throated_Martin_%28Riparia_paludicola%29_-_Flickr_-_Lip_Kee_%281%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Plain_Martin_-_Brown-throated_Martin_%28Riparia_paludicola%29_-_Flickr_-_Lip_Kee_%281%29.jpg/330px-Plain_Martin_-_Brown-throated_Martin_%28Riparia_paludicola%29_-_Flickr_-_Lip_Kee_%281%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Plain_Martin_-_Brown-throated_Martin_(Riparia_paludicola)_-_Flickr_-_Lip_Kee_(1).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee from Singapore, Republic of Singapore",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 26.0,
+   "max": 27.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Riparia"
+  },
+  "family": {
+   "scientific": "Hirundinidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "brown-throated sand martin"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q675850"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown-throated_martin"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

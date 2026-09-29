@@ -1,0 +1,37 @@
+{
+ "scientific": "Pycnonotus gularis",
+ "name": "Flame-throated Bulbul",
+ "qid": "Q12112548",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flame-throated_Bulbul_%28Pycnonotus_gularis%29%2C_Thattekad%2C_Kerala_3.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Flame-throated_Bulbul_%28Pycnonotus_gularis%29%2C_Thattekad%2C_Kerala_3.jpg/330px-Flame-throated_Bulbul_%28Pycnonotus_gularis%29%2C_Thattekad%2C_Kerala_3.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Flame-throated_Bulbul_(Pycnonotus_gularis),_Thattekad,_Kerala_3.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee from Singapore, Republic of Singapore",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pycnonotus"
+  },
+  "family": {
+   "scientific": "Pycnonotidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q12112548"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

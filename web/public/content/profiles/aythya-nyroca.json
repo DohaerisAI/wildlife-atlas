@@ -1,0 +1,70 @@
+{
+ "scientific": "Aythya nyroca",
+ "name": "Ferruginous Duck",
+ "qid": "Q191723",
+ "description": "Duck species",
+ "extract": "The ferruginous duck (Aythya nyroca), also known as the ferruginous pochard, common white-eye or white-eyed pochard,  is a medium-sized diving duck native to the Palearctic. The scientific name is derived from the Ancient Greek word, αἴθυιᾰ (aithuia), an unknown seabird mentioned by authors including Hesychius and Aristotle, and the Russian word, нырок (nyrok), the Russian word for pochard, which occurs in the bird's Russian common name.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Ferruginous_Pochard_Aythya_nyroca_Male_by_Dr._Raju_Kasambe_DSCN2746_%2812%29.jpg/1280px-Ferruginous_Pochard_Aythya_nyroca_Male_by_Dr._Raju_Kasambe_DSCN2746_%2812%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Ferruginous_Pochard_Aythya_nyroca_Male_by_Dr._Raju_Kasambe_DSCN2746_%2812%29.jpg/330px-Ferruginous_Pochard_Aythya_nyroca_Male_by_Dr._Raju_Kasambe_DSCN2746_%2812%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ferruginous_Pochard_Aythya_nyroca_Male_by_Dr._Raju_Kasambe_DSCN2746_(12).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dr. Raju Kasambe",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Fuligule_nyroca_%E2%99%80_%28Aythya_nyroca%29%2C_Parc_du_Rouge-Clo%C3%AEtre%2C_Bruxelles_-_Flickr_-_Frank.Vassen.jpg/1280px-Fuligule_nyroca_%E2%99%80_%28Aythya_nyroca%29%2C_Parc_du_Rouge-Clo%C3%AEtre%2C_Bruxelles_-_Flickr_-_Frank.Vassen.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Fuligule_nyroca_%E2%99%80_%28Aythya_nyroca%29%2C_Parc_du_Rouge-Clo%C3%AEtre%2C_Bruxelles_-_Flickr_-_Frank.Vassen.jpg/330px-Fuligule_nyroca_%E2%99%80_%28Aythya_nyroca%29%2C_Parc_du_Rouge-Clo%C3%AEtre%2C_Bruxelles_-_Flickr_-_Frank.Vassen.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Fuligule_nyroca_%E2%99%80_(Aythya_nyroca),_Parc_du_Rouge-Clo%C3%AEtre,_Bruxelles_-_Flickr_-_Frank.Vassen.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Frank Vassen from Brussels, Belgium",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 63.0,
+   "max": 67.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 43.0,
+   "max": 583.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aythya"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Ferruginous Pochard"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q191723"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ferruginous_duck"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

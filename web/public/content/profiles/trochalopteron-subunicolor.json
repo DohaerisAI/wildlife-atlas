@@ -1,0 +1,51 @@
+{
+ "scientific": "Trochalopteron subunicolor",
+ "name": "Scaly Laughingthrush",
+ "qid": "Q27075526",
+ "description": "species of bird",
+ "extract": "The scaly laughingthrush (Trochalopteron subunicolor) is a bird species in the family Leiothrichidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Garrulax_subunicolor.jpg/1280px-Garrulax_subunicolor.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Garrulax_subunicolor.jpg/330px-Garrulax_subunicolor.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Garrulax_subunicolor.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Umeshsrinivasan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 63.0,
+   "max": 63.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Trochalopteron"
+  },
+  "family": {
+   "scientific": "Leiothrichidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075526"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Scaly_laughingthrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

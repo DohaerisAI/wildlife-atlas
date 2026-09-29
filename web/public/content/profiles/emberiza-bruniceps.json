@@ -1,0 +1,62 @@
+{
+ "scientific": "Emberiza bruniceps",
+ "name": "Red-headed Bunting",
+ "qid": "Q547159",
+ "description": "species of bird",
+ "extract": "The red-headed bunting (Emberiza bruniceps) is a passerine bird in the bunting family Emberizidae. It breeds in central Asia, including Afghanistan, Iran, Kazakhstan, Kyrgyzstan, Mongolia; Russia (European Russia, Central Asian Russia), Tajikistan, Turkmenistan, Uzbekistan and China. It is migratory, wintering in India and Bangladesh. Its status in western Europe, where it is a vagrant, has been confused by escapes, especially as this species has been more commonly recorded than the closely related black-headed bunting, despite the latter having a more westerly breeding range. Reports in Britain have declined dramatically over recent years, coinciding with the decline in some Emberizidae species from the impact of illegal trade. An individual found on Shetland in 2010 was deemed to be wild in origin.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Emberiza_bruniceps_-Tanbaly%2C_Kazakhstan-8.jpg/1280px-Emberiza_bruniceps_-Tanbaly%2C_Kazakhstan-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Emberiza_bruniceps_-Tanbaly%2C_Kazakhstan-8.jpg/330px-Emberiza_bruniceps_-Tanbaly%2C_Kazakhstan-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Emberiza_bruniceps_-Tanbaly,_Kazakhstan-8.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Ken and Nyetta",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Red-headed_Bunting_Emberiza_bruniceps_Female_by_Dr._Raju_Kasambe_DSCN9058_%28175%29.jpg/1280px-Red-headed_Bunting_Emberiza_bruniceps_Female_by_Dr._Raju_Kasambe_DSCN9058_%28175%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Red-headed_Bunting_Emberiza_bruniceps_Female_by_Dr._Raju_Kasambe_DSCN9058_%28175%29.jpg/330px-Red-headed_Bunting_Emberiza_bruniceps_Female_by_Dr._Raju_Kasambe_DSCN9058_%28175%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red-headed_Bunting_Emberiza_bruniceps_Female_by_Dr._Raju_Kasambe_DSCN9058_(175).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dr. Raju Kasambe",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 2.8,
+   "max": 24.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Emberiza"
+  },
+  "family": {
+   "scientific": "Emberizidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Granativora bruniceps"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q547159"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-headed_bunting"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

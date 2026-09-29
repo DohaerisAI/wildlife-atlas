@@ -1,0 +1,28 @@
+{
+ "scientific": "Alcippe rufogularis",
+ "name": "Rufous-throated Fulvetta",
+ "qid": "Q27075516",
+ "description": "species of bird",
+ "extract": "",
+ "images": [],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Alcippe"
+  },
+  "family": {
+   "scientific": "Alcippeidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075516"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

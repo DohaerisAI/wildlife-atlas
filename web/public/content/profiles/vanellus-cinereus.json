@@ -1,0 +1,54 @@
+{
+ "scientific": "Vanellus cinereus",
+ "name": "Grey-headed Lapwing",
+ "qid": "Q1047787",
+ "description": "species of bird",
+ "extract": "The grey-headed lapwing (Vanellus cinereus) is a lapwing species which breeds in northeast China and Japan. The mainland population winters in northern Southeast Asia from northeastern India to Cambodia.  The Japanese population winters, at least partially, in southern Honshū.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Vanellus_cinereus.JPG/1280px-Vanellus_cinereus.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Vanellus_cinereus.JPG/330px-Vanellus_cinereus.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Vanellus_cinereus.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Alpsdake",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 75.0,
+   "max": 76.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Vanellus"
+  },
+  "family": {
+   "scientific": "Charadriidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1047787"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey-headed_lapwing"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

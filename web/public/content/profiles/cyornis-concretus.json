@@ -1,0 +1,41 @@
+{
+ "scientific": "Cyornis concretus",
+ "name": "White-tailed Flycatcher",
+ "qid": "Q3315197",
+ "description": "species of bird",
+ "extract": "",
+ "images": [],
+ "facts": {
+  "mass": {
+   "min": 24.0,
+   "max": 24.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cyornis"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Niltava concreta"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3315197"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

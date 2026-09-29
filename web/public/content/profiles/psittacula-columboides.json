@@ -1,0 +1,49 @@
+{
+ "scientific": "Psittacula columboides",
+ "name": "Blue-winged Parakeet",
+ "qid": "Q1007526",
+ "description": "species of bird",
+ "extract": "The  blue-winged parakeet (Psittacula columboides), also known as the Malabar parakeet, is a species of parakeet endemic to the Western Ghats of southern India. Found in small flocks, they fly rapidly in forest clearings while making screeching calls that differ from those of other parakeet species within their distribution range. Their long blue tails tipped in yellow and the dark wings with blue contrast with the dull grey of their head and body. Adult males and females can be easily told apart from the colour of their beak.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Psittacula_columboides_%28male%29_-Kerala_-India-8-4c.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Psittacula_columboides_%28male%29_-Kerala_-India-8-4c.jpg/330px-Psittacula_columboides_%28male%29_-Kerala_-India-8-4c.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Psittacula_columboides_(male)_-Kerala_-India-8-4c.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "derivative work: Snowmanradio (talk)\nPsittacula_columboides_(male)_-Kerala_-India-8.jpg: Lip Kee Yap",
+   "caption": "Male"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Psittacula"
+  },
+  "family": {
+   "scientific": "Psittaculidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "other_names": [
+  "Malabar parakeet"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1007526"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blue-winged_parakeet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,51 @@
+{
+ "scientific": "Mirafra erythroptera",
+ "name": "Indian Bush Lark",
+ "qid": "Q2734306",
+ "description": "species of bird",
+ "extract": "The Indian bush lark (Plocealauda erythroptera) is a species of lark in the family Alaudidae found in South Asia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Indian_Bushlark_in_Bhigwan_August_2025_by_Tisha_Mukherjee_05.jpg/1280px-Indian_Bushlark_in_Bhigwan_August_2025_by_Tisha_Mukherjee_05.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Indian_Bushlark_in_Bhigwan_August_2025_by_Tisha_Mukherjee_05.jpg/330px-Indian_Bushlark_in_Bhigwan_August_2025_by_Tisha_Mukherjee_05.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Indian_Bushlark_in_Bhigwan_August_2025_by_Tisha_Mukherjee_05.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 21.0,
+   "max": 21.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Mirafra"
+  },
+  "family": {
+   "scientific": "Alaudidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2734306"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_bush_lark"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

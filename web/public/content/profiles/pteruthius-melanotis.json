@@ -1,0 +1,51 @@
+{
+ "scientific": "Pteruthius melanotis",
+ "name": "Black-eared Shrike-Babbler",
+ "qid": "Q746109",
+ "description": "species of bird",
+ "extract": "The black-eared shrike-babbler (Pteruthius melanotis) is a bird species in the vireo family, Vireonidae. It was traditionally considered as an aberrant Old World babbler and formerly placed in the family Timaliidae.  It was long noted that their habits resembled those of vireos, but this was previously ascribed to the result of convergent evolution. It is found in Southeast Asia from the Himalayas to western Malaysia. Its natural habitat is subtropical or tropical moist montane forests.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Black-eared_Shrike-Babbler_in_Lava_May_2025_by_Tisha_Mukherjee_02.jpg/1280px-Black-eared_Shrike-Babbler_in_Lava_May_2025_by_Tisha_Mukherjee_02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Black-eared_Shrike-Babbler_in_Lava_May_2025_by_Tisha_Mukherjee_02.jpg/330px-Black-eared_Shrike-Babbler_in_Lava_May_2025_by_Tisha_Mukherjee_02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-eared_Shrike-Babbler_in_Lava_May_2025_by_Tisha_Mukherjee_02.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 13.3,
+   "max": 13.3,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pteruthius"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q746109"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-eared_shrike-babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

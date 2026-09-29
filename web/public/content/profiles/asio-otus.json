@@ -1,0 +1,68 @@
+{
+ "scientific": "Asio otus",
+ "name": "Long-eared Owl",
+ "qid": "Q25384",
+ "description": "species of bird",
+ "extract": "The long-eared owl (Asio otus), also known as the northern long-eared owl or informally as the lesser horned owl or cat owl, is a medium-sized typical owl with an extensive range. The genus name, Asio, is Latin for \"horned owl\", and the specific epithet, otus, is derived from Greek and refers to a small eared owl. It breeds in Europe and the Palearctic, as well as in North America.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Asio_otus11.JPG/1280px-Asio_otus11.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Asio_otus11.JPG/330px-Asio_otus11.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Asio_otus11.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Luis nunes alberto",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Asio_otus_Downsview_Park_Toronto2.jpg/1280px-Asio_otus_Downsview_Park_Toronto2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Asio_otus_Downsview_Park_Toronto2.jpg/330px-Asio_otus_Downsview_Park_Toronto2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Asio_otus_Downsview_Park_Toronto2.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Mykola Swarnyk",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 95.0,
+   "max": 95.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Asio"
+  },
+  "family": {
+   "scientific": "Strigidae",
+   "name": "true owls"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "northern long-eared owl",
+  "lesser horned owl",
+  "cat owl"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25384"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Long-eared_owl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,53 @@
+{
+ "scientific": "Ketupa ketupu",
+ "name": "Buffy Fish Owl",
+ "qid": "Q904024",
+ "description": "species of bird",
+ "extract": "The buffy fish owl (Ketupa ketupu), also known as the Malay fish owl, is a fish owl in the family Strigidae. It is native to Southeast Asia and lives foremost in tropical forests and wetlands. Due to its wide distribution and assumed stable population, it is listed as least concern on the IUCN Red List since 2004.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/%E0%A6%AE%E0%A7%87%E0%A6%9F%E0%A7%87_%E0%A6%AE%E0%A7%87%E0%A6%9B%E0%A7%8B%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%81%E0%A6%9A%E0%A6%BE%28Bubo_ketupu%29_%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0%E0%A6%AC%E0%A6%A8%2C%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A5%A4.jpg/1280px-%E0%A6%AE%E0%A7%87%E0%A6%9F%E0%A7%87_%E0%A6%AE%E0%A7%87%E0%A6%9B%E0%A7%8B%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%81%E0%A6%9A%E0%A6%BE%28Bubo_ketupu%29_%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0%E0%A6%AC%E0%A6%A8%2C%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A5%A4.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/%E0%A6%AE%E0%A7%87%E0%A6%9F%E0%A7%87_%E0%A6%AE%E0%A7%87%E0%A6%9B%E0%A7%8B%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%81%E0%A6%9A%E0%A6%BE%28Bubo_ketupu%29_%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0%E0%A6%AC%E0%A6%A8%2C%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A5%A4.jpg/330px-%E0%A6%AE%E0%A7%87%E0%A6%9F%E0%A7%87_%E0%A6%AE%E0%A7%87%E0%A6%9B%E0%A7%8B%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%81%E0%A6%9A%E0%A6%BE%28Bubo_ketupu%29_%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0%E0%A6%AC%E0%A6%A8%2C%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A5%A4.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E0%A6%AE%E0%A7%87%E0%A6%9F%E0%A7%87_%E0%A6%AE%E0%A7%87%E0%A6%9B%E0%A7%8B%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%81%E0%A6%9A%E0%A6%BE(Bubo_ketupu)_%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0%E0%A6%AC%E0%A6%A8,%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A5%A4.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Khan Mashuk Ahmed",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ketupa"
+  },
+  "family": {
+   "scientific": "Strigidae",
+   "name": "true owls"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Malay fish owl"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q904024"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffy_fish_owl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

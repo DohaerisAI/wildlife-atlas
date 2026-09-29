@@ -1,0 +1,45 @@
+{
+ "scientific": "Pelargopsis amauroptera",
+ "name": "Brown-winged Kingfisher",
+ "qid": "Q1263365",
+ "description": "species of bird",
+ "extract": "The brown-winged kingfisher (Pelargopsis amauroptera) is a species of bird in the subfamily Halcyoninae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Brown_winged_KF.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Brown_winged_KF.jpg/330px-Brown_winged_KF.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brown_winged_KF.jpg",
+   "license": "CC BY 3.0",
+   "artist": "Jayanth Sharma",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pelargopsis"
+  },
+  "family": {
+   "scientific": "Alcedinidae"
+  },
+  "order": {
+   "scientific": "Coraciiformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1263365"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown-winged_kingfisher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

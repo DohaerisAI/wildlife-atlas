@@ -1,0 +1,51 @@
+{
+ "scientific": "Prinia cinereocapilla",
+ "name": "Grey-crowned Prinia",
+ "qid": "Q1316453",
+ "description": "species of bird",
+ "extract": "The grey-crowned prinia (Prinia cinereocapilla) is a species of bird in the family Cisticolidae. It is found in Bhutan, northern India and Nepal. Its natural habitats are subtropical or tropical dry forest, subtropical or tropical moist shrubland, subtropical or tropical dry lowland grassland, subtropical or tropical seasonally wet or flooded lowland grassland, and arable land.It is threatened by habitat loss, including forest fires.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/PriniaPoliocephalaSmit.jpg/1280px-PriniaPoliocephalaSmit.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/PriniaPoliocephalaSmit.jpg/330px-PriniaPoliocephalaSmit.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:PriniaPoliocephalaSmit.jpg",
+   "license": "Public domain",
+   "artist": "Joseph Smit",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 7.3,
+   "max": 7.3,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Prinia"
+  },
+  "family": {
+   "scientific": "Cisticolidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1316453"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey-crowned_prinia"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

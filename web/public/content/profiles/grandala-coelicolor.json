@@ -1,0 +1,51 @@
+{
+ "scientific": "Grandala coelicolor",
+ "name": "Grandala",
+ "qid": "Q2342558",
+ "description": "species of bird",
+ "extract": "The grandala (Grandala coelicolor) is a species of bird in the thrush family Turdidae. It is the only species in the genus Grandala. It is an insectivore and frugivore. It ranges across the northwestern and northeastern Indian subcontinent and northeast to western China, existing primarily at high to very high altitudes in the Himalayas and the Tibetan Plateau. It is found in Bhutan, India, Myanmar, and Nepal, as well as Tibet and other areas of China north to southeast Gansu.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Grandala_coelicolor_John_Gould.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Grandala_coelicolor_John_Gould.jpg/330px-Grandala_coelicolor_John_Gould.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grandala_coelicolor_John_Gould.jpg",
+   "license": "Public domain",
+   "artist": "John Gould and HC Richter",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 46.0,
+   "max": 46.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Grandala"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2342558"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grandala"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

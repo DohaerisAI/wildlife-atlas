@@ -1,0 +1,51 @@
+{
+ "scientific": "Anthipes monileger",
+ "name": "White-gorgeted Flycatcher",
+ "qid": "Q3315617",
+ "description": "species of bird",
+ "extract": "The white-gorgeted flycatcher (Anthipes monileger) is a species of passerine bird in the Old World flycatcher family. It is native to Bangladesh, Bhutan, China, India, Laos, Myanmar, Nepal, Thailand and Vietnam. Its natural habitat is subtropical or tropical moist montane forests. It was formerly placed in the genus Ficedula.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/White-gorgeted_Flycatcher_%28cropped%29.jpg/1280px-White-gorgeted_Flycatcher_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/White-gorgeted_Flycatcher_%28cropped%29.jpg/330px-White-gorgeted_Flycatcher_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-gorgeted_Flycatcher_(cropped).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jason Thompson",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 11.0,
+   "max": 11.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anthipes"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3315617"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-gorgeted_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

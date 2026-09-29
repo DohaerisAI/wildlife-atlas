@@ -1,0 +1,46 @@
+{
+ "scientific": "Prunella fulvescens",
+ "name": "Brown Accentor",
+ "qid": "Q995751",
+ "description": "species of bird",
+ "extract": "The brown accentor (Prunella fulvescens) is a species of bird in the family Prunellidae. It is found in Afghanistan, China, India, Kazakhstan, Mongolia, Nepal, Pakistan, Russia, Tajikistan, Turkmenistan, and Uzbekistan.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Brown_Accentor_%28Prunella_fulvescens%29_%2815709212937%29.jpg/1280px-Brown_Accentor_%28Prunella_fulvescens%29_%2815709212937%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Brown_Accentor_%28Prunella_fulvescens%29_%2815709212937%29.jpg/330px-Brown_Accentor_%28Prunella_fulvescens%29_%2815709212937%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brown_Accentor_(Prunella_fulvescens)_(15709212937).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Prunella"
+  },
+  "family": {
+   "scientific": "Prunellidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q995751"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown_accentor"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,50 @@
+{
+ "scientific": "Bubo bengalensis",
+ "name": "Indian Eagle-Owl",
+ "qid": "Q817172",
+ "description": "species of bird",
+ "extract": "The Indian eagle-owl (Bubo bengalensis), or the Bengal eagle-owl or rock eagle-owl, is a large horned owl species native to hilly and rocky scrub forests in the Indian subcontinent. It is splashed with brown and grey, and has a white throat patch with black small stripes. It was earlier treated as a subspecies of the Eurasian eagle-owl. It is usually seen in pairs. It has a deep resonant booming call that may be heard at dawn and dusk.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Rock_eagle_owl_DSC_7104.jpg/1280px-Rock_eagle_owl_DSC_7104.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Rock_eagle_owl_DSC_7104.jpg/330px-Rock_eagle_owl_DSC_7104.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rock_eagle_owl_DSC_7104.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Supradai",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Bubo"
+  },
+  "family": {
+   "scientific": "Strigidae",
+   "name": "true owls"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q817172"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_eagle-owl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

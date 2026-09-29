@@ -1,0 +1,57 @@
+{
+ "scientific": "Iduna rama",
+ "name": "Sykes's Warbler",
+ "qid": "Q370354",
+ "description": "species of bird",
+ "extract": "Sykes's warbler (Iduna rama) is an Old World warbler in the tree warbler family. It was formerly considered a subspecies of the booted warbler, but is now considered a full species. Its breeding range is from northeast Arabia to Turkestan, west China and Afghanistan. Like the booted warbler, many populations of the species migrate in winter to the Indian subcontinent as far south as Sri Lanka.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Syke%27s_Warbler_%28Hippolais_rama%29_on_Vilaiti_Siris_%28Samanea_saman%29_in_Kolkata_W_IMG_4659.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Syke%27s_Warbler_%28Hippolais_rama%29_on_Vilaiti_Siris_%28Samanea_saman%29_in_Kolkata_W_IMG_4659.jpg/330px-Syke%27s_Warbler_%28Hippolais_rama%29_on_Vilaiti_Siris_%28Samanea_saman%29_in_Kolkata_W_IMG_4659.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Syke%27s_Warbler_(Hippolais_rama)_on_Vilaiti_Siris_(Samanea_saman)_in_Kolkata_W_IMG_4659.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Sykes%27s_Warbler_%28Hippolais_rama%29_W_IMG_6809.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Sykes%27s_Warbler_%28Hippolais_rama%29_W_IMG_6809.jpg/330px-Sykes%27s_Warbler_%28Hippolais_rama%29_W_IMG_6809.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sykes%27s_Warbler_(Hippolais_rama)_W_IMG_6809.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Iduna"
+  },
+  "family": {
+   "scientific": "Acrocephalidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Sykes’s Warbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q370354"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sykes%27s_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

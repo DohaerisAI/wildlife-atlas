@@ -1,0 +1,37 @@
+{
+ "scientific": "Hodgsonius phoenicuroides",
+ "name": "White-bellied Redstart",
+ "qid": "Q1588570",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Hodgsonius_phaenicuroides_2.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/07/Hodgsonius_phaenicuroides_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hodgsonius_phaenicuroides_2.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "White_bellied_Redstart_DSC02614.JPG: J.M.Garg\nderivative work: Berichard (talk)",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Hodgsonius"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1588570"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

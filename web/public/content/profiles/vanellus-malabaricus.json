@@ -1,0 +1,54 @@
+{
+ "scientific": "Vanellus malabaricus",
+ "name": "Yellow-wattled Lapwing",
+ "qid": "Q979748",
+ "description": "species of bird",
+ "extract": "The yellow-wattled lapwing (Vanellus malabaricus) is a lapwing that is endemic to the Indian subcontinent. It is found mainly on the dry plains of peninsular India and has a sharp call and is capable of fast flight. Although they do not migrate, they are known to make seasonal movements in response to rains. They are dull grey brown with a black cap, yellow legs and a triangular wattle at the base of the beak. Like other lapwings and plovers, they are ground birds and their nest is a mere collection of tiny pebbles within which their well camouflaged eggs are laid. The chicks are nidifugous, leaving the nest shortly after hatching and following their parents to forage for food.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/SL_Bundala_NP_asv2020-01_img35.jpg/1280px-SL_Bundala_NP_asv2020-01_img35.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/SL_Bundala_NP_asv2020-01_img35.jpg/330px-SL_Bundala_NP_asv2020-01_img35.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:SL_Bundala_NP_asv2020-01_img35.jpg",
+   "license": "FAL",
+   "artist": "A.Savin",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 13.5,
+   "max": 140.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Vanellus"
+  },
+  "family": {
+   "scientific": "Charadriidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q979748"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yellow-wattled_lapwing"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

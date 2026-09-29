@@ -1,0 +1,54 @@
+{
+ "scientific": "Lanius tephronotus",
+ "name": "Grey-backed Shrike",
+ "qid": "Q955741",
+ "description": "species of bird",
+ "extract": "The grey-backed shrike (Lanius tephronotus) is a bird in the family Laniidae inhabiting South-east Asia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Lanius_tephronotus_176351739.jpg/1280px-Lanius_tephronotus_176351739.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Lanius_tephronotus_176351739.jpg/330px-Lanius_tephronotus_176351739.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lanius_tephronotus_176351739.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Rejoice Gassah",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Lanius_tephronotus_112875222.jpg/1280px-Lanius_tephronotus_112875222.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Lanius_tephronotus_112875222.jpg/330px-Lanius_tephronotus_112875222.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lanius_tephronotus_112875222.jpg",
+   "license": "CC0",
+   "artist": "Stephen Matthews",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lanius"
+  },
+  "family": {
+   "scientific": "Laniidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q955741"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey-backed_shrike"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

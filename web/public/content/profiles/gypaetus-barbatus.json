@@ -1,0 +1,71 @@
+{
+ "scientific": "Gypaetus barbatus",
+ "name": "Bearded vulture",
+ "qid": "Q126167",
+ "description": "species of bird",
+ "extract": "The bearded vulture (Gypaetus barbatus), also known as the lammergeier and ossifrage, is a very large bird of prey in the monotypic genus Gypaetus. The bearded vulture is the only known vertebrate whose diet consists of 70–90% bone.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Bearded_Vulture_-_Catalan_Pyrenees_-_Spain_%2825098398432%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Bearded_Vulture_-_Catalan_Pyrenees_-_Spain_%2825098398432%29.jpg/330px-Bearded_Vulture_-_Catalan_Pyrenees_-_Spain_%2825098398432%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bearded_Vulture_-_Catalan_Pyrenees_-_Spain_(25098398432).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Bearded_Vulture_-_Giant_Castle_010001_%2815280863060%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Bearded_Vulture_-_Giant_Castle_010001_%2815280863060%29.jpg/330px-Bearded_Vulture_-_Giant_Castle_010001_%2815280863060%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bearded_Vulture_-_Giant_Castle_010001_(15280863060).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 262.1,
+   "max": 262.1,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 224.0,
+   "max": 6175.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Gypaetus"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Lammergeier",
+  "Lammergeyer"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q126167"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bearded_vulture"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

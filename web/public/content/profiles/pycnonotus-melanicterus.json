@@ -1,0 +1,37 @@
+{
+ "scientific": "Pycnonotus melanicterus",
+ "name": "Black-capped Bulbul",
+ "qid": "Q10809673",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Black-capped_Bulbul_Pycnonotus_melanicterus%2C_Wipattu_National_Park%2C_Sri_Lanka.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Black-capped_Bulbul_Pycnonotus_melanicterus%2C_Wipattu_National_Park%2C_Sri_Lanka.jpg/330px-Black-capped_Bulbul_Pycnonotus_melanicterus%2C_Wipattu_National_Park%2C_Sri_Lanka.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-capped_Bulbul_Pycnonotus_melanicterus,_Wipattu_National_Park,_Sri_Lanka.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Thimindu Goonatillake from Denver, USA",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pycnonotus"
+  },
+  "family": {
+   "scientific": "Pycnonotidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q10809673"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

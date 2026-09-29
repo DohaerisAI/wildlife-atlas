@@ -1,14 +1,25 @@
 id: species-profiles
 title: Species profiles
 layer: L2
-status: building
+status: working
 summary: >-
-  Photos with credits and licences, wingspan, length, weight and status from Wikidata, Wikipedia and Commons.
+  One profile per species in species.json (plus featured species): photos hotlinked from Commons with
+  licence and artist (a ~1280 px url and a 320 px thumb), wingspan, length, weight and IUCN status from
+  Wikidata, the Wikipedia intro, and an Identity block (genus, family, order, class from the P171 chain,
+  English other names from Wikidata aliases). Missing values stay absent. index.json maps slug to
+  {name, sci, thumb} so lists can show photos without loading each profile. Built with
+  `uv run atlas profiles --all`: batched Wikidata/Commons/Wikipedia calls, backoff on 429/5xx, resumable
+  (existing files are skipped unless --refresh).
 paths:
   - pipeline/atlas_pipeline/profiles.py
+  - pipeline/atlas_pipeline/profile_sources.py
+  - pipeline/atlas_pipeline/wikimedia.py
   - web/public/content/profiles/
 checks:
   - suite: pytest
     file: tests/test_profiles.py
+  - suite: pytest
+    file: tests/test_cli.py
 next: >-
-  Add bird calls (xeno-canto, CC licences only) and profiles for every species in the index.
+  Add bird calls (xeno-canto, CC licences only). Front end: read the new index.json object format, show
+  thumbs in lists and the Identity section (taxonomy, other_names) on the profile.

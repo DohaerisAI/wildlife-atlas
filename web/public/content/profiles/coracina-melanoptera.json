@@ -1,0 +1,51 @@
+{
+ "scientific": "Coracina melanoptera",
+ "name": "Black-headed Cuckooshrike",
+ "qid": "Q1078063",
+ "description": "synonym of Lalage melanoptera",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Black-headed_Cuckooshrike_%28Coracina_melanoptera%29_at_Sindhrot_near_Vadodara%2C_Gujrat_Pix_110.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Black-headed_Cuckooshrike_%28Coracina_melanoptera%29_at_Sindhrot_near_Vadodara%2C_Gujrat_Pix_110.jpg/330px-Black-headed_Cuckooshrike_%28Coracina_melanoptera%29_at_Sindhrot_near_Vadodara%2C_Gujrat_Pix_110.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-headed_Cuckooshrike_(Coracina_melanoptera)_at_Sindhrot_near_Vadodara,_Gujrat_Pix_110.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Black-headed_Cuckooshrike_Coracina_melanoptera_by_Dr._Raju_Kasambe.JPG/1280px-Black-headed_Cuckooshrike_Coracina_melanoptera_by_Dr._Raju_Kasambe.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Black-headed_Cuckooshrike_Coracina_melanoptera_by_Dr._Raju_Kasambe.JPG/330px-Black-headed_Cuckooshrike_Coracina_melanoptera_by_Dr._Raju_Kasambe.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-headed_Cuckooshrike_Coracina_melanoptera_by_Dr._Raju_Kasambe.JPG",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dr. Raju Kasambe",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 30.0,
+   "max": 30.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Coracina"
+  },
+  "family": {
+   "scientific": "Campephagidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1078063"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

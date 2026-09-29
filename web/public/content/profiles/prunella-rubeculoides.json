@@ -1,0 +1,46 @@
+{
+ "scientific": "Prunella rubeculoides",
+ "name": "Robin Accentor",
+ "qid": "Q952140",
+ "description": "species of bird",
+ "extract": "The robin accentor (Prunella rubeculoides) is a species of bird in the family Prunellidae. It is found in the mountainous regions of Afghanistan, Pakistan, India, Nepal, Bhutan and China, at altitudes between about 3,000 and 5,500 m (9,800 and 18,000 ft). It is a brown bird with a grey head and an orange-red breast. It is common in parts of its range and its conservation status has been assessed by the International Union for Conservation of Nature as being of \"least concern\".",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/20170228_0781_HemisNP_Accenteur_rougegorge.jpg/1280px-20170228_0781_HemisNP_Accenteur_rougegorge.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/20170228_0781_HemisNP_Accenteur_rougegorge.jpg/330px-20170228_0781_HemisNP_Accenteur_rougegorge.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:20170228_0781_HemisNP_Accenteur_rougegorge.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Fabrice Stoger",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Prunella"
+  },
+  "family": {
+   "scientific": "Prunellidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q952140"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Robin_accentor"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,67 @@
+{
+ "scientific": "Anous tenuirostris",
+ "name": "Lesser Noddy",
+ "qid": "Q941644",
+ "description": "species of bird",
+ "extract": "The lesser noddy (Anous tenuirostris), also known as the sooty noddy, is a seabird in the family Laridae. It is found near the coastlines of Comoros, Kenya, India, Maldives, Mauritius, Seychelles, Somalia, Sri Lanka and United Arab Emirates.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Anous_tenuirostris_01.jpg/1280px-Anous_tenuirostris_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Anous_tenuirostris_01.jpg/330px-Anous_tenuirostris_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Anous_tenuirostris_01.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "B.navez",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Lesser_Noddy_-_Anous_tenuirostris_3.jpg/1280px-Lesser_Noddy_-_Anous_tenuirostris_3.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Lesser_Noddy_-_Anous_tenuirostris_3.jpg/330px-Lesser_Noddy_-_Anous_tenuirostris_3.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lesser_Noddy_-_Anous_tenuirostris_3.jpg",
+   "license": "Public domain",
+   "artist": "Marion Schneider & Christoph Aistleitner",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 58.0,
+   "max": 63.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 17.4,
+   "max": 17.4,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anous"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q941644"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lesser_noddy"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

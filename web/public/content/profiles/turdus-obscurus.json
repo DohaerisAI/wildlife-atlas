@@ -1,0 +1,59 @@
+{
+ "scientific": "Turdus obscurus",
+ "name": "Eyebrowed Thrush",
+ "qid": "Q1591663",
+ "description": "species of bird",
+ "extract": "The eyebrowed thrush (Turdus obscurus) is a member of the thrush family Turdidae. It breeds in dense coniferous forest and taiga eastwards from Siberia and Mongolia to Japan. It is strongly migratory, wintering south to China and Southeast Asia. It is a rare vagrant to western Europe.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Eyebrowed_Thrush.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Eyebrowed_Thrush.jpg/330px-Eyebrowed_Thrush.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eyebrowed_Thrush.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Robert tdc",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Turdus_obscurus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Turdus_obscurus.jpg/330px-Turdus_obscurus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Turdus_obscurus.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "M.Nishimura",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 63.0,
+   "max": 63.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turdus"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1591663"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eyebrowed_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,69 @@
+{
+ "scientific": "Pyrrhocorax pyrrhocorax",
+ "name": "Red-billed Chough",
+ "qid": "Q643836",
+ "description": "species of bird",
+ "extract": "The red-billed chough, Cornish chough or simply chough ( CHUF; Pyrrhocorax pyrrhocorax) is a bird in the crow family, one of only two species in the genus Pyrrhocorax. Its eight subspecies breed on mountains and coastal cliffs from the western coasts of Ireland and Britain east through southern Europe, North Africa and Middle East to Central Asia, India and China.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Bran_goesgoch_Pyrrhocorax_pyrrhocorax.jpg/1280px-Bran_goesgoch_Pyrrhocorax_pyrrhocorax.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Bran_goesgoch_Pyrrhocorax_pyrrhocorax.jpg/330px-Bran_goesgoch_Pyrrhocorax_pyrrhocorax.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bran_goesgoch_Pyrrhocorax_pyrrhocorax.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Alun Williams333",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Alpenkr%C3%A4he-Pyrrhocorax.jpg/1280px-Alpenkr%C3%A4he-Pyrrhocorax.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Alpenkr%C3%A4he-Pyrrhocorax.jpg/330px-Alpenkr%C3%A4he-Pyrrhocorax.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Alpenkr%C3%A4he-Pyrrhocorax.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "\"Malte Uhl\"",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 82.0,
+   "max": 82.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 263.0,
+   "max": 312.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pyrrhocorax"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Cornish Chough",
+  "chough",
+  "Red Crow"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q643836"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-billed_chough"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

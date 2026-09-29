@@ -1,0 +1,46 @@
+{
+ "scientific": "Enicurus scouleri",
+ "name": "Little Forktail",
+ "qid": "Q1588392",
+ "description": "species of bird",
+ "extract": "The little forktail (Enicurus scouleri) is a species of bird in the family Muscicapidae. The specific name commemorates Dr. John Scouler of Glasgow.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Little_Forktail.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Little_Forktail.jpg/330px-Little_Forktail.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Little_Forktail.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Robert tdc",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Enicurus"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1588392"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Little_forktail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

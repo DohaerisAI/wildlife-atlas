@@ -1,0 +1,49 @@
+{
+ "scientific": "Spilopelia senegalensis",
+ "name": "Laughing Dove",
+ "qid": "Q391198",
+ "description": "species of bird",
+ "extract": "The laughing dove (Spilopelia senegalensis) is a small pigeon that is a resident breeder in Africa, the Middle East, South Asia, and Western Australia where it has established itself in the wild after being released from Perth Zoo in 1898. This small long-tailed dove is found in dry scrub and semi-desert habitats where pairs can often be seen feeding on the ground. It is closely related to the spotted dove (Spilopelia chinensis) which is distinguished by a white and black chequered necklace. Other names include laughing turtle dove, palm dove and Senegal dove while in Asia the name little brown dove is often used.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/140_Laughing_dove_in_Twyfelfontein_Photo_by_Giles_Laurent.jpg/1280px-140_Laughing_dove_in_Twyfelfontein_Photo_by_Giles_Laurent.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/140_Laughing_dove_in_Twyfelfontein_Photo_by_Giles_Laurent.jpg/330px-140_Laughing_dove_in_Twyfelfontein_Photo_by_Giles_Laurent.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:140_Laughing_dove_in_Twyfelfontein_Photo_by_Giles_Laurent.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Giles Laurent",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Spilopelia"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q391198"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Laughing_dove"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

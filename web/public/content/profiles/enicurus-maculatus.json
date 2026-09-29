@@ -1,0 +1,51 @@
+{
+ "scientific": "Enicurus maculatus",
+ "name": "Spotted Forktail",
+ "qid": "Q2668209",
+ "description": "species of bird",
+ "extract": "The spotted forktail (Enicurus maculatus) is a species of bird in the family Muscicapidae. It is found in the Himalayas and the hills of Northeast India, Bangladesh, Myanmar, and southern China including Yunnan. Birds of this species are 25 cm with a long tail. The sexes are alike, having a white forehead and a black crown and nape, a black back spotted white, and a broad white wing bar. The tail is deeply forked, graduated black and white. The white spotted back easily identifies this species from other similar sized forktail. Its call is a shrill, screechy KREE, mostly given in flight; it also makes some shrill, squeaky notes while perched. It breeds mostly at 1200–3600 m, and descends to about 600 m in winter. Its natural habitat is subtropical or tropical moist montane forests, where it is found in boulder-strewn torrents, forest streams, and roadside canals.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Enicurus_maculatus.jpg/1280px-Enicurus_maculatus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Enicurus_maculatus.jpg/330px-Enicurus_maculatus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Enicurus_maculatus.jpg",
+   "license": "Public domain",
+   "artist": "John Gould / Henry Constantine Richter",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 41.0,
+   "max": 41.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Enicurus"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2668209"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spotted_forktail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

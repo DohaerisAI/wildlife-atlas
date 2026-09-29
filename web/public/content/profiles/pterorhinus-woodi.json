@@ -1,0 +1,46 @@
+{
+ "scientific": "Pterorhinus woodi",
+ "name": "Mount Victoria Babax",
+ "qid": "Q62083536",
+ "description": "species of bird",
+ "extract": "The Mount Victoria babax (Pterorhinus woodi) is a species of passerine bird in the family Leiothrichidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Mount_Victoria_Babax.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Mount_Victoria_Babax.jpg/330px-Mount_Victoria_Babax.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mount_Victoria_Babax.jpg",
+   "license": "CC0",
+   "artist": "Lonelyshrimp",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pterorhinus"
+  },
+  "family": {
+   "scientific": "Leiothrichidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q62083536"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mount_Victoria_babax"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

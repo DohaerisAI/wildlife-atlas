@@ -1,0 +1,37 @@
+{
+ "scientific": "Lanius giganteus",
+ "name": "Giant Grey Shrike",
+ "qid": "Q55119187",
+ "description": "species of bird",
+ "extract": "The giant grey shrike (Lanius giganteus) is a species of bird in the family Laniidae. It is found in China. Its natural habitat is temperate forests. It was formerly considered a subspecies of the Chinese grey shrike (Lanius sphenocercus), but was split as a distinct species by the IOC in 2021.",
+ "images": [],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lanius"
+  },
+  "family": {
+   "scientific": "Laniidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q55119187"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Giant_grey_shrike"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

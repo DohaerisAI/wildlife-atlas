@@ -1,0 +1,51 @@
+{
+ "scientific": "Sitta yunnanensis",
+ "name": "Yunnan Nuthatch",
+ "qid": "Q1061021",
+ "description": "species of bird",
+ "extract": "The Yunnan nuthatch (Sitta yunnanensis) is a bird species in the nuthatch family Sittidae. It was first described by William Robert Ogilvie-Grant in 1900 based on a male holotype. It is a small nuthatch, measuring 12 centimetres (4.7 in) in length on average and weighs between 7.5 and 13 grams (0.26 and 0.46 oz). The grey-blue upperparts contrast with the light, smooth, buffy lowerparts. It has a fine white eyebrow above a black eyestripe, which is distinct when the plumage is fresh, and exhibits a small degree of sexual dimorphism. A noisy bird, it produces simple, nasal sounds, sometimes in repetitive series.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/SittaYunnanensis.svg/1280px-SittaYunnanensis.svg.png",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/SittaYunnanensis.svg/330px-SittaYunnanensis.svg.png",
+   "page": "https://commons.wikimedia.org/wiki/File:SittaYunnanensis.svg",
+   "license": "CC BY 3.0",
+   "artist": "L. Shyamal",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 10.2,
+   "max": 10.2,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sitta"
+  },
+  "family": {
+   "scientific": "Sittidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1061021"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yunnan_nuthatch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

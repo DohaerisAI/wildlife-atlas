@@ -1,0 +1,48 @@
+{
+ "scientific": "Psilopogon duvaucelii",
+ "name": "Blue-eared Barbet",
+ "qid": "Q21279591",
+ "description": "species of bird",
+ "extract": "The black-eared barbet (Psilopogon duvaucelii) is a barbet in the family Megalaimidae native to Peninsular Malaysia, Sumatra and Borneo. It inhabits shrubland and forest up to an altitude of 1,200 m (3,900 ft). Because of its large range it is listed as least concern on the IUCN Red List.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Blue-eared_Barbet_%28Psilopogon_duvaucelii_cyanoticus%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Blue-eared_Barbet_%28Psilopogon_duvaucelii_cyanoticus%29.jpg/330px-Blue-eared_Barbet_%28Psilopogon_duvaucelii_cyanoticus%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blue-eared_Barbet_(Psilopogon_duvaucelii_cyanoticus).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee Yap",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Psilopogon"
+  },
+  "family": {
+   "scientific": "Megalaimidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "other_names": [
+  "Black-eared barbet"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q21279591"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-eared_barbet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

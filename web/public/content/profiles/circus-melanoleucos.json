@@ -1,0 +1,67 @@
+{
+ "scientific": "Circus melanoleucos",
+ "name": "Pied Harrier",
+ "qid": "Q900773",
+ "description": "species of bird",
+ "extract": "The pied harrier (Circus melanoleucos) is a bird of prey in the family Accipitridae, named for the male's distinctive white and black colouration.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Circus_melanoleucos_from_iNaturalist_photo_104706101_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Circus_melanoleucos_from_iNaturalist_photo_104706101_%28cropped%29.jpg/330px-Circus_melanoleucos_from_iNaturalist_photo_104706101_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Circus_melanoleucos_from_iNaturalist_photo_104706101_(cropped).jpg",
+   "license": "CC BY 4.0",
+   "artist": "Christoph Moning (christoph_moning)",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Pied_Harrier_%28Female%29.jpg/1280px-Pied_Harrier_%28Female%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Pied_Harrier_%28Female%29.jpg/330px-Pied_Harrier_%28Female%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pied_Harrier_(Female).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Induchoodan A",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 110.0,
+   "max": 125.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 290.0,
+   "max": 420.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Circus"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q900773"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pied_harrier"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

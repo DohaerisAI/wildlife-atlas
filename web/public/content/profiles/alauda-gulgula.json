@@ -1,0 +1,54 @@
+{
+ "scientific": "Alauda gulgula",
+ "name": "Oriental Skylark",
+ "qid": "Q525871",
+ "description": "species of bird",
+ "extract": "The Oriental skylark (Alauda gulgula) is a species of skylark found in the Sino-Indian region and parts of central Asia. Like other skylarks, it is found in open grassland where it feeds on seeds and insects.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Oriental_Lark_%2849172375968%29.jpg/1280px-Oriental_Lark_%2849172375968%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Oriental_Lark_%2849172375968%29.jpg/330px-Oriental_Lark_%2849172375968%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Oriental_Lark_(49172375968).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Hari K  Patibanda",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Oriental_Skylark_%28Alauda_gulgula%29_%2830337513600%29.jpg/1280px-Oriental_Skylark_%28Alauda_gulgula%29_%2830337513600%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Oriental_Skylark_%28Alauda_gulgula%29_%2830337513600%29.jpg/330px-Oriental_Skylark_%28Alauda_gulgula%29_%2830337513600%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Oriental_Skylark_(Alauda_gulgula)_(30337513600).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Alauda"
+  },
+  "family": {
+   "scientific": "Alaudidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q525871"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Oriental_skylark"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,46 @@
+{
+ "scientific": "Saxicola jerdoni",
+ "name": "Jerdon's Bush Chat",
+ "qid": "Q1589048",
+ "description": "species of bird",
+ "extract": "Jerdon's bush chat (Saxicola jerdoni) is a species of bird in the family Muscicapidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Jerdon%27s_Bush_Chat%2C_Inle_Lake%2C_Taunggyi_District%2C_Shan_State%2C_Myanmar_%2833940816073%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Jerdon%27s_Bush_Chat%2C_Inle_Lake%2C_Taunggyi_District%2C_Shan_State%2C_Myanmar_%2833940816073%29.jpg/330px-Jerdon%27s_Bush_Chat%2C_Inle_Lake%2C_Taunggyi_District%2C_Shan_State%2C_Myanmar_%2833940816073%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Jerdon%27s_Bush_Chat,_Inle_Lake,_Taunggyi_District,_Shan_State,_Myanmar_(33940816073).jpg",
+   "license": "CC0",
+   "artist": "lonelyshrimp",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Saxicola"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1589048"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jerdon%27s_bush_chat"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,59 @@
+{
+ "scientific": "Ficedula zanthopygia",
+ "name": "Yellow-rumped Flycatcher",
+ "qid": "Q73574",
+ "description": "species of bird",
+ "extract": "The yellow-rumped flycatcher (Ficedula zanthopygia), also known as Korean flycatcher or tricolor flycatcher, is a species of flycatcher found in eastern Asia. A distinctive species with almost no look-alike other than the narcissus flycatcher. It breeds in eastern Asia including parts of Mongolia, Transbaikal, southern China, Korea and western Japan. They winter in parts of the Malay Peninsula and South Asia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Ficedula_zanthopygia_31827155.jpg/1280px-Ficedula_zanthopygia_31827155.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Ficedula_zanthopygia_31827155.jpg/330px-Ficedula_zanthopygia_31827155.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ficedula_zanthopygia_31827155.jpg",
+   "license": "CC BY 4.0",
+   "artist": "anukma",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Ficedula_zanthopygia_220093415.jpg/1280px-Ficedula_zanthopygia_220093415.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Ficedula_zanthopygia_220093415.jpg/330px-Ficedula_zanthopygia_220093415.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ficedula_zanthopygia_220093415.jpg",
+   "license": "CC BY 4.0",
+   "artist": "王朝威",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 13.0,
+   "max": 13.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ficedula"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q73574"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yellow-rumped_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

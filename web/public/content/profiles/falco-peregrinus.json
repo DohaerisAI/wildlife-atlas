@@ -1,0 +1,77 @@
+{
+ "scientific": "Falco peregrinus",
+ "name": "Peregrine Falcon",
+ "qid": "Q30535",
+ "description": "species of bird of prey",
+ "extract": "The peregrine falcon (Falco peregrinus), also referred to simply as the peregrine, is a bird of prey (raptor) in the family Falconidae known for its speed. A large, crow-sized falcon, it has a blue-grey back, barred white underparts and a black head. As is typical for bird-eating (avivore) raptors, peregrine falcons are sexually dimorphic, with females being considerably larger than males. Historically, the bird has also been known as the \"black-cheeked falcon\" in Australia and the \"duck hawk\" in North America.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Faucon_pelerin_7_mai.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Faucon_pelerin_7_mai.jpg/330px-Faucon_pelerin_7_mai.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Faucon_pelerin_7_mai.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Georges Lignier (georges.lignier@wanadoo.fr)",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/American_Peregrine_Falcon_%28Falco_peregrinus%29_%2810700651733%29.jpg/1280px-American_Peregrine_Falcon_%28Falco_peregrinus%29_%2810700651733%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/American_Peregrine_Falcon_%28Falco_peregrinus%29_%2810700651733%29.jpg/330px-American_Peregrine_Falcon_%28Falco_peregrinus%29_%2810700651733%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:American_Peregrine_Falcon_(Falco_peregrinus)_(10700651733).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Gregory \"Slobirdr\" Smith",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Peregrine_Falcon_Nepal.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Peregrine_Falcon_Nepal.jpg/330px-Peregrine_Falcon_Nepal.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Peregrine_Falcon_Nepal.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Creepanta",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 102.0,
+   "max": 102.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Falco",
+   "name": "falcon"
+  },
+  "family": {
+   "scientific": "Falconidae"
+  },
+  "order": {
+   "scientific": "Falconiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "peregrine",
+  "Falco (Hierofalco) peregrinus",
+  "Sapsan",
+  "Songolmae"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q30535"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Peregrine_falcon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

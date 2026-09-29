@@ -1,0 +1,62 @@
+{
+ "scientific": "Anhinga rufa",
+ "name": "African Darter",
+ "qid": "Q387379",
+ "description": "species of bird",
+ "extract": "The African darter (Anhinga rufa), sometimes called the snakebird, is a water bird of Sub-Saharan Africa and Iraq.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/African_darter_%28Anhinga_rufa%29_drying_wings.jpg/1280px-African_darter_%28Anhinga_rufa%29_drying_wings.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/African_darter_%28Anhinga_rufa%29_drying_wings.jpg/330px-African_darter_%28Anhinga_rufa%29_drying_wings.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:African_darter_(Anhinga_rufa)_drying_wings.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/ET_Bahir_Dar_asv2018-02_img08_Blue_Nile_at_the_bridge.jpg/1280px-ET_Bahir_Dar_asv2018-02_img08_Blue_Nile_at_the_bridge.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/ET_Bahir_Dar_asv2018-02_img08_Blue_Nile_at_the_bridge.jpg/330px-ET_Bahir_Dar_asv2018-02_img08_Blue_Nile_at_the_bridge.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:ET_Bahir_Dar_asv2018-02_img08_Blue_Nile_at_the_bridge.jpg",
+   "license": "FAL",
+   "artist": "A.Savin",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 116.0,
+   "max": 128.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anhinga"
+  },
+  "family": {
+   "scientific": "Anhingidae"
+  },
+  "order": {
+   "scientific": "Suliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q387379"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/African_darter"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

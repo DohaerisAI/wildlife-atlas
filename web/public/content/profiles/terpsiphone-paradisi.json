@@ -1,0 +1,54 @@
+{
+ "scientific": "Terpsiphone paradisi",
+ "name": "Indian paradise flycatcher",
+ "qid": "Q568512",
+ "description": "species of bird",
+ "extract": "The Indian paradise flycatcher (Terpsiphone paradisi) is a medium-sized passerine bird in the monarch flycatcher family, Monarchidae. As the global population is considered stable, it has been listed as Least Concern on the IUCN Red List since 2004. It is native to the Indian subcontinent, with resident and breeding populations in most of Bangladesh, India and Sri Lanka, as well as parts of Afghanistan, Bhutan, China, Myanmar, Nepal, Pakistan, Tajikistan and Turkmenistan.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Asian_Paradise_Flycatcher_%28Terpsiphone_paradisi%29_%2845839175624%29.jpg/1280px-Asian_Paradise_Flycatcher_%28Terpsiphone_paradisi%29_%2845839175624%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Asian_Paradise_Flycatcher_%28Terpsiphone_paradisi%29_%2845839175624%29.jpg/330px-Asian_Paradise_Flycatcher_%28Terpsiphone_paradisi%29_%2845839175624%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Asian_Paradise_Flycatcher_(Terpsiphone_paradisi)_(45839175624).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Asian_Paradise-flycatcher_%28Female%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Asian_Paradise-flycatcher_%28Female%29.jpg/330px-Asian_Paradise-flycatcher_%28Female%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Asian_Paradise-flycatcher_(Female).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Thimindu Goonatillake",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Terpsiphone"
+  },
+  "family": {
+   "scientific": "Monarchidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q568512"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_paradise_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

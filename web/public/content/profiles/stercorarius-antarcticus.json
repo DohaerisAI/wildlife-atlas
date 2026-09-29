@@ -1,0 +1,65 @@
+{
+ "scientific": "Stercorarius antarcticus",
+ "name": "Brown Skua",
+ "qid": "Q18987",
+ "description": "species of bird",
+ "extract": "The brown skua (Stercorarius antarcticus), also known as the Antarctic skua, Subantarctic skua, southern great skua, southern skua, or hākoakoa (Māori), is a large seabird that breeds in the subantarctic and Antarctic zones and moves farther north when not breeding. Its taxonomy is highly complex and a matter of dispute, with some splitting it into two or three species: Falkland skua (S. antarcticus), Tristan skua (S. hamiltoni), and subantarctic skua (S. lonnbergi). To further confuse, it hybridizes with both the south polar and Chilean skuas, and the entire group has been considered to be a subspecies of the great skua, a species otherwise restricted to the Northern Hemisphere.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/BrownSkua4.JPG/1280px-BrownSkua4.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/BrownSkua4.JPG/330px-BrownSkua4.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:BrownSkua4.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "BluesyPete",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Catharacta_antarctica.png",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Catharacta_antarctica.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Catharacta_antarctica.png",
+   "license": "CC BY-SA 2.5",
+   "artist": "The original uploader was C00ch at English Wikipedia.",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 126.0,
+   "max": 160.0,
+   "unit": "cm"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Stercorarius"
+  },
+  "family": {
+   "scientific": "Stercorariidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Antarctic Skua",
+  "Subantarctic Skua",
+  "Southern Great Skua",
+  "Southern Skua",
+  "Hākoakoa"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q18987"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown_skua"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

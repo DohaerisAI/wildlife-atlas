@@ -1,0 +1,58 @@
+{
+ "scientific": "Turnix tanki",
+ "name": "Yellow-legged Buttonquail",
+ "qid": "Q1271841",
+ "description": "species of bird",
+ "extract": "The yellow-legged buttonquail (Turnix tanki) is a buttonquail, one of a small family of  birds which resemble, but are unrelated to, the true quails. This family is peculiar in that the females are larger and more colourful than the males and are polyandrous.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Yellow-legged_Button_Quails_Turnix_tanki_Amravati_%283%29._Maharashtra%2C_India.jpg/1280px-Yellow-legged_Button_Quails_Turnix_tanki_Amravati_%283%29._Maharashtra%2C_India.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Yellow-legged_Button_Quails_Turnix_tanki_Amravati_%283%29._Maharashtra%2C_India.jpg/330px-Yellow-legged_Button_Quails_Turnix_tanki_Amravati_%283%29._Maharashtra%2C_India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Yellow-legged_Button_Quails_Turnix_tanki_Amravati_(3)._Maharashtra,_India.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dr. Raju Kasambe",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Turnix_tanki_Gronvold.jpg/1280px-Turnix_tanki_Gronvold.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Turnix_tanki_Gronvold.jpg/330px-Turnix_tanki_Gronvold.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Turnix_tanki_Gronvold.jpg",
+   "license": "Public domain",
+   "artist": "Henrik Grønvold",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turnix"
+  },
+  "family": {
+   "scientific": "Turnicidae",
+   "name": "Buttonquail"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1271841"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yellow-legged_buttonquail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

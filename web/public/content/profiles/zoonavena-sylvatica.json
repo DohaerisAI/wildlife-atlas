@@ -1,0 +1,52 @@
+{
+ "scientific": "Zoonavena sylvatica",
+ "name": "White-rumped Spinetail",
+ "qid": "Q1265793",
+ "description": "species of bird",
+ "extract": "The white-rumped spinetail or white-rumped needletail (Zoonavena sylvatica) is a species of swift found in the forests of Bangladesh, India (the Western Ghats) and Nepal. It is often seen over waterbodies in the middle of forest. It can resemble a house swift but has a white vent.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/White-rumped_spinetail_from_Thattekad%2C_Kerala.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/White-rumped_spinetail_from_Thattekad%2C_Kerala.jpg/330px-White-rumped_spinetail_from_Thattekad%2C_Kerala.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-rumped_spinetail_from_Thattekad,_Kerala.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Kannan AS",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Zoonavena"
+  },
+  "family": {
+   "scientific": "Apodidae"
+  },
+  "order": {
+   "scientific": "Apodiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "white-rumped needletail"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1265793"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-rumped_spinetail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

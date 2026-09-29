@@ -1,0 +1,59 @@
+{
+ "scientific": "Sitta frontalis",
+ "name": "Velvet-fronted Nuthatch",
+ "qid": "Q73714",
+ "description": "species of bird",
+ "extract": "The velvet-fronted nuthatch (Sitta frontalis) is a small passerine bird in the nuthatch family Sittidae found in southern Asia, from Nepal, India, Sri Lanka ‍and Bangladesh east to southwestern China and Indonesia. Like other nuthatches, it feeds on insects in the bark of trees, foraging on the trunks and branches and their strongly clawed toes allow them to climb down tree trunks or move on the undersides of horizontal branches. They are found in forests with good tree cover and are often found along with other species in mixed-species foraging flocks. Adult males can be told apart by the black stripe that runs behind and above the eyes. They have a rapid chipping call note. They breed in tree cavities and holes, often created by woodpeckers or barbets.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Velvet-fronted-Nuthatch.jpg/1280px-Velvet-fronted-Nuthatch.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Velvet-fronted-Nuthatch.jpg/330px-Velvet-fronted-Nuthatch.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Velvet-fronted-Nuthatch.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Mildeep",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Velvet-fronted_Nuthatch_0A2A4674.jpg/1280px-Velvet-fronted_Nuthatch_0A2A4674.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Velvet-fronted_Nuthatch_0A2A4674.jpg/330px-Velvet-fronted_Nuthatch_0A2A4674.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Velvet-fronted_Nuthatch_0A2A4674.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 16.5,
+   "max": 16.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sitta"
+  },
+  "family": {
+   "scientific": "Sittidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q73714"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Velvet-fronted_nuthatch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

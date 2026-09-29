@@ -1,0 +1,75 @@
+{
+ "scientific": "Tadorna tadorna",
+ "name": "Common Shelduck",
+ "qid": "Q25761",
+ "description": "species of bird",
+ "extract": "The common shelduck (Tadorna tadorna) is a waterfowl species of the shelduck genus Tadorna. It is widespread and common in the Palearctic, in Europe and northwest Africa mainly breeding on temperate coasts, saline pools and estuaries, and in Asia on inland salt lakes; increasingly it is also using open freshwater habitats inland. Wintering is in temperate to subtropical regions.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/2014-04-18_Tadorna_tadorna_pair%2C_Swallow_Pond.jpg/1280px-2014-04-18_Tadorna_tadorna_pair%2C_Swallow_Pond.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/2014-04-18_Tadorna_tadorna_pair%2C_Swallow_Pond.jpg/330px-2014-04-18_Tadorna_tadorna_pair%2C_Swallow_Pond.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2014-04-18_Tadorna_tadorna_pair,_Swallow_Pond.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "MPF",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Tadorna_tadorna_1.JPG/1280px-Tadorna_tadorna_1.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Tadorna_tadorna_1.JPG/330px-Tadorna_tadorna_1.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Tadorna_tadorna_1.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Aiwok",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Common_shellduck_%28Tadorna_tadorna%29_female.jpg/1280px-Common_shellduck_%28Tadorna_tadorna%29_female.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Common_shellduck_%28Tadorna_tadorna%29_female.jpg/330px-Common_shellduck_%28Tadorna_tadorna%29_female.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_shellduck_(Tadorna_tadorna)_female.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Charles J. Sharp",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 112.0,
+   "max": 112.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 78.0,
+   "max": 1261.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tadorna"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25761"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_shelduck"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

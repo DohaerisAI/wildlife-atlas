@@ -1,0 +1,75 @@
+{
+ "scientific": "Ardea alba",
+ "name": "Great Egret",
+ "qid": "Q130730",
+ "description": "species of bird",
+ "extract": "The great egret (Ardea alba), also known as the common egret, large egret, great white egret, or great white heron, is a large, widely distributed egret.  The four subspecies are found in Asia, Africa, the Americas, and southern Europe. Recently, it has also been spreading to more northern areas of Europe. Distributed across most of the tropical and warmer temperate regions of the world, it builds tree nests in colonies close to water.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Great_Egret_%28Ardea_alba%29_%2825562005404%29.jpg/1280px-Great_Egret_%28Ardea_alba%29_%2825562005404%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Great_Egret_%28Ardea_alba%29_%2825562005404%29.jpg/330px-Great_Egret_%28Ardea_alba%29_%2825562005404%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Great_Egret_(Ardea_alba)_(25562005404).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Bernard DUPONT from FRANCE",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Ardea_alba4.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Ardea_alba4.jpg/330px-Ardea_alba4.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ardea_alba4.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Calibas",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Ardea_alba_-_Sydney_Olympic_Park.jpg/1280px-Ardea_alba_-_Sydney_Olympic_Park.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Ardea_alba_-_Sydney_Olympic_Park.jpg/330px-Ardea_alba_-_Sydney_Olympic_Park.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ardea_alba_-_Sydney_Olympic_Park.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 144.0,
+   "max": 144.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ardea"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Great White Egret",
+  "Egretta alba"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q130730"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_egret"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

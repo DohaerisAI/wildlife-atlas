@@ -1,0 +1,51 @@
+{
+ "scientific": "Rhipidura albicollis",
+ "name": "White-throated Fantail",
+ "qid": "Q1591229",
+ "description": "species of bird",
+ "extract": "The white-throated fantail (Rhipidura albicollis) is a small passerine bird. It is found in forest, scrub and cultivation across tropical southern Asia from the Himalayas, India and Bangladesh east to Indonesia. The white-spotted fantail (R. albogularis) until recently was considered a subspecies.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/White-throated_fantail%2C_Bhawal_National_Park.jpg/1280px-White-throated_fantail%2C_Bhawal_National_Park.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/White-throated_fantail%2C_Bhawal_National_Park.jpg/330px-White-throated_fantail%2C_Bhawal_National_Park.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-throated_fantail,_Bhawal_National_Park.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Md shahanshah bappy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 12.9,
+   "max": 12.9,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Rhipidura"
+  },
+  "family": {
+   "scientific": "Rhipiduridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1591229"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-throated_fantail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

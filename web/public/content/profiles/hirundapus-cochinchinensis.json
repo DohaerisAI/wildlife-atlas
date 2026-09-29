@@ -1,0 +1,57 @@
+{
+ "scientific": "Hirundapus cochinchinensis",
+ "name": "Silver-backed Needletail",
+ "qid": "Q1260378",
+ "description": "species of bird",
+ "extract": "The silver-backed needletail (Hirundapus cochinchinensis) is a species of swift in the family Apodidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Silver-backedNeedletail.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Silver-backedNeedletail.jpg/330px-Silver-backedNeedletail.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Silver-backedNeedletail.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "TonyCastro",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 80.0,
+   "max": 80.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Hirundapus"
+  },
+  "family": {
+   "scientific": "Apodidae"
+  },
+  "order": {
+   "scientific": "Apodiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Silver-backed Needletail (Hirundapus cochinchinensis)"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1260378"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Silver-backed_needletail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

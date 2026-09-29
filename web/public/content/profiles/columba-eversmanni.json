@@ -1,0 +1,57 @@
+{
+ "scientific": "Columba eversmanni",
+ "name": "Yellow-eyed Pigeon",
+ "qid": "Q932119",
+ "description": "species of bird",
+ "extract": "The yellow-eyed pigeon, pale-backed pigeon, yellow-eyed dove or yellow-eyed stock dove (Columba eversmanni) is a member of the family Columbidae (doves and pigeons). It breeds in southern Kazakhstan, Uzbekistan, Turkmenistan, Tajikistan, Kyrgyzstan, Afghanistan, north-east Iran and extreme north-west China. It winters in north-east Pakistan, Jammu and Kashmir and parts of Rajasthan (including Tal Chhapar Sanctuary and Jorbeer, Bikaner). The bird has declined in numbers over the years, chiefly because of hunting, and it is listed as \"vulnerable\" by the International Union for Conservation of Nature.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Yellow-eyed_Pigeon.jpg/1280px-Yellow-eyed_Pigeon.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Yellow-eyed_Pigeon.jpg/330px-Yellow-eyed_Pigeon.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Yellow-eyed_Pigeon.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Shreeram M V",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 15.0,
+   "max": 15.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Columba"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Pale-backed Pigeon"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q932119"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yellow-eyed_pigeon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

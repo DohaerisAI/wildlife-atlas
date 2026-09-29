@@ -1,0 +1,53 @@
+{
+ "scientific": "Gorsachius magnificus",
+ "name": "White-eared Night-Heron",
+ "qid": "Q177396",
+ "description": "synonym of Oroanassa magnifica",
+ "extract": "The white-eared night heron (Oroanassa magnifica) is a species of heron in the family Ardeidae. It was once thought to be only found in southern China and in northern Vietnam. However, its range is actually significantly larger as in the 2010s and 2020s has been recently discovered in Cambodia, India and Bangladesh.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/NycticoraxMagnificaGronvold.jpg/1280px-NycticoraxMagnificaGronvold.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/NycticoraxMagnificaGronvold.jpg/330px-NycticoraxMagnificaGronvold.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:NycticoraxMagnificaGronvold.jpg",
+   "license": "Public domain",
+   "artist": "Henrik Grønvold",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Gorsachius"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "White-eared night heron"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q177396"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-eared_night_heron"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

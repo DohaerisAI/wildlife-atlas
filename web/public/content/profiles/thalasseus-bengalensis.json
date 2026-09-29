@@ -1,0 +1,67 @@
+{
+ "scientific": "Thalasseus bengalensis",
+ "name": "Lesser Crested Tern",
+ "qid": "Q18839",
+ "description": "species of seabird",
+ "extract": "The lesser crested tern (Thalasseus bengalensis) is a tern in the family Laridae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/%D8%B7%D8%A7%D8%A6%D8%B1_%D8%A7%D9%84%D8%AE%D8%B1%D8%B4%D9%86%D9%87_-_%D9%85%D8%AD%D9%85%D9%8A%D8%A7%D8%AA_%D8%AC%D9%86%D9%88%D8%A8_%D8%A7%D9%84%D8%A8%D8%AD%D8%B1_%D8%A7%D9%84%D8%A7%D8%AD%D9%85%D8%B1.jpg/1280px-%D8%B7%D8%A7%D8%A6%D8%B1_%D8%A7%D9%84%D8%AE%D8%B1%D8%B4%D9%86%D9%87_-_%D9%85%D8%AD%D9%85%D9%8A%D8%A7%D8%AA_%D8%AC%D9%86%D9%88%D8%A8_%D8%A7%D9%84%D8%A8%D8%AD%D8%B1_%D8%A7%D9%84%D8%A7%D8%AD%D9%85%D8%B1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/%D8%B7%D8%A7%D8%A6%D8%B1_%D8%A7%D9%84%D8%AE%D8%B1%D8%B4%D9%86%D9%87_-_%D9%85%D8%AD%D9%85%D9%8A%D8%A7%D8%AA_%D8%AC%D9%86%D9%88%D8%A8_%D8%A7%D9%84%D8%A8%D8%AD%D8%B1_%D8%A7%D9%84%D8%A7%D8%AD%D9%85%D8%B1.jpg/330px-%D8%B7%D8%A7%D8%A6%D8%B1_%D8%A7%D9%84%D8%AE%D8%B1%D8%B4%D9%86%D9%87_-_%D9%85%D8%AD%D9%85%D9%8A%D8%A7%D8%AA_%D8%AC%D9%86%D9%88%D8%A8_%D8%A7%D9%84%D8%A8%D8%AD%D8%B1_%D8%A7%D9%84%D8%A7%D8%AD%D9%85%D8%B1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%D8%B7%D8%A7%D8%A6%D8%B1_%D8%A7%D9%84%D8%AE%D8%B1%D8%B4%D9%86%D9%87_-_%D9%85%D8%AD%D9%85%D9%8A%D8%A7%D8%AA_%D8%AC%D9%86%D9%88%D8%A8_%D8%A7%D9%84%D8%A8%D8%AD%D8%B1_%D8%A7%D9%84%D8%A7%D8%AD%D9%85%D8%B1.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Heshamsamir",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Lesser_crested_terns_%28Thalasseus_bengalensis%29_by_Shantanu_Kuveskar.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Lesser_crested_terns_%28Thalasseus_bengalensis%29_by_Shantanu_Kuveskar.jpg/330px-Lesser_crested_terns_%28Thalasseus_bengalensis%29_by_Shantanu_Kuveskar.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lesser_crested_terns_(Thalasseus_bengalensis)_by_Shantanu_Kuveskar.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Shantanu Kuveskar",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 88.0,
+   "max": 105.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 209.0,
+   "max": 209.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Thalasseus"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q18839"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lesser_crested_tern"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

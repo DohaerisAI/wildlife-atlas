@@ -1,0 +1,64 @@
+{
+ "scientific": "Pelecanus philippensis",
+ "name": "Spot-billed Pelican",
+ "qid": "Q180360",
+ "description": "species of bird",
+ "extract": "The spot-billed pelican (Pelecanus philippensis) or gray pelican is a member of the pelican family. It breeds in southern Asia from southern Iran across India east to Indonesia. It is a bird of large inland and coastal waters, especially large lakes. At a distance they are difficult to differentiate from other pelicans in the region although it is smaller but at close range the spots on the upper mandible, the lack of bright colours and the greyer plumage are distinctive. In some areas these birds nest in large colonies close to human habitations.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Spot-billed_pelican-02.jpg/1280px-Spot-billed_pelican-02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Spot-billed_pelican-02.jpg/330px-Spot-billed_pelican-02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Spot-billed_pelican-02.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "CLPramod",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Spot-billed_Pelican_%28Pelecanus_philippensis%29_with_nesting_material_W_IMG_2806.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Spot-billed_Pelican_%28Pelecanus_philippensis%29_with_nesting_material_W_IMG_2806.jpg/330px-Spot-billed_Pelican_%28Pelecanus_philippensis%29_with_nesting_material_W_IMG_2806.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Spot-billed_Pelican_(Pelecanus_philippensis)_with_nesting_material_W_IMG_2806.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 213.0,
+   "max": 250.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pelecanus",
+   "name": "pelican"
+  },
+  "family": {
+   "scientific": "Pelecanidae",
+   "name": "pelicans"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q180360"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spot-billed_pelican"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

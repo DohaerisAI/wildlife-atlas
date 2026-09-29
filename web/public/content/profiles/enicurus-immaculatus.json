@@ -1,0 +1,51 @@
+{
+ "scientific": "Enicurus immaculatus",
+ "name": "Black-backed Forktail",
+ "qid": "Q3314677",
+ "description": "species of bird",
+ "extract": "The black-backed forktail (Enicurus immaculatus), occasionally referred to as the black-throated forktail, is a forktail species in the family Muscicapidae. The species was described in 1836, from a specimen collected in Nepal. It is a medium-sized forktail, weighing between 25 and 29 grams, with a length of 20.5 to 23 centimetres (8+1⁄8 to 9 in). The species has a broad white stripe across its forehead. The crown, face, and mantle are black, while the bird's underparts are white, sharply divided from the black above. The wings are largely black with a broad white stripe across the greater coverts. The tail of the species, similar to that of other forktails, is long, graduated, and deeply forked. The tail is black with a white tip and three white bands created by shorter tail feathers. The beak of the bird is black, while the feet and legs are light pink, and the iris is brown. The species is monomorphic.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Black-backed_forktail_%2816807008853%29.jpg/1280px-Black-backed_forktail_%2816807008853%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Black-backed_forktail_%2816807008853%29.jpg/330px-Black-backed_forktail_%2816807008853%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-backed_forktail_(16807008853).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Tareq Uddin Ahmed from chittagon, Bangladesh",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 27.0,
+   "max": 27.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Enicurus"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3314677"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-backed_forktail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

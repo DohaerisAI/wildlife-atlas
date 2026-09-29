@@ -1,0 +1,79 @@
+{
+ "scientific": "Podiceps cristatus",
+ "name": "Great Crested Grebe",
+ "qid": "Q25422",
+ "description": "species of bird",
+ "extract": "The great crested grebe (Podiceps cristatus) is a member of the grebe family of water birds. The bird is characterised by its distinctive appearance, featuring striking black, orange-brown, and white plumage, and elaborate courtship display that involves synchronised dances and displays.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Great_Crested_Grebe_%2852909695022%29.jpg/1280px-Great_Crested_Grebe_%2852909695022%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Great_Crested_Grebe_%2852909695022%29.jpg/330px-Great_Crested_Grebe_%2852909695022%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Great_Crested_Grebe_(52909695022).jpg",
+   "license": "CC BY 2.0",
+   "artist": "caroline legg",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Great_Crested_Grebe_carries_her_chick_on_her_back.jpg/1280px-Great_Crested_Grebe_carries_her_chick_on_her_back.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Great_Crested_Grebe_carries_her_chick_on_her_back.jpg/330px-Great_Crested_Grebe_carries_her_chick_on_her_back.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Great_Crested_Grebe_carries_her_chick_on_her_back.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "GrahamBreeze",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Podiceps_cristatus_%28eating_crab%29.jpg/1280px-Podiceps_cristatus_%28eating_crab%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Podiceps_cristatus_%28eating_crab%29.jpg/330px-Podiceps_cristatus_%28eating_crab%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Podiceps_cristatus_(eating_crab).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Alpsdake",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 88.0,
+   "max": 88.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 39.5,
+   "max": 920.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Podiceps"
+  },
+  "family": {
+   "scientific": "Podicipedidae"
+  },
+  "order": {
+   "scientific": "Podicipediformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "tippet grebe",
+  "gaunt"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25422"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_crested_grebe"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

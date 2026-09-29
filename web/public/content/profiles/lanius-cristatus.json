@@ -1,0 +1,59 @@
+{
+ "scientific": "Lanius cristatus",
+ "name": "Brown Shrike",
+ "qid": "Q790616",
+ "description": "species of bird",
+ "extract": "The brown shrike (Lanius cristatus) is a bird in the shrike family that is found mainly in Asia. It is closely related to the red-backed shrike (L. collurio) and isabelline shrike (L. isabellinus). The genus name, Lanius, is derived from the Latin word for \"butcher\", and some shrikes are also known as \"butcher birds\" because of their feeding habits. The specific cristatus is Latin for \"crested\", used in a broader sense than in English. The common English name \"shrike\" is from Old English scríc, \"shriek\", referring to the shrill call.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Lanius_cristatus_-_Surin.jpg/1280px-Lanius_cristatus_-_Surin.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Lanius_cristatus_-_Surin.jpg/330px-Lanius_cristatus_-_Surin.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lanius_cristatus_-_Surin.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Brown_Shrike_I_IMG_7367.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Brown_Shrike_I_IMG_7367.jpg/330px-Brown_Shrike_I_IMG_7367.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brown_Shrike_I_IMG_7367.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 3.2,
+   "max": 33.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lanius"
+  },
+  "family": {
+   "scientific": "Laniidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q790616"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown_shrike"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

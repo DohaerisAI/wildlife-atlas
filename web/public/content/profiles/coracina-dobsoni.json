@@ -1,0 +1,46 @@
+{
+ "scientific": "Coracina dobsoni",
+ "name": "Andaman Cuckooshrike",
+ "qid": "Q2284149",
+ "description": "species of bird",
+ "extract": "The Andaman cuckooshrike (Coracina dobsoni) is a species of bird in the family Campephagidae. It is endemic to the Andaman Islands. It was formerly considered a subspecies of the bar-bellied cuckooshrike.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Andaman_Cuckoo_Shrike.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Andaman_Cuckoo_Shrike.jpg/330px-Andaman_Cuckoo_Shrike.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Andaman_Cuckoo_Shrike.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Brian Ralphs",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Coracina"
+  },
+  "family": {
+   "scientific": "Campephagidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2284149"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Andaman_cuckooshrike"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

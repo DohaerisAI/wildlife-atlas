@@ -1,0 +1,80 @@
+{
+ "scientific": "Nycticorax nycticorax",
+ "name": "Black-crowned night heron",
+ "qid": "Q126216",
+ "description": "species of bird",
+ "extract": "The black-crowned night heron (Nycticorax nycticorax) or black-capped night heron, commonly shortened to just night heron in Eurasia, is a medium-sized heron found throughout a large part of the world, including parts of Africa, Asia, Europe, and North and South America. In Australasia it is replaced by the closely related Nankeen night heron (N. caledonicus), with which it has hybridised in the area of contact.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Nycticorax_nycticorax_nycticorax%2C_Camargue_%2833620984464%29.jpg/1280px-Nycticorax_nycticorax_nycticorax%2C_Camargue_%2833620984464%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Nycticorax_nycticorax_nycticorax%2C_Camargue_%2833620984464%29.jpg/330px-Nycticorax_nycticorax_nycticorax%2C_Camargue_%2833620984464%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Nycticorax_nycticorax_nycticorax,_Camargue_(33620984464).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jac. Janssen",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Black-crowned_night_heron_in_PP_%2836399%29.jpg/1280px-Black-crowned_night_heron_in_PP_%2836399%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Black-crowned_night_heron_in_PP_%2836399%29.jpg/330px-Black-crowned_night_heron_in_PP_%2836399%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-crowned_night_heron_in_PP_(36399).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Rhododendrites",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Nycticorax_nycticorax%2C_West_Point_Island%2C_Falkland_Islands_2.jpg/1280px-Nycticorax_nycticorax%2C_West_Point_Island%2C_Falkland_Islands_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Nycticorax_nycticorax%2C_West_Point_Island%2C_Falkland_Islands_2.jpg/330px-Nycticorax_nycticorax%2C_West_Point_Island%2C_Falkland_Islands_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Nycticorax_nycticorax,_West_Point_Island,_Falkland_Islands_2.jpg",
+   "license": "CC BY 2.0",
+   "artist": "nomis-simon",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 106.0,
+   "max": 106.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 590.0,
+   "max": 682.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Nycticorax"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "black-capped night heron",
+  "night heron"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q126216"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-crowned_night_heron"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

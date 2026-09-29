@@ -1,0 +1,46 @@
+{
+ "scientific": "Cettia castaneocoronata",
+ "name": "Chestnut-headed Tesia",
+ "qid": "Q27075473",
+ "description": "species of bird",
+ "extract": "The chestnut-headed tesia (Cettia castaneocoronata) is a small insectivorous songbird formerly of the \"Old World warbler\" family but nowadays placed in the bush warbler family (Cettiidae).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Chestnut-headed_Tesia.jpg/1280px-Chestnut-headed_Tesia.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Chestnut-headed_Tesia.jpg/330px-Chestnut-headed_Tesia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chestnut-headed_Tesia.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jason Thompson",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cettia"
+  },
+  "family": {
+   "scientific": "Cettiidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075473"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chestnut-headed_tesia"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

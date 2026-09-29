@@ -1,0 +1,62 @@
+{
+ "scientific": "Branta ruficollis",
+ "name": "Red-breasted Goose",
+ "qid": "Q187852",
+ "description": "species of bird",
+ "extract": "The red-breasted goose (Branta ruficollis) is a brightly marked species of goose in the genus Branta from Eurasia. It is currently classified as vulnerable by the IUCN.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Brantha_ruficollis_In_Taimyr_Reserve.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Brantha_ruficollis_In_Taimyr_Reserve.jpg/330px-Brantha_ruficollis_In_Taimyr_Reserve.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brantha_ruficollis_In_Taimyr_Reserve.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Поспелов Игорь Николаевич",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Rothalsgans_Weisswangengans_Winter.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Rothalsgans_Weisswangengans_Winter.JPG/330px-Rothalsgans_Weisswangengans_Winter.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Rothalsgans_Weisswangengans_Winter.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Frebeck",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 90.0,
+   "max": 1375.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Branta"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q187852"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-breasted_goose"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

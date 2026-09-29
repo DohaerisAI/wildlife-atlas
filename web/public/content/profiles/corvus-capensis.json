@@ -1,0 +1,54 @@
+{
+ "scientific": "Corvus capensis",
+ "name": "Cape Crow",
+ "qid": "Q1002590",
+ "description": "species of bird",
+ "extract": "The Cape crow or black crow (Corvus capensis) is slightly larger (48–50 cm in length) than the carrion crow and is completely black with a slight gloss of purple in its feathers. It also has proportionately longer legs, wings, and tail, and has a much longer, slimmer bill that seems to be adapted for probing into the ground for invertebrates. The head feathers have a coppery-purple gloss and the throat feathers are quite long and fluffed out in some calls and displays.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Cape_crow.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cape_crow.jpg/330px-Cape_crow.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cape_crow.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Unknown",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 22.3,
+   "max": 22.3,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Corvus"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "black crow"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1002590"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cape_crow"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

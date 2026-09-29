@@ -1,0 +1,73 @@
+{
+ "scientific": "Calidris pugnax",
+ "name": "Ruff",
+ "qid": "Q28122714",
+ "description": "species of bird",
+ "extract": "The ruff (Calidris pugnax) is a medium-sized wading bird that breeds in marshes and wet meadows across northern Eurasia. This highly gregarious sandpiper is migratory and sometimes forms huge flocks in its winter grounds, which include southern and western Europe, Africa, southern Asia and Australia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Philomachus_pugnaxRuffKampfl%C3%A4ufer.JPG/1280px-Philomachus_pugnaxRuffKampfl%C3%A4ufer.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Philomachus_pugnaxRuffKampfl%C3%A4ufer.JPG/330px-Philomachus_pugnaxRuffKampfl%C3%A4ufer.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Philomachus_pugnaxRuffKampfl%C3%A4ufer.JPG",
+   "license": "CC BY-SA 4.0",
+   "artist": "Wald1siedel",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Ruff%2C_Philomachus_pugnax%2C_at_Marievale_Nature_Reserve%2C_Gauteng%2C_South_Africa_%2821014304581%29.jpg/1280px-Ruff%2C_Philomachus_pugnax%2C_at_Marievale_Nature_Reserve%2C_Gauteng%2C_South_Africa_%2821014304581%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Ruff%2C_Philomachus_pugnax%2C_at_Marievale_Nature_Reserve%2C_Gauteng%2C_South_Africa_%2821014304581%29.jpg/330px-Ruff%2C_Philomachus_pugnax%2C_at_Marievale_Nature_Reserve%2C_Gauteng%2C_South_Africa_%2821014304581%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ruff,_Philomachus_pugnax,_at_Marievale_Nature_Reserve,_Gauteng,_South_Africa_(21014304581).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Derek Keats from Johannesburg, South Africa",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Wiki-erimakisigi.jpg/1280px-Wiki-erimakisigi.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Wiki-erimakisigi.jpg/330px-Wiki-erimakisigi.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wiki-erimakisigi.jpg",
+   "license": "Public domain",
+   "artist": "Tokumi",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 21.0,
+   "max": 170.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Calidris"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Philomachus pugnax"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q28122714"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ruff_(bird)"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

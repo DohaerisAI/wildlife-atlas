@@ -1,0 +1,56 @@
+{
+ "scientific": "Megapodius nicobariensis",
+ "name": "Nicobar Megapode",
+ "qid": "Q1193783",
+ "description": "species of bird",
+ "extract": "The Nicobar megapode or Nicobar scrubfowl (Megapodius nicobariensis) is a megapode endemic to the Nicobar Islands of India. Like other megapodes, it builds a large mound nest of soil and vegetation, with the eggs incubated by the heat produced by decomposition. Newly hatched chicks climb out of the loose soil of the mound and, being fully feathered, are capable of flight. The Nicobar Islands lie on the western edge of the megapode distribution, well separated from the nearest ranges of other megapode species. The 2004 Indian Ocean tsunami reduced the global population by an estimated 66–75% and completely submerged Megapode Island; the species is now considered globally Vulnerable under IUCN criteria A1bc; D1, with a stable but small post-tsunami population.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Nicobar_Megapode.svg/1280px-Nicobar_Megapode.svg.png",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Nicobar_Megapode.svg/330px-Nicobar_Megapode.svg.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Nicobar_Megapode.svg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Mahesh Iyer",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 55.0,
+   "max": 935.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Megapodius",
+   "name": "Scrubfowl"
+  },
+  "family": {
+   "scientific": "Megapodiidae",
+   "name": "megapode"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1193783"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nicobar_megapode"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

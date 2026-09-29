@@ -1,0 +1,41 @@
+{
+ "scientific": "Iduna aedon",
+ "name": "Thick-billed Warbler",
+ "qid": "Q19682735",
+ "description": "species of bird",
+ "extract": "The thick-billed warbler (Arundinax aedon)  breeds in the temperate east Palearctic, from south Siberia to west Mongolia. It is migratory, wintering in tropical South Asia and South-east Asia. It is a very rare vagrant to western Europe.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Thick-billed_warbler_%28Iduna_aedon%29_from_The_Anamalai_hills_JEG0661_%28cropped%29.jpg/1280px-Thick-billed_warbler_%28Iduna_aedon%29_from_The_Anamalai_hills_JEG0661_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Thick-billed_warbler_%28Iduna_aedon%29_from_The_Anamalai_hills_JEG0661_%28cropped%29.jpg/330px-Thick-billed_warbler_%28Iduna_aedon%29_from_The_Anamalai_hills_JEG0661_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Thick-billed_warbler_(Iduna_aedon)_from_The_Anamalai_hills_JEG0661_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "PJeganathan",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Iduna"
+  },
+  "family": {
+   "scientific": "Acrocephalidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q19682735"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Thick-billed_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

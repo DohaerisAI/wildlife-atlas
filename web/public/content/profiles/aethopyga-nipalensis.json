@@ -1,0 +1,55 @@
+{
+ "scientific": "Aethopyga nipalensis",
+ "name": "Green-tailed Sunbird",
+ "qid": "Q3238764",
+ "description": "species of bird",
+ "extract": "The green-tailed sunbird (Aethopyga nipalensis) or Nepal yellow-backed sunbird is a species of bird in the family Nectariniidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Green-tailed_Sunbird_Sikkim_India.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Green-tailed_Sunbird_Sikkim_India.jpg/330px-Green-tailed_Sunbird_Sikkim_India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Green-tailed_Sunbird_Sikkim_India.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Green_tailed_Sunbird.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Green_tailed_Sunbird.jpg/330px-Green_tailed_Sunbird.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Green_tailed_Sunbird.jpg",
+   "license": "CC BY 2.5",
+   "artist": "No machine-readable author provided. Sabine's Sunbird assumed (based on copyright claims).",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aethopyga"
+  },
+  "family": {
+   "scientific": "Nectariniidae",
+   "name": "sunbird"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3238764"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Green-tailed_sunbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,49 @@
+{
+ "scientific": "Lanius collurioides",
+ "name": "Burmese Shrike",
+ "qid": "Q852172",
+ "description": "species of bird",
+ "extract": "The Burmese shrike (Lanius collurioides) is a species of bird in the family Laniidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Burmese_Shrike.jpg/1280px-Burmese_Shrike.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Burmese_Shrike.jpg/330px-Burmese_Shrike.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Burmese_Shrike.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jason Thompson",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lanius"
+  },
+  "family": {
+   "scientific": "Laniidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Lanius colluroides"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q852172"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Burmese_shrike"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

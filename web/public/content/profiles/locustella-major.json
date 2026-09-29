@@ -1,0 +1,54 @@
+{
+ "scientific": "Locustella major",
+ "name": "Long-billed Bush Warbler",
+ "qid": "Q27075496",
+ "description": "species of bird",
+ "extract": "The long-billed bush warbler (Locustella major) is a rare species of Old World warbler in the family Locustellidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Long-billed_Bush_Warbler_%28Locustella_major%29_%2853252207414%29_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Long-billed_Bush_Warbler_%28Locustella_major%29_%2853252207414%29_%28cropped%29.jpg/330px-Long-billed_Bush_Warbler_%28Locustella_major%29_%2853252207414%29_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Long-billed_Bush_Warbler_(Locustella_major)_(53252207414)_(cropped).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Aliabad, Hunza, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 13.0,
+   "max": 13.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Locustella"
+  },
+  "family": {
+   "scientific": "Locustellidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Long-billed Grasshopper Warbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075496"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Long-billed_bush_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

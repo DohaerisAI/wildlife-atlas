@@ -1,0 +1,37 @@
+{
+ "scientific": "Turdoides striata",
+ "name": "Jungle Babbler",
+ "qid": "Q2672674",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/2005-jungle-babbler.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/2005-jungle-babbler.jpg/330px-2005-jungle-babbler.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2005-jungle-babbler.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Yathin S Krishnappa",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turdoides"
+  },
+  "family": {
+   "scientific": "Leiothrichidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2672674"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,59 @@
+{
+ "scientific": "Spilornis elgini",
+ "name": "Andaman Serpent Eagle",
+ "qid": "Q760455",
+ "description": "species of bird",
+ "extract": "The Andaman serpent eagle (Spilornis elgini), also known as the Andaman dark-serpent eagle or the dark serpent eagle, is a medium-sized bird in the family Accipitridae, the raptor family, that is only found in India on the Andaman Islands. It is currently classified as vulnerable and is experiencing population declines. This species, unlike the Crested serpent eagle, is incredibly understudied and so many things about its behaviour and ecology are still widely unknown.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Andaman_Serpent-eagle_%28Spilornis_elgini%29_low_res.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/13/Andaman_Serpent-eagle_%28Spilornis_elgini%29_low_res.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Andaman_Serpent-eagle_(Spilornis_elgini)_low_res.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Anand Pendharkar",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 115.0,
+   "max": 135.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 895.0,
+   "max": 895.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Spilornis"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q760455"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Andaman_serpent_eagle"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

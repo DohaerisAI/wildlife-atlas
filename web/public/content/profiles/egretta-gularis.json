@@ -1,0 +1,53 @@
+{
+ "scientific": "Egretta gularis",
+ "name": "Western Reef Heron",
+ "qid": "Q392570",
+ "description": "species of bird",
+ "extract": "The western reef heron (Egretta gularis), also called the western reef egret, is a medium-sized heron found in Africa and parts of Asia, with vagrancy occurring in Europe and the Americas. It has a mainly coastal distribution and occurs in several plumage forms: a slaty-grey plumage which can only be confused with the rather uncommon dark morph of the little egret (Egretta garzetta); a white form which can look very similar to the little egret, although the reef heron's bill tends to be paler and larger; and a black form with a white throat, E. g. gularis, found in West Africa. There are also differences in size, structure and foraging behaviour. There have been suggestions that the species hybridizes with the little egret, and based on this, some authors treat schistacea and gularis as subspecies of Egretta garzetta. Works that consider the western reef heron as a valid species include the nominate gularis and schistacea as subspecies.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Western_Reef_heron_%28Egretta_gularis%29.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Western_Reef_heron_%28Egretta_gularis%29.JPG/330px-Western_Reef_heron_%28Egretta_gularis%29.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Western_Reef_heron_(Egretta_gularis).JPG",
+   "license": "CC BY 2.5",
+   "artist": "Kaippally",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Egretta"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "western reef-egret"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q392570"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Western_reef_heron"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

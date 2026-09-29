@@ -1,0 +1,53 @@
+{
+ "scientific": "Dendrocoptes auriceps",
+ "name": "Brown-fronted Woodpecker",
+ "qid": "Q27074886",
+ "description": "species of bird",
+ "extract": "The brown-fronted woodpecker (Dendrocoptes auriceps) is a species of bird in the family Picidae. It ranges across the northern regions of the Indian subcontinent, primarily the lower-to-middle altitudes of the Himalayas. It is found in Afghanistan, India, Nepal, Pakistan and Bhutan.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Brown-fronted_Woodpecker_%28Dendrocopos_auriceps%29_%2838899720054%29.jpg/1280px-Brown-fronted_Woodpecker_%28Dendrocopos_auriceps%29_%2838899720054%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Brown-fronted_Woodpecker_%28Dendrocopos_auriceps%29_%2838899720054%29.jpg/330px-Brown-fronted_Woodpecker_%28Dendrocopos_auriceps%29_%2838899720054%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brown-fronted_Woodpecker_(Dendrocopos_auriceps)_(38899720054).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Dendrocopos_auriceps_-Devidhura%2C_Uttarakhand%2C_India_-male-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Dendrocopos_auriceps_-Devidhura%2C_Uttarakhand%2C_India_-male-8.jpg/330px-Dendrocopos_auriceps_-Devidhura%2C_Uttarakhand%2C_India_-male-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dendrocopos_auriceps_-Devidhura,_Uttarakhand,_India_-male-8.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "soumyajit nandy",
+   "caption": "Male"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dendrocoptes"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27074886"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown-fronted_woodpecker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

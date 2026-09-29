@@ -1,0 +1,65 @@
+{
+ "scientific": "Leptopoecile sophiae",
+ "name": "White-browed Tit-Warbler",
+ "qid": "Q1590939",
+ "description": "species of bird",
+ "extract": "The white-browed tit-warbler (Leptopoecile sophiae) is a species of bird in the family Aegithalidae. The species was first described by Nikolai Severtzov in 1873. It is resident in the Tian Shan and central China as well as in the Himalayas where it is mainly found in winter. Its natural habitat is boreal forests.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/White-browed_Tit-warbler.jpg/1280px-White-browed_Tit-warbler.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/White-browed_Tit-warbler.jpg/330px-White-browed_Tit-warbler.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-browed_Tit-warbler.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Alastair Rae",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/White-browed_Tit_Warbler_male_at_Panamic%2C_Nubra_Valley%2C_Ladakh%2C_India.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/White-browed_Tit_Warbler_male_at_Panamic%2C_Nubra_Valley%2C_Ladakh%2C_India.jpg/330px-White-browed_Tit_Warbler_male_at_Panamic%2C_Nubra_Valley%2C_Ladakh%2C_India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-browed_Tit_Warbler_male_at_Panamic,_Nubra_Valley,_Ladakh,_India.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "As kannan",
+   "caption": "Male"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/White-browed_Tit_Warbler_female_at_Panamic%2C_Nubra_Valley%2C_Ladakh%2C_India.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/White-browed_Tit_Warbler_female_at_Panamic%2C_Nubra_Valley%2C_Ladakh%2C_India.jpg/330px-White-browed_Tit_Warbler_female_at_Panamic%2C_Nubra_Valley%2C_Ladakh%2C_India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-browed_Tit_Warbler_female_at_Panamic,_Nubra_Valley,_Ladakh,_India.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "As kannan",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Leptopoecile"
+  },
+  "family": {
+   "scientific": "Aegithalidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "White-browed Tit Warbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1590939"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-browed_tit-warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

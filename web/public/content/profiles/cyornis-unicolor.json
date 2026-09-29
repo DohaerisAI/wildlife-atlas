@@ -1,0 +1,51 @@
+{
+ "scientific": "Cyornis unicolor",
+ "name": "Pale Blue Flycatcher",
+ "qid": "Q73925",
+ "description": "species of bird",
+ "extract": "The pale blue flycatcher (Cyornis unicolor) is a bird in the family Muscicapidae. The species was first described by Edward Blyth in 1843.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Pale_Blue_FC.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Pale_Blue_FC.jpg/330px-Pale_Blue_FC.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pale_Blue_FC.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Rejaul karim.rk",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 17.5,
+   "max": 17.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cyornis"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q73925"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pale_blue_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

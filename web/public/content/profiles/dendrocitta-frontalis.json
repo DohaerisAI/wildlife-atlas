@@ -1,0 +1,51 @@
+{
+ "scientific": "Dendrocitta frontalis",
+ "name": "Collared Treepie",
+ "qid": "Q382763",
+ "description": "species of bird",
+ "extract": "The collared treepie (Dendrocitta frontalis), also known as black-faced treepie or black-browed treepie, is an Asian treepie, a small perching bird of the crow family, Corvidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Dendrocitta_frontalis.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Dendrocitta_frontalis.jpg/330px-Dendrocitta_frontalis.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dendrocitta_frontalis.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Pkspks",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 100.0,
+   "max": 100.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dendrocitta"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q382763"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Collared_treepie"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,50 @@
+{
+ "scientific": "Phylloscopus nitidus",
+ "name": "Green Warbler",
+ "qid": "Q2672900",
+ "description": "species of bird",
+ "extract": "The green warbler (Phylloscopus nitidus), also known as green willow warbler or green leaf warbler, is a leaf warbler found in the Caucasus Mountains in southeastern Europe.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Phylloscopus_nitidus_%28Phylloscopidae%29_%28Green_Warbler%29%2C_Chorokhi_Delta%2C_Georgia.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Phylloscopus_nitidus_%28Phylloscopidae%29_%28Green_Warbler%29%2C_Chorokhi_Delta%2C_Georgia.jpg/330px-Phylloscopus_nitidus_%28Phylloscopidae%29_%28Green_Warbler%29%2C_Chorokhi_Delta%2C_Georgia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Phylloscopus_nitidus_(Phylloscopidae)_(Green_Warbler),_Chorokhi_Delta,_Georgia.jpg",
+   "license": "CC BY 3.0",
+   "artist": "This image is created by user Wouter van der Ham at Observation.org, a global biodiversity recording project.",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phylloscopus"
+  },
+  "family": {
+   "scientific": "Phylloscopidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "green willow warbler",
+  "green leaf warbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2672900"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Green_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

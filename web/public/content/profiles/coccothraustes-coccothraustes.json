@@ -1,0 +1,59 @@
+{
+ "scientific": "Coccothraustes coccothraustes",
+ "name": "Hawfinch",
+ "qid": "Q174088",
+ "description": "species of bird",
+ "extract": "The hawfinch (Coccothraustes coccothraustes) is a passerine bird in the finch family Fringillidae. It is the only extant species placed in the genus Coccothraustes. Its closest living relatives are the genus Eophona of East Asia, and Hesperiphona of Central and North America.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Coccothraustes_coccothraustes_1_%28Martin_Mecnarowski%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Coccothraustes_coccothraustes_1_%28Martin_Mecnarowski%29.jpg/330px-Coccothraustes_coccothraustes_1_%28Martin_Mecnarowski%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Coccothraustes_coccothraustes_1_(Martin_Mecnarowski).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Martin Mecnarowski (http://www.photomecan.eu/)",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Coccothraustes_coccothraustes_1_%28Marek_Szczepanek%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Coccothraustes_coccothraustes_1_%28Marek_Szczepanek%29.jpg/330px-Coccothraustes_coccothraustes_1_%28Marek_Szczepanek%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Coccothraustes_coccothraustes_1_(Marek_Szczepanek).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Marek Szczepanek",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 31.0,
+   "max": 31.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Coccothraustes"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q174088"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hawfinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,67 @@
+{
+ "scientific": "Anser anser",
+ "name": "Greylag Goose",
+ "qid": "Q25882",
+ "description": "species of bird",
+ "extract": "The greylag goose (Anser anser) is a species of large goose in the waterfowl family Anatidae and the type species of the genus Anser. It has mottled and barred grey and white plumage and an orange beak and pink legs. A large bird, it measures between 74 and 91 centimetres (29 and 36 in) in length, with an average weight of 3.3 kilograms (7 lb 4 oz). Its distribution is widespread, with birds from the north of its range in Europe and Asia often migrating southwards to spend the winter in warmer places, although many populations are resident, even in the north. It is the ancestor of most breeds of domestic goose, having been domesticated at least as early as 1360 BCE. The genus name and specific epithet are from anser, the Latin for \"goose\". In the USA, its name has been spelled \"graylag\".",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/00_3688_Graugans_%28Anser_anser%29.jpg/1280px-00_3688_Graugans_%28Anser_anser%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/00_3688_Graugans_%28Anser_anser%29.jpg/330px-00_3688_Graugans_%28Anser_anser%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:00_3688_Graugans_(Anser_anser).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "W. Bulach",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Greylag_Goose_%28Anser_anser%29_%2851169983175%29.jpg/1280px-Greylag_Goose_%28Anser_anser%29_%2851169983175%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Greylag_Goose_%28Anser_anser%29_%2851169983175%29.jpg/330px-Greylag_Goose_%28Anser_anser%29_%2851169983175%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Greylag_Goose_(Anser_anser)_(51169983175).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 155.0,
+   "max": 155.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 160.0,
+   "max": 3692.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anser"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  }
+ },
+ "other_names": [
+  "Greylag Geese",
+  "Greylag"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25882"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Greylag_goose"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

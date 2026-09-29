@@ -1,0 +1,64 @@
+{
+ "scientific": "Turdus pilaris",
+ "name": "Fieldfare",
+ "qid": "Q25777",
+ "description": "species of bird",
+ "extract": "The fieldfare (Turdus pilaris) is a member of the thrush family Turdidae. It breeds in woodland and scrub in northern Europe and across the Palearctic. It is strongly migratory, with many northern birds moving south during the winter. It is a very rare breeder in the British Isles, but winters in large numbers in the United Kingdom, Southern Europe, North Africa and the Middle East. It is omnivorous, eating a wide range of molluscs, insects and earthworms in the summer, and berries, grain and seeds in the winter.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Bj%C3%B6rktrast_%28Turdus_pilaris%29-4.jpg/1280px-Bj%C3%B6rktrast_%28Turdus_pilaris%29-4.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Bj%C3%B6rktrast_%28Turdus_pilaris%29-4.jpg/330px-Bj%C3%B6rktrast_%28Turdus_pilaris%29-4.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bj%C3%B6rktrast_(Turdus_pilaris)-4.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Frankie Fouganthin",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Grive_litorne.jpg/1280px-Grive_litorne.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Grive_litorne.jpg/330px-Grive_litorne.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grive_litorne.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "cheloVechek / talk",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 42.0,
+   "max": 42.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 6.8,
+   "max": 105.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turdus"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25777"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fieldfare"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

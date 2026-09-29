@@ -1,0 +1,55 @@
+{
+ "scientific": "Lonchura punctulata",
+ "name": "Scaly-breasted Munia",
+ "qid": "Q36197",
+ "description": "species of bird",
+ "extract": "The scaly-breasted munia or spotted munia (Lonchura punctulata), known in the pet trade as nutmeg mannikin or spice finch, is a sparrow-sized estrildid finch native to tropical Asia. A species of the genus Lonchura, it was formally described and named by Carl Linnaeus in 1758. Its name is based on the distinct scale-like feather markings on the breast and belly. The adult is brown above and has a dark conical bill. The species has 11 subspecies across its range, which differ slightly in size and colour.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Scaly_Brested_Munia.jpg/1280px-Scaly_Brested_Munia.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Scaly_Brested_Munia.jpg/330px-Scaly_Brested_Munia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Scaly_Brested_Munia.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Kmoorthy1969",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 1.1,
+   "max": 14.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lonchura"
+  },
+  "family": {
+   "scientific": "Estrildidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "nutmeg mannikin",
+  "Lonchura (Lonchura) punctulata"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q36197"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Scaly-breasted_munia"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

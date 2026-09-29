@@ -1,0 +1,58 @@
+{
+ "scientific": "Ketupa flavipes",
+ "name": "Tawny Fish Owl",
+ "qid": "Q1270506",
+ "description": "species of bird",
+ "extract": "The tawny fish owl (Ketupa flavipes) is a fish owl species in the family known as typical owls, Strigidae. It is native from southern Nepal to Bangladesh, Vietnam and China and Bhutan. Due to its wide geographical distribution, it is listed as Least Concern on the IUCN Red List.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Tawny_Fish_Owl.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Tawny_Fish_Owl.jpg/330px-Tawny_Fish_Owl.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tawny_Fish_Owl.jpg",
+   "license": "CC BY 3.0",
+   "artist": "Jayanth Sharma",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Bubo_flavipes_-Jim_Corbett_National_Park%2C_Uttarakhand%2C_India-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Bubo_flavipes_-Jim_Corbett_National_Park%2C_Uttarakhand%2C_India-8.jpg/330px-Bubo_flavipes_-Jim_Corbett_National_Park%2C_Uttarakhand%2C_India-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bubo_flavipes_-Jim_Corbett_National_Park,_Uttarakhand,_India-8.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Koshy Koshy from Faridabad, Haryana, India",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ketupa"
+  },
+  "family": {
+   "scientific": "Strigidae",
+   "name": "true owls"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1270506"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tawny_fish_owl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

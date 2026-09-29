@@ -1,0 +1,49 @@
+{
+ "scientific": "Lophura nycthemera",
+ "name": "Silver Pheasant",
+ "qid": "Q546835",
+ "description": "species of bird",
+ "extract": "The silver pheasant (Lophura nycthemera) is a species of pheasant found in forests, mainly in mountains, of mainland Southeast Asia and eastern and southern China. It is introduced on Victoria Island in Nahuel Huapi Lake, Neuquén, Argentina and on Vancouver Island, Canada. The male is black and white, while the female is mainly brown. Both sexes have a bare red face and red legs (the latter separating it from the greyish-legged kalij pheasant). It is common in aviculture, and overall also remains common in the wild, but some of its subspecies (notably L. n. whiteheadi from Hainan, L. n. engelbachi from southern Laos, and L. n. annamensis from southern Vietnam) are rare and threatened.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Lophura_nycthemera%2C_Exiandong_reserve%2C_Fujian_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Lophura_nycthemera%2C_Exiandong_reserve%2C_Fujian_1.jpg/330px-Lophura_nycthemera%2C_Exiandong_reserve%2C_Fujian_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lophura_nycthemera,_Exiandong_reserve,_Fujian_1.jpg",
+   "license": "CC0",
+   "artist": "lonelyshrimp",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lophura"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q546835"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Silver_pheasant"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

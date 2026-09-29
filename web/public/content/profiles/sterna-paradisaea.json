@@ -1,0 +1,75 @@
+{
+ "scientific": "Sterna paradisaea",
+ "name": "Arctic Tern",
+ "qid": "Q26800",
+ "description": "species of seabird",
+ "extract": "The Arctic tern (Sterna paradisaea) is a tern in the family Laridae. This bird has a circumpolar breeding distribution covering the Arctic and subarctic regions of Europe (as far south as Brittany), Asia, and North America (as far south as Massachusetts). The species is strongly migratory, seeing two summers each year as it migrates along a convoluted route from its northern breeding grounds to the Antarctic coast for the southern summer and back again about six months later. Recent studies have shown average annual round-trip lengths of about 70,900 km (38,300 nmi) for birds nesting in Iceland and Greenland, and about 48,700 km (26,300 nmi) for birds nesting in the Netherlands, while an individual from the Farne Islands in Northumberland with a light level geolocator tag covered a staggering 96,000 km (52,000 nmi) in ten months from the end of one breeding season to the start of the next. These are by far the longest migrations known in the animal kingdom.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/2009_07_02_-_Arctic_tern_on_Farne_Islands_-_The_blue_rope_demarcates_the_visitors%27_path.JPG/1280px-2009_07_02_-_Arctic_tern_on_Farne_Islands_-_The_blue_rope_demarcates_the_visitors%27_path.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/2009_07_02_-_Arctic_tern_on_Farne_Islands_-_The_blue_rope_demarcates_the_visitors%27_path.JPG/330px-2009_07_02_-_Arctic_tern_on_Farne_Islands_-_The_blue_rope_demarcates_the_visitors%27_path.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:2009_07_02_-_Arctic_tern_on_Farne_Islands_-_The_blue_rope_demarcates_the_visitors%27_path.JPG",
+   "license": "CC BY-SA 4.0",
+   "artist": "Jamumiwa",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Arctic_terns_%28Sterna_paradisaea%29_displaying.jpg/1280px-Arctic_terns_%28Sterna_paradisaea%29_displaying.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Arctic_terns_%28Sterna_paradisaea%29_displaying.jpg/330px-Arctic_terns_%28Sterna_paradisaea%29_displaying.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Arctic_terns_(Sterna_paradisaea)_displaying.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Hertha56",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/00_3786._K%C3%BCstenseeschwalbe.jpg/1280px-00_3786._K%C3%BCstenseeschwalbe.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/00_3786._K%C3%BCstenseeschwalbe.jpg/330px-00_3786._K%C3%BCstenseeschwalbe.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:00_3786._K%C3%BCstenseeschwalbe.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "W. Bulach",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 80.0,
+   "max": 80.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 114.0,
+   "max": 114.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sterna"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26800"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Arctic_tern"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

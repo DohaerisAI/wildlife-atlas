@@ -1,0 +1,54 @@
+{
+ "scientific": "Phoenicurus frontalis",
+ "name": "Blue-fronted Redstart",
+ "qid": "Q864823",
+ "description": "species of bird",
+ "extract": "The blue-fronted redstart (Phoenicurus frontalis) is a species of bird in the family Muscicapidae, the Old World flycatchers. It breeds in central China and the Himalayas (where it winters in the southern foothills, as well as in southern Yunnan, the Patkai and northern Indochina. Its natural habitat is temperate forests.  The female is brownish-grey, with paler underparts.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Blue-fronted_Redstart_%28Phoenicurus_frontalis%29_%2848215463147%29.jpg/1280px-Blue-fronted_Redstart_%28Phoenicurus_frontalis%29_%2848215463147%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Blue-fronted_Redstart_%28Phoenicurus_frontalis%29_%2848215463147%29.jpg/330px-Blue-fronted_Redstart_%28Phoenicurus_frontalis%29_%2848215463147%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blue-fronted_Redstart_(Phoenicurus_frontalis)_(48215463147).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Blue-fronted_Redstart_female_in_Pangot%2C_Uttarkhand%2C_India.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Blue-fronted_Redstart_female_in_Pangot%2C_Uttarkhand%2C_India.jpg/330px-Blue-fronted_Redstart_female_in_Pangot%2C_Uttarkhand%2C_India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blue-fronted_Redstart_female_in_Pangot,_Uttarkhand,_India.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Kannan AS",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phoenicurus"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q864823"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blue-fronted_redstart"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

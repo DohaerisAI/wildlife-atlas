@@ -1,0 +1,46 @@
+{
+ "scientific": "Turdus ruficollis",
+ "name": "Red-throated Thrush",
+ "qid": "Q220985",
+ "description": "species of bird",
+ "extract": "The red-throated thrush (Turdus ruficollis) is a passerine bird in the thrush family. It is sometimes regarded as one subspecies of a polytypic species, \"dark-throated thrush\", black-throated thrush then being the other subspecies. More recent treatments regard the two as separate species. The scientific name comes from Latin. Turdus is \"thrush\" and the specific ruficollis is derived from rufus, \"red\", and collum, \"neck\".",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Red-throated_thrush_in_Nepal_%281%29_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Red-throated_thrush_in_Nepal_%281%29_%28cropped%29.jpg/330px-Red-throated_thrush_in_Nepal_%281%29_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red-throated_thrush_in_Nepal_(1)_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "सन्देश थापा",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turdus"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q220985"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-throated_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

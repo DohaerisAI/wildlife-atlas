@@ -1,0 +1,49 @@
+{
+ "scientific": "Turdus kessleri",
+ "name": "White-backed Thrush",
+ "qid": "Q2652216",
+ "description": "species of bird",
+ "extract": "The white-backed thrush or Kessler's thrush (Turdus kessleri) is a species of bird in the family Turdidae. It is primarily resident or a short-distance altitudinal migrant, found in central China in Gansu, Qinghai, Sichuan, eastern Tibet, and northwestern Yunnan, and also a scarce winter visitor in Bhutan, northeasternmost India (Arunachal Pradesh and Sikkim), and eastern Nepal. It breeds in alpine scrub on rocky sites at altitudes of 3600–4500 metres, and descends down to 2100 metres, rarely to 1500 metres, in winter.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/White-backed_Thrush%2C_Garz%C3%AA_Tibetan_Autonomous_Prefecture.jpg/1280px-White-backed_Thrush%2C_Garz%C3%AA_Tibetan_Autonomous_Prefecture.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/White-backed_Thrush%2C_Garz%C3%AA_Tibetan_Autonomous_Prefecture.jpg/330px-White-backed_Thrush%2C_Garz%C3%AA_Tibetan_Autonomous_Prefecture.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-backed_Thrush,_Garz%C3%AA_Tibetan_Autonomous_Prefecture.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Henry Koh",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turdus"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Kessler's Thrush"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2652216"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-backed_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

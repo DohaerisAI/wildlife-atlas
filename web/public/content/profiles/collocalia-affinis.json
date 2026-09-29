@@ -1,0 +1,44 @@
+{
+ "scientific": "Collocalia affinis",
+ "name": "Plume-toed swiftlet",
+ "qid": "Q39049316",
+ "description": "species of bird",
+ "extract": "The plume-toed swiftlet  (Collocalia affinis) is a small bird in the swift family Apodidae. It is found on some eastern Indian Ocean islands, the Malay Peninsula, Sumatra, and lowland Borneo.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Hunting_plume-toed_swiftlets.png/1280px-Hunting_plume-toed_swiftlets.png",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Hunting_plume-toed_swiftlets.png/330px-Hunting_plume-toed_swiftlets.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Hunting_plume-toed_swiftlets.png",
+   "license": "CC BY-SA 4.0",
+   "artist": "Andrewbogott",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Collocalia"
+  },
+  "family": {
+   "scientific": "Apodidae"
+  },
+  "order": {
+   "scientific": "Apodiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q39049316"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Plume-toed_swiftlet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

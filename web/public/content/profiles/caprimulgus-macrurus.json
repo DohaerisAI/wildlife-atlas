@@ -1,0 +1,49 @@
+{
+ "scientific": "Caprimulgus macrurus",
+ "name": "Large-tailed Nightjar",
+ "qid": "Q31941",
+ "description": "species of bird",
+ "extract": "The large-tailed nightjar (Caprimulgus macrurus) is a species of nightjar known for its distinctive long, broad tail and cryptic plumage that allows it to blend into its surroundings. Found along the southern Himalayan foothills, eastern South Asia, Southeast Asia and northern Australia, its natural habitats are subtropical or tropical moist lowland forest, subtropical or tropical mangrove forest, and subtropical or tropical moist montane forest.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Caprimulgus_macrurus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Caprimulgus_macrurus.jpg/330px-Caprimulgus_macrurus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Caprimulgus_macrurus.jpg",
+   "license": "CC BY 2.0",
+   "artist": "NatureAtYourBackyard, Flickr User",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Caprimulgus"
+  },
+  "family": {
+   "scientific": "Caprimulgidae"
+  },
+  "order": {
+   "scientific": "Caprimulgiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q31941"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Large-tailed_nightjar"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

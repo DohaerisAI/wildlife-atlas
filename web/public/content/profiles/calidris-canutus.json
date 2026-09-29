@@ -1,0 +1,80 @@
+{
+ "scientific": "Calidris canutus",
+ "name": "Red Knot",
+ "qid": "Q27124",
+ "description": "species of bird",
+ "extract": "The red knot or just knot (Calidris canutus) is a medium-sized shorebird which breeds in tundra and the Arctic Cordillera in the far north of Canada, Europe, and Russia. It is the type species of the genus Calidris. Six subspecies are recognised.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Calidris_canutus_no.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Calidris_canutus_no.JPG/330px-Calidris_canutus_no.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Calidris_canutus_no.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Arnstein Rønning",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Calidris_canutus_%28summer%29.jpg/1280px-Calidris_canutus_%28summer%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Calidris_canutus_%28summer%29.jpg/330px-Calidris_canutus_%28summer%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Calidris_canutus_(summer).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Hans Hillewaert",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Red_Knot_1_-_Boat_Harbour.jpg/1280px-Red_Knot_1_-_Boat_Harbour.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Red_Knot_1_-_Boat_Harbour.jpg/330px-Red_Knot_1_-_Boat_Harbour.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red_Knot_1_-_Boat_Harbour.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 50.0,
+   "max": 50.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 19.3,
+   "max": 148.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Calidris"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "knot",
+  "huahou",
+  "lesser knot"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27124"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red_knot"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,51 @@
+{
+ "scientific": "Harpactes wardi",
+ "name": "Ward's Trogon",
+ "qid": "Q1259010",
+ "description": "species of bird",
+ "extract": "Ward's trogon (Harpactes wardi) is a species of bird in the family Trogonidae.  Its range includes the northeastern parts of the Indian subcontinent stretching eastwards to Southeast Asia.  It is found in Bhutan, India, Tibet, and Myanmar. It also has a disjunct population in northern Vietnam, but there are no recent records from there. Its natural habitats are temperate forests and subtropical or tropical moist lowland forests.  It is threatened by habitat loss.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Harpactes_wardi_-Eaglenest_Wildlife_Sanctuary%2C_Arunachal_Pradesh%2C_India-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Harpactes_wardi_-Eaglenest_Wildlife_Sanctuary%2C_Arunachal_Pradesh%2C_India-8.jpg/330px-Harpactes_wardi_-Eaglenest_Wildlife_Sanctuary%2C_Arunachal_Pradesh%2C_India-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Harpactes_wardi_-Eaglenest_Wildlife_Sanctuary,_Arunachal_Pradesh,_India-8.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "soumyajit nandy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 117.0,
+   "max": 117.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Harpactes"
+  },
+  "family": {
+   "scientific": "Trogonidae",
+   "name": "trogon"
+  },
+  "order": {
+   "scientific": "Trogoniformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1259010"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ward%27s_trogon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

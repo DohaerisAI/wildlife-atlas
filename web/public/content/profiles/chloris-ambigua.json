@@ -1,0 +1,46 @@
+{
+ "scientific": "Chloris ambigua",
+ "name": "Black-headed Greenfinch",
+ "qid": "Q27075791",
+ "description": "species of bird",
+ "extract": "The black-headed greenfinch (Chloris ambigua) is a small passerine bird in the family Fringillidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Black-headed_Greenfinch%2C_Taunggye%2C_Shan%2C_Myanmar_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Black-headed_Greenfinch%2C_Taunggye%2C_Shan%2C_Myanmar_1.jpg/330px-Black-headed_Greenfinch%2C_Taunggye%2C_Shan%2C_Myanmar_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-headed_Greenfinch,_Taunggye,_Shan,_Myanmar_1.jpg",
+   "license": "CC BY 4.0",
+   "artist": "williamstephens56",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chloris"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075791"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-headed_greenfinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

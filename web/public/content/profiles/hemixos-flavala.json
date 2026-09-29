@@ -1,0 +1,46 @@
+{
+ "scientific": "Hemixos flavala",
+ "name": "Ashy bulbul",
+ "qid": "Q2235441",
+ "description": "species of bird",
+ "extract": "The ashy bulbul (Hemixos flavala) is a species of songbird in the bulbul family, Pycnonotidae. It is found on the Indian subcontinent and in Southeast Asia. Its natural habitats are subtropical or tropical moist lowland forest and subtropical or tropical moist montane forest.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Ashy_Bulbul_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Ashy_Bulbul_%28cropped%29.jpg/330px-Ashy_Bulbul_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ashy_Bulbul_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "NejibAhmed",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Hemixos"
+  },
+  "family": {
+   "scientific": "Pycnonotidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2235441"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ashy_bulbul"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

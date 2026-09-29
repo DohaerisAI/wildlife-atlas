@@ -1,0 +1,51 @@
+{
+ "scientific": "Ficedula strophiata",
+ "name": "Rufous-gorgeted Flycatcher",
+ "qid": "Q262236",
+ "description": "species of bird",
+ "extract": "The rufous-gorgeted flycatcher (Ficedula strophiata) is a species of bird in the family Muscicapidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Rufous-gorgeted_Flycatcher.jpg/1280px-Rufous-gorgeted_Flycatcher.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Rufous-gorgeted_Flycatcher.jpg/330px-Rufous-gorgeted_Flycatcher.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rufous-gorgeted_Flycatcher.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jason Thompson",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 12.5,
+   "max": 12.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ficedula"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q262236"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rufous-gorgeted_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

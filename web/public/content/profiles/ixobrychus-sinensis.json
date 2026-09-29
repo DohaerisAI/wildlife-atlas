@@ -1,0 +1,66 @@
+{
+ "scientific": "Ixobrychus sinensis",
+ "name": "Yellow Bittern",
+ "qid": "Q888536",
+ "description": "species of bird",
+ "extract": "The yellow bittern (Botaurus sinensis) is a small bittern of Old World origins that breeds in the northern Indian subcontinent, east to the Russian Far East, Japan, and Indonesia. It is mainly a resident bird, but some northern birds migrate short distances. It has been recorded as a vagrant in Alaska.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Hong_Kong_-_Yellow_Bittern_-_Ixobrychus_sinensis_-_2017.jpg/1280px-Hong_Kong_-_Yellow_Bittern_-_Ixobrychus_sinensis_-_2017.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Hong_Kong_-_Yellow_Bittern_-_Ixobrychus_sinensis_-_2017.jpg/330px-Hong_Kong_-_Yellow_Bittern_-_Ixobrychus_sinensis_-_2017.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hong_Kong_-_Yellow_Bittern_-_Ixobrychus_sinensis_-_2017.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Charles Lam from Hong Kong, China",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Ixobrychus_sinensis_-_Bueng_Boraphet.jpg/1280px-Ixobrychus_sinensis_-_Bueng_Boraphet.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Ixobrychus_sinensis_-_Bueng_Boraphet.jpg/330px-Ixobrychus_sinensis_-_Bueng_Boraphet.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ixobrychus_sinensis_-_Bueng_Boraphet.jpg",
+   "license": "CC BY 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 45.0,
+   "max": 53.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Botaurus"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Botaurus sinensis"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q888536"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yellow_bittern"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

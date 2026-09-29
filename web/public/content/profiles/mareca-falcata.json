@@ -1,0 +1,60 @@
+{
+ "scientific": "Mareca falcata",
+ "name": "Falcated Duck",
+ "qid": "Q28106789",
+ "description": "species of bird",
+ "extract": "The falcated duck or falcated teal (Mareca falcata) is a gadwall-sized dabbling duck from the east Palearctic (East Siberia and Mongolia to North Japan; wintering to India).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Anas_falcata_male.JPG/1280px-Anas_falcata_male.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Anas_falcata_male.JPG/330px-Anas_falcata_male.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Anas_falcata_male.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Alpsdake",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Falcated_Duck_%28Anas_falcata%29_RWD3.jpg/1280px-Falcated_Duck_%28Anas_falcata%29_RWD3.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Falcated_Duck_%28Anas_falcata%29_RWD3.jpg/330px-Falcated_Duck_%28Anas_falcata%29_RWD3.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Falcated_Duck_(Anas_falcata)_RWD3.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dick Daniels (http://theworldbirds.org/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Mareca"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "falcated teal"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q28106789"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Falcated_duck"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

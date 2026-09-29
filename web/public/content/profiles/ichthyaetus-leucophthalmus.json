@@ -1,0 +1,58 @@
+{
+ "scientific": "Ichthyaetus leucophthalmus",
+ "name": "White-eyed Gull",
+ "qid": "Q912041",
+ "description": "species of bird",
+ "extract": "The white-eyed gull (Ichthyaetus leucophthalmus) is a small gull that is endemic to the Red Sea. Its closest relative is the sooty gull. The species is classed as Least Concern by the IUCN; human pressure and oil pollution are deemed the major threats. As is the case with many gulls, it has traditionally been placed in the genus Larus.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Ichthyaetus_leucophthalmus%2C_Qesm_Shlatin%2C_Egypt_2.jpg/1280px-Ichthyaetus_leucophthalmus%2C_Qesm_Shlatin%2C_Egypt_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Ichthyaetus_leucophthalmus%2C_Qesm_Shlatin%2C_Egypt_2.jpg/330px-Ichthyaetus_leucophthalmus%2C_Qesm_Shlatin%2C_Egypt_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ichthyaetus_leucophthalmus,_Qesm_Shlatin,_Egypt_2.jpg",
+   "license": "CC BY 4.0",
+   "artist": "jujurenoult",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 110.0,
+   "max": 115.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 303.0,
+   "max": 357.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ichthyaetus"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Larus leucophthalmus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q912041"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-eyed_gull"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,67 @@
+{
+ "scientific": "Rallus aquaticus",
+ "name": "Brown-cheeked rail",
+ "qid": "Q185099",
+ "description": "species of wetland bird",
+ "extract": "The water rail, western water rail or European water rail (Rallus aquaticus) is a bird of the rail family which breeds in well-vegetated wetlands across Europe, Asia and North Africa. Northern and eastern populations are migratory, but this species is a permanent resident in the warmer parts of its breeding range. The adult is 23–28 cm (9–11 in) long, and, like other rails, has a body that is flattened laterally, allowing it easier passage through the reed beds it inhabits. It has mainly brown upperparts and blue-grey underparts, black barring on the flanks, long toes, a short tail and a long reddish bill. Immature birds are generally similar in appearance to the adults, but the blue-grey in the plumage is replaced by buff. The downy chicks are black, as with all rails. The former subspecies R. indicus has distinctive markings and a call that is very different from the pig-like squeal of the western rails, and is now usually split as a separate species, the brown-cheeked rail.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Water_rail_2022_04_30_01.jpg/1280px-Water_rail_2022_04_30_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Water_rail_2022_04_30_01.jpg/330px-Water_rail_2022_04_30_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Water_rail_2022_04_30_01.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Alexis Lours",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Wasserralle_Bodensee.jpg/1280px-Wasserralle_Bodensee.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Wasserralle_Bodensee.jpg/330px-Wasserralle_Bodensee.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wasserralle_Bodensee.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "JoachimKohler-HB",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 42.0,
+   "max": 42.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 98.0,
+   "max": 125.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Rallus"
+  },
+  "family": {
+   "scientific": "Rallidae"
+  },
+  "order": {
+   "scientific": "Gruiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q185099"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Water_rail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

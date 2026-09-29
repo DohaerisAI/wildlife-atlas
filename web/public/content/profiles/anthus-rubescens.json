@@ -1,0 +1,49 @@
+{
+ "scientific": "Anthus rubescens",
+ "name": "American Pipit",
+ "qid": "Q871527",
+ "description": "species of bird",
+ "extract": "The American pipit (Anthus rubescens), formerly known as the buff-bellied pipit, is a small songbird native to North America. It was first described by Marmaduke Tunstall in his 1771 Ornithologia Britannica. It was formerly classified as a form of the water pipit. The former subspecies, Siberian pipit, is now considered a distinct species.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Anthus_rubescens_-Harney_County%2C_Oregon%2C_USA-8.jpg/1280px-Anthus_rubescens_-Harney_County%2C_Oregon%2C_USA-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Anthus_rubescens_-Harney_County%2C_Oregon%2C_USA-8.jpg/330px-Anthus_rubescens_-Harney_County%2C_Oregon%2C_USA-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Anthus_rubescens_-Harney_County,_Oregon,_USA-8.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Kathy & Sam from Beaverton OR, USA",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anthus"
+  },
+  "family": {
+   "scientific": "Motacillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Buff-bellied Pipit"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q871527"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/American_pipit"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

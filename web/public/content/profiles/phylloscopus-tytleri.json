@@ -1,0 +1,46 @@
+{
+ "scientific": "Phylloscopus tytleri",
+ "name": "Tytler's leaf warbler",
+ "qid": "Q3315824",
+ "description": "species of bird",
+ "extract": "Tytler's leaf warbler (Phylloscopus tytleri) is a songbird species. Like all leaf warblers, it was formerly placed in the \"Old World warbler\" assemblage, but now belongs to the new leaf-warbler family Phylloscopidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/TytlersWarbler.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/TytlersWarbler.jpg/330px-TytlersWarbler.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:TytlersWarbler.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "L. Shyamal",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phylloscopus"
+  },
+  "family": {
+   "scientific": "Phylloscopidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3315824"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tytler%27s_leaf_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

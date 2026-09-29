@@ -1,0 +1,53 @@
+{
+ "scientific": "Apus pacificus",
+ "name": "Pacific Swift",
+ "qid": "Q31866",
+ "description": "bird of eastern Asia",
+ "extract": "The Pacific swift (Apus pacificus) is a species of bird that is part of the Swift family. It breeds in eastern Asia. It is strongly migratory, spending the northern hemisphere's winter in Southeast Asia and Australia. The general shape and blackish plumage recall its relative, the common swift, from which it is distinguished by a white rump band and heavily marked underparts. The sexes are identical in appearance, although young birds can be identified by pale fringes to the wing feathers that are absent in adults. This swift's main call is a screech typical of its family. It is one of a group of closely related Asian swifts formerly regarded as one species.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/ApusPacificus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/ApusPacificus.jpg/330px-ApusPacificus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:ApusPacificus.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Robert Pudwill",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Apus"
+  },
+  "family": {
+   "scientific": "Apodidae"
+  },
+  "order": {
+   "scientific": "Apodiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Fork-tailed swift",
+  "Pacific/Cook's Swift"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q31866"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pacific_swift"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

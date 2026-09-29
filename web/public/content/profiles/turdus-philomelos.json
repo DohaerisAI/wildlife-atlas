@@ -1,0 +1,56 @@
+{
+ "scientific": "Turdus philomelos",
+ "name": "Song Thrush",
+ "qid": "Q26349",
+ "description": "species of bird",
+ "extract": "The song thrush (Turdus philomelos) is a thrush that breeds across the West Palearctic. It has brown upperparts and black-spotted cream or buff underparts and has four recognised subspecies. Its distinctive song, which features repeated musical phrases, has frequently been referenced in poetry.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Song_thrush_%28Turdus_philomelos_philomelos%29.jpg/1280px-Song_thrush_%28Turdus_philomelos_philomelos%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Song_thrush_%28Turdus_philomelos_philomelos%29.jpg/330px-Song_thrush_%28Turdus_philomelos_philomelos%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Song_thrush_(Turdus_philomelos_philomelos).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 36.0,
+   "max": 36.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 6.0,
+   "max": 72.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turdus"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26349"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Song_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

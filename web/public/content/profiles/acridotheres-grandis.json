@@ -1,0 +1,46 @@
+{
+ "scientific": "Acridotheres grandis",
+ "name": "Great Myna",
+ "qid": "Q2447808",
+ "description": "species of bird",
+ "extract": "The great myna (Acridotheres grandis), also known as the white-vented myna, is a species of starling in the family Sturnidae. Its range extends from Sikkim across Northeast India and Indochina.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Great_myna_%28Acridotheres_grandis%29_Prek_Toal.jpg/1280px-Great_myna_%28Acridotheres_grandis%29_Prek_Toal.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Great_myna_%28Acridotheres_grandis%29_Prek_Toal.jpg/330px-Great_myna_%28Acridotheres_grandis%29_Prek_Toal.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Great_myna_(Acridotheres_grandis)_Prek_Toal.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Acridotheres"
+  },
+  "family": {
+   "scientific": "Sturnidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2447808"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_myna"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

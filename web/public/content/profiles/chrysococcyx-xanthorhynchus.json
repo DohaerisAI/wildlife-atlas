@@ -1,0 +1,49 @@
+{
+ "scientific": "Chrysococcyx xanthorhynchus",
+ "name": "Violet Cuckoo",
+ "qid": "Q470370",
+ "description": "species of bird",
+ "extract": "The violet cuckoo (Chrysococcyx xanthorhynchus) is a species of cuckoo in the family Cuculidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Violet_Cuckoo.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Violet_Cuckoo.jpg/330px-Violet_Cuckoo.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Violet_Cuckoo.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Rejaul karim.rk",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chrysococcyx"
+  },
+  "family": {
+   "scientific": "Cuculidae"
+  },
+  "order": {
+   "scientific": "Cuculiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q470370"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Violet_cuckoo"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

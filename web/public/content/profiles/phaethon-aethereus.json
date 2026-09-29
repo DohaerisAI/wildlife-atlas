@@ -1,0 +1,62 @@
+{
+ "scientific": "Phaethon aethereus",
+ "name": "Red-billed Tropicbird",
+ "qid": "Q686600",
+ "description": "species of bird",
+ "extract": "The red-billed tropicbird (Phaethon aethereus) is a tropicbird, one of three closely related species of seabird of tropical oceans. Superficially resembling a tern in appearance, it has mostly white plumage with some black markings on the wings and back, a black mask and, as its common name suggests, a red bill. Most adults have tail streamers that are about two times their body length, with those in males being generally longer than those in females. The red-billed tropicbird itself has three subspecies recognized, including the nominate. The subspecies mesonauta is distinguished from the nominate by the rosy tinge of its fresh plumage, and the subspecies indicus can be differentiated by its smaller size, more restricted mask, and more orange bill. This species ranges across the tropical Atlantic, eastern Pacific, and Indian Oceans. The nominate is found in the southern Atlantic Ocean, the subspecies indicus in the waters off of the Middle East and in the Indian Ocean, and the subspecies mesonauta in the eastern portions of both the Atlantic and the Pacific Oceans and in the Caribbean. It was one of the many species described by Carl Linnaeus in his 1758 10th edition of Systema Naturae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/20180811-Red-billed_tropicbird_at_Plaza_Sur_%280374%29.jpg/1280px-20180811-Red-billed_tropicbird_at_Plaza_Sur_%280374%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/20180811-Red-billed_tropicbird_at_Plaza_Sur_%280374%29.jpg/330px-20180811-Red-billed_tropicbird_at_Plaza_Sur_%280374%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:20180811-Red-billed_tropicbird_at_Plaza_Sur_(0374).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Nicolas Völcker",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Phaethon_aethereus_Little_Tobago.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Phaethon_aethereus_Little_Tobago.jpg/330px-Phaethon_aethereus_Little_Tobago.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Phaethon_aethereus_Little_Tobago.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Jimfbleak First uploaded to en-wikipedia at 05:02, 3 April 2005 by Jimfbleak",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 99.0,
+   "max": 106.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phaethon"
+  },
+  "family": {
+   "scientific": "Phaethontidae"
+  },
+  "order": {
+   "scientific": "Phaethontiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q686600"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-billed_tropicbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

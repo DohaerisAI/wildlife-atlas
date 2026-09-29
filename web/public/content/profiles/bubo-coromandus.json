@@ -1,0 +1,53 @@
+{
+ "scientific": "Bubo coromandus",
+ "name": "Dusky Eagle-Owl",
+ "qid": "Q932473",
+ "description": "species of bird",
+ "extract": "The dusky eagle-owl (Ketupa coromanda) is an owl species in the family Strigidae that is widespread in South and Southeast Asia. The type specimen used to describe the species was collected on the Coromandel Coast, which was used for the specific epithet. It is listed as Least Concern on the IUCN Red List. The species's extent of occurrence is estimated at 9,250,000 km2 (3,570,000 sq mi). However, volunteer generated databases such as eBird.org suggest that the available extent of occurrence is a vast over-estimate.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Dusky_Eagle_Owl_2019.jpg/1280px-Dusky_Eagle_Owl_2019.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Dusky_Eagle_Owl_2019.jpg/330px-Dusky_Eagle_Owl_2019.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dusky_Eagle_Owl_2019.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Robinhood-birder",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Bubo"
+  },
+  "family": {
+   "scientific": "Strigidae",
+   "name": "true owls"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "ভুমা প্যাঁচা"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q932473"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dusky_eagle-owl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

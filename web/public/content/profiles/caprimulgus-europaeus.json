@@ -1,0 +1,58 @@
+{
+ "scientific": "Caprimulgus europaeus",
+ "name": "European Nightjar",
+ "qid": "Q26717",
+ "description": "species of bird",
+ "extract": "The European nightjar (Caprimulgus europaeus), common goatsucker, Eurasian nightjar or just nightjar is a crepuscular and nocturnal bird in the nightjar family that breeds across most of Europe and the Palearctic to Mongolia and Northwestern China. The Latin generic name refers to the old myth that the nocturnal nightjar suckled from goats, causing them to cease to give milk. The six subspecies differ clinally, the birds becoming smaller and paler towards the east of the range. All populations are migratory, wintering in sub-Saharan Africa. Their densely patterned grey and brown plumage makes individuals difficult to see in the daytime when they rest on the ground or perch motionless along a branch, although the male shows white patches in the wings and tail as he flies at night.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Caprimulgus_europaeus_g.JPG/1280px-Caprimulgus_europaeus_g.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Caprimulgus_europaeus_g.JPG/330px-Caprimulgus_europaeus_g.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Caprimulgus_europaeus_g.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "P.Taszynski",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 60.0,
+   "max": 60.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Caprimulgus"
+  },
+  "family": {
+   "scientific": "Caprimulgidae"
+  },
+  "order": {
+   "scientific": "Caprimulgiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Nightjar",
+  "Noctua caprimulgus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26717"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/European_nightjar"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

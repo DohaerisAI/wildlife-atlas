@@ -1,0 +1,70 @@
+{
+ "scientific": "Buteo lagopus",
+ "name": "Rough-legged Buzzard",
+ "qid": "Q26407",
+ "description": "species of bird",
+ "extract": "The rough-legged buzzard (Europe) or rough-legged hawk (North America) (Buteo lagopus) is a medium-large bird of prey. It is found in arctic and subarctic regions of North America, Europe, and Asia during the breeding season, and migrates south for the winter. Historically, it was also known as \"rough-legged falcon\" in such works as John James Audubon's The Birds of America.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Fjellv%C3%A5k_%28Buteo_lagopus%29_%28Rough-legged_Buzzard%29_%28Fj%C3%A4llvr%C3%A5k%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Fjellv%C3%A5k_%28Buteo_lagopus%29_%28Rough-legged_Buzzard%29_%28Fj%C3%A4llvr%C3%A5k%29.jpg/330px-Fjellv%C3%A5k_%28Buteo_lagopus%29_%28Rough-legged_Buzzard%29_%28Fj%C3%A4llvr%C3%A5k%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Fjellv%C3%A5k_(Buteo_lagopus)_(Rough-legged_Buzzard)_(Fj%C3%A4llvr%C3%A5k).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Marton Berntsen",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Buteo_lagopus_29283.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Buteo_lagopus_29283.JPG/330px-Buteo_lagopus_29283.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Buteo_lagopus_29283.JPG",
+   "license": "CC BY 2.5",
+   "artist": "Walter Siegmund (talk)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 135.0,
+   "max": 135.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 824.6,
+   "max": 1027.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Buteo"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Rough-legged Hawk"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26407"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rough-legged_buzzard"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

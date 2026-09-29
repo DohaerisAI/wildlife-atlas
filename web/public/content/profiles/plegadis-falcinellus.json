@@ -1,0 +1,60 @@
+{
+ "scientific": "Plegadis falcinellus",
+ "name": "Glossy Ibis",
+ "qid": "Q178811",
+ "description": "species of bird",
+ "extract": "The glossy ibis (Plegadis falcinellus) is a water bird in the order Pelecaniformes and the ibis and spoonbill family Threskiornithidae. The scientific name derives from Ancient Greek plegados and Latin, falcis, both meaning \"sickle\" and referring to the distinctive shape of the bill.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Plegadis_falcinellus_Syracuse.jpg/1280px-Plegadis_falcinellus_Syracuse.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Plegadis_falcinellus_Syracuse.jpg/330px-Plegadis_falcinellus_Syracuse.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Plegadis_falcinellus_Syracuse.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Egretta_garzetta_Plegadis_falcinellus_Syracuse.jpg: Gabriele  Iuvara\nderivative work: MPF",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 89.0,
+   "max": 89.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 633.0,
+   "max": 633.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Plegadis"
+  },
+  "family": {
+   "scientific": "Threskiornithidae",
+   "name": "Ibises and Spoonbills"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q178811"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Glossy_ibis"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

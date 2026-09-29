@@ -1,0 +1,46 @@
+{
+ "scientific": "Anthus nilghiriensis",
+ "name": "Nilgiri Pipit",
+ "qid": "Q944153",
+ "description": "species of bird",
+ "extract": "The Nilgiri pipit (Anthus nilghiriensis) is a distinctive species of pipit that is endemic to the high altitude hills of southern India. Richer brown in colour than other pipits in the region, it is distinctive in having the streaking on the breast continuing along the flanks. It is non-migratory and has a tendency to fly into low trees when disturbed and is closely related to the tree pipits Anthus hodgsoni and Anthus trivialis.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Nilgir_Pipit_%28Anthus_nilghiriensis%29_18-Apr-2007_12-12-32_PM.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Nilgir_Pipit_%28Anthus_nilghiriensis%29_18-Apr-2007_12-12-32_PM.JPG/330px-Nilgir_Pipit_%28Anthus_nilghiriensis%29_18-Apr-2007_12-12-32_PM.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Nilgir_Pipit_(Anthus_nilghiriensis)_18-Apr-2007_12-12-32_PM.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "കൈപ്പള്ളി at Malayalam Wikipedia",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anthus"
+  },
+  "family": {
+   "scientific": "Motacillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q944153"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nilgiri_pipit"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

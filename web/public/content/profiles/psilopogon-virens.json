@@ -1,0 +1,45 @@
+{
+ "scientific": "Psilopogon virens",
+ "name": "Great barbet",
+ "qid": "Q27074833",
+ "description": "species of bird",
+ "extract": "The great barbet (Psilopogon virens) is an Asian barbet native to the Indian sub-continent and Southeast Asia, where it inhabits forests up to 3,000 m (9,800 ft) altitude. It has been listed as Least Concern on the IUCN Red List since 2004 because of its wide distribution.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/The_Great_Himalayan_Barbet.jpg/1280px-The_Great_Himalayan_Barbet.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/The_Great_Himalayan_Barbet.jpg/330px-The_Great_Himalayan_Barbet.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Great_Himalayan_Barbet.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "रघुबीर सिंह",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Psilopogon"
+  },
+  "family": {
+   "scientific": "Megalaimidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27074833"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_barbet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,58 @@
+{
+ "scientific": "Glaucidium cuculoides",
+ "name": "Asian Barred Owlet",
+ "qid": "Q1073416",
+ "description": "species of bird",
+ "extract": "The Asian barred owlet (Glaucidium cuculoides), also known as the cuckoo owlet, is a species of pygmy owl native to the forests and shrublands of mainland Southeast Asia to the foothills of the Himalayas of northern Pakistan. It is a smaller owl, measuring 22–25 cm (8.7–9.8 in), making it one of the larger pygmy owls. They are primarily insectivorous but will eat lizards, small rodents and birds as well.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Raw25-Dooars_DSC0013_Jungle_owlet.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Raw25-Dooars_DSC0013_Jungle_owlet.jpg/330px-Raw25-Dooars_DSC0013_Jungle_owlet.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Raw25-Dooars_DSC0013_Jungle_owlet.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Himadrimondal",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Glaucidium_cuculoides_-_Mae_Wong.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Glaucidium_cuculoides_-_Mae_Wong.jpg/330px-Glaucidium_cuculoides_-_Mae_Wong.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Glaucidium_cuculoides_-_Mae_Wong.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Glaucidium"
+  },
+  "family": {
+   "scientific": "Strigidae",
+   "name": "true owls"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1073416"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Asian_barred_owlet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

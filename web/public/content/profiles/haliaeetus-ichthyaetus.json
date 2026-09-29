@@ -1,0 +1,60 @@
+{
+ "scientific": "Haliaeetus ichthyaetus",
+ "name": "Grey-headed Fish Eagle",
+ "qid": "Q27074633",
+ "description": "species of bird",
+ "extract": "The grey-headed fish eagle (Icthyophaga ichthyaetus) is a fish-eating bird of prey from Southeast Asia. It is a large stocky raptor with adults having dark brown upper body, grey head and lighter underbelly and white legs. Juveniles are paler with darker streaking. It is often confused with the lesser fish eagle (Icthyophaga humilis) and the Pallas's fish eagle. The lesser fish eagle is similar in plumage but smaller and the Pallas's fish eagle shares the same habitat and feeding behaviour but is larger with longer wings and darker underparts. Is often called tank eagle in Sri Lanka due to its fondness for irrigation tanks.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Grey-headed_Fish_Eagle_%285484754969%29.jpg/1280px-Grey-headed_Fish_Eagle_%285484754969%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Grey-headed_Fish_Eagle_%285484754969%29.jpg/330px-Grey-headed_Fish_Eagle_%285484754969%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grey-headed_Fish_Eagle_(5484754969).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Mike Prince from Bangalore, India",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Grey-headed_Fish_Eagle%2C_Kerala.jpg/1280px-Grey-headed_Fish_Eagle%2C_Kerala.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Grey-headed_Fish_Eagle%2C_Kerala.jpg/330px-Grey-headed_Fish_Eagle%2C_Kerala.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grey-headed_Fish_Eagle,_Kerala.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Kmoorthy1969",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Haliaeetus"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Ichthyophaga ichthyaetus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27074633"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey-headed_fish_eagle"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

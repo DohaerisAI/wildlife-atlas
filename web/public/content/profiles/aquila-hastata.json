@@ -1,0 +1,40 @@
+{
+ "scientific": "Aquila hastata",
+ "name": "Indian Spotted Eagle",
+ "qid": "Q1067631",
+ "description": "synonym of Clanga hastata",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Aquila_hastata.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Aquila_hastata.jpg/330px-Aquila_hastata.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aquila_hastata.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "L. Shyamal",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aquila"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1067631"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

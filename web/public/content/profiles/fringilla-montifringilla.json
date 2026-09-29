@@ -1,0 +1,68 @@
+{
+ "scientific": "Fringilla montifringilla",
+ "name": "Brambling",
+ "qid": "Q188877",
+ "description": "species of bird from the finch family",
+ "extract": "The brambling (Fringilla montifringilla) is a small passerine bird in the finch family Fringillidae.   It has also been called the cock o' the north and the mountain finch. It is widespread and migratory, often seen in very large flocks.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Fringilla_montifringilla_2_%28Marek_Szczepanek%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Fringilla_montifringilla_2_%28Marek_Szczepanek%29.jpg/330px-Fringilla_montifringilla_2_%28Marek_Szczepanek%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Fringilla_montifringilla_2_(Marek_Szczepanek).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Marek Szczepanek",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Fringilla_montifringilla_-Poland_-male-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Fringilla_montifringilla_-Poland_-male-8.jpg/330px-Fringilla_montifringilla_-Poland_-male-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Fringilla_montifringilla_-Poland_-male-8.jpg",
+   "license": "CC BY 2.0",
+   "artist": "mmlolek",
+   "caption": "Male"
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 27.0,
+   "max": 27.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 2.1,
+   "max": 22.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Fringilla"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "cock'o north",
+  "mountain finch"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q188877"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brambling"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

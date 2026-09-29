@@ -1,0 +1,50 @@
+{
+ "scientific": "Gallirallus striatus",
+ "name": "Slaty-breasted Rail",
+ "qid": "Q367459",
+ "description": "synonym of Lewinia striata",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Slaty-breasted_Rail_Gallirallus_striatus_photographed_in_Malaysia_in_2013_by_Devon_Pike.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Slaty-breasted_Rail_Gallirallus_striatus_photographed_in_Malaysia_in_2013_by_Devon_Pike.jpg/330px-Slaty-breasted_Rail_Gallirallus_striatus_photographed_in_Malaysia_in_2013_by_Devon_Pike.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Slaty-breasted_Rail_Gallirallus_striatus_photographed_in_Malaysia_in_2013_by_Devon_Pike.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Devonpike",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 110.0,
+   "max": 110.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Gallirallus"
+  },
+  "family": {
+   "scientific": "Rallidae"
+  },
+  "order": {
+   "scientific": "Gruiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Rallus striatus",
+  "Lewinia striata"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q367459"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

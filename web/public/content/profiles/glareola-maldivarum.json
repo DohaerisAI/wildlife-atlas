@@ -1,0 +1,62 @@
+{
+ "scientific": "Glareola maldivarum",
+ "name": "Oriental Pratincole",
+ "qid": "Q116708",
+ "description": "species of bird",
+ "extract": "The oriental pratincole (Glareola maldivarum), also known as the grasshopper-bird or swallow-plover, is a wader in the pratincole family, Glareolidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Glareola_maldivarum_-_Beung_Borapet.jpg/1280px-Glareola_maldivarum_-_Beung_Borapet.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Glareola_maldivarum_-_Beung_Borapet.jpg/330px-Glareola_maldivarum_-_Beung_Borapet.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Glareola_maldivarum_-_Beung_Borapet.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 58.0,
+   "max": 64.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 76.0,
+   "max": 76.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Glareola"
+  },
+  "family": {
+   "scientific": "Glareolidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Eastern collared pratincole"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q116708"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Oriental_pratincole"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

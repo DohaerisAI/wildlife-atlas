@@ -1,0 +1,49 @@
+{
+ "scientific": "Vanellus duvaucelii",
+ "name": "River Lapwing",
+ "qid": "Q956855",
+ "description": "species of bird",
+ "extract": "The river lapwing (Vanellus duvaucelii) is a lapwing species which breeds from the Indian subcontinent eastwards to Southeast Asia.  It range includes much of northern and northeastern India, and extends through Southeast Asia to Vietnam. It appears to be entirely sedentary. Formerly also called spur-winged lapwing, this name is better reserved for one of the \"spur-winged plovers\" of old, Vanellus spinosus of Africa, whose scientific name it literally translates. The masked lapwing of Australasia was at one time also called \"spur-winged plover\" (and still is in New Zealand), completing the name confusion.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Vanellus_duvaucelii_128354935_%28cropped%29.jpg/1280px-Vanellus_duvaucelii_128354935_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Vanellus_duvaucelii_128354935_%28cropped%29.jpg/330px-Vanellus_duvaucelii_128354935_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Vanellus_duvaucelii_128354935_(cropped).jpg",
+   "license": "CC BY 4.0",
+   "artist": "Rejoice Gassah",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Vanellus"
+  },
+  "family": {
+   "scientific": "Charadriidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q956855"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/River_lapwing"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

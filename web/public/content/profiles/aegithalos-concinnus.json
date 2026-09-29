@@ -1,0 +1,49 @@
+{
+ "scientific": "Aegithalos concinnus",
+ "name": "Black-throated Bushtit",
+ "qid": "Q1089092",
+ "description": "species of bird",
+ "extract": "In older sources, \"black-throated tit\" can also mean the rufous-naped tit or the rufous-vented tit, which are true tits.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Black-throated_Tit_%28Aegithalos_concinnus%29_-on_branch.jpg/1280px-Black-throated_Tit_%28Aegithalos_concinnus%29_-on_branch.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Black-throated_Tit_%28Aegithalos_concinnus%29_-on_branch.jpg/330px-Black-throated_Tit_%28Aegithalos_concinnus%29_-on_branch.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-throated_Tit_(Aegithalos_concinnus)_-on_branch.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Robert tdc",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aegithalos"
+  },
+  "family": {
+   "scientific": "Aegithalidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Black-throated tit"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1089092"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-throated_bushtit"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

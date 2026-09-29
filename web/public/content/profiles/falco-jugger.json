@@ -1,0 +1,63 @@
+{
+ "scientific": "Falco jugger",
+ "name": "Laggar Falcon",
+ "qid": "Q845955",
+ "description": "species of bird",
+ "extract": "The laggar falcon (Falco jugger) is a mid-sized bird of prey occurring in the Indian subcontinent from southeastern Iran, southeastern Afghanistan, Pakistan, through India, Nepal, Bhutan, Bangladesh and northwestern Myanmar. It used to be one of the most common falcons in the region, but numbers have declined so that is probably nowhere a common species anymore. The main threats are the intensification of pesticide use and use as a decoy to trap large falcons.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Laggar_Falcon_%28Falco_jugger%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Laggar_Falcon_%28Falco_jugger%29.jpg/330px-Laggar_Falcon_%28Falco_jugger%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Laggar_Falcon_(Falco_jugger).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Koshy Koshy",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/AB013_Laggar_Falcon.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/AB013_Laggar_Falcon.JPG/330px-AB013_Laggar_Falcon.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:AB013_Laggar_Falcon.JPG",
+   "license": "CC BY-SA 2.5",
+   "artist": "No machine-readable author provided. AshLin assumed (based on copyright claims).",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 88.0,
+   "max": 107.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Falco",
+   "name": "falcon"
+  },
+  "family": {
+   "scientific": "Falconidae"
+  },
+  "order": {
+   "scientific": "Falconiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q845955"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Laggar_falcon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

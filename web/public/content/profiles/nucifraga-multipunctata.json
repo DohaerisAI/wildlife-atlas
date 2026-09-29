@@ -1,0 +1,49 @@
+{
+ "scientific": "Nucifraga multipunctata",
+ "name": "Kashmir Nutcracker",
+ "qid": "Q12015853",
+ "description": "species of bird",
+ "extract": "The Kashmir nutcracker or large-spotted nutcracker (Nucifraga multipunctata) is a passerine bird related to the northern nutcracker and southern nutcracker. Until recently, it was considered a subspecies of the former.  It is found in the western Himalayas.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Large-spotted_Nutcracker_%28Nucifraga_multipunctata%29_%2852292974628%29.jpg/1280px-Large-spotted_Nutcracker_%28Nucifraga_multipunctata%29_%2852292974628%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Large-spotted_Nutcracker_%28Nucifraga_multipunctata%29_%2852292974628%29.jpg/330px-Large-spotted_Nutcracker_%28Nucifraga_multipunctata%29_%2852292974628%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Large-spotted_Nutcracker_(Nucifraga_multipunctata)_(52292974628).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Nucifraga"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Large-spotted Nutcracker"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q12015853"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kashmir_nutcracker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

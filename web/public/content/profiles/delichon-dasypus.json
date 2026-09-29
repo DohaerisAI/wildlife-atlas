@@ -1,0 +1,51 @@
+{
+ "scientific": "Delichon dasypus",
+ "name": "Asian House Martin",
+ "qid": "Q728235",
+ "description": "species of bird",
+ "extract": "The Asian house martin (Delichon dasypus) is a migratory passerine bird of the swallow family Hirundinidae. It has mainly blue-black upperparts, other than its white rump, and has pale grey underparts. Its three subspecies breed in the Himalayas and in central and eastern Asia, and spend the winter lower in the mountains or in Southeast Asia. This species is locally abundant and is expanding northward in Siberia, so there are no concerns about its conservation status.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Delichon_dasypus_-Taiwan-8-4c.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Delichon_dasypus_-Taiwan-8-4c.jpg/330px-Delichon_dasypus_-Taiwan-8-4c.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Delichon_dasypus_-Taiwan-8-4c.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Delichon_dasypus_-Taiwan-8.jpg: Sin Syue Li\nderivative work: Snowmanradio (talk)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 18.0,
+   "max": 18.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Delichon"
+  },
+  "family": {
+   "scientific": "Hirundinidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q728235"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Asian_house_martin"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

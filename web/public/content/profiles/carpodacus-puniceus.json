@@ -1,0 +1,46 @@
+{
+ "scientific": "Carpodacus puniceus",
+ "name": "Red-fronted Rosefinch",
+ "qid": "Q1301378",
+ "description": "species of bird",
+ "extract": "The red-fronted rosefinch (Carpodacus Puniceus) is a species of rosefinch in the finch family Fringillidae. It is sometimes placed in the monotypic genus Pyrrhospiza.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Pyrrhospiza_punicea_Grovold.jpg/1280px-Pyrrhospiza_punicea_Grovold.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Pyrrhospiza_punicea_Grovold.jpg/330px-Pyrrhospiza_punicea_Grovold.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pyrrhospiza_punicea_Grovold.jpg",
+   "license": "Public domain",
+   "artist": "Creator:Henrik Gronvold",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Carpodacus"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1301378"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-fronted_rosefinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

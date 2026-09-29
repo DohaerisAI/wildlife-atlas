@@ -1,0 +1,60 @@
+{
+ "scientific": "Cinnyris jugularis",
+ "name": "Garden sunbird",
+ "qid": "Q766717",
+ "description": "species of bird",
+ "extract": "The garden sunbird (Cinnyris jugularis), previously known as the olive-backed sunbird, is a species of passerine bird in the family Nectariniidae that is found in the Philippines except on the Palawan island group. It was formerly considered to be conspecific with seven other species: the ornate sunbird, Palawan sunbird, Sahul sunbird, Tukangbesi sunbird, Flores Sea sunbird, South Moluccan sunbird and the Mamberamo sunbird.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Olive-backed_Sunbird_male%2C_Misamis_Oriental%2C_Philippines_1.jpg/1280px-Olive-backed_Sunbird_male%2C_Misamis_Oriental%2C_Philippines_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Olive-backed_Sunbird_male%2C_Misamis_Oriental%2C_Philippines_1.jpg/330px-Olive-backed_Sunbird_male%2C_Misamis_Oriental%2C_Philippines_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Olive-backed_Sunbird_male,_Misamis_Oriental,_Philippines_1.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Domzjuniorwildlife",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Olive-backed_Sunbird_female%2C_Misamis_Oriental%2C_Philippines_1.jpg/1280px-Olive-backed_Sunbird_female%2C_Misamis_Oriental%2C_Philippines_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Olive-backed_Sunbird_female%2C_Misamis_Oriental%2C_Philippines_1.jpg/330px-Olive-backed_Sunbird_female%2C_Misamis_Oriental%2C_Philippines_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Olive-backed_Sunbird_female,_Misamis_Oriental,_Philippines_1.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Domzjuniorwildlife",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 1.2,
+   "max": 8.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cinnyris"
+  },
+  "family": {
+   "scientific": "Nectariniidae",
+   "name": "sunbird"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q766717"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Garden_sunbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

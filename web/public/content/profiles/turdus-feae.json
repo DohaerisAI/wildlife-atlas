@@ -1,0 +1,51 @@
+{
+ "scientific": "Turdus feae",
+ "name": "Grey-sided Thrush",
+ "qid": "Q2587215",
+ "description": "species of bird",
+ "extract": "The grey-sided thrush (Turdus feae) is a species of bird in the thrush family, Turdidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/SYT4752_Grey-sided_thrush.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/SYT4752_Grey-sided_thrush.jpg/330px-SYT4752_Grey-sided_thrush.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:SYT4752_Grey-sided_thrush.jpg",
+   "license": "CC0",
+   "artist": "lonelyshrimp",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 71.0,
+   "max": 71.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turdus"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2587215"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey-sided_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

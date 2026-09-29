@@ -1,0 +1,60 @@
+{
+ "scientific": "Buteo refectus",
+ "name": "Himalayan Buzzard",
+ "qid": "Q55111926",
+ "description": "species of bird",
+ "extract": "The Himalayan buzzard (Buteo refectus) is a medium to large bird of prey that was formerly considered a subspecies of the widespread common buzzard (Buteo buteo). It is native to the Himalayas in Nepal, India and adjacent mountains of southern China.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Himalayan_Buzzard_%28Buteo_refectus%29_%2833619680020%29.jpg/1280px-Himalayan_Buzzard_%28Buteo_refectus%29_%2833619680020%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Himalayan_Buzzard_%28Buteo_refectus%29_%2833619680020%29.jpg/330px-Himalayan_Buzzard_%28Buteo_refectus%29_%2833619680020%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Himalayan_Buzzard_(Buteo_refectus)_(33619680020).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Himalayan_Buzzard_%28Buteo_refectus%29_%2832705310878%29.jpg/1280px-Himalayan_Buzzard_%28Buteo_refectus%29_%2832705310878%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Himalayan_Buzzard_%28Buteo_refectus%29_%2832705310878%29.jpg/330px-Himalayan_Buzzard_%28Buteo_refectus%29_%2832705310878%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Himalayan_Buzzard_(Buteo_refectus)_(32705310878).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Himalayan_Buzzard_%28Buteo_refectus%29_%2850023527168%29.jpg/1280px-Himalayan_Buzzard_%28Buteo_refectus%29_%2850023527168%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Himalayan_Buzzard_%28Buteo_refectus%29_%2850023527168%29.jpg/330px-Himalayan_Buzzard_%28Buteo_refectus%29_%2850023527168%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Himalayan_Buzzard_(Buteo_refectus)_(50023527168).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Buteo"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q55111926"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Himalayan_buzzard"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

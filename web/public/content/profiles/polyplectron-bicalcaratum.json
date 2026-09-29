@@ -1,0 +1,57 @@
+{
+ "scientific": "Polyplectron bicalcaratum",
+ "name": "Grey Peacock Pheasant",
+ "qid": "Q748957",
+ "description": "species of bird",
+ "extract": "The grey peacock-pheasant (Polyplectron bicalcaratum), also known as Burmese peacock-pheasant, is a large Asian member of the order Galliformes.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Grey_Peacock-pheasant_-_Kang-Kra_Khan%2C_Thailand_H8O5535_%2815362061647%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Grey_Peacock-pheasant_-_Kang-Kra_Khan%2C_Thailand_H8O5535_%2815362061647%29.jpg/330px-Grey_Peacock-pheasant_-_Kang-Kra_Khan%2C_Thailand_H8O5535_%2815362061647%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grey_Peacock-pheasant_-_Kang-Kra_Khan,_Thailand_H8O5535_(15362061647).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/%E0%B8%99%E0%B8%81%E0%B9%81%E0%B8%A7%E0%B8%99%E0%B8%AA%E0%B8%B5%E0%B9%80%E0%B8%97%E0%B8%B2.jpg/1280px-%E0%B8%99%E0%B8%81%E0%B9%81%E0%B8%A7%E0%B8%99%E0%B8%AA%E0%B8%B5%E0%B9%80%E0%B8%97%E0%B8%B2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/%E0%B8%99%E0%B8%81%E0%B9%81%E0%B8%A7%E0%B8%99%E0%B8%AA%E0%B8%B5%E0%B9%80%E0%B8%97%E0%B8%B2.jpg/330px-%E0%B8%99%E0%B8%81%E0%B9%81%E0%B8%A7%E0%B8%99%E0%B8%AA%E0%B8%B5%E0%B9%80%E0%B8%97%E0%B8%B2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E0%B8%99%E0%B8%81%E0%B9%81%E0%B8%A7%E0%B8%99%E0%B8%AA%E0%B8%B5%E0%B9%80%E0%B8%97%E0%B8%B2.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "วิศักดิ์",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Polyplectron"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q748957"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey_peacock-pheasant"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

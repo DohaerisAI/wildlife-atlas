@@ -1,0 +1,40 @@
+{
+ "scientific": "Seicercus affinis",
+ "name": "White-spectacled Warbler",
+ "qid": "Q1037980",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/White-spectacled_Warbler_Nimachen_Sikkim_04.11.2014.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/White-spectacled_Warbler_Nimachen_Sikkim_04.11.2014.jpg/330px-White-spectacled_Warbler_Nimachen_Sikkim_04.11.2014.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-spectacled_Warbler_Nimachen_Sikkim_04.11.2014.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Seicercus"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Green-crowned Warbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1037980"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

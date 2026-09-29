@@ -1,0 +1,46 @@
+{
+ "scientific": "Niltava oatesi",
+ "name": "Chinese Vivid Niltava",
+ "qid": "Q31874469",
+ "description": "species of bird",
+ "extract": "The Chinese vivid niltava (Niltava oatesi) is a species of bird in the family Muscicapidae. It is found in the eastern Himalayas to southern China. The Chinese vivid niltava was formerly considered conspecific to the Taiwan vivid niltava (N. vivida). Its natural habitat is subtropical or tropical moist montane forests.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Niltava_vivida_-Wawu_Shan%2C_Sichuan%2C_China-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Niltava_vivida_-Wawu_Shan%2C_Sichuan%2C_China-8.jpg/330px-Niltava_vivida_-Wawu_Shan%2C_Sichuan%2C_China-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Niltava_vivida_-Wawu_Shan,_Sichuan,_China-8.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Ron Knight from Seaford, East Sussex, United Kingdom",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Niltava"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q31874469"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chinese_vivid_niltava"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

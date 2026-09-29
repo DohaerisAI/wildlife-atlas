@@ -1,0 +1,65 @@
+{
+ "scientific": "Thalasseus bergii",
+ "name": "Greater Crested Tern",
+ "qid": "Q18866",
+ "description": "species of bird",
+ "extract": "The greater crested tern (Thalasseus bergii), also called crested tern, swift tern, or great crested tern, is a tern in the family Laridae that nests in dense colonies on coastlines and islands in the tropical and subtropical Old World. Its four or five subspecies breed in the area from South Africa around the Indian Ocean to the central Pacific and Australia, all populations dispersing widely from the breeding range after nesting. This large tern is closely related to other species in its genus, but can be distinguished by its darker, battleship-grey upperparts, white forehead even in full breeding plumage, and greenish-tinged yellow (not orange or black) bill colour.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Thalasseus_bergii%2C_Gansbaai%2C_Western_Cape%2C_South_Africa_1.jpg/1280px-Thalasseus_bergii%2C_Gansbaai%2C_Western_Cape%2C_South_Africa_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Thalasseus_bergii%2C_Gansbaai%2C_Western_Cape%2C_South_Africa_1.jpg/330px-Thalasseus_bergii%2C_Gansbaai%2C_Western_Cape%2C_South_Africa_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Thalasseus_bergii,_Gansbaai,_Western_Cape,_South_Africa_1.jpg",
+   "license": "CC BY 4.0",
+   "artist": "mattf1996",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Crested_Tern_Tasmania.jpg/1280px-Crested_Tern_Tasmania.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Crested_Tern_Tasmania.jpg/330px-Crested_Tern_Tasmania.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Crested_Tern_Tasmania.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Noodle snacks",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 100.0,
+   "max": 130.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Thalasseus"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Great Crested Tern"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q18866"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Greater_crested_tern"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

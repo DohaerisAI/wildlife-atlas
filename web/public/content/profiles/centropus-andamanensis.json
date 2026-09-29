@@ -1,0 +1,49 @@
+{
+ "scientific": "Centropus andamanensis",
+ "name": "Andaman coucal",
+ "qid": "Q972603",
+ "description": "species of bird",
+ "extract": "The Andaman coucal or brown coucal (Centropus andamanensis) is a species of non-parasitic cuckoo found in the Andamans, Coco and Table Islands. It is sometimes treated as a subspecies of the greater coucal. It is found mainly in forested habitats and thickly covered gardens.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/CentropusAndamanensisSmit.jpg/1280px-CentropusAndamanensisSmit.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/CentropusAndamanensisSmit.jpg/330px-CentropusAndamanensisSmit.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:CentropusAndamanensisSmit.jpg",
+   "license": "Public domain",
+   "artist": "Joseph Smit",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Centropus"
+  },
+  "family": {
+   "scientific": "Cuculidae"
+  },
+  "order": {
+   "scientific": "Cuculiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q972603"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Andaman_coucal"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

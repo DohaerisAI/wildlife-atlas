@@ -1,0 +1,46 @@
+{
+ "scientific": "Liocichla bugunorum",
+ "name": "Bugun Liocichla",
+ "qid": "Q1002627",
+ "description": "species of bird",
+ "extract": "The Bugun liocichla (Liocichla bugunorum) is a passerine bird species from the family Leiothrichidae closely related to the Emei Shan liocichla. First spotted in 1995 in Arunachal Pradesh, India, it was described as a new species in 2006. The description was made without the collection of a type specimen as they were too few to risk killing one. It is thought to be an endangered species, with a small population, and a very restricted distribution range within which commercial development threatens the habitat.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Bugun_Loichichla.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Bugun_Loichichla.jpg/330px-Bugun_Loichichla.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bugun_Loichichla.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Muk.Seh",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "CR",
+   "label": "Critically Endangered"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Liocichla"
+  },
+  "family": {
+   "scientific": "Leiothrichidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1002627"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bugun_liocichla"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

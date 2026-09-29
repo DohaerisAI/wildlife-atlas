@@ -1,0 +1,51 @@
+{
+ "scientific": "Euodice malabarica",
+ "name": "Indian Silverbill",
+ "qid": "Q27075729",
+ "description": "species of bird",
+ "extract": "The Indian silverbill or white-throated munia (Euodice malabarica) is a small passerine bird found in the Indian subcontinent and adjoining regions that was formerly considered to include the closely related African silverbill (Euodice cantans). This estrildid finch is a common resident breeding bird in the drier regions of the Middle East and the Indian subcontinent. It has also been introduced into many other parts of the world and has become established in some areas. They forage in small flocks in grassland and scrub habitats.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Indian_Silverbill_Lonchura_malabarica_by_Dr._Raju_Kasambe_DSCN2542_%282%29.jpg/1280px-Indian_Silverbill_Lonchura_malabarica_by_Dr._Raju_Kasambe_DSCN2542_%282%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Indian_Silverbill_Lonchura_malabarica_by_Dr._Raju_Kasambe_DSCN2542_%282%29.jpg/330px-Indian_Silverbill_Lonchura_malabarica_by_Dr._Raju_Kasambe_DSCN2542_%282%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Indian_Silverbill_Lonchura_malabarica_by_Dr._Raju_Kasambe_DSCN2542_(2).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dr. Raju Kasambe",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 12.0,
+   "max": 12.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Euodice"
+  },
+  "family": {
+   "scientific": "Estrildidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075729"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_silverbill"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

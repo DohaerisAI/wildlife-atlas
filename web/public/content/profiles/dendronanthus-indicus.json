@@ -1,0 +1,51 @@
+{
+ "scientific": "Dendronanthus indicus",
+ "name": "Forest Wagtail",
+ "qid": "Q266107",
+ "description": "species of bird",
+ "extract": "The forest wagtail (Dendronanthus indicus) is a medium-sized passerine bird in the wagtail family Motacillidae. It has a distinctive plumage that sets it apart from other wagtails and has the habit of wagging its tail sideways unlike the usual up and down movements of the other wagtail species. It is the only wagtail species that nests in trees. It is found mainly in forested habitats, breeding in the temperate parts of east Asia and wintering across tropical Asia from India to Indonesia.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Forest_Wagtail_4024.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Forest_Wagtail_4024.jpg/330px-Forest_Wagtail_4024.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Forest_Wagtail_4024.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Alnus",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 16.4,
+   "max": 16.4,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dendronanthus"
+  },
+  "family": {
+   "scientific": "Motacillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q266107"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Forest_wagtail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

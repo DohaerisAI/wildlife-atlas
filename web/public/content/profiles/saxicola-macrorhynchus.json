@@ -1,0 +1,49 @@
+{
+ "scientific": "Saxicola macrorhynchus",
+ "name": "White-browed Bush Chat",
+ "qid": "Q1590417",
+ "description": "species of bird",
+ "extract": "The white-browed bush chat (Saxicola macrorhynchus), also known as Stoliczka's bushchat, is an Old World flycatcher in the genus Saxicola.  The alternative name is after the discoverer, geologist and explorer Ferdinand Stoliczka.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Stolickza%27s_Bushchat.jpg/1280px-Stolickza%27s_Bushchat.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Stolickza%27s_Bushchat.jpg/330px-Stolickza%27s_Bushchat.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Stolickza%27s_Bushchat.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Sumeet Moghe",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Saxicola"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "White-browed bushchat"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1590417"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-browed_bush_chat"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,51 @@
+{
+ "scientific": "Graminicola bengalensis",
+ "name": "Indian grassbird",
+ "qid": "Q1585047",
+ "description": "species of bird",
+ "extract": "The Indian grassbird (Graminicola bengalensis) is a passerine bird in the family Pellorneidae.  It was formerly placed in the Old World warbler family, Sylviidae, and the Old World babbler family, Timaliidae. The species is also known as the rufous-rumped grassbird.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Grassbird_Wiki_Loves_Birds_Nepal_%28cropped%29.jpg/1280px-Indian_Grassbird_Wiki_Loves_Birds_Nepal_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Grassbird_Wiki_Loves_Birds_Nepal_%28cropped%29.jpg/330px-Indian_Grassbird_Wiki_Loves_Birds_Nepal_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Indian_Grassbird_Wiki_Loves_Birds_Nepal_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Jyotendra 2019",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 15.0,
+   "max": 15.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Graminicola"
+  },
+  "family": {
+   "scientific": "Pellorneidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1585047"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_grassbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

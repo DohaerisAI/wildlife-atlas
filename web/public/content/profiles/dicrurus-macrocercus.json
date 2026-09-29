@@ -1,0 +1,60 @@
+{
+ "scientific": "Dicrurus macrocercus",
+ "name": "Black Drongo",
+ "qid": "Q46435",
+ "description": "species of bird",
+ "extract": "The  black drongo (Dicrurus macrocercus) is a small Asian passerine bird of the drongo family Dicruridae. It is a common resident breeder in much of tropical southern Asia from southwest Iran through Pakistan, India, Bangladesh and Sri Lanka east to southern China and Indonesia and accidental visitor of Japan. It is an all black bird with a distinctive forked tail and measures 28 cm (11 in) in length. It feeds on insects, and is common in open agricultural areas and light forest throughout its range, perching conspicuously on a bare perch or along power or telephone lines.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Black_Drongo_in_Purulia_June_2025_by_Tisha_Mukherjee_02.jpg/1280px-Black_Drongo_in_Purulia_June_2025_by_Tisha_Mukherjee_02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Black_Drongo_in_Purulia_June_2025_by_Tisha_Mukherjee_02.jpg/330px-Black_Drongo_in_Purulia_June_2025_by_Tisha_Mukherjee_02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black_Drongo_in_Purulia_June_2025_by_Tisha_Mukherjee_02.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Black_Drongo%2C_Sylhet_06.jpg/1280px-Black_Drongo%2C_Sylhet_06.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Black_Drongo%2C_Sylhet_06.jpg/330px-Black_Drongo%2C_Sylhet_06.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black_Drongo,_Sylhet_06.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Fabian Roudra Baroi",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 38.4,
+   "max": 38.4,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dicrurus"
+  },
+  "family": {
+   "scientific": "Dicruridae",
+   "name": "drongo"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q46435"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black_drongo"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

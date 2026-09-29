@@ -1,0 +1,68 @@
+{
+ "scientific": "Collocalia esculenta",
+ "name": "White-bellied swiftlet",
+ "qid": "Q863116",
+ "description": "species of bird in the Swift family (Apodidae)",
+ "extract": "The glossy swiftlet (Collocalia esculenta) is a species of swift in the family Apodidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Glossy_Swiftlet_%28_Collocalia_esculenta%29_-_Flickr_-_Lip_Kee.jpg/1280px-Glossy_Swiftlet_%28_Collocalia_esculenta%29_-_Flickr_-_Lip_Kee.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Glossy_Swiftlet_%28_Collocalia_esculenta%29_-_Flickr_-_Lip_Kee.jpg/330px-Glossy_Swiftlet_%28_Collocalia_esculenta%29_-_Flickr_-_Lip_Kee.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Glossy_Swiftlet_(_Collocalia_esculenta)_-_Flickr_-_Lip_Kee.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee from Singapore, Republic of Singapore",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Glossy_Swiftlets_%28Collocalia_esculenta%29_%288127975211%29.jpg/1280px-Glossy_Swiftlets_%28Collocalia_esculenta%29_%288127975211%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Glossy_Swiftlets_%28Collocalia_esculenta%29_%288127975211%29.jpg/330px-Glossy_Swiftlets_%28Collocalia_esculenta%29_%288127975211%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Glossy_Swiftlets_(Collocalia_esculenta)_(8127975211).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Bernard DUPONT from FRANCE",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Collocalia_esculenta_uropygialis_MHNT_ZOO_2011_11_189_RdN_N-Cal%C3%A9donie.jpg/1280px-Collocalia_esculenta_uropygialis_MHNT_ZOO_2011_11_189_RdN_N-Cal%C3%A9donie.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Collocalia_esculenta_uropygialis_MHNT_ZOO_2011_11_189_RdN_N-Cal%C3%A9donie.jpg/330px-Collocalia_esculenta_uropygialis_MHNT_ZOO_2011_11_189_RdN_N-Cal%C3%A9donie.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Collocalia_esculenta_uropygialis_MHNT_ZOO_2011_11_189_RdN_N-Cal%C3%A9donie.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Didier Descouens",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Collocalia"
+  },
+  "family": {
+   "scientific": "Apodidae"
+  },
+  "order": {
+   "scientific": "Apodiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Glossy Swiftlet"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q863116"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Glossy_swiftlet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,51 @@
+{
+ "scientific": "Anthus rufulus",
+ "name": "Paddyfield Pipit",
+ "qid": "Q1590538",
+ "description": "species of bird",
+ "extract": "The paddyfield pipit or Oriental pipit (Anthus rufulus) is a small passerine bird in the pipit and wagtail family. It is a resident (non-migratory) breeder in open scrub, grassland and cultivation in southern Asia east to the Philippines. Although among the few breeding pipits in the Asian region, identification becomes difficult in winter when several other species migrate into the region. The taxonomy of the species is complex and has undergone considerable changes.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Paddyfield_Pipit_I4-Kolkata_IMG_2109.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Paddyfield_Pipit_I4-Kolkata_IMG_2109.jpg/330px-Paddyfield_Pipit_I4-Kolkata_IMG_2109.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Paddyfield_Pipit_I4-Kolkata_IMG_2109.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 23.7,
+   "max": 23.7,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anthus"
+  },
+  "family": {
+   "scientific": "Motacillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1590538"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Paddyfield_pipit"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

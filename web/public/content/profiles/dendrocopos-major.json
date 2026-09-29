@@ -1,0 +1,75 @@
+{
+ "scientific": "Dendrocopos major",
+ "name": "Great Spotted Woodpecker",
+ "qid": "Q26209",
+ "description": "species of bird",
+ "extract": "The great spotted woodpecker (Dendrocopos major) is a medium-sized woodpecker with pied black and white plumage and a red patch on the lower belly. Males and young birds also have red markings on the neck or head. This species is found across the Palearctic including parts of North Africa. Across most of its range it is resident, but in the north some will migrate if the conifer cone crop fails. Some individuals have a tendency to wander, leading to the recolonisation of Ireland in the first decade of the 21st century  and to vagrancy to North America. Great spotted woodpeckers chisel into trees to find food or excavate nest holes, and also drum for contact and territorial advertisement; like other woodpeckers, they have anatomical adaptations to manage the physical stresses from the hammering action.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Dendrocopos_major_EM1B2679_%2835219263071%29.jpg/1280px-Dendrocopos_major_EM1B2679_%2835219263071%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Dendrocopos_major_EM1B2679_%2835219263071%29.jpg/330px-Dendrocopos_major_EM1B2679_%2835219263071%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dendrocopos_major_EM1B2679_(35219263071).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Bengt Nyman from Vaxholm, Sweden",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/DendrocoposMajor.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/DendrocoposMajor.jpg/330px-DendrocoposMajor.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:DendrocoposMajor.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Sławomir Staszczuk (info [AT] photoss.net)",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/%D0%94%D1%8F%D1%82%D0%B5%D0%BB_%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9_%D0%BF%D1%91%D1%81%D1%82%D1%80%D1%8B%D0%B9_KR_01.jpg/1280px-%D0%94%D1%8F%D1%82%D0%B5%D0%BB_%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9_%D0%BF%D1%91%D1%81%D1%82%D1%80%D1%8B%D0%B9_KR_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/%D0%94%D1%8F%D1%82%D0%B5%D0%BB_%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9_%D0%BF%D1%91%D1%81%D1%82%D1%80%D1%8B%D0%B9_KR_01.jpg/330px-%D0%94%D1%8F%D1%82%D0%B5%D0%BB_%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9_%D0%BF%D1%91%D1%81%D1%82%D1%80%D1%8B%D0%B9_KR_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%D0%94%D1%8F%D1%82%D0%B5%D0%BB_%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9_%D0%BF%D1%91%D1%81%D1%82%D1%80%D1%8B%D0%B9_KR_01.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Плешков Алексей",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 36.0,
+   "max": 36.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 5.7,
+   "max": 89.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dendrocopos"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "other_names": [
+  "Picoides major",
+  "GSW"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26209"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_spotted_woodpecker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,50 @@
+{
+ "scientific": "Gecinulus grantia",
+ "name": "Pale-headed Woodpecker",
+ "qid": "Q882007",
+ "description": "species of bird",
+ "extract": "The pale-headed woodpecker (Gecinulus grantia) is a species of bird in the family Picidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Pale-headed_Woodpecker_-_Bhutan_S4E1130_%2815788036464%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Pale-headed_Woodpecker_-_Bhutan_S4E1130_%2815788036464%29.jpg/330px-Pale-headed_Woodpecker_-_Bhutan_S4E1130_%2815788036464%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pale-headed_Woodpecker_-_Bhutan_S4E1130_(15788036464).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 76.0,
+   "max": 76.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Gecinulus"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q882007"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pale-headed_woodpecker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

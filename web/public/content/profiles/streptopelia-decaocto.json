@@ -1,0 +1,71 @@
+{
+ "scientific": "Streptopelia decaocto",
+ "name": "Eurasian Collared Dove",
+ "qid": "Q54696",
+ "description": "species of bird",
+ "extract": "The Eurasian collared dove (Streptopelia decaocto), often called the collared dove, is a dove species from the genus Streptopelia. It is grey-buff to pinkish-grey, and has a black half-collar edged with white on its nape, alluding to the name. It is native to Europe, Asia, and North Africa. It has also been introduced to Japan, North and Central America, and select Caribbean islands.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Streptopelia_decaocto%2C_H%C4%83rman%2C_Rom%C3%A2nia_%2834881606270%29.jpg/1280px-Streptopelia_decaocto%2C_H%C4%83rman%2C_Rom%C3%A2nia_%2834881606270%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Streptopelia_decaocto%2C_H%C4%83rman%2C_Rom%C3%A2nia_%2834881606270%29.jpg/330px-Streptopelia_decaocto%2C_H%C4%83rman%2C_Rom%C3%A2nia_%2834881606270%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Streptopelia_decaocto,_H%C4%83rman,_Rom%C3%A2nia_(34881606270).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "xulescu_g",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Eurasian_Collared_Dove_Streptopelia_decaocto_by_Dr._Raju_Kasambe_DSCN2357_%283%29.jpg/1280px-Eurasian_Collared_Dove_Streptopelia_decaocto_by_Dr._Raju_Kasambe_DSCN2357_%283%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Eurasian_Collared_Dove_Streptopelia_decaocto_by_Dr._Raju_Kasambe_DSCN2357_%283%29.jpg/330px-Eurasian_Collared_Dove_Streptopelia_decaocto_by_Dr._Raju_Kasambe_DSCN2357_%283%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eurasian_Collared_Dove_Streptopelia_decaocto_by_Dr._Raju_Kasambe_DSCN2357_(3).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dr. Raju Kasambe",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 30.0,
+   "max": 30.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 9.2,
+   "max": 193.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Streptopelia"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Collared Dove",
+  "Turkish Dove"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q54696"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eurasian_collared_dove"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,65 @@
+{
+ "scientific": "Ducula bicolor",
+ "name": "Pied Imperial Pigeon",
+ "qid": "Q232603",
+ "description": "species of bird",
+ "extract": "The pied imperial pigeon (Ducula bicolor) is a relatively large, pied species of pigeon. It is found in forest, woodland, mangrove, plantations and scrub in Southeast Asia, ranging from Myanmar and Thailand, throughout Indonesia and east to the Philippines (where it is locally known as camasu and balud-puti) and the Bird's Head Peninsula in New Guinea. It is mainly found on small islands and in coastal regions. It remains locally common, and is therefore considered to be of least concern by BirdLife International and IUCN.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Ducula_bicolor_-_Chinese_Garden.jpg/1280px-Ducula_bicolor_-_Chinese_Garden.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Ducula_bicolor_-_Chinese_Garden.jpg/330px-Ducula_bicolor_-_Chinese_Garden.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ducula_bicolor_-_Chinese_Garden.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "JJ Harrison (https://tiny.jjharrison.com.au/t/awbKQM2Ekae0XKza)",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Pied_Imperial_Pigeon%2C_Ducula_bicolor_bicolor_-_Flickr_-_Lip_Kee_%284%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Pied_Imperial_Pigeon%2C_Ducula_bicolor_bicolor_-_Flickr_-_Lip_Kee_%284%29.jpg/330px-Pied_Imperial_Pigeon%2C_Ducula_bicolor_bicolor_-_Flickr_-_Lip_Kee_%284%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pied_Imperial_Pigeon,_Ducula_bicolor_bicolor_-_Flickr_-_Lip_Kee_(4).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee from Singapore, Republic of Singapore",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 456.0,
+   "max": 456.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ducula"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Ducula (Myristicivora) bicolor"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q232603"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pied_imperial_pigeon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

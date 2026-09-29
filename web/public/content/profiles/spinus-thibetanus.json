@@ -1,0 +1,51 @@
+{
+ "scientific": "Spinus thibetanus",
+ "name": "Tibetan Siskin",
+ "qid": "Q27075858",
+ "description": "species of bird",
+ "extract": "The Tibetan serin (Spinus thibetanus) or Tibetan siskin is a true finch species (family Fringillidae).",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Tibetan_Siskin_Barsey_Rhododendron_Sanctuary_11.03.2013.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Tibetan_Siskin_Barsey_Rhododendron_Sanctuary_11.03.2013.jpg/330px-Tibetan_Siskin_Barsey_Rhododendron_Sanctuary_11.03.2013.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tibetan_Siskin_Barsey_Rhododendron_Sanctuary_11.03.2013.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 11.0,
+   "max": 11.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Spinus"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075858"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tibetan_serin"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

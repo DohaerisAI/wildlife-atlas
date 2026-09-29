@@ -1,0 +1,55 @@
+{
+ "scientific": "Cyornis banyumas",
+ "name": "Javan Blue Flycatcher",
+ "qid": "Q116986",
+ "description": "species of bird",
+ "extract": "The Javan blue flycatcher (Cyornis banyumas) is a species of bird in the family Muscicapidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Cyornis_banyumas_577597724.jpg/1280px-Cyornis_banyumas_577597724.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Cyornis_banyumas_577597724.jpg/330px-Cyornis_banyumas_577597724.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cyornis_banyumas_577597724.jpg",
+   "license": "CC BY 4.0",
+   "artist": "ꦥꦤ꧀ꦗꦶꦒꦸꦱ꧀ꦠꦶꦄꦏ꧀ꦧꦂ",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 14.5,
+   "max": 14.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "CR",
+   "label": "Critically Endangered"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cyornis"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Hill blue niltava",
+  "Hill Blue Flycatcher"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q116986"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Javan_blue_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

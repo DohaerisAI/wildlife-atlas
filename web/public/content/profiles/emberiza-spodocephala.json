@@ -1,0 +1,46 @@
+{
+ "scientific": "Emberiza spodocephala",
+ "name": "Black-faced Bunting",
+ "qid": "Q1190674",
+ "description": "species of bird",
+ "extract": "The  black-faced bunting (Emberiza spodocephala) is a passerine bird in the bunting family Emberizidae, a group now separated by most modern authors from the finches, Fringillidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Aoji_male.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Aoji_male.JPG/330px-Aoji_male.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Aoji_male.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Materialscientist (talk)",
+   "caption": "Male"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Emberiza"
+  },
+  "family": {
+   "scientific": "Emberizidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1190674"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-faced_bunting"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

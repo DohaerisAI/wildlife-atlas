@@ -1,0 +1,59 @@
+{
+ "scientific": "Lanius vittatus",
+ "name": "Bay-backed Shrike",
+ "qid": "Q781271",
+ "description": "species of bird",
+ "extract": "The bay-backed shrike (Lanius vittatus) is a member of the bird family Laniidae, the shrikes, resident in South Asia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Bay_backed_Shrike_SM.jpg/1280px-Bay_backed_Shrike_SM.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Bay_backed_Shrike_SM.jpg/330px-Bay_backed_Shrike_SM.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bay_backed_Shrike_SM.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Saswat Mishra",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Bay-backed_Shrike_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg/1280px-Bay-backed_Shrike_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Bay-backed_Shrike_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg/330px-Bay-backed_Shrike_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bay-backed_Shrike_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 21.0,
+   "max": 21.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lanius"
+  },
+  "family": {
+   "scientific": "Laniidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q781271"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bay-backed_shrike"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,65 @@
+{
+ "scientific": "Larus argentatus",
+ "name": "European Herring Gull",
+ "qid": "Q28236",
+ "description": "species of bird",
+ "extract": "The European herring gull or simply herring gull (Larus argentatus) is a large gull, up to 66 cm (26 in) long. It breeds throughout the northern and western coasts of Europe. Some European herring gulls, especially those resident in colder areas, migrate farther south in winter, but many are permanent residents, such as in Ireland, Britain, Iceland, or on the North Sea shores. They have a varied diet, including fish, crustaceans, as well as some plants, and are also scavengers, consuming carrion and food left by or stolen from humans.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/European_herring_gull_vocalizing_%2800170%29.jpg/1280px-European_herring_gull_vocalizing_%2800170%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/European_herring_gull_vocalizing_%2800170%29.jpg/330px-European_herring_gull_vocalizing_%2800170%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:European_herring_gull_vocalizing_(00170).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Rhododendrites",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Larus_argentatus01.jpg/1280px-Larus_argentatus01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Larus_argentatus01.jpg/330px-Larus_argentatus01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Larus_argentatus01.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Kulac",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 134.0,
+   "max": 134.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Larus"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Herring Gull"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q28236"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/European_herring_gull"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

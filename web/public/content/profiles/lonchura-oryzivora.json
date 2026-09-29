@@ -1,0 +1,41 @@
+{
+ "scientific": "Lonchura oryzivora",
+ "name": "Java Sparrow",
+ "qid": "Q25185408",
+ "description": "species of bird",
+ "extract": "The Java sparrow (Padda oryzivora; syn. Lonchura oryzivora), also known as the Java finch, Java rice sparrow or Java rice bird, is a small passerine bird. This species in the family Estrildidae is a resident breeding bird in Java, Bali, and Bawean in Indonesia. It is a popular cage bird, and has been introduced into many other countries.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Java_Sparrow_-_Baluran_NP_-_East_Java_MG_8180_%2829726690101%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Java_Sparrow_-_Baluran_NP_-_East_Java_MG_8180_%2829726690101%29.jpg/330px-Java_Sparrow_-_Baluran_NP_-_East_Java_MG_8180_%2829726690101%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Java_Sparrow_-_Baluran_NP_-_East_Java_MG_8180_(29726690101).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lonchura"
+  },
+  "family": {
+   "scientific": "Estrildidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25185408"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Java_sparrow"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

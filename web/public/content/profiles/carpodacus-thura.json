@@ -1,0 +1,65 @@
+{
+ "scientific": "Carpodacus thura",
+ "name": "Himalayan White-browed Rosefinch",
+ "qid": "Q473713",
+ "description": "species of bird",
+ "extract": "The Himalayan white-browed rosefinch (Carpodacus thura) is a true finch species (family Fringillidae).",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/White-browed_Rosefinch_%28%E2%99%82%29_Pangolakha_Wildlife_Sanctuary_Sikkim_India_17.04.2015.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/White-browed_Rosefinch_%28%E2%99%82%29_Pangolakha_Wildlife_Sanctuary_Sikkim_India_17.04.2015.jpg/330px-White-browed_Rosefinch_%28%E2%99%82%29_Pangolakha_Wildlife_Sanctuary_Sikkim_India_17.04.2015.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-browed_Rosefinch_(%E2%99%82)_Pangolakha_Wildlife_Sanctuary_Sikkim_India_17.04.2015.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/White-browed_Rosefinch_%28%E2%99%80%29_Pangolakha_Wildlife_Sanctuary_Sikkim_India_08.11.2015.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/White-browed_Rosefinch_%28%E2%99%80%29_Pangolakha_Wildlife_Sanctuary_Sikkim_India_08.11.2015.jpg/330px-White-browed_Rosefinch_%28%E2%99%80%29_Pangolakha_Wildlife_Sanctuary_Sikkim_India_08.11.2015.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-browed_Rosefinch_(%E2%99%80)_Pangolakha_Wildlife_Sanctuary_Sikkim_India_08.11.2015.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/PropasserBlythiKeulemans.jpg/1280px-PropasserBlythiKeulemans.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/PropasserBlythiKeulemans.jpg/330px-PropasserBlythiKeulemans.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:PropasserBlythiKeulemans.jpg",
+   "license": "Public domain",
+   "artist": "John Gerrard Keulemans",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Carpodacus"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "White-browed rosefinch"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q473713"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Himalayan_white-browed_rosefinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,65 @@
+{
+ "scientific": "Anthracoceros coronatus",
+ "name": "Indian Pied Hornbill",
+ "qid": "Q908959",
+ "description": "species of bird",
+ "extract": "The Malabar pied hornbill (Anthracoceros coronatus), also known as the lesser pied hornbill, is a bird in the hornbill family, a family of tropical near-passerine birds found in the Old World. The Malabar pied hornbill is a large hornbill, measuring 65 cm (26 in) in length. It has mainly black plumage with a white belly and throat patch, and a yellow bill with a large black casque. The Malabar pied hornbill is a common resident breeder in Sri Lanka and parts of India. It is an omnivore, feeding on fruits, small mammals, birds, small reptiles and insects.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Malabar_pied_hornbill_%28Anthracoceros_coronatus%29_male.jpg/1280px-Malabar_pied_hornbill_%28Anthracoceros_coronatus%29_male.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Malabar_pied_hornbill_%28Anthracoceros_coronatus%29_male.jpg/330px-Malabar_pied_hornbill_%28Anthracoceros_coronatus%29_male.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Malabar_pied_hornbill_(Anthracoceros_coronatus)_male.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Malabar_pied_hornbill_%28Anthracoceros_coronatus%29_female_in_flight.jpg/1280px-Malabar_pied_hornbill_%28Anthracoceros_coronatus%29_female_in_flight.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Malabar_pied_hornbill_%28Anthracoceros_coronatus%29_female_in_flight.jpg/330px-Malabar_pied_hornbill_%28Anthracoceros_coronatus%29_female_in_flight.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Malabar_pied_hornbill_(Anthracoceros_coronatus)_female_in_flight.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": "Female"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Malabar_pied_hornbill_%28Anthracoceros_coronatus%29_Photograph_by_Shantanu_Kuveskar.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Malabar_pied_hornbill_%28Anthracoceros_coronatus%29_Photograph_by_Shantanu_Kuveskar.jpg/330px-Malabar_pied_hornbill_%28Anthracoceros_coronatus%29_Photograph_by_Shantanu_Kuveskar.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Malabar_pied_hornbill_(Anthracoceros_coronatus)_Photograph_by_Shantanu_Kuveskar.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Shantanu Kuveskar",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anthracoceros"
+  },
+  "family": {
+   "scientific": "Bucerotidae",
+   "name": "hornbill"
+  },
+  "order": {
+   "scientific": "Bucerotiformes"
+  }
+ },
+ "other_names": [
+  "Malabar Pied Hornbill"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q908959"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Malabar_pied_hornbill"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,70 @@
+{
+ "scientific": "Tringa totanus",
+ "name": "Common Redshank",
+ "qid": "Q18859",
+ "description": "species of bird",
+ "extract": "The common redshank or simply redshank (Tringa totanus) is a Eurasian wader in the large family Scolopacidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Common_Redshank_Tringa_totanus.jpg/1280px-Common_Redshank_Tringa_totanus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Common_Redshank_Tringa_totanus.jpg/330px-Common_Redshank_Tringa_totanus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_Redshank_Tringa_totanus.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Tringa_totanus_-_Common_Redshank%2C_Mersin_2016-12-11_07-2.jpg/1280px-Tringa_totanus_-_Common_Redshank%2C_Mersin_2016-12-11_07-2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Tringa_totanus_-_Common_Redshank%2C_Mersin_2016-12-11_07-2.jpg/330px-Tringa_totanus_-_Common_Redshank%2C_Mersin_2016-12-11_07-2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tringa_totanus_-_Common_Redshank,_Mersin_2016-12-11_07-2.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Zeynel Cebeci",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 62.0,
+   "max": 62.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 22.3,
+   "max": 129.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tringa"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "redshank"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q18859"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_redshank"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

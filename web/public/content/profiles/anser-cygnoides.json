@@ -1,0 +1,59 @@
+{
+ "scientific": "Anser cygnoides",
+ "name": "Swan Goose",
+ "qid": "Q31354",
+ "description": "species of bird",
+ "extract": "The swan goose (Anser cygnoides) is a large goose with a natural breeding range in inland Mongolia, Northeast China, and the Russian Far East. It is migratory and winters mainly in central and eastern China. Vagrant birds are encountered in Japan and Korea (where it used to winter in numbers when it was more common), and more rarely in Kazakhstan, Laos, coastal Siberia, Taiwan, Thailand and Uzbekistan.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Anser_cygnoides%2C_Ozero_Stepnoye%2C_Ivolginskiy%2C_Buryatia_Republic%2C_Russia_1_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Anser_cygnoides%2C_Ozero_Stepnoye%2C_Ivolginskiy%2C_Buryatia_Republic%2C_Russia_1_%28cropped%29.jpg/330px-Anser_cygnoides%2C_Ozero_Stepnoye%2C_Ivolginskiy%2C_Buryatia_Republic%2C_Russia_1_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Anser_cygnoides,_Ozero_Stepnoye,_Ivolginskiy,_Buryatia_Republic,_Russia_1_(cropped).jpg",
+   "license": "CC BY 4.0",
+   "artist": "grihahasanov",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Anser_cygnoides_Qiqihar_2.jpg/1280px-Anser_cygnoides_Qiqihar_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Anser_cygnoides_Qiqihar_2.jpg/330px-Anser_cygnoides_Qiqihar_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Anser_cygnoides_Qiqihar_2.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "KongFu Wang from Beijing, China",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 165.0,
+   "max": 185.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 145.0,
+   "max": 3500.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anser"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q31354"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Swan_goose"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

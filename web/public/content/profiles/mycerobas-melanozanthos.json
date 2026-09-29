@@ -1,0 +1,62 @@
+{
+ "scientific": "Mycerobas melanozanthos",
+ "name": "Spot-winged Grosbeak",
+ "qid": "Q1002648",
+ "description": "species of bird",
+ "extract": "The spot-winged grosbeak (Mycerobas melanozanthos) is a species of finch in the family Fringillidae, found in middle to higher elevations.  It is found in the Indian subcontinent and parts of Southeast Asia.  Its range includes Bhutan, India, Laos, Myanmar, Nepal, Pakistan, Thailand, Tibet and Vietnam. Its natural habitats are subtropical or tropical dry forests and subtropical or tropical moist montane forests.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Spot-winged_Grosbeak.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Spot-winged_Grosbeak.JPG/330px-Spot-winged_Grosbeak.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Spot-winged_Grosbeak.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Geetanjalidhar",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/BirdsAsiaJohnGoVGoul_0088.jpg/1280px-BirdsAsiaJohnGoVGoul_0088.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/BirdsAsiaJohnGoVGoul_0088.jpg/330px-BirdsAsiaJohnGoVGoul_0088.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:BirdsAsiaJohnGoVGoul_0088.jpg",
+   "license": "Public domain",
+   "artist": "John Gould / Henry Constantine Richter",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 62.0,
+   "max": 62.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Mycerobas"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Spotted-winged grosbeak"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1002648"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spot-winged_grosbeak"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

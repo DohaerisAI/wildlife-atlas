@@ -1,0 +1,47 @@
+{
+ "scientific": "Aethopyga gouldiae",
+ "name": "Mrs Gould’s Sunbird",
+ "qid": "Q2743811",
+ "description": "species of bird",
+ "extract": "Mrs. Gould's sunbird (Aethopyga gouldiae) is a sunbird species native to forests and shrublands from the southern foothills of the Himalayas to Southeast Asia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Aethopyga_gouldiae_2.jpg/1280px-Aethopyga_gouldiae_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Aethopyga_gouldiae_2.jpg/330px-Aethopyga_gouldiae_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aethopyga_gouldiae_2.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Umeshsrinivasan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aethopyga"
+  },
+  "family": {
+   "scientific": "Nectariniidae",
+   "name": "sunbird"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2743811"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mrs._Gould%27s_sunbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

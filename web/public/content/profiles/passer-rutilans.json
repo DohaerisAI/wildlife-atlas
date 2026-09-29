@@ -1,0 +1,37 @@
+{
+ "scientific": "Passer rutilans",
+ "name": "Russet Sparrow",
+ "qid": "Q1316962",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Russet_Sparrow_%28Male%29_I_IMG_6779-crop.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Russet_Sparrow_%28Male%29_I_IMG_6779-crop.jpg/330px-Russet_Sparrow_%28Male%29_I_IMG_6779-crop.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Russet_Sparrow_(Male)_I_IMG_6779-crop.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg cropped by Tony Wills",
+   "caption": "Male"
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Passer"
+  },
+  "family": {
+   "scientific": "Passeridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1316962"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

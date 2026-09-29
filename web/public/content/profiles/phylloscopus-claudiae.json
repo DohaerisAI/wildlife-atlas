@@ -1,0 +1,51 @@
+{
+ "scientific": "Phylloscopus claudiae",
+ "name": "Claudia's Leaf Warbler",
+ "qid": "Q1923250",
+ "description": "species of bird",
+ "extract": "Claudia's leaf warbler (Phylloscopus claudiae) is a leaf warbler found only in China. Its natural habitat is temperate forests.  Most taxonomists previously considered it to be a subspecies of the Blyth's leaf warbler.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Phylloscopus_claudiae_A9_05413.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Phylloscopus_claudiae_A9_05413.jpg/330px-Phylloscopus_claudiae_A9_05413.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Phylloscopus_claudiae_A9_05413.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Sun Jiao (Interaccoonale)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 8.8,
+   "max": 8.8,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phylloscopus"
+  },
+  "family": {
+   "scientific": "Phylloscopidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1923250"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Claudia%27s_leaf_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

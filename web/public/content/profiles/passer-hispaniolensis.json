@@ -1,0 +1,54 @@
+{
+ "scientific": "Passer hispaniolensis",
+ "name": "Spanish Sparrow",
+ "qid": "Q466200",
+ "description": "species of bird",
+ "extract": "The Spanish sparrow or willow sparrow (Passer hispaniolensis) is a passerine bird of the sparrow family Passeridae. It is found in the Mediterranean region and south-west and central Asia. It is very similar to the closely related house sparrow, and the two species show their close relation in a \"biological mix-up\" of hybridisation in the Mediterranean region, which complicates the taxonomy of this species.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Passer_hispaniolensis_Israel_2.jpg/1280px-Passer_hispaniolensis_Israel_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Passer_hispaniolensis_Israel_2.jpg/330px-Passer_hispaniolensis_Israel_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Passer_hispaniolensis_Israel_2.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "מינוזיג",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Passer_hispaniolensis_-Canary_Islands%2C_Spain_-female-8_%281%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Passer_hispaniolensis_-Canary_Islands%2C_Spain_-female-8_%281%29.jpg/330px-Passer_hispaniolensis_-Canary_Islands%2C_Spain_-female-8_%281%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Passer_hispaniolensis_-Canary_Islands,_Spain_-female-8_(1).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Juan Emilio from Las Palmas de Gran Canaria, España",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Passer"
+  },
+  "family": {
+   "scientific": "Passeridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q466200"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spanish_sparrow"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

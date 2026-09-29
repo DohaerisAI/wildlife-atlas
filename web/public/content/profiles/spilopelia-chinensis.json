@@ -1,0 +1,68 @@
+{
+ "scientific": "Spilopelia chinensis",
+ "name": "Spotted Dove",
+ "qid": "Q116686",
+ "description": "species of bird",
+ "extract": "The spotted dove or eastern spotted dove (Spilopelia chinensis) is a small and somewhat long-tailed pigeon that is a common resident breeding bird across its native range on the Indian subcontinent and in East and Southeast Asia. The species has been introduced to many parts of the world and feral populations have become established.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Spilopelia_chinensis_Zhengzhou_20210607.jpg/1280px-Spilopelia_chinensis_Zhengzhou_20210607.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Spilopelia_chinensis_Zhengzhou_20210607.jpg/330px-Spilopelia_chinensis_Zhengzhou_20210607.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Spilopelia_chinensis_Zhengzhou_20210607.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "iNaturalist/zinogre",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Spotted_Dove_%28Spilopelia_chinensis%29_%2845695290305%29.jpg/1280px-Spotted_Dove_%28Spilopelia_chinensis%29_%2845695290305%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Spotted_Dove_%28Spilopelia_chinensis%29_%2845695290305%29.jpg/330px-Spotted_Dove_%28Spilopelia_chinensis%29_%2845695290305%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Spotted_Dove_(Spilopelia_chinensis)_(45695290305).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Spotted_Dove_%28Streptopelia_chinensis%29_-_Flickr_-_Lip_Kee_%281%29.jpg/1280px-Spotted_Dove_%28Streptopelia_chinensis%29_-_Flickr_-_Lip_Kee_%281%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Spotted_Dove_%28Streptopelia_chinensis%29_-_Flickr_-_Lip_Kee_%281%29.jpg/330px-Spotted_Dove_%28Streptopelia_chinensis%29_-_Flickr_-_Lip_Kee_%281%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Spotted_Dove_(Streptopelia_chinensis)_-_Flickr_-_Lip_Kee_(1).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee from Singapore, Republic of Singapore",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Spilopelia"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Eastern Spotted Dove"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q116686"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spotted_dove"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

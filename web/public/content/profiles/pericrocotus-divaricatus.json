@@ -1,0 +1,60 @@
+{
+ "scientific": "Pericrocotus divaricatus",
+ "name": "Ashy Minivet",
+ "qid": "Q1590357",
+ "description": "species of bird",
+ "extract": "The ashy minivet (Pericrocotus divaricatus) is a passerine bird of eastern Asia belonging to the minivet genus Pericrocotus in the cuckooshrike family Campephagidae. While most of the minivets have shades of yellow, orange and red in their plumage, this species has only greys, whites and blacks. The male is distinctive with a white face and black nape although females can be confused with the female of the brown-rumped minivet. They forage in the canopy, often along with other minivets and join mixed-species foraging flocks.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Pericrocotus_divaricatus_from_iNaturalist_photo_550816693.jpg/1280px-Pericrocotus_divaricatus_from_iNaturalist_photo_550816693.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Pericrocotus_divaricatus_from_iNaturalist_photo_550816693.jpg/330px-Pericrocotus_divaricatus_from_iNaturalist_photo_550816693.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pericrocotus_divaricatus_from_iNaturalist_photo_550816693.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Anton Labachou (riyga25)",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Ashy_Minivet_%28Pericrocotus_divaricatus%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Ashy_Minivet_%28Pericrocotus_divaricatus%29.jpg/330px-Ashy_Minivet_%28Pericrocotus_divaricatus%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ashy_Minivet_(Pericrocotus_divaricatus).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee Yap from Singapore, Republic of Singapore",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 24.0,
+   "max": 24.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pericrocotus",
+   "name": "Minivet"
+  },
+  "family": {
+   "scientific": "Campephagidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1590357"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ashy_minivet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

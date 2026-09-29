@@ -1,0 +1,58 @@
+{
+ "scientific": "Chloropsis cochinchinensis",
+ "name": "Javan leafbird",
+ "qid": "Q430467",
+ "description": "species of bird",
+ "extract": "The Javan leafbird (Chloropsis cochinchinensis) is a species of leafbird found in old-growth and second growth forests in Java. It was formerly considered as conspecific with the widespread blue-winged leafbird.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Chloropsis_cochinchinensis_-_Khao_Yai.jpg/1280px-Chloropsis_cochinchinensis_-_Khao_Yai.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Chloropsis_cochinchinensis_-_Khao_Yai.jpg/330px-Chloropsis_cochinchinensis_-_Khao_Yai.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chloropsis_cochinchinensis_-_Khao_Yai.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Blue-winged_Leafbird_-_Thailand_H8O5844_%2816432256783%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Blue-winged_Leafbird_-_Thailand_H8O5844_%2816432256783%29.jpg/330px-Blue-winged_Leafbird_-_Thailand_H8O5844_%2816432256783%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blue-winged_Leafbird_-_Thailand_H8O5844_(16432256783).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Chloropsis_cochinchinensis_-Singapore-8.jpg/1280px-Chloropsis_cochinchinensis_-Singapore-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Chloropsis_cochinchinensis_-Singapore-8.jpg/330px-Chloropsis_cochinchinensis_-Singapore-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chloropsis_cochinchinensis_-Singapore-8.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee Yap",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chloropsis"
+  },
+  "family": {
+   "scientific": "Chloropseidae",
+   "name": "leafbird"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q430467"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Javan_leafbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

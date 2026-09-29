@@ -1,0 +1,48 @@
+{
+ "scientific": "Myiomela albiventris",
+ "name": "White-bellied Blue-Robin",
+ "qid": "Q3726933",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/White-bellied_blue_robin.jpg/1280px-White-bellied_blue_robin.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/White-bellied_blue_robin.jpg/330px-White-bellied_blue_robin.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-bellied_blue_robin.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Vijaynivash",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/CalleneAlbiventrisSmit.jpg/1280px-CalleneAlbiventrisSmit.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/CalleneAlbiventrisSmit.jpg/330px-CalleneAlbiventrisSmit.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:CalleneAlbiventrisSmit.jpg",
+   "license": "Public domain",
+   "artist": "Joseph Smit",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Myiomela"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "White-bellied Blue Robin"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3726933"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,46 @@
+{
+ "scientific": "Spelaeornis oatesi",
+ "name": "Chin Hills Wren-Babbler",
+ "qid": "Q1923578",
+ "description": "species of bird",
+ "extract": "The Chin Hills wren-babbler (Spelaeornis oatesi) is a bird species in the family Timaliidae. It was until recently considered a subspecies of the long-tailed wren-babbler; the IUCN for example started recognizing it as distinct species in 2008.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Novitates_Zoologicae1910PlateVII_Spelaeornis_oatesi.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Novitates_Zoologicae1910PlateVII_Spelaeornis_oatesi.jpg/330px-Novitates_Zoologicae1910PlateVII_Spelaeornis_oatesi.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Novitates_Zoologicae1910PlateVII_Spelaeornis_oatesi.jpg",
+   "license": "Public domain",
+   "artist": "Gronfelt",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Spelaeornis"
+  },
+  "family": {
+   "scientific": "Timaliidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1923578"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chin_Hills_wren-babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

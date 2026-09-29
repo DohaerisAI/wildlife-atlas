@@ -1,0 +1,59 @@
+{
+ "scientific": "Oenanthe pleschanka",
+ "name": "Pied Wheatear",
+ "qid": "Q763538",
+ "description": "species of bird",
+ "extract": "The pied wheatear (Oenanthe pleschanka) is a wheatear, a small insectivorous passerine bird that was formerly classed as a member of the thrush family Turdidae, but is now more generally considered to be an Old World flycatcher (family Muscicapidae). This migratory central Asiatic wheatear occurs from the extreme southeast of Europe to China, and has been found wintering in India and northeastern Africa. It is a very rare vagrant to western Europe.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Pied_Wheatear_%28Oenanthe_pleschanka%29_%288079431820%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Pied_Wheatear_%28Oenanthe_pleschanka%29_%288079431820%29.jpg/330px-Pied_Wheatear_%28Oenanthe_pleschanka%29_%288079431820%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pied_Wheatear_(Oenanthe_pleschanka)_(8079431820).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Ron Knight from Seaford, East Sussex, United Kingdom",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oenanthe_pleschanka.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Oenanthe_pleschanka.jpg/330px-Oenanthe_pleschanka.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Oenanthe_pleschanka.jpg",
+   "license": "CC BY 2.5",
+   "artist": "Original author and uploader was IvanGeoPetrov at bg.wikipedia",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 2.4,
+   "max": 2.4,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Oenanthe"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q763538"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pied_wheatear"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

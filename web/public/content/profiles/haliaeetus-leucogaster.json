@@ -1,0 +1,73 @@
+{
+ "scientific": "Haliaeetus leucogaster",
+ "name": "White-bellied Sea Eagle",
+ "qid": "Q45974",
+ "description": "species of bird",
+ "extract": "The white-bellied sea eagle (Icthyophaga leucogaster), also known as the white-breasted sea eagle, is a large diurnal bird of prey in the family Accipitridae. Originally described by Johann Friedrich Gmelin in 1788, it is closely related to Sanford's sea eagle of the Solomon Islands, and the two are considered a superspecies. A distinctive bird, the adult white-bellied sea eagle has a white head, breast, under-wing coverts and tail. The upper parts are grey and the black under-wing flight feathers contrast with the white coverts. The tail is short and wedge-shaped as in all Haliaeetinae species. Like many raptors, the female is larger than the male, and can measure up to 90 cm (35 in) long with a wingspan of up to 2.2 m (7.2 ft), and weigh 4.5 kg (9.9 lb). Immature birds have brown plumage, which is gradually replaced by white until the age of five or six years. The call is a loud goose-like honking.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Ceylon_Fish_Eagle_At_Yala_National_Park.jpg/1280px-Ceylon_Fish_Eagle_At_Yala_National_Park.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Ceylon_Fish_Eagle_At_Yala_National_Park.jpg/330px-Ceylon_Fish_Eagle_At_Yala_National_Park.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ceylon_Fish_Eagle_At_Yala_National_Park.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Manelka Jayasundara",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/CorroboreeSeaEagle.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/CorroboreeSeaEagle.jpg/330px-CorroboreeSeaEagle.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:CorroboreeSeaEagle.jpg",
+   "license": "CC BY 3.0",
+   "artist": "The original uploader was Djambalawa at English Wikipedia.",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 178.0,
+   "max": 218.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 117.0,
+   "max": 3330.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Haliaeetus"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "White-breasted Sea Eagle",
+  "White-breasted Fish Eagle",
+  "Haliaeetus (Pontoaetus) leucogaster",
+  "White-bellied sea-eagle"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q45974"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-bellied_sea_eagle"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

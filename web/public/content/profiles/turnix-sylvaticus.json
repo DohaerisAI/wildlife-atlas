@@ -1,0 +1,62 @@
+{
+ "scientific": "Turnix sylvaticus",
+ "name": "Common Buttonquail",
+ "qid": "Q18836",
+ "description": "species of bird",
+ "extract": "The common buttonquail (Turnix sylvaticus), also called Kurrichane buttonquail and Andalusian hemipode, is a buttonquail, one of a small family of birds that resemble but are not closely related to the true quails.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Small_Button-quail_-_Mara_-_KenyaIMG_2946_%2815363383978%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Small_Button-quail_-_Mara_-_KenyaIMG_2946_%2815363383978%29.jpg/330px-Small_Button-quail_-_Mara_-_KenyaIMG_2946_%2815363383978%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Small_Button-quail_-_Mara_-_KenyaIMG_2946_(15363383978).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Kurrichane_Buttonquail_2016_01_01_2734.jpg/1280px-Kurrichane_Buttonquail_2016_01_01_2734.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Kurrichane_Buttonquail_2016_01_01_2734.jpg/330px-Kurrichane_Buttonquail_2016_01_01_2734.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Kurrichane_Buttonquail_2016_01_01_2734.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Alandmanson",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turnix"
+  },
+  "family": {
+   "scientific": "Turnicidae",
+   "name": "Buttonquail"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Turnix sylvatica",
+  "Little button-quail"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q18836"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_buttonquail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,34 @@
+{
+ "scientific": "Turdoides earlei",
+ "name": "Striated Babbler",
+ "qid": "Q3002239",
+ "description": "species of bird",
+ "extract": "",
+ "images": [],
+ "facts": {
+  "mass": {
+   "min": 47.0,
+   "max": 47.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turdoides"
+  },
+  "family": {
+   "scientific": "Leiothrichidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3002239"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

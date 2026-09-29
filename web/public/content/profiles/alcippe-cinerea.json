@@ -1,0 +1,43 @@
+{
+ "scientific": "Alcippe cinerea",
+ "name": "Yellow-throated Fulvetta",
+ "qid": "Q1037561",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Alcippe_cinerea.jpg/1280px-Alcippe_cinerea.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Alcippe_cinerea.jpg/330px-Alcippe_cinerea.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Alcippe_cinerea.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Umeshsrinivasan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 10.5,
+   "max": 10.5,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Alcippe"
+  },
+  "family": {
+   "scientific": "Alcippeidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1037561"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

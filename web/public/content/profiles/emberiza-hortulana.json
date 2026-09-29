@@ -1,0 +1,56 @@
+{
+ "scientific": "Emberiza hortulana",
+ "name": "Ortolan Bunting",
+ "qid": "Q206630",
+ "description": "species of bird",
+ "extract": "The ortolan (Emberiza hortulana), also called ortolan bunting, is a Eurasian bird in the bunting family Emberizidae, a passerine family now separated by most modern scholars from the finches, Fringillidae. The genus name Emberiza is from Alemannic German Embritz, a bunting. The specific name hortulana is from the Italian name for this bird, ortolana. The English ortolan is derived from Middle French hortolan, \"gardener\".",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Ortolan_bunting_in_Sierra_de_Guara%2C_Aragon%2C_Spain.jpg/1280px-Ortolan_bunting_in_Sierra_de_Guara%2C_Aragon%2C_Spain.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Ortolan_bunting_in_Sierra_de_Guara%2C_Aragon%2C_Spain.jpg/330px-Ortolan_bunting_in_Sierra_de_Guara%2C_Aragon%2C_Spain.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ortolan_bunting_in_Sierra_de_Guara,_Aragon,_Spain.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Pierre Dalous",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 26.0,
+   "max": 26.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 2.5,
+   "max": 2.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Emberiza"
+  },
+  "family": {
+   "scientific": "Emberizidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q206630"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ortolan_bunting"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

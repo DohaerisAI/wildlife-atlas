@@ -1,0 +1,49 @@
+{
+ "scientific": "Agropsar sturninus",
+ "name": "Daurian Starling",
+ "qid": "Q890912",
+ "description": "species of bird",
+ "extract": "The Daurian starling (Agropsar sturninus), or purple-backed starling, is a species of bird in the starling family found in the eastern Palearctic from eastern Mongolia and southeastern Russia to North Korea and central China.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Daurian_starling_from_Uppungal_Kole_Wetlands_2018_by_Nesru_Tirur.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Daurian_starling_from_Uppungal_Kole_Wetlands_2018_by_Nesru_Tirur.jpg/330px-Daurian_starling_from_Uppungal_Kole_Wetlands_2018_by_Nesru_Tirur.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Daurian_starling_from_Uppungal_Kole_Wetlands_2018_by_Nesru_Tirur.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Nesru Tirur",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Agropsar"
+  },
+  "family": {
+   "scientific": "Sturnidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Sturnus sturninus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q890912"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Daurian_starling"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

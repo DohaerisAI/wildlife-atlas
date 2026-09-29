@@ -1,0 +1,62 @@
+{
+ "scientific": "Calcarius lapponicus",
+ "name": "Lapland Longspur",
+ "qid": "Q208703",
+ "description": "species of passerine bird in the longspur family Calcariidae",
+ "extract": "The Lapland longspur (Calcarius lapponicus), also known as the Lapland bunting, is a passerine bird in the longspur family Calcariidae.  It is a circumpolar arctic breeder and the only member of the genus Calcarius present in Eurasia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Lapland_longspur_%2853707632426%29.jpg/1280px-Lapland_longspur_%2853707632426%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Lapland_longspur_%2853707632426%29.jpg/330px-Lapland_longspur_%2853707632426%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lapland_longspur_(53707632426).jpg",
+   "license": "Public domain",
+   "artist": "Alaska Region U.S. Fish & Wildlife Service from Anchorage, United States",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Calcarius_lapponicus_%28female%29_1996-07-25.jpg/1280px-Calcarius_lapponicus_%28female%29_1996-07-25.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Calcarius_lapponicus_%28female%29_1996-07-25.jpg/330px-Calcarius_lapponicus_%28female%29_1996-07-25.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Calcarius_lapponicus_(female)_1996-07-25.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Ansgar Walk",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 26.0,
+   "max": 26.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Calcarius"
+  },
+  "family": {
+   "scientific": "Emberizidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Lapland bunting"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q208703"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lapland_longspur"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

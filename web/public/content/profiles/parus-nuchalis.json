@@ -1,0 +1,37 @@
+{
+ "scientific": "Parus nuchalis",
+ "name": "White-naped Tit",
+ "qid": "Q2784651",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Parusnuchalis.svg/1280px-Parusnuchalis.svg.png",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Parusnuchalis.svg/330px-Parusnuchalis.svg.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Parusnuchalis.svg",
+   "license": "CC BY 2.5",
+   "artist": "L. Shyamal",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Parus"
+  },
+  "family": {
+   "scientific": "Paridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2784651"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

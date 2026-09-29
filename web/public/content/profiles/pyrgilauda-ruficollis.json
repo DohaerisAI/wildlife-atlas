@@ -1,0 +1,59 @@
+{
+ "scientific": "Pyrgilauda ruficollis",
+ "name": "Rufous-necked Snowfinch",
+ "qid": "Q27075721",
+ "description": "species of bird",
+ "extract": "The rufous-necked snowfinch (Pyrgilauda ruficollis) is a species of bird in the sparrow family.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Rufous-necked_Snowfinch_Pangolakha_Wildlife_Sanctuary_East_Sikkim_India_18.10.2015.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Rufous-necked_Snowfinch_Pangolakha_Wildlife_Sanctuary_East_Sikkim_India_18.10.2015.jpg/330px-Rufous-necked_Snowfinch_Pangolakha_Wildlife_Sanctuary_East_Sikkim_India_18.10.2015.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rufous-necked_Snowfinch_Pangolakha_Wildlife_Sanctuary_East_Sikkim_India_18.10.2015.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/PyrgilaudaRufogularis.png/1280px-PyrgilaudaRufogularis.png",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/PyrgilaudaRufogularis.png/330px-PyrgilaudaRufogularis.png",
+   "page": "https://commons.wikimedia.org/wiki/File:PyrgilaudaRufogularis.png",
+   "license": "Public domain",
+   "artist": "Artist unknown",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 25.0,
+   "max": 25.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pyrgilauda"
+  },
+  "family": {
+   "scientific": "Passeridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075721"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rufous-necked_snowfinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

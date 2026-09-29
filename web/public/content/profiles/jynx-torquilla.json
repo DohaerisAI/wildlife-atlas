@@ -1,0 +1,67 @@
+{
+ "scientific": "Jynx torquilla",
+ "name": "Eurasian Wryneck",
+ "qid": "Q25678",
+ "description": "species of bird",
+ "extract": "The Eurasian wryneck or northern wryneck (Jynx torquilla) is a species of wryneck in the woodpecker family. It mainly breeds in temperate regions of Europe and Asia. Most populations are migratory, wintering in tropical Africa and in southern Asia from Iran to the Indian subcontinent, but some are resident in northwestern Africa. It is a bird of open countryside, woodland and orchards.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Jynx_torquilla_%2834536504885%29.jpg/1280px-Jynx_torquilla_%2834536504885%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Jynx_torquilla_%2834536504885%29.jpg/330px-Jynx_torquilla_%2834536504885%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Jynx_torquilla_(34536504885).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Donald Hobern from Copenhagen, Denmark",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Jynx_torquilla_vlaskop_cropped.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Jynx_torquilla_vlaskop_cropped.jpg/330px-Jynx_torquilla_vlaskop_cropped.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Jynx_torquilla_vlaskop_cropped.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jynx_torquilla_vlaskop.jpg: Martien Brand from Mariënberg, The Netherlands\nderivative work: Bogbumper (talk)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 26.0,
+   "max": 26.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 2.7,
+   "max": 37.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Jynx"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "other_names": [
+  "Wryneck",
+  "Northern wryneck"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25678"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eurasian_wryneck"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

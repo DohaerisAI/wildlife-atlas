@@ -1,0 +1,54 @@
+{
+ "scientific": "Phylloscopus neglectus",
+ "name": "Plain Leaf Warbler",
+ "qid": "Q1586847",
+ "description": "species of bird",
+ "extract": "The plain leaf warbler (Phylloscopus neglectus) is a species of Old World warbler in the family Phylloscopidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Plain_leaf_warbler_%28phylloscopus_neglectus%29.JPG/1280px-Plain_leaf_warbler_%28phylloscopus_neglectus%29.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Plain_leaf_warbler_%28phylloscopus_neglectus%29.JPG/330px-Plain_leaf_warbler_%28phylloscopus_neglectus%29.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Plain_leaf_warbler_(phylloscopus_neglectus).JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Charles J. Sharp",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 1.1,
+   "max": 5.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phylloscopus"
+  },
+  "family": {
+   "scientific": "Phylloscopidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Plain leaf-warbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1586847"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Plain_leaf_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

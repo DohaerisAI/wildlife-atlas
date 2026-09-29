@@ -1,0 +1,54 @@
+{
+ "scientific": "Actinodura egertoni",
+ "name": "Rusty-fronted Barwing",
+ "qid": "Q2668197",
+ "description": "species of bird",
+ "extract": "The rusty-fronted barwing (Actinodura egertoni) is a species of bird in the laughingthrush family, Leiothrichidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Actinodura_egertoni_172552207_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Actinodura_egertoni_172552207_%28cropped%29.jpg/330px-Actinodura_egertoni_172552207_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Actinodura_egertoni_172552207_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Thibaud Aronson",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/ActinoduraEgertoniGould.jpg/1280px-ActinoduraEgertoniGould.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/ActinoduraEgertoniGould.jpg/330px-ActinoduraEgertoniGould.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:ActinoduraEgertoniGould.jpg",
+   "license": "Public domain",
+   "artist": "J Gould and H C Richter",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Actinodura"
+  },
+  "family": {
+   "scientific": "Leiothrichidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2668197"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rusty-fronted_barwing"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

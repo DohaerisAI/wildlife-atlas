@@ -1,0 +1,55 @@
+{
+ "scientific": "Aethopyga siparaja",
+ "name": "Crimson sunbird",
+ "qid": "Q73760",
+ "description": "species of bird",
+ "extract": "The crimson sunbird (Aethopyga siparaja) is a species of bird in the sunbird family which feed largely on nectar. They may also take insects, especially when feeding their young. Flight is fast and direct on their short wings. Most species can take nectar by hovering like a hummingbird, but usually perch to feed. It is the unofficial national bird of Singapore, as declared by the Nature Society Singapore.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Crimson_Sunbird_%286%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Crimson_Sunbird_%286%29.jpg/330px-Crimson_Sunbird_%286%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Crimson_Sunbird_(6).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Rejaul karim.rk",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Crimson_sunbird_female_%282%29.jpg/1280px-Crimson_sunbird_female_%282%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Crimson_sunbird_female_%282%29.jpg/330px-Crimson_sunbird_female_%282%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Crimson_sunbird_female_(2).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Creepanta",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aethopyga"
+  },
+  "family": {
+   "scientific": "Nectariniidae",
+   "name": "sunbird"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q73760"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Crimson_sunbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,67 @@
+{
+ "scientific": "Gallicrex cinerea",
+ "name": "Watercock",
+ "qid": "Q494424",
+ "description": "species of bird",
+ "extract": "The watercock (Gallicrex cinerea) is a waterbird in the rail and crake family, Rallidae that is widely distributed across Southeast Asia. It is the only member of the genus Gallicrex.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Watercock_in_Bhigwan_August_2025_by_Tisha_Mukherjee_04.jpg/1280px-Watercock_in_Bhigwan_August_2025_by_Tisha_Mukherjee_04.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Watercock_in_Bhigwan_August_2025_by_Tisha_Mukherjee_04.jpg/330px-Watercock_in_Bhigwan_August_2025_by_Tisha_Mukherjee_04.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Watercock_in_Bhigwan_August_2025_by_Tisha_Mukherjee_04.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Watercock_%28Gallicrex_cinerea%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Watercock_%28Gallicrex_cinerea%29.jpg/330px-Watercock_%28Gallicrex_cinerea%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Watercock_(Gallicrex_cinerea).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Sahana M",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 68.0,
+   "max": 86.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 303.0,
+   "max": 503.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Gallicrex"
+  },
+  "family": {
+   "scientific": "Rallidae"
+  },
+  "order": {
+   "scientific": "Gruiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q494424"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Watercock"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

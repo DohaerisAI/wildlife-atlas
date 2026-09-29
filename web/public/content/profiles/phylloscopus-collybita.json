@@ -1,0 +1,62 @@
+{
+ "scientific": "Phylloscopus collybita",
+ "name": "Common Chiffchaff",
+ "qid": "Q185784",
+ "description": "species of bird",
+ "extract": "The common chiffchaff (Phylloscopus collybita), or simply the chiffchaff, is a common and widespread leaf warbler which breeds in open woodlands throughout northern and temperate Europe and the Palearctic.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Common_Chiffchaff_2025_04_04_01.jpg/1280px-Common_Chiffchaff_2025_04_04_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Common_Chiffchaff_2025_04_04_01.jpg/330px-Common_Chiffchaff_2025_04_04_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_Chiffchaff_2025_04_04_01.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Alexis Lours",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Chiffchaff_-_Phylloscopus_collybita.jpg/1280px-Chiffchaff_-_Phylloscopus_collybita.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Chiffchaff_-_Phylloscopus_collybita.jpg/330px-Chiffchaff_-_Phylloscopus_collybita.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chiffchaff_-_Phylloscopus_collybita.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 18.0,
+   "max": 18.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phylloscopus"
+  },
+  "family": {
+   "scientific": "Phylloscopidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Chiffchaff"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q185784"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_chiffchaff"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,57 @@
+{
+ "scientific": "Ithaginis cruentus",
+ "name": "Blood Pheasant",
+ "qid": "Q839539",
+ "description": "species of bird",
+ "extract": "The blood pheasant (Ithaginis cruentus) or blood partridge is a galliforme bird in the pheasant family Phasianidae and the only species in the genus Ithaginis. It is a relatively small, short-tailed pheasant that is widespread in the lower Himalayas ranging across North and East India, Nepal, Bhutan, South China and northern Myanmar. It has been classified as Least Concern on the IUCN Red List since 2009, and the global blood pheasant population is thought to be stable.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Blood_Pheasants%2C_Everest_Three_Passes%2C_Nepal_%2827616566769%29.jpg/1280px-Blood_Pheasants%2C_Everest_Three_Passes%2C_Nepal_%2827616566769%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Blood_Pheasants%2C_Everest_Three_Passes%2C_Nepal_%2827616566769%29.jpg/330px-Blood_Pheasants%2C_Everest_Three_Passes%2C_Nepal_%2827616566769%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blood_Pheasants,_Everest_Three_Passes,_Nepal_(27616566769).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Donald Macauley from Carshalton, Surrey, UK",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Blood_Pheasant.jpg/1280px-Blood_Pheasant.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Blood_Pheasant.jpg/330px-Blood_Pheasant.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blood_Pheasant.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Allan Drewitt",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ithaginis"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q839539"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blood_pheasant"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

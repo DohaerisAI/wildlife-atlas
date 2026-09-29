@@ -1,0 +1,54 @@
+{
+ "scientific": "Ploceus benghalensis",
+ "name": "Black-breasted Weaver",
+ "qid": "Q1304453",
+ "description": "species of bird",
+ "extract": "The black-breasted weaver  (Ploceus benghalensis), also known as the Bengal weaver or black-throated weaver, is a weaver resident in the northern river plains of the Indian subcontinent. Like the other weavers, the males build an enclosed nest from reeds and mud, and visiting females select a mate at least partially based on the quality of the nest.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Blackbreastedweaver_DSC_6530_040813_dadri.jpg/1280px-Blackbreastedweaver_DSC_6530_040813_dadri.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Blackbreastedweaver_DSC_6530_040813_dadri.jpg/330px-Blackbreastedweaver_DSC_6530_040813_dadri.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blackbreastedweaver_DSC_6530_040813_dadri.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Savi.odl",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Black-breasted_weaver_%28Ploceus_benghalensis%29_non-breeding.jpg/1280px-Black-breasted_weaver_%28Ploceus_benghalensis%29_non-breeding.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Black-breasted_weaver_%28Ploceus_benghalensis%29_non-breeding.jpg/330px-Black-breasted_weaver_%28Ploceus_benghalensis%29_non-breeding.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-breasted_weaver_(Ploceus_benghalensis)_non-breeding.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ploceus"
+  },
+  "family": {
+   "scientific": "Ploceidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1304453"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-breasted_weaver"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

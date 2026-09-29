@@ -1,0 +1,51 @@
+{
+ "scientific": "Trochalopteron variegatum",
+ "name": "Variegated Laughingthrush",
+ "qid": "Q27075533",
+ "description": "species of bird",
+ "extract": "The variegated laughingthrush (Trochalopteron variegatum) is a species of bird in the family Leiothrichidae.  It is endemic to the northern regions of the Indian subcontinent, primarily the low-to-mid altitudes of the Himalayas.  It ranges across Bhutan, India, Nepal and Tibet.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Variegated_laughingthrush_bird%2C_Himachal_Pradesh%2C_India_%282016%29_%2875%29.jpg/1280px-Variegated_laughingthrush_bird%2C_Himachal_Pradesh%2C_India_%282016%29_%2875%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Variegated_laughingthrush_bird%2C_Himachal_Pradesh%2C_India_%282016%29_%2875%29.jpg/330px-Variegated_laughingthrush_bird%2C_Himachal_Pradesh%2C_India_%282016%29_%2875%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Variegated_laughingthrush_bird,_Himachal_Pradesh,_India_(2016)_(75).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Davidvraju",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 65.0,
+   "max": 65.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Trochalopteron"
+  },
+  "family": {
+   "scientific": "Leiothrichidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075533"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Variegated_laughingthrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

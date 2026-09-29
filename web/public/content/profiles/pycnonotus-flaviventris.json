@@ -1,0 +1,37 @@
+{
+ "scientific": "Pycnonotus flaviventris",
+ "name": "Black-crested Bulbul",
+ "qid": "Q775679",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Black-crested_Bulbul_Pycnonotus_flaviventris%2C_Jayanti%2C_Duars%2C_WB_W_Picture_333.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Black-crested_Bulbul_Pycnonotus_flaviventris%2C_Jayanti%2C_Duars%2C_WB_W_Picture_333.jpg/330px-Black-crested_Bulbul_Pycnonotus_flaviventris%2C_Jayanti%2C_Duars%2C_WB_W_Picture_333.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-crested_Bulbul_Pycnonotus_flaviventris,_Jayanti,_Duars,_WB_W_Picture_333.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pycnonotus"
+  },
+  "family": {
+   "scientific": "Pycnonotidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q775679"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

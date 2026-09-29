@@ -1,0 +1,57 @@
+{
+ "scientific": "Rallina fasciata",
+ "name": "Red-legged Crake",
+ "qid": "Q1272601",
+ "description": "species of bird",
+ "extract": "The red-legged crake (Rallina fasciata) is a waterbird in the rail and crake family, Rallidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Red-Legged_Crake.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Red-Legged_Crake.jpg/330px-Red-Legged_Crake.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red-Legged_Crake.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Flickr user NatureAtYourBackyard . Photo uploaded to commons by user ltshears",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Red_legged_crake_with_chick.png/1280px-Red_legged_crake_with_chick.png",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Red_legged_crake_with_chick.png/330px-Red_legged_crake_with_chick.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Red_legged_crake_with_chick.png",
+   "license": "CC BY-SA 4.0",
+   "artist": "Andrew Bogott",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Rallina"
+  },
+  "family": {
+   "scientific": "Rallidae"
+  },
+  "order": {
+   "scientific": "Gruiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1272601"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-legged_crake"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

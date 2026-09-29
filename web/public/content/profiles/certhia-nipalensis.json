@@ -1,0 +1,55 @@
+{
+ "scientific": "Certhia nipalensis",
+ "name": "Rusty-flanked Treecreeper",
+ "qid": "Q1193313",
+ "description": "species of bird",
+ "extract": "The rusty-flanked treecreeper (Certhia nipalensis) or the Nepal treecreeper is a species of bird in the family Certhiidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Rusty-flanked_Treecreeper_in_Senchal_Wildlife_Sanctuary_May_2025_by_Tisha_Mukherjee_09.jpg/1280px-Rusty-flanked_Treecreeper_in_Senchal_Wildlife_Sanctuary_May_2025_by_Tisha_Mukherjee_09.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Rusty-flanked_Treecreeper_in_Senchal_Wildlife_Sanctuary_May_2025_by_Tisha_Mukherjee_09.jpg/330px-Rusty-flanked_Treecreeper_in_Senchal_Wildlife_Sanctuary_May_2025_by_Tisha_Mukherjee_09.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rusty-flanked_Treecreeper_in_Senchal_Wildlife_Sanctuary_May_2025_by_Tisha_Mukherjee_09.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Rusty-flanked_Treecreeper_in_Senchal_Wildlife_Sanctuary_May_2025_by_Tisha_Mukherjee_10.jpg/1280px-Rusty-flanked_Treecreeper_in_Senchal_Wildlife_Sanctuary_May_2025_by_Tisha_Mukherjee_10.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Rusty-flanked_Treecreeper_in_Senchal_Wildlife_Sanctuary_May_2025_by_Tisha_Mukherjee_10.jpg/330px-Rusty-flanked_Treecreeper_in_Senchal_Wildlife_Sanctuary_May_2025_by_Tisha_Mukherjee_10.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rusty-flanked_Treecreeper_in_Senchal_Wildlife_Sanctuary_May_2025_by_Tisha_Mukherjee_10.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Certhia"
+  },
+  "family": {
+   "scientific": "Certhiidae",
+   "name": "treecreeper"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1193313"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rusty-flanked_treecreeper"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

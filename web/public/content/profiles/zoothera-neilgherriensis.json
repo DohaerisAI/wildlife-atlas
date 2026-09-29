@@ -1,0 +1,41 @@
+{
+ "scientific": "Zoothera neilgherriensis",
+ "name": "Nilgiri thrush",
+ "qid": "Q3116826",
+ "description": "species of bird",
+ "extract": "The Nilgiri thrush (Zoothera neilgherriensis) is a member of the thrush family.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Zoothera_neilgherriensis.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Zoothera_neilgherriensis.jpg/330px-Zoothera_neilgherriensis.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Zoothera_neilgherriensis.jpg",
+   "license": "CC BY 3.0",
+   "artist": "Prashanth Poojary",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Zoothera"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3116826"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nilgiri_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

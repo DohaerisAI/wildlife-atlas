@@ -1,0 +1,57 @@
+{
+ "scientific": "Anas albogularis",
+ "name": "Andaman Teal",
+ "qid": "Q489883",
+ "description": "species of bird",
+ "extract": "The Andaman teal (Anas albogularis) is a species of duck endemic to the Andaman archipelago in the Bay of Bengal. The species was formerly considered as a subspecies of the Sunda teal.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/AnasAlbigularisKeulemans.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/AnasAlbigularisKeulemans.jpg/330px-AnasAlbigularisKeulemans.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:AnasAlbigularisKeulemans.jpg",
+   "license": "Public domain",
+   "artist": "John Gerrard Keulemans",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/NettionKeulemans.jpg/1280px-NettionKeulemans.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/NettionKeulemans.jpg/330px-NettionKeulemans.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:NettionKeulemans.jpg",
+   "license": "Public domain",
+   "artist": "John Gerrard Keulemans",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anas"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q489883"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Andaman_teal"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

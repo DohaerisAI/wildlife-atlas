@@ -1,0 +1,63 @@
+{
+ "scientific": "Ciconia nigra",
+ "name": "Black Stork",
+ "qid": "Q25398",
+ "description": "species of bird",
+ "extract": "The black stork (Ciconia nigra) is a large bird in the stork family Ciconiidae. It was first described by Carl Linnaeus in the 10th edition of his Systema Naturae. Measuring on average 95 to 100 cm (37 to 39 in) from beak tip to end of tail with a 145-to-155 cm (57-to-61 in) wingspan, the adult black stork has mainly black plumage, with white underparts, long red legs and a long pointed red beak. A widespread but uncommon species, it breeds in scattered locations across Europe (predominantly in Portugal and Spain, and central and eastern parts), and east across the Palearctic to the Pacific Ocean. It is a long-distance migrant, with European populations wintering in tropical Sub-Saharan Africa, and Asian populations in the Indian subcontinent. When migrating between Europe and Africa, it avoids crossing broad expanses of the Mediterranean Sea and detours via the Levant in the east, the Strait of Sicily in the center, or the Strait of Gibraltar in the west. An isolated non-migratory population lives in Southern Africa.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Ciconia_nigra_-Kruger_National_Park-8.jpg/1280px-Ciconia_nigra_-Kruger_National_Park-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Ciconia_nigra_-Kruger_National_Park-8.jpg/330px-Ciconia_nigra_-Kruger_National_Park-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ciconia_nigra_-Kruger_National_Park-8.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Chris Eason",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Ciconia_nigra.jpg/1280px-Ciconia_nigra.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Ciconia_nigra.jpg/330px-Ciconia_nigra.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ciconia_nigra.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "J. Patrick Fischer",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 150.0,
+   "max": 150.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ciconia"
+  },
+  "family": {
+   "scientific": "Ciconiidae",
+   "name": "stork"
+  },
+  "order": {
+   "scientific": "Ciconiiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25398"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black_stork"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

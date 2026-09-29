@@ -1,0 +1,53 @@
+{
+ "scientific": "Merops viridis",
+ "name": "Blue-throated Bee-eater",
+ "qid": "Q863179",
+ "description": "species of bird",
+ "extract": "The blue-throated bee-eater (Merops viridis) is a species of bird in the bee-eater family. It is found in much of southeast Asia, in subtropical or tropical mangrove forests. Their diet consists mostly of bees, wasps, and dragonflies. Blue-throated bee-eater is a medium-large species of bee-eater with brightly coloured plumage consisting of a red-brown nape, dark green wings, light green breast, and their signature blue throat. The juvenile plumage has a dark green head and wings and light green breast, only developing their full plumage in adulthood. They have a rich variety of songs and calls, including long calls which allow them to communicate long distances in the forest.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Blue-throated_bee-eater_%28Merops_viridis%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Blue-throated_bee-eater_%28Merops_viridis%29.jpg/330px-Blue-throated_bee-eater_%28Merops_viridis%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blue-throated_bee-eater_(Merops_viridis).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Merops_viridis.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Merops_viridis.jpg/330px-Merops_viridis.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Merops_viridis.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Merops"
+  },
+  "family": {
+   "scientific": "Meropidae"
+  },
+  "order": {
+   "scientific": "Coraciiformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q863179"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blue-throated_bee-eater"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

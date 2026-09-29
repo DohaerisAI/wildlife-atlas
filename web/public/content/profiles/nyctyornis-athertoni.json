@@ -1,0 +1,45 @@
+{
+ "scientific": "Nyctyornis athertoni",
+ "name": "Blue-bearded Bee-eater",
+ "qid": "Q882415",
+ "description": "species of bird",
+ "extract": "The blue-bearded bee-eater (Nyctyornis athertoni) is a species of bee-eater found in much of the Indian subcontinent and parts of Southeast Asia. This bee-eater is found in forest clearings. It is found mainly in the Malayan region but extends west into peninsular India. The blue feathers of its throat are elongated and often fluffed giving it its name. They have a loud call but are not as gregarious or active as the smaller bee-eaters, and their square ended tail lacks the typical \"wires\" made up of the shafts of the longer central tail feathers found in many other bee-eaters.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Blue-bearded_bee-eater_in_Thailand.jpg/1280px-Blue-bearded_bee-eater_in_Thailand.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Blue-bearded_bee-eater_in_Thailand.jpg/330px-Blue-bearded_bee-eater_in_Thailand.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blue-bearded_bee-eater_in_Thailand.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jason Thompson",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Nyctyornis"
+  },
+  "family": {
+   "scientific": "Meropidae"
+  },
+  "order": {
+   "scientific": "Coraciiformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q882415"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blue-bearded_bee-eater"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,65 @@
+{
+ "scientific": "Microcarbo africanus",
+ "name": "Reed Cormorant",
+ "qid": "Q59492",
+ "description": "species of bird",
+ "extract": "The reed cormorant (Microcarbo africanus), also known as the long-tailed cormorant, is a bird in the cormorant family Phalacrocoracidae. It breeds in much of Africa south of the Sahara, and Madagascar. It is resident but undertakes some seasonal movements.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Cormor%C3%A1n_africano_%28Microcarbo_africanus%29%2C_parque_nacional_de_Chobe%2C_Botsuana%2C_2018-07-28%2C_DD_48.jpg/1280px-Cormor%C3%A1n_africano_%28Microcarbo_africanus%29%2C_parque_nacional_de_Chobe%2C_Botsuana%2C_2018-07-28%2C_DD_48.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Cormor%C3%A1n_africano_%28Microcarbo_africanus%29%2C_parque_nacional_de_Chobe%2C_Botsuana%2C_2018-07-28%2C_DD_48.jpg/330px-Cormor%C3%A1n_africano_%28Microcarbo_africanus%29%2C_parque_nacional_de_Chobe%2C_Botsuana%2C_2018-07-28%2C_DD_48.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cormor%C3%A1n_africano_(Microcarbo_africanus),_parque_nacional_de_Chobe,_Botsuana,_2018-07-28,_DD_48.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Diego Delso",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Reed_cormorant_in_Ghana.jpg/1280px-Reed_cormorant_in_Ghana.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Reed_cormorant_in_Ghana.jpg/330px-Reed_cormorant_in_Ghana.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Reed_cormorant_in_Ghana.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Knowledge and philosophy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 80.0,
+   "max": 90.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Microcarbo"
+  },
+  "family": {
+   "scientific": "Phalacrocoracidae"
+  },
+  "order": {
+   "scientific": "Suliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Phalacrocorax africanus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q59492"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Reed_cormorant"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,49 @@
+{
+ "scientific": "Ceyx erithaca",
+ "name": "Black-backed Dwarf Kingfisher",
+ "qid": "Q1052008",
+ "description": "species of bird",
+ "extract": "The black-backed dwarf kingfisher (Ceyx erithaca), also known as the three-toed kingfisher, is a pocket-sized bird in the family Alcedinidae. It was formerly considered as conspecific with the rufous-backed dwarf kingfisher and together the species complex was known by the English name \"oriental dwarf kingfisher\".",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Three-toed_kingfisher.jpg/1280px-Three-toed_kingfisher.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Three-toed_kingfisher.jpg/330px-Three-toed_kingfisher.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Three-toed_kingfisher.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Anup Deodhar",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ceyx"
+  },
+  "family": {
+   "scientific": "Alcedinidae"
+  },
+  "order": {
+   "scientific": "Coraciiformes"
+  }
+ },
+ "other_names": [
+  "three-toed kingfisher",
+  "oriental dwarf kingfisher"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1052008"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-backed_dwarf_kingfisher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

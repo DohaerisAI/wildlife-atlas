@@ -1,0 +1,46 @@
+{
+ "scientific": "Orthotomus atrogularis",
+ "name": "Dark-necked Tailorbird",
+ "qid": "Q795531",
+ "description": "species of bird",
+ "extract": "The dark-necked tailorbird (Orthotomus atrogularis) is a songbird species. Formerly placed in the \"Old World warbler\" assemblage, it is now placed in the family Cisticolidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Dark-necked_Tailorbird_0A2A3153_%28cropped%29.jpg/1280px-Dark-necked_Tailorbird_0A2A3153_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Dark-necked_Tailorbird_0A2A3153_%28cropped%29.jpg/330px-Dark-necked_Tailorbird_0A2A3153_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dark-necked_Tailorbird_0A2A3153_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "JJ Harrison",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Orthotomus"
+  },
+  "family": {
+   "scientific": "Cisticolidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q795531"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dark-necked_tailorbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,70 @@
+{
+ "scientific": "Accipiter nisus",
+ "name": "Eurasian Sparrowhawk",
+ "qid": "Q25380",
+ "description": "species of bird",
+ "extract": "The Eurasian sparrowhawk (Accipiter nisus), also known as the northern sparrowhawk or simply the sparrowhawk, is a small bird of prey in the family Accipitridae. Adult male Eurasian sparrowhawks have bluish grey upperparts and orange-barred underparts; females and juveniles are brown above with brown barring below. The female is up to 25% larger than the male – one of the greatest size differences between the sexes in any bird species. Though it is a predator which specialises in catching woodland birds, the Eurasian sparrowhawk can be found in any habitat and often hunts garden birds in towns and cities. Males tend to take smaller birds, including tits, finches and sparrows; females catch primarily thrushes and starlings but are capable of killing birds weighing 500 g (18 oz) or more.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Sperber_%28Accipiter_nisus%29_male_-20200308_%282%29.JPG/1280px-Sperber_%28Accipiter_nisus%29_male_-20200308_%282%29.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Sperber_%28Accipiter_nisus%29_male_-20200308_%282%29.JPG/330px-Sperber_%28Accipiter_nisus%29_male_-20200308_%282%29.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Sperber_(Accipiter_nisus)_male_-20200308_(2).JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Hajotthu",
+   "caption": "Male"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Accipiter_nisus_Meneer_Zjeroen.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Accipiter_nisus_Meneer_Zjeroen.jpg/330px-Accipiter_nisus_Meneer_Zjeroen.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Accipiter_nisus_Meneer_Zjeroen.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Meneer Zjeroen",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 67.0,
+   "max": 67.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 22.5,
+   "max": 290.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Accipiter"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "sparrowhawk"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25380"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eurasian_sparrowhawk"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

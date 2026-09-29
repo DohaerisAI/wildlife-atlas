@@ -1,0 +1,46 @@
+{
+ "scientific": "Montifringilla nivalis",
+ "name": "White-winged Snowfinch",
+ "qid": "Q499290",
+ "description": "species of bird",
+ "extract": "The white-winged snowfinch (Montifringilla nivalis) is a small passerine bird. Despite its name, it is a sparrow rather than a true finch.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Montifringilla_nivalis_Francer.jpg/1280px-Montifringilla_nivalis_Francer.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Montifringilla_nivalis_Francer.jpg/330px-Montifringilla_nivalis_Francer.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Montifringilla_nivalis_Francer.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Pierre Dalous",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Montifringilla"
+  },
+  "family": {
+   "scientific": "Passeridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q499290"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-winged_snowfinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,46 @@
+{
+ "scientific": "Tarsiger rufilatus",
+ "name": "Himalayan Bluetail",
+ "qid": "Q3727042",
+ "description": "species of bird",
+ "extract": "The Himalayan bluetail (Tarsiger rufilatus), also called the Himalayan red-flanked bush-robin or orange-flanked bush-robin, is a small passerine bird that was formerly classed as a member of the thrush family Turdidae, but is now more generally considered to be an Old World flycatcher of Muscicapidae.  While currently under review, this taxon is not current recognized as a species by BirdLife international.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Tarsiger_rufilatus_-_Doi_Inthanon.jpg/1280px-Tarsiger_rufilatus_-_Doi_Inthanon.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Tarsiger_rufilatus_-_Doi_Inthanon.jpg/330px-Tarsiger_rufilatus_-_Doi_Inthanon.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tarsiger_rufilatus_-_Doi_Inthanon.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tarsiger"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3727042"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Himalayan_bluetail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

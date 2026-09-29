@@ -1,0 +1,59 @@
+{
+ "scientific": "Circus macrourus",
+ "name": "Pallid Harrier",
+ "qid": "Q230837",
+ "description": "species of bird",
+ "extract": "The pallid harrier (Circus macrourus) is a species of harrier, a bird of prey in the family Accipitridae. It breeds in southern parts of eastern Europe and central Asia and Iran and winters mainly in India and southeast Asia. It is a rare but increasing vagrant to Great Britain and western Europe. In 2017 a pair of pallid harriers nested in a barley field in the Netherlands; they raised four chicks, the first recorded breeding of the species in the country. In 2019, a pair bred in Spain for the first time.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Pallid_Harrier_Adult_Male_%2846333226825%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Pallid_Harrier_Adult_Male_%2846333226825%29.jpg/330px-Pallid_Harrier_Adult_Male_%2846333226825%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pallid_Harrier_Adult_Male_(46333226825).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Koshy Koshy from Faridabad, Haryana, India",
+   "caption": "Male"
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 109.0,
+   "max": 109.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 28.0,
+   "max": 445.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Circus"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q230837"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pallid_harrier"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

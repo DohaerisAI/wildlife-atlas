@@ -1,0 +1,59 @@
+{
+ "scientific": "Acridotheres fuscus",
+ "name": "Jungle Myna",
+ "qid": "Q1262207",
+ "description": "species of bird",
+ "extract": "The jungle myna (Acridotheres fuscus) is a myna, a member of the starling family. It is found patchily distributed across much of the mainland of the Indian Subcontinent but absent in the arid zones of India. It is easily recognized by the tuft of feathers on its forehead that form a frontal crest, a feature also found in the closely related Javan myna and the pale-bellied myna which were treated as a subspecies in the past. The eyes are pale, yellow or blue depending on the population and the base of the orange-yellow bill is dark. It has also been introduced either intentionally or accidentally into many other parts of the world including Fiji, Taiwan, the Andaman Islands, and parts of Japan. The species has also spread out on its own to some islands in the Pacific.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Jungle_Myna_RWD.jpg/1280px-Jungle_Myna_RWD.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Jungle_Myna_RWD.jpg/330px-Jungle_Myna_RWD.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Jungle_Myna_RWD.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "DickDaniels  (http://theworldbirds.org/)",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Jungle_Myna_I2_IMG_5014.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Jungle_Myna_I2_IMG_5014.jpg/330px-Jungle_Myna_I2_IMG_5014.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Jungle_Myna_I2_IMG_5014.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 83.0,
+   "max": 83.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Acridotheres"
+  },
+  "family": {
+   "scientific": "Sturnidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1262207"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jungle_myna"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

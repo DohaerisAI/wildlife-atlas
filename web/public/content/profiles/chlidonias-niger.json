@@ -1,0 +1,67 @@
+{
+ "scientific": "Chlidonias niger",
+ "name": "Black Tern",
+ "qid": "Q27215",
+ "description": "species of bird",
+ "extract": "The black tern (Chlidonias niger) is a small tern generally found in or near inland water that breeds in Europe, Western Asia and North America. In winter the birds migrate to coastal areas of Africa and South America.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/%C4%8Cor%C3%ADk_%C4%8Dierny_%28Chlidonias_niger%29_a_%284644831482%29.jpg/1280px-%C4%8Cor%C3%ADk_%C4%8Dierny_%28Chlidonias_niger%29_a_%284644831482%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/%C4%8Cor%C3%ADk_%C4%8Dierny_%28Chlidonias_niger%29_a_%284644831482%29.jpg/330px-%C4%8Cor%C3%ADk_%C4%8Dierny_%28Chlidonias_niger%29_a_%284644831482%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%C4%8Cor%C3%ADk_%C4%8Dierny_(Chlidonias_niger)_a_(4644831482).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Andrej Chudý from Slovakia",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Chlidonias_niger.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Chlidonias_niger.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chlidonias_niger.jpg",
+   "license": "Public domain",
+   "artist": "USGov",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 53.9,
+   "max": 53.9,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 11.0,
+   "max": 60.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chlidonias"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27215"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black_tern"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

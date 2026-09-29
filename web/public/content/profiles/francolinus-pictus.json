@@ -1,0 +1,54 @@
+{
+ "scientific": "Francolinus pictus",
+ "name": "Painted Francolin",
+ "qid": "Q1263371",
+ "description": "species of bird",
+ "extract": "The painted francolin or painted partridge (Francolinus pictus) is a species of francolin found in grassy areas in central and southern India and in the lowlands of southeastern Sri Lanka. Thomas C. Jerdon noted that the species was found mainly in Central India south of the Narmada and to the east of the Western Ghats as well as the Chota Nagpur and Northern Circars. It partly overlaps with the black francolin with which it partly overlaps and is said to sometimes hybridize. This species can be so distinguished from a black francolin female by the lack of a rufous hind collar and the white spots on the underside. The face is rufous and there is no dark stripe running behind the eye.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Painted_Francolin_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg/1280px-Painted_Francolin_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Painted_Francolin_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg/330px-Painted_Francolin_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Painted_Francolin_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 290.0,
+   "max": 290.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Francolinus"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1263371"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Painted_francolin"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

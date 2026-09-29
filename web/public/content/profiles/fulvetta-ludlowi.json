@@ -1,0 +1,49 @@
+{
+ "scientific": "Fulvetta ludlowi",
+ "name": "Brown-throated Fulvetta",
+ "qid": "Q1301340",
+ "description": "species of bird",
+ "extract": "The  brown-throated fulvetta or Ludlow's fulvetta (Fulvetta ludlowi) is a species of bird in the family Paradoxornithidae. Like the other typical fulvettas, it was long included in the Timaliidae genus Alcippe or in the Sylviidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/BROWN-THROATED-FULVETTA-MISHMI_%28cropped%29.jpg/1280px-BROWN-THROATED-FULVETTA-MISHMI_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/BROWN-THROATED-FULVETTA-MISHMI_%28cropped%29.jpg/330px-BROWN-THROATED-FULVETTA-MISHMI_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:BROWN-THROATED-FULVETTA-MISHMI_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Rajkimar99",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Fulvetta"
+  },
+  "family": {
+   "scientific": "Paradoxornithidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Ludlow’s fulvetta"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1301340"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown-throated_fulvetta"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

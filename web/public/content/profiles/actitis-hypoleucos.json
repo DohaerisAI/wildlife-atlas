@@ -1,0 +1,62 @@
+{
+ "scientific": "Actitis hypoleucos",
+ "name": "Common Sandpiper",
+ "qid": "Q18850",
+ "description": "species of bird",
+ "extract": "The common sandpiper (Actitis hypoleucos) is a small Palearctic wader. This bird and its American sister species, the spotted sandpiper (A. macularia), make up the genus Actitis. They are parapatric and replace each other geographically; stray birds of either species may settle down with breeders of the other and hybridize. Hybridization has also been reported between the common sandpiper and the green sandpiper, a member of the closely related genus Tringa.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Common_sandpiper_lake_geneva-4.jpg/1280px-Common_sandpiper_lake_geneva-4.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Common_sandpiper_lake_geneva-4.jpg/330px-Common_sandpiper_lake_geneva-4.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_sandpiper_lake_geneva-4.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Christoph Müller",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Actitis_hypoleucos_-_Laem_Pak_Bia.jpg/1280px-Actitis_hypoleucos_-_Laem_Pak_Bia.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Actitis_hypoleucos_-_Laem_Pak_Bia.jpg/330px-Actitis_hypoleucos_-_Laem_Pak_Bia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Actitis_hypoleucos_-_Laem_Pak_Bia.jpg",
+   "license": "CC BY 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 27.3,
+   "max": 27.3,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Actitis"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q18850"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_sandpiper"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

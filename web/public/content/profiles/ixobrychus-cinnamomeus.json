@@ -1,0 +1,50 @@
+{
+ "scientific": "Ixobrychus cinnamomeus",
+ "name": "Cinnamon Bittern",
+ "qid": "Q204111",
+ "description": "species of bird",
+ "extract": "The cinnamon bittern (Botaurus cinnamomeus) or chestnut bittern is a small Old World bittern, breeding in tropical and subtropical Asia from India east to China and Indonesia. It is mainly resident, but some northern birds migrate short distances. This species was formerly placed in the genus Ixobrychus.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Cinnamon_bittern_or_chestnut_bittern_%28Ixobrychus_cinnamomeus%29_Photograph_by_Shantanu_Kuveskar.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Cinnamon_bittern_or_chestnut_bittern_%28Ixobrychus_cinnamomeus%29_Photograph_by_Shantanu_Kuveskar.jpg/330px-Cinnamon_bittern_or_chestnut_bittern_%28Ixobrychus_cinnamomeus%29_Photograph_by_Shantanu_Kuveskar.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cinnamon_bittern_or_chestnut_bittern_(Ixobrychus_cinnamomeus)_Photograph_by_Shantanu_Kuveskar.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Shantanu Kuveskar",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ixobrychus"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q204111"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cinnamon_bittern"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

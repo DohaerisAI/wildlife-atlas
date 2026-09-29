@@ -1,0 +1,54 @@
+{
+ "scientific": "Cissa chinensis",
+ "name": "Common Green Magpie",
+ "qid": "Q795552",
+ "description": "species of bird",
+ "extract": "The common green magpie (Cissa chinensis) is a member of the crow family, roughly the size of the Eurasian jay or slightly smaller. In the wild, specimens are usually a bright and lush green in colour (which often fades to turquoise in captivity or with poor diet as the pigment is carotenoid-based), slightly lighter on the underside and have a thick black stripe from the bill through the eyes to the nape. Compared to that of the other members of its genus, the white-tipped tail is quite long. This all contrasts vividly with the red fleshy eye rims, bill and legs. The wings are reddish maroon.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Common_Green_Magpie.jpg/1280px-Common_Green_Magpie.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Common_Green_Magpie.jpg/330px-Common_Green_Magpie.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_Green_Magpie.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jason Thompson",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/The_common_green_magpie_in_flight_%282024%29.jpg/1280px-The_common_green_magpie_in_flight_%282024%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/The_common_green_magpie_in_flight_%282024%29.jpg/330px-The_common_green_magpie_in_flight_%282024%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:The_common_green_magpie_in_flight_(2024).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Prasan Shrestha",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cissa"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q795552"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_green_magpie"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

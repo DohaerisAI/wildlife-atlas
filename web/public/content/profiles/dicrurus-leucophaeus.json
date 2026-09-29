@@ -1,0 +1,60 @@
+{
+ "scientific": "Dicrurus leucophaeus",
+ "name": "Ashy Drongo",
+ "qid": "Q283608",
+ "description": "species of bird",
+ "extract": "The ashy drongo (Dicrurus leucophaeus) is a species of bird in the drongo family Dicruridae. It is found widely distributed across eastern and Southeast Asia, with several populations that vary in the shade of grey, migration patterns and in the size or presence of white patches around the eye.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Ashy_Drongo_Dicrurus_leucophaeus_mouhoti_%28Walden%2C_1870%29_%2816353975222%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Ashy_Drongo_Dicrurus_leucophaeus_mouhoti_%28Walden%2C_1870%29_%2816353975222%29.jpg/330px-Ashy_Drongo_Dicrurus_leucophaeus_mouhoti_%28Walden%2C_1870%29_%2816353975222%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ashy_Drongo_Dicrurus_leucophaeus_mouhoti_(Walden,_1870)_(16353975222).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Len Worthington",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Ashy_Drongo_I_IMG_8168.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Ashy_Drongo_I_IMG_8168.jpg/330px-Ashy_Drongo_I_IMG_8168.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ashy_Drongo_I_IMG_8168.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 38.0,
+   "max": 38.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dicrurus"
+  },
+  "family": {
+   "scientific": "Dicruridae",
+   "name": "drongo"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q283608"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ashy_drongo"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

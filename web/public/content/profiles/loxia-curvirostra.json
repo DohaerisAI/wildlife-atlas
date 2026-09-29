@@ -1,0 +1,75 @@
+{
+ "scientific": "Loxia curvirostra",
+ "name": "Red Crossbill",
+ "qid": "Q26552",
+ "description": "species of small passerine bird in the finch family Fringillidae",
+ "extract": "The red crossbill or common crossbill (Loxia curvirostra) is a small passerine bird in the finch family Fringillidae. Crossbills have distinctive mandibles, crossed at the tips, which enable them to extract seeds from conifer cones and other fruits.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Red_crossbill_%2853582346437%29.jpg/1280px-Red_crossbill_%2853582346437%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Red_crossbill_%2853582346437%29.jpg/330px-Red_crossbill_%2853582346437%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red_crossbill_(53582346437).jpg",
+   "license": "Public domain",
+   "artist": "USFWS Midwest Region from Midwest Region, United States",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Cruza-bico_comum%2C_f%C3%AAmea%2C_Red_Crossbill%2C_female_%2851692602998%29.jpg/1280px-Cruza-bico_comum%2C_f%C3%AAmea%2C_Red_Crossbill%2C_female_%2851692602998%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Cruza-bico_comum%2C_f%C3%AAmea%2C_Red_Crossbill%2C_female_%2851692602998%29.jpg/330px-Cruza-bico_comum%2C_f%C3%AAmea%2C_Red_Crossbill%2C_female_%2851692602998%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cruza-bico_comum,_f%C3%AAmea,_Red_Crossbill,_female_(51692602998).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Luiz Lapa from Oeiras, Portugal",
+   "caption": "Female"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Red_crossbill_juvenile_male_%2853418704643%29.jpg/1280px-Red_crossbill_juvenile_male_%2853418704643%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Red_crossbill_juvenile_male_%2853418704643%29.jpg/330px-Red_crossbill_juvenile_male_%2853418704643%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red_crossbill_juvenile_male_(53418704643).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Andrey Gulivanov",
+   "caption": "Male"
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 29.0,
+   "max": 29.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 3.0,
+   "max": 3.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Loxia"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Common Crossbill"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26552"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red_crossbill"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

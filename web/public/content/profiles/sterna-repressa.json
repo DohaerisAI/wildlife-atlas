@@ -1,0 +1,59 @@
+{
+ "scientific": "Sterna repressa",
+ "name": "White-cheeked Tern",
+ "qid": "Q921533",
+ "description": "species of bird",
+ "extract": "The white-cheeked tern (Sterna repressa) is a species of tern in the family Laridae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Sterna_repressa%2C_Bahrain_4.jpg/1280px-Sterna_repressa%2C_Bahrain_4.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Sterna_repressa%2C_Bahrain_4.jpg/330px-Sterna_repressa%2C_Bahrain_4.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sterna_repressa,_Bahrain_4.jpg",
+   "license": "CC BY 4.0",
+   "artist": "william_stephens",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 73.0,
+   "max": 83.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 19.0,
+   "max": 123.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sterna"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q921533"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-cheeked_tern"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

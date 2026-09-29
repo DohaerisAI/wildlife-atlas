@@ -1,0 +1,70 @@
+{
+ "scientific": "Limosa lapponica",
+ "name": "Bar-tailed Godwit",
+ "qid": "Q18864",
+ "description": "species of bird",
+ "extract": "The bar-tailed godwit (Limosa lapponica) is a large and strongly migratory wader in the family Scolopacidae, which feeds on bristle-worms and shellfish on coastal mudflats and estuaries. It has distinctive red breeding plumage, long legs, and a long upturned bill. Bar-tailed godwits breed on Arctic coasts and tundra from Scandinavia to Alaska, and overwinter on coasts in temperate and tropical regions of Australia and New Zealand. The migration of the subspecies Limosa lapponica baueri across the Pacific Ocean from Alaska to New Zealand is the longest known non-stop flight of any bird, and also the longest journey without pausing to feed by any animal. The round-trip migration for this subspecies is over 29,000 km (18,020 mi).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Bar-tailed_Godwit.jpg/1280px-Bar-tailed_Godwit.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Bar-tailed_Godwit.jpg/330px-Bar-tailed_Godwit.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bar-tailed_Godwit.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Limosa_lapponica_2_-_Taren_Point.jpg/1280px-Limosa_lapponica_2_-_Taren_Point.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Limosa_lapponica_2_-_Taren_Point.jpg/330px-Limosa_lapponica_2_-_Taren_Point.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Limosa_lapponica_2_-_Taren_Point.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 73.0,
+   "max": 73.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 313.0,
+   "max": 354.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Limosa"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "New Zealand Bird of the Year 2015"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q18864"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bar-tailed_godwit"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

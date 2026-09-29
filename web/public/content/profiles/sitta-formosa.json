@@ -1,0 +1,46 @@
+{
+ "scientific": "Sitta formosa",
+ "name": "Beautiful Nuthatch",
+ "qid": "Q571035",
+ "description": "species of bird",
+ "extract": "The beautiful nuthatch (Sitta formosa) is a bird species in the family Sittidae, collectively known as nuthatches. It is a large nuthatch, measuring 16.5 cm (6.5 in) in length, that is not sexually dimorphic. Its colour and markings are dramatic, the upper parts being black and azure, streaked with white and pale blue on the head and lined with the same colours on the wing feathers. The underparts are orange, and the eyebrow and throat are ochre. An irregular, dark eyestripe highlights its eye. Its ecology is not fully described, but it is known to feed on small insects and larvae found on the trunks and epiphyte-covered branches of trees in its range. Reproduction takes place from April to May; the nest is placed in the hole of an oak, rhododendron, or other large tree. The nest is made of plant material and fur in which the bird typically lays four to six eggs.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/SittaFormosaGould.jpg/1280px-SittaFormosaGould.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/SittaFormosaGould.jpg/330px-SittaFormosaGould.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:SittaFormosaGould.jpg",
+   "license": "Public domain",
+   "artist": "John Gould & H. C. Richter. Gould died on 2 February 1881. Richter died on 16 March 1902 (both more than 100 years ago).",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sitta"
+  },
+  "family": {
+   "scientific": "Sittidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q571035"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Beautiful_nuthatch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

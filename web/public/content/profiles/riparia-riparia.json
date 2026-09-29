@@ -1,0 +1,62 @@
+{
+ "scientific": "Riparia riparia",
+ "name": "Sand Martin",
+ "qid": "Q25909",
+ "description": "species of bird",
+ "extract": "The sand martin (Riparia riparia), also known as the collared sand martin or common sand martin, and in the Americas as the bank swallow, is a migratory passerine bird in the swallow family Hirundinidae. It has a wide range in summer, embracing practically the whole Holarctic area, from Europe, across Asia to the Pacific Ocean, and throughout North America. It winters in eastern and southern Africa, southern Asia, and South America.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Riparia_riparia_-Markinch%2C_Fife%2C_Scotland_-flying-8-4c.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Riparia_riparia_-Markinch%2C_Fife%2C_Scotland_-flying-8-4c.jpg/330px-Riparia_riparia_-Markinch%2C_Fife%2C_Scotland_-flying-8-4c.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Riparia_riparia_-Markinch,_Fife,_Scotland_-flying-8-4c.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Riparia_riparia_-Markinch,_Fife,_Scotland_-flying-8.jpg: Nigel Wedge from Fife, Scotland\nderivative work: Snowmanradio (talk)",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Riparia_riparia.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Riparia_riparia.jpg/330px-Riparia_riparia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Riparia_riparia.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Axel Strauß",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 27.0,
+   "max": 27.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Riparia"
+  },
+  "family": {
+   "scientific": "Hirundinidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Bank Swallow"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25909"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sand_martin"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

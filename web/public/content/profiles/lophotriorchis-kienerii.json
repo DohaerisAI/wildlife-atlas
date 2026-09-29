@@ -1,0 +1,60 @@
+{
+ "scientific": "Lophotriorchis kienerii",
+ "name": "Rufous-bellied Hawk-Eagle",
+ "qid": "Q280663",
+ "description": "species of bird",
+ "extract": "The rufous-bellied eagle or rufous-bellied hawk-eagle (Lophotriorchis kienerii) is a bird of prey in the family Accipitridae that is found in the forested regions of tropical Asia. Relatively small for eagles and contrastingly patterned like a falcon, this species was earlier placed in the genus Hieraaetus and sometimes also in the genus Aquila but thought to be distinctive enough to belong to a separate genus.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Elang-Perut-Karat-by-alimadura.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Elang-Perut-Karat-by-alimadura.jpg/330px-Elang-Perut-Karat-by-alimadura.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Elang-Perut-Karat-by-alimadura.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Alimadura",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Lophotriorchis_kienerii_Coimbatore.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Lophotriorchis_kienerii_Coimbatore.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lophotriorchis_kienerii_Coimbatore.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Usha Eugene",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lophotriorchis"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Chestnut-bellied Hawk-eagle"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q280663"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rufous-bellied_eagle"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

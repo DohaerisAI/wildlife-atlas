@@ -1,0 +1,58 @@
+{
+ "scientific": "Mycteria leucocephala",
+ "name": "Painted Stork",
+ "qid": "Q631805",
+ "description": "species of bird",
+ "extract": "The painted stork (Mycteria leucocephala) is a large wader  in the stork family. It is found in the wetlands of the plains of tropical Asia south of the Himalayas in the Indian subcontinent and extending into Southeast Asia. Their distinctive pink tertial feathers of the adults give them their name. They forage in flocks in shallow waters along rivers or lakes. They immerse their half open beaks in water and sweep them from side to side and snap up their prey of small fish that are sensed by touch. As they wade along they also stir the water with their feet to flush hiding fish. They nest colonially in trees, often along with other waterbirds. The only sounds they produce are weak moans or bill clattering at the nest. They are not migratory and only make short-distance movements in some parts of their range in response to changes in weather or food availability or for breeding. Like other storks, they are often seen soaring on thermals.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Mycteria_leucocephala_-_Pak_Thale.jpg/1280px-Mycteria_leucocephala_-_Pak_Thale.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Mycteria_leucocephala_-_Pak_Thale.jpg/330px-Mycteria_leucocephala_-_Pak_Thale.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mycteria_leucocephala_-_Pak_Thale.jpg",
+   "license": "CC BY 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Painted_stork_foraging.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Painted_stork_foraging.jpg/330px-Painted_stork_foraging.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Painted_stork_foraging.jpg",
+   "license": "CC BY 2.5",
+   "artist": "Unknown",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Mycteria"
+  },
+  "family": {
+   "scientific": "Ciconiidae",
+   "name": "stork"
+  },
+  "order": {
+   "scientific": "Ciconiiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q631805"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Painted_stork"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

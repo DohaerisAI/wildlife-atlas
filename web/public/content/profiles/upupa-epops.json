@@ -1,0 +1,62 @@
+{
+ "scientific": "Upupa epops",
+ "name": "Eurasian Hoopoe",
+ "qid": "Q25247",
+ "description": "species of bird",
+ "extract": "The Eurasian hoopoe or common hoopoe (Upupa epops) is the most widespread species of hoopoe. It is a distinctive cinnamon coloured bird with black and white wings, a tall erectile crest, a broad white band across a black tail, and a long narrow downcurved bill. Its call is a soft \"oop-oop-oop\".",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Upupa_epops_Madrid_02.jpg/1280px-Upupa_epops_Madrid_02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Upupa_epops_Madrid_02.jpg/330px-Upupa_epops_Madrid_02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Upupa_epops_Madrid_02.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Keta",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Common_Hoopoe_Photograph_By_Shantanu_Kuveskar.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Common_Hoopoe_Photograph_By_Shantanu_Kuveskar.jpg/330px-Common_Hoopoe_Photograph_By_Shantanu_Kuveskar.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_Hoopoe_Photograph_By_Shantanu_Kuveskar.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Shantanu Kuveskar",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 44.0,
+   "max": 44.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Upupa"
+  },
+  "family": {
+   "scientific": "Upupidae"
+  },
+  "order": {
+   "scientific": "Bucerotiformes"
+  }
+ },
+ "other_names": [
+  "common hoopoe",
+  "hoopoe"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25247"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eurasian_hoopoe"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

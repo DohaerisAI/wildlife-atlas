@@ -1,0 +1,63 @@
+{
+ "scientific": "Athene noctua",
+ "name": "Little Owl",
+ "qid": "Q129958",
+ "description": "species of bird",
+ "extract": "The little owl (Athene noctua), also known as the owl of Athena or owl of Minerva, is a bird that inhabits much of the temperate and warmer parts of Europe, the Palearctic east to Korea, and North Africa. It was introduced into Britain at the end of the 19th century and into the South Island of New Zealand in the early 20th century.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Athene_noctua%2C_Ambula%2C_Montenegro_2.jpg/1280px-Athene_noctua%2C_Ambula%2C_Montenegro_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Athene_noctua%2C_Ambula%2C_Montenegro_2.jpg/330px-Athene_noctua%2C_Ambula%2C_Montenegro_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Athene_noctua,_Ambula,_Montenegro_2.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Frank Vassen from Brussels, Belgium",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Athene_noctua%2C_Ambula%2C_Montenegro_1.jpg/1280px-Athene_noctua%2C_Ambula%2C_Montenegro_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Athene_noctua%2C_Ambula%2C_Montenegro_1.jpg/330px-Athene_noctua%2C_Ambula%2C_Montenegro_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Athene_noctua,_Ambula,_Montenegro_1.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Frank Vassen from Brussels, Belgium",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 56.0,
+   "max": 56.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Athene"
+  },
+  "family": {
+   "scientific": "Strigidae",
+   "name": "true owls"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q129958"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Little_owl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

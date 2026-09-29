@@ -1,0 +1,62 @@
+{
+ "scientific": "Tragopan blythii",
+ "name": "Blyth’s Tragopan",
+ "qid": "Q852864",
+ "description": "species of bird",
+ "extract": "Blyth's tragopan (Tragopan blythii) or the grey-bellied tragopan is a pheasant that is a vulnerable species. The common name commemorates Edward Blyth (1810–1873), English zoologist and Curator of the Museum of the Asiatic Society of Bengal. It is the state bird of Nagaland.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tragopan_blythii01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Tragopan_blythii01.jpg/330px-Tragopan_blythii01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tragopan_blythii01.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "No machine-readable author provided. JoJan assumed (based on copyright claims).",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/BlythsTragopan.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/BlythsTragopan.jpg/330px-BlythsTragopan.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:BlythsTragopan.jpg",
+   "license": "Public domain",
+   "artist": "Archibald Thorburn",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tragopan"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Blythís tragopan",
+  "Blythis tragopan",
+  "Blyth's Tragopan"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q852864"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blyth%27s_tragopan"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

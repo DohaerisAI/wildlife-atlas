@@ -1,0 +1,43 @@
+{
+ "scientific": "Napothera brevicaudata",
+ "name": "Streaked Wren-Babbler",
+ "qid": "Q3043660",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Napothera_brevicaudata.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Napothera_brevicaudata.jpg/330px-Napothera_brevicaudata.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Napothera_brevicaudata.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Umeshsrinivasan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 19.5,
+   "max": 19.5,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Napothera"
+  },
+  "family": {
+   "scientific": "Pellorneidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3043660"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,51 @@
+{
+ "scientific": "Turdoides affinis",
+ "name": "Yellow-billed Babbler",
+ "qid": "Q1590643",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Jungle_babbler_sree.jpg/1280px-Jungle_babbler_sree.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Jungle_babbler_sree.jpg/330px-Jungle_babbler_sree.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Jungle_babbler_sree.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Sreedharan 283655",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Yellow_Billed_Babbler_captured_at_Shimoga.jpg/1280px-Yellow_Billed_Babbler_captured_at_Shimoga.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Yellow_Billed_Babbler_captured_at_Shimoga.jpg/330px-Yellow_Billed_Babbler_captured_at_Shimoga.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Yellow_Billed_Babbler_captured_at_Shimoga.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Humer Sadhik",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 63.0,
+   "max": 63.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turdoides"
+  },
+  "family": {
+   "scientific": "Leiothrichidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1590643"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

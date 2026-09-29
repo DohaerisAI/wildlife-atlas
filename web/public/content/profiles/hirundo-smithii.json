@@ -1,0 +1,64 @@
+{
+ "scientific": "Hirundo smithii",
+ "name": "Wire-tailed Swallow",
+ "qid": "Q375793",
+ "description": "species of bird",
+ "extract": "The wire-tailed swallow (Hirundo smithii) is a small passerine bird in the swallow family. It has two subspecies: H. s. smithii, which occurs throughout Africa, and H. s. filifera, which is found in southern and southeastern Asia. It is mainly resident, but populations in Pakistan and northern India migrate further south in winter. The genus name Hirundo is the Latin word for swallow. The species name smithii commemorates Christen Smith, a Norwegian botanist and geologist.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Wire-tailed_swallow_%28Hirundo_smithii_smithii%29.jpg/1280px-Wire-tailed_swallow_%28Hirundo_smithii_smithii%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Wire-tailed_swallow_%28Hirundo_smithii_smithii%29.jpg/330px-Wire-tailed_swallow_%28Hirundo_smithii_smithii%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wire-tailed_swallow_(Hirundo_smithii_smithii).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Wire-tailed_Swallow-9630.jpg/1280px-Wire-tailed_Swallow-9630.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Wire-tailed_Swallow-9630.jpg/330px-Wire-tailed_Swallow-9630.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wire-tailed_Swallow-9630.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Rudraksha Chodankar",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 28.2,
+   "max": 28.2,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 1.6,
+   "max": 12.7,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Hirundo"
+  },
+  "family": {
+   "scientific": "Hirundinidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q375793"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wire-tailed_swallow"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

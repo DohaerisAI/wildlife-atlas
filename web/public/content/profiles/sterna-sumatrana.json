@@ -1,0 +1,54 @@
+{
+ "scientific": "Sterna sumatrana",
+ "name": "Black-naped Tern",
+ "qid": "Q28505",
+ "description": "species of bird",
+ "extract": "The black-naped tern (Sterna sumatrana) is an oceanic tern mostly found in tropical and subtropical areas of the Indian Ocean and western Pacific Ocean. They are rarely found inland. It was described from the islands around Sumatra. It is most closely related to roseate tern S. dougallii and white-fronted tern S. striata.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Black-naped_Tern_LEI.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Black-naped_Tern_LEI.JPG/330px-Black-naped_Tern_LEI.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-naped_Tern_LEI.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Aviceda",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 16.1,
+   "max": 106.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sterna"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q28505"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-naped_tern"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

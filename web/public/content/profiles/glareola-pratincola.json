@@ -1,0 +1,59 @@
+{
+ "scientific": "Glareola pratincola",
+ "name": "Collared Pratincole",
+ "qid": "Q330310",
+ "description": "species of bird",
+ "extract": "The collared pratincole (Glareola pratincola), also known as the common pratincole or red-winged pratincole, is a wader in the pratincole family, Glareolidae. As with other pratincoles, it is native to the Old World.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Collared_pratincole_%28Glareola_pratincola%29.jpg/1280px-Collared_pratincole_%28Glareola_pratincola%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Collared_pratincole_%28Glareola_pratincola%29.jpg/330px-Collared_pratincole_%28Glareola_pratincola%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Collared_pratincole_(Glareola_pratincola).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Steve Garvie (rainbirder)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 60.0,
+   "max": 70.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 10.1,
+   "max": 77.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Glareola"
+  },
+  "family": {
+   "scientific": "Glareolidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q330310"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Collared_pratincole"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

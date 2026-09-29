@@ -1,0 +1,52 @@
+{
+ "scientific": "Arborophila mandellii",
+ "name": "Chestnut-breasted Hill Partridge",
+ "qid": "Q776306",
+ "description": "species of bird",
+ "extract": "The chestnut-breasted partridge (Arborophila mandellii) is a partridge species endemic to the eastern Himalayas north of the Brahmaputra, and occurs in Bhutan, Darjeeling, Sikkim, Arunachal Pradesh and south-eastern Tibet at elevations from 350 to 2,500 m (1,150 to 8,200 ft). It is listed as near threatened on the IUCN Red List, as the estimated population comprises less than 10,000 individuals. It is threatened by forest degradation and by hunting. It is known from at least three protected areas, including Singalila National Park and Namdapha National Park.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/MandellisTreePartridge.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/MandellisTreePartridge.jpg/330px-MandellisTreePartridge.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:MandellisTreePartridge.jpg",
+   "license": "Public domain",
+   "artist": "Ogilvie-Grant, WR",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Arborophila"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Arborophila mandelli"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q776306"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chestnut-breasted_partridge"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

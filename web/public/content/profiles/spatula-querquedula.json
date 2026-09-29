@@ -1,0 +1,60 @@
+{
+ "scientific": "Spatula querquedula",
+ "name": "Garganey",
+ "qid": "Q28106902",
+ "description": "species of bird",
+ "extract": "The garganey (Spatula querquedula) is a small dabbling duck. It breeds in much of Europe and across the Palearctic, but is strictly migratory, with the entire population moving to Africa, India (in particular Santragachi), Bangladesh (in the natural reservoirs of Sylhet district) and Australasia during the winter of the Northern hemisphere, where large flocks can occur. This species was first described by Carl Linnaeus in his landmark 1758 10th edition of Systema Naturae. Like other small ducks such as the Eurasian teal, this species rises easily from the water with a fast twisting wader-like flight.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Garganey_%28_Anas_querquedula_%29_Drake_..._South_Yorkshire_%2853695451967%29.jpg/1280px-Garganey_%28_Anas_querquedula_%29_Drake_..._South_Yorkshire_%2853695451967%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Garganey_%28_Anas_querquedula_%29_Drake_..._South_Yorkshire_%2853695451967%29.jpg/330px-Garganey_%28_Anas_querquedula_%29_Drake_..._South_Yorkshire_%2853695451967%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Garganey_(_Anas_querquedula_)_Drake_..._South_Yorkshire_(53695451967).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "peterichman",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Anas_querquedula%2C_Llobregat_Delta%2C_Barcelona_6.jpg/1280px-Anas_querquedula%2C_Llobregat_Delta%2C_Barcelona_6.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Anas_querquedula%2C_Llobregat_Delta%2C_Barcelona_6.jpg/330px-Anas_querquedula%2C_Llobregat_Delta%2C_Barcelona_6.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Anas_querquedula,_Llobregat_Delta,_Barcelona_6.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Ferran Pestaña from Barcelona, España",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Spatula"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Anas querquedula"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q28106902"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Garganey"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

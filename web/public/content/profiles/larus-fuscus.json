@@ -1,0 +1,67 @@
+{
+ "scientific": "Larus fuscus",
+ "name": "Lesser Black-backed Gull",
+ "qid": "Q27160",
+ "description": "species of bird",
+ "extract": "The lesser black-backed gull (Larus fuscus) is a large gull that breeds on the Atlantic and Arctic coasts of Europe. It is migratory, wintering from the British Isles south to West Africa. However, it has increased dramatically in North America, especially along the east coast. Formerly just a winter visitor to North America, it now occurs in large numbers some winters and birds are recorded year-round. However, there is serious concern about decline in many parts of its range. The species is on the UK Amber List because the UK is home to 40 per cent of the European population and more than half of these are found at fewer than ten breeding sites.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Larus_fuscus_Finnboda_2012.jpg/1280px-Larus_fuscus_Finnboda_2012.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Larus_fuscus_Finnboda_2012.jpg/330px-Larus_fuscus_Finnboda_2012.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Larus_fuscus_Finnboda_2012.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Arild Vågen",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Larus-fuscus-taxbox.jpg/1280px-Larus-fuscus-taxbox.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Larus-fuscus-taxbox.jpg/330px-Larus-fuscus-taxbox.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Larus-fuscus-taxbox.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 134.0,
+   "max": 134.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 755.0,
+   "max": 880.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Larus"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27160"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lesser_black-backed_gull"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

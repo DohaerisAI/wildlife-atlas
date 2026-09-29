@@ -1,0 +1,46 @@
+{
+ "scientific": "Petronia petronia",
+ "name": "Rock Sparrow",
+ "qid": "Q736313",
+ "description": "species of bird",
+ "extract": "The rock sparrow or rock petronia (Petronia petronia) is a small passerine bird in the sparrow family Passeridae. It is the only species in the genus Petronia. It breeds on barren rocky hills from Madeira and the Canary Islands east through the Iberian Peninsula and western north Africa, across southern Europe and through southwestern and central Asia to Mongolia and the north and west of China. It is resident in the west of its range, but some Asian birds may migrate to more southerly areas, or move to lower altitudes in mountains, in winter.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Petronia_petronia_-Ariege%2C_Midi-Pyrenee%2C_France-8-4c.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Petronia_petronia_-Ariege%2C_Midi-Pyrenee%2C_France-8-4c.jpg/330px-Petronia_petronia_-Ariege%2C_Midi-Pyrenee%2C_France-8-4c.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Petronia_petronia_-Ariege,_Midi-Pyrenee,_France-8-4c.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Petronia_petronia_-Ariege,_Midi-Pyrenee,_France-8.jpg: Sandra from France\nderivative work: Snowmanradio",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Petronia"
+  },
+  "family": {
+   "scientific": "Passeridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q736313"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rock_sparrow"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,51 @@
+{
+ "scientific": "Phylloscopus borealoides",
+ "name": "Sakhalin Leaf Warbler",
+ "qid": "Q2669182",
+ "description": "species of bird",
+ "extract": "The Sakhalin leaf warbler (Phylloscopus borealoides) is a species of Old World warbler in the family Phylloscopidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Sakhalin_Leaf-warbler.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Sakhalin_Leaf-warbler.jpg/330px-Sakhalin_Leaf-warbler.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sakhalin_Leaf-warbler.jpg",
+   "license": "Copyrighted free use",
+   "artist": "Gin tonic",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 10.7,
+   "max": 10.7,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phylloscopus"
+  },
+  "family": {
+   "scientific": "Phylloscopidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2669182"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sakhalin_leaf_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

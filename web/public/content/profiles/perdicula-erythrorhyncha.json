@@ -1,0 +1,57 @@
+{
+ "scientific": "Perdicula erythrorhyncha",
+ "name": "Painted Bush Quail",
+ "qid": "Q1261664",
+ "description": "species of bird",
+ "extract": "The painted bush quail (Perdicula erythrorhyncha) is a species of quail found in the hill forests of India. They move in small coveys on hillsides and are distinguished by their red bills and legs. They have a liquid alarm call and small groups will run in single file along paths before taking flight when flushed.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Painted_Bush-Quail_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_13.jpg/1280px-Painted_Bush-Quail_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_13.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Painted_Bush-Quail_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_13.jpg/330px-Painted_Bush-Quail_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_13.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Painted_Bush-Quail_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_13.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Painted_bush_quail_male_with_a_chick.jpg/1280px-Painted_bush_quail_male_with_a_chick.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Painted_bush_quail_male_with_a_chick.jpg/330px-Painted_bush_quail_male_with_a_chick.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Painted_bush_quail_male_with_a_chick.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Udaya Kumar Balasubramanian from Madurai, India",
+   "caption": "Male"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Perdicula"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1261664"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Painted_bush_quail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

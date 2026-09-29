@@ -1,0 +1,49 @@
+{
+ "scientific": "Calidris subruficollis",
+ "name": "Buff-breasted Sandpiper",
+ "qid": "Q27452709",
+ "description": "species of bird",
+ "extract": "The buff-breasted sandpiper (Calidris subruficollis) is a small shorebird. The species name subruficollis is from Latin subrufus, \"reddish\" (from sub, \"somewhat\", and rufus, \"rufous\") and collis, \"-necked/-throated\" (from collum, \"neck\"). It is a calidrid sandpiper, notable for its long annual migration, from the artic region of North America to the pampas region of South America.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Grasl%C3%A4ufer_%28Calidris_subruficollis%29_am_Strand_im_Willapa_National_Wildlife_Refuge.jpg/1280px-Grasl%C3%A4ufer_%28Calidris_subruficollis%29_am_Strand_im_Willapa_National_Wildlife_Refuge.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Grasl%C3%A4ufer_%28Calidris_subruficollis%29_am_Strand_im_Willapa_National_Wildlife_Refuge.jpg/330px-Grasl%C3%A4ufer_%28Calidris_subruficollis%29_am_Strand_im_Willapa_National_Wildlife_Refuge.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grasl%C3%A4ufer_(Calidris_subruficollis)_am_Strand_im_Willapa_National_Wildlife_Refuge.jpg",
+   "license": "Public domain",
+   "artist": "USFWS - Pacific Region",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Calidris"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27452709"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buff-breasted_sandpiper"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

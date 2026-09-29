@@ -1,0 +1,54 @@
+{
+ "scientific": "Copsychus malabaricus",
+ "name": "White-rumped Shama",
+ "qid": "Q27075635",
+ "description": "species of bird",
+ "extract": "The white-rumped shama (Copsychus malabaricus) is a passerine bird in the Old World flycatcher family Muscicapidae. Native to densely vegetated habitats in the Indian subcontinent and Southeast Asia, its popularity as a cage-bird and songster has led to it being introduced elsewhere. The Larwo shama, the Kangean shama and the Sri Lanka shama were formerly considered to be conspecific with the white-rumped shama.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/White-rumped_Shama_0A2A8545_%28cropped%29.jpg/1280px-White-rumped_Shama_0A2A8545_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/White-rumped_Shama_0A2A8545_%28cropped%29.jpg/330px-White-rumped_Shama_0A2A8545_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-rumped_Shama_0A2A8545_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "JJ Harrison",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Copsychus_malabaricus_-_Khao_Yai.jpg/1280px-Copsychus_malabaricus_-_Khao_Yai.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Copsychus_malabaricus_-_Khao_Yai.jpg/330px-Copsychus_malabaricus_-_Khao_Yai.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Copsychus_malabaricus_-_Khao_Yai.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Copsychus"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075635"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-rumped_shama"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

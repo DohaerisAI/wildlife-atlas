@@ -1,0 +1,46 @@
+{
+ "scientific": "Carpodacus stoliczkae",
+ "name": "Pale Rosefinch",
+ "qid": "Q17516886",
+ "description": "species of bird",
+ "extract": "The pale rosefinch (Carpodacus stoliczkae) is a species of finch in the family Fringillidae. It is found in Afghanistan and China. It was formerly considered conspecific with the Sinai rosefinch. Its natural habitat is hot deserts.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/CarpodacusStoliczkae.jpg/1280px-CarpodacusStoliczkae.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/CarpodacusStoliczkae.jpg/330px-CarpodacusStoliczkae.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:CarpodacusStoliczkae.jpg",
+   "license": "Public domain",
+   "artist": "Unknown (Initials W.H.)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Carpodacus"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q17516886"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pale_rosefinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

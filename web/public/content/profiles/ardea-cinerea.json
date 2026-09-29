@@ -1,0 +1,79 @@
+{
+ "scientific": "Ardea cinerea",
+ "name": "Grey Heron",
+ "qid": "Q25273",
+ "description": "species of bird",
+ "extract": "The grey heron (Ardea cinerea) is a long-legged wading bird of the heron family, Ardeidae, native throughout temperate Europe and Asia, and also parts of Africa. It is resident in much of its range, but some populations from the more northern parts migrate southwards in autumn. A bird of wetland areas, it can be seen around lakes, rivers, ponds, marshes and on the sea coast. It feeds mostly on aquatic creatures which it catches after standing stationary beside or in the water, or stalking its prey through the shallows.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Ardea_cinerea_EM1A2714_%2827349354381%29.jpg/1280px-Ardea_cinerea_EM1A2714_%2827349354381%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Ardea_cinerea_EM1A2714_%2827349354381%29.jpg/330px-Ardea_cinerea_EM1A2714_%2827349354381%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ardea_cinerea_EM1A2714_(27349354381).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Bengt Nyman from Vaxholm, Sweden",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Baden-Baden_10-2015_img14_Hector_Berlioz_Park_Grey_heron.jpg/1280px-Baden-Baden_10-2015_img14_Hector_Berlioz_Park_Grey_heron.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Baden-Baden_10-2015_img14_Hector_Berlioz_Park_Grey_heron.jpg/330px-Baden-Baden_10-2015_img14_Hector_Berlioz_Park_Grey_heron.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Baden-Baden_10-2015_img14_Hector_Berlioz_Park_Grey_heron.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "A.Savin",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Kerkini_lake_in_May_01.jpg/1280px-Kerkini_lake_in_May_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Kerkini_lake_in_May_01.jpg/330px-Kerkini_lake_in_May_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Kerkini_lake_in_May_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Vassilios Vescoukis",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 173.0,
+   "max": 173.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 61.0,
+   "max": 61.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ardea"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Gray Heron"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25273"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey_heron"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

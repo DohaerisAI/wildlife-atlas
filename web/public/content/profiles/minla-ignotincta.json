@@ -1,0 +1,51 @@
+{
+ "scientific": "Minla ignotincta",
+ "name": "Red-tailed Minla",
+ "qid": "Q3043686",
+ "description": "species of bird",
+ "extract": "The red-tailed minla (Minla ignotincta) is a passerine bird in the family Leiothrichidae. It is the only species in the genus Minla.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Red-tailed_minla_01.jpg/1280px-Red-tailed_minla_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Red-tailed_minla_01.jpg/330px-Red-tailed_minla_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red-tailed_minla_01.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Shiv's fotografia",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 14.3,
+   "max": 14.3,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Minla"
+  },
+  "family": {
+   "scientific": "Leiothrichidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3043686"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-tailed_minla"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,59 @@
+{
+ "scientific": "Linaria flavirostris",
+ "name": "Twite",
+ "qid": "Q10965357",
+ "description": "species of bird",
+ "extract": "The twite (Linaria flavirostris) is a small brown passerine bird in the finch family Fringillidae. It is a partially migratory species that is found in a strongly disjunct distribution in northern Europe, and in Asian mountains from eastern Turkey to Nepal, western China and Mongolia. It mainly feeds on small seeds but occasionally also feeds on insects.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Carduelis_flavirostris.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Carduelis_flavirostris.jpg/330px-Carduelis_flavirostris.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Carduelis_flavirostris.jpg",
+   "license": "CC BY 2.5",
+   "artist": "MPF",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 23.0,
+   "max": 23.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 1.4,
+   "max": 1.4,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Linaria"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "heather lintie"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q10965357"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Twite"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

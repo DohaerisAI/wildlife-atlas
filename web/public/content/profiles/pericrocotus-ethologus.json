@@ -1,0 +1,55 @@
+{
+ "scientific": "Pericrocotus ethologus",
+ "name": "Long-tailed Minivet",
+ "qid": "Q2669083",
+ "description": "species of bird",
+ "extract": "The long-tailed minivet (Pericrocotus ethologus) is a species of bird in the family Campephagidae. It is found in southern and south-eastern Asia where it occurs in Afghanistan, Bangladesh, Bhutan, China, India, Laos, Myanmar, Nepal, Pakistan, Thailand, and Vietnam. Its natural habitats are subtropical or tropical moist lowland forest and subtropical or tropical moist montane forest.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Long-tailed_Minivet_%28Pericrocotus_ethologus%29_%2829256376160%29.jpg/1280px-Long-tailed_Minivet_%28Pericrocotus_ethologus%29_%2829256376160%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Long-tailed_Minivet_%28Pericrocotus_ethologus%29_%2829256376160%29.jpg/330px-Long-tailed_Minivet_%28Pericrocotus_ethologus%29_%2829256376160%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Long-tailed_Minivet_(Pericrocotus_ethologus)_(29256376160).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Long-tailed_Minivet_%28Pericrocotus_ethologus%29_%2829030873265%29.jpg/1280px-Long-tailed_Minivet_%28Pericrocotus_ethologus%29_%2829030873265%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Long-tailed_Minivet_%28Pericrocotus_ethologus%29_%2829030873265%29.jpg/330px-Long-tailed_Minivet_%28Pericrocotus_ethologus%29_%2829030873265%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Long-tailed_Minivet_(Pericrocotus_ethologus)_(29030873265).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pericrocotus",
+   "name": "Minivet"
+  },
+  "family": {
+   "scientific": "Campephagidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2669083"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Long-tailed_minivet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

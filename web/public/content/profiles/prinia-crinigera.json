@@ -1,0 +1,49 @@
+{
+ "scientific": "Prinia crinigera",
+ "name": "Striated Prinia",
+ "qid": "Q2226875",
+ "description": "species of bird",
+ "extract": "The Himalayan prinia (Prinia crinigera) is a species of bird in the family Cisticolidae. It was formerly lumped in with the striped prinia (P. striata) as the striated prinia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Himalayan_Prinia_cropped.jpg/1280px-Himalayan_Prinia_cropped.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Himalayan_Prinia_cropped.jpg/330px-Himalayan_Prinia_cropped.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Himalayan_Prinia_cropped.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Mildeep",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Prinia"
+  },
+  "family": {
+   "scientific": "Cisticolidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Himalayan Prinia"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2226875"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Himalayan_prinia"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

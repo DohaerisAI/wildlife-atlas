@@ -1,0 +1,51 @@
+{
+ "scientific": "Sylviparus modestus",
+ "name": "Yellow-browed Tit",
+ "qid": "Q1092246",
+ "description": "species of bird",
+ "extract": "The yellow-browed tit (Sylviparus modestus) is a species of bird in the family Paridae. It is placed in the monotypic genus Sylviparus. It is a small song bird that measures 9–10 cm (3.5–3.9 in) long and weighs 5–9 g (0.18–0.32 oz). It is the smallest member of its family. It has a small bill, short tail, strong legs, and greenish feathers.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Sylviparus_modestus_modestus_106196454.jpg/1280px-Sylviparus_modestus_modestus_106196454.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Sylviparus_modestus_modestus_106196454.jpg/330px-Sylviparus_modestus_modestus_106196454.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sylviparus_modestus_modestus_106196454.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Wich'yanan L",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 7.0,
+   "max": 7.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sylviparus"
+  },
+  "family": {
+   "scientific": "Paridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1092246"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yellow-browed_tit"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

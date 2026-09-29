@@ -1,0 +1,54 @@
+{
+ "scientific": "Prunella collaris",
+ "name": "Alpine Accentor",
+ "qid": "Q208334",
+ "description": "species of bird",
+ "extract": "The alpine accentor (Prunella collaris) is a small passerine bird in the family Prunellidae, which is native to Eurasia and North Africa.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Alpine_accentor_saganta.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Alpine_accentor_saganta.jpg/330px-Alpine_accentor_saganta.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Alpine_accentor_saganta.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Paco Gómez from Castellón, Spain",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Prunella_collaris.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Prunella_collaris.jpg/330px-Prunella_collaris.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Prunella_collaris.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Unknown",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Prunella"
+  },
+  "family": {
+   "scientific": "Prunellidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q208334"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Alpine_accentor"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

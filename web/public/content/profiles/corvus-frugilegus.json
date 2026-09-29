@@ -1,0 +1,64 @@
+{
+ "scientific": "Corvus frugilegus",
+ "name": "Rook",
+ "qid": "Q25386",
+ "description": "species of bird",
+ "extract": "The rook (Corvus frugilegus) is a member of the family Corvidae in the passerine order of birds. It is found in the Palearctic, its range extending from Scandinavia and western Europe to eastern Siberia. It is a large, gregarious, black-feathered bird, distinguished from similar species by the whitish featherless area on the face. Rooks nest collectively in the tops of tall trees, often close to farms or villages; the groups of nests are known as rookeries.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Corvus_frugilegus_-Dartmoor%2C_Devon%2C_England-8.jpg/1280px-Corvus_frugilegus_-Dartmoor%2C_Devon%2C_England-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Corvus_frugilegus_-Dartmoor%2C_Devon%2C_England-8.jpg/330px-Corvus_frugilegus_-Dartmoor%2C_Devon%2C_England-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Corvus_frugilegus_-Dartmoor,_Devon,_England-8.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Brian Snelson from Hockley, Essex, England",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Corvus_frugilegus_pastinator%2C_Gunsan%2C_South_Korea_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Corvus_frugilegus_pastinator%2C_Gunsan%2C_South_Korea_1.jpg/330px-Corvus_frugilegus_pastinator%2C_Gunsan%2C_South_Korea_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Corvus_frugilegus_pastinator,_Gunsan,_South_Korea_1.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Kim Hyun-tae",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 93.0,
+   "max": 93.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 418.0,
+   "max": 489.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Corvus"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25386"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rook_(bird)"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

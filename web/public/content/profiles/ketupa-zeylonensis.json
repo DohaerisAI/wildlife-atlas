@@ -1,0 +1,53 @@
+{
+ "scientific": "Ketupa zeylonensis",
+ "name": "Brown Fish Owl",
+ "qid": "Q828255",
+ "description": "species of bird",
+ "extract": "The brown fish owl (Ketupa zeylonensis) is a fish owl species in the family known as typical owls, Strigidae. It is native from Turkey to South and Southeast Asia. Due its wide distribution it is listed as Least Concern on the IUCN Red List. It inhabits forests and wooded wetlands. Of the four living species of fish owl, it is the most widely distributed, most common and best-studied. It occupies a range of over 7,000 km (4,300 mi).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Brown_fishing_owl.jpg/1280px-Brown_fishing_owl.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Brown_fishing_owl.jpg/330px-Brown_fishing_owl.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brown_fishing_owl.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Somaskanda",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ketupa"
+  },
+  "family": {
+   "scientific": "Strigidae",
+   "name": "true owls"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "brown fish-owl"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q828255"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown_fish_owl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,62 @@
+{
+ "scientific": "Melopsittacus undulatus",
+ "name": "Budgerigar",
+ "qid": "Q121221",
+ "description": "species of bird",
+ "extract": "The budgerigar ( BUJ-ər-ih-gar, -⁠ə-ree-; Melopsittacus undulatus), also known as the common parakeet, shell parakeet or budgie ( BUJ-ee), is a small, long-tailed, seed-eating parrot native to Australia. Naturally, the species is green and yellow with black, scalloped markings on the nape, back, and wings. Budgies are bred in captivity with colouring of blues, whites, yellows, greys, and even with small crests. Juveniles and chicks are monomorphic (the sexes are visually indistinguishable), while adults are told apart by their cere colouring and their behaviour.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Budgerigar-male-strzelecki-qld.jpg/1280px-Budgerigar-male-strzelecki-qld.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Budgerigar-male-strzelecki-qld.jpg/330px-Budgerigar-male-strzelecki-qld.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Budgerigar-male-strzelecki-qld.jpg",
+   "license": "GFDL 1.2",
+   "artist": "Benjamint444",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Budgerigar-strzelecki-qld.jpg/1280px-Budgerigar-strzelecki-qld.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Budgerigar-strzelecki-qld.jpg/330px-Budgerigar-strzelecki-qld.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Budgerigar-strzelecki-qld.jpg",
+   "license": "GFDL 1.2",
+   "artist": "Benjamint444",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 2.1,
+   "max": 2.1,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Melopsittacus"
+  },
+  "family": {
+   "scientific": "Psittacidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "other_names": [
+  "budgie"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q121221"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Budgerigar"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

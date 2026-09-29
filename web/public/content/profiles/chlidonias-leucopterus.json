@@ -1,0 +1,70 @@
+{
+ "scientific": "Chlidonias leucopterus",
+ "name": "White-winged Tern",
+ "qid": "Q241753",
+ "description": "species of bird",
+ "extract": "The white-winged tern or white-winged black tern (Chlidonias leucopterus) is a species of tern in the family Laridae. It is a small species generally found in or near bodies of fresh water across much of the world, including Europe, Africa, Asia, and Australia. The genus name is from Ancient Greek khelidonios, \"swallow-like\", from khelidon, \"swallow\".",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Chlidonias_leucopterus_Mai_Po.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Chlidonias_leucopterus_Mai_Po.jpg/330px-Chlidonias_leucopterus_Mai_Po.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chlidonias_leucopterus_Mai_Po.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Charles Lam from Hong Kong, China",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/ChlidoniasLeucopterus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/ChlidoniasLeucopterus.jpg/330px-ChlidoniasLeucopterus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:ChlidoniasLeucopterus.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Ziegentom (www.fotocommunity.de)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 65.0,
+   "max": 65.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 10.5,
+   "max": 10.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chlidonias"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "white-winged black tern"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q241753"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-winged_tern"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,54 @@
+{
+ "scientific": "Passer cinnamomeus",
+ "name": "Russet Sparrow",
+ "qid": "Q28868046",
+ "description": "species of bird",
+ "extract": "The russet sparrow (Passer cinnamomeus), also called the cinnamon or cinnamon tree sparrow, is a passerine bird of the sparrow family Passeridae. A chunky little seed-eating bird with a thick bill, it has a body length of 14 to 15 cm (5.5–5.9 in). Its plumage is mainly warm rufous above and grey below. It exhibits sexual dimorphism, with the plumage of both sexes patterned similarly to that of the corresponding sex of house sparrow. Its vocalisations are sweet and musical chirps, which when strung together form a song.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Russet_Sparrow_in_Sillery_Gaon_September_2025_by_Tisha_Mukherjee_03.jpg/1280px-Russet_Sparrow_in_Sillery_Gaon_September_2025_by_Tisha_Mukherjee_03.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Russet_Sparrow_in_Sillery_Gaon_September_2025_by_Tisha_Mukherjee_03.jpg/330px-Russet_Sparrow_in_Sillery_Gaon_September_2025_by_Tisha_Mukherjee_03.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Russet_Sparrow_in_Sillery_Gaon_September_2025_by_Tisha_Mukherjee_03.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Cinnamon_Sparrow_Passer_rutilans%2C_female_DSC_3946_%281%29.jpg/1280px-Cinnamon_Sparrow_Passer_rutilans%2C_female_DSC_3946_%281%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Cinnamon_Sparrow_Passer_rutilans%2C_female_DSC_3946_%281%29.jpg/330px-Cinnamon_Sparrow_Passer_rutilans%2C_female_DSC_3946_%281%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cinnamon_Sparrow_Passer_rutilans,_female_DSC_3946_(1).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dr. Raju Kasambe",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Passer"
+  },
+  "family": {
+   "scientific": "Passeridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q28868046"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Russet_sparrow"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,65 @@
+{
+ "scientific": "Anous stolidus",
+ "name": "Brown Noddy",
+ "qid": "Q525717",
+ "description": "species of bird",
+ "extract": "The brown noddy, common noddy or noddy tern  (Anous stolidus) is a seabird in the family Laridae. The largest of the noddies, it can be told from the closely related black noddy by its larger size and plumage, which is dark brown rather than black. The brown noddy is a tropical seabird with a worldwide distribution, ranging from Hawaii to the Tuamotu Archipelago and Australia in the Pacific Ocean, from the Red Sea to the Seychelles and Australia in the Indian Ocean and in the Caribbean to Tristan da Cunha in the Atlantic Ocean. The brown noddy is colonial, usually nesting on elevated situations on cliffs or in short trees or shrubs. It only occasionally nests on the ground. A single egg is laid by the female of a pair each breeding season. In India, the brown noddy is protected in the PM Sayeed Marine Birds Conservation Reserve.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Anous_stolidus_by_Gregg_Yan_01.jpg/1280px-Anous_stolidus_by_Gregg_Yan_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Anous_stolidus_by_Gregg_Yan_01.jpg/330px-Anous_stolidus_by_Gregg_Yan_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Anous_stolidus_by_Gregg_Yan_01.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Gregg Yan",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Common_Noddy.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Common_Noddy.jpg/330px-Common_Noddy.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_Noddy.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Glen Fergus",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 82.0,
+   "max": 82.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anous"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "common noddy"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q525717"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown_noddy"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

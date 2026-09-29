@@ -1,0 +1,45 @@
+{
+ "scientific": "Chrysocolaptes lucidus",
+ "name": "Buff-spotted Flameback",
+ "qid": "Q867085",
+ "description": "species of bird",
+ "extract": "The buff-spotted flameback (Chrysocolaptes lucidus) is a species of bird in the family Picidae. It is found on the  Philippine islands of Bohol, Leyte, Samar, Biliran, Panaon, Mindanao, Basilan, and Samal. Along with the other Philippine species, Yellow-faced flameback, Luzon flameback, Red-headed flameback, it was formerly conspecific greater flameback",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Chrysocolaptes_lucidus_montanus%2C_hembra%2C_Mindanao_MG_1989.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Chrysocolaptes_lucidus_montanus%2C_hembra%2C_Mindanao_MG_1989.jpg/330px-Chrysocolaptes_lucidus_montanus%2C_hembra%2C_Mindanao_MG_1989.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chrysocolaptes_lucidus_montanus,_hembra,_Mindanao_MG_1989.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Carmeloabad",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chrysocolaptes"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q867085"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buff-spotted_flameback"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,58 @@
+{
+ "scientific": "Indicator xanthonotus",
+ "name": "Yellow-rumped Honeyguide",
+ "qid": "Q1274121",
+ "description": "species of bird",
+ "extract": "The yellow-rumped honeyguide (Indicator xanthonotus) is a sparrow-sized bird in the honeyguide family that is found in Asia, mainly in montane forests along the Himalayas. They are very finch-like but the feet are strong and zygodactyl, with two toes facing forward and two backward. They perch on honeycombs and feed on wax. Males tend to be territorial and stay near honeycombs while females and juveniles forage widely. They are brood parasites, laying their eggs in the nests of tree-hole breeders, possibly barbets.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Yellow-rumped_Honeyguide_from_Eaglenest_Wildlife_Sanctuary_in_Arunachal_Pradesh_%28cropped2%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Yellow-rumped_Honeyguide_from_Eaglenest_Wildlife_Sanctuary_in_Arunachal_Pradesh_%28cropped2%29.jpg/330px-Yellow-rumped_Honeyguide_from_Eaglenest_Wildlife_Sanctuary_in_Arunachal_Pradesh_%28cropped2%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Yellow-rumped_Honeyguide_from_Eaglenest_Wildlife_Sanctuary_in_Arunachal_Pradesh_(cropped2).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/IndicatorXanthonotusJerdon.jpg/1280px-IndicatorXanthonotusJerdon.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/IndicatorXanthonotusJerdon.jpg/330px-IndicatorXanthonotusJerdon.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:IndicatorXanthonotusJerdon.jpg",
+   "license": "Public domain",
+   "artist": "(text) T C Jerdon; (art) R.E.B.",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 28.0,
+   "max": 33.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Indicator"
+  },
+  "family": {
+   "scientific": "Indicatoridae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1274121"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yellow-rumped_honeyguide"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

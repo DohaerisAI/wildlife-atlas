@@ -1,0 +1,48 @@
+{
+ "scientific": "Merops leschenaulti",
+ "name": "Chestnut-headed Bee-eater",
+ "qid": "Q31958",
+ "description": "species of near-passerine bird in the bee-eater family Meropidae",
+ "extract": "The chestnut-headed bee-eater (Merops leschenaulti), or bay-headed bee-eater, is a bird in the bee-eater family Meropidae. It breeds on the Indian subcontinent and adjoining regions, ranging from India, Bangladesh and Sri Lanka across Southeast Asia to Indonesia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Chestnut-headed_bee-eater_%28Merops_leschenaulti%29_Yala.jpg/1280px-Chestnut-headed_bee-eater_%28Merops_leschenaulti%29_Yala.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Chestnut-headed_bee-eater_%28Merops_leschenaulti%29_Yala.jpg/330px-Chestnut-headed_bee-eater_%28Merops_leschenaulti%29_Yala.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chestnut-headed_bee-eater_(Merops_leschenaulti)_Yala.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Merops"
+  },
+  "family": {
+   "scientific": "Meropidae"
+  },
+  "order": {
+   "scientific": "Coraciiformes"
+  }
+ },
+ "other_names": [
+  "Bay-headed Bee-eater"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q31958"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chestnut-headed_bee-eater"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

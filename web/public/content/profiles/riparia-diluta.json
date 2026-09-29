@@ -1,0 +1,46 @@
+{
+ "scientific": "Riparia diluta",
+ "name": "Pale Martin",
+ "qid": "Q3136313",
+ "description": "species of bird",
+ "extract": "The pale martin or pale sand martin (Riparia diluta) is a small passerine bird in the swallow family.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Riparia_diluta.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Riparia_diluta.JPG/330px-Riparia_diluta.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Riparia_diluta.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Vladimir Yu. Arkhipov, Arkhivov",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Riparia"
+  },
+  "family": {
+   "scientific": "Hirundinidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3136313"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pale_martin"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

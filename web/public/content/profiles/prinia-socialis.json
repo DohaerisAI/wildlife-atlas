@@ -1,0 +1,51 @@
+{
+ "scientific": "Prinia socialis",
+ "name": "Ashy Prinia",
+ "qid": "Q1590952",
+ "description": "species of bird",
+ "extract": "The ashy prinia or ashy wren-warbler (Prinia socialis) is a small warbler in the family Cisticolidae. This prinia is a resident breeder in the Indian subcontinent, ranging across most of India, Nepal, Bangladesh, eastern Pakistan, Bhutan, Sri Lanka and western Myanmar. It is a common bird in urban gardens and farmlands in many parts of India and its small size, distinctive colours and upright tail make it easy to identify. The northern populations have a rufous rump and back and have a distinct breeding and non-breeding plumage while other populations lack such variation.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Ashy_Prinia_in_Ajodhya_Hills_July_2024_by_Tisha_Mukherjee_01.jpg/1280px-Ashy_Prinia_in_Ajodhya_Hills_July_2024_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Ashy_Prinia_in_Ajodhya_Hills_July_2024_by_Tisha_Mukherjee_01.jpg/330px-Ashy_Prinia_in_Ajodhya_Hills_July_2024_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ashy_Prinia_in_Ajodhya_Hills_July_2024_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 8.0,
+   "max": 8.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Prinia"
+  },
+  "family": {
+   "scientific": "Cisticolidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1590952"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ashy_prinia"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

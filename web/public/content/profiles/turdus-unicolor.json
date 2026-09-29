@@ -1,0 +1,59 @@
+{
+ "scientific": "Turdus unicolor",
+ "name": "Tickell's Thrush",
+ "qid": "Q1585735",
+ "description": "species of bird",
+ "extract": "Tickell's thrush (Turdus unicolor) is a passerine bird in the thrush family Turdidae. It is common in open forest in the Himalayas, and migrates seasonally into peninsular India, Nepal and rarely to Bangladesh.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Tickell%27s_Thrush_%28Turdus_unicolor%29_%2852490824453%29.jpg/1280px-Tickell%27s_Thrush_%28Turdus_unicolor%29_%2852490824453%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Tickell%27s_Thrush_%28Turdus_unicolor%29_%2852490824453%29.jpg/330px-Tickell%27s_Thrush_%28Turdus_unicolor%29_%2852490824453%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tickell%27s_Thrush_(Turdus_unicolor)_(52490824453).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Tickell%27s_Thrush_%28Turdus_unicolor%29_%2842987001365%29.jpg/1280px-Tickell%27s_Thrush_%28Turdus_unicolor%29_%2842987001365%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Tickell%27s_Thrush_%28Turdus_unicolor%29_%2842987001365%29.jpg/330px-Tickell%27s_Thrush_%28Turdus_unicolor%29_%2842987001365%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tickell%27s_Thrush_(Turdus_unicolor)_(42987001365).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 64.0,
+   "max": 64.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turdus"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1585735"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tickell%27s_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,67 @@
+{
+ "scientific": "Circus pygargus",
+ "name": "Montagu's Harrier",
+ "qid": "Q26574",
+ "description": "species of bird of prey of the harrier family",
+ "extract": "Montagu's harrier (Circus pygargus) is a species of harrier, a bird of prey in the family Accipitridae. It breeds in large open areas in the Palearctic and is migratory, wintering in Africa, the Indian subcontinent and parts of the Arabian Peninsula. Its common name commemorates the British naturalist George Montagu.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Flickr_-_don_macauley_-_Bird_015.jpg/1280px-Flickr_-_don_macauley_-_Bird_015.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Flickr_-_don_macauley_-_Bird_015.jpg/330px-Flickr_-_don_macauley_-_Bird_015.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_don_macauley_-_Bird_015.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Donald Macauley",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Circus_pygargus_%2833541975444%29.jpg/1280px-Circus_pygargus_%2833541975444%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Circus_pygargus_%2833541975444%29.jpg/330px-Circus_pygargus_%2833541975444%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Circus_pygargus_(33541975444).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jac. Janssen from Baarlo lb, NL",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 109.0,
+   "max": 109.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 24.0,
+   "max": 370.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Circus"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26574"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Montagu%27s_harrier"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

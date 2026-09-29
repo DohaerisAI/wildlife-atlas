@@ -1,0 +1,40 @@
+{
+ "scientific": "Yungipicus nanus",
+ "name": "Brown-capped Pygmy Woodpecker",
+ "qid": "Q27074876",
+ "description": "species of bird",
+ "extract": "The brown-capped pygmy woodpecker or Indian pygmy woodpecker (Yungipicus nanus) is a species of very small woodpecker found in Nepal, India and Sri Lanka. Some taxonomic authorities continue to place this species in the genus Dendrocopos or Picoides. This species is non-migratory and often spotted in pairs or small family groups. They are known for being very active and are not often spotted, despite their constant foraging in the tree canopy.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Dendrocopos_nanus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Dendrocopos_nanus.jpg/330px-Dendrocopos_nanus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dendrocopos_nanus.jpg",
+   "license": "CC BY 2.5",
+   "artist": "Unknown",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Yungipicus"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27074876"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown-capped_pygmy_woodpecker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

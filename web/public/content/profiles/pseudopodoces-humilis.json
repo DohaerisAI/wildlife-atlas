@@ -1,0 +1,51 @@
+{
+ "scientific": "Pseudopodoces humilis",
+ "name": "Ground Tit",
+ "qid": "Q1392005",
+ "description": "species of bird",
+ "extract": "The ground tit, Tibetan ground tit, or Hume's ground tit (Pseudopodoces humilis) is a bird of the Tibetan plateau north of the Himalayas. The peculiar appearance confused ornithologists who in the past variously called it Hume's groundpecker, Hume's ground jay or Tibetan ground jay on the assumption it belonged to the family Corvidae that includes the crows and jays. Although morphologically confusing, the species has since been identified using molecular sequence comparisons as being a member of the tit family (Paridae), and is now treated as the only species in the genus Pseudopodoces. It is found in the Tibetan Plateau of China, India, Nepal & Bhutan.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Ground_Tit_%28Pseudopodoces_humilis%29_%2853463185913%29.jpg/1280px-Ground_Tit_%28Pseudopodoces_humilis%29_%2853463185913%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Ground_Tit_%28Pseudopodoces_humilis%29_%2853463185913%29.jpg/330px-Ground_Tit_%28Pseudopodoces_humilis%29_%2853463185913%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ground_Tit_(Pseudopodoces_humilis)_(53463185913).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Birds of Gilgit-Baltistan from Aliabad, Hunza, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 45.0,
+   "max": 45.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pseudopodoces"
+  },
+  "family": {
+   "scientific": "Paridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1392005"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ground_tit"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,46 @@
+{
+ "scientific": "Turdus eunomus",
+ "name": "Dusky Thrush",
+ "qid": "Q1591651",
+ "description": "species of bird",
+ "extract": "The dusky thrush (Turdus eunomus) is a member of the thrush family which breeds eastwards from central Siberia to Kamchatka  wintering in Korea, Japan, South China and Myanmar. It is closely related to the more southerly breeding Naumann's thrush T. naumanni; the two have often been regarded as conspecific. The scientific name comes from Latin Turdus, \"thrush\" and Ancient Greek eunomos, \"orderly\".",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Turdus_eunomus_s3.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Turdus_eunomus_s3.jpg/330px-Turdus_eunomus_s3.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Turdus_eunomus_s3.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Alpsdake",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turdus"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1591651"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dusky_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

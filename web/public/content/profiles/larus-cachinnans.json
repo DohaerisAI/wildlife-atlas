@@ -1,0 +1,59 @@
+{
+ "scientific": "Larus cachinnans",
+ "name": "Caspian Gull",
+ "qid": "Q389505",
+ "description": "species of bird",
+ "extract": "The Caspian gull (Larus cachinnans) is a large gull and a member of the herring and lesser black-backed gull complex. The scientific name is from Latin. Larus appears to have referred to a gull or other large seabird, and cachinnans means 'laughing', from cachinnare 'to laugh'.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Larus_cachinnans_3_%28Marek_Szczepanek%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Larus_cachinnans_3_%28Marek_Szczepanek%29.jpg/330px-Larus_cachinnans_3_%28Marek_Szczepanek%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Larus_cachinnans_3_(Marek_Szczepanek).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Marek Szczepanek",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 137.0,
+   "max": 145.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 60.0,
+   "max": 1275.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Larus"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q389505"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Caspian_gull"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

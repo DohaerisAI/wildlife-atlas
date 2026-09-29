@@ -1,0 +1,62 @@
+{
+ "scientific": "Rhyticeros undulatus",
+ "name": "Wreathed Hornbill",
+ "qid": "Q31829",
+ "description": "species of bird",
+ "extract": "The wreathed hornbill (Rhyticeros undulatus) is an Old World tropical bird of the hornbill family Bucerotidae, also called bar-pouched wreathed hornbill due to its distinctive blue-black band on its lower throat sac. It is named after its characteristic long, curved bill that develops ridges, or wreaths, on the casque of the upper mandible in adults. Males are black with a rufous crown, a white upper breast and face, and a yellow featherless throat. Females are uniformly black with a blue throat and are slightly smaller than males.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Wreathed_hornbill_male.jpg/1280px-Wreathed_hornbill_male.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Wreathed_hornbill_male.jpg/330px-Wreathed_hornbill_male.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wreathed_hornbill_male.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Aparajita Datta",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Bird_Wreathed_Hornbill_Rhyticeros_undulatus_DSCN9018_13.jpg/1280px-Bird_Wreathed_Hornbill_Rhyticeros_undulatus_DSCN9018_13.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Bird_Wreathed_Hornbill_Rhyticeros_undulatus_DSCN9018_13.jpg/330px-Bird_Wreathed_Hornbill_Rhyticeros_undulatus_DSCN9018_13.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bird_Wreathed_Hornbill_Rhyticeros_undulatus_DSCN9018_13.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Rohit Naniwadekar",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 1950.0,
+   "max": 2515.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Rhyticeros"
+  },
+  "family": {
+   "scientific": "Bucerotidae",
+   "name": "hornbill"
+  },
+  "order": {
+   "scientific": "Bucerotiformes"
+  }
+ },
+ "other_names": [
+  "Rhyticeros undulates"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q31829"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wreathed_hornbill"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,67 @@
+{
+ "scientific": "Tachybaptus ruficollis",
+ "name": "Little Grebe",
+ "qid": "Q25421",
+ "description": "species of bird",
+ "extract": "The little grebe (Tachybaptus ruficollis), also known as the dabchick, is a member of the grebe family of water birds. The genus name is from Ancient Greek takhus \"fast\" and bapto \"to sink under\". The specific ruficollis is from Latin rufus \"red\" and Modern Latin -collis, \"-necked\", itself derived from Latin collum \"neck\".",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Zwergtaucher_060319_3.jpg/1280px-Zwergtaucher_060319_3.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Zwergtaucher_060319_3.jpg/330px-Zwergtaucher_060319_3.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Zwergtaucher_060319_3.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Unknown",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Little_Grebe_-_Tachybaptus_ruficollis_15-1.jpg/1280px-Little_Grebe_-_Tachybaptus_ruficollis_15-1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Little_Grebe_-_Tachybaptus_ruficollis_15-1.jpg/330px-Little_Grebe_-_Tachybaptus_ruficollis_15-1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Little_Grebe_-_Tachybaptus_ruficollis_15-1.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Zeynel Cebeci",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 42.0,
+   "max": 42.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 13.7,
+   "max": 13.7,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tachybaptus"
+  },
+  "family": {
+   "scientific": "Podicipedidae"
+  },
+  "order": {
+   "scientific": "Podicipediformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25421"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Little_grebe"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

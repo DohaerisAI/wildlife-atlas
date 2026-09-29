@@ -1,0 +1,32 @@
+{
+ "scientific": "Urosphena pallidipes",
+ "name": "Pale-footed Bush Warbler",
+ "qid": "Q27075474",
+ "description": "species of bird",
+ "extract": "The pale-footed bush warbler (Hemitesia pallidipes) is a species of oriental warbler in the family Cettiidae that is found in southern Asia. It occurs in the Himalayan region west from Dehradun through the foothills of Nepal to northeastern India. It also occurs in Myanmar, Laos, northern Vietnam and southern China. A single sighting was recorded from Kandy, Sri Lanka in March 1993.",
+ "images": [],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Hemitesia"
+  },
+  "family": {
+   "scientific": "Cettiidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075474"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pale-footed_bush_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

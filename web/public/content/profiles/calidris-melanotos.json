@@ -1,0 +1,67 @@
+{
+ "scientific": "Calidris melanotos",
+ "name": "Pectoral Sandpiper",
+ "qid": "Q260716",
+ "description": "species of bird",
+ "extract": "The pectoral sandpiper (Calidris melanotos), often abbreviated pec, is a small, migratory wader that breeds in arctic regions of North America and Asia, wintering in South America and Oceania. It eats small invertebrates. Its nest, a hole scraped in the ground and with a thick lining, is deep enough to protect its four eggs from the cool breezes of its breeding grounds. The pectoral sandpiper is 19–23 cm (7.5–9.1 in) long, with a wingspan of 38–46 cm (15–18 in).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Pectoral-Sandpiper017.jpg/1280px-Pectoral-Sandpiper017.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Pectoral-Sandpiper017.jpg/330px-Pectoral-Sandpiper017.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pectoral-Sandpiper017.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Pectoral_Sandpiper3.jpg/1280px-Pectoral_Sandpiper3.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Pectoral_Sandpiper3.jpg/330px-Pectoral_Sandpiper3.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pectoral_Sandpiper3.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 37.0,
+   "max": 45.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 13.1,
+   "max": 97.8,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Calidris"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q260716"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pectoral_sandpiper"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

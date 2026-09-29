@@ -1,0 +1,70 @@
+{
+ "scientific": "Mergellus albellus",
+ "name": "Smew",
+ "qid": "Q200646",
+ "description": "species of bird",
+ "extract": "The smew (Mergellus albellus) is a species of duck and is the only living member of the genus Mergellus. The genus is closely related to Mergus and is sometimes included in it; genetic studies have shown that it is the sister taxon to Mergus and Lophodytes. The smew has hybridised with the common goldeneye (Bucephala clangula).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Mergellus_albellus%2C_Zevenhuizen%2C_Texel%2C_Netherlands_1.jpg/1280px-Mergellus_albellus%2C_Zevenhuizen%2C_Texel%2C_Netherlands_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Mergellus_albellus%2C_Zevenhuizen%2C_Texel%2C_Netherlands_1.jpg/330px-Mergellus_albellus%2C_Zevenhuizen%2C_Texel%2C_Netherlands_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mergellus_albellus,_Zevenhuizen,_Texel,_Netherlands_1.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Mergellus_albellus%2C_Killingworth_Lake%2C_Northumberland_1.jpg/1280px-Mergellus_albellus%2C_Killingworth_Lake%2C_Northumberland_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Mergellus_albellus%2C_Killingworth_Lake%2C_Northumberland_1.jpg/330px-Mergellus_albellus%2C_Killingworth_Lake%2C_Northumberland_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mergellus_albellus,_Killingworth_Lake,_Northumberland_1.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "MPF",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 62.0,
+   "max": 62.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 42.0,
+   "max": 652.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Mergellus"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Mergus albellus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q200646"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Smew"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

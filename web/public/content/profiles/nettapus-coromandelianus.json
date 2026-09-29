@@ -1,0 +1,70 @@
+{
+ "scientific": "Nettapus coromandelianus",
+ "name": "Cotton Pygmy Goose",
+ "qid": "Q839532",
+ "description": "species of bird",
+ "extract": "The cotton pygmy goose or cotton teal (Nettapus coromandelianus) is a small perching duck which breeds in South and Southeast Asia extending to Queensland in Australia where they are sometimes called white-quilled pygmy goose. They are among the smallest waterfowl in the world and are found in small to large waterbodies with good aquatic vegetation. They are usually seen in pairs or larger groups of pairs, roosting and nesting on trees near water. They are strong fliers and are known to disperse widely, especially in winter. Their breeding season coincides with the rains.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Cotton_Pygmy-goose.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Cotton_Pygmy-goose.jpg/330px-Cotton_Pygmy-goose.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cotton_Pygmy-goose.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Glen Fergus",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Nettapus_coromandelianus_male_-_Bueng_Boraphet.jpg/1280px-Nettapus_coromandelianus_male_-_Bueng_Boraphet.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Nettapus_coromandelianus_male_-_Bueng_Boraphet.jpg/330px-Nettapus_coromandelianus_male_-_Bueng_Boraphet.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Nettapus_coromandelianus_male_-_Bueng_Boraphet.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": "Male"
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 57.0,
+   "max": 57.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 27.0,
+   "max": 282.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Nettapus"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Nettapus (Cheniscus) coromandelianus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q839532"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cotton_pygmy_goose"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,45 @@
+{
+ "scientific": "Blythipicus pyrrhotis",
+ "name": "Bay Woodpecker",
+ "qid": "Q1261701",
+ "description": "species of bird",
+ "extract": "The bay woodpecker (Blythipicus pyrrhotis) is a species of bird in the family Picidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Bay_Woodpecker_Blythipicus_pyrrhotis_Mizoram_%282%29.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Bay_Woodpecker_Blythipicus_pyrrhotis_Mizoram_%282%29.JPG/330px-Bay_Woodpecker_Blythipicus_pyrrhotis_Mizoram_%282%29.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Bay_Woodpecker_Blythipicus_pyrrhotis_Mizoram_(2).JPG",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dr. Raju Kasambe",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Blythipicus"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1261701"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bay_woodpecker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

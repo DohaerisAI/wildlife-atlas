@@ -1,0 +1,57 @@
+{
+ "scientific": "Pyrrhocorax graculus",
+ "name": "Alpine Chough",
+ "qid": "Q191386",
+ "description": "species of bird",
+ "extract": "The Alpine chough (; chuf) or yellow-billed chough (Pyrrhocorax graculus) is a bird in the crow family, one of only two species in the genus Pyrrhocorax. Its two subspecies breed in high mountains from Spain eastwards through southern Europe and North Africa to Central Asia and Nepal, and it may nest at a higher altitude than any other bird. Its eggs have adaptations to the thin atmosphere that improve oxygen take-up and reduce water loss.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Alpine_Chough_by_Jim_Higham.jpg/1280px-Alpine_Chough_by_Jim_Higham.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Alpine_Chough_by_Jim_Higham.jpg/330px-Alpine_Chough_by_Jim_Higham.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Alpine_Chough_by_Jim_Higham.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jim Higham from UK",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Alpine_Chough.jpg/1280px-Alpine_Chough.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Alpine_Chough.jpg/330px-Alpine_Chough.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Alpine_Chough.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Pethan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pyrrhocorax"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Yellow-billed chough"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q191386"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Alpine_chough"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

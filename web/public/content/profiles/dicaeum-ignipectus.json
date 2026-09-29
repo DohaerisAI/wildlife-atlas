@@ -1,0 +1,46 @@
+{
+ "scientific": "Dicaeum ignipectus",
+ "name": "Fire-breasted flowerpecker",
+ "qid": "Q1441623",
+ "description": "species of bird",
+ "extract": "The fire-breasted flowerpecker (Dicaeum ignipectus) is a species of bird in the family Dicaeidae found in the Indian subcontinent and Southeast Asia. Like other flowerpeckers, this tiny bird feeds on fruits and plays an important role in the dispersal of fruiting plants. Unlike many other species in the genus, this species has marked sexual dimorphism with the male having contrasting upper and lower parts with a distinctive bright orange breast patch. The female is dull coloured.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Fire-breasted_flowerpecker_%28Dicaeum_ignipectus%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Fire-breasted_flowerpecker_%28Dicaeum_ignipectus%29.jpg/330px-Fire-breasted_flowerpecker_%28Dicaeum_ignipectus%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Fire-breasted_flowerpecker_(Dicaeum_ignipectus).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee Yap",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dicaeum"
+  },
+  "family": {
+   "scientific": "Dicaeidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1441623"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fire-breasted_flowerpecker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

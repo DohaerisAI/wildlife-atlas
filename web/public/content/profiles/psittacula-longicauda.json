@@ -1,0 +1,51 @@
+{
+ "scientific": "Psittacula longicauda",
+ "name": "Long-tailed Parakeet",
+ "qid": "Q1055832",
+ "description": "species of bird",
+ "extract": "The long-tailed parakeet (Psittacula longicauda) or Burung Bayan Nuri in Malay is a parakeet endemic to the regions of Andaman and Nicobar Islands, Sumatra, Borneo and Peninsular Malaysia (including Singapore). It is allopatric with the congener, the Red-breasted parakeet, Psittacula alexandri, except in the Andaman Islands where they occur together.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Psittacula_longicauda_%28feeding%29_-Queenstown_-Singapore-6.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Psittacula_longicauda_%28feeding%29_-Queenstown_-Singapore-6.jpg/330px-Psittacula_longicauda_%28feeding%29_-Queenstown_-Singapore-6.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Psittacula_longicauda_(feeding)_-Queenstown_-Singapore-6.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee Yap",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 182.0,
+   "max": 182.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Psittacula"
+  },
+  "family": {
+   "scientific": "Psittaculidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1055832"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Long-tailed_parakeet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

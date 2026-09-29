@@ -1,0 +1,65 @@
+{
+ "scientific": "Tringa brevipes",
+ "name": "Grey-tailed Tattler",
+ "qid": "Q11848755",
+ "description": "species of bird",
+ "extract": "The grey-tailed tattler (Tringa brevipes), also known as the Siberian tattler or Polynesian tattler, is a small shorebird in the genus Tringa. The English name for the tattlers refers to their noisy call. The genus name Tringa is the Neo-Latin name given to the green sandpiper by Aldrovandus in 1599 based on Ancient Greek trungas, a thrush-sized, white-rumped, tail-bobbing wading bird mentioned by Aristotle. The specific brevipes is from Latin brevis, \"short\", and pes, \"foot\".",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Tringa_brevipes_on_rock.JPG/1280px-Tringa_brevipes_on_rock.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Tringa_brevipes_on_rock.JPG/330px-Tringa_brevipes_on_rock.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Tringa_brevipes_on_rock.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Alpsdake",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Tringa_brevipes.jpg/1280px-Tringa_brevipes.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Tringa_brevipes.jpg/330px-Tringa_brevipes.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tringa_brevipes.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 60.0,
+   "max": 65.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tringa"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Tringa (Heteroscelus) brevipes"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q11848755"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey-tailed_tattler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

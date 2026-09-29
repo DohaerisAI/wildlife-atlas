@@ -1,0 +1,67 @@
+{
+ "scientific": "Elanus caeruleus",
+ "name": "Black-winged kite",
+ "qid": "Q27227",
+ "description": "species of bird",
+ "extract": "The black-winged kite (Elanus caeruleus), also known as the black-shouldered kite (not to be confused with the closely related Australian species of the same name), is a small diurnal bird of prey in the family Accipitridae best known for its habit of hovering over open grasslands in the manner of the much smaller kestrels. This Palearctic and Afrotropical species was sometimes combined with the Australian black-shouldered kite (Elanus axillaris) and the white-tailed kite (Elanus leucurus) of North and South America which together form a superspecies. This kite is distinctive, with long wings; white, grey and black plumage; and owl-like forward-facing eyes with red irises. The owl-like behaviour is even more pronounced in the letter-winged kite (Elanus scriptus), a nocturnal relative in Australia. Although mainly seen on plains, they are sometimes seen on grassy slopes of hills in the higher elevation regions of Asia. They are not migratory, but show nomadism in response to weather and food availability. They are well adapted to utilize periodic upsurges in rodent populations and can raise multiple broods in a single year unlike most birds of prey. Populations in southern Europe have grown in response to human activities, particularly agriculture and livestock rearing. It is now present in Southwest France.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Black-winged_Kite_in_Tal_Chhapar_Sanctuary_November_2025_by_Tisha_Mukherjee_03.jpg/1280px-Black-winged_Kite_in_Tal_Chhapar_Sanctuary_November_2025_by_Tisha_Mukherjee_03.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Black-winged_Kite_in_Tal_Chhapar_Sanctuary_November_2025_by_Tisha_Mukherjee_03.jpg/330px-Black-winged_Kite_in_Tal_Chhapar_Sanctuary_November_2025_by_Tisha_Mukherjee_03.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-winged_Kite_in_Tal_Chhapar_Sanctuary_November_2025_by_Tisha_Mukherjee_03.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Black-shouldered_Kite_%28Elanus_caeruleus%29_in_Kawal_WS%2C_AP_W_IMG_1681.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Black-shouldered_Kite_%28Elanus_caeruleus%29_in_Kawal_WS%2C_AP_W_IMG_1681.jpg/330px-Black-shouldered_Kite_%28Elanus_caeruleus%29_in_Kawal_WS%2C_AP_W_IMG_1681.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-shouldered_Kite_(Elanus_caeruleus)_in_Kawal_WS,_AP_W_IMG_1681.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 83.4,
+   "max": 83.4,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 21.0,
+   "max": 21.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Elanus"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27227"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-winged_kite"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

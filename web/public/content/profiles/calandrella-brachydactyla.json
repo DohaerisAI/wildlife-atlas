@@ -1,0 +1,58 @@
+{
+ "scientific": "Calandrella brachydactyla",
+ "name": "Greater Short-toed Lark",
+ "qid": "Q24843",
+ "description": "species of bird",
+ "extract": "The greater short-toed lark (Calandrella brachydactyla) is a small passerine bird. The current scientific name is from Ancient Greek. The genus name, Calandrella, is a diminutive of kalandros, the calandra lark, and brachydactila is from brakhus, \"short\", and daktulos, \"toe\".",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Alondra.jpg/1280px-Alondra.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Alondra.jpg/330px-Alondra.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Alondra.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Juan Lacruz",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/GREATER_SHORT-TOED_LARK_Calandrella_brachydactyla_%288468650916%29.jpg/1280px-GREATER_SHORT-TOED_LARK_Calandrella_brachydactyla_%288468650916%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/GREATER_SHORT-TOED_LARK_Calandrella_brachydactyla_%288468650916%29.jpg/330px-GREATER_SHORT-TOED_LARK_Calandrella_brachydactyla_%288468650916%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:GREATER_SHORT-TOED_LARK_Calandrella_brachydactyla_(8468650916).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Len Worthington",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Calandrella"
+  },
+  "family": {
+   "scientific": "Alaudidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Short-toed lark",
+  "Greater short toed lark"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q24843"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Greater_short-toed_lark"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

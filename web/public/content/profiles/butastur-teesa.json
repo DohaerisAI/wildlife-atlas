@@ -1,0 +1,62 @@
+{
+ "scientific": "Butastur teesa",
+ "name": "White-eyed Buzzard",
+ "qid": "Q1268375",
+ "description": "species of bird",
+ "extract": "The white-eyed buzzard (Butastur teesa) is a medium-sized hawk, distinct from the true buzzards in the genus Buteo, found in South Asia. Adults have a rufous tail, a distinctive white iris, and a white throat bearing a dark mesial stripe bordered. The head is brown and the median coverts of the upper wing are pale. They lack the typical carpal patches on the underside of the wings seen in true buzzards, but the entire wing lining appears dark in contrast to the flight feathers. They sit upright on perches for prolonged periods and soar on thermals in search of insect and small vertebrate prey. They are vociferous in the breeding season, and several birds may be heard calling as they soar together.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/White-Eyed_Buzzard_Photograph_By_Shantanu_Kuveskar.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/White-Eyed_Buzzard_Photograph_By_Shantanu_Kuveskar.jpg/330px-White-Eyed_Buzzard_Photograph_By_Shantanu_Kuveskar.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-Eyed_Buzzard_Photograph_By_Shantanu_Kuveskar.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Shantanu Kuveskar",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/White-eyed_Buzzard_%28Butastur_teesa%29_in_Kawal_WS%2C_AP_W_IMG_2038.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/White-eyed_Buzzard_%28Butastur_teesa%29_in_Kawal_WS%2C_AP_W_IMG_2038.jpg/330px-White-eyed_Buzzard_%28Butastur_teesa%29_in_Kawal_WS%2C_AP_W_IMG_2038.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-eyed_Buzzard_(Butastur_teesa)_in_Kawal_WS,_AP_W_IMG_2038.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 86.0,
+   "max": 100.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Butastur"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1268375"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-eyed_buzzard"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

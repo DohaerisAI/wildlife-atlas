@@ -1,0 +1,46 @@
+{
+ "scientific": "Aegithalos niveogularis",
+ "name": "White-throated Bushtit",
+ "qid": "Q1589516",
+ "description": "species of bird",
+ "extract": "The white-throated bushtit (Aegithalos niveogularis), also known as the white-throated tit, is a species of bird in the family Aegithalidae.  It is found in India, Nepal, and Pakistan.  Its natural habitat is subtropical or tropical moist montane forests.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/White-throated_bushtit_%28Aegithalos_niveogularis%29_JEG9985_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/White-throated_bushtit_%28Aegithalos_niveogularis%29_JEG9985_%28cropped%29.jpg/330px-White-throated_bushtit_%28Aegithalos_niveogularis%29_JEG9985_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-throated_bushtit_(Aegithalos_niveogularis)_JEG9985_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "PJeganathan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aegithalos"
+  },
+  "family": {
+   "scientific": "Aegithalidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1589516"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-throated_bushtit"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

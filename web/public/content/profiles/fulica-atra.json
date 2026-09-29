@@ -1,0 +1,79 @@
+{
+ "scientific": "Fulica atra",
+ "name": "Common Coot",
+ "qid": "Q25376",
+ "description": "species of bird",
+ "extract": "The Eurasian coot (Fulica atra), also known as the common coot or Australian coot, is a member of the rail and crake bird family, the Rallidae. It is found in Europe, Asia, Australia, New Zealand and parts of North Africa. It has a slaty-black body, a glossy black head and a white bill with a white frontal shield. The sexes are similar in appearance.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Fulica_atra_Georges-Valbon_01.jpg/1280px-Fulica_atra_Georges-Valbon_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Fulica_atra_Georges-Valbon_01.jpg/330px-Fulica_atra_Georges-Valbon_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Fulica_atra_Georges-Valbon_01.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Alexis Lours",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Eurasian_Coot.jpg/1280px-Eurasian_Coot.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Eurasian_Coot.jpg/330px-Eurasian_Coot.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eurasian_Coot.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Noodle snacks",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Fulica_atra_-_Common_coot%2C_Adana_2016-11-12_01-1.jpg/1280px-Fulica_atra_-_Common_coot%2C_Adana_2016-11-12_01-1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Fulica_atra_-_Common_coot%2C_Adana_2016-11-12_01-1.jpg/330px-Fulica_atra_-_Common_coot%2C_Adana_2016-11-12_01-1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Fulica_atra_-_Common_coot,_Adana_2016-11-12_01-1.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Zeynel Cebeci",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 75.0,
+   "max": 75.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 36.5,
+   "max": 835.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Fulica"
+  },
+  "family": {
+   "scientific": "Rallidae"
+  },
+  "order": {
+   "scientific": "Gruiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Coot",
+  "Eurasian coot"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25376"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eurasian_coot"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,43 @@
+{
+ "scientific": "Garrulax ocellatus",
+ "name": "Spotted Laughingthrush",
+ "qid": "Q1048782",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Spotted_Laughingthrush.jpg/1280px-Spotted_Laughingthrush.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Spotted_Laughingthrush.jpg/330px-Spotted_Laughingthrush.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Spotted_Laughingthrush.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Ramwik",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 114.0,
+   "max": 114.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Garrulax"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1048782"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

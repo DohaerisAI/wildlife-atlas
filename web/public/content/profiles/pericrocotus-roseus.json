@@ -1,0 +1,60 @@
+{
+ "scientific": "Pericrocotus roseus",
+ "name": "Rosy Minivet",
+ "qid": "Q1028567",
+ "description": "species of bird",
+ "extract": "The rosy minivet (Pericrocotus roseus) is a species of bird in the family Campephagidae. It is omnivorous.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Pericrocotus_roseus%2C_Bhuya_Para%2C_Assam_25.jpg/1280px-Pericrocotus_roseus%2C_Bhuya_Para%2C_Assam_25.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Pericrocotus_roseus%2C_Bhuya_Para%2C_Assam_25.jpg/330px-Pericrocotus_roseus%2C_Bhuya_Para%2C_Assam_25.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pericrocotus_roseus,_Bhuya_Para,_Assam_25.jpg",
+   "license": "CC BY 4.0",
+   "artist": "rejoicegassah",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Pericrocotus_roseus%2C_Bhuya_Para%2C_Assam_15.jpg/1280px-Pericrocotus_roseus%2C_Bhuya_Para%2C_Assam_15.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Pericrocotus_roseus%2C_Bhuya_Para%2C_Assam_15.jpg/330px-Pericrocotus_roseus%2C_Bhuya_Para%2C_Assam_15.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pericrocotus_roseus,_Bhuya_Para,_Assam_15.jpg",
+   "license": "CC BY 4.0",
+   "artist": "rejoicegassah",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 16.0,
+   "max": 16.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pericrocotus",
+   "name": "Minivet"
+  },
+  "family": {
+   "scientific": "Campephagidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1028567"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rosy_minivet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

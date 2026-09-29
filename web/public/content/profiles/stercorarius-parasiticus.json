@@ -1,0 +1,73 @@
+{
+ "scientific": "Stercorarius parasiticus",
+ "name": "Parasitic Jaeger",
+ "qid": "Q203053",
+ "description": "species of bird",
+ "extract": "The parasitic jaeger or arctic skua (Stercorarius parasiticus), also known as the parasitic skua or arctic jaeger, is a seabird in the skua family Stercorariidae. It is a migratory species breeding in Northern Fennoscandia, Scotland, Iceland, Greenland, Northern Canada, Alaska, and Siberia and wintering across the southern hemisphere. Kleptoparasitism is a major source of food for this species during migration and winter, and is where the name is derived from.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Arctic_skua_%28Stercorarius_parasiticus%29_on_an_ice_floe%2C_Svalbard.jpg/1280px-Arctic_skua_%28Stercorarius_parasiticus%29_on_an_ice_floe%2C_Svalbard.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Arctic_skua_%28Stercorarius_parasiticus%29_on_an_ice_floe%2C_Svalbard.jpg/330px-Arctic_skua_%28Stercorarius_parasiticus%29_on_an_ice_floe%2C_Svalbard.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Arctic_skua_(Stercorarius_parasiticus)_on_an_ice_floe,_Svalbard.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "AWeith",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Arctic_Skua_%28Stercorarius_parasiticus%29_-_geograph.org.uk_-_599975.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Arctic_Skua_%28Stercorarius_parasiticus%29_-_geograph.org.uk_-_599975.jpg/330px-Arctic_Skua_%28Stercorarius_parasiticus%29_-_geograph.org.uk_-_599975.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Arctic_Skua_(Stercorarius_parasiticus)_-_geograph.org.uk_-_599975.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Mike Pennington",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Arctic_Skua_%28_Stercorarius_parasiticus_%29_Juvenile_..._Bridlington_%2C_Yorkshire_%2853241356445%29.jpg/1280px-Arctic_Skua_%28_Stercorarius_parasiticus_%29_Juvenile_..._Bridlington_%2C_Yorkshire_%2853241356445%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Arctic_Skua_%28_Stercorarius_parasiticus_%29_Juvenile_..._Bridlington_%2C_Yorkshire_%2853241356445%29.jpg/330px-Arctic_Skua_%28_Stercorarius_parasiticus_%29_Juvenile_..._Bridlington_%2C_Yorkshire_%2853241356445%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Arctic_Skua_(_Stercorarius_parasiticus_)_Juvenile_..._Bridlington_,_Yorkshire_(53241356445).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "peterichman",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 106.0,
+   "max": 106.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Stercorarius"
+  },
+  "family": {
+   "scientific": "Stercorariidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Arctic Skua"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q203053"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Parasitic_jaeger"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

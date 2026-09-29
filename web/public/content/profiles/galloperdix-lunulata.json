@@ -1,0 +1,62 @@
+{
+ "scientific": "Galloperdix lunulata",
+ "name": "Painted Spurfowl",
+ "qid": "Q1259938",
+ "description": "species of bird",
+ "extract": "The painted spurfowl (Galloperdix lunulata) is a bird of the pheasant family found in rocky hill and scrub forests mainly in peninsular India. Males are more brightly coloured and spotted boldly in white. Males have two to four spurs while females can have one or two of the spurs on their tarsus. The species is found mainly in rocky and scrub forest habitats unlike the red spurfowl. It is found in the undergrowth in pairs or small groups, escaping by running and rarely taking to the wing when flushed.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/PaintedSpurfowlMF2crop.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/PaintedSpurfowlMF2crop.jpg/330px-PaintedSpurfowlMF2crop.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:PaintedSpurfowlMF2crop.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "PaintedSpurfowlMF2.jpg: L. Shyamal\nderivative work: Materialscientist",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/PaintedSpurfowlMF1.JPG/1280px-PaintedSpurfowlMF1.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/PaintedSpurfowlMF1.JPG/330px-PaintedSpurfowlMF1.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:PaintedSpurfowlMF1.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "L. Shyamal",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 240.0,
+   "max": 270.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Galloperdix"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1259938"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Painted_spurfowl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

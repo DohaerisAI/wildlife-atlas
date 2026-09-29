@@ -1,0 +1,59 @@
+{
+ "scientific": "Gallinago megala",
+ "name": "Swinhoe's Snipe",
+ "qid": "Q371582",
+ "description": "species of bird",
+ "extract": "Swinhoe's snipe (Gallinago megala), also known as forest snipe or Chinese snipe, is a medium-sized (length 27–29 cm, wingspan 38–44 cm, weight 120 gm), long-billed, migratory wader.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Gallinago_megala.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Gallinago_megala.jpg/330px-Gallinago_megala.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gallinago_megala.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "DmitrySA",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 38.0,
+   "max": 50.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 140.0,
+   "max": 140.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Gallinago"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q371582"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Swinhoe%27s_snipe"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

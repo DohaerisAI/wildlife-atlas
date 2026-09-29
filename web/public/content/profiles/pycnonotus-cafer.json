@@ -1,0 +1,67 @@
+{
+ "scientific": "Pycnonotus cafer",
+ "name": "Red-vented Bulbul",
+ "qid": "Q509455",
+ "description": "species of bird",
+ "extract": "The red-vented bulbul (Pycnonotus cafer) is a member of the bulbul family of passerines. It is a resident breeder across South Asia extending east to Burma. It has been introduced in many other parts of the world and has established itself in Argentina, Tonga and Fiji, as well as parts of Samoa, USA and Cook Islands. It is included in the list of the world's 100 worst invasive alien species. In New Zealand they were the target of a successful extermination campaign in 1955, however they are still sporadically reported.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Red-vented_Bulbul_%28Pycnonotus_cafer%29_in_Tirunelveli%2C_India.jpg/1280px-Red-vented_Bulbul_%28Pycnonotus_cafer%29_in_Tirunelveli%2C_India.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Red-vented_Bulbul_%28Pycnonotus_cafer%29_in_Tirunelveli%2C_India.jpg/330px-Red-vented_Bulbul_%28Pycnonotus_cafer%29_in_Tirunelveli%2C_India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red-vented_Bulbul_(Pycnonotus_cafer)_in_Tirunelveli,_India.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "K. Hari Krishnan",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Red-vented_Bulbul_%28Pycnonotus_cafer%29_feeding_at_Kapok_%28Ceiba_pentandra%29_at_Kolkata_I_IMG_2535.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Red-vented_Bulbul_%28Pycnonotus_cafer%29_feeding_at_Kapok_%28Ceiba_pentandra%29_at_Kolkata_I_IMG_2535.jpg/330px-Red-vented_Bulbul_%28Pycnonotus_cafer%29_feeding_at_Kapok_%28Ceiba_pentandra%29_at_Kolkata_I_IMG_2535.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red-vented_Bulbul_(Pycnonotus_cafer)_feeding_at_Kapok_(Ceiba_pentandra)_at_Kolkata_I_IMG_2535.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Red-vented_Bulbul_in_Tabakoshi_March_2025_by_Tisha_Mukherjee_01.jpg/1280px-Red-vented_Bulbul_in_Tabakoshi_March_2025_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Red-vented_Bulbul_in_Tabakoshi_March_2025_by_Tisha_Mukherjee_01.jpg/330px-Red-vented_Bulbul_in_Tabakoshi_March_2025_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red-vented_Bulbul_in_Tabakoshi_March_2025_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 26.0,
+   "max": 26.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pycnonotus"
+  },
+  "family": {
+   "scientific": "Pycnonotidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q509455"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-vented_bulbul"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

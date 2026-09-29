@@ -1,0 +1,49 @@
+{
+ "scientific": "Ara chloropterus",
+ "name": "Red-and-green Macaw",
+ "qid": "Q739089",
+ "description": "species of bird",
+ "extract": "The red-and-green macaw (Ara chloropterus), also known as the green-winged macaw, is a large, mostly-red macaw of the genus Ara. It is popular in aviculture, and is the second most commonly kept macaw species after the blue-and-yellow macaw. However, they are not as common in captivity as the blue-and-yellow, and are much more expensive; prices are often double that of the blue-and-gold.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/189_Red-and-green_macaw_couple_flying_in_Chapada_dos_Guimar%C3%A3es_National_Park_Photo_by_Giles_Laurent.jpg/1280px-189_Red-and-green_macaw_couple_flying_in_Chapada_dos_Guimar%C3%A3es_National_Park_Photo_by_Giles_Laurent.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/189_Red-and-green_macaw_couple_flying_in_Chapada_dos_Guimar%C3%A3es_National_Park_Photo_by_Giles_Laurent.jpg/330px-189_Red-and-green_macaw_couple_flying_in_Chapada_dos_Guimar%C3%A3es_National_Park_Photo_by_Giles_Laurent.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:189_Red-and-green_macaw_couple_flying_in_Chapada_dos_Guimar%C3%A3es_National_Park_Photo_by_Giles_Laurent.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Giles Laurent",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ara"
+  },
+  "family": {
+   "scientific": "Psittacidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "other_names": [
+  "green-winged macaw"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q739089"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-and-green_macaw"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

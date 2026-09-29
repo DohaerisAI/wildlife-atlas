@@ -1,0 +1,45 @@
+{
+ "scientific": "Dinopium shorii",
+ "name": "Himalayan Flamebacked Woodpecker",
+ "qid": "Q1266154",
+ "description": "species of bird",
+ "extract": "The Himalayan flameback (Dinopium shorii), also known as the Himalayan goldenback, is a species of bird in the family Picidae. At the moment very little is known of this species and more fieldwork is required. The Himalayan flameback is not threatened but it is suspected that deforestation could severely affect the species population.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Himalayan_Flameback_%28Dinapium_shorii%29_at_Jayanti%2C_Duars%2C_WB_W_IMG_5746.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Himalayan_Flameback_%28Dinapium_shorii%29_at_Jayanti%2C_Duars%2C_WB_W_IMG_5746.jpg/330px-Himalayan_Flameback_%28Dinapium_shorii%29_at_Jayanti%2C_Duars%2C_WB_W_IMG_5746.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Himalayan_Flameback_(Dinapium_shorii)_at_Jayanti,_Duars,_WB_W_IMG_5746.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dinopium"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1266154"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Himalayan_flameback"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

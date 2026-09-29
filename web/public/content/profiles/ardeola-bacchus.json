@@ -1,0 +1,63 @@
+{
+ "scientific": "Ardeola bacchus",
+ "name": "Chinese Pond Heron",
+ "qid": "Q498102",
+ "description": "species of bird",
+ "extract": "The Chinese pond heron (Ardeola bacchus) is an East Asian freshwater bird of the heron family, (Ardeidae).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Ardeola_bacchus_%2819169872143%29.jpg/1280px-Ardeola_bacchus_%2819169872143%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Ardeola_bacchus_%2819169872143%29.jpg/330px-Ardeola_bacchus_%2819169872143%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ardeola_bacchus_(19169872143).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "https://www.flickr.com/photos/uncle_1389/",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Ardeola_bacchus_winter_plumage_-_Laem_Phak_Bia.jpg/1280px-Ardeola_bacchus_winter_plumage_-_Laem_Phak_Bia.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Ardeola_bacchus_winter_plumage_-_Laem_Phak_Bia.jpg/330px-Ardeola_bacchus_winter_plumage_-_Laem_Phak_Bia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ardeola_bacchus_winter_plumage_-_Laem_Phak_Bia.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 75.0,
+   "max": 90.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ardeola"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q498102"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chinese_pond_heron"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

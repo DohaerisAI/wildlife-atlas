@@ -1,0 +1,57 @@
+{
+ "scientific": "Caprimulgus indicus",
+ "name": "Jungle Nightjar",
+ "qid": "Q1187233",
+ "description": "species of bird",
+ "extract": "The jungle nightjar (Caprimulgus indicus) is a species of nightjar found in the Indian subcontinent. It is found mainly on the edge of forests where it is seen or heard at dusk. The taxonomy of this and related nightjars is complex and a range of treatments have been followed that cover this and several other nightjars in the Asian region. It was formerly called the grey nightjar or Indian jungle nightjar and sometimes included the East Asian grey nightjar (C. jotaka) as a subspecies.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/CaprimulgusIndicus3.jpg/1280px-CaprimulgusIndicus3.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/CaprimulgusIndicus3.jpg/330px-CaprimulgusIndicus3.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:CaprimulgusIndicus3.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Shyamal",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/CaprimulgusIndicusWynaad3.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/CaprimulgusIndicusWynaad3.jpg/330px-CaprimulgusIndicusWynaad3.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:CaprimulgusIndicusWynaad3.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Shyamal",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Caprimulgus"
+  },
+  "family": {
+   "scientific": "Caprimulgidae"
+  },
+  "order": {
+   "scientific": "Caprimulgiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1187233"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jungle_nightjar"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

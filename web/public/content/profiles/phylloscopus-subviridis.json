@@ -1,0 +1,51 @@
+{
+ "scientific": "Phylloscopus subviridis",
+ "name": "Brooks's Leaf Warbler",
+ "qid": "Q2225501",
+ "description": "species of bird",
+ "extract": "Brooks's leaf warbler (Phylloscopus subviridis) is a species of Old World warbler in the family Phylloscopidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Brooks%27s_Leaf_Warbler_%28Phylloscopus_subviridis%29_%2843219880911%29.jpg/1280px-Brooks%27s_Leaf_Warbler_%28Phylloscopus_subviridis%29_%2843219880911%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Brooks%27s_Leaf_Warbler_%28Phylloscopus_subviridis%29_%2843219880911%29.jpg/330px-Brooks%27s_Leaf_Warbler_%28Phylloscopus_subviridis%29_%2843219880911%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brooks%27s_Leaf_Warbler_(Phylloscopus_subviridis)_(43219880911).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 5.5,
+   "max": 5.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phylloscopus"
+  },
+  "family": {
+   "scientific": "Phylloscopidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2225501"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brooks%27s_leaf_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

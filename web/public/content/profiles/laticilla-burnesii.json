@@ -1,0 +1,51 @@
+{
+ "scientific": "Laticilla burnesii",
+ "name": "Rufous-vented grass babbler",
+ "qid": "Q27075515",
+ "description": "species of bird",
+ "extract": "The rufous-vented grass babbler or rufous-vented prinia (Laticilla burnesii) is a small warbler in the family Pellorneidae that occurs in Pakistan, northwestern India and Nepal.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Rufous-vented_Prinia_%28Laticilla_burnesii%29_%2834675407315%29.jpg/1280px-Rufous-vented_Prinia_%28Laticilla_burnesii%29_%2834675407315%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Rufous-vented_Prinia_%28Laticilla_burnesii%29_%2834675407315%29.jpg/330px-Rufous-vented_Prinia_%28Laticilla_burnesii%29_%2834675407315%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rufous-vented_Prinia_(Laticilla_burnesii)_(34675407315).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 19.0,
+   "max": 19.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Laticilla"
+  },
+  "family": {
+   "scientific": "Pellorneidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075515"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rufous-vented_grass_babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

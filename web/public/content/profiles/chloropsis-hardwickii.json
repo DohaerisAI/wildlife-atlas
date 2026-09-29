@@ -1,0 +1,60 @@
+{
+ "scientific": "Chloropsis hardwickii",
+ "name": "Orange-bellied leafbird",
+ "qid": "Q776547",
+ "description": "species of bird",
+ "extract": "The orange-bellied leafbird (Chloropsis hardwickii) is a bird native to the central and eastern Himalayas, Yunnan and northern parts of Southeast Asia. The greyish-crowned leafbird, which is found in Hainan, is again considered conspecific. The scientific name commemorates the English naturalist Thomas Hardwicke.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Orange-bellied_leafbird.jpg/1280px-Orange-bellied_leafbird.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Orange-bellied_leafbird.jpg/330px-Orange-bellied_leafbird.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Orange-bellied_leafbird.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Shiv's fotografia",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Orange-bellied_Leafbird_Pangolakha_Wildlife_Sanctuary_West_Sikkim_Sikkim_India_13.12.2015.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Orange-bellied_Leafbird_Pangolakha_Wildlife_Sanctuary_West_Sikkim_Sikkim_India_13.12.2015.jpg/330px-Orange-bellied_Leafbird_Pangolakha_Wildlife_Sanctuary_West_Sikkim_Sikkim_India_13.12.2015.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Orange-bellied_Leafbird_Pangolakha_Wildlife_Sanctuary_West_Sikkim_Sikkim_India_13.12.2015.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 30.0,
+   "max": 36.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chloropsis"
+  },
+  "family": {
+   "scientific": "Chloropseidae",
+   "name": "leafbird"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q776547"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Orange-bellied_leafbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

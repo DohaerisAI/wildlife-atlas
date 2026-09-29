@@ -1,0 +1,54 @@
+{
+ "scientific": "Alcippe poioicephala",
+ "name": "Brown-cheeked Fulvetta",
+ "qid": "Q3728899",
+ "description": "species of bird",
+ "extract": "The brown-cheeked fulvetta (Alcippe poioicephala) is a babbler-like bird belonging to the family Leiothrichidae found in the forests of South and Southeast Asia. It was formerly called the quaker babbler in India and common nun babbler in Malaya. They forage on trees for insects, sometimes hanging from the branches in a tit-like manner, and visiting flowers for nectar. They are often hard to see in vegetation but they have loud multi-note whistling calls in the morning and afternoon.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Alcippe_poioicephala_davisoni_-_Kaeng_Krachan.jpg/1280px-Alcippe_poioicephala_davisoni_-_Kaeng_Krachan.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Alcippe_poioicephala_davisoni_-_Kaeng_Krachan.jpg/330px-Alcippe_poioicephala_davisoni_-_Kaeng_Krachan.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Alcippe_poioicephala_davisoni_-_Kaeng_Krachan.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 21.0,
+   "max": 21.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Alcippe"
+  },
+  "family": {
+   "scientific": "Alcippeidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "quaker babbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3728899"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown-cheeked_fulvetta"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

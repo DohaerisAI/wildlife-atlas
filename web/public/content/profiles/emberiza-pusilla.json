@@ -1,0 +1,51 @@
+{
+ "scientific": "Emberiza pusilla",
+ "name": "Little Bunting",
+ "qid": "Q216855",
+ "description": "species of bird",
+ "extract": "The little bunting (Emberiza pusilla) is a passerine bird belonging to the bunting family (Emberizidae).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Zwergammer.jpg/1280px-Zwergammer.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Zwergammer.jpg/330px-Zwergammer.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Zwergammer.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 1.9,
+   "max": 15.4,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Emberiza"
+  },
+  "family": {
+   "scientific": "Emberizidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q216855"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Little_bunting"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

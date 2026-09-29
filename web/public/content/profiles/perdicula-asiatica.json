@@ -1,0 +1,54 @@
+{
+ "scientific": "Perdicula asiatica",
+ "name": "Jungle Bush Quail",
+ "qid": "Q1263482",
+ "description": "species of bird",
+ "extract": "The jungle bush quail (Perdicula asiatica) is a species of quail in the family Phasianidae. It is native to the Indian subcontinent, where it is found in peninsular India and Sri Lanka. It has also been reported from Nepal but has not been seen there since the 19th century, and an introduced population exists on the island of Réunion. A small species of quail 15–18 cm (5.9–7.1 in) long and weighing 57–82 g (2.0–2.9 oz), it shows significant sexual dimorphism. Males have brown upperparts with blackish and buff marking and whitish underparts with black barring. The face is mainly dark reddish-brown, with brown ear-coverts, a buffy-white moustachial stripe, and the supercilium turning whitish towards the back of the neck. Females have a similar pattern, but with pinkish-brown underparts, more uniform wings, and duller moustachial stripes.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Jungle_Bush-Quail_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_01.jpg/1280px-Jungle_Bush-Quail_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Jungle_Bush-Quail_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_01.jpg/330px-Jungle_Bush-Quail_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Jungle_Bush-Quail_in_Mahabaleshwar_August_2025_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 5.6,
+   "max": 80.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Perdicula"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1263482"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jungle_bush_quail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

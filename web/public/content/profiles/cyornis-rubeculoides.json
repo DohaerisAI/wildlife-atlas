@@ -1,0 +1,58 @@
+{
+ "scientific": "Cyornis rubeculoides",
+ "name": "Blue-throated Blue Flycatcher",
+ "qid": "Q2229839",
+ "description": "species of bird",
+ "extract": "The blue-throated blue flycatcher (Cyornis rubeculoides) is a small passerine bird in the flycatcher family, Muscicapidae. It resembles Cyornis tickelliae but easily separated by the blue throat. The habitat of this species is a thicker forest than other species of flycatchers.  The blue-throated flycatcher is found in much of the Indian subcontinent, all through the Himalayas, the plains and Western Ghats of India in the cold months, and also extends eastwards into Bangladesh, and to Arakan and the Tenasserim Hills in Myanmar.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Blue-throated_Blue_Flycatcher%2C_Thattekad%2C_Vimal_Rajyaguru%2C_01.jpg/1280px-Blue-throated_Blue_Flycatcher%2C_Thattekad%2C_Vimal_Rajyaguru%2C_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Blue-throated_Blue_Flycatcher%2C_Thattekad%2C_Vimal_Rajyaguru%2C_01.jpg/330px-Blue-throated_Blue_Flycatcher%2C_Thattekad%2C_Vimal_Rajyaguru%2C_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blue-throated_Blue_Flycatcher,_Thattekad,_Vimal_Rajyaguru,_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Vimal Rajyaguru",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Blue-throated_Blue_Flycatcher_%28f%29_%40_Aralam_Jan_2014.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Blue-throated_Blue_Flycatcher_%28f%29_%40_Aralam_Jan_2014.jpg/330px-Blue-throated_Blue_Flycatcher_%28f%29_%40_Aralam_Jan_2014.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blue-throated_Blue_Flycatcher_(f)_@_Aralam_Jan_2014.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Vivekpuliyeri",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cyornis"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Blue-throated niltava",
+  "Blue-throated flycatcher"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2229839"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blue-throated_blue_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

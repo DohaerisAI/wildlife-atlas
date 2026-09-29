@@ -1,0 +1,59 @@
+{
+ "scientific": "Ficedula superciliaris",
+ "name": "Ultramarine Flycatcher",
+ "qid": "Q900078",
+ "description": "species of bird",
+ "extract": "The ultramarine flycatcher or the white-browed blue flycatcher (Ficedula superciliaris) is a small arboreal Old World flycatcher in the Ficedula genus. Its breeding range extends from eastern Afghanistan to the Hengduan Mountains; it winters in India and northwestern Indochina.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Ultramarine_Flycatcher_I_IMG_6835.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Ultramarine_Flycatcher_I_IMG_6835.jpg/330px-Ultramarine_Flycatcher_I_IMG_6835.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ultramarine_Flycatcher_I_IMG_6835.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Ultramarine_Flycatcher_Pangot_Uttarakhand_India_04.10.2014.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Ultramarine_Flycatcher_Pangot_Uttarakhand_India_04.10.2014.jpg/330px-Ultramarine_Flycatcher_Pangot_Uttarakhand_India_04.10.2014.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ultramarine_Flycatcher_Pangot_Uttarakhand_India_04.10.2014.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 8.0,
+   "max": 8.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ficedula"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q900078"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ultramarine_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

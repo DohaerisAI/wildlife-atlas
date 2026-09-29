@@ -1,0 +1,46 @@
+{
+ "scientific": "Acrocephalus melanopogon",
+ "name": "Moustached Warbler",
+ "qid": "Q385273",
+ "description": "species of bird",
+ "extract": "The moustached warbler (Acrocephalus melanopogon) is an Old World warbler in the genus Acrocephalus. It breeds in southern Europe and southern temperate Asia with a few breeding in north-west Africa. It is partially migratory. South-west European birds are resident, south-east European birds winter in the Mediterranean breeding range, and the Asiatic race migrates to Arabia, India and Pakistan.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Acrocephalus_melanopogon_ad03_CB.jpg/1280px-Acrocephalus_melanopogon_ad03_CB.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Acrocephalus_melanopogon_ad03_CB.jpg/330px-Acrocephalus_melanopogon_ad03_CB.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Acrocephalus_melanopogon_ad03_CB.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "ChristopheBernier30",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Acrocephalus"
+  },
+  "family": {
+   "scientific": "Acrocephalidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q385273"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Moustached_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

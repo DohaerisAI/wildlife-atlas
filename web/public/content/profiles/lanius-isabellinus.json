@@ -1,0 +1,54 @@
+{
+ "scientific": "Lanius isabellinus",
+ "name": "Isabelline Shrike",
+ "qid": "Q752678",
+ "description": "species of bird",
+ "extract": "The isabelline shrike or Daurian shrike (Lanius isabellinus) is a member of the shrike family (Laniidae). It was previously considered conspecific with the red-backed shrike and red-tailed shrike. It is found in an extensive area between the Caspian Sea and north and central China southeast to the Qaidam Basin. Overwinters in Africa and Arabia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Basai_Wetland_Gurgaon_DSC9380_Isabelline_shrike.JPG/1280px-Basai_Wetland_Gurgaon_DSC9380_Isabelline_shrike.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Basai_Wetland_Gurgaon_DSC9380_Isabelline_shrike.JPG/330px-Basai_Wetland_Gurgaon_DSC9380_Isabelline_shrike.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Basai_Wetland_Gurgaon_DSC9380_Isabelline_shrike.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "T. R. Shankar Raman",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 30.0,
+   "max": 30.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lanius"
+  },
+  "family": {
+   "scientific": "Laniidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Rufous-tailed shrike"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q752678"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Isabelline_shrike"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

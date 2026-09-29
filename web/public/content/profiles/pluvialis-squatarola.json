@@ -1,0 +1,54 @@
+{
+ "scientific": "Pluvialis squatarola",
+ "name": "Grey Plover",
+ "qid": "Q18835",
+ "description": "species of bird",
+ "extract": "The grey plover or black-bellied plover (Pluvialis squatarola) is a large plover breeding in Arctic regions. It is a long-distance migrant, with a nearly worldwide coastal distribution when not breeding.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Pluvialis_squatarola_%28summer_plumage%29.jpg/1280px-Pluvialis_squatarola_%28summer_plumage%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Pluvialis_squatarola_%28summer_plumage%29.jpg/330px-Pluvialis_squatarola_%28summer_plumage%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pluvialis_squatarola_(summer_plumage).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Hans Hillewaert",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 77.0,
+   "max": 77.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pluvialis"
+  },
+  "family": {
+   "scientific": "Charadriidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q18835"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey_plover"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

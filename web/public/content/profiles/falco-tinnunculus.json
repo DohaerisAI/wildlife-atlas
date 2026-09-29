@@ -1,0 +1,74 @@
+{
+ "scientific": "Falco tinnunculus",
+ "name": "Common Kestrel",
+ "qid": "Q26490",
+ "description": "species of bird",
+ "extract": "The common kestrel (Falco tinnunculus), also known as the European kestrel, Eurasian kestrel, Old World kestrel, or windfucker is a species of predatory bird belonging to the kestrel group of the falcon family Falconidae. In the United Kingdom, where no other kestrel species commonly occurs, it is generally just called the \"kestrel\".",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Common_kestrel_falco_tinnunculus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Common_kestrel_falco_tinnunculus.jpg/330px-Common_kestrel_falco_tinnunculus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_kestrel_falco_tinnunculus.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Common_Kestrel_Falco_tinnunculus_Tal_Chappar_Rajasthan_India_14.02.2013.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Common_Kestrel_Falco_tinnunculus_Tal_Chappar_Rajasthan_India_14.02.2013.jpg/330px-Common_Kestrel_Falco_tinnunculus_Tal_Chappar_Rajasthan_India_14.02.2013.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_Kestrel_Falco_tinnunculus_Tal_Chappar_Rajasthan_India_14.02.2013.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 73.0,
+   "max": 73.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 21.0,
+   "max": 201.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Falco",
+   "name": "falcon"
+  },
+  "family": {
+   "scientific": "Falconidae"
+  },
+  "order": {
+   "scientific": "Falconiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Eurasian Kestrel",
+  "European Kestrel",
+  "Windhover",
+  "Old World Kestrel"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26490"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_kestrel"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

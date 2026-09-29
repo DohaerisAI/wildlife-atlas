@@ -1,0 +1,62 @@
+{
+ "scientific": "Sterna dougallii",
+ "name": "Roseate Tern",
+ "qid": "Q321293",
+ "description": "species of bird",
+ "extract": "The roseate tern (Sterna dougallii) is a species of tern in the family Laridae. The genus name Sterna is derived from Old English \"stearn\", \"tern\", and the specific dougallii refers to Scottish physician and collector Dr Peter McDougall (1777–1814). \"Roseate\" refers to the bird's pink breast in breeding plumage.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/2021-07-10_Sterna_dougallii%2C_St_Marys_Island%2C_Northumberland_17.jpg/1280px-2021-07-10_Sterna_dougallii%2C_St_Marys_Island%2C_Northumberland_17.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/2021-07-10_Sterna_dougallii%2C_St_Marys_Island%2C_Northumberland_17.jpg/330px-2021-07-10_Sterna_dougallii%2C_St_Marys_Island%2C_Northumberland_17.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2021-07-10_Sterna_dougallii,_St_Marys_Island,_Northumberland_17.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "MPF",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/2020-07-18_Sterna_dougallii%2C_St_Marys_Island%2C_Northumberland_19.jpg/1280px-2020-07-18_Sterna_dougallii%2C_St_Marys_Island%2C_Northumberland_19.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/2020-07-18_Sterna_dougallii%2C_St_Marys_Island%2C_Northumberland_19.jpg/330px-2020-07-18_Sterna_dougallii%2C_St_Marys_Island%2C_Northumberland_19.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2020-07-18_Sterna_dougallii,_St_Marys_Island,_Northumberland_19.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "MPF",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 76.0,
+   "max": 76.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sterna"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q321293"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Roseate_tern"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

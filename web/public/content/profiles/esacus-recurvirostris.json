@@ -1,0 +1,57 @@
+{
+ "scientific": "Esacus recurvirostris",
+ "name": "Great Thick-knee",
+ "qid": "Q1260062",
+ "description": "species of bird",
+ "extract": "The great stone-curlew or  great thick-knee (Esacus recurvirostris) is a large wader which is a resident breeder in tropical southern Asia from India, Pakistan, Sri Lanka, Bangladesh into South-east Asia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Great_thick-knee_%28Esacus_recurvirostris%29.jpg/1280px-Great_thick-knee_%28Esacus_recurvirostris%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Great_thick-knee_%28Esacus_recurvirostris%29.jpg/330px-Great_thick-knee_%28Esacus_recurvirostris%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Great_thick-knee_(Esacus_recurvirostris).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 90.0,
+   "max": 100.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Esacus"
+  },
+  "family": {
+   "scientific": "Burhinidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Great Stone-curlew"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1260062"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_stone-curlew"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

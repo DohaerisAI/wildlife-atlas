@@ -1,0 +1,49 @@
+{
+ "scientific": "Spelaeornis longicaudatus",
+ "name": "Tawny-breasted Wren-Babbler",
+ "qid": "Q1923574",
+ "description": "species of bird",
+ "extract": "The tawny-breasted wren-babbler (Spelaeornis longicaudatus) is a species of bird in the family Timaliidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Tawny-Breasted_Wren-Babbler_%28Spelaeornis_longicaudatus%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Tawny-Breasted_Wren-Babbler_%28Spelaeornis_longicaudatus%29.jpg/330px-Tawny-Breasted_Wren-Babbler_%28Spelaeornis_longicaudatus%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tawny-Breasted_Wren-Babbler_(Spelaeornis_longicaudatus).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Pallav Pranjal",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Spelaeornis"
+  },
+  "family": {
+   "scientific": "Timaliidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Assam Wren-babbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1923574"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tawny-breasted_wren-babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

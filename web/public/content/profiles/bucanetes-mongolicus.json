@@ -1,0 +1,58 @@
+{
+ "scientific": "Bucanetes mongolicus",
+ "name": "Mongolian Finch",
+ "qid": "Q921335",
+ "description": "species of bird",
+ "extract": "The Mongolian finch (Bucanetes mongolicus), also known as the Mongolian trumpeter finch, is a small passerine bird in the finch family Fringillidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/BirdsAsiaJohnGoVGoul_0128_cropped.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/BirdsAsiaJohnGoVGoul_0128_cropped.jpg/330px-BirdsAsiaJohnGoVGoul_0128_cropped.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:BirdsAsiaJohnGoVGoul_0128_cropped.jpg",
+   "license": "Public domain",
+   "artist": "John Gould / Henry Constantine Richter",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Bucanetes_mongolicus.JPG/1280px-Bucanetes_mongolicus.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Bucanetes_mongolicus.JPG/330px-Bucanetes_mongolicus.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Bucanetes_mongolicus.JPG",
+   "license": "CC BY-SA 4.0",
+   "artist": "Pkspks",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Bucanetes"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Mongolian trumpeter finch",
+  "Rhodopechys mongolica"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q921335"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mongolian_finch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

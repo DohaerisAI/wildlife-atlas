@@ -1,0 +1,46 @@
+{
+ "scientific": "Pitta moluccensis",
+ "name": "Blue-winged Pitta",
+ "qid": "Q266705",
+ "description": "species of bird",
+ "extract": "The blue-winged pitta (Pitta moluccensis) is a passerine bird in the family Pittidae. It forms a superspecies with three other pittas, the Indian pitta (P. brachyura), the fairy pitta (P. nympha) and the mangrove pitta (P. megarhyncha).  A colourful bird, it has a black head with a buff stripe above the eye, a white collar, greenish upper parts, blue wings, buff underparts and a reddish vent area. Its range extends from India to Malaysia, Indonesia, southern China and the Philippines. Its habitat is moist woodland, parks and gardens and it avoids dense forest. It feeds mainly on insects and worms. It breeds in the spring, building an untidy spherical nest on the ground, often near water and between tree roots. A clutch of about five eggs is laid and incubated by both parents, hatching after about sixteen days.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Pitta_moluccensis_-_Kaeng_Krachan.jpg/1280px-Pitta_moluccensis_-_Kaeng_Krachan.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Pitta_moluccensis_-_Kaeng_Krachan.jpg/330px-Pitta_moluccensis_-_Kaeng_Krachan.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pitta_moluccensis_-_Kaeng_Krachan.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://tiny.jjharrison.com.au/t/2OnEt6FLISgNaKoR)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pitta"
+  },
+  "family": {
+   "scientific": "Pittidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q266705"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blue-winged_pitta"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

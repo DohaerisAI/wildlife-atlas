@@ -1,0 +1,51 @@
+{
+ "scientific": "Argya longirostris",
+ "name": "Slender-billed Babbler",
+ "qid": "Q62098341",
+ "description": "species of bird",
+ "extract": "The slender-billed babbler (Argya longirostris) is a species of bird in the family Leiothrichidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Slender_billed_babbler.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Slender_billed_babbler.jpg/330px-Slender_billed_babbler.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Slender_billed_babbler.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Firoz Hussain",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 35.0,
+   "max": 35.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Argya"
+  },
+  "family": {
+   "scientific": "Leiothrichidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q62098341"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Slender-billed_babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

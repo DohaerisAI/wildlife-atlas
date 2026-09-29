@@ -1,0 +1,75 @@
+{
+ "scientific": "Aythya ferina",
+ "name": "Common Pochard",
+ "qid": "Q26742",
+ "description": "species of bird",
+ "extract": "The common pochard (; Aythya ferina), known simply as pochard in the United Kingdom, is a medium-sized diving duck in the family Anatidae. It is widespread across the Palearctic. It breeds primarily in Scandinavia and the steppe regions of Siberia, and winters farther south and west.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Aythya_ferina_Sandwell_2.jpg/1280px-Aythya_ferina_Sandwell_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Aythya_ferina_Sandwell_2.jpg/330px-Aythya_ferina_Sandwell_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aythya_ferina_Sandwell_2.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Tony Hisgett from Birmingham, UK",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Common_pochard_%28Aythya_ferina%29.jpg/1280px-Common_pochard_%28Aythya_ferina%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Common_pochard_%28Aythya_ferina%29.jpg/330px-Common_pochard_%28Aythya_ferina%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_pochard_(Aythya_ferina).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Charles J. Sharp",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Aythya_ferina_Gentofte_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Aythya_ferina_Gentofte_1.jpg/330px-Aythya_ferina_Gentofte_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aythya_ferina_Gentofte_1.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Hunter Desportes",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 77.0,
+   "max": 77.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 66.0,
+   "max": 66.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aythya"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26742"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_pochard"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

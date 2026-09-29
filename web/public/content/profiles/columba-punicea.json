@@ -1,0 +1,54 @@
+{
+ "scientific": "Columba punicea",
+ "name": "Pale-capped Pigeon",
+ "qid": "Q934505",
+ "description": "species of bird",
+ "extract": "The pale-capped pigeon (Columba punicea), also known as the purple wood pigeon, is a species of large pigeon that is found patchily distributed in parts of the Indian subcontinent and Southeast Asia. It has a slow flight and spends a lot of time sitting still in the foliage of large fruiting trees, often in riverine forest on the plains. It is mainly brown above and chestnut below with the a sheen of green or amethyst. Males have a whitish grey cap while females have a brownish grey cap and less gloss on the feathers. They are frugivores, foraging in small groups in the canopy of trees but sometimes descending to the ground for seeds and fallen fruit.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Pale-capped_Pigeon_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Pale-capped_Pigeon_%28cropped%29.jpg/330px-Pale-capped_Pigeon_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pale-capped_Pigeon_(cropped).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Mike Prince",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 440.0,
+   "max": 440.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Columba"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q934505"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pale-capped_pigeon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

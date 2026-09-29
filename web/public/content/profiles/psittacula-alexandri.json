@@ -1,0 +1,46 @@
+{
+ "scientific": "Psittacula alexandri",
+ "name": "Red-breasted Parakeet",
+ "qid": "Q682379",
+ "description": "species of bird",
+ "extract": "The red-breasted parakeet (Psittacula alexandri) is a parrot native to Southeast Asia. It is among the more widespread species of the genus and is the species which has the most geographical variations. It is easily identified by the large red patch on its breast. An alternative name is the moustached parakeet depending on subspecies. Most of the subspecies are confined to minuscule islands or a cluster of islands in Indonesia. One subspecies occurs in the Andaman Islands, and one subspecies occurs in continental Southeast Asia and partly extending to northeastern parts of South Asia along the foothills of the Himalayas. Some of the island races may be threatened by the wild bird trade. The nominate race, which occurs in Java, is close to extinction.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Betet_biasa_%28Psittacula_alexandri%29.jpg/1280px-Betet_biasa_%28Psittacula_alexandri%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Betet_biasa_%28Psittacula_alexandri%29.jpg/330px-Betet_biasa_%28Psittacula_alexandri%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Betet_biasa_(Psittacula_alexandri).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "A.Baihaqi",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Psittacula"
+  },
+  "family": {
+   "scientific": "Psittaculidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q682379"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-breasted_parakeet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

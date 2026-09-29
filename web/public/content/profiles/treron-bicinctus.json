@@ -1,0 +1,65 @@
+{
+ "scientific": "Treron bicinctus",
+ "name": "Orange-breasted Green Pigeon",
+ "qid": "Q792890",
+ "description": "species of bird",
+ "extract": "The orange-breasted green pigeon (Treron bicinctus) is a pigeon found across tropical Asia south of the Himalaya across parts of the Indian subcontinent and Southeast Asia. Like other green pigeons, it feeds mainly on small fruit. They may be found in pairs or in small flocks, foraging quietly and moving slowly on trees. The nape is blue-grey and the crown is yellowish green. The uppertail coverts are bronzed and the undertail coverts are unmarked rufous. The male has a pinkish band on the upper breast with a broader orange one below while the female has a bright yellow breast.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Treron_bicincta_-Wilpattu_National_Park%2C_Sri_Lanka_-pair-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Treron_bicincta_-Wilpattu_National_Park%2C_Sri_Lanka_-pair-8.jpg/330px-Treron_bicincta_-Wilpattu_National_Park%2C_Sri_Lanka_-pair-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Treron_bicincta_-Wilpattu_National_Park,_Sri_Lanka_-pair-8.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Thimindu Goonatillake from Colombo, Sri Lanka",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Treron_bicinctus_-Yala_National_Park%2C_Sri_Lanka_-male-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Treron_bicinctus_-Yala_National_Park%2C_Sri_Lanka_-male-8.jpg/330px-Treron_bicinctus_-Yala_National_Park%2C_Sri_Lanka_-male-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Treron_bicinctus_-Yala_National_Park,_Sri_Lanka_-male-8.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Thimindu Goonatillake from Colombo, Sri Lanka",
+   "caption": "Male"
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 175.0,
+   "max": 175.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Treron"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Treron bicincta"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q792890"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Orange-breasted_green_pigeon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

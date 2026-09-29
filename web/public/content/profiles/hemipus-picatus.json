@@ -1,0 +1,52 @@
+{
+ "scientific": "Hemipus picatus",
+ "name": "Bar-winged Flycatcher Shrike",
+ "qid": "Q1313753",
+ "description": "species of bird",
+ "extract": "The bar-winged flycatcher-shrike (Hemipus picatus) is a small passerine bird usually placed in the Vangidae. It is found in the forests of tropical southern Asia from the Himalayas and hills of southern India to Indonesia. Mainly insectivorous it is found hunting in the mid-canopy of forests, often joining mixed-species foraging flocks. They perch upright and have a distinctive pattern of black and white, males being more shiny black than the females. In some populations the colour of the back is brownish while others have a dark wash on the underside.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Hemipus_picatus_-Knuckles_Forest_Reserve%2C_Sri_Lanka-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Hemipus_picatus_-Knuckles_Forest_Reserve%2C_Sri_Lanka-8.jpg/330px-Hemipus_picatus_-Knuckles_Forest_Reserve%2C_Sri_Lanka-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hemipus_picatus_-Knuckles_Forest_Reserve,_Sri_Lanka-8.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Thimindu Goonatillake from Colombo, Sri Lanka",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 9.0,
+   "max": 9.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Hemipus",
+   "name": "Flycatcher-shrike"
+  },
+  "family": {
+   "scientific": "Vangidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1313753"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bar-winged_flycatcher-shrike"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

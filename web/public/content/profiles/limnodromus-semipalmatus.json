@@ -1,0 +1,60 @@
+{
+ "scientific": "Limnodromus semipalmatus",
+ "name": "Asian Dowitcher",
+ "qid": "Q1273690",
+ "description": "species of bird",
+ "extract": "The Asian dowitcher (Limnodromus semipalmatus) is a medium-large wader in the Scolopacidae family of sandpipers.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Asian_Dowitcher%2C_Hunter_Wetlands%2C_Newcastle%2C_NSW%2C_Australia_0A2A8787.jpg/1280px-Asian_Dowitcher%2C_Hunter_Wetlands%2C_Newcastle%2C_NSW%2C_Australia_0A2A8787.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Asian_Dowitcher%2C_Hunter_Wetlands%2C_Newcastle%2C_NSW%2C_Australia_0A2A8787.jpg/330px-Asian_Dowitcher%2C_Hunter_Wetlands%2C_Newcastle%2C_NSW%2C_Australia_0A2A8787.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Asian_Dowitcher,_Hunter_Wetlands,_Newcastle,_NSW,_Australia_0A2A8787.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 57.0,
+   "max": 59.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 180.0,
+   "max": 180.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Limnodromus",
+   "name": "Dowitcher"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1273690"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Asian_dowitcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

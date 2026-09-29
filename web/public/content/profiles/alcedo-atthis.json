@@ -1,0 +1,71 @@
+{
+ "scientific": "Alcedo atthis",
+ "name": "Common Kingfisher",
+ "qid": "Q79915",
+ "description": "species of bird",
+ "extract": "The common kingfisher (Alcedo atthis), also known as the Eurasian kingfisher and river kingfisher, is a small kingfisher with seven subspecies recognized within its wide distribution across Eurasia and North Africa. It is resident in much of its range, but migrates from areas where rivers freeze in winter.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Alcedo_Atthis.jpg/1280px-Alcedo_Atthis.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Alcedo_Atthis.jpg/330px-Alcedo_Atthis.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Alcedo_Atthis.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Artemy Voikhansky",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Common_kingfisher_%28Alcedo_atthis_ispida%29_female.jpg/1280px-Common_kingfisher_%28Alcedo_atthis_ispida%29_female.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Common_kingfisher_%28Alcedo_atthis_ispida%29_female.jpg/330px-Common_kingfisher_%28Alcedo_atthis_ispida%29_female.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_kingfisher_(Alcedo_atthis_ispida)_female.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": "Female"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Alcedo_atthis_-_Riserve_naturali_e_aree_contigue_della_fascia_fluviale_del_Po.jpg/1280px-Alcedo_atthis_-_Riserve_naturali_e_aree_contigue_della_fascia_fluviale_del_Po.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Alcedo_atthis_-_Riserve_naturali_e_aree_contigue_della_fascia_fluviale_del_Po.jpg/330px-Alcedo_atthis_-_Riserve_naturali_e_aree_contigue_della_fascia_fluviale_del_Po.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Alcedo_atthis_-_Riserve_naturali_e_aree_contigue_della_fascia_fluviale_del_Po.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Luca Casale",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 25.0,
+   "max": 25.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 4.3,
+   "max": 4.3,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Alcedo"
+  },
+  "family": {
+   "scientific": "Alcedinidae"
+  },
+  "order": {
+   "scientific": "Coraciiformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q79915"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_kingfisher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

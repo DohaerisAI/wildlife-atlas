@@ -1,0 +1,50 @@
+{
+ "scientific": "Ciconia episcopus",
+ "name": "Asian Woolly-necked Stork",
+ "qid": "Q44327",
+ "description": "species of bird",
+ "extract": "The Asian woolly-necked stork or Asian woollyneck  (Ciconia episcopus) is a species of large wading bird in the stork family Ciconiidae. It breeds singly, or in small loose colonies. It is distributed in a wide variety of habitats including marshes in forests, agricultural areas, and freshwater wetlands across Asia.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/White_necked_stork_%28Ciconia_episcopus%29_21-Mar-2007_7-37-51_AM_21-Mar-2007_7-37-52.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/White_necked_stork_%28Ciconia_episcopus%29_21-Mar-2007_7-37-51_AM_21-Mar-2007_7-37-52.JPG/330px-White_necked_stork_%28Ciconia_episcopus%29_21-Mar-2007_7-37-51_AM_21-Mar-2007_7-37-52.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:White_necked_stork_(Ciconia_episcopus)_21-Mar-2007_7-37-51_AM_21-Mar-2007_7-37-52.JPG",
+   "license": "CC BY 2.5",
+   "artist": "Kaippally",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ciconia"
+  },
+  "family": {
+   "scientific": "Ciconiidae",
+   "name": "stork"
+  },
+  "order": {
+   "scientific": "Ciconiiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q44327"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Asian_woolly-necked_stork"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

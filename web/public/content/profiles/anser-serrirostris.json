@@ -1,0 +1,40 @@
+{
+ "scientific": "Anser serrirostris",
+ "name": "Tundra bean goose",
+ "qid": "Q673280",
+ "description": "species of bird",
+ "extract": "The tundra bean goose (Anser serrirostris) is a goose that breeds in northern Siberia. This and the taiga bean goose are recognised as separate species by the American Ornithological Society and International Ornithologists' Union, but are considered a single species by other authorities (collectively called bean goose). It is migratory and winters further south in Asia. The taiga and tundra bean goose diverged about 2.5 million years ago and established secondary contact ca. 60,000 years ago, resulting in extensive gene flow.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/101777_%E8%B1%86%E9%9B%81%E4%BE%86%E8%87%A8.jpg/1280px-101777_%E8%B1%86%E9%9B%81%E4%BE%86%E8%87%A8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/101777_%E8%B1%86%E9%9B%81%E4%BE%86%E8%87%A8.jpg/330px-101777_%E8%B1%86%E9%9B%81%E4%BE%86%E8%87%A8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:101777_%E8%B1%86%E9%9B%81%E4%BE%86%E8%87%A8.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "邱文強",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anser"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q673280"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tundra_bean_goose"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

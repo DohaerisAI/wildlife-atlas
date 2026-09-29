@@ -1,0 +1,37 @@
+{
+ "scientific": "Parus xanthogenys",
+ "name": "Black-lored Tit",
+ "qid": "Q2637671",
+ "description": "species of bird in the tit family",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Parus_xanthogenys.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Parus_xanthogenys.jpg/330px-Parus_xanthogenys.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Parus_xanthogenys.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Parus"
+  },
+  "family": {
+   "scientific": "Paridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2637671"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

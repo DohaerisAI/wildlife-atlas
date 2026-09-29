@@ -1,0 +1,62 @@
+{
+ "scientific": "Thalasseus sandvicensis",
+ "name": "Sandwich Tern",
+ "qid": "Q27547",
+ "description": "species of bird",
+ "extract": "The Sandwich tern (Thalasseus sandvicensis) is a tern in the family Laridae. It is very closely related to the lesser crested tern (T. bengalensis), Chinese crested tern (T. bernsteini), Cabot's tern (T. acuflavidus), and elegant tern (T. elegans) and has been known to interbreed with both elegant and lesser crested terns. It breeds in the Palearctic from Europe to the Caspian Sea, and winters in the Mediterranean and on the coasts of Africa, India, and Sri Lanka.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/2020-07-18_Thalasseus_sandvicensis%2C_St_Marys_Island%2C_Northumberland_05.jpg/1280px-2020-07-18_Thalasseus_sandvicensis%2C_St_Marys_Island%2C_Northumberland_05.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/2020-07-18_Thalasseus_sandvicensis%2C_St_Marys_Island%2C_Northumberland_05.jpg/330px-2020-07-18_Thalasseus_sandvicensis%2C_St_Marys_Island%2C_Northumberland_05.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2020-07-18_Thalasseus_sandvicensis,_St_Marys_Island,_Northumberland_05.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "MPF",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Thalasseus_sandvicensis_StMarys.jpg/1280px-Thalasseus_sandvicensis_StMarys.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Thalasseus_sandvicensis_StMarys.jpg/330px-Thalasseus_sandvicensis_StMarys.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Thalasseus_sandvicensis_StMarys.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "MPF",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 100.0,
+   "max": 100.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Thalasseus"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27547"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sandwich_tern"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

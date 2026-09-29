@@ -1,0 +1,55 @@
+{
+ "scientific": "Pericrocotus cinnamomeus",
+ "name": "Small Minivet",
+ "qid": "Q244251",
+ "description": "species of bird",
+ "extract": "The small minivet (Pericrocotus cinnamomeus) is a small passerine bird. This minivet is found in tropical southern Asia from the Indian subcontinent east to Indonesia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Small_Minivet_in_Saswad_August_2025_by_Tisha_Mukherjee_01.jpg/1280px-Small_Minivet_in_Saswad_August_2025_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Small_Minivet_in_Saswad_August_2025_by_Tisha_Mukherjee_01.jpg/330px-Small_Minivet_in_Saswad_August_2025_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Small_Minivet_in_Saswad_August_2025_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Small_Minivet_%28Male%29_I_IMG_8064.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Small_Minivet_%28Male%29_I_IMG_8064.jpg/330px-Small_Minivet_%28Male%29_I_IMG_8064.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Small_Minivet_(Male)_I_IMG_8064.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": "Male"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pericrocotus",
+   "name": "Minivet"
+  },
+  "family": {
+   "scientific": "Campephagidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q244251"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Small_minivet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

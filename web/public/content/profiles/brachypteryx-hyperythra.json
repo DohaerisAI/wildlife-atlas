@@ -1,0 +1,46 @@
+{
+ "scientific": "Brachypteryx hyperythra",
+ "name": "Rusty-bellied Shortwing",
+ "qid": "Q2668251",
+ "description": "species of bird",
+ "extract": "The rusty-bellied shortwing (Brachypteryx hyperythra) is a species of bird in the family Muscicapidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Brachypteryx_hyperythra_395651305.jpg/1280px-Brachypteryx_hyperythra_395651305.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Brachypteryx_hyperythra_395651305.jpg/330px-Brachypteryx_hyperythra_395651305.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brachypteryx_hyperythra_395651305.jpg",
+   "license": "CC0",
+   "artist": "James Eaton",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Brachypteryx"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2668251"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rusty-bellied_shortwing"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

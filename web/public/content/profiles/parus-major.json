@@ -1,0 +1,64 @@
+{
+ "scientific": "Parus major",
+ "name": "Great tit",
+ "qid": "Q25485",
+ "description": "species of bird",
+ "extract": "The great tit (Parus major) is a small passerine bird in the tit family Paridae. It is  widespread and common throughout Europe, the Middle East, Central Asia and as far east as the Amur River. It also occurs in parts of North Africa where it is generally resident in any sort of woodland. Most great tits do not migrate, except in extremely harsh winters. Until 2005 this species was lumped with numerous other subspecies. However, DNA studies have revealed that these subspecies are distinct from the great tit, and they have now been classified as two distinct species, the cinereous tit (Parus cinereus) of southern Asia, and the Japanese tit (Parus minor) of East Asia. The great tit remains the most widespread species in the genus Parus.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Great_tit_%28Parus_major%29%2C_Parc_de_Woluw%C3%A9%2C_Brussels_%2813042792905%29.jpg/1280px-Great_tit_%28Parus_major%29%2C_Parc_de_Woluw%C3%A9%2C_Brussels_%2813042792905%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Great_tit_%28Parus_major%29%2C_Parc_de_Woluw%C3%A9%2C_Brussels_%2813042792905%29.jpg/330px-Great_tit_%28Parus_major%29%2C_Parc_de_Woluw%C3%A9%2C_Brussels_%2813042792905%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Great_tit_(Parus_major),_Parc_de_Woluw%C3%A9,_Brussels_(13042792905).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Frank Vassen from Brussels, Belgium",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Kohlmeise27ib.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kohlmeise27ib.jpg/330px-Kohlmeise27ib.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Kohlmeise27ib.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "PeterRohrbeck",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 23.0,
+   "max": 23.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 1.7,
+   "max": 18.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Parus"
+  },
+  "family": {
+   "scientific": "Paridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25485"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_tit"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

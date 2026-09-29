@@ -1,0 +1,54 @@
+{
+ "scientific": "Pycnonotus fuscoflavescens",
+ "name": "Andaman Bulbul",
+ "qid": "Q9171663",
+ "description": "species of bird",
+ "extract": "The Andaman bulbul (Microtarsus fuscoflavescens) is a member of the bulbul family of passerine birds. It is endemic to the Andaman Islands. It has a mainly olive-yellow plumage and has most of the head olive. It feeds on small fruit and berries, but will also take insects.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/The_Andaman_Bulbul.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/The_Andaman_Bulbul.jpg/330px-The_Andaman_Bulbul.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Andaman_Bulbul.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Antony Grossy",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Andaman_Bulbul.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Andaman_Bulbul.jpg/330px-Andaman_Bulbul.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Andaman_Bulbul.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Brian Ralphs",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Brachypodius"
+  },
+  "family": {
+   "scientific": "Pycnonotidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q9171663"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Andaman_bulbul"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

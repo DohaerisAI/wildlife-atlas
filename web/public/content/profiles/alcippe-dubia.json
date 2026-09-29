@@ -1,0 +1,37 @@
+{
+ "scientific": "Alcippe dubia",
+ "name": "Rusty-capped Fulvetta",
+ "qid": "Q27075517",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Rusty-capped_Fulvetta_Khonoma_Nagaland_India_03.11.2016.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Rusty-capped_Fulvetta_Khonoma_Nagaland_India_03.11.2016.jpg/330px-Rusty-capped_Fulvetta_Khonoma_Nagaland_India_03.11.2016.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rusty-capped_Fulvetta_Khonoma_Nagaland_India_03.11.2016.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Alcippe"
+  },
+  "family": {
+   "scientific": "Alcippeidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075517"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

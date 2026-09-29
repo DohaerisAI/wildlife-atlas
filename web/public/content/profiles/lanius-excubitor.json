@@ -1,0 +1,82 @@
+{
+ "scientific": "Lanius excubitor",
+ "name": "Great Grey Shrike",
+ "qid": "Q184508",
+ "description": "species of bird",
+ "extract": "The great grey shrike (Lanius excubitor) is a large and predatory songbird species in the shrike family (Laniidae). It forms a superspecies with its parapatric southern relatives, the Iberian grey shrike (L. meridionalis), the Chinese grey shrike (L. sphenocerus) and the American loggerhead shrike (L. ludovicianus). Males and females are similar in plumage, pearly grey above with a black eye-mask and white underparts.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Great_Grey_Shrike_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg/1280px-Great_Grey_Shrike_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Great_Grey_Shrike_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg/330px-Great_Grey_Shrike_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Great_Grey_Shrike_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Lanius_excubitor_1_%28Marek_Szczepanek%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Lanius_excubitor_1_%28Marek_Szczepanek%29.jpg/330px-Lanius_excubitor_1_%28Marek_Szczepanek%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lanius_excubitor_1_(Marek_Szczepanek).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Marek Szczepanek",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Lanius_excubitor_elegans_MHNT.ZOO.2010.11.232.1.jpg/1280px-Lanius_excubitor_elegans_MHNT.ZOO.2010.11.232.1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Lanius_excubitor_elegans_MHNT.ZOO.2010.11.232.1.jpg/330px-Lanius_excubitor_elegans_MHNT.ZOO.2010.11.232.1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lanius_excubitor_elegans_MHNT.ZOO.2010.11.232.1.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Roger Culos",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 32.0,
+   "max": 32.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 63.4,
+   "max": 63.4,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lanius"
+  },
+  "family": {
+   "scientific": "Laniidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "mattagesse",
+  "mattagese",
+  "mattagess",
+  "mattages",
+  "killer magpie",
+  "murdering pie",
+  "greater butcher-bird",
+  "butcher-bird"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q184508"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_grey_shrike"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

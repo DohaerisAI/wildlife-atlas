@@ -1,0 +1,74 @@
+{
+ "scientific": "Leucophaeus atricilla",
+ "name": "Laughing Gull",
+ "qid": "Q528764",
+ "description": "species of bird",
+ "extract": "The laughing gull (Leucophaeus atricilla) is a medium-sized gull of North and South America. Named from its laugh-like call, it is an opportunistic omnivore and scavenger. It breeds in large colonies mostly along the Atlantic coast of North America, the Caribbean, and northern South America. Two subspecies are accepted, L. a. atricilla, which occurs from the West Indies to the Venezuelan islands, and L. a. megalopterus, which occurs from southeast Canada down to Central America. The laughing gull was long placed in the genus Larus until its present placement in Leucophaeus.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Leucophaeus_atricilla_Caye_Caulker_04.JPG/1280px-Leucophaeus_atricilla_Caye_Caulker_04.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Leucophaeus_atricilla_Caye_Caulker_04.JPG/330px-Leucophaeus_atricilla_Caye_Caulker_04.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Leucophaeus_atricilla_Caye_Caulker_04.JPG",
+   "license": "CC BY-SA 4.0",
+   "artist": "Cephas",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Laughing_Gull_adult_summer%2C_Daytona_Beach%2C_Florida.jpg/1280px-Laughing_Gull_adult_summer%2C_Daytona_Beach%2C_Florida.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Laughing_Gull_adult_summer%2C_Daytona_Beach%2C_Florida.jpg/330px-Laughing_Gull_adult_summer%2C_Daytona_Beach%2C_Florida.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Laughing_Gull_adult_summer,_Daytona_Beach,_Florida.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "VJAnderson",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Laughing_Gull_in_winter_plumage%2C_Lido_Beach%2C_Florida.jpg/1280px-Laughing_Gull_in_winter_plumage%2C_Lido_Beach%2C_Florida.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Laughing_Gull_in_winter_plumage%2C_Lido_Beach%2C_Florida.jpg/330px-Laughing_Gull_in_winter_plumage%2C_Lido_Beach%2C_Florida.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Laughing_Gull_in_winter_plumage,_Lido_Beach,_Florida.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Morrisayoder",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 102.8,
+   "max": 107.2,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 300.0,
+   "max": 300.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Leucophaeus"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Larus atricilla"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q528764"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Laughing_gull"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

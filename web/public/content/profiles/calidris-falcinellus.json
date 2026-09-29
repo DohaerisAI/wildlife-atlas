@@ -1,0 +1,70 @@
+{
+ "scientific": "Calidris falcinellus",
+ "name": "Broad-billed Sandpiper",
+ "qid": "Q28114227",
+ "description": "species of bird",
+ "extract": "The broad-billed sandpiper (Calidris falcinellus) is a small wader. The scientific specific name falcinellus is the diminutive from Latin falx, falcis, \"a small sickle\". It was formerly treated in its own monospecific genus Limicola, but this was found to be embedded within the wider genus Calidris, into which it was transferred in 2004.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Myrsn%C3%A4ppa%2C_Ottenby%2C_%C3%96land%2C_September_2017_%2838594025261%29.jpg/1280px-Myrsn%C3%A4ppa%2C_Ottenby%2C_%C3%96land%2C_September_2017_%2838594025261%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Myrsn%C3%A4ppa%2C_Ottenby%2C_%C3%96land%2C_September_2017_%2838594025261%29.jpg/330px-Myrsn%C3%A4ppa%2C_Ottenby%2C_%C3%96land%2C_September_2017_%2838594025261%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Myrsn%C3%A4ppa,_Ottenby,_%C3%96land,_September_2017_(38594025261).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Hans Norelius from Älvsjö, Sweden",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Broad_billed_sandpiper_by_Sreedev_Puthur.jpg/1280px-Broad_billed_sandpiper_by_Sreedev_Puthur.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Broad_billed_sandpiper_by_Sreedev_Puthur.jpg/330px-Broad_billed_sandpiper_by_Sreedev_Puthur.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Broad_billed_sandpiper_by_Sreedev_Puthur.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Sreedev Puthur",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 34.0,
+   "max": 39.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 9.1,
+   "max": 37.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Calidris"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Limicola falcinellus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q28114227"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Broad-billed_sandpiper"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,59 @@
+{
+ "scientific": "Calonectris diomedea",
+ "name": "Scopoli's Shearwater",
+ "qid": "Q216850",
+ "description": "species of bird",
+ "extract": "Scopoli's shearwater (Calonectris diomedea) is a seabird in the petrel family Procellariidae. It breeds on rocky islands and on steep coasts in the Mediterranean but outside the breeding season it forages in the Atlantic. It is brownish grey above with darker wings and mostly white below. The bill is pale yellow with a dark patch near the tip. The sexes are alike. It was formerly considered to be conspecific with Cory's shearwater.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Calonectris_diomedea%2C_Cabrera_National_Park_%2812076283283%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Calonectris_diomedea%2C_Cabrera_National_Park_%2812076283283%29.jpg/330px-Calonectris_diomedea%2C_Cabrera_National_Park_%2812076283283%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Calonectris_diomedea,_Cabrera_National_Park_(12076283283).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Marcabrera",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 117.0,
+   "max": 135.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 74.0,
+   "max": 955.6,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Calonectris"
+  },
+  "family": {
+   "scientific": "Procellariidae"
+  },
+  "order": {
+   "scientific": "Procellariiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q216850"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Scopoli%27s_shearwater"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

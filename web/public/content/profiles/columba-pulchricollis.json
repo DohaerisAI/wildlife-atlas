@@ -1,0 +1,49 @@
+{
+ "scientific": "Columba pulchricollis",
+ "name": "Ashy wood pigeon",
+ "qid": "Q367075",
+ "description": "species of bird",
+ "extract": "The ashy wood pigeon (Columba pulchricollis) is a member of the bird family Columbidae, found in temperate forests of southeastern Asia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Ashy_Wood_Pigeon.jpg/1280px-Ashy_Wood_Pigeon.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Ashy_Wood_Pigeon.jpg/330px-Ashy_Wood_Pigeon.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ashy_Wood_Pigeon.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Prasan Shrestha",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Columba"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q367075"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ashy_wood_pigeon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

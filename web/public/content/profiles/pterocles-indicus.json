@@ -1,0 +1,70 @@
+{
+ "scientific": "Pterocles indicus",
+ "name": "Painted Sandgrouse",
+ "qid": "Q127884",
+ "description": "species of bird",
+ "extract": "The painted sandgrouse (Pterocles indicus) is a medium large bird in the sandgrouse family Pteroclidae found in India and Pakistan.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Painted_Sandgrouse_in_Bhigwan_August_2025_by_Tisha_Mukherjee_08.jpg/1280px-Painted_Sandgrouse_in_Bhigwan_August_2025_by_Tisha_Mukherjee_08.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Painted_Sandgrouse_in_Bhigwan_August_2025_by_Tisha_Mukherjee_08.jpg/330px-Painted_Sandgrouse_in_Bhigwan_August_2025_by_Tisha_Mukherjee_08.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Painted_Sandgrouse_in_Bhigwan_August_2025_by_Tisha_Mukherjee_08.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Painted_Sandgrouse_in_Bhigwan_August_2025_by_Tisha_Mukherjee_03.jpg/1280px-Painted_Sandgrouse_in_Bhigwan_August_2025_by_Tisha_Mukherjee_03.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Painted_Sandgrouse_in_Bhigwan_August_2025_by_Tisha_Mukherjee_03.jpg/330px-Painted_Sandgrouse_in_Bhigwan_August_2025_by_Tisha_Mukherjee_03.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Painted_Sandgrouse_in_Bhigwan_August_2025_by_Tisha_Mukherjee_03.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Pterocles_indicus_1921.jpg/1280px-Pterocles_indicus_1921.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Pterocles_indicus_1921.jpg/330px-Pterocles_indicus_1921.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pterocles_indicus_1921.jpg",
+   "license": "Public domain",
+   "artist": "Henrik Grønvold",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 13.0,
+   "max": 198.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pterocles"
+  },
+  "family": {
+   "scientific": "Pteroclidae"
+  },
+  "order": {
+   "scientific": "Pterocliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q127884"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Painted_sandgrouse"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

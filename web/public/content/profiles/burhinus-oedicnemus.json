@@ -1,0 +1,70 @@
+{
+ "scientific": "Burhinus oedicnemus",
+ "name": "Eurasian Stone-curlew",
+ "qid": "Q184834",
+ "description": "species of bird",
+ "extract": "The Eurasian stone-curlew, Eurasian thick-knee, or simply stone-curlew (Burhinus oedicnemus), is a northern species of the Burhinidae (stone-curlew) bird family.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Eurasian_Thicknee_-_Along_Po_river_-_Italy_FJ0A1202_%2828252446508%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Eurasian_Thicknee_-_Along_Po_river_-_Italy_FJ0A1202_%2828252446508%29.jpg/330px-Eurasian_Thicknee_-_Along_Po_river_-_Italy_FJ0A1202_%2828252446508%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eurasian_Thicknee_-_Along_Po_river_-_Italy_FJ0A1202_(28252446508).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Burhinus_oedicnemus_insularum_Lanzarote_1.jpg/1280px-Burhinus_oedicnemus_insularum_Lanzarote_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Burhinus_oedicnemus_insularum_Lanzarote_1.jpg/330px-Burhinus_oedicnemus_insularum_Lanzarote_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Burhinus_oedicnemus_insularum_Lanzarote_1.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Frank Vassen from Brussels, Belgium",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 81.0,
+   "max": 81.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 42.0,
+   "max": 42.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Burhinus"
+  },
+  "family": {
+   "scientific": "Burhinidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Stone curlew"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q184834"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eurasian_stone-curlew"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

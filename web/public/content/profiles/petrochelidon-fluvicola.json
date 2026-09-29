@@ -1,0 +1,54 @@
+{
+ "scientific": "Petrochelidon fluvicola",
+ "name": "Streak-throated Swallow",
+ "qid": "Q1306657",
+ "description": "species of bird",
+ "extract": "The streak-throated swallow or the Indian cliff swallow (Petrochelidon fluvicola) is a passerine bird, which includes a large number of other species including many swallows.  It is native of South Asia where it is a breeder, year-round resident or winter visitor in the countries of Afghanistan, India, Nepal and Pakistan. It occurs as a vagrant in the Maldives, Sri Lanka, and the Middle East.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Streak_Throated_Swallow_Side_Electric_Srirangapatna_Jul22_D72_24643.jpg/1280px-Streak_Throated_Swallow_Side_Electric_Srirangapatna_Jul22_D72_24643.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Streak_Throated_Swallow_Side_Electric_Srirangapatna_Jul22_D72_24643.jpg/330px-Streak_Throated_Swallow_Side_Electric_Srirangapatna_Jul22_D72_24643.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Streak_Throated_Swallow_Side_Electric_Srirangapatna_Jul22_D72_24643.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "This Photo was taken by Timothy A. Gonsalves.  Feel free to use my photos, but please mention me as the author.  I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk page, for my information.  Please contact me before commercial use.\n\n\n\nPlease do not upload an edited image here without consulting me.  I would like to make corrections only at my own source to ensure that the changes improve the image and are preserved.Otherwise you may upload an edited image with a new name. Please use one of the templates derivative or extract.",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 9.7,
+   "max": 9.7,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Petrochelidon"
+  },
+  "family": {
+   "scientific": "Hirundinidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Indian cliff swallow"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1306657"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Streak-throated_swallow"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

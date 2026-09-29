@@ -1,0 +1,51 @@
+{
+ "scientific": "Carpodacus rubicilloides",
+ "name": "Streaked Rosefinch",
+ "qid": "Q1301664",
+ "description": "species of bird",
+ "extract": "The streaked rosefinch (Carpodacus rubicilloides) is a true finch species (family Fringillidae). It is found on the Himalayan Plateau. Its natural habitat is boreal shrubland.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Carpodacus_rubicilloides.jpg/1280px-Carpodacus_rubicilloides.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Carpodacus_rubicilloides.jpg/330px-Carpodacus_rubicilloides.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Carpodacus_rubicilloides.jpg",
+   "license": "Public domain",
+   "artist": "Nikolay Przhevalsky",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 41.0,
+   "max": 41.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Carpodacus"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1301664"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Streaked_rosefinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

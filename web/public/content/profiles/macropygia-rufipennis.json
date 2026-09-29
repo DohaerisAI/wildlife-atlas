@@ -1,0 +1,54 @@
+{
+ "scientific": "Macropygia rufipennis",
+ "name": "Andaman Cuckoo-Dove",
+ "qid": "Q489882",
+ "description": "species of bird",
+ "extract": "The Andaman cuckoo-dove (Macropygia rufipennis) is a species of bird in the family Columbidae. It is endemic to the Andaman and Nicobar Islands. It is characterized by its small body and rusty color. Its call is a repeated cooing \"koo\". Due to habitat loss and hunting, the species is becoming rare, yet it is listed as Least Concern. The Department of Environment and Forests, Andaman and Nicobar Islands, and the Zoological Survey of India are monitoring, surveying, and bringing awareness to the species' population. The species is frequently discovered in or around forest areas, with a diet that consists of mostly fruits and berries. The Andaman cuckoo-dove's breeding season is believed to be from February to April, but little information is known about this species.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/MacropygiaRufipennis.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/MacropygiaRufipennis.jpg/330px-MacropygiaRufipennis.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:MacropygiaRufipennis.jpg",
+   "license": "Public domain",
+   "artist": "E C Stuart Baker",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 260.0,
+   "max": 260.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Macropygia"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q489882"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Andaman_cuckoo-dove"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

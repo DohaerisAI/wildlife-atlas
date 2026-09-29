@@ -1,0 +1,55 @@
+{
+ "scientific": "Pseudibis papillosa",
+ "name": "Red-naped Ibis",
+ "qid": "Q845946",
+ "description": "species of bird",
+ "extract": "The red-naped ibis (Pseudibis papillosa), also known as the Indian black ibis or black ibis, is a species of ibis found in the plains, agriculture fields and cities of the Indian subcontinent. Unlike other ibises in the region it is not found very often in waterbodies and is often found in dry fields, but are attracted more to areas that have more wetlands. It is usually seen in pairs or loose groups and can be identified by the nearly all dark body with a white patch on the shoulder and a bare dark head with a patch of crimson red warty skin on the crown and nape. It has a loud call and is noisy when breeding. It builds its nest most often on the top of a large tree or palm, and an increasing number of pairs are building on cell phone towers and electricity pillion towers.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Red-naped_Ibis_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg/1280px-Red-naped_Ibis_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Red-naped_Ibis_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg/330px-Red-naped_Ibis_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red-naped_Ibis_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 90.0,
+   "max": 115.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pseudibis"
+  },
+  "family": {
+   "scientific": "Threskiornithidae",
+   "name": "Ibises and Spoonbills"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q845946"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-naped_ibis"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

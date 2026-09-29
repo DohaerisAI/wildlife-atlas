@@ -3,10 +3,11 @@
  "name": "Greater Flamingo",
  "qid": "Q179863",
  "description": "species of bird",
- "extract": "The greater flamingo is the largest and most widespread species of the flamingo family. Common in the Old World, they are found in Northern (coastal) and Sub-Saharan Africa, the Indian subcontinent, Central Asia, the Middle East, the Levant, the Persian Gulf, the Gulf of Aden, the Red Sea, and the Mediterranean countries of Southern Europe.",
+ "extract": "The greater flamingo (Phoenicopterus roseus) is the largest and most widespread species of the flamingo family. Common in the Old World, they are found in Northern (coastal) and Sub-Saharan Africa, the Indian subcontinent (south of the Himalayas), Central Asia, the Middle East, the Levant, the Persian Gulf, the Gulf of Aden, the Red Sea, and the Mediterranean countries of Southern Europe.",
  "images": [
   {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Flamant_rose_Thyna009.jpg/960px-Flamant_rose_Thyna009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Flamant_rose_Thyna009.jpg/1280px-Flamant_rose_Thyna009.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Flamant_rose_Thyna009.jpg/330px-Flamant_rose_Thyna009.jpg",
    "page": "https://commons.wikimedia.org/wiki/File:Flamant_rose_Thyna009.jpg",
    "license": "CC BY-SA 4.0",
    "artist": "El Golli Mohamed",
@@ -27,6 +28,22 @@
   "status": {
    "code": "LC",
    "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phoenicopterus"
+  },
+  "family": {
+   "scientific": "Phoenicopteridae",
+   "name": "Flamingos"
+  },
+  "order": {
+   "scientific": "Phoenicopteriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
   }
  },
  "sources": [

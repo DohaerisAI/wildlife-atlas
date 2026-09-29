@@ -1,0 +1,48 @@
+{
+ "scientific": "Dendrocopos darjellensis",
+ "name": "Darjeeling Woodpecker",
+ "qid": "Q1276519",
+ "description": "species of bird",
+ "extract": "The Darjeeling woodpecker (Dendrocopos darjellensis) is a species of bird in the family Picidae.  It is found in the northern regions of the Indian subcontinent, primarily in the Himalayas, and in some adjoining areas.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Darjeeling_Woodpecker_-_Bhutan_S4E9850_%2816224265649%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Darjeeling_Woodpecker_-_Bhutan_S4E9850_%2816224265649%29.jpg/330px-Darjeeling_Woodpecker_-_Bhutan_S4E9850_%2816224265649%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Darjeeling_Woodpecker_-_Bhutan_S4E9850_(16224265649).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dendrocopos"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "other_names": [
+  "Picoides darjellensis"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1276519"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Darjeeling_woodpecker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,54 @@
+{
+ "scientific": "Ardea insignis",
+ "name": "White-bellied Heron",
+ "qid": "Q852874",
+ "description": "species of bird",
+ "extract": "The white-bellied heron (Ardea insignis) also known as the imperial heron or great white-bellied heron, is a large heron species living in the foothills of the eastern Himalayas in northeast India and Bhutan to northern Myanmar. It inhabits undisturbed rivers and wetlands. It has been listed as Critically Endangered on the IUCN Red List since 2007, because the global population is estimated at fewer than 250 mature individuals and threatened by habitat loss and human disturbance. It is mostly dark grey with a white throat and underparts.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/White-Bellied_Heron_DSCN1518_06%2C_crop.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/White-Bellied_Heron_DSCN1518_06%2C_crop.jpg/330px-White-Bellied_Heron_DSCN1518_06%2C_crop.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-Bellied_Heron_DSCN1518_06,_crop.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Rohit Naniwadekar",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "CR",
+   "label": "Critically Endangered"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ardea"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Imperial heron",
+  "Great white-bellied heron"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q852874"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-bellied_heron"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

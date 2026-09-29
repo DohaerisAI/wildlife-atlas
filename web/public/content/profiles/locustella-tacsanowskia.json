@@ -1,0 +1,54 @@
+{
+ "scientific": "Locustella tacsanowskia",
+ "name": "Chinese/Baikal Bush Warbler",
+ "qid": "Q27075498",
+ "description": "species of bird",
+ "extract": "The Chinese bush warbler (Locustella tacsanowskia) is an Old World warbler in the family Locustellidae. The species was first described by Robert Swinhoe in 1871. It breeds in the East Palearctic (East Siberia to Tibet and South China); it winters to Northeast India, Yunnan and Southeast Asia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Locustella_tacsanowskia_-_February_2020.jpg/1280px-Locustella_tacsanowskia_-_February_2020.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Locustella_tacsanowskia_-_February_2020.jpg/330px-Locustella_tacsanowskia_-_February_2020.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Locustella_tacsanowskia_-_February_2020.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Анна Васильченко",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 11.0,
+   "max": 11.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Locustella"
+  },
+  "family": {
+   "scientific": "Locustellidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Chinese bush warbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075498"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chinese_bush_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

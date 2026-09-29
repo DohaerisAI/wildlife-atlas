@@ -1,0 +1,54 @@
+{
+ "scientific": "Emberiza stewarti",
+ "name": "White-capped Bunting",
+ "qid": "Q994425",
+ "description": "species of bird",
+ "extract": "The white-capped bunting or chestnut-breasted bunting (Emberiza stewarti) is a species of bird in the family Emberizidae. It is found in Afghanistan, India, Iran, Kazakhstan, Kyrgyzstan, Nepal, Pakistan, Tajikistan, Turkmenistan, and Uzbekistan. Its natural habitats are boreal forests, boreal shrubland, and temperate grassland.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/White-capped_Bunting_%28Emberiza_stewarti%29_%2847269056742%29.jpg/1280px-White-capped_Bunting_%28Emberiza_stewarti%29_%2847269056742%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/White-capped_Bunting_%28Emberiza_stewarti%29_%2847269056742%29.jpg/330px-White-capped_Bunting_%28Emberiza_stewarti%29_%2847269056742%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-capped_Bunting_(Emberiza_stewarti)_(47269056742).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/White-capped_Bunting_%28Emberiza_stewarti%29_%2843180022711%29.jpg/1280px-White-capped_Bunting_%28Emberiza_stewarti%29_%2843180022711%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/White-capped_Bunting_%28Emberiza_stewarti%29_%2843180022711%29.jpg/330px-White-capped_Bunting_%28Emberiza_stewarti%29_%2843180022711%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-capped_Bunting_(Emberiza_stewarti)_(43180022711).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Emberiza"
+  },
+  "family": {
+   "scientific": "Emberizidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q994425"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-capped_bunting"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

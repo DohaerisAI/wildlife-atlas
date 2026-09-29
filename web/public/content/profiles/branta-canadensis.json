@@ -1,0 +1,80 @@
+{
+ "scientific": "Branta canadensis",
+ "name": "Canada Goose",
+ "qid": "Q26733",
+ "description": "Species of wild goose",
+ "extract": "The Canada goose (Branta canadensis) is a large species of goose with a black head and neck, white cheeks, white under its chin, and a brown body. It is native to the Arctic and temperate regions of North America, and it is occasionally found during migration across the Atlantic in northern Europe. It has been introduced to France, the United Kingdom, Ireland, Scandinavia, New Zealand, Japan, Chile, Argentina, and the Falkland Islands. Like most geese, the Canada goose is primarily herbivorous and normally migratory; often found on or close to fresh water, the Canada goose is also common in brackish marshes, estuaries, and lagoons.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/La_Roche-en-Ardenne_-_Bernache_du_Canada%2C_Branta_canadensis.jpg/1280px-La_Roche-en-Ardenne_-_Bernache_du_Canada%2C_Branta_canadensis.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/La_Roche-en-Ardenne_-_Bernache_du_Canada%2C_Branta_canadensis.jpg/330px-La_Roche-en-Ardenne_-_Bernache_du_Canada%2C_Branta_canadensis.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:La_Roche-en-Ardenne_-_Bernache_du_Canada,_Branta_canadensis.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "JackyM59",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Canada_Geese_-_Flickr_-_treegrow.jpg/1280px-Canada_Geese_-_Flickr_-_treegrow.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Canada_Geese_-_Flickr_-_treegrow.jpg/330px-Canada_Geese_-_Flickr_-_treegrow.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Canada_Geese_-_Flickr_-_treegrow.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Katja Schulz from Washington, D. C., USA",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Bernaches_du_Canada_02.jpg/1280px-Bernaches_du_Canada_02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Bernaches_du_Canada_02.jpg/330px-Bernaches_du_Canada_02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bernaches_du_Canada_02.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Pierre5018",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 169.0,
+   "max": 169.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 3314.0,
+   "max": 5000.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Branta"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Lesser Canada Goose",
+  "Greater Canada Goose",
+  "Canadian Geese"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26733"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Canada_goose"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

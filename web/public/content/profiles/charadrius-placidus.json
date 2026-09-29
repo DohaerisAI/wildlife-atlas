@@ -1,0 +1,62 @@
+{
+ "scientific": "Charadrius placidus",
+ "name": "Long-billed Plover",
+ "qid": "Q913777",
+ "description": "species of bird",
+ "extract": "The long-billed plover (Thinornis placidus) is a species of wading bird in the family Charadriidae. It can be found in Bangladesh, Bhutan, Brunei, Cambodia, China, Hong Kong, India, Indonesia, Japan, Laos, Malaysia, Mongolia, Myanmar, Nepal, North Korea, Russia, South Korea, Sri Lanka, Taiwan, Thailand, and Vietnam. The long-billed plover is a migratory bird, so it breeds and spends the winter in different parts of its range. This bird can often be spotted along the shores of rivers, streams, in wetlands, and rice fields. It forages on the shoreline primarily for aquatic insects, insect larvae, and other invertebrates. It is difficult to distinguish between male and female individuals because of their similar plumage. The breeding season starts at the end of February or early March and ends in July. A male and a female forms a monogamous pair and maintains their territory throughout the breeding season. A global population survey in 2016 assessed the long-billed plover as a species of least concern on the International Union for Conservation of Nature (IUCN) Red List.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Charadrius_placidus_japonicus_s3.jpg/1280px-Charadrius_placidus_japonicus_s3.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Charadrius_placidus_japonicus_s3.jpg/330px-Charadrius_placidus_japonicus_s3.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Charadrius_placidus_japonicus_s3.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Alpsdake",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Charadrius_placidus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Charadrius_placidus.jpg/330px-Charadrius_placidus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Charadrius_placidus.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "M.Nishimura",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 45.0,
+   "max": 45.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Charadrius"
+  },
+  "family": {
+   "scientific": "Charadriidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q913777"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Long-billed_plover"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

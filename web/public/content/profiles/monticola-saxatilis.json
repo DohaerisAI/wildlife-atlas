@@ -1,0 +1,70 @@
+{
+ "scientific": "Monticola saxatilis",
+ "name": "Common Rock Thrush",
+ "qid": "Q235057",
+ "description": "species of bird",
+ "extract": "The common rock thrush (Monticola saxatilis), also known as the rufous-tailed rock thrush or simply rock thrush, is a species of chat that breeds in southern Europe across Central Asia to northern China. This species is strongly migratory, all populations wintering in Africa south of the Sahara. It is an uncommon visitor to northern Europe. Its range has contracted somewhat at the periphery in recent decades due to habitat destruction. For example, in the early 20th century it bred in the Jura Krakowsko-Częstochowska (Poland) where none occur today, but it is not considered globally endangered.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Monsax.jpg/1280px-Monsax.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Monsax.jpg/330px-Monsax.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Monsax.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Pierre Dalous",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Common_rock_thrush.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Common_rock_thrush.jpg/330px-Common_rock_thrush.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_rock_thrush.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Gary L. Clark",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Rufous-tailed_Rock-thrush_%28Monticola_saxitilis%29_%2838253100512%29.jpg/1280px-Rufous-tailed_Rock-thrush_%28Monticola_saxitilis%29_%2838253100512%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Rufous-tailed_Rock-thrush_%28Monticola_saxitilis%29_%2838253100512%29.jpg/330px-Rufous-tailed_Rock-thrush_%28Monticola_saxitilis%29_%2838253100512%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rufous-tailed_Rock-thrush_(Monticola_saxitilis)_(38253100512).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 5.0,
+   "max": 52.4,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Monticola"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Rufous-tailed rock-thrush"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q235057"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_rock_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

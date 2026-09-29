@@ -1,0 +1,50 @@
+{
+ "scientific": "Threskiornis melanocephalus",
+ "name": "Black-headed Ibis",
+ "qid": "Q373114",
+ "description": "species of bird",
+ "extract": "The black-headed ibis (Threskiornis melanocephalus), also known as the Oriental white ibis, Indian white ibis, and black-necked ibis, is a species of wading bird of the ibis family Threskiornithidae which breeds in the South and Southeast Asia from India to the west and as far east as Japan. It is the only native ibis species in its range that has an overall white plumage with a black neck and head. The down-curved beak and legs are also black. Though often referred to as a wetland species, the black-headed ibis forages in a range of natural and man-made habitats. This species of ibis nests only during the rainy season.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/SL_Bundala_NP_asv2020-01_img03.jpg/1280px-SL_Bundala_NP_asv2020-01_img03.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/SL_Bundala_NP_asv2020-01_img03.jpg/330px-SL_Bundala_NP_asv2020-01_img03.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:SL_Bundala_NP_asv2020-01_img03.jpg",
+   "license": "FAL",
+   "artist": "A.Savin",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Threskiornis"
+  },
+  "family": {
+   "scientific": "Threskiornithidae",
+   "name": "Ibises and Spoonbills"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q373114"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-headed_ibis"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

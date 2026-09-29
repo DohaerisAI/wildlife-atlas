@@ -1,0 +1,45 @@
+{
+ "scientific": "Upupa marginata",
+ "name": "Madagascan Hoopoe",
+ "qid": "Q27074808",
+ "description": "species of bird",
+ "extract": "The Madagascar hoopoe (Upupa marginata) is a species of hoopoe in the family Upupidae. It was previously considered a subspecies (Upupa epops marginata) of the hoopoe, but was split due to its vocalisations and small differences in plumage. Some taxonomists still consider all three species conspecific. Some authorities also keep the African and Eurasian hoopoe together, but split the Madagascar hoopoe. It is endemic to Madagascar, where its natural habitat is subtropical or tropical dry forest. It is a common bird and the International Union for Conservation of Nature considers its conservation status to be of least concern.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Madagascar_hoopoe_%28Upupa_marginata%29.jpg/1280px-Madagascar_hoopoe_%28Upupa_marginata%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Madagascar_hoopoe_%28Upupa_marginata%29.jpg/330px-Madagascar_hoopoe_%28Upupa_marginata%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Madagascar_hoopoe_(Upupa_marginata).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Upupa"
+  },
+  "family": {
+   "scientific": "Upupidae"
+  },
+  "order": {
+   "scientific": "Bucerotiformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27074808"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Madagascar_hoopoe"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

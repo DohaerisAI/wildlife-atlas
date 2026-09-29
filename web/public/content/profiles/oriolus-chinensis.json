@@ -1,0 +1,59 @@
+{
+ "scientific": "Oriolus chinensis",
+ "name": "Black-naped Oriole",
+ "qid": "Q74092",
+ "description": "species of bird",
+ "extract": "The black-naped oriole (Oriolus chinensis) is a passerine bird in the oriole family that is found in many parts of Asia. There are several distinctive populations within the wide distribution range of this species and in the past the slender-billed oriole (Oriolus tenuirostris) was included as a subspecies. Unlike the Indian golden oriole which only has a short and narrow eye-stripe, the black-naped oriole has the stripe broadening and joining at the back of the neck. Males and females are very similar although the wing lining of the female is more greenish. The bill is pink and is stouter than in the golden oriole.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Custardapplewithbird.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Custardapplewithbird.jpg/330px-Custardapplewithbird.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Custardapplewithbird.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Prof Dr Kamarudin Mat-Salleh (Flickr user:  About Prof KMS (OTW to Borneo))",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Black-naped_Oriole_eyeing_on_Lannea_coromandelica_fruits_W_IMG_7449.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Black-naped_Oriole_eyeing_on_Lannea_coromandelica_fruits_W_IMG_7449.jpg/330px-Black-naped_Oriole_eyeing_on_Lannea_coromandelica_fruits_W_IMG_7449.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-naped_Oriole_eyeing_on_Lannea_coromandelica_fruits_W_IMG_7449.jpg",
+   "license": "CC BY 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 82.0,
+   "max": 82.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Oriolus"
+  },
+  "family": {
+   "scientific": "Oriolidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q74092"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-naped_oriole"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

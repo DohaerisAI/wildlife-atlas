@@ -1,0 +1,46 @@
+{
+ "scientific": "Acrocephalus concinens",
+ "name": "Blunt-winged Warbler",
+ "qid": "Q1585646",
+ "description": "species of bird",
+ "extract": "The blunt-winged warbler (Acrocephalus concinens) is a marsh-warbler (family Acrocephalidae). The species was first described by Robert Swinhoe in 1870. It was formerly included in the \"Old World warbler\" assemblage.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Blunt-winged_Warbler_I_IMG_0202.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Blunt-winged_Warbler_I_IMG_0202.jpg/330px-Blunt-winged_Warbler_I_IMG_0202.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blunt-winged_Warbler_I_IMG_0202.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Acrocephalus"
+  },
+  "family": {
+   "scientific": "Acrocephalidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1585646"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blunt-winged_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

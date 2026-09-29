@@ -1,0 +1,66 @@
+{
+ "scientific": "Strix leptogrammica",
+ "name": "Brown Wood Owl",
+ "qid": "Q616393",
+ "description": "species of bird",
+ "extract": "The brown wood owl (Strix leptogrammica) is found in India, Bangladesh, Sri Lanka, Indonesia, Taiwan, and south China. The brown wood owl is a resident breeder in south Asia. This species is a part of the family of owls known as typical owls (Strigidae), which contains most species of owl. It belongs to the earless owl genus Strix.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Strix_leptogrammica_-Surrey_Bird_Sanctuary%2C_Welimada%2C_Sri_Lanka_-8a.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Strix_leptogrammica_-Surrey_Bird_Sanctuary%2C_Welimada%2C_Sri_Lanka_-8a.jpg/330px-Strix_leptogrammica_-Surrey_Bird_Sanctuary%2C_Welimada%2C_Sri_Lanka_-8a.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Strix_leptogrammica_-Surrey_Bird_Sanctuary,_Welimada,_Sri_Lanka_-8a.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Koshy Koshy",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Brown_Wood_Owl_%2824165248055%29.jpg/1280px-Brown_Wood_Owl_%2824165248055%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Brown_Wood_Owl_%2824165248055%29.jpg/330px-Brown_Wood_Owl_%2824165248055%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brown_Wood_Owl_(24165248055).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Mike Prince from Bangalore, India",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Brown_Wood_Owl1.jpg/1280px-Brown_Wood_Owl1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Brown_Wood_Owl1.jpg/330px-Brown_Wood_Owl1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brown_Wood_Owl1.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Prateik Kulkarni",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Strix"
+  },
+  "family": {
+   "scientific": "Strigidae",
+   "name": "true owls"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q616393"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown_wood_owl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

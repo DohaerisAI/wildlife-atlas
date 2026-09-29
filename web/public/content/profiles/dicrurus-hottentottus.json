@@ -1,0 +1,52 @@
+{
+ "scientific": "Dicrurus hottentottus",
+ "name": "Hair-crested Drongo",
+ "qid": "Q74084",
+ "description": "species of bird",
+ "extract": "The hair-crested drongo (Dicrurus hottentottus) is an Asian bird of the family Dicruridae. This species was formerly considered conspecific with Dicrurus bracteatus, for which the name \"spangled drongo\" – formerly used for both – is now usually reserved.  Some authorities include the Sumatran drongo (D. sumatranus) in D. hottentottus as subspecies.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Dicrurus_hottentottus-20030823.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Dicrurus_hottentottus-20030823.jpg/330px-Dicrurus_hottentottus-20030823.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dicrurus_hottentottus-20030823.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dougjj",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 7.0,
+   "max": 77.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dicrurus"
+  },
+  "family": {
+   "scientific": "Dicruridae",
+   "name": "drongo"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q74084"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hair-crested_drongo"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

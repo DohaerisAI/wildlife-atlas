@@ -1,0 +1,54 @@
+{
+ "scientific": "Psittacula cyanocephala",
+ "name": "Plum-headed Parakeet",
+ "qid": "Q913813",
+ "description": "species of bird",
+ "extract": "The plum-headed parakeet (Psittacula cyanocephala) is a species of parakeet in the family Psittacidae. It is endemic to the Indian subcontinent and was once thought to be conspecific with the blossom-headed parakeet (P. roseata) before being elevated to a full species. Plum-headed parakeets are found in flocks, the males having a pinkish purple head and the females, a grey head. They fly swiftly with twists and turns accompanied by their distinctive calls.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/A_Male_Plum_Headed_Parakeet_%2850262273588%29.jpg/1280px-A_Male_Plum_Headed_Parakeet_%2850262273588%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/A_Male_Plum_Headed_Parakeet_%2850262273588%29.jpg/330px-A_Male_Plum_Headed_Parakeet_%2850262273588%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:A_Male_Plum_Headed_Parakeet_(50262273588).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Hari K  Patibanda",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/A_Female_Plum_Headed_Parakeet_%2850263113627%29.jpg/1280px-A_Female_Plum_Headed_Parakeet_%2850263113627%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/A_Female_Plum_Headed_Parakeet_%2850263113627%29.jpg/330px-A_Female_Plum_Headed_Parakeet_%2850263113627%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:A_Female_Plum_Headed_Parakeet_(50263113627).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Hari K  Patibanda",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Psittacula"
+  },
+  "family": {
+   "scientific": "Psittaculidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q913813"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Plum-headed_parakeet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,51 @@
+{
+ "scientific": "Melanochlora sultanea",
+ "name": "Sultan Tit",
+ "qid": "Q2263439",
+ "description": "species of bird",
+ "extract": "The sultan tit (Melanochlora sultanea) is an Asian forest bird with black upperparts plumage and yellow underparts, dark bill, and (depending on subspecies) a yellow or black crest. The sexes are similar, though the female has slightly duller plumage with greenish-black upperparts and throat. The young bird is duller than the adult and has a shorter crest. It is the only member of the monotypic genus Melanochlora, which is fairly distinct from other tits, third-basal in the family Paridae after Cephalopyrus and Sylviparus.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Melanochlora_sultanea_-_dhfischer_-_493201016.jpeg/1280px-Melanochlora_sultanea_-_dhfischer_-_493201016.jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Melanochlora_sultanea_-_dhfischer_-_493201016.jpeg/330px-Melanochlora_sultanea_-_dhfischer_-_493201016.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Melanochlora_sultanea_-_dhfischer_-_493201016.jpeg",
+   "license": "CC BY 4.0",
+   "artist": "dhfischer",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 42.0,
+   "max": 42.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Melanochlora"
+  },
+  "family": {
+   "scientific": "Paridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2263439"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sultan_tit"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

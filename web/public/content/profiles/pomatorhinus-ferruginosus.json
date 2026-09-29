@@ -1,0 +1,50 @@
+{
+ "scientific": "Pomatorhinus ferruginosus",
+ "name": "Coral-billed Scimitar-Babbler",
+ "qid": "Q1307490",
+ "description": "species of bird",
+ "extract": "The black-crowned scimitar babbler (Pomatorhinus ferruginosus) is a species of bird in the family Timaliidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Coral-billed_Scimitar_Babbler_Eaglenest_WLS_Arunachal_Pradesh_India_March_2019.jpg/1280px-Coral-billed_Scimitar_Babbler_Eaglenest_WLS_Arunachal_Pradesh_India_March_2019.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Coral-billed_Scimitar_Babbler_Eaglenest_WLS_Arunachal_Pradesh_India_March_2019.jpg/330px-Coral-billed_Scimitar_Babbler_Eaglenest_WLS_Arunachal_Pradesh_India_March_2019.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Coral-billed_Scimitar_Babbler_Eaglenest_WLS_Arunachal_Pradesh_India_March_2019.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pomatorhinus"
+  },
+  "family": {
+   "scientific": "Timaliidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Coral-billed Scimitar Babbler",
+  "Black-crowned scimitar babbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1307490"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-crowned_scimitar_babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

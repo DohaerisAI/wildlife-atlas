@@ -1,0 +1,49 @@
+{
+ "scientific": "Columba hodgsonii",
+ "name": "Speckled Wood Pigeon",
+ "qid": "Q998449",
+ "description": "Species of bird",
+ "extract": "The speckled wood pigeon (Columba hodgsonii), also known as Hodgson's pigeon or the jungle pigeon, is a medium-sized pigeon of the bird family Columbidae and genus Columba. It is a monotypic species. It measures 38–40 cm (15–15.5 in) in length, with males featuring a pale gray head and females having a grayish-brown head. Males have a distinctive pinkish-silver breast speckled with black spots and a maroon belly, while females exhibit less vibrant coloration. Both sexes have blackish-brown tails and primaries, iris color differs slightly. The species is distributed across the Himalayas extending from Kashmir to western and central China, as well as parts of India, Myanmar, Laos, Thailand, Pakistan, Nepal, Bhutan, and Afghanistan. Inhabiting evergreen and semi-evergreen hill forests at elevations of 1,800–4,000 meters (5,900–13,100 ft), descend in winter based on food availability. Diet consists mainly of acorns, berries, and fruits, typically foraging in small flocks. Breeding occurs from May to August, with nests situated 3–8 meters (9.8–26.2 ft) above ground.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/ColumbaHodgsonii.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/ColumbaHodgsonii.jpg/330px-ColumbaHodgsonii.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:ColumbaHodgsonii.jpg",
+   "license": "Public domain",
+   "artist": "H. Gronvold and E C Stuart Baker",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Columba"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q998449"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Speckled_wood_pigeon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

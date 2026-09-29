@@ -1,0 +1,50 @@
+{
+ "scientific": "Otus lettia",
+ "name": "Collared Scops Owl",
+ "qid": "Q1269116",
+ "description": "species of bird",
+ "extract": "The collared scops owl (Otus lettia) is an owl which is a resident breeder in south Asia from  northern Pakistan, northern India, Nepal, Bangladesh, the Himalayas east to southern China, and Taiwan. It is partially migratory, with some birds wintering in India, Sri Lanka and Malaysia. This species was formerly considered to be included within what is now separated as the Indian scops owl (O. bakkamoena).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Collared_Scops_Owl%28Otus_lettia%29_by_Jack_Walf_.jpg/1280px-Collared_Scops_Owl%28Otus_lettia%29_by_Jack_Walf_.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Collared_Scops_Owl%28Otus_lettia%29_by_Jack_Walf_.jpg/330px-Collared_Scops_Owl%28Otus_lettia%29_by_Jack_Walf_.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Collared_Scops_Owl(Otus_lettia)_by_Jack_Walf_.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "jack walf",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Otus"
+  },
+  "family": {
+   "scientific": "Strigidae",
+   "name": "true owls"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1269116"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Collared_scops_owl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,41 @@
+{
+ "scientific": "Hirundo domicola",
+ "name": "Hill Swallow",
+ "qid": "Q3136299",
+ "description": "species of bird",
+ "extract": "The hill swallow (Hirundo domicola) is a small  passerine bird in the swallow family. It breeds in southern India and Sri Lanka. It is resident apart from some local seasonal movements. This bird is associated with coasts, but is increasingly spreading to forested uplands. It was formerly considered to be a subspecies of the Pacific swallow.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/HirundoDomicolaGould.jpg/1280px-HirundoDomicolaGould.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/HirundoDomicolaGould.jpg/330px-HirundoDomicolaGould.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:HirundoDomicolaGould.jpg",
+   "license": "Public domain",
+   "artist": "John Gould, HC Richter",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Hirundo"
+  },
+  "family": {
+   "scientific": "Hirundinidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3136299"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hill_swallow"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

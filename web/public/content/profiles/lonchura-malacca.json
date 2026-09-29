@@ -1,0 +1,55 @@
+{
+ "scientific": "Lonchura malacca",
+ "name": "Tricolored Munia",
+ "qid": "Q478632",
+ "description": "species of bird",
+ "extract": "The tricoloured munia (Lonchura malacca) is an estrildid finch, native to Bangladesh, India, Sri Lanka, Pakistan, and southern China. The species has also been introduced to the Caribbean, in Trinidad, Jamaica, Hispaniola, Puerto Rico, Cuba, and Venezuela. This species, like the chestnut munia has been known as the black-headed munia.  Immature birds have pale brown upperparts, lack the dark head found in adults, and have uniform buff underparts that can be confused with immatures of other munias such as the scaly-breasted munia.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Black-headed_Munia_I_IMG_7747.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Black-headed_Munia_I_IMG_7747.jpg/330px-Black-headed_Munia_I_IMG_7747.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-headed_Munia_I_IMG_7747.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 12.6,
+   "max": 12.6,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lonchura"
+  },
+  "family": {
+   "scientific": "Estrildidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Black-headed Munia",
+  "Tricoloured munia"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q478632"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tricoloured_munia"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

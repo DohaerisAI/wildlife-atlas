@@ -1,0 +1,54 @@
+{
+ "scientific": "Sarcogyps calvus",
+ "name": "Red-headed Vulture",
+ "qid": "Q628068",
+ "description": "species of bird",
+ "extract": "The red-headed vulture (Sarcogyps calvus), also known as the Asian king vulture, Indian black vulture or Pondicherry vulture, is an Old World vulture mainly found in the Indian subcontinent, with small disjunct populations in some parts of Southeast Asia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Red-headed_Vulture%2C_Kanha_National_Park_1.jpg/1280px-Red-headed_Vulture%2C_Kanha_National_Park_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Red-headed_Vulture%2C_Kanha_National_Park_1.jpg/330px-Red-headed_Vulture%2C_Kanha_National_Park_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red-headed_Vulture,_Kanha_National_Park_1.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Davidvraju",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 228.6,
+   "max": 228.6,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "CR",
+   "label": "Critically Endangered"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sarcogyps"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q628068"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-headed_vulture"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

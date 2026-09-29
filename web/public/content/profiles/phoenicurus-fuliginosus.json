@@ -1,0 +1,59 @@
+{
+ "scientific": "Phoenicurus fuliginosus",
+ "name": "Plumbeous Water Redstart",
+ "qid": "Q27075686",
+ "description": "species of bird",
+ "extract": "The plumbeous water redstart (Phoenicurus fuliginosus) is a passerine bird in the Old World flycatcher family Muscicapidae. It is found in South Asia, Southeast Asia and China.  Males are slate blue in colour, while females are grey.  The bird's common name refers to its colour which resembles lead.  They tend to live near fast-moving streams and rivers.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Rhyacornis_fuliginosus_-_Doi_Inthanon.jpg/1280px-Rhyacornis_fuliginosus_-_Doi_Inthanon.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Rhyacornis_fuliginosus_-_Doi_Inthanon.jpg/330px-Rhyacornis_fuliginosus_-_Doi_Inthanon.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rhyacornis_fuliginosus_-_Doi_Inthanon.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Plumbeous_Water_Redstart_%28Female%29_I_IMG_6422.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Plumbeous_Water_Redstart_%28Female%29_I_IMG_6422.jpg/330px-Plumbeous_Water_Redstart_%28Female%29_I_IMG_6422.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Plumbeous_Water_Redstart_(Female)_I_IMG_6422.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 19.0,
+   "max": 22.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phoenicurus"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075686"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Plumbeous_water_redstart"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

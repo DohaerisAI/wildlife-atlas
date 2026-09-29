@@ -1,0 +1,52 @@
+{
+ "scientific": "Psittacula eupatria",
+ "name": "Alexandrine Parakeet",
+ "qid": "Q753746",
+ "description": "species of bird",
+ "extract": "The Alexandrine parakeet (Psittacula eupatria), also known as the Alexandrine parrot, is a medium-sized parrot in the genus Psittacula of the family Psittaculidae, native to South Asia and Southeast Asia. It is named after Alexander the Great, who transported numerous birds from Punjab to various European and Mediterranean countries and regions, where they were prized by the royalty, nobility and warlords.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Alexandrine_parakeet_%28Psittacula_eupatria_eupatria%29_male.jpg/1280px-Alexandrine_parakeet_%28Psittacula_eupatria_eupatria%29_male.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Alexandrine_parakeet_%28Psittacula_eupatria_eupatria%29_male.jpg/330px-Alexandrine_parakeet_%28Psittacula_eupatria_eupatria%29_male.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Alexandrine_parakeet_(Psittacula_eupatria_eupatria)_male.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Female_Alexandrine_Parakeet_4.jpg/1280px-Female_Alexandrine_Parakeet_4.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Female_Alexandrine_Parakeet_4.jpg/330px-Female_Alexandrine_Parakeet_4.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Female_Alexandrine_Parakeet_4.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Achat1999",
+   "caption": "Female"
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Psittacula"
+  },
+  "family": {
+   "scientific": "Psittaculidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "other_names": [
+  "Alexandrian parrot"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q753746"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Alexandrine_parakeet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

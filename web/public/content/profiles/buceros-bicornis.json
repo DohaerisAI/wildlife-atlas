@@ -1,0 +1,54 @@
+{
+ "scientific": "Buceros bicornis",
+ "name": "Great Hornbill",
+ "qid": "Q232768",
+ "description": "species of hornbill",
+ "extract": "The great hornbill (Buceros bicornis), also known as the concave-casqued hornbill, great Indian hornbill or great pied hornbill, is one of the larger members of the hornbill family. It occurs in the Indian subcontinent and Southeast Asia. It is predominantly frugivorous, but also preys on small mammals, reptiles, and birds. It has been listed as Vulnerable on the IUCN Red List since 2018. It is known to have lived for nearly 50 years in captivity. Due to its large size and colour, and importance in many tribal cultures and rituals, the Government of Kerala declared it as the official Kerala state bird. It is also the state bird of Arunachal Pradesh.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Great_hornbill_Photograph_by_Shantanu_Kuveskar.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Great_hornbill_Photograph_by_Shantanu_Kuveskar.jpg/330px-Great_hornbill_Photograph_by_Shantanu_Kuveskar.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Great_hornbill_Photograph_by_Shantanu_Kuveskar.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Shantanu Kuveskar",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Great_Hornbill_Goa.jpg/1280px-Great_Hornbill_Goa.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Great_Hornbill_Goa.jpg/330px-Great_Hornbill_Goa.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Great_Hornbill_Goa.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Rajan Hatiskar",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Buceros"
+  },
+  "family": {
+   "scientific": "Bucerotidae",
+   "name": "hornbill"
+  },
+  "order": {
+   "scientific": "Bucerotiformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q232768"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_hornbill"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

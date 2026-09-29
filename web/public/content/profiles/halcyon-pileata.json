@@ -1,0 +1,45 @@
+{
+ "scientific": "Halcyon pileata",
+ "name": "Black-capped Kingfisher",
+ "qid": "Q1049056",
+ "description": "species of kingfisher",
+ "extract": "The black-capped kingfisher (Halcyon pileata) is a tree kingfisher which is widely distributed in tropical Asia from India east to China, Korea and Southeast Asia. This most northerly of the tree kingfishers is resident over much of its range, but northern populations are migratory, wintering south of their range in Sri Lanka, Thailand, Borneo and Java. It is distinctive in having a black cap that contrasts with the whitish throat, purple-blue wings and the coral red bill. The species is mainly found in coastal and mangrove habitats but can sometimes be found far inland.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Halcyon_pileata_-_Phra_Non.jpg/1280px-Halcyon_pileata_-_Phra_Non.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Halcyon_pileata_-_Phra_Non.jpg/330px-Halcyon_pileata_-_Phra_Non.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Halcyon_pileata_-_Phra_Non.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Halcyon"
+  },
+  "family": {
+   "scientific": "Alcedinidae"
+  },
+  "order": {
+   "scientific": "Coraciiformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1049056"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-capped_kingfisher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

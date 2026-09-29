@@ -1,0 +1,67 @@
+{
+ "scientific": "Phoenicurus ochruros",
+ "name": "Black Redstart",
+ "qid": "Q26755",
+ "description": "species of bird",
+ "extract": "The black redstart (Phoenicurus ochruros) is a small passerine bird in the Old World flycatcher family. It is a widespread breeder in rocky habitats across Eurasia and North Africa, from the British Isles south to Morocco and east to central China. It is resident in the milder parts of its range, but northern and eastern birds migrate.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Hausrotschwanz_Brutpflege_2006-05-21-05.jpg/1280px-Hausrotschwanz_Brutpflege_2006-05-21-05.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Hausrotschwanz_Brutpflege_2006-05-21-05.jpg/330px-Hausrotschwanz_Brutpflege_2006-05-21-05.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hausrotschwanz_Brutpflege_2006-05-21-05.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Stefan-Xp",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Rougequeue_noir_Douga006.jpg/1280px-Rougequeue_noir_Douga006.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Rougequeue_noir_Douga006.jpg/330px-Rougequeue_noir_Douga006.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rougequeue_noir_Douga006.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "El Golli Mohamed",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Black_Redstart_bird.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Black_Redstart_bird.jpg/330px-Black_Redstart_bird.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black_Redstart_bird.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Siva301in",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 25.0,
+   "max": 25.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phoenicurus"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26755"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black_redstart"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

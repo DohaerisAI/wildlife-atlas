@@ -1,0 +1,68 @@
+{
+ "scientific": "Egretta caerulea",
+ "name": "Little Blue Heron",
+ "qid": "Q371028",
+ "description": "species of bird",
+ "extract": "The little blue heron (Egretta caerulea) is a small heron of the genus Egretta. It is a small, darkly colored heron with a two-toned bill. Juveniles are entirely white, bearing resemblance to the snowy egret. During the breeding season, adults develop different coloration on the head, legs, and feet.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Egretta_caerulea_-Cananeia%2C_Sao_Paulo%2C_Brasil-8.jpg/1280px-Egretta_caerulea_-Cananeia%2C_Sao_Paulo%2C_Brasil-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Egretta_caerulea_-Cananeia%2C_Sao_Paulo%2C_Brasil-8.jpg/330px-Egretta_caerulea_-Cananeia%2C_Sao_Paulo%2C_Brasil-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Egretta_caerulea_-Cananeia,_Sao_Paulo,_Brasil-8.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Dario Sanches from São Paulo, Brazil",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Little_Blue_Heron.jpg/1280px-Little_Blue_Heron.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Little_Blue_Heron.jpg/330px-Little_Blue_Heron.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Little_Blue_Heron.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Peter Wallack",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 95.0,
+   "max": 106.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 25.0,
+   "max": 364.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Egretta"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q371028"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Little_blue_heron"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,59 @@
+{
+ "scientific": "Eclectus roratus",
+ "name": "Moluccan eclectus",
+ "qid": "Q828544",
+ "description": "species of bird",
+ "extract": "The Moluccan eclectus (Eclectus roratus) is a parrot native to the Maluku Islands (Moluccas). It is unusual in the parrot order for its extreme sexual dimorphism of the colours of the plumage; the male having a mostly bright emerald green plumage and the female a mostly bright red and purple/blue plumage.  Joseph Forshaw, in his book  Parrots of the World, noted that the first European ornithologists to see eclectus parrots thought they were of two distinct species. Large populations of this parrot remain, and they are sometimes considered pests for eating fruit off trees. Some populations restricted to relatively small islands are comparably rare. Their bright feathers are also used by native tribespeople in New Guinea as decorations.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Eclectus_Parrot_male.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Eclectus_Parrot_male.JPG/330px-Eclectus_Parrot_male.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Eclectus_Parrot_male.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Unknown",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Eclectus_roratus_-National_Zoo%2C_Washington%2C_USA_-female-8a.jpg/1280px-Eclectus_roratus_-National_Zoo%2C_Washington%2C_USA_-female-8a.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Eclectus_roratus_-National_Zoo%2C_Washington%2C_USA_-female-8a.jpg/330px-Eclectus_roratus_-National_Zoo%2C_Washington%2C_USA_-female-8a.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eclectus_roratus_-National_Zoo,_Washington,_USA_-female-8a.jpg",
+   "license": "CC BY 2.0",
+   "artist": "angela n. from Washington, DC",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 561.0,
+   "max": 561.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Eclectus"
+  },
+  "family": {
+   "scientific": "Psittaculidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q828544"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Moluccan_eclectus"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

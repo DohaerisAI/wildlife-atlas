@@ -1,0 +1,49 @@
+{
+ "scientific": "Caprimulgus andamanicus",
+ "name": "Andaman Nightjar",
+ "qid": "Q1264166",
+ "description": "species of bird",
+ "extract": "The Andaman nightjar (Caprimulgus andamanicus) is a species of nightjar found in the Andaman Islands. It is sometimes considered a subspecies of the large-tailed nightjar, however the song and morphology are distinct.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Andaman_Nightjar.jpg/1280px-Andaman_Nightjar.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Andaman_Nightjar.jpg/330px-Andaman_Nightjar.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Andaman_Nightjar.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "DhirajSIS",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Caprimulgus"
+  },
+  "family": {
+   "scientific": "Caprimulgidae"
+  },
+  "order": {
+   "scientific": "Caprimulgiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1264166"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Andaman_nightjar"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

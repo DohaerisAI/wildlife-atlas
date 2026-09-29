@@ -1,0 +1,54 @@
+{
+ "scientific": "Butastur indicus",
+ "name": "Grey-faced Buzzard",
+ "qid": "Q1270171",
+ "description": "species of bird",
+ "extract": "The grey-faced buzzard (Butastur indicus) is an Asian bird of prey. It is typically 41–46 cm (16–18 in) in length, making it a small-sized raptor. It breeds in Manchuria, Korea and Japan; it winters in South-east Asia.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Butastur_indicus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Butastur_indicus.jpg/330px-Butastur_indicus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Butastur_indicus.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "M.Nishimura",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 101.0,
+   "max": 110.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Butastur"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1270171"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey-faced_buzzard"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

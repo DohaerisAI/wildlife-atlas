@@ -1,0 +1,67 @@
+{
+ "scientific": "Tringa erythropus",
+ "name": "Spotted Redshank",
+ "qid": "Q28103",
+ "description": "species of bird",
+ "extract": "The spotted redshank (Tringa erythropus) is a wader (shorebird) in the large bird family Scolopacidae. It breeds across northern Scandinavia and the northern Palearctic and migrates south to the Mediterranean, the southern British Isles, France, tropical Africa, and tropical Asia for the winter. It is an occasional vagrant to Australia and North America.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Dunkler_Wasserl%C3%A4ufer.jpg/1280px-Dunkler_Wasserl%C3%A4ufer.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Dunkler_Wasserl%C3%A4ufer.jpg/330px-Dunkler_Wasserl%C3%A4ufer.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dunkler_Wasserl%C3%A4ufer.jpg",
+   "license": "CC0",
+   "artist": "Hobbyfotowiki",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Tringa_erythropus_-_Laem_Pak_Bia.jpg/1280px-Tringa_erythropus_-_Laem_Pak_Bia.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Tringa_erythropus_-_Laem_Pak_Bia.jpg/330px-Tringa_erythropus_-_Laem_Pak_Bia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tringa_erythropus_-_Laem_Pak_Bia.jpg",
+   "license": "CC BY 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 64.0,
+   "max": 64.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 24.5,
+   "max": 161.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tringa"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q28103"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spotted_redshank"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

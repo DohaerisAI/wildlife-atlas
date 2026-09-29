@@ -1,0 +1,75 @@
+{
+ "scientific": "Milvus migrans",
+ "name": "Black Kite",
+ "qid": "Q80362",
+ "description": "species of bird",
+ "extract": "The black kite or fire kite (Milvus migrans) is a medium-sized bird of prey in the family Accipitridae, which also includes many other diurnal raptors. It is thought to be the world's most abundant species of Accipitridae, although some populations have experienced dramatic declines or fluctuations. Current global population estimates run up to 6.7 million individuals.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Milvus_migrans_front%28ThKraft%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Milvus_migrans_front%28ThKraft%29.jpg/330px-Milvus_migrans_front%28ThKraft%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Milvus_migrans_front(ThKraft).jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Thomas Kraft (ThKraft)",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/2007-black-kite.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/2007-black-kite.jpg/330px-2007-black-kite.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2007-black-kite.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Yathin S Krishnappa",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Black_Kite_in_Baruipur_September_2025_by_Tisha_Mukherjee_06.jpg/1280px-Black_Kite_in_Baruipur_September_2025_by_Tisha_Mukherjee_06.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Black_Kite_in_Baruipur_September_2025_by_Tisha_Mukherjee_06.jpg/330px-Black_Kite_in_Baruipur_September_2025_by_Tisha_Mukherjee_06.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black_Kite_in_Baruipur_September_2025_by_Tisha_Mukherjee_06.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 152.0,
+   "max": 152.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 56.0,
+   "max": 828.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Milvus"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q80362"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black_kite"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

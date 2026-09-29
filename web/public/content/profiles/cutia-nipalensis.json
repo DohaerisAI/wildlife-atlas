@@ -1,0 +1,46 @@
+{
+ "scientific": "Cutia nipalensis",
+ "name": "Himalayan Cutia",
+ "qid": "Q1092863",
+ "description": "species of bird",
+ "extract": "The Himalayan cutia (Cutia nipalensis) is a bird species in the family Leiothrichidae. Its scientific name ultimately means \"the khutya from Nepal\", as Cutia is derived from the Nepali name for these birds, and nipalensis is Latin for \"from Nepal\".",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Himalayan_Cutia_Cutia_nipalensis_by_Dr._Raju_Kasambe_%282%29.jpg/1280px-Himalayan_Cutia_Cutia_nipalensis_by_Dr._Raju_Kasambe_%282%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Himalayan_Cutia_Cutia_nipalensis_by_Dr._Raju_Kasambe_%282%29.jpg/330px-Himalayan_Cutia_Cutia_nipalensis_by_Dr._Raju_Kasambe_%282%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Himalayan_Cutia_Cutia_nipalensis_by_Dr._Raju_Kasambe_(2).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dr. Raju Kasambe",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cutia"
+  },
+  "family": {
+   "scientific": "Leiothrichidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1092863"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Himalayan_cutia"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

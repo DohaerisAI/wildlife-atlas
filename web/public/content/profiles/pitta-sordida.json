@@ -1,0 +1,54 @@
+{
+ "scientific": "Pitta sordida",
+ "name": "Hooded Pitta",
+ "qid": "Q1075282",
+ "description": "species of bird",
+ "extract": "The western hooded pitta (Pitta sordida) is a passerine bird in the family Pittidae. It is common in eastern and southeastern Asia and maritime Southeast Asia, where it lives in several types of forests as well as on plantations and other cultivated areas. It is a green bird with a black head and chestnut crown. It forages on the ground for insects and their larvae, and also eats berries. It breeds between February and August, the pair being strongly territorial and building their nest on the ground. Incubation and care of the fledglings is done by both parents. The bird has a wide range, and the International Union for Conservation of Nature has assessed its conservation status as being of \"least concern\". It was formerly considered to be conspecific with the Nicobar hooded pitta, the Minahasa hooded pitta, the eastern hooded pitta and the Biak hooded pitta.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Hooded_Pitta%2C_crop.jpg/1280px-Hooded_Pitta%2C_crop.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Hooded_Pitta%2C_crop.jpg/330px-Hooded_Pitta%2C_crop.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hooded_Pitta,_crop.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jason Thompson from Bangkok, Thailand",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Pitta_sordida_-_Sri_Phang_Nga.jpg/1280px-Pitta_sordida_-_Sri_Phang_Nga.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Pitta_sordida_-_Sri_Phang_Nga.jpg/330px-Pitta_sordida_-_Sri_Phang_Nga.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pitta_sordida_-_Sri_Phang_Nga.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pitta"
+  },
+  "family": {
+   "scientific": "Pittidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1075282"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Western_hooded_pitta"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

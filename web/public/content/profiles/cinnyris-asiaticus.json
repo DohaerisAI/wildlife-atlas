@@ -1,0 +1,66 @@
+{
+ "scientific": "Cinnyris asiaticus",
+ "name": "Purple Sunbird",
+ "qid": "Q1797393",
+ "description": "species of bird",
+ "extract": "The purple sunbird (Cinnyris asiaticus) is a small bird in the sunbird family. It occurs in parts of the Arabian peninsula and South and Southeast Asia. It has a fast and direct flight and can take nectar by hovering like a hummingbird but often perches at the base of flowers. It feeds mainly on nectar and insects, especially when feeding young. The males can appear all black in harsh sunlight but the purple iridescence is visible on closer observation or under good light conditions. Females are olive above and yellowish below.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Purple_Sunbird_Male%2C_Bangalore%2C_India.jpeg/1280px-Purple_Sunbird_Male%2C_Bangalore%2C_India.jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Purple_Sunbird_Male%2C_Bangalore%2C_India.jpeg/330px-Purple_Sunbird_Male%2C_Bangalore%2C_India.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Purple_Sunbird_Male,_Bangalore,_India.jpeg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Nicholas Iyadurai",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Purple_sunbird_%28Cinnyris_asiaticus_asiaticus%29_male_non-breeding.jpg/1280px-Purple_sunbird_%28Cinnyris_asiaticus_asiaticus%29_male_non-breeding.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Purple_sunbird_%28Cinnyris_asiaticus_asiaticus%29_male_non-breeding.jpg/330px-Purple_sunbird_%28Cinnyris_asiaticus_asiaticus%29_male_non-breeding.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Purple_sunbird_(Cinnyris_asiaticus_asiaticus)_male_non-breeding.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Purple_Sunbird_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg/1280px-Purple_Sunbird_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Purple_Sunbird_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg/330px-Purple_Sunbird_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Purple_Sunbird_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cinnyris"
+  },
+  "family": {
+   "scientific": "Nectariniidae",
+   "name": "sunbird"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Nectarinia asiatica"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1797393"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Purple_sunbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

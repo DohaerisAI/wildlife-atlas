@@ -1,0 +1,46 @@
+{
+ "scientific": "Anthus sylvanus",
+ "name": "Upland Pipit",
+ "qid": "Q2669773",
+ "description": "species of bird",
+ "extract": "The upland pipit (Anthus sylvanus) is a species of bird in the family Motacillidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Upland_Pipit_Anthus_sylvanus.jpg/1280px-Upland_Pipit_Anthus_sylvanus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Upland_Pipit_Anthus_sylvanus.jpg/330px-Upland_Pipit_Anthus_sylvanus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Upland_Pipit_Anthus_sylvanus.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Pkspks",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anthus"
+  },
+  "family": {
+   "scientific": "Motacillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2669773"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Upland_pipit"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

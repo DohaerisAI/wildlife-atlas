@@ -1,0 +1,55 @@
+{
+ "scientific": "Pericrocotus erythropygius",
+ "name": "White-bellied Minivet",
+ "qid": "Q1081105",
+ "description": "species of bird",
+ "extract": "The white-bellied minivet (Pericrocotus erythropygius) is a species of minivet found in India, mostly in dry deciduous forest.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/A_White_Bellied_Minivet_that_surprised_me_totally%21_%2850129698656%29.jpg/1280px-A_White_Bellied_Minivet_that_surprised_me_totally%21_%2850129698656%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/A_White_Bellied_Minivet_that_surprised_me_totally%21_%2850129698656%29.jpg/330px-A_White_Bellied_Minivet_that_surprised_me_totally%21_%2850129698656%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:A_White_Bellied_Minivet_that_surprised_me_totally!_(50129698656).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Hari K  Patibanda",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/White_Bellied_minivet_David_Raju_%28cropped%29.jpg/1280px-White_Bellied_minivet_David_Raju_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/White_Bellied_minivet_David_Raju_%28cropped%29.jpg/330px-White_Bellied_minivet_David_Raju_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White_Bellied_minivet_David_Raju_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Davidvraju",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pericrocotus",
+   "name": "Minivet"
+  },
+  "family": {
+   "scientific": "Campephagidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1081105"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-bellied_minivet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

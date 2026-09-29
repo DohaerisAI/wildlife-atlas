@@ -1,0 +1,57 @@
+{
+ "scientific": "Dendrocygna bicolor",
+ "name": "Fulvous Whistling Duck",
+ "qid": "Q740741",
+ "description": "species of bird",
+ "extract": "The fulvous whistling duck or fulvous tree duck (Dendrocygna bicolor) is a species of whistling duck that breeds across the world's tropical regions in much of Mexico and South America, the West Indies, the southern United States, sub-Saharan Africa and the Indian subcontinent. It has plumage that is mainly reddish brown, long legs and a long grey bill, and shows a distinctive white band across its black tail in flight. Like other members of its ancient lineage, it has a whistling call which is given in flight or on the ground. Its preferred habitat consists of wetlands with plentiful vegetation, including shallow lakes and paddy fields.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Marrecas-caneleiras_-_Dendrocygna_bicolor.jpg/1280px-Marrecas-caneleiras_-_Dendrocygna_bicolor.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Marrecas-caneleiras_-_Dendrocygna_bicolor.jpg/330px-Marrecas-caneleiras_-_Dendrocygna_bicolor.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Marrecas-caneleiras_-_Dendrocygna_bicolor.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Germano Roberto Schüür",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 52.0,
+   "max": 682.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dendrocygna"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Fulvous tree duck"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q740741"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fulvous_whistling_duck"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

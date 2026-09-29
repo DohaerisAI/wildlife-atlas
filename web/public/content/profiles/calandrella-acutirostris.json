@@ -1,0 +1,54 @@
+{
+ "scientific": "Calandrella acutirostris",
+ "name": "Hume’s Short-toed Lark",
+ "qid": "Q966703",
+ "description": "species of bird",
+ "extract": "Hume's short-toed lark (Calandrella acutirostris) is a species of lark in the family Alaudidae. It is found in south-central Asia from Iran and Kazakhstan to China.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Hume%27s_Short-toed_Lark_Laxman_Chowk%2C_Sikkim%2C_India_13.05.2014.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Hume%27s_Short-toed_Lark_Laxman_Chowk%2C_Sikkim%2C_India_13.05.2014.jpg/330px-Hume%27s_Short-toed_Lark_Laxman_Chowk%2C_Sikkim%2C_India_13.05.2014.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hume%27s_Short-toed_Lark_Laxman_Chowk,_Sikkim,_India_13.05.2014.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Hume%27s_short-toed_Lark%2C_near_Dras%2C_Jammu_and_Kashmir%2C_India.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Hume%27s_short-toed_Lark%2C_near_Dras%2C_Jammu_and_Kashmir%2C_India.jpg/330px-Hume%27s_short-toed_Lark%2C_near_Dras%2C_Jammu_and_Kashmir%2C_India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hume%27s_short-toed_Lark,_near_Dras,_Jammu_and_Kashmir,_India.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "As kannan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Calandrella"
+  },
+  "family": {
+   "scientific": "Alaudidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q966703"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hume%27s_short-toed_lark"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

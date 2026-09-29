@@ -1,0 +1,61 @@
+{
+ "scientific": "Psilopogon asiaticus",
+ "name": "Blue-throated barbet",
+ "qid": "Q26833985",
+ "description": "species of bird",
+ "extract": "The blue-throated barbet (Psilopogon asiaticus) is a green Asian barbet native to the foothills of the Himalayas and Southeast Asia.  It inhabits lowland and montane forests at elevations of 200–2,000 m (660–6,560 ft), frequenting fruiting trees.  Due to its green colour, it is difficult to spot but is easily located by its continual loud calls.  Sexes are similar in most respects and share domestic duties.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Blue-throated_Barbet_Sasatgre_West_Garo_crop_Oct24_A7CR_03684.jpg/1280px-Blue-throated_Barbet_Sasatgre_West_Garo_crop_Oct24_A7CR_03684.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Blue-throated_Barbet_Sasatgre_West_Garo_crop_Oct24_A7CR_03684.jpg/330px-Blue-throated_Barbet_Sasatgre_West_Garo_crop_Oct24_A7CR_03684.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blue-throated_Barbet_Sasatgre_West_Garo_crop_Oct24_A7CR_03684.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Timothy A. Gonsalves",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Blue-throated_Barbet_in_Rabindra_Sarobar_February_2024_by_Tisha_Mukherjee_01.jpg/1280px-Blue-throated_Barbet_in_Rabindra_Sarobar_February_2024_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Blue-throated_Barbet_in_Rabindra_Sarobar_February_2024_by_Tisha_Mukherjee_01.jpg/330px-Blue-throated_Barbet_in_Rabindra_Sarobar_February_2024_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blue-throated_Barbet_in_Rabindra_Sarobar_February_2024_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Blue-throated_Barbet_in_Rabindra_Sarobar_March_2025_by_Tisha_Mukherjee_01.jpg/1280px-Blue-throated_Barbet_in_Rabindra_Sarobar_March_2025_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Blue-throated_Barbet_in_Rabindra_Sarobar_March_2025_by_Tisha_Mukherjee_01.jpg/330px-Blue-throated_Barbet_in_Rabindra_Sarobar_March_2025_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blue-throated_Barbet_in_Rabindra_Sarobar_March_2025_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Psilopogon"
+  },
+  "family": {
+   "scientific": "Megalaimidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26833985"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blue-throated_barbet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

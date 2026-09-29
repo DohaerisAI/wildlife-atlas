@@ -1,0 +1,40 @@
+{
+ "scientific": "Puffinus tenuirostris",
+ "name": "Short-tailed shearwater",
+ "qid": "Q835419",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Puffinus_tenuirostris_-_SE_Tasmania.jpg/1280px-Puffinus_tenuirostris_-_SE_Tasmania.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Puffinus_tenuirostris_-_SE_Tasmania.jpg/330px-Puffinus_tenuirostris_-_SE_Tasmania.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Puffinus_tenuirostris_-_SE_Tasmania.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Puffinus"
+  },
+  "family": {
+   "scientific": "Procellariidae"
+  },
+  "order": {
+   "scientific": "Procellariiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q835419"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

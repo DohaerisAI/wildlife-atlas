@@ -1,0 +1,49 @@
+{
+ "scientific": "Ficedula nigrorufa",
+ "name": "Black-and-orange Flycatcher",
+ "qid": "Q2225380",
+ "description": "species of bird",
+ "extract": "The black-and-orange flycatcher (Ficedula nigrorufa) or black-and-rufous flycatcher is a species of flycatcher endemic to the central and southern Western Ghats, the Nilgiris and Palni hill ranges in southern India. It is unique among the Ficedula flycatchers in having rufous coloration on its back and prior to molecular studies was suggested to be related to the chats and thrushes.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/The_Black_and_Orange_Flycatcher.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/The_Black_and_Orange_Flycatcher.jpg/330px-The_Black_and_Orange_Flycatcher.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Black_and_Orange_Flycatcher.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Antony Grossy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ficedula"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Black-and-rufous flycatcher"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2225380"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-and-orange_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

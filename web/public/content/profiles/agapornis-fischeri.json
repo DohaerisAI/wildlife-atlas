@@ -1,0 +1,59 @@
+{
+ "scientific": "Agapornis fischeri",
+ "name": "Fischer's Lovebird",
+ "qid": "Q603875",
+ "description": "species of bird",
+ "extract": "Fischer's lovebird (Agapornis fischeri) is a small parrot species of the genus Agapornis. They were originally discovered in the late 19th century. They are named after the 19th century German explorer of East Africa Gustav Fischer.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/046_Fischer%27s_lovebird_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/1280px-046_Fischer%27s_lovebird_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/046_Fischer%27s_lovebird_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/330px-046_Fischer%27s_lovebird_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:046_Fischer%27s_lovebird_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Giles Laurent",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Agapornis_fischeri_-Ueno_Zoo%2C_Japan_-three-8a-4c.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Agapornis_fischeri_-Ueno_Zoo%2C_Japan_-three-8a-4c.jpg/330px-Agapornis_fischeri_-Ueno_Zoo%2C_Japan_-three-8a-4c.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Agapornis_fischeri_-Ueno_Zoo,_Japan_-three-8a-4c.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Agapornis_fischeri_-Ueno_Zoo,_Japan_-three-8a.jpg: Takashi Hososhima from Tokyo, Japan\nderivative work: Snowmanradio (talk)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 3.6,
+   "max": 3.6,
+   "unit": "g"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Agapornis"
+  },
+  "family": {
+   "scientific": "Psittaculidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q603875"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fischer%27s_lovebird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

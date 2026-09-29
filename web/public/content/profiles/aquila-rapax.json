@@ -1,0 +1,75 @@
+{
+ "scientific": "Aquila rapax",
+ "name": "Tawny Eagle",
+ "qid": "Q374141",
+ "description": "species of bird",
+ "extract": "The tawny eagle (Aquila rapax) is a large bird of prey. Like all eagles, it belongs to the family Accipitridae.  Its heavily feathered legs mark it as a member of the subfamily Aquilinae, also known as booted eagles. Tawny eagles have an extensive but discontinuous breeding range that constitutes much of the African continent as well as the Indian subcontinent, with rare residency in the southern Middle East.  Throughout its range, it favours open dry habitats such as semideserts, deserts steppes, or savanna plains. Despite its preference for arid areas, the species seldom occurs in areas where trees are entirely absent. It is a resident breeder which lays one to three eggs in a stick nest most commonly in the crown of a tree.  The tawny eagle is perhaps the most highly opportunistic of all Aquilinae, and often scavenges on carrion or engages in kleptoparasitism towards other carnivorous animals but is also a bold and active predator, often of relatively large and diverse prey.  It is estimated that tawny eagles can reach the age of 16 years old. Nonetheless, precipitous declines have been detected throughout the tawny eagle's range. Numerous factors, particularly loss of nesting habitat due to logging and global warming, as well as persecution (largely via poisoning) and other anthropogenic mortality (largely through contact with various manmade objects) are driving the once numerous tawny eagle perhaps to the brink of extinction.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Tawny_Eagle%2C_Aquila_rapax_that_we_believe_had_caught_a_red_billed_buffalo_weaver_%28Kruger_National_Park%29_%2820181968861%29.jpg/1280px-Tawny_Eagle%2C_Aquila_rapax_that_we_believe_had_caught_a_red_billed_buffalo_weaver_%28Kruger_National_Park%29_%2820181968861%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Tawny_Eagle%2C_Aquila_rapax_that_we_believe_had_caught_a_red_billed_buffalo_weaver_%28Kruger_National_Park%29_%2820181968861%29.jpg/330px-Tawny_Eagle%2C_Aquila_rapax_that_we_believe_had_caught_a_red_billed_buffalo_weaver_%28Kruger_National_Park%29_%2820181968861%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tawny_Eagle,_Aquila_rapax_that_we_believe_had_caught_a_red_billed_buffalo_weaver_(Kruger_National_Park)_(20181968861).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Derek Keats from Johannesburg, South Africa",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Aquila_rapax_Simien_Mountains%2C_Ethiopia.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Aquila_rapax_Simien_Mountains%2C_Ethiopia.jpg/330px-Aquila_rapax_Simien_Mountains%2C_Ethiopia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aquila_rapax_Simien_Mountains,_Ethiopia.jpg",
+   "license": "CC BY 2.0",
+   "artist": "A. Davey from Where I Live Now: Pacific Northwest",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Tawny_Eagle_%288409160315%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Tawny_Eagle_%288409160315%29.jpg/330px-Tawny_Eagle_%288409160315%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tawny_Eagle_(8409160315).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Koshy Koshy from Faridabad, Haryana, India",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 170.6,
+   "max": 170.6,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 118.0,
+   "max": 2155.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aquila"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q374141"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tawny_eagle"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,46 @@
+{
+ "scientific": "Cyornis pallidipes",
+ "name": "White-bellied Blue Flycatcher",
+ "qid": "Q55115577",
+ "description": "species of bird",
+ "extract": "The white-bellied blue flycatcher (Cyornis pallidipes) is a small passerine bird in the flycatcher family Muscicapidae. It is endemic to the Western Ghats (including the Nilgiris) of southwest India. Males are dark blue with a lighter shade of blue on the brow and have a greyish white belly. Females have a rufous breast, a white face and olive grey above.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/White-bellied_Blue_Flycatcher_SM.jpg/1280px-White-bellied_Blue_Flycatcher_SM.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/White-bellied_Blue_Flycatcher_SM.jpg/330px-White-bellied_Blue_Flycatcher_SM.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-bellied_Blue_Flycatcher_SM.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Saswat Mishra",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cyornis"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q55115577"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-bellied_blue_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

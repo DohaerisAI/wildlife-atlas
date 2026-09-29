@@ -1,0 +1,46 @@
+{
+ "scientific": "Rimator malacoptilus",
+ "name": "Long-billed Wren-Babbler",
+ "qid": "Q1587719",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Rimator_malacoptilus_%28cropped%29.jpg/1280px-Rimator_malacoptilus_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Rimator_malacoptilus_%28cropped%29.jpg/330px-Rimator_malacoptilus_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rimator_malacoptilus_(cropped).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Umeshsrinivasan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 19.0,
+   "max": 19.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Rimator"
+  },
+  "family": {
+   "scientific": "Pellorneidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Limestone Wren Babbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1587719"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

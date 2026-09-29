@@ -1,0 +1,57 @@
+{
+ "scientific": "Ocyceros birostris",
+ "name": "Indian Grey Hornbill",
+ "qid": "Q223574",
+ "description": "species of bird",
+ "extract": "The Indian gray hornbill (Ocyceros birostris) is a common hornbill found on the Indian subcontinent. It is mostly arboreal and is commonly sighted in pairs. It has grey feathers all over the body with a light grey or dull white belly. The horn is black or dark grey with a casque extending to the point of curvature of the horn. It is one of the few hornbill species found in urban areas in many cities where they are able to make use of large trees in avenues.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Indian_Grey_Hornbill_I_IMG_4051.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Indian_Grey_Hornbill_I_IMG_4051.jpg/330px-Indian_Grey_Hornbill_I_IMG_4051.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Indian_Grey_Hornbill_I_IMG_4051.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Indian_Grey_Hornbill_I_IMG_4048.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Indian_Grey_Hornbill_I_IMG_4048.jpg/330px-Indian_Grey_Hornbill_I_IMG_4048.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Indian_Grey_Hornbill_I_IMG_4048.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ocyceros"
+  },
+  "family": {
+   "scientific": "Bucerotidae",
+   "name": "hornbill"
+  },
+  "order": {
+   "scientific": "Bucerotiformes"
+  }
+ },
+ "other_names": [
+  "Tockus birostris"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q223574"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_grey_hornbill"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

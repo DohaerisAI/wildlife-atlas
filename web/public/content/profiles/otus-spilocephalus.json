@@ -1,0 +1,63 @@
+{
+ "scientific": "Otus spilocephalus",
+ "name": "Mountain Scops Owl",
+ "qid": "Q1263520",
+ "description": "species of bird",
+ "extract": "The mountain scops owl (Otus spilocephalus), sometimes referred to as the spotted scops owl, is a species of owl in the family Strigidae. Its range extends across much of south and southeast Asia, from Pakistan and the Himalayas in the northwest, through Taiwan, Thailand and Malaysia in the east and south.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Otus_spilocephalus_-_Ian_Dugdale_-_546696242.jpeg/1280px-Otus_spilocephalus_-_Ian_Dugdale_-_546696242.jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Otus_spilocephalus_-_Ian_Dugdale_-_546696242.jpeg/330px-Otus_spilocephalus_-_Ian_Dugdale_-_546696242.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Otus_spilocephalus_-_Ian_Dugdale_-_546696242.jpeg",
+   "license": "CC BY 4.0",
+   "artist": "Ian Dugdale",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/HeteroscopsLuciaeKeulemans.jpg/1280px-HeteroscopsLuciaeKeulemans.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/HeteroscopsLuciaeKeulemans.jpg/330px-HeteroscopsLuciaeKeulemans.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:HeteroscopsLuciaeKeulemans.jpg",
+   "license": "Public domain",
+   "artist": "J G Keulemans",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 84.0,
+   "max": 84.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Otus"
+  },
+  "family": {
+   "scientific": "Strigidae",
+   "name": "true owls"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1263520"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mountain_scops_owl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

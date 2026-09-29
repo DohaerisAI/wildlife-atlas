@@ -1,0 +1,75 @@
+{
+ "scientific": "Gallus gallus",
+ "name": "Red Junglefowl",
+ "qid": "Q184774",
+ "description": "species of bird; ancestor of the chicken",
+ "extract": "The red junglefowl (Gallus gallus), also known as the Indian red junglefowl (and formerly the bankiva or bankiva-fowl), is a species of tropical, galliform bird in the phasianid family, found across much of Southeast Asia and parts of South Asia.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Red_jungle_fowl.png",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Red_jungle_fowl.png/330px-Red_jungle_fowl.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Red_jungle_fowl.png",
+   "license": "CC BY-SA 3.0",
+   "artist": "Subramanya C K",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Red_Junglefowl_Sundarbans_Tiger_Reserve_West_Bengal_India_07.03.2015.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Red_Junglefowl_Sundarbans_Tiger_Reserve_West_Bengal_India_07.03.2015.jpg/330px-Red_Junglefowl_Sundarbans_Tiger_Reserve_West_Bengal_India_07.03.2015.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red_Junglefowl_Sundarbans_Tiger_Reserve_West_Bengal_India_07.03.2015.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Gallus_gallus_-Kaziranga_National_Park%2C_Assam%2C_India-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Gallus_gallus_-Kaziranga_National_Park%2C_Assam%2C_India-8.jpg/330px-Gallus_gallus_-Kaziranga_National_Park%2C_Assam%2C_India-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gallus_gallus_-Kaziranga_National_Park,_Assam,_India-8.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee Yap",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 69.1,
+   "max": 71.7,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 500.0,
+   "max": 844.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Gallus"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q184774"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red_junglefowl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

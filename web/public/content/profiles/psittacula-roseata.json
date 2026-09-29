@@ -1,0 +1,46 @@
+{
+ "scientific": "Psittacula roseata",
+ "name": "Blossom-headed Parakeet",
+ "qid": "Q1271952",
+ "description": "species of bird",
+ "extract": "The blossom-headed parakeet (Psittacula roseata or Himalayapsitta roseata) is a parrot in the family Psittaculidae. It has a lime green body and a pink or bluish grey-head and is found in Southeast Asia. This species is sometimes also referred to as rosy-headed parakeet.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Blossom-headed_Parakeet%2C_Satchari_NP%2C_Bangladesh.jpg/1280px-Blossom-headed_Parakeet%2C_Satchari_NP%2C_Bangladesh.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Blossom-headed_Parakeet%2C_Satchari_NP%2C_Bangladesh.jpg/330px-Blossom-headed_Parakeet%2C_Satchari_NP%2C_Bangladesh.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blossom-headed_Parakeet,_Satchari_NP,_Bangladesh.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Nafis Ameen",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Psittacula"
+  },
+  "family": {
+   "scientific": "Psittaculidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1271952"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blossom-headed_parakeet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

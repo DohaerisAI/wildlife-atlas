@@ -1,0 +1,66 @@
+{
+ "scientific": "Phoenicurus erythrogastrus",
+ "name": "Güldenstädt's Redstart",
+ "qid": "Q796484",
+ "description": "species of bird",
+ "extract": "Güldenstädt's redstart (Phoenicurus erythrogastrus),  also known as the white-winged redstart, is a species of bird in the genus Phoenicurus, family Muscicapidae. It is found in the high mountains of the southwestern and central Palearctic in the Caucasus, Karakoram, Pamir, Himalaya, Tian Shan, and Altai, in the countries of Afghanistan, Armenia, Azerbaijan, Bhutan, China, Georgia, India, Iran, Kazakhstan, Mongolia, Nepal, Pakistan, Russia, Tajikistan, Turkmenistan, and Uzbekistan.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Phoenicurus_erythrogastrus%2C_Stepantsminda%2C_Georgia_1.jpg/1280px-Phoenicurus_erythrogastrus%2C_Stepantsminda%2C_Georgia_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Phoenicurus_erythrogastrus%2C_Stepantsminda%2C_Georgia_1.jpg/330px-Phoenicurus_erythrogastrus%2C_Stepantsminda%2C_Georgia_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Phoenicurus_erythrogastrus,_Stepantsminda,_Georgia_1.jpg",
+   "license": "CC BY 4.0",
+   "artist": "christoph_moning",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Phoenicurus_erythrogastrus%2C_Stepantsminda%2C_Georgia_4.jpg/1280px-Phoenicurus_erythrogastrus%2C_Stepantsminda%2C_Georgia_4.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Phoenicurus_erythrogastrus%2C_Stepantsminda%2C_Georgia_4.jpg/330px-Phoenicurus_erythrogastrus%2C_Stepantsminda%2C_Georgia_4.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Phoenicurus_erythrogastrus,_Stepantsminda,_Georgia_4.jpg",
+   "license": "CC BY 4.0",
+   "artist": "christoph_moning",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/White-winged_Redstart_%28Phoenicurus_erythrogastrus%29_%2839778741052%29.jpg/1280px-White-winged_Redstart_%28Phoenicurus_erythrogastrus%29_%2839778741052%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/White-winged_Redstart_%28Phoenicurus_erythrogastrus%29_%2839778741052%29.jpg/330px-White-winged_Redstart_%28Phoenicurus_erythrogastrus%29_%2839778741052%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-winged_Redstart_(Phoenicurus_erythrogastrus)_(39778741052).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phoenicurus"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Phoenicurus erythrogaster",
+  "White-winged Redstart"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q796484"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/G%C3%BCldenst%C3%A4dt%27s_redstart"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,40 @@
+{
+ "scientific": "Puffinus carneipes",
+ "name": "Flesh-footed shearwater",
+ "qid": "Q1269959",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Puffinus_carneipes_-New_Zealand_-flying-8b.jpg/1280px-Puffinus_carneipes_-New_Zealand_-flying-8b.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Puffinus_carneipes_-New_Zealand_-flying-8b.jpg/330px-Puffinus_carneipes_-New_Zealand_-flying-8b.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Puffinus_carneipes_-New_Zealand_-flying-8b.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Brian Gratwicke",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Puffinus"
+  },
+  "family": {
+   "scientific": "Procellariidae"
+  },
+  "order": {
+   "scientific": "Procellariiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1269959"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

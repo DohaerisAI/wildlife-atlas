@@ -1,0 +1,70 @@
+{
+ "scientific": "Callonetta leucophrys",
+ "name": "Ringed Teal",
+ "qid": "Q829675",
+ "description": "species of bird",
+ "extract": "The ringed teal (Callonetta leucophrys) is a small duck of marshes, pools, and forest wetlands native to south-central South America. It is the only species of the genus Callonetta. Formerly often placed with the perching ducks in the tribe Cairinini, this species is now known to be closer to shelducks and belongs in the subfamily Tadorninae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Callonetta_leucophrys_168882579.jpg/1280px-Callonetta_leucophrys_168882579.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Callonetta_leucophrys_168882579.jpg/330px-Callonetta_leucophrys_168882579.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Callonetta_leucophrys_168882579.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "calimecita",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Callonetta_leucophrys_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Callonetta_leucophrys_2.jpg/330px-Callonetta_leucophrys_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Callonetta_leucophrys_2.jpg",
+   "license": "Public domain",
+   "artist": "Lee Karney/U. S. Fish and Wildlife Service",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Callonetta_leucophrys%2C_Reserva_Natural_Delf%C3%ADn_Perez%2C_La_Pampa%2C_Argentina_454919111.jpg/1280px-Callonetta_leucophrys%2C_Reserva_Natural_Delf%C3%ADn_Perez%2C_La_Pampa%2C_Argentina_454919111.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Callonetta_leucophrys%2C_Reserva_Natural_Delf%C3%ADn_Perez%2C_La_Pampa%2C_Argentina_454919111.jpg/330px-Callonetta_leucophrys%2C_Reserva_Natural_Delf%C3%ADn_Perez%2C_La_Pampa%2C_Argentina_454919111.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Callonetta_leucophrys,_Reserva_Natural_Delf%C3%ADn_Perez,_La_Pampa,_Argentina_454919111.jpg",
+   "license": "CC0",
+   "artist": "ferferrari",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 19.0,
+   "max": 423.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Callonetta"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q829675"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ringed_teal"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

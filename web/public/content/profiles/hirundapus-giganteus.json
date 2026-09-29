@@ -1,0 +1,66 @@
+{
+ "scientific": "Hirundapus giganteus",
+ "name": "Brown-backed Needletail",
+ "qid": "Q1259533",
+ "description": "species of bird",
+ "extract": "The brown-backed needletail (Hirundapus giganteus), or brown needletail, is a large swift.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Brown-backedNeedletail.jpg/1280px-Brown-backedNeedletail.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Brown-backedNeedletail.jpg/330px-Brown-backedNeedletail.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brown-backedNeedletail.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "TonyCastro",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Needletail_Andamans.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Needletail_Andamans.JPG/330px-Needletail_Andamans.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Needletail_Andamans.JPG",
+   "license": "CC BY-SA 4.0",
+   "artist": "T R Shankar Raman",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 145.0,
+   "max": 145.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Hirundapus"
+  },
+  "family": {
+   "scientific": "Apodidae"
+  },
+  "order": {
+   "scientific": "Apodiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Brown Needletail",
+  "Brown spinetailed swift"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1259533"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown-backed_needletail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

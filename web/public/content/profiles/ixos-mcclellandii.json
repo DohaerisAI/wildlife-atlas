@@ -1,0 +1,55 @@
+{
+ "scientific": "Ixos mcclellandii",
+ "name": "Mountain Bulbul",
+ "qid": "Q2232768",
+ "description": "species of bird",
+ "extract": "The mountain bulbul (Ixos mcclellandii) is a songbird species in the bulbul family, Pycnonotidae. It is often placed in Hypsipetes, but seems to be closer to the type species of the genus Ixos, the Sunda bulbul. It is found in Southeast Asia and is not considered a threatened species by the IUCN. It is named after British East India Company Surgeon John McClelland.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Mountain_Bulbul_-_Thailand_S4E8708_%2816431852453%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Mountain_Bulbul_-_Thailand_S4E8708_%2816431852453%29.jpg/330px-Mountain_Bulbul_-_Thailand_S4E8708_%2816431852453%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mountain_Bulbul_-_Thailand_S4E8708_(16431852453).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 33.0,
+   "max": 33.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ixos"
+  },
+  "family": {
+   "scientific": "Pycnonotidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Hypsipetes mcclellandii",
+  "Mountain streaked bulbul"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2232768"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mountain_bulbul"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

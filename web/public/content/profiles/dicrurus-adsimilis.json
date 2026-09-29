@@ -1,0 +1,56 @@
+{
+ "scientific": "Dicrurus adsimilis",
+ "name": "Fork-tailed Drongo",
+ "qid": "Q742259",
+ "description": "species of bird",
+ "extract": "The fork-tailed drongo (Dicrurus adsimilis), also called the common drongo or African drongo, is a small bird found from the Sahel to South Africa that lives in wooded habitats, particularly woodlands and savannas. It is part of the family Dicruridae and has four recognized subspecies, D. a adsimilis, D. a. apivorus, D. a. fugax and D. a. jubaensis. Like other drongos, the fork-tailed is mostly insectivorous; its diet mainly consists of butterflies, termites, and grasshoppers.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Fork-tailed_Drongo%2C_Dicrurus_adsimilis%2C_at_Marakele_National_Park%2C_Limpopo%2C_South_Africa_%2845863627405%29.jpg/1280px-Fork-tailed_Drongo%2C_Dicrurus_adsimilis%2C_at_Marakele_National_Park%2C_Limpopo%2C_South_Africa_%2845863627405%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Fork-tailed_Drongo%2C_Dicrurus_adsimilis%2C_at_Marakele_National_Park%2C_Limpopo%2C_South_Africa_%2845863627405%29.jpg/330px-Fork-tailed_Drongo%2C_Dicrurus_adsimilis%2C_at_Marakele_National_Park%2C_Limpopo%2C_South_Africa_%2845863627405%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Fork-tailed_Drongo,_Dicrurus_adsimilis,_at_Marakele_National_Park,_Limpopo,_South_Africa_(45863627405).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Derek Keats from Johannesburg, South Africa",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 4.3,
+   "max": 43.4,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dicrurus"
+  },
+  "family": {
+   "scientific": "Dicruridae",
+   "name": "drongo"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Savanna drongo",
+  "common drongo"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q742259"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fork-tailed_drongo"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

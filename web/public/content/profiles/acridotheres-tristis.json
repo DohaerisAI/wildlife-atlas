@@ -1,0 +1,64 @@
+{
+ "scientific": "Acridotheres tristis",
+ "name": "Common myna",
+ "qid": "Q116667",
+ "description": "species of bird",
+ "extract": "The common myna or Indian myna (Acridotheres tristis), sometimes spelled mynah, is a bird in the family Sturnidae, native to Asia. An omnivorous open woodland bird with a strong territorial instinct, the common myna has adapted extremely well to urban environments.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Common_Myna_in_Rabindra_Sarobar_February_2025_by_Tisha_Mukherjee_01.jpg/1280px-Common_Myna_in_Rabindra_Sarobar_February_2025_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Common_Myna_in_Rabindra_Sarobar_February_2025_by_Tisha_Mukherjee_01.jpg/330px-Common_Myna_in_Rabindra_Sarobar_February_2025_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_Myna_in_Rabindra_Sarobar_February_2025_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 37.8,
+   "max": 37.8,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 7.1,
+   "max": 7.1,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Acridotheres"
+  },
+  "family": {
+   "scientific": "Sturnidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "talking myna",
+  "myna",
+  "Indian myna",
+  "Indian mynah",
+  "house myna",
+  "mynah"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q116667"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_myna"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

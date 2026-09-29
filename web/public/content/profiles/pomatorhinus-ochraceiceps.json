@@ -1,0 +1,54 @@
+{
+ "scientific": "Pomatorhinus ochraceiceps",
+ "name": "Red-billed Scimitar-Babbler",
+ "qid": "Q1307451",
+ "description": "species of bird",
+ "extract": "The red-billed scimitar-babbler (Pomatorhinus ochraceiceps) is a species of bird in the family Timaliidae. It is found in Northeast India, Southeast Asia and adjacent parts of southern China. It has a long reddish-orange decurved bill that is typical of scimitar-babblers, a rather long white supercilium, and brown upperparts and tail. Sexes are similar.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Red-billed_Scimitar_Babbler_0A2A9191_%28cropped%29.jpg/1280px-Red-billed_Scimitar_Babbler_0A2A9191_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Red-billed_Scimitar_Babbler_0A2A9191_%28cropped%29.jpg/330px-Red-billed_Scimitar_Babbler_0A2A9191_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red-billed_Scimitar_Babbler_0A2A9191_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "JJ Harrison",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 35.0,
+   "max": 35.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pomatorhinus"
+  },
+  "family": {
+   "scientific": "Timaliidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Red-billed Scimitar Babbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1307451"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-billed_scimitar_babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

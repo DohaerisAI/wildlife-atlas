@@ -1,0 +1,58 @@
+{
+ "scientific": "Picus xanthopygaeus",
+ "name": "Streak-throated Woodpecker",
+ "qid": "Q1272465",
+ "description": "species of bird",
+ "extract": "The streak-throated woodpecker (Picus xanthopygaeus) is a species of woodpecker found in the Indian subcontinent. It occurs in drier woodland, from lowland to the foothills of mountains.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Streak_Throated_Woodpecker_%287554092814%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Streak_Throated_Woodpecker_%287554092814%29.jpg/330px-Streak_Throated_Woodpecker_%287554092814%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Streak_Throated_Woodpecker_(7554092814).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Koshy Koshy from Faridabad, Haryana, India",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Streak-throatted_Woodpecker_%40_Nilambur.jpg/1280px-Streak-throatted_Woodpecker_%40_Nilambur.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Streak-throatted_Woodpecker_%40_Nilambur.jpg/330px-Streak-throatted_Woodpecker_%40_Nilambur.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Streak-throatted_Woodpecker_@_Nilambur.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Vivekpuliyeri",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 97.0,
+   "max": 97.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Picus"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1272465"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Streak-throated_woodpecker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

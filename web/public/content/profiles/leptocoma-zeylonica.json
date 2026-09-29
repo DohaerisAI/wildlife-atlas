@@ -1,0 +1,55 @@
+{
+ "scientific": "Leptocoma zeylonica",
+ "name": "Purple-rumped Sunbird",
+ "qid": "Q25191152",
+ "description": "species of bird",
+ "extract": "The purple-rumped sunbird (Leptocoma zeylonica) is a sunbird endemic to the Indian Subcontinent. Like other sunbirds, they are small in size, feeding mainly on nectar but sometimes take insects, particularly when feeding young. They can hover for short durations but usually perch to lap nectar from flowers. They build a hanging pouch nest made up of cobwebs, lichens and plant material. Males are contrastingly coloured but females are olive above and yellow to buff below. Males are easily distinguished from the purple sunbird by the light coloured underside while females can be told apart from males by their whitish throats.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Purple-rumped_sunbird_%28Kerala%2C_2015%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Purple-rumped_sunbird_%28Kerala%2C_2015%29.jpg/330px-Purple-rumped_sunbird_%28Kerala%2C_2015%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Purple-rumped_sunbird_(Kerala,_2015).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "CLpramod",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Purple-rumped_Sunbird_%28Female%29_I_IMG_7397.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Purple-rumped_Sunbird_%28Female%29_I_IMG_7397.jpg/330px-Purple-rumped_Sunbird_%28Female%29_I_IMG_7397.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Purple-rumped_Sunbird_(Female)_I_IMG_7397.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Leptocoma"
+  },
+  "family": {
+   "scientific": "Nectariniidae",
+   "name": "sunbird"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25191152"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Purple-rumped_sunbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

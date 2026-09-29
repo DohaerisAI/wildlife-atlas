@@ -1,0 +1,64 @@
+{
+ "scientific": "Acrocephalus schoenobaenus",
+ "name": "Sedge Warbler",
+ "qid": "Q27236",
+ "description": "species of bird",
+ "extract": "The sedge warbler (Acrocephalus schoenobaenus) is an Old World warbler in the genus Acrocephalus. It is a medium-sized warbler with a brown, streaked back and wings and a distinct pale supercilium. Sedge warblers are migratory, crossing the Sahara to get from their European and Asian breeding grounds to spend winter in Africa. The male's song is composed of random chattering phrases and can include mimicry of other species. The sedge warbler is mostly insectivorous.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Acrocephalus_schoenobaenus_-Sweden-8_%281%29.jpg/1280px-Acrocephalus_schoenobaenus_-Sweden-8_%281%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Acrocephalus_schoenobaenus_-Sweden-8_%281%29.jpg/330px-Acrocephalus_schoenobaenus_-Sweden-8_%281%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Acrocephalus_schoenobaenus_-Sweden-8_(1).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Billy Lindblom from Hallsberg, Sweden",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Acrocephalus_schoenobaenus_1_%28Marek_Szczepanek%29-2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Acrocephalus_schoenobaenus_1_%28Marek_Szczepanek%29-2.jpg/330px-Acrocephalus_schoenobaenus_1_%28Marek_Szczepanek%29-2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Acrocephalus_schoenobaenus_1_(Marek_Szczepanek)-2.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Acrocephalus schoenobaenus 1 (Marek Szczepanek).jpg: Marek Szczepanek\nDerivative work: Bogbumper (talk)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 19.0,
+   "max": 19.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 1.6,
+   "max": 1.6,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Acrocephalus"
+  },
+  "family": {
+   "scientific": "Acrocephalidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27236"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sedge_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

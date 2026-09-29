@@ -1,0 +1,46 @@
+{
+ "scientific": "Emberiza chrysophrys",
+ "name": "Yellow-browed Bunting",
+ "qid": "Q589548",
+ "description": "species of bird",
+ "extract": "The yellow-browed bunting (Emberiza chrysophrys) is a passerine bird in the bunting family Emberizidae, a group now separated by most modern taxonomists from the finches (Fringillidae). The genus name Emberiza is from Old German Embritz, a bunting. The specific chrysophrys is from Ancient Greek khrusophrus, \"golden-browed\".",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Yellow-browed_bunting_%28Emberiza_chrysophrys%29_Eocheong_Island_Korea_2012.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Yellow-browed_bunting_%28Emberiza_chrysophrys%29_Eocheong_Island_Korea_2012.jpg/330px-Yellow-browed_bunting_%28Emberiza_chrysophrys%29_Eocheong_Island_Korea_2012.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Yellow-browed_bunting_(Emberiza_chrysophrys)_Eocheong_Island_Korea_2012.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Devonpike",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Emberiza"
+  },
+  "family": {
+   "scientific": "Emberizidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q589548"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yellow-browed_bunting"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

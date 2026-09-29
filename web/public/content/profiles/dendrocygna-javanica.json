@@ -1,0 +1,70 @@
+{
+ "scientific": "Dendrocygna javanica",
+ "name": "Lesser Whistling Duck",
+ "qid": "Q244284",
+ "description": "species of bird",
+ "extract": "The  lesser whistling duck (Dendrocygna javanica), also known as Indian whistling duck or lesser whistling teal, is a species of whistling duck that breeds in the Indian subcontinent and Southeast Asia. They are nocturnal feeders that during the day may be found in flocks around lakes and wet paddy fields. They can perch on trees and sometimes build their nest in the hollow of a tree. This brown and long-necked duck has broad wings that are visible in flight and produces a loud two-note wheezy call. It has a chestnut rump, differentiating it from its larger relative, the fulvous whistling duck, which has a creamy white rump.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Dendrocygna_javanica_%28Lesser_Whistling_Duck_-_Zwergpfeifgans%29_Weltvogelpark_Walsrode_2012-009.jpg/1280px-Dendrocygna_javanica_%28Lesser_Whistling_Duck_-_Zwergpfeifgans%29_Weltvogelpark_Walsrode_2012-009.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Dendrocygna_javanica_%28Lesser_Whistling_Duck_-_Zwergpfeifgans%29_Weltvogelpark_Walsrode_2012-009.jpg/330px-Dendrocygna_javanica_%28Lesser_Whistling_Duck_-_Zwergpfeifgans%29_Weltvogelpark_Walsrode_2012-009.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dendrocygna_javanica_(Lesser_Whistling_Duck_-_Zwergpfeifgans)_Weltvogelpark_Walsrode_2012-009.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Olaf Oliviero Riemer",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Lesser_Whistling-duck_%28Dendrocygna_javanica%29-_after_bath_at_Kolkata_I_IMG_2480.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Lesser_Whistling-duck_%28Dendrocygna_javanica%29-_after_bath_at_Kolkata_I_IMG_2480.jpg/330px-Lesser_Whistling-duck_%28Dendrocygna_javanica%29-_after_bath_at_Kolkata_I_IMG_2480.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lesser_Whistling-duck_(Dendrocygna_javanica)-_after_bath_at_Kolkata_I_IMG_2480.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Dendrocygna_javanica_-_Chiang_Mai.jpg/1280px-Dendrocygna_javanica_-_Chiang_Mai.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Dendrocygna_javanica_-_Chiang_Mai.jpg/330px-Dendrocygna_javanica_-_Chiang_Mai.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dendrocygna_javanica_-_Chiang_Mai.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 19.0,
+   "max": 525.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dendrocygna"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q244284"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lesser_whistling_duck"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

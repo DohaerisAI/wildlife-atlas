@@ -1,0 +1,51 @@
+{
+ "scientific": "Iole propinqua",
+ "name": "Grey-eyed Bulbul",
+ "qid": "Q1308878",
+ "description": "species of bird",
+ "extract": "The grey-eyed bulbul (Iole propinqua) is a species of songbird in the bulbul family, Pycnonotidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Pycnonotus_conradi_-_Kaeng_Krachan.jpg/1280px-Pycnonotus_conradi_-_Kaeng_Krachan.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Pycnonotus_conradi_-_Kaeng_Krachan.jpg/330px-Pycnonotus_conradi_-_Kaeng_Krachan.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pycnonotus_conradi_-_Kaeng_Krachan.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 26.0,
+   "max": 26.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Iole"
+  },
+  "family": {
+   "scientific": "Pycnonotidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1308878"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey-eyed_bulbul"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

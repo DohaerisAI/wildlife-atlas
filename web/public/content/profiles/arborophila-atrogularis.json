@@ -1,0 +1,49 @@
+{
+ "scientific": "Arborophila atrogularis",
+ "name": "White-cheeked Hill Partridge",
+ "qid": "Q776263",
+ "description": "species of bird",
+ "extract": "The white-cheeked partridge (Arborophila atrogularis) is a species of partridge in the family Phasianidae, native to Asia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/White-cheeked_Partridge_%28Arborophila_atrogularis%29%2C_Nameri_NP%2C_Sotinpur%2C_Assam_%28cropped%29.jpg/1280px-White-cheeked_Partridge_%28Arborophila_atrogularis%29%2C_Nameri_NP%2C_Sotinpur%2C_Assam_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/White-cheeked_Partridge_%28Arborophila_atrogularis%29%2C_Nameri_NP%2C_Sotinpur%2C_Assam_%28cropped%29.jpg/330px-White-cheeked_Partridge_%28Arborophila_atrogularis%29%2C_Nameri_NP%2C_Sotinpur%2C_Assam_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-cheeked_Partridge_(Arborophila_atrogularis),_Nameri_NP,_Sotinpur,_Assam_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Elmidae",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Arborophila"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q776263"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-cheeked_partridge"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

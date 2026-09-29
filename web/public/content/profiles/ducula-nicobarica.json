@@ -1,0 +1,49 @@
+{
+ "scientific": "Ducula nicobarica",
+ "name": "Nicobar Imperial Pigeon",
+ "qid": "Q2940158",
+ "description": "species of bird",
+ "extract": "The Nicobar imperial pigeon (Ducula nicobarica) is a species of bird in the family Columbidae. It is endemic to the Nicobar Islands. Its natural habitats are lowland forests, but it also feeds on fruiting trees in agricultural landscapes.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Ducula_nicobarica_%28taxidermied%29_at_G%C3%B6teborgs_Naturhistoriska_Museum_8055.jpg/1280px-Ducula_nicobarica_%28taxidermied%29_at_G%C3%B6teborgs_Naturhistoriska_Museum_8055.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Ducula_nicobarica_%28taxidermied%29_at_G%C3%B6teborgs_Naturhistoriska_Museum_8055.jpg/330px-Ducula_nicobarica_%28taxidermied%29_at_G%C3%B6teborgs_Naturhistoriska_Museum_8055.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ducula_nicobarica_(taxidermied)_at_G%C3%B6teborgs_Naturhistoriska_Museum_8055.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Gunnar Creutz",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ducula"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2940158"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nicobar_imperial_pigeon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

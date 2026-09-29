@@ -1,0 +1,54 @@
+{
+ "scientific": "Rhyticeros narcondami",
+ "name": "Narcondam Hornbill",
+ "qid": "Q609129",
+ "description": "species of bird",
+ "extract": "The Narcondam hornbill (Rhyticeros narcondami) is a species of hornbill in the family Bucerotidae. It is endemic to the Indian island of Narcondam in the Andaman Islands. Males and females have a distinct plumage. The Narcondam hornbill has the smallest global range of any Asian hornbill species, the entire population being confined to about 7 km² of forest on a single island.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Narcondam_Hornbill_DSCN1242_19.jpg/1280px-Narcondam_Hornbill_DSCN1242_19.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Narcondam_Hornbill_DSCN1242_19.jpg/330px-Narcondam_Hornbill_DSCN1242_19.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Narcondam_Hornbill_DSCN1242_19.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Rohitjahnavi",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Narcondam_Hornbill_DSCN1242_15.jpg/1280px-Narcondam_Hornbill_DSCN1242_15.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Narcondam_Hornbill_DSCN1242_15.jpg/330px-Narcondam_Hornbill_DSCN1242_15.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Narcondam_Hornbill_DSCN1242_15.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Rohitjahnavi",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Rhyticeros"
+  },
+  "family": {
+   "scientific": "Bucerotidae",
+   "name": "hornbill"
+  },
+  "order": {
+   "scientific": "Bucerotiformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q609129"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Narcondam_hornbill"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

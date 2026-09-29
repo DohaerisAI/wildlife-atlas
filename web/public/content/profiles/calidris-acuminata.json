@@ -1,0 +1,67 @@
+{
+ "scientific": "Calidris acuminata",
+ "name": "Sharp-tailed Sandpiper",
+ "qid": "Q753760",
+ "description": "species of bird",
+ "extract": "The sharp-tailed sandpiper (Calidris acuminata) is a small-medium migratory wader or shorebird, found mostly in Siberia during the summer breeding period (June to August) and Australia for wintering (September to March).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Calidris_acuminata_-_Hexham_Swamp.jpg/1280px-Calidris_acuminata_-_Hexham_Swamp.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Calidris_acuminata_-_Hexham_Swamp.jpg/330px-Calidris_acuminata_-_Hexham_Swamp.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Calidris_acuminata_-_Hexham_Swamp.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Calidris_acuminata_P4278959.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Calidris_acuminata_P4278959.jpg/330px-Calidris_acuminata_P4278959.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Calidris_acuminata_P4278959.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Alnus",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 36.0,
+   "max": 43.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 13.7,
+   "max": 70.3,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Calidris"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q753760"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sharp-tailed_sandpiper"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

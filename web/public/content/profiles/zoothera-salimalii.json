@@ -1,0 +1,46 @@
+{
+ "scientific": "Zoothera salimalii",
+ "name": "Himalayan Thrush",
+ "qid": "Q22138568",
+ "description": "species of bird",
+ "extract": "The Himalayan thrush or Himalayan forest thrush (Zoothera salimalii) is a species of bird described in 2016 and separated out from the alpine thrush Zoothera mollissima with which they were formerly lumped. The species is separated on the basis of phylogenetic studies that suggest that the population diverged from the common ancestor at least 3 million years ago (estimates vary from 3-6 mya). The alpine thrush (Zoothera mollissima in the restricted sense) breeds above the tree line whereas the Himalayan thrush breeds in forested habitats. The species breeds from Sikkim and Darjeeling in India and extends east into Tibet and further east into northwest Yunnan in China. The species differs in its song from that of the alpine thrush. The Himalayan thrush has a more musical call while that of the Alpine thrush is raspy and grating.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Himalayan_Forest_Thrush_or_Zoothera_salimalii.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Himalayan_Forest_Thrush_or_Zoothera_salimalii.jpg/330px-Himalayan_Forest_Thrush_or_Zoothera_salimalii.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Himalayan_Forest_Thrush_or_Zoothera_salimalii.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Craig Brelsford",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Zoothera"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q22138568"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Himalayan_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

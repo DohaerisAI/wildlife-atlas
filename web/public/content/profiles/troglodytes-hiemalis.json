@@ -1,0 +1,46 @@
+{
+ "scientific": "Troglodytes hiemalis",
+ "name": "Winter Wren",
+ "qid": "Q10828228",
+ "description": "species of bird",
+ "extract": "The winter wren (Troglodytes hiemalis) is a very small North American bird and a member of the mainly New World wren family Troglodytidae. The species was formerly often lumped together with Eurasian wren (Troglodytes troglodytes) of Eurasia and Pacific wren (Troglodytes pacificus) of western North America under the merged name of northern wren (with the scientific name T. troglodytes having priority), until they were split in 2010.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Winter_wren_in_Prospect_Park_%2832249%29.jpg/1280px-Winter_wren_in_Prospect_Park_%2832249%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Winter_wren_in_Prospect_Park_%2832249%29.jpg/330px-Winter_wren_in_Prospect_Park_%2832249%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Winter_wren_in_Prospect_Park_(32249).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Rhododendrites",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Troglodytes"
+  },
+  "family": {
+   "scientific": "Troglodytidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q10828228"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Winter_wren"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

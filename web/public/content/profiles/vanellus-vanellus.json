@@ -1,0 +1,72 @@
+{
+ "scientific": "Vanellus vanellus",
+ "name": "Northern Lapwing",
+ "qid": "Q25392",
+ "description": "species of bird",
+ "extract": "The northern lapwing (Vanellus vanellus), also known as the peewit or pewit, tuit or tewit, green plover, or (in Ireland and Great Britain) pyewipe or just lapwing, is a bird in the lapwing subfamily. It is common through temperate Eurosiberia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Northern-Lapwing-Vanellus-vanellus.jpg/1280px-Northern-Lapwing-Vanellus-vanellus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Northern-Lapwing-Vanellus-vanellus.jpg/330px-Northern-Lapwing-Vanellus-vanellus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Northern-Lapwing-Vanellus-vanellus.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Kiebitz_am_Ufer.jpg/1280px-Kiebitz_am_Ufer.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Kiebitz_am_Ufer.jpg/330px-Kiebitz_am_Ufer.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Kiebitz_am_Ufer.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Kathy2408",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 67.0,
+   "max": 75.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 25.5,
+   "max": 25.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Vanellus"
+  },
+  "family": {
+   "scientific": "Charadriidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Lapwing",
+  "Peewit",
+  "Green Plover"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25392"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Northern_lapwing"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

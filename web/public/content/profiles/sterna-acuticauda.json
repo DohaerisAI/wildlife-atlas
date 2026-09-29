@@ -1,0 +1,47 @@
+{
+ "scientific": "Sterna acuticauda",
+ "name": "Black-bellied Tern",
+ "qid": "Q934603",
+ "description": "species of bird",
+ "extract": "The black-bellied tern (Sterna acuticauda) is a tern found near large rivers in the Indian subcontinent, its range extending from Pakistan, Nepal and India to Myanmar. It has become very scarce in the eastern part of its range and the International Union for Conservation of Nature has assessed its conservation status as being endangered.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Black_Bellied_Tern_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Black_Bellied_Tern_%28cropped%29.jpg/330px-Black_Bellied_Tern_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black_Bellied_Tern_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Godbolemandar",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sterna"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Sterna melanogaster"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q934603"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-bellied_tern"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,46 @@
+{
+ "scientific": "Zoothera aurea",
+ "name": "White's Thrush",
+ "qid": "Q949662",
+ "description": "species of bird",
+ "extract": "White's thrush (Zoothera aurea) is a member of the thrush family, Turdidae.  It was named after the English naturalist Gilbert White. The genus name Zoothera comes from the Ancient Greek zoon, \"animal\" and theras, \"hunter\". The specific aurea is from Latin aureus, \"golden\".",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Zoothera_aurea%2C_Hong_Kong_1.jpg/1280px-Zoothera_aurea%2C_Hong_Kong_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Zoothera_aurea%2C_Hong_Kong_1.jpg/330px-Zoothera_aurea%2C_Hong_Kong_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Zoothera_aurea,_Hong_Kong_1.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Charles Lam from Hong Kong, China",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Zoothera"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q949662"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White%27s_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

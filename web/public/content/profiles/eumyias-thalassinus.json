@@ -1,0 +1,54 @@
+{
+ "scientific": "Eumyias thalassinus",
+ "name": "Verditer Flycatcher",
+ "qid": "Q1591254",
+ "description": "species of bird",
+ "extract": "The verditer flycatcher (Eumyias thalassinus) is an Old World flycatcher. It is found from the Himalayas through Southeast Asia to Sumatra. This species is named after its distinctive shade of copper-sulphate blue and has a dark patch between the eyes and above the bill base. The adult males are intense blue on all areas of the body, except for the black eye-patch and grey vent. Adult females and sub-adults are lighter blue.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Verditer_Flycatcher_facts_02.jpg/1280px-Verditer_Flycatcher_facts_02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Verditer_Flycatcher_facts_02.jpg/330px-Verditer_Flycatcher_facts_02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Verditer_Flycatcher_facts_02.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Shiv's fotografia",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 18.1,
+   "max": 18.1,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Eumyias"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Indian verditer flycatcher"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1591254"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Verditer_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

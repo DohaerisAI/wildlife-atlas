@@ -1,0 +1,54 @@
+{
+ "scientific": "Cypsiurus balasiensis",
+ "name": "Asian Palm Swift",
+ "qid": "Q31797",
+ "description": "species of small swift of the genus Cypsiurus",
+ "extract": "The Asian palm swift (Cypsiurus balasiensis) is a small swift. It is very similar to the African palm swift, Cypsiurus parvus, and was formerly considered to be the same species.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Asian_Palm_Swift_Cypsiurus_balasiensis_in_flight_02.JPG/1280px-Asian_Palm_Swift_Cypsiurus_balasiensis_in_flight_02.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Asian_Palm_Swift_Cypsiurus_balasiensis_in_flight_02.JPG/330px-Asian_Palm_Swift_Cypsiurus_balasiensis_in_flight_02.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Asian_Palm_Swift_Cypsiurus_balasiensis_in_flight_02.JPG",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dr. Raju Kasambe",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 9.2,
+   "max": 9.2,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cypsiurus"
+  },
+  "family": {
+   "scientific": "Apodidae"
+  },
+  "order": {
+   "scientific": "Apodiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q31797"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Asian_palm_swift"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,59 @@
+{
+ "scientific": "Emberiza melanocephala",
+ "name": "Black-headed Bunting",
+ "qid": "Q334183",
+ "description": "species of bird",
+ "extract": "The black-headed bunting (Emberiza melanocephala) is a passerine bird in the bunting family Emberizidae. It breeds in south-east Europe east to Iran and migrates in winter mainly to India, with some individuals moving further into south-east Asia. Like others in its family, it is found in open grassland habitats where they fly in flocks in search of grains and seed. Adult males are well marked with yellow underparts, chestnut back and a black head. Adult females in breeding plumage look like duller males. In other plumages, they can be hard to separate from the closely related red-headed bunting and natural hybridization occurs between the two species in the zone of overlap of their breeding ranges in northern Iran.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/28-090504-black-headed-bunting-at-first-layby.jpg/1280px-28-090504-black-headed-bunting-at-first-layby.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/28-090504-black-headed-bunting-at-first-layby.jpg/330px-28-090504-black-headed-bunting-at-first-layby.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:28-090504-black-headed-bunting-at-first-layby.jpg",
+   "license": "CC BY 3.0",
+   "artist": "Mark S Jobling",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/BG-black-headed-bunting-female.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/BG-black-headed-bunting-female.jpg/330px-BG-black-headed-bunting-female.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:BG-black-headed-bunting-female.jpg",
+   "license": "Public domain",
+   "artist": "Original author and uploader was Ivan Petrov at bg.wikipedia",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 3.1,
+   "max": 28.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Emberiza"
+  },
+  "family": {
+   "scientific": "Emberizidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q334183"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-headed_bunting"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

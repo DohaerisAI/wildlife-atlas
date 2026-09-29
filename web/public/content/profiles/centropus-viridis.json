@@ -1,0 +1,49 @@
+{
+ "scientific": "Centropus viridis",
+ "name": "Philippine Coucal",
+ "qid": "Q732584",
+ "description": "species of bird",
+ "extract": "The Philippine coucal (Centropus viridis) is a species of cuckoo in the family Cuculidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Centropus_viridis.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Centropus_viridis.jpg/330px-Centropus_viridis.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Centropus_viridis.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Centropus"
+  },
+  "family": {
+   "scientific": "Cuculidae"
+  },
+  "order": {
+   "scientific": "Cuculiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q732584"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Philippine_coucal"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,62 @@
+{
+ "scientific": "Ara macao",
+ "name": "Scarlet macaw",
+ "qid": "Q243761",
+ "description": "species of bird",
+ "extract": "The scarlet macaw (Ara macao) also called the red-and-yellow macaw, red-and-blue macaw or red-breasted macaw, is a large yellow, green, red and blue Neotropical parrot native to humid evergreen forests of the Americas. Its range extends from southeastern Mexico to Peru, Ecuador, Colombia, Bolivia, Venezuela, Honduras, and Brazil in lowlands of 500 m (1,600 ft) (at least formerly) up to 1,000 m (3,300 ft), the Caribbean island of Trinidad, as well as the Pacific island of Coiba. Formerly, the northern extent of its range included southern Tamaulipas. In some areas, it has suffered local extinction because of habitat destruction, or capture for the parrot trade, but in other areas, it remains fairly common. It is the national bird of Honduras. Like its relative the blue-and-yellow macaw, the scarlet macaw is a popular bird in aviculture as a result of its striking plumage. It is the third most common macaw species in captivity after the blue-and-yellow and red-and-green macaw respectively. In recent years it has become much rarer in captivity and much more expensive due to stricter laws, its price being higher than even red-and-green macaws.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg/1280px-Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg/330px-Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Scarlet_macaw_(Ara_macao_cyanopterus)_Copan.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Ara_macao_-Puntarenas_Province%2C_Costa_Rica-8.jpg/1280px-Ara_macao_-Puntarenas_Province%2C_Costa_Rica-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Ara_macao_-Puntarenas_Province%2C_Costa_Rica-8.jpg/330px-Ara_macao_-Puntarenas_Province%2C_Costa_Rica-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ara_macao_-Puntarenas_Province,_Costa_Rica-8.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "chuck624 from Upstate NY, USA",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Scharlachara_%28Ara_macao%29.jpg/1280px-Scharlachara_%28Ara_macao%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Scharlachara_%28Ara_macao%29.jpg/330px-Scharlachara_%28Ara_macao%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Scharlachara_(Ara_macao).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dr. Thomas Liptak",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ara"
+  },
+  "family": {
+   "scientific": "Psittacidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q243761"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Scarlet_macaw"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

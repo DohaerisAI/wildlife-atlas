@@ -1,0 +1,48 @@
+{
+ "scientific": "Dryobates cathpharius",
+ "name": "Crimson-naped Woodpecker",
+ "qid": "Q20720464",
+ "description": "species of bird",
+ "extract": "The crimson-naped woodpecker, crimson-breasted woodpecker or scarlet-breasted woodpecker (Dryobates cathpharius) is a species of bird in the family Picidae. It is found in Bhutan, China, India, Myanmar and Nepal. Its natural habitats are subtropical or tropical moist lowland forests and subtropical or tropical moist montane forests. It was previously considered conspecific with necklaced woodpecker.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Crimson-breasted_Woodpecker_cropped.jpg/1280px-Crimson-breasted_Woodpecker_cropped.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Crimson-breasted_Woodpecker_cropped.jpg/330px-Crimson-breasted_Woodpecker_cropped.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Crimson-breasted_Woodpecker_cropped.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Mildeep",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dryobates"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "other_names": [
+  "Crimson-breasted Woodpecker"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q20720464"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Crimson-naped_woodpecker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

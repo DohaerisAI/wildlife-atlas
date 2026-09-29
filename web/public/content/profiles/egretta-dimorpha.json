@@ -1,0 +1,45 @@
+{
+ "scientific": "Egretta dimorpha",
+ "name": "Dimorphic Egret",
+ "qid": "Q392527",
+ "description": "species of bird",
+ "extract": "The dimorphic egret (Egretta dimorpha) is a species of heron in the family Ardeidae. It is found in Comoros, Kenya, Madagascar, Mayotte, Seychelles, and Tanzania.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Dimorphic_egret_%28Egretta_dimorpha%29_white_and_black_morph.jpg/1280px-Dimorphic_egret_%28Egretta_dimorpha%29_white_and_black_morph.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Dimorphic_egret_%28Egretta_dimorpha%29_white_and_black_morph.jpg/330px-Dimorphic_egret_%28Egretta_dimorpha%29_white_and_black_morph.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dimorphic_egret_(Egretta_dimorpha)_white_and_black_morph.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Egretta"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q392527"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dimorphic_egret"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

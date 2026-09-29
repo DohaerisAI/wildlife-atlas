@@ -1,0 +1,43 @@
+{
+ "scientific": "Garrulax galbanus",
+ "name": "Yellow-throated Laughingthrush",
+ "qid": "Q3315589",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Yellow-throated_Laughing_Thrush.jpg/1280px-Yellow-throated_Laughing_Thrush.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Yellow-throated_Laughing_Thrush.jpg/330px-Yellow-throated_Laughing_Thrush.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Yellow-throated_Laughing_Thrush.jpg",
+   "license": "CC BY 3.0",
+   "artist": "Ltshears",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 56.0,
+   "max": 56.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Garrulax"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3315589"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

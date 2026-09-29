@@ -1,0 +1,60 @@
+{
+ "scientific": "Amaurornis akool",
+ "name": "Brown Crake",
+ "qid": "Q2071191",
+ "description": "species of bird",
+ "extract": "The brown crake (Zapornia akool), or brown bush-hen, is a waterbird in the rail and crake family (Rallidae) found in South Asia. The species name, akool, is of uncertain origin.  It may come from Hindu mythology, or it may be a derivation of the Sinhalese word kukkula, which is used for both moorhen and watercock.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Brown_Crake_in_Bhigwan_August_2025_by_Tisha_Mukherjee_03.jpg/1280px-Brown_Crake_in_Bhigwan_August_2025_by_Tisha_Mukherjee_03.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Brown_Crake_in_Bhigwan_August_2025_by_Tisha_Mukherjee_03.jpg/330px-Brown_Crake_in_Bhigwan_August_2025_by_Tisha_Mukherjee_03.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brown_Crake_in_Bhigwan_August_2025_by_Tisha_Mukherjee_03.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Brown_Crake_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg/1280px-Brown_Crake_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Brown_Crake_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg/330px-Brown_Crake_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brown_Crake_in_Bhigwan_August_2025_by_Tisha_Mukherjee_02.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Zapornia"
+  },
+  "family": {
+   "scientific": "Rallidae"
+  },
+  "order": {
+   "scientific": "Gruiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Zapornia akool"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2071191"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown_crake"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

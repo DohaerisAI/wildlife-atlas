@@ -1,0 +1,51 @@
+{
+ "scientific": "Pitta megarhyncha",
+ "name": "Mangrove Pitta",
+ "qid": "Q1087853",
+ "description": "species of bird",
+ "extract": "The mangrove pitta (Pitta megarhyncha) is a species of passerine bird in the family Pittidae native to the eastern Indian subcontinent and western Southeast Asia. It is part of a superspecies where it is placed with the Indian pitta, the fairy pitta and the blue-winged pitta but has no recognized subspecies. A colourful bird, it has a black head with brown crown, white throat, greenish upper parts, buff underparts and reddish vent area. Its range extends from India to Malaysia and Indonesia. It is found in mangrove and nipa palm forests where it feeds on crustaceans, mollusks and insects. Its call, sometimes rendered as wieuw-wieuw, is sung from a high perch on a mangrove tree.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/PittaMegarhychaGould.jpg/1280px-PittaMegarhychaGould.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/PittaMegarhychaGould.jpg/330px-PittaMegarhychaGould.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:PittaMegarhychaGould.jpg",
+   "license": "Public domain",
+   "artist": "John Gould",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 105.0,
+   "max": 105.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pitta"
+  },
+  "family": {
+   "scientific": "Pittidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1087853"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mangrove_pitta"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,72 @@
+{
+ "scientific": "Delichon urbicum",
+ "name": "Common House Martin",
+ "qid": "Q26055",
+ "description": "species of bird",
+ "extract": "The western house martin (Delichon urbicum), sometimes called the common house martin, northern house martin or, particularly in Europe, just house martin, is a migratory passerine bird of the swallow family which breeds in Europe, north Africa and west-central Asia; and winters in sub-Saharan Africa and southwestern Asia. It feeds on insects which are caught in flight, and it migrates to climates where flying insects are plentiful. It has a blue head and upperparts, white rump and pure white underparts, and is found in both open country and near human habitation. It is similar in appearance to the two other martin species of the genus Delichon, which are both endemic to eastern and southern Asia. It has two accepted subspecies.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Delichon_urbica.jpg/1280px-Delichon_urbica.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Delichon_urbica.jpg/330px-Delichon_urbica.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Delichon_urbica.jpg",
+   "license": "CC BY 2.5",
+   "artist": "MPF",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Delichon_urbicum_10.jpg/1280px-Delichon_urbicum_10.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Delichon_urbicum_10.jpg/330px-Delichon_urbicum_10.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Delichon_urbicum_10.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Andrey Butko",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Delichon_urbicum_in_Carinthia_04.JPG/1280px-Delichon_urbicum_in_Carinthia_04.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Delichon_urbicum_in_Carinthia_04.JPG/330px-Delichon_urbicum_in_Carinthia_04.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Delichon_urbicum_in_Carinthia_04.JPG",
+   "license": "CC BY-SA 4.0",
+   "artist": "Wald1siedel",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 29.0,
+   "max": 29.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Delichon"
+  },
+  "family": {
+   "scientific": "Hirundinidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Northern House Martin",
+  "House Martin",
+  "Delichon urbica"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26055"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Western_house_martin"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

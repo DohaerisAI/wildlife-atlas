@@ -1,0 +1,43 @@
+{
+ "scientific": "Pomatorhinus hypoleucos",
+ "name": "Large Scimitar Babbler",
+ "qid": "Q1307410",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Large_Scimitar-babbler_-_Thailand.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Large_Scimitar-babbler_-_Thailand.jpg/330px-Large_Scimitar-babbler_-_Thailand.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Large_Scimitar-babbler_-_Thailand.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 76.0,
+   "max": 76.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pomatorhinus"
+  },
+  "family": {
+   "scientific": "Timaliidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1307410"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

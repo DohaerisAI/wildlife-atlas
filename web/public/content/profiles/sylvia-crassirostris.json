@@ -1,0 +1,37 @@
+{
+ "scientific": "Sylvia crassirostris",
+ "name": "Eastern Orphean Warbler",
+ "qid": "Q27075547",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Eastern_Orphean_Warbler_-_Uzbekistan_S4E8419_%2818675147404%29-cropped.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Eastern_Orphean_Warbler_-_Uzbekistan_S4E8419_%2818675147404%29-cropped.jpg/330px-Eastern_Orphean_Warbler_-_Uzbekistan_S4E8419_%2818675147404%29-cropped.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eastern_Orphean_Warbler_-_Uzbekistan_S4E8419_(18675147404)-cropped.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sylvia"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075547"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

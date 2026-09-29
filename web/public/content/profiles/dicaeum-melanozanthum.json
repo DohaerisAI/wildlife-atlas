@@ -1,0 +1,33 @@
+{
+ "scientific": "Dicaeum melanozanthum",
+ "name": "Yellow-bellied Flowerpecker",
+ "qid": "Q81902099",
+ "description": "species of birds",
+ "extract": "",
+ "images": [],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dicaeum"
+  },
+  "family": {
+   "scientific": "Dicaeidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q81902099"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

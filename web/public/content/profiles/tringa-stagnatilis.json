@@ -1,0 +1,62 @@
+{
+ "scientific": "Tringa stagnatilis",
+ "name": "Marsh Sandpiper",
+ "qid": "Q28355",
+ "description": "species of bird",
+ "extract": "The marsh sandpiper (Tringa stagnatilis) is a small wader. It is a rather small shank, and breeds in open grassy steppe and taiga wetlands from easternmost Europe to the Russian Far East. The genus name Tringa is the Neo-Latin name given to the green sandpiper by Aldrovandus in 1599 based on Ancient Greek trungas, a thrush-sized, white-rumped, tail-bobbing wading bird mentioned by Aristotle. The specific stagnatilis is from Latin stagnum, \"swamp\".",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Tringa_stagnatilis_2_-_Laem_Pak_Bia.jpg/1280px-Tringa_stagnatilis_2_-_Laem_Pak_Bia.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Tringa_stagnatilis_2_-_Laem_Pak_Bia.jpg/330px-Tringa_stagnatilis_2_-_Laem_Pak_Bia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tringa_stagnatilis_2_-_Laem_Pak_Bia.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 55.0,
+   "max": 59.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 14.0,
+   "max": 76.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tringa"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Tringa (Rhyacophilus) stagnatilis"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q28355"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Marsh_sandpiper"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

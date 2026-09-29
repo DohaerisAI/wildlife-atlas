@@ -1,0 +1,51 @@
+{
+ "scientific": "Aplonis panayensis",
+ "name": "Asian Glossy Starling",
+ "qid": "Q517230",
+ "description": "species of bird",
+ "extract": "The Asian glossy starling (Aplonis panayensis) is a species of starling in the family Sturnidae. It is found in Bangladesh, Brunei, northeastern India (Assam), Indonesia, Malaysia, Myanmar, the Philippines, Singapore, Cambodia and Thailand. Its natural habitats are subtropical or tropical moist lowland forest and subtropical or tropical mangrove forest. It has also been introduced to Taiwan.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Asian_glossy_starling.jpg/1280px-Asian_glossy_starling.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Asian_glossy_starling.jpg/330px-Asian_glossy_starling.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Asian_glossy_starling.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Chris Down",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 56.0,
+   "max": 56.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aplonis"
+  },
+  "family": {
+   "scientific": "Sturnidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q517230"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Asian_glossy_starling"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

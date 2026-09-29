@@ -1,0 +1,46 @@
+{
+ "scientific": "Spelaeornis troglodytoides",
+ "name": "Bar-winged Wren Babbler",
+ "qid": "Q1304128",
+ "description": "species of bird",
+ "extract": "The bar-winged wren-babbler (Spelaeornis troglodytoides) is a species of bird in the family Timaliidae. It is found in Bhutan, China, India, and Myanmar. Its natural habitat is subtropical or tropical moist montane forest.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Bar-winged_Wren-Babbler_-_Eaglenest_-_India_FJ0A8141_%2833475375613%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Bar-winged_Wren-Babbler_-_Eaglenest_-_India_FJ0A8141_%2833475375613%29.jpg/330px-Bar-winged_Wren-Babbler_-_Eaglenest_-_India_FJ0A8141_%2833475375613%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bar-winged_Wren-Babbler_-_Eaglenest_-_India_FJ0A8141_(33475375613).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Spelaeornis"
+  },
+  "family": {
+   "scientific": "Timaliidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1304128"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bar-winged_wren-babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

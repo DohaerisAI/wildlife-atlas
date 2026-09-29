@@ -1,0 +1,70 @@
+{
+ "scientific": "Corvus cornix",
+ "name": "Hooded Crow",
+ "qid": "Q25405",
+ "description": "species of bird",
+ "extract": "The hooded crow (Corvus cornix), also colloquially called just hoodie, is a Eurasian bird subspecies of the carrion crow (Corvus corone) in the genus Corvus. Widely distributed, it is found across Northern, Eastern, and Southeastern Europe, as well as parts of the Middle East. It is an ashy-grey bird with black head, throat, wings, tail, and thigh feathers, as well as a black bill, eyes, and feet. Like other corvids, it is an omnivorous and opportunistic forager and feeder.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Corvus_cornix_%2833515567265%29.jpg/1280px-Corvus_cornix_%2833515567265%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Corvus_cornix_%2833515567265%29.jpg/330px-Corvus_cornix_%2833515567265%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Corvus_cornix_(33515567265).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Donald Hobern from Copenhagen, Denmark",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Corvus_cornix_in_Locarno.jpg/1280px-Corvus_cornix_in_Locarno.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Corvus_cornix_in_Locarno.jpg/330px-Corvus_cornix_in_Locarno.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Corvus_cornix_in_Locarno.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Commonists",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Rockefeller_Archeological_Museum_Rockefeller_Museum_P1120430_%286992763642%29.jpg/1280px-Rockefeller_Archeological_Museum_Rockefeller_Museum_P1120430_%286992763642%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Rockefeller_Archeological_Museum_Rockefeller_Museum_P1120430_%286992763642%29.jpg/330px-Rockefeller_Archeological_Museum_Rockefeller_Museum_P1120430_%286992763642%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rockefeller_Archeological_Museum_Rockefeller_Museum_P1120430_(6992763642).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Ricardo Tulio Gandelman from Rio de Janeiro, Brazil",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 98.0,
+   "max": 98.0,
+   "unit": "cm"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Corvus"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "hoodie",
+  "grey crow",
+  "Royston Crow",
+  "Scremerston Crow",
+  "Coatham Crow"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25405"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hooded_crow"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

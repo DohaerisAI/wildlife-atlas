@@ -1,0 +1,54 @@
+{
+ "scientific": "Callacanthis burtoni",
+ "name": "Spectacled Finch",
+ "qid": "Q1017132",
+ "description": "species of bird",
+ "extract": "The spectacled finch (Callacanthis burtoni) is a species of finch in the family Fringillidae. It is native to the Safed Koh and southern slope of the Himalayas.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Callacanthis_burtoni_316361359.jpg/1280px-Callacanthis_burtoni_316361359.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Callacanthis_burtoni_316361359.jpg/330px-Callacanthis_burtoni_316361359.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Callacanthis_burtoni_316361359.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Imran Shah",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Spectacled_Finch_I_IMG_3307_%28cropped%29.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/64/Spectacled_Finch_I_IMG_3307_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Spectacled_Finch_I_IMG_3307_(cropped).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Callacanthis"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1017132"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spectacled_finch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

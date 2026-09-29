@@ -1,0 +1,54 @@
+{
+ "scientific": "Staphida everetti",
+ "name": "Chestnut-crested Yuhina",
+ "qid": "Q109563481",
+ "description": "Species of bird in the white-eye family Zosteropidae",
+ "extract": "The chestnut-crested yuhina (Staphida everetti) is a species of bird in the white-eye family Zosteropidae. The species has been included in the genus Staphida, along with the Indochinese yuhina and the striated yuhina of mainland Asia, and all three have been considered a single species. The scientific name commemorates British colonial administrator and zoological collector Alfred Hart Everett.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Chestnut-crested_Yuhina_0A2A3688.jpg/1280px-Chestnut-crested_Yuhina_0A2A3688.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Chestnut-crested_Yuhina_0A2A3688.jpg/330px-Chestnut-crested_Yuhina_0A2A3688.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chestnut-crested_Yuhina_0A2A3688.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Naturalis_Biodiversity_Center_-_RMNH.AVES.9010_1_-_Yuhina_castaniceps_everetti_%28Sharpe%2C_1887%29_-_Timaliidae_-_bird_skin_specimen.jpeg/1280px-Naturalis_Biodiversity_Center_-_RMNH.AVES.9010_1_-_Yuhina_castaniceps_everetti_%28Sharpe%2C_1887%29_-_Timaliidae_-_bird_skin_specimen.jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Naturalis_Biodiversity_Center_-_RMNH.AVES.9010_1_-_Yuhina_castaniceps_everetti_%28Sharpe%2C_1887%29_-_Timaliidae_-_bird_skin_specimen.jpeg/330px-Naturalis_Biodiversity_Center_-_RMNH.AVES.9010_1_-_Yuhina_castaniceps_everetti_%28Sharpe%2C_1887%29_-_Timaliidae_-_bird_skin_specimen.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_RMNH.AVES.9010_1_-_Yuhina_castaniceps_everetti_(Sharpe,_1887)_-_Timaliidae_-_bird_skin_specimen.jpeg",
+   "license": "CC0",
+   "artist": "Sharpe, 1887",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Staphida"
+  },
+  "family": {
+   "scientific": "Zosteropidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q109563481"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chestnut-crested_yuhina"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

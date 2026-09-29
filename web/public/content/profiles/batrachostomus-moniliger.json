@@ -1,0 +1,61 @@
+{
+ "scientific": "Batrachostomus moniliger",
+ "name": "Sri Lanka Frogmouth",
+ "qid": "Q1267780",
+ "description": "species of bird",
+ "extract": "The Sri Lanka frogmouth, Sri Lankan frogmouth or Ceylon frogmouth (Batrachostomus moniliger) is a small frogmouth found in the Western Ghats of south India and Sri Lanka. Related to the nightjars, it is nocturnal and is found in forest habitats. The plumage coloration resembles that of dried leaves and the bird roosts quietly on branches, making it difficult to see. Each has a favourite roost that it uses regularly unless disturbed. It has a distinctive call that is usually heard at dawn and dusk. The sexes differ slightly in plumage.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Srilankan_Frogmouth_RJM_8824.jpg/1280px-Srilankan_Frogmouth_RJM_8824.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Srilankan_Frogmouth_RJM_8824.jpg/330px-Srilankan_Frogmouth_RJM_8824.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Srilankan_Frogmouth_RJM_8824.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Renjuuu",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Srilankan_frogmouth.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Srilankan_frogmouth.jpg/330px-Srilankan_frogmouth.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Srilankan_frogmouth.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Badjoby",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Batrachostomus"
+  },
+  "family": {
+   "scientific": "Podargidae"
+  },
+  "order": {
+   "scientific": "Podargiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Sri Lankan frogmouth",
+  "Ceylon frogmouth"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1267780"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sri_Lanka_frogmouth"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,54 @@
+{
+ "scientific": "Houbaropsis bengalensis",
+ "name": "Bengal Florican",
+ "qid": "Q809610",
+ "description": "species of bird",
+ "extract": "The Bengal florican (Houbaropsis bengalensis), also called the Bengal bustard, is a bustard species native to the Indian subcontinent, Cambodia, and Vietnam. It is listed as Critically Endangered on the IUCN Red List because fewer than 1,000 individuals were estimated to be alive as of 2017. It is the only member of the genus Houbaropsis.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/BengalFlorican.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/BengalFlorican.jpg/330px-BengalFlorican.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:BengalFlorican.jpg",
+   "license": "Public domain",
+   "artist": "Richard Lydekker",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 1475.0,
+   "max": 1975.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "CR",
+   "label": "Critically Endangered"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Houbaropsis"
+  },
+  "family": {
+   "scientific": "Otididae"
+  },
+  "order": {
+   "scientific": "Otidiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q809610"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bengal_florican"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

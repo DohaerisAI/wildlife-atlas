@@ -1,0 +1,63 @@
+{
+ "scientific": "Ardeola grayii",
+ "name": "Indian Pond Heron",
+ "qid": "Q498428",
+ "description": "species of bird",
+ "extract": "The Indian pond heron or paddybird (Ardeola grayii) is a small heron. It is of Old World origins, breeding in southern Iran and east to the Indian subcontinent, Burma, and Sri Lanka. They are widespread and common but can be easily missed when they stalk prey at the edge of small water-bodies or even when they roost close to human habitations.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Indian_Pond_Heron_%28Ardeola_grayii%29_%40_Chavakkad.jpg/1280px-Indian_Pond_Heron_%28Ardeola_grayii%29_%40_Chavakkad.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Indian_Pond_Heron_%28Ardeola_grayii%29_%40_Chavakkad.jpg/330px-Indian_Pond_Heron_%28Ardeola_grayii%29_%40_Chavakkad.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Indian_Pond_Heron_(Ardeola_grayii)_@_Chavakkad.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Vivek Puliyeri",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 75.0,
+   "max": 90.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 255.0,
+   "max": 255.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ardeola"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Indian pond-heron"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q498428"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_pond_heron"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

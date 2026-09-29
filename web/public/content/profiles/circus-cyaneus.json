@@ -1,0 +1,67 @@
+{
+ "scientific": "Circus cyaneus",
+ "name": "Hen Harrier",
+ "qid": "Q25572",
+ "description": "species of bird",
+ "extract": "The hen harrier (Circus cyaneus) is a bird of prey. It breeds in open areas such as marshes and grasslands in Eurasia and is migratory, moving further south outside of the breeding season. Birds in milder regions, such as France and Great Britain, may be resident year-round, but the higher altitudes are largely deserted in winter. The species is sexually dimorphic; males are smaller and mostly grey and white with black wingtips, whereas females average larger and are predominantly brown and have buff underparts with brown barring. Both sexes have a white rump patch, although it is more noticeable on females and juveniles.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Circus_cyaneus_265961899.jpg/1280px-Circus_cyaneus_265961899.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Circus_cyaneus_265961899.jpg/330px-Circus_cyaneus_265961899.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Circus_cyaneus_265961899.jpg",
+   "license": "CC0",
+   "artist": "Александр Чегодаев",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Wow2_filtered.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Wow2_filtered.jpg/330px-Wow2_filtered.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wow2_filtered.jpg",
+   "license": "Public domain",
+   "artist": "Kositoes",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 110.0,
+   "max": 110.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 346.0,
+   "max": 527.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Circus"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25572"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hen_harrier"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

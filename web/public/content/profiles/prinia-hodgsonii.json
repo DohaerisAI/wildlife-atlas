@@ -1,0 +1,46 @@
+{
+ "scientific": "Prinia hodgsonii",
+ "name": "Grey-breasted Prinia",
+ "qid": "Q863110",
+ "description": "species of bird",
+ "extract": "The grey-breasted prinia or Franklin's prinia (Prinia hodgsonii) is a wren-warbler belonging to the family of small passerine birds found mainly in warmer southern regions of the Old World. This prinia is a resident breeder in the Indian subcontinent, Sri Lanka and southeast Asia. Like other prinias, it often holds the tail upright but it is easily told by a smoky grey band across the breast which contrasts with a white throat. The beak is all black while the legs are pink. The tail is graduated as in other prinias and the grey feathers are tipped in white. In the breeding plumage the upperparts are grey while non-breeding birds are pale above with rufous wings and a weak supercilium. It is found in scrub, forest clearings and other open but well vegetated habitats. It can be confused with the rufescent prinia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Grey-breasted_prinia_by_Tisha_Mukherjee_20.jpg/1280px-Grey-breasted_prinia_by_Tisha_Mukherjee_20.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Grey-breasted_prinia_by_Tisha_Mukherjee_20.jpg/330px-Grey-breasted_prinia_by_Tisha_Mukherjee_20.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grey-breasted_prinia_by_Tisha_Mukherjee_20.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Prinia"
+  },
+  "family": {
+   "scientific": "Cisticolidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q863110"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey-breasted_prinia"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

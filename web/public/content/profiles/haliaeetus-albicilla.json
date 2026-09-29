@@ -1,0 +1,74 @@
+{
+ "scientific": "Haliaeetus albicilla",
+ "name": "White-tailed Eagle",
+ "qid": "Q25438",
+ "description": "species of bird",
+ "extract": "The white-tailed eagle (Haliaeetus albicilla), sometimes known as the \"sea eagle\", is a large bird of prey, widely distributed across temperate Eurasia. Like other eagles, it is a member of the family Accipitridae (or accipitrids) which also includes other diurnal raptors such as hawks, kites, and harriers. One of up to eleven members in the genus Haliaeetus, which are commonly called sea eagles, it is also referred to as the white-tailed sea-eagle. Sometimes, it is known as the ern or erne (depending on spelling by sources), gray sea eagle and Eurasian sea eagle.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Adult_White-tailed_Eagle_defending_prey%2C_Rezerwat_Gostynin-Wloclawek%2C_Poland.jpg/1280px-Adult_White-tailed_Eagle_defending_prey%2C_Rezerwat_Gostynin-Wloclawek%2C_Poland.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Adult_White-tailed_Eagle_defending_prey%2C_Rezerwat_Gostynin-Wloclawek%2C_Poland.jpg/330px-Adult_White-tailed_Eagle_defending_prey%2C_Rezerwat_Gostynin-Wloclawek%2C_Poland.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Adult_White-tailed_Eagle_defending_prey,_Rezerwat_Gostynin-Wloclawek,_Poland.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Original: Andreas Weith. This edit: MPF.",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Aquila_di_mare_FS1.jpg/1280px-Aquila_di_mare_FS1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Aquila_di_mare_FS1.jpg/330px-Aquila_di_mare_FS1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aquila_di_mare_FS1.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Ferdinando sacchetti",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 218.0,
+   "max": 218.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 142.0,
+   "max": 5572.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Haliaeetus"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "White-tailed sea-eagle",
+  "Erne",
+  "Sea eagle",
+  "Ern",
+  "Falco albicilla"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25438"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-tailed_eagle"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

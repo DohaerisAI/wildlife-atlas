@@ -1,0 +1,58 @@
+{
+ "scientific": "Megaceryle lugubris",
+ "name": "Crested Kingfisher",
+ "qid": "Q371843",
+ "description": "species of bird",
+ "extract": "The crested kingfisher (Megaceryle lugubris) is a very large kingfisher that is native to parts of southern Asia. It is part of the kingfisher genus Megaceryle with three other species: the giant kingfisher (Megaceryle maxima), the ringed kingfisher (Megaceryle torquata), and the belted kingfisher (Megaceryle alcyon) with which it forms a species complex.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Megaceryle_lugubris%2C_crop.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Megaceryle_lugubris%2C_crop.jpg/330px-Megaceryle_lugubris%2C_crop.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Megaceryle_lugubris,_crop.jpg",
+   "license": "Copyrighted free use",
+   "artist": "Tokumi",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Wiki-yamasemi-mesu%2C_crop.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Wiki-yamasemi-mesu%2C_crop.jpg/330px-Wiki-yamasemi-mesu%2C_crop.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wiki-yamasemi-mesu,_crop.jpg",
+   "license": "Copyrighted free use",
+   "artist": "Tokumi",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 255.0,
+   "max": 288.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Megaceryle"
+  },
+  "family": {
+   "scientific": "Alcedinidae"
+  },
+  "order": {
+   "scientific": "Coraciiformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q371843"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Crested_kingfisher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

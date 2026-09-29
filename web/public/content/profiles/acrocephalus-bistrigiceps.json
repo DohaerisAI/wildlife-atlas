@@ -1,0 +1,46 @@
+{
+ "scientific": "Acrocephalus bistrigiceps",
+ "name": "Black-browed Reed Warbler",
+ "qid": "Q1200757",
+ "description": "species of bird",
+ "extract": "The black-browed reed warbler (Acrocephalus bistrigiceps) is a marsh-warbler in the family Acrocephalidae. It was formerly included in the \"Old World warbler\" assemblage. The species was first described by Robert Swinhoe in 1860.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Wiki-koyosikiri-saro.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wiki-koyosikiri-saro.jpg/330px-Wiki-koyosikiri-saro.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wiki-koyosikiri-saro.jpg",
+   "license": "Copyrighted free use",
+   "artist": "Tokumi",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Acrocephalus"
+  },
+  "family": {
+   "scientific": "Acrocephalidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1200757"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-browed_reed_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

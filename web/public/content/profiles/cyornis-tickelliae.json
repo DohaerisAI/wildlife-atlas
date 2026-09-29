@@ -1,0 +1,57 @@
+{
+ "scientific": "Cyornis tickelliae",
+ "name": "Tickell's Blue Flycatcher",
+ "qid": "Q1591239",
+ "description": "species of bird",
+ "extract": "Tickell's blue flycatcher (Cyornis tickelliae) is a small passerine bird in the flycatcher family. This is an insectivorous species which breeds in tropical Asia, from the Indian subcontinent eastwards to Bangladesh and western Myanmar. The Indochinese blue flycatcher was formerly considered conspecific. They are blue on the upperparts and the throat and breast are rufous. They are found in dense scrub to forest habitats. The name commemorates the wife of the British ornithologist Samuel Tickell who collected in India and Burma.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Tickell%27s_blue_flycatcher_%28Cyornis_tickelliae%29_Photograph_By_Shantanu_Kuveskar.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Tickell%27s_blue_flycatcher_%28Cyornis_tickelliae%29_Photograph_By_Shantanu_Kuveskar.jpg/330px-Tickell%27s_blue_flycatcher_%28Cyornis_tickelliae%29_Photograph_By_Shantanu_Kuveskar.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tickell%27s_blue_flycatcher_(Cyornis_tickelliae)_Photograph_By_Shantanu_Kuveskar.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Shantanu Kuveskar",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Cyornis_sumatrensis%2C_male_-_Kaeng_Krachan%2C_Thailand_1.jpg/1280px-Cyornis_sumatrensis%2C_male_-_Kaeng_Krachan%2C_Thailand_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Cyornis_sumatrensis%2C_male_-_Kaeng_Krachan%2C_Thailand_1.jpg/330px-Cyornis_sumatrensis%2C_male_-_Kaeng_Krachan%2C_Thailand_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cyornis_sumatrensis,_male_-_Kaeng_Krachan,_Thailand_1.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": "Male"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cyornis"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Tickell's niltava"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1591239"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tickell%27s_blue_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,37 @@
+{
+ "scientific": "Alcippe castaneceps",
+ "name": "Rufous-winged Fulvetta",
+ "qid": "Q1441641",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Pseudominla_castaneceps_soror_Keulemans.jpg/1280px-Pseudominla_castaneceps_soror_Keulemans.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Pseudominla_castaneceps_soror_Keulemans.jpg/330px-Pseudominla_castaneceps_soror_Keulemans.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pseudominla_castaneceps_soror_Keulemans.jpg",
+   "license": "Public domain",
+   "artist": "John Gerrard Keulemans",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Alcippe"
+  },
+  "family": {
+   "scientific": "Alcippeidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1441641"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

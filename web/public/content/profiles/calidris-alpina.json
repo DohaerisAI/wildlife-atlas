@@ -1,0 +1,62 @@
+{
+ "scientific": "Calidris alpina",
+ "name": "Dunlin",
+ "qid": "Q26650",
+ "description": "species of bird",
+ "extract": "The dunlin (Calidris alpina) is a small wader in the genus Calidris. The English name is a dialect form of \"dunling\", first recorded in 1531–1532. It derives from dun, \"dull brown\", with the suffix -ling, meaning a person or thing with the given quality.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Calidris_alpina_alpina%2C_Riga%2C_Latvia_1.jpg/1280px-Calidris_alpina_alpina%2C_Riga%2C_Latvia_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Calidris_alpina_alpina%2C_Riga%2C_Latvia_1.jpg/330px-Calidris_alpina_alpina%2C_Riga%2C_Latvia_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Calidris_alpina_alpina,_Riga,_Latvia_1.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jevgenijs Slihto from Riga, Latvia",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Calidris-alpina-001_edit.jpg/1280px-Calidris-alpina-001_edit.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Calidris-alpina-001_edit.jpg/330px-Calidris-alpina-001_edit.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Calidris-alpina-001_edit.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Mdf, edited by Fir0002",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 36.0,
+   "max": 36.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Calidris"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26650"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dunlin"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,52 @@
+{
+ "scientific": "Streptopelia orientalis",
+ "name": "Oriental Turtle Dove",
+ "qid": "Q704987",
+ "description": "species of bird",
+ "extract": "The Oriental turtle dove or rufous turtle dove (Streptopelia orientalis) is a member of the bird family Columbidae. The species has a wide native distribution range from Central Asia east across Asia to Japan. The populations show variations in the patterning of plumage and have been designated into at least six named subspecies. Populations in the higher latitudes tend to migrate south in winter, while those closer to the tropics are sedentary. Vagrants have been recorded in North America. The species is predominantly granivorous and forages on the ground.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/2026-08-27_Streptopelia_orientalis_in_Chitose.jpg/1280px-2026-08-27_Streptopelia_orientalis_in_Chitose.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/2026-08-27_Streptopelia_orientalis_in_Chitose.jpg/330px-2026-08-27_Streptopelia_orientalis_in_Chitose.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2026-08-27_Streptopelia_orientalis_in_Chitose.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "J. Patrick Fischer",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Streptopelia"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Oriental turtle-dove"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q704987"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Oriental_turtle_dove"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,49 @@
+{
+ "scientific": "Anthracoceros albirostris",
+ "name": "Oriental Pied Hornbill",
+ "qid": "Q640999",
+ "description": "species of bird",
+ "extract": "The oriental pied hornbill (Anthracoceros albirostris) is an Indo-Malayan pied hornbill, a large canopy-dwelling bird belonging to the family Bucerotidae. Two other common names for this species are Sunda pied hornbill (convexus) and Malaysian pied hornbill.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Anthracoceros_albirostris_-_Changi_Beach_Park.jpg/1280px-Anthracoceros_albirostris_-_Changi_Beach_Park.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Anthracoceros_albirostris_-_Changi_Beach_Park.jpg/330px-Anthracoceros_albirostris_-_Changi_Beach_Park.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Anthracoceros_albirostris_-_Changi_Beach_Park.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "JJ Harrison (https://tiny.jjharrison.com.au/t/WnrNTPSv5UZYne9y)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anthracoceros"
+  },
+  "family": {
+   "scientific": "Bucerotidae",
+   "name": "hornbill"
+  },
+  "order": {
+   "scientific": "Bucerotiformes"
+  }
+ },
+ "other_names": [
+  "Oriental pied-hornbill"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q640999"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Oriental_pied_hornbill"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,53 @@
+{
+ "scientific": "Icthyophaga ichthyaetus",
+ "name": "Ichthyophaga ichthyaetus",
+ "qid": "Q1074476",
+ "description": "synonym of Haliaeetus ichthyaetus",
+ "extract": "The grey-headed fish eagle (Icthyophaga ichthyaetus) is a fish-eating bird of prey from Southeast Asia. It is a large stocky raptor with adults having dark brown upper body, grey head and lighter underbelly and white legs. Juveniles are paler with darker streaking. It is often confused with the lesser fish eagle (Icthyophaga humilis) and the Pallas's fish eagle. The lesser fish eagle is similar in plumage but smaller and the Pallas's fish eagle shares the same habitat and feeding behaviour but is larger with longer wings and darker underparts. Is often called tank eagle in Sri Lanka due to its fondness for irrigation tanks.",
+ "images": [],
+ "facts": {
+  "wingspan": {
+   "min": 155.0,
+   "max": 170.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 2150.0,
+   "max": 2150.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Icthyophaga"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Grey-headed Fish Eagle"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1074476"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey-headed_fish_eagle"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,65 @@
+{
+ "scientific": "Caprimulgus climacurus",
+ "name": "Long-tailed Nightjar",
+ "qid": "Q1186108",
+ "description": "species of bird",
+ "extract": "The long-tailed nightjar (Caprimulgus climacurus) is one of 98 species of nightjar in the family Caprimulgidae, the \"true nightjars\". It is a nocturnal, insectivorous bird characterized by its distinctive long tail. It is found throughout mainland Africa in open areas, arid semi-deserts, and savannas, with common sightings alongside roadways.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Long-tailed_nightjar_%28Caprimulgus_climacurus_climacurus%29_male_head.jpg/1280px-Long-tailed_nightjar_%28Caprimulgus_climacurus_climacurus%29_male_head.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Long-tailed_nightjar_%28Caprimulgus_climacurus_climacurus%29_male_head.jpg/330px-Long-tailed_nightjar_%28Caprimulgus_climacurus_climacurus%29_male_head.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Long-tailed_nightjar_(Caprimulgus_climacurus_climacurus)_male_head.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Long-tailed_nightjar_%28Caprimulgus_climacurus_climacurus%29_male.jpg/1280px-Long-tailed_nightjar_%28Caprimulgus_climacurus_climacurus%29_male.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Long-tailed_nightjar_%28Caprimulgus_climacurus_climacurus%29_male.jpg/330px-Long-tailed_nightjar_%28Caprimulgus_climacurus_climacurus%29_male.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Long-tailed_nightjar_(Caprimulgus_climacurus_climacurus)_male.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": "Male"
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 4.6,
+   "max": 45.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Caprimulgus"
+  },
+  "family": {
+   "scientific": "Caprimulgidae"
+  },
+  "order": {
+   "scientific": "Caprimulgiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Scotornis climacurus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1186108"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Long-tailed_nightjar"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

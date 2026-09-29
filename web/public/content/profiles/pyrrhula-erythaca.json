@@ -1,0 +1,59 @@
+{
+ "scientific": "Pyrrhula erythaca",
+ "name": "Grey-headed Bullfinch",
+ "qid": "Q1084895",
+ "description": "species of bird",
+ "extract": "The Grey-headed bullfinch (Pyrrhula erythaca), Gray-headed bullfinch, or Beavan's Bullfinch is a species of finch in the family Fringillidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Grey-headed_Bullfinch.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Grey-headed_Bullfinch.jpg/330px-Grey-headed_Bullfinch.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grey-headed_Bullfinch.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "https://www.flickr.com/photos/16942101@N06/",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Bouvreuil_t%C3%AAte_grise_%E2%80%93_Pyrrhula_erythaca_%E2%80%93_Eure_26-_222.jpg/1280px-Bouvreuil_t%C3%AAte_grise_%E2%80%93_Pyrrhula_erythaca_%E2%80%93_Eure_26-_222.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Bouvreuil_t%C3%AAte_grise_%E2%80%93_Pyrrhula_erythaca_%E2%80%93_Eure_26-_222.jpg/330px-Bouvreuil_t%C3%AAte_grise_%E2%80%93_Pyrrhula_erythaca_%E2%80%93_Eure_26-_222.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bouvreuil_t%C3%AAte_grise_%E2%80%93_Pyrrhula_erythaca_%E2%80%93_Eure_26-_222.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Didier Descouens",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 21.7,
+   "max": 21.7,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pyrrhula"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1084895"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey-headed_bullfinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

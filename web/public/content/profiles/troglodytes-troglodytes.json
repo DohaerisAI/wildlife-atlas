@@ -1,0 +1,62 @@
+{
+ "scientific": "Troglodytes troglodytes",
+ "name": "Eurasian Wren",
+ "qid": "Q25740",
+ "description": "species of bird",
+ "extract": "The Eurasian wren (Troglodytes troglodytes) is a very small insectivorous bird and the only member of the wren family found in the Old World, specifically in Eurasia and Africa (Maghreb). In Anglophone Europe, it is commonly known simply as the wren. It has a very short tail which is often held erect, a short neck and a relatively long thin bill. It is russet brown above, paler buff-brown below, overall finely barred darker, and has a cream buff supercilium. The sexes are alike.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Eurasian_wren_%28Troglodytes_troglodytes%29.jpg/1280px-Eurasian_wren_%28Troglodytes_troglodytes%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Eurasian_wren_%28Troglodytes_troglodytes%29.jpg/330px-Eurasian_wren_%28Troglodytes_troglodytes%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eurasian_wren_(Troglodytes_troglodytes).jpg",
+   "license": "CC BY 4.0",
+   "artist": "Alexis Lours",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Troglodytes_troglodytes_fumigatus.JPG/1280px-Troglodytes_troglodytes_fumigatus.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Troglodytes_troglodytes_fumigatus.JPG/330px-Troglodytes_troglodytes_fumigatus.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Troglodytes_troglodytes_fumigatus.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Alpsdake",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 15.0,
+   "max": 15.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Troglodytes"
+  },
+  "family": {
+   "scientific": "Troglodytidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Wren"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25740"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eurasian_wren"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,51 @@
+{
+ "scientific": "Phylloscopus magnirostris",
+ "name": "Large-billed Leaf Warbler",
+ "qid": "Q3726316",
+ "description": "species of bird",
+ "extract": "The large-billed leaf warbler (Phylloscopus magnirostris) is a species of migratory leaf warbler (family Phylloscopidae) found in Asia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Large-billed_Leaf_Warbler_%28Phylloscopus_magnirostris%29.jpg/1280px-Large-billed_Leaf_Warbler_%28Phylloscopus_magnirostris%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Large-billed_Leaf_Warbler_%28Phylloscopus_magnirostris%29.jpg/330px-Large-billed_Leaf_Warbler_%28Phylloscopus_magnirostris%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Large-billed_Leaf_Warbler_(Phylloscopus_magnirostris).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Original: Thomson Saburaj, this edit: MPF",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 12.3,
+   "max": 12.3,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phylloscopus"
+  },
+  "family": {
+   "scientific": "Phylloscopidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3726316"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Large-billed_leaf_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

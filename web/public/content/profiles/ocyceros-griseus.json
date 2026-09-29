@@ -1,0 +1,57 @@
+{
+ "scientific": "Ocyceros griseus",
+ "name": "Malabar Grey Hornbill",
+ "qid": "Q1094387",
+ "description": "species of bird",
+ "extract": "The Malabar gray hornbill (Ocyceros griseus) is a hornbill endemic to the Western Ghats and associated hills of southern India. They have a large beak but lack the casque that is prominent in some other hornbill species. They are found mainly in dense forest and around rubber, arecanut or coffee plantations. They move around in pairs or small groups, feeding on figs and other forest fruits. Their loud cackling and laughing call makes them familiar to people living in the region.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Ocyceros_griseus_-India-6-4c.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Ocyceros_griseus_-India-6-4c.jpg/330px-Ocyceros_griseus_-India-6-4c.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ocyceros_griseus_-India-6-4c.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "derivative work: Snowmanradio (talk)\nOcyceros_griseus_-India-6.jpg: Lip Kee Yap",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Ocyceros_griseus_-Kerala%2C_India_-male-8a.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Ocyceros_griseus_-Kerala%2C_India_-male-8a.jpg/330px-Ocyceros_griseus_-Kerala%2C_India_-male-8a.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ocyceros_griseus_-Kerala,_India_-male-8a.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Dhruvaraj S from India",
+   "caption": "Male"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ocyceros"
+  },
+  "family": {
+   "scientific": "Bucerotidae",
+   "name": "hornbill"
+  },
+  "order": {
+   "scientific": "Bucerotiformes"
+  }
+ },
+ "other_names": [
+  "Tockus griseus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1094387"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Malabar_grey_hornbill"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

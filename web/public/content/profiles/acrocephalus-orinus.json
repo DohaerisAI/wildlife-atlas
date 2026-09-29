@@ -1,0 +1,46 @@
+{
+ "scientific": "Acrocephalus orinus",
+ "name": "Large-billed Reed Warbler",
+ "qid": "Q1359295",
+ "description": "species of bird",
+ "extract": "The large-billed reed warbler (Acrocephalus orinus) is an Old World warbler in the genus Acrocephalus. The species has been dubbed as \"the world's least known bird\". It was known from a single specimen collected in India in 1867 and rediscovered in the wild in Thailand in 2006. The identity of the bird caught in Thailand was established by matching DNA sequences extracted from feathers; the bird was released. After the rediscovery in the wild a second specimen was discovered amid Acrocephalus dumetorum specimens in the collections of the Natural History Museum at Tring. A breeding area was found in Afghanistan in 2009 and studies in 2011 pointed to its breeding in Kazakhstan and Tajikistan. One bird was found in the Baikka Wetland in Srimangal, Bangladesh on 7 December 2011.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Acrocephalus_orinus_Tajikistan.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Acrocephalus_orinus_Tajikistan.jpg/330px-Acrocephalus_orinus_Tajikistan.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Acrocephalus_orinus_Tajikistan.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Pavel Kvartalnov",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Acrocephalus"
+  },
+  "family": {
+   "scientific": "Acrocephalidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1359295"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Large-billed_reed_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

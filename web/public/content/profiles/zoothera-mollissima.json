@@ -1,0 +1,51 @@
+{
+ "scientific": "Zoothera mollissima",
+ "name": "Plain-backed Thrush",
+ "qid": "Q2670038",
+ "description": "species of bird",
+ "extract": "The alpine thrush (Zoothera mollissima) is a species of bird in the thrush family.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Plain-backed_thrush%2C_Mishmi_Hills%2C_Arunachal_Pradesh%2C_India.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Plain-backed_thrush%2C_Mishmi_Hills%2C_Arunachal_Pradesh%2C_India.jpg/330px-Plain-backed_thrush%2C_Mishmi_Hills%2C_Arunachal_Pradesh%2C_India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Plain-backed_thrush,_Mishmi_Hills,_Arunachal_Pradesh,_India.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Kannan AS",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 96.0,
+   "max": 96.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Zoothera"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2670038"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Alpine_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

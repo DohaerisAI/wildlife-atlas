@@ -1,0 +1,41 @@
+{
+ "scientific": "Actinodura waldeni",
+ "name": "Streak-throated Barwing",
+ "qid": "Q2668236",
+ "description": "species of bird",
+ "extract": "The streak-throated barwing (Actinodura waldeni) is a species of bird in the family Leiothrichidae. It is found in western Yunnan, southern Tibet, Northeast India and Myanmar.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Streak-throated_Barwing_-_Eaglenest_-_India_FJ0A8216_%2834129198542%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Streak-throated_Barwing_-_Eaglenest_-_India_FJ0A8216_%2834129198542%29.jpg/330px-Streak-throated_Barwing_-_Eaglenest_-_India_FJ0A8216_%2834129198542%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Streak-throated_Barwing_-_Eaglenest_-_India_FJ0A8216_(34129198542).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Actinodura"
+  },
+  "family": {
+   "scientific": "Leiothrichidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2668236"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Streak-throated_barwing"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

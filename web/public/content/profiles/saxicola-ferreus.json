@@ -1,0 +1,57 @@
+{
+ "scientific": "Saxicola ferreus",
+ "name": "Grey Bush Chat",
+ "qid": "Q1588157",
+ "description": "species of bird",
+ "extract": "The grey bush chat (Saxicola ferreus) is a species of passerine bird in the family Muscicapidae. It is found in the Himalayas, southern China, Taiwan, Nepal and mainland Southeast Asia.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Grey_Bushchat_%28male%29_I_IMG_6728.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Grey_Bushchat_%28male%29_I_IMG_6728.jpg/330px-Grey_Bushchat_%28male%29_I_IMG_6728.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grey_Bushchat_(male)_I_IMG_6728.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Grey_Bushchat_%28Saxicola_ferreus%29_%2827859688579%29.jpg/1280px-Grey_Bushchat_%28Saxicola_ferreus%29_%2827859688579%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Grey_Bushchat_%28Saxicola_ferreus%29_%2827859688579%29.jpg/330px-Grey_Bushchat_%28Saxicola_ferreus%29_%2827859688579%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grey_Bushchat_(Saxicola_ferreus)_(27859688579).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Saxicola"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Saxicola ferrea"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1588157"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey_bush_chat"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

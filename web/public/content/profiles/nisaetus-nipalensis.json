@@ -1,0 +1,53 @@
+{
+ "scientific": "Nisaetus nipalensis",
+ "name": "Mountain Hawk-Eagle",
+ "qid": "Q1262185",
+ "description": "species of bird",
+ "extract": "The mountain hawk-eagle (Nisaetus nipalensis) or Hodgson's hawk-eagle, is a large bird of prey native to Asia. The latter name is in reference to the naturalist, Brian Houghton Hodgson, who described the species after collecting one himself in the Himalayas. A less widely recognized common English name is the feather-toed eagle. Like all eagles, it is in the family Accipitridae. Its feathered tarsus marks this species as a member of the subfamily Aquilinae. It is a confirmed breeding species in the northern part of the Indian subcontinent, from India, Nepal (hence the epithet nipalensis) through Bangladesh to Thailand, Taiwan, Vietnam and Japan, although its distribution could be wider still as breeding species. Like other Asian hawk-eagles, this species was earlier treated under the genera of Spizaetus but genetic studies have shown this group to be paraphyletic, resulting in the Old World members being placed in Nisaetus (Hodgson, 1836) and separated from the New World species. As is typical of hawk-eagles, the mountain hawk-eagle is a forest dwelling opportunistic predator who readily varies its prey selection between birds, mammals and reptiles along with other vertebrates. Although classified currently as a least-concern species due its persistence over a rather wide distribution, this species is often quite rare and scarce and seems to be decreasing, especially in response to large-scale habitat degradation and deforestation.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Hawkeagle.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Hawkeagle.jpg/330px-Hawkeagle.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hawkeagle.jpg",
+   "license": "Public domain",
+   "artist": "Original uploader was Stephen Cooper at en.wikipedia",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Nisaetus"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Spizaetus nipalensis",
+  "Hodgson's hawk eagle"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1262185"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mountain_hawk-eagle"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

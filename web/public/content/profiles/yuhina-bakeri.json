@@ -1,0 +1,59 @@
+{
+ "scientific": "Yuhina bakeri",
+ "name": "White-naped Yuhina",
+ "qid": "Q1588939",
+ "description": "species of bird",
+ "extract": "The white-naped yuhina (Yuhina bakeri) is a bird species in the white-eye family Zosteropidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/White-naped_Yuhina_in_Mishmi_Hills.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/White-naped_Yuhina_in_Mishmi_Hills.jpg/330px-White-naped_Yuhina_in_Mishmi_Hills.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-naped_Yuhina_in_Mishmi_Hills.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Kannan AS",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/BirdsAsiaJohnGoIVGoul_0056.jpg/1280px-BirdsAsiaJohnGoIVGoul_0056.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/BirdsAsiaJohnGoIVGoul_0056.jpg/330px-BirdsAsiaJohnGoIVGoul_0056.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:BirdsAsiaJohnGoIVGoul_0056.jpg",
+   "license": "Public domain",
+   "artist": "John Gould / Henry Constantine Richter",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 19.0,
+   "max": 19.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Yuhina"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1588939"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-naped_yuhina"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

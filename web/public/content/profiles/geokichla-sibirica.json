@@ -1,0 +1,63 @@
+{
+ "scientific": "Geokichla sibirica",
+ "name": "Siberian Thrush",
+ "qid": "Q258964",
+ "description": "species of bird",
+ "extract": "The Siberian thrush (Geokichla sibirica) is a member of the thrush family, Turdidae. The genus name Geokichla comes from Ancient Greek geo-, \"ground-\" and kikhle, \" thrush\". The specific sibirica is Latin for Siberia.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Geokichla_sibirica%2C_Slyudyansky_Raion%2C_Irkutsk_Oblast%2C_Russia_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Geokichla_sibirica%2C_Slyudyansky_Raion%2C_Irkutsk_Oblast%2C_Russia_1.jpg/330px-Geokichla_sibirica%2C_Slyudyansky_Raion%2C_Irkutsk_Oblast%2C_Russia_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Geokichla_sibirica,_Slyudyansky_Raion,_Irkutsk_Oblast,_Russia_1.jpg",
+   "license": "CC BY 4.0",
+   "artist": "grishahasanov",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Geokichla_sibirica.jpg/1280px-Geokichla_sibirica.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Geokichla_sibirica.jpg/330px-Geokichla_sibirica.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Geokichla_sibirica.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "ken from Yao, Japan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 60.0,
+   "max": 70.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Geokichla"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Zoothera sibirica",
+  "Turdus sibiricus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q258964"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siberian_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

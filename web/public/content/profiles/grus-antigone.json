@@ -1,0 +1,58 @@
+{
+ "scientific": "Grus antigone",
+ "name": "Sarus crane",
+ "qid": "Q333166",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Grus_antigone_Luc_viatour.jpg/1280px-Grus_antigone_Luc_viatour.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Grus_antigone_Luc_viatour.jpg/330px-Grus_antigone_Luc_viatour.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grus_antigone_Luc_viatour.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Luc Viatour",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Saras_crane_by_Sanjay_Tha_Shrestha.jpg/1280px-Saras_crane_by_Sanjay_Tha_Shrestha.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Saras_crane_by_Sanjay_Tha_Shrestha.jpg/330px-Saras_crane_by_Sanjay_Tha_Shrestha.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Saras_crane_by_Sanjay_Tha_Shrestha.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Sanjaya Tha Shrestha",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 225.0,
+   "max": 225.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Grus"
+  },
+  "family": {
+   "scientific": "Gruidae"
+  },
+  "order": {
+   "scientific": "Gruiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q333166"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

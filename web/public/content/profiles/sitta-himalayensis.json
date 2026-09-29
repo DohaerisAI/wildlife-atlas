@@ -1,0 +1,59 @@
+{
+ "scientific": "Sitta himalayensis",
+ "name": "White-tailed Nuthatch",
+ "qid": "Q942771",
+ "description": "species of bird",
+ "extract": "The white-tailed nuthatch (Sitta himalayensis) is a species of bird in the family Sittidae. It ranges across the northern and northeastern parts of the Indian subcontinent, existing mainly in the low-to-middle Himalayas, as well as associated mountain ranges. It is found in Bhutan, India, Laos, Myanmar, Nepal, Tibet and Thailand.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/White-tailed_Nuthatch%2C_Nibuwatar%2C_Nepal_1.jpg/1280px-White-tailed_Nuthatch%2C_Nibuwatar%2C_Nepal_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/White-tailed_Nuthatch%2C_Nibuwatar%2C_Nepal_1.jpg/330px-White-tailed_Nuthatch%2C_Nibuwatar%2C_Nepal_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-tailed_Nuthatch,_Nibuwatar,_Nepal_1.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Original: Mildeep; this edit: MPF",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/White-tailed_Nuthatch_in_Lava_September_2025_by_Tisha_Mukherjee_03.jpg/1280px-White-tailed_Nuthatch_in_Lava_September_2025_by_Tisha_Mukherjee_03.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/White-tailed_Nuthatch_in_Lava_September_2025_by_Tisha_Mukherjee_03.jpg/330px-White-tailed_Nuthatch_in_Lava_September_2025_by_Tisha_Mukherjee_03.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-tailed_Nuthatch_in_Lava_September_2025_by_Tisha_Mukherjee_03.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 14.0,
+   "max": 14.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sitta"
+  },
+  "family": {
+   "scientific": "Sittidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q942771"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-tailed_nuthatch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

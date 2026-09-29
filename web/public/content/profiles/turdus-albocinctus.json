@@ -1,0 +1,59 @@
+{
+ "scientific": "Turdus albocinctus",
+ "name": "White-collared Blackbird",
+ "qid": "Q1062434",
+ "description": "species of bird",
+ "extract": "The white-collared blackbird (Turdus albocinctus) is a species of bird in the family Turdidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/White-collared_Blackbird_%28Male%29_I_IMG_7377.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/White-collared_Blackbird_%28Male%29_I_IMG_7377.jpg/330px-White-collared_Blackbird_%28Male%29_I_IMG_7377.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-collared_Blackbird_(Male)_I_IMG_7377.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": "Male"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/White-collared_Blackbird_Khangchendzonga_Biosphere_Reserve_West_Sikkim_India_15.02.2016.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/White-collared_Blackbird_Khangchendzonga_Biosphere_Reserve_West_Sikkim_India_15.02.2016.jpg/330px-White-collared_Blackbird_Khangchendzonga_Biosphere_Reserve_West_Sikkim_India_15.02.2016.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-collared_Blackbird_Khangchendzonga_Biosphere_Reserve_West_Sikkim_India_15.02.2016.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 99.0,
+   "max": 99.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turdus"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1062434"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-collared_blackbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

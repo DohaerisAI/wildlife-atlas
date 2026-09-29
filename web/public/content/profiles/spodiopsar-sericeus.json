@@ -1,0 +1,51 @@
+{
+ "scientific": "Spodiopsar sericeus",
+ "name": "Red-billed Starling",
+ "qid": "Q27075593",
+ "description": "species of bird",
+ "extract": "The red-billed starling (Spodiopsar sericeus) is a species of starling in the family Sturnidae. It is found in south and southeastern China.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Calling_Spodiopsar_sericeus.jpg/1280px-Calling_Spodiopsar_sericeus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Calling_Spodiopsar_sericeus.jpg/330px-Calling_Spodiopsar_sericeus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Calling_Spodiopsar_sericeus.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Charles Lam",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 65.0,
+   "max": 65.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Spodiopsar"
+  },
+  "family": {
+   "scientific": "Sturnidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075593"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-billed_starling"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

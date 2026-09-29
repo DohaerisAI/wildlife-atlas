@@ -1,0 +1,36 @@
+{
+ "scientific": "Ketupa nipalensis",
+ "name": "Spot-bellied Eagle-Owl",
+ "qid": "Q117254864",
+ "description": "",
+ "extract": "The spot-bellied eagle-owl (Ketupa nipalensis), also known as the forest eagle-owl, is a large bird of prey with a formidable appearance. It is a forest-inhabiting species found in the Indian subcontinent and Southeast Asia. This species is considered part of a superspecies with the barred eagle-owl (Ketupa sumatrana), which looks quite similar but is allopatric in distribution.",
+ "images": [],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ketupa"
+  },
+  "family": {
+   "scientific": "Strigidae",
+   "name": "true owls"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q117254864"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spot-bellied_eagle-owl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

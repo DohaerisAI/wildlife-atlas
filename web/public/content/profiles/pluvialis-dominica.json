@@ -1,0 +1,59 @@
+{
+ "scientific": "Pluvialis dominica",
+ "name": "American Golden Plover",
+ "qid": "Q216836",
+ "description": "species of bird",
+ "extract": "The American golden plover (Pluvialis dominica) is a medium-sized plover. The genus name is Latin and means relating to rain, from pluvia, \"rain\".  It was believed that golden plovers flocked when rain was imminent.  The species name dominica refers to Santo Domingo, now Hispaniola, in the West Indies.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Pluvialis_dominica1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Pluvialis_dominica1.jpg/330px-Pluvialis_dominica1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pluvialis_dominica1.jpg",
+   "license": "Public domain",
+   "artist": "O. W. Johnson",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 62.0,
+   "max": 62.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 26.0,
+   "max": 145.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pluvialis"
+  },
+  "family": {
+   "scientific": "Charadriidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q216836"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/American_golden_plover"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

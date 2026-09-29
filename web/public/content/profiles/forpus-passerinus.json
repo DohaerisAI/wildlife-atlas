@@ -1,0 +1,51 @@
+{
+ "scientific": "Forpus passerinus",
+ "name": "Green-rumped Parrotlet",
+ "qid": "Q775513",
+ "description": "species of bird",
+ "extract": "The green-rumped parrotlet (Forpus passerinus), also known as the green-rumped parakeet, is a species of parrot in the family Psittacidae that is found in northeastern South America and the Caribbean island of Trinidad. The green-rumped parrotlet occurs from northern Venezuela eastwards to the lower Amazon in Brazil, Also",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Green-rumped_parrotlet.jpg/1280px-Green-rumped_parrotlet.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Green-rumped_parrotlet.jpg/330px-Green-rumped_parrotlet.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Green-rumped_parrotlet.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Jam.mohd",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 26.0,
+   "max": 26.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Forpus"
+  },
+  "family": {
+   "scientific": "Psittacidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q775513"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Green-rumped_parrotlet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

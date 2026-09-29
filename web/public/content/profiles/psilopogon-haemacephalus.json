@@ -1,0 +1,50 @@
+{
+ "scientific": "Psilopogon haemacephalus",
+ "name": "Coppersmith Barbet",
+ "qid": "Q27074872",
+ "description": "species of bird",
+ "extract": "The coppersmith barbet (Psilopogon haemacephalus), also called crimson-breasted barbet and coppersmith, is an Asian barbet with crimson forehead and throat, known for its metronomic call that sounds similar to a coppersmith striking metal with a hammer. It is a resident bird in the Indian subcontinent and parts of Southeast Asia. It carves out holes inside a tree to build its nest. It is predominantly frugivorous, but has been observed eating insects, especially winged termites.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Coppersmith_Barbet_%28Megalaima_haemacephala%29_calling_in_Hyderabad_W_IMG_8290.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Coppersmith_Barbet_%28Megalaima_haemacephala%29_calling_in_Hyderabad_W_IMG_8290.jpg/330px-Coppersmith_Barbet_%28Megalaima_haemacephala%29_calling_in_Hyderabad_W_IMG_8290.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Coppersmith_Barbet_(Megalaima_haemacephala)_calling_in_Hyderabad_W_IMG_8290.jpg",
+   "license": "CC BY 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 40.0,
+   "max": 40.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Psilopogon"
+  },
+  "family": {
+   "scientific": "Megalaimidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27074872"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Coppersmith_barbet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

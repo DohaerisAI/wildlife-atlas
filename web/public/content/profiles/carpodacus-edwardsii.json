@@ -1,0 +1,46 @@
+{
+ "scientific": "Carpodacus edwardsii",
+ "name": "Dark-rumped Rosefinch",
+ "qid": "Q987765",
+ "description": "species of bird",
+ "extract": "The dark-rumped rosefinch (Carpodacus edwardsii) is a species of finch in the family Fringillidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Carpodacus_edwardsii.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Carpodacus_edwardsii.jpg/330px-Carpodacus_edwardsii.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Carpodacus_edwardsii.jpg",
+   "license": "Public domain",
+   "artist": "Josèphe Huët",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Carpodacus"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q987765"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dark-rumped_rosefinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

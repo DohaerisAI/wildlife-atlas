@@ -1,0 +1,58 @@
+{
+ "scientific": "Lophophorus impejanus",
+ "name": "Himalayan Monal",
+ "qid": "Q742818",
+ "description": "species of bird",
+ "extract": "The Himalayan monal (Lophophorus impejanus), also called Impeyan monal, is a landfowl native to Himalayan forests and shrublands at elevations of 2,100–4,500 m (6,900–14,800 ft). It is part of the family Phasianidae and is listed as Least Concern on the IUCN Red List.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Himalayan_Monal_on_Snow.jpg/1280px-Himalayan_Monal_on_Snow.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Himalayan_Monal_on_Snow.jpg/330px-Himalayan_Monal_on_Snow.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Himalayan_Monal_on_Snow.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "AJIT HOTA",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Himalayan_Monal_Adult_Female_Tungnath_Rudraprayag_Uttarakhand_India_14.06.2013.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Himalayan_Monal_Adult_Female_Tungnath_Rudraprayag_Uttarakhand_India_14.06.2013.jpg/330px-Himalayan_Monal_Adult_Female_Tungnath_Rudraprayag_Uttarakhand_India_14.06.2013.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Himalayan_Monal_Adult_Female_Tungnath_Rudraprayag_Uttarakhand_India_14.06.2013.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lophophorus",
+   "name": "Monal"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q742818"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Himalayan_monal"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

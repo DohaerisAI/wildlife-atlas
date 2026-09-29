@@ -1,0 +1,48 @@
+{
+ "scientific": "Haliaeetus humilis",
+ "name": "Lesser Fish-Eagle",
+ "qid": "Q27074632",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Lesser_fish_eagle.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Lesser_fish_eagle.jpg/330px-Lesser_fish_eagle.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lesser_fish_eagle.jpg",
+   "license": "CC BY 2.0",
+   "artist": "shrikant rao",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Lesser_fish_eagle_at_Ranganathittu%2C_India.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Lesser_fish_eagle_at_Ranganathittu%2C_India.jpg/330px-Lesser_fish_eagle_at_Ranganathittu%2C_India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lesser_fish_eagle_at_Ranganathittu,_India.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Subramanya CK",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Haliaeetus"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27074632"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

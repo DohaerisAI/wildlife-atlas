@@ -1,0 +1,54 @@
+{
+ "scientific": "Lophophanes dichrous",
+ "name": "Grey Crested Tit",
+ "qid": "Q2665643",
+ "description": "species of bird",
+ "extract": "The grey-crested tit (Lophophanes dichrous) is a species of bird in the family Paridae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Grey-crested_Tit_8917_GarimaBhatia.jpg/1280px-Grey-crested_Tit_8917_GarimaBhatia.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Grey-crested_Tit_8917_GarimaBhatia.jpg/330px-Grey-crested_Tit_8917_GarimaBhatia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grey-crested_Tit_8917_GarimaBhatia.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Garima Bhatia",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Grey-crested_Tit_I_IMG_7285.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Grey-crested_Tit_I_IMG_7285.jpg/330px-Grey-crested_Tit_I_IMG_7285.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grey-crested_Tit_I_IMG_7285.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lophophanes"
+  },
+  "family": {
+   "scientific": "Paridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2665643"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey-crested_tit"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

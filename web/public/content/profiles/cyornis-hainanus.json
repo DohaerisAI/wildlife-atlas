@@ -1,0 +1,46 @@
+{
+ "scientific": "Cyornis hainanus",
+ "name": "Hainan Blue Flycatcher",
+ "qid": "Q3314387",
+ "description": "species of bird",
+ "extract": "The Hainan blue flycatcher (Cyornis hainanus) is a bird in the family Muscicapidae. The species was first described by William Robert Ogilvie-Grant in 1900. It is native to southern China, Hainan and Indochina.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Hainan_Blue_Flycatcher_%28male%2C_ssp_hainanus%29_0A2A5053_%28cropped%29.jpg/1280px-Hainan_Blue_Flycatcher_%28male%2C_ssp_hainanus%29_0A2A5053_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Hainan_Blue_Flycatcher_%28male%2C_ssp_hainanus%29_0A2A5053_%28cropped%29.jpg/330px-Hainan_Blue_Flycatcher_%28male%2C_ssp_hainanus%29_0A2A5053_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hainan_Blue_Flycatcher_(male,_ssp_hainanus)_0A2A5053_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "JJ Harrison",
+   "caption": "Male"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cyornis"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3314387"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hainan_blue_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

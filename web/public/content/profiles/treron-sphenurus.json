@@ -1,0 +1,57 @@
+{
+ "scientific": "Treron sphenurus",
+ "name": "Wedge-tailed Green Pigeon",
+ "qid": "Q507590",
+ "description": "species of bird",
+ "extract": "The wedge-tailed green pigeon or Kokla green pigeon (Treron sphenurus) is a species of bird in the family Columbidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Wedge-tailed_green_pigeon_%2829%29.jpg/1280px-Wedge-tailed_green_pigeon_%2829%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Wedge-tailed_green_pigeon_%2829%29.jpg/330px-Wedge-tailed_green_pigeon_%2829%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wedge-tailed_green_pigeon_(29).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Krishna Prajapati",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Wedge-tailed_Green_Pigeon_%28Treron_sphenurus%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Wedge-tailed_Green_Pigeon_%28Treron_sphenurus%29.jpg/330px-Wedge-tailed_Green_Pigeon_%28Treron_sphenurus%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wedge-tailed_Green_Pigeon_(Treron_sphenurus).jpg",
+   "license": "CC0",
+   "artist": "lonelyshrimp",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Treron"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q507590"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wedge-tailed_green_pigeon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

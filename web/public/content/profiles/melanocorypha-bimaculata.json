@@ -1,0 +1,51 @@
+{
+ "scientific": "Melanocorypha bimaculata",
+ "name": "Bimaculated Lark",
+ "qid": "Q819885",
+ "description": "species of bird",
+ "extract": "The bimaculated lark (Melanocorypha bimaculata) breeds in warm temperate countries eastwards from Turkey into Central Asia. It is the eastern counterpart of its relative, the calandra lark.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Melanocorypha_bimaculata_117209398.jpg/1280px-Melanocorypha_bimaculata_117209398.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Melanocorypha_bimaculata_117209398.jpg/330px-Melanocorypha_bimaculata_117209398.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Melanocorypha_bimaculata_117209398.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Jan Ebr",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 4.0,
+   "max": 54.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Melanocorypha"
+  },
+  "family": {
+   "scientific": "Alaudidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q819885"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bimaculated_lark"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

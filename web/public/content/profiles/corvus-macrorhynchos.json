@@ -1,0 +1,51 @@
+{
+ "scientific": "Corvus macrorhynchos",
+ "name": "Large-billed Crow",
+ "qid": "Q111674",
+ "description": "species of bird",
+ "extract": "The large-billed crow (Corvus macrorhynchos), formerly referred to widely as the jungle crow, is a widespread Asian species of crow. It is very adaptable and is able to survive on a wide range of food sources, making it capable of colonizing new areas, due to which it is often considered a nuisance, especially on islands. It has a large bill, which is the source of its scientific name macrorhynchos (Ancient Greek for \"long-billed\") and it is sometimes known by the common name thick-billed crow. It can also be mistaken for a common raven. The eastern jungle crow and Indian jungle crow were once considered conspecific and together called the jungle crow.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Large-billed_Crow_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg/1280px-Large-billed_Crow_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Large-billed_Crow_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg/330px-Large-billed_Crow_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Large-billed_Crow_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 100.0,
+   "max": 130.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Corvus"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q111674"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Large-billed_crow"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

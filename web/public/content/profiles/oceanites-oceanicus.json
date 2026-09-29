@@ -1,0 +1,72 @@
+{
+ "scientific": "Oceanites oceanicus",
+ "name": "Wilson's Storm Petrel",
+ "qid": "Q607024",
+ "description": "species of bird",
+ "extract": "Wilson's storm petrel (Oceanites oceanicus), also known as Wilson's petrel, is a small seabird of the austral storm petrel family Oceanitidae. It is one of the most abundant bird species in the world and has a circumpolar distribution mainly in the seas of the southern hemisphere but extending northwards during the summer of the northern hemisphere. The world population was estimated in 2022 as stable at 8–20 million birds. In 2010 it had been estimated at 12–30 million. A 1998 book had estimated more than 50 million pairs. The name commemorates the Scottish-American ornithologist Alexander Wilson. The genus name Oceanites refers to the mythical Oceanids, the three thousand daughters of Tethys. The species name is from Latin oceanus, \"ocean\".",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Oceanites_oceanicus_-_SE_Tasmania.jpg/1280px-Oceanites_oceanicus_-_SE_Tasmania.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Oceanites_oceanicus_-_SE_Tasmania.jpg/330px-Oceanites_oceanicus_-_SE_Tasmania.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Oceanites_oceanicus_-_SE_Tasmania.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Oceanites_oceanicusPCCA20070623-3634B.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Oceanites_oceanicusPCCA20070623-3634B.jpg/330px-Oceanites_oceanicusPCCA20070623-3634B.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Oceanites_oceanicusPCCA20070623-3634B.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Patrick Coin (Patrick Coin)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 39.6,
+   "max": 39.6,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 9.4,
+   "max": 34.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Oceanites"
+  },
+  "family": {
+   "scientific": "Hydrobatidae"
+  },
+  "order": {
+   "scientific": "Procellariiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Wilsonís storm-petrel",
+  "Wilson's Petrel",
+  "Wilsonis storm-petrel"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q607024"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wilson%27s_storm_petrel"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

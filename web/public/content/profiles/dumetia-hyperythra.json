@@ -1,0 +1,51 @@
+{
+ "scientific": "Dumetia hyperythra",
+ "name": "Tawny-bellied babbler",
+ "qid": "Q1305417",
+ "description": "species of bird",
+ "extract": "The tawny-bellied babbler (Dumetia hyperythra) also known in older Indian works as the rufous-bellied babbler is a small babbler that forages in small groups in low scrub forests. Like other members of the large Old World babbler family they are passerine birds characterised by soft fluffy plumage. There are three subspecies within the Indian subcontinent. The nominate hyperythra found in northern and eastern India is uniformly brown underneath while albogularis of the western Indian peninsula is white throated. The population in Sri Lanka,  phillipsi, is also white throated but is paler underneath and has a larger bill.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Tawny_bellied_warbler_2_by_David_Raju_%28cropped%29.jpg/1280px-Tawny_bellied_warbler_2_by_David_Raju_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Tawny_bellied_warbler_2_by_David_Raju_%28cropped%29.jpg/330px-Tawny_bellied_warbler_2_by_David_Raju_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tawny_bellied_warbler_2_by_David_Raju_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Davidvraju",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 12.9,
+   "max": 12.9,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dumetia"
+  },
+  "family": {
+   "scientific": "Timaliidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1305417"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tawny-bellied_babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

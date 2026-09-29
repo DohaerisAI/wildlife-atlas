@@ -1,0 +1,51 @@
+{
+ "scientific": "Oenanthe fusca",
+ "name": "Brown Rock Chat",
+ "qid": "Q12265002",
+ "description": "species of bird",
+ "extract": "The brown rock chat (Oenanthe fusca) or Indian chat is a bird species of the family Muscicapidae. It is found mainly in northern and central India. It is often found in old buildings and rocky areas. It resembles a female Indian robin but lacks the reddish vent and differs in posture and behaviour apart from being larger. In flight it bears some resemblance to thrushes and redstarts. It feeds on insects, captured mainly on the ground. It was formerly placed as the sole species in the genus Cercomela but is now included with the wheatears in the genus Oenanthe.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Brown_rock_chat_%28Oenanthe_fusca%29.jpg/1280px-Brown_rock_chat_%28Oenanthe_fusca%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Brown_rock_chat_%28Oenanthe_fusca%29.jpg/330px-Brown_rock_chat_%28Oenanthe_fusca%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brown_rock_chat_(Oenanthe_fusca).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 13.0,
+   "max": 13.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Oenanthe"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q12265002"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown_rock_chat"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

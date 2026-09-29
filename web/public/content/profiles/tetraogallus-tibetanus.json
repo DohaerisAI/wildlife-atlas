@@ -1,0 +1,63 @@
+{
+ "scientific": "Tetraogallus tibetanus",
+ "name": "Tibetan Snowcock",
+ "qid": "Q747124",
+ "description": "species of bird",
+ "extract": "The Tibetan snowcock (Tetraogallus tibetanus)  is a bird in the pheasant family Phasianidae of the order Galliformes, gallinaceous birds. This species is found in high-altitude regions of the Western Himalayas and the Tibetan Plateau, where it overlaps in part with the larger Himalayan snowcock. The head is greyish and there is a white crescent patch behind the eye and underside is white with black stripes. In flight the secondaries show a broad white trailing edge.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Tetraogallus_tibetanus.jpg/1280px-Tetraogallus_tibetanus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Tetraogallus_tibetanus.jpg/330px-Tetraogallus_tibetanus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tetraogallus_tibetanus.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Mckaysavage on Flickr",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Tetraogallus_tibetanus_hm.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Tetraogallus_tibetanus_hm.jpg/330px-Tetraogallus_tibetanus_hm.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tetraogallus_tibetanus_hm.jpg",
+   "license": "Public domain",
+   "artist": "Unknown",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 1385.0,
+   "max": 1625.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tetraogallus",
+   "name": "Snowcock"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q747124"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tibetan_snowcock"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

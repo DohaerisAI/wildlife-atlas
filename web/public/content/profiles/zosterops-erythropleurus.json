@@ -1,0 +1,54 @@
+{
+ "scientific": "Zosterops erythropleurus",
+ "name": "Chestnut-flanked white-eye",
+ "qid": "Q2670220",
+ "description": "species of bird",
+ "extract": "The chestnut-flanked white-eye (Zosterops erythropleurus) is a bird in the family Zosteropidae. The species was first described by Robert Swinhoe in 1863. It is found in forests, and prefers rather deep mixed and coniferous forests.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Zosterops_erythropleurus_from_iNaturalist_photo_345489131_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Zosterops_erythropleurus_from_iNaturalist_photo_345489131_%28cropped%29.jpg/330px-Zosterops_erythropleurus_from_iNaturalist_photo_345489131_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Zosterops_erythropleurus_from_iNaturalist_photo_345489131_(cropped).jpg",
+   "license": "CC0",
+   "artist": "James Eaton ( james_birdtourasia)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 11.0,
+   "max": 11.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Zosterops"
+  },
+  "family": {
+   "scientific": "Zosteropidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Zosterops erythropleura"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2670220"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chestnut-flanked_white-eye"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

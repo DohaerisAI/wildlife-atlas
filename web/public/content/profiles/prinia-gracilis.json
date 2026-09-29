@@ -1,0 +1,62 @@
+{
+ "scientific": "Prinia gracilis",
+ "name": "Graceful Prinia",
+ "qid": "Q248603",
+ "description": "species of bird",
+ "extract": "The graceful prinia (Prinia gracilis) is a small warbler (in some older works it is referred to as graceful warbler). This prinia is a resident breeder in northeastern Africa (the Nile valley in particular) and southern Asia, from Egypt and Somalia east to Saudi Arabia, where it is sometimes called streaked wren-warbler.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Graceful_Prinia_in_tree_1.jpg/1280px-Graceful_Prinia_in_tree_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Graceful_Prinia_in_tree_1.jpg/330px-Graceful_Prinia_in_tree_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Graceful_Prinia_in_tree_1.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Baresi franco",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ter%C3%AErepik.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Ter%C3%AErepik.jpg/330px-Ter%C3%AErepik.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ter%C3%AErepik.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dûrzan Cîrano",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Prinia_gracile_-_Graceful_prinia_01.jpg/1280px-Prinia_gracile_-_Graceful_prinia_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Prinia_gracile_-_Graceful_prinia_01.jpg/330px-Prinia_gracile_-_Graceful_prinia_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Prinia_gracile_-_Graceful_prinia_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Zeynel Cebeci",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Prinia"
+  },
+  "family": {
+   "scientific": "Cisticolidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q248603"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Graceful_prinia"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

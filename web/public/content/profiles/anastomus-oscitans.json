@@ -1,0 +1,70 @@
+{
+ "scientific": "Anastomus oscitans",
+ "name": "Asian Open-bill Stork",
+ "qid": "Q602496",
+ "description": "large wading bird in the stork family Ciconiidae",
+ "extract": "The Asian openbill or Asian openbill stork (Anastomus oscitans) is a large wading bird in the stork family Ciconiidae. This distinctive stork is found mainly in the Indian subcontinent and Southeast Asia. It is greyish or white with glossy black wings and tail. Adults have a gap between the arched upper mandible and recurved lower mandible which is thought to be an adaptation that aids in the handling of snails, their main prey. Young birds are born without this gap.   Although resident within their range, they make long distance movements in response to weather and food availability.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Asian_openbill_stork_%28Anastomus_oscitans%29.jpg/1280px-Asian_openbill_stork_%28Anastomus_oscitans%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Asian_openbill_stork_%28Anastomus_oscitans%29.jpg/330px-Asian_openbill_stork_%28Anastomus_oscitans%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Asian_openbill_stork_(Anastomus_oscitans).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Asian_Openbill_%28Anastomus_oscitans%29_in_Kolkata_I_IMG_0495.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Asian_Openbill_%28Anastomus_oscitans%29_in_Kolkata_I_IMG_0495.jpg/330px-Asian_Openbill_%28Anastomus_oscitans%29_in_Kolkata_I_IMG_0495.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Asian_Openbill_(Anastomus_oscitans)_in_Kolkata_I_IMG_0495.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Anastomus_oscitans_-_Bueng_Boraphet.jpg/1280px-Anastomus_oscitans_-_Bueng_Boraphet.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Anastomus_oscitans_-_Bueng_Boraphet.jpg/330px-Anastomus_oscitans_-_Bueng_Boraphet.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Anastomus_oscitans_-_Bueng_Boraphet.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anastomus",
+   "name": "Openbill stork"
+  },
+  "family": {
+   "scientific": "Ciconiidae",
+   "name": "stork"
+  },
+  "order": {
+   "scientific": "Ciconiiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Asian Openbill Stork"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q602496"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Asian_openbill"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

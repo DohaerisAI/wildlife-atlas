@@ -1,0 +1,83 @@
+{
+ "scientific": "Corvus corax",
+ "name": "Northern Raven",
+ "qid": "Q25357",
+ "description": "species of bird",
+ "extract": "The common raven or northern raven (Corvus corax) is a large all-black passerine bird. It is the most widely distributed of all corvids, found across the Northern Hemisphere. There are 11 accepted subspecies with little variation in appearance, although recent research has demonstrated significant genetic differences among populations from various regions. It is one of the two largest corvids, alongside the thick-billed raven, and is the heaviest passerine bird; at maturity, the common raven averages 63 centimetres (25 inches) in length and 1.47 kilograms (3.2 pounds) in weight, up to 2 kg (4.4 lb) in the heaviest individuals. Although their typical lifespan is considerably shorter, common ravens can live more than 23 years in the wild. Young birds may travel in flocks but later mate for life, with each mated pair defending a territory.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Corvus_corax_ad_berlin_090516.jpg/1280px-Corvus_corax_ad_berlin_090516.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Corvus_corax_ad_berlin_090516.jpg/330px-Corvus_corax_ad_berlin_090516.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Corvus_corax_ad_berlin_090516.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Accipiter (R. Altenkamp, Berlin)",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Common_Raven_%28Corvus_corax%29_%2811793963694%29.jpg/1280px-Common_Raven_%28Corvus_corax%29_%2811793963694%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Common_Raven_%28Corvus_corax%29_%2811793963694%29.jpg/330px-Common_Raven_%28Corvus_corax%29_%2811793963694%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_Raven_(Corvus_corax)_(11793963694).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Franco Folini from San Francisco, USA",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Common_Raven_%28Corvus_corax%29_%2839638261481%29.jpg/1280px-Common_Raven_%28Corvus_corax%29_%2839638261481%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Common_Raven_%28Corvus_corax%29_%2839638261481%29.jpg/330px-Common_Raven_%28Corvus_corax%29_%2839638261481%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_Raven_(Corvus_corax)_(39638261481).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 120.0,
+   "max": 150.0,
+   "unit": "cm"
+  },
+  "length": {
+   "min": 60.0,
+   "max": 69.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 25.0,
+   "max": 1625.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Corvus"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "raven",
+  "western raven",
+  "common Raven",
+  "corax raven"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25357"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_raven"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

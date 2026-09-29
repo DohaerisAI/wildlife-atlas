@@ -1,0 +1,62 @@
+{
+ "scientific": "Amandava amandava",
+ "name": "Red Avadavat",
+ "qid": "Q73741",
+ "description": "species of bird",
+ "extract": "The red avadavat (Amandava amandava), red munia or strawberry finch, is a sparrow-sized bird of the family Estrildidae. It is found in the open fields and grasslands of tropical Asia and is popular as a cage bird due to the colourful plumage of the males in their breeding season. It breeds in the Indian subcontinent in the monsoon season. The species name of amandava and the common name of avadavat are derived from the city of Ahmedabad in Gujarat, India, from where these birds were exported into the pet trade in former times.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Red_Avadavat_in_Baruipur_September_2025_by_Tisha_Mukherjee_06.jpg/1280px-Red_Avadavat_in_Baruipur_September_2025_by_Tisha_Mukherjee_06.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Red_Avadavat_in_Baruipur_September_2025_by_Tisha_Mukherjee_06.jpg/330px-Red_Avadavat_in_Baruipur_September_2025_by_Tisha_Mukherjee_06.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red_Avadavat_in_Baruipur_September_2025_by_Tisha_Mukherjee_06.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Red_Avadavat_in_Baruipur_September_2025_by_Tisha_Mukherjee_12.jpg/1280px-Red_Avadavat_in_Baruipur_September_2025_by_Tisha_Mukherjee_12.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Red_Avadavat_in_Baruipur_September_2025_by_Tisha_Mukherjee_12.jpg/330px-Red_Avadavat_in_Baruipur_September_2025_by_Tisha_Mukherjee_12.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red_Avadavat_in_Baruipur_September_2025_by_Tisha_Mukherjee_12.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 1.0,
+   "max": 9.9,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Amandava"
+  },
+  "family": {
+   "scientific": "Estrildidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "strawberry finch"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q73741"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red_avadavat"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

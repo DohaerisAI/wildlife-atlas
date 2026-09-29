@@ -1,0 +1,62 @@
+{
+ "scientific": "Chlidonias hybrida",
+ "name": "Whiskered Tern",
+ "qid": "Q233616",
+ "description": "species of bird",
+ "extract": "The whiskered tern (Chlidonias hybrida) is a  tern in the family Laridae. The genus name is from Ancient Greek khelidonios, \"swallow-like\", from khelidon, \"swallow\". The specific hybridus is Latin for hybrid; Peter Simon Pallas thought it might be a hybrid of white-winged black tern and common tern, writing \"Sterna fissipes [Chlidonias leucopterus] et Hirundine [Sterna hirundo] natam\".",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Chlidonias_hybrida_2_%28Marek_Szczepanek%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Chlidonias_hybrida_2_%28Marek_Szczepanek%29.jpg/330px-Chlidonias_hybrida_2_%28Marek_Szczepanek%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chlidonias_hybrida_2_(Marek_Szczepanek).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Marek Szczepanek",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 64.0,
+   "max": 70.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 78.0,
+   "max": 90.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chlidonias"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Chlidonias hybridus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q233616"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Whiskered_tern"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

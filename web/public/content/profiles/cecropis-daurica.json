@@ -1,0 +1,59 @@
+{
+ "scientific": "Cecropis daurica",
+ "name": "Eastern Red-rumped Swallow",
+ "qid": "Q27075446",
+ "description": "species of bird",
+ "extract": "The eastern red-rumped swallow (Cecropis daurica) is a small passerine bird in the swallow family Hirundinidae. It is found in open, often hilly, areas with clearings and cultivation across eastern and southeastern Asia to north-eastern India and Taiwan.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Cecropis_daurica%2C_Fufeng_County%2C_Baoji%2C_Shaanxi%2C_China_1.jpg/1280px-Cecropis_daurica%2C_Fufeng_County%2C_Baoji%2C_Shaanxi%2C_China_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Cecropis_daurica%2C_Fufeng_County%2C_Baoji%2C_Shaanxi%2C_China_1.jpg/330px-Cecropis_daurica%2C_Fufeng_County%2C_Baoji%2C_Shaanxi%2C_China_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cecropis_daurica,_Fufeng_County,_Baoji,_Shaanxi,_China_1.jpg",
+   "license": "CC BY 4.0",
+   "artist": "yvesbas",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Red-rumpedSwallow01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Red-rumpedSwallow01.jpg/330px-Red-rumpedSwallow01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red-rumpedSwallow01.jpg",
+   "license": "Public domain",
+   "artist": "Original uploader was Hkchan123 at en.wikipedia",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 28.6,
+   "max": 28.6,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cecropis"
+  },
+  "family": {
+   "scientific": "Hirundinidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075446"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eastern_red-rumped_swallow"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

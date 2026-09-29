@@ -1,0 +1,44 @@
+{
+ "scientific": "Aratinga solstitialis",
+ "name": "Sun Conure",
+ "qid": "Q225039",
+ "description": "species of bird",
+ "extract": "The sun conure (Aratinga solstitialis), also known as the sun parakeet, is a medium-sized, vibrantly colored parrot native to northeastern South America. The adult male and female are similar in appearance, with black beaks, predominantly golden-yellow plumage, orange-flushed underparts and face, and green and blue-tipped wings and tails. Sun conures are very social birds, typically living in flocks. They form monogamous pairs for reproduction, and nest in palm cavities in the tropics. Sun conures mainly feed on fruits, flowers, berries, blossoms, seeds, nuts, and insects. Conures are commonly bred and kept in aviculture and may live up to 30 years. This species is currently threatened by loss of habitat and trapping for plumage or the pet trade. Sun conures are now listed as endangered by the International Union for Conservation of Nature.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Aratinga_solstitialis_-captive-two-8a.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Aratinga_solstitialis_-captive-two-8a.jpg/330px-Aratinga_solstitialis_-captive-two-8a.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aratinga_solstitialis_-captive-two-8a.jpg",
+   "license": "CC BY 3.0",
+   "artist": "Wayne Deeker",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aratinga"
+  },
+  "family": {
+   "scientific": "Psittacidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "other_names": [
+  "Sun Parakeet"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q225039"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sun_conure"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

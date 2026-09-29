@@ -1,0 +1,37 @@
+{
+ "scientific": "Turdoides malcolmi",
+ "name": "Large Gray Babbler",
+ "qid": "Q647598",
+ "description": "species of bird",
+ "extract": "",
+ "images": [],
+ "facts": {
+  "mass": {
+   "min": 76.0,
+   "max": 76.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turdoides"
+  },
+  "family": {
+   "scientific": "Leiothrichidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Large Grey Babbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q647598"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

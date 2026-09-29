@@ -1,0 +1,65 @@
+{
+ "scientific": "Charadrius leschenaultii",
+ "name": "Greater Sand Plover",
+ "qid": "Q18857",
+ "description": "species of bird",
+ "extract": "The greater sand plover (Anarhynchus leschenaultii) is a small wader in the plover family of birds. The spelling is often given as \"greater sandplover\" or \"greater sand-plover\", but the official IOC and British Ornithologists' Union spelling is \"Greater Sand Plover\". The specific leschenaultii commemorates the French botanist Jean Baptiste Leschenault de la Tour. Like most other species in the genus Anarhynchus, it was until recently included in the genus Charadrius.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/2024-07-26_Anarhynchus_leschenaultii_leschenaultii%2C_Newbiggin%2C_Northumberland_1.jpg/1280px-2024-07-26_Anarhynchus_leschenaultii_leschenaultii%2C_Newbiggin%2C_Northumberland_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/2024-07-26_Anarhynchus_leschenaultii_leschenaultii%2C_Newbiggin%2C_Northumberland_1.jpg/330px-2024-07-26_Anarhynchus_leschenaultii_leschenaultii%2C_Newbiggin%2C_Northumberland_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2024-07-26_Anarhynchus_leschenaultii_leschenaultii,_Newbiggin,_Northumberland_1.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "MPF",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Greater_Sand_Plover.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Greater_Sand_Plover.jpg/330px-Greater_Sand_Plover.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Greater_Sand_Plover.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Chung Kiu, Ryan Cheng from Hong Kong",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 44.0,
+   "max": 60.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Charadrius"
+  },
+  "family": {
+   "scientific": "Charadriidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Anarhynchus leschenaultii"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q18857"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Greater_sand_plover"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

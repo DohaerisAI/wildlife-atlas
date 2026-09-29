@@ -1,0 +1,67 @@
+{
+ "scientific": "Sternula albifrons",
+ "name": "Little Tern",
+ "qid": "Q12267692",
+ "description": "species of bird",
+ "extract": "The little tern (Sternula albifrons) is a small seabird of the family Laridae. It is widely distributed breeding on the coasts and inland waterways of Europe, Asia, north and west Africa, and eastern Australia. It winters in the subtropical and tropical oceans as far south as South Africa and Australia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%D0%9A%D1%80%D1%8F%D1%87%D0%BE%D0%BA_%D0%BC%D0%B0%D0%BB%D0%B8%D0%B9.jpg/1280px-%D0%9A%D1%80%D1%8F%D1%87%D0%BE%D0%BA_%D0%BC%D0%B0%D0%BB%D0%B8%D0%B9.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%D0%9A%D1%80%D1%8F%D1%87%D0%BE%D0%BA_%D0%BC%D0%B0%D0%BB%D0%B8%D0%B9.jpg/330px-%D0%9A%D1%80%D1%8F%D1%87%D0%BE%D0%BA_%D0%BC%D0%B0%D0%BB%D0%B8%D0%B9.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%80%D1%8F%D1%87%D0%BE%D0%BA_%D0%BC%D0%B0%D0%BB%D0%B8%D0%B9.jpg",
+   "license": "CC BY 4.0",
+   "artist": "PetroKaterynych",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Sternula_albifrons_-_Boat_Harbour.jpg/1280px-Sternula_albifrons_-_Boat_Harbour.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Sternula_albifrons_-_Boat_Harbour.jpg/330px-Sternula_albifrons_-_Boat_Harbour.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sternula_albifrons_-_Boat_Harbour.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 52.0,
+   "max": 52.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 10.0,
+   "max": 57.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sternula"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q12267692"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Little_tern"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,52 @@
+{
+ "scientific": "Saxicola rubicola",
+ "name": "European Stonechat",
+ "qid": "Q838665",
+ "description": "species of bird",
+ "extract": "The European stonechat (Saxicola rubicola) is a small passerine bird that was formerly classed as a subspecies of the common stonechat. Long considered a member of the thrush family, Turdidae, genetic evidence has placed it and its relatives in the Old World flycatcher family, Muscicapidae. It is found across Europe, as far east as Ukraine and the South Caucasus, and in parts of North Africa.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Saxicola_rubicola_clochdar_y_cerrig.jpg/1280px-Saxicola_rubicola_clochdar_y_cerrig.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Saxicola_rubicola_clochdar_y_cerrig.jpg/330px-Saxicola_rubicola_clochdar_y_cerrig.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Saxicola_rubicola_clochdar_y_cerrig.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Alun Williams333",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Saxicola_rubicola_-Belgium_-female-8_%281%29.jpg/1280px-Saxicola_rubicola_-Belgium_-female-8_%281%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Saxicola_rubicola_-Belgium_-female-8_%281%29.jpg/330px-Saxicola_rubicola_-Belgium_-female-8_%281%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Saxicola_rubicola_-Belgium_-female-8_(1).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Frank Vassen from Brussels, Belgium",
+   "caption": "Female"
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Saxicola"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Common stonechat"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q838665"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/European_stonechat"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

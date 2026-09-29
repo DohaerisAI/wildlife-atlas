@@ -1,0 +1,62 @@
+{
+ "scientific": "Clamator coromandus",
+ "name": "Chestnut-winged Cuckoo",
+ "qid": "Q262001",
+ "description": "species of bird",
+ "extract": "The chestnut-winged cuckoo or red-winged crested cuckoo (Clamator coromandus) is a cuckoo found in Southeast Asia and parts of South Asia. It has dark glossy upperparts, a black head with long crest chestnut wings, a long graduated glossy black tail, rufous throat dusky underside and a narrow white nuchal half collar. They breed along the Himalayas and migrate south in winter to Sri Lanka, southern India and tropical Southeast Asia including parts of Indonesia, Thailand and the Philippines. It is about 47 cm (19 in) long.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Clamator_coromandus%2C_Chestnut-winged_cuckoo_-_Kaeng_Krachan_National_Park_%2825570707601%29.jpg/1280px-Clamator_coromandus%2C_Chestnut-winged_cuckoo_-_Kaeng_Krachan_National_Park_%2825570707601%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Clamator_coromandus%2C_Chestnut-winged_cuckoo_-_Kaeng_Krachan_National_Park_%2825570707601%29.jpg/330px-Clamator_coromandus%2C_Chestnut-winged_cuckoo_-_Kaeng_Krachan_National_Park_%2825570707601%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Clamator_coromandus,_Chestnut-winged_cuckoo_-_Kaeng_Krachan_National_Park_(25570707601).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Rushen",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Chestnut-Winged_Cuckoo-1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Chestnut-Winged_Cuckoo-1.jpg/330px-Chestnut-Winged_Cuckoo-1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chestnut-Winged_Cuckoo-1.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Sandeep Gangadharan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 76.0,
+   "max": 76.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Clamator"
+  },
+  "family": {
+   "scientific": "Cuculidae"
+  },
+  "order": {
+   "scientific": "Cuculiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q262001"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chestnut-winged_cuckoo"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

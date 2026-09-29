@@ -1,0 +1,64 @@
+{
+ "scientific": "Periparus ater",
+ "name": "Coal tit",
+ "qid": "Q191096",
+ "description": "species of bird",
+ "extract": "The coal tit (Periparus ater) is a passerine bird in the tit family, Paridae. It is a widespread and common resident breeder in forests throughout the temperate to subtropical Palearctic, including North Africa. The black-crested tit is now included in this species.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Svartmeis.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Svartmeis.JPG/330px-Svartmeis.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Svartmeis.JPG",
+   "license": "CC BY-SA 4.0",
+   "artist": "Marton Berntsen",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Coal_Tit_-_Dugalbitta%2C_Uttarakhand%2C_India_%2815143483976%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Coal_Tit_-_Dugalbitta%2C_Uttarakhand%2C_India_%2815143483976%29.jpg/330px-Coal_Tit_-_Dugalbitta%2C_Uttarakhand%2C_India_%2815143483976%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Coal_Tit_-_Dugalbitta,_Uttarakhand,_India_(15143483976).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "soumyajit nandy from Kolkata, India",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 18.0,
+   "max": 18.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 1.0,
+   "max": 1.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Periparus"
+  },
+  "family": {
+   "scientific": "Paridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q191096"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Coal_tit"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,47 @@
+{
+ "scientific": "Dicrurus andamanensis",
+ "name": "Andaman Drongo",
+ "qid": "Q760439",
+ "description": "species of bird",
+ "extract": "The Andaman Drongo (Dicrurus andamanensis) is a species of bird in the family Dicruridae. The species is endemic to the Andaman Islands of the Indian Ocean. There are two subspecies, the nominate race being found across the main islands of the archipelago, and the race dicruriformis occurring on Great Coco Island and Table Island in the north of the chain.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Andaman_Drongo_%28Dicrurus_andamanensis%29_in_tree.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Andaman_Drongo_%28Dicrurus_andamanensis%29_in_tree.jpg/330px-Andaman_Drongo_%28Dicrurus_andamanensis%29_in_tree.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Andaman_Drongo_(Dicrurus_andamanensis)_in_tree.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Shashank Jain from Bangalore, India",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dicrurus"
+  },
+  "family": {
+   "scientific": "Dicruridae",
+   "name": "drongo"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q760439"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Andaman_drongo"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

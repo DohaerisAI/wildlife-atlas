@@ -1,0 +1,62 @@
+{
+ "scientific": "Galloperdix spadicea",
+ "name": "Red Spurfowl",
+ "qid": "Q1269712",
+ "description": "species of bird",
+ "extract": "The red spurfowl (Galloperdix spadicea) is a member of the pheasant family and is endemic to India. It is a bird of forests, and is quite secretive despite its size. It has a distinctive call and is often hard to see except for a few seconds when it flushes from the undergrowth. It appears reddish and like a long-tailed partridge. The bare skin around the eye is reddish. The legs of both males and females have one or two spurs, which give them their name.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/RED_SPURFOWL_NHOLE.png",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/RED_SPURFOWL_NHOLE.png/330px-RED_SPURFOWL_NHOLE.png",
+   "page": "https://commons.wikimedia.org/wiki/File:RED_SPURFOWL_NHOLE.png",
+   "license": "CC BY-SA 3.0",
+   "artist": "Subramanya C K",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Red_Spurfowl.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Red_Spurfowl.JPG/330px-Red_Spurfowl.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Red_Spurfowl.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Sindhu ramchandran at English Wikipedia",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 370.0,
+   "max": 370.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Galloperdix"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1269712"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red_spurfowl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,59 @@
+{
+ "scientific": "Pycnonotus flavescens",
+ "name": "Flavescent Bulbul",
+ "qid": "Q614549",
+ "description": "species of bird",
+ "extract": "The flavescent bulbul (Pycnonotus flavescens) is a species of songbird in the bulbul family of passerine birds. Its name comes from flavescent, a yellowish colour. It is found in south-eastern Asia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Pycnonotus_flavescens_-_Mae_Wong.jpg/1280px-Pycnonotus_flavescens_-_Mae_Wong.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Pycnonotus_flavescens_-_Mae_Wong.jpg/330px-Pycnonotus_flavescens_-_Mae_Wong.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pycnonotus_flavescens_-_Mae_Wong.jpg",
+   "license": "CC BY 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Pycnonotus_flavescens_-_Kaeng_Krachan.jpg/1280px-Pycnonotus_flavescens_-_Kaeng_Krachan.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Pycnonotus_flavescens_-_Kaeng_Krachan.jpg/330px-Pycnonotus_flavescens_-_Kaeng_Krachan.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pycnonotus_flavescens_-_Kaeng_Krachan.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 29.0,
+   "max": 29.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pycnonotus"
+  },
+  "family": {
+   "scientific": "Pycnonotidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q614549"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Flavescent_bulbul"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

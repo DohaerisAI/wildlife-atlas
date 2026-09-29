@@ -1,0 +1,49 @@
+{
+ "scientific": "Columba palumboides",
+ "name": "Andaman Wood Pigeon",
+ "qid": "Q489917",
+ "description": "species of bird",
+ "extract": "The Andaman wood pigeon (Columba palumboides) is a species of bird in the family Columbidae. It is endemic to the Andaman and Nicobar Islands in India. Classified as 'near threatened' by the IUCN, its population is estimated as between 2,500 and 10,000 mature individuals.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/ColumbaPalumboides.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/ColumbaPalumboides.jpg/330px-ColumbaPalumboides.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:ColumbaPalumboides.jpg",
+   "license": "Public domain",
+   "artist": "H. Gronvold and E C Stuart Baker",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Columba"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q489917"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Andaman_wood_pigeon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

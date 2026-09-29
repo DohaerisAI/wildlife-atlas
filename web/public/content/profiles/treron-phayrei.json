@@ -1,0 +1,49 @@
+{
+ "scientific": "Treron phayrei",
+ "name": "Ashy-headed Green-Pigeon",
+ "qid": "Q2984133",
+ "description": "species of bird",
+ "extract": "The ashy-headed green pigeon (Treron phayrei) is a pigeon in the genus Treron. It is found from Nepal, northeast India, and Bangladesh to southwest China, Myanmar, Thailand, Laos, and Vietnam. Many authorities split the species from the pompadour green pigeon complex. It has been added to the Red List of IUCN in 2014.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Birds_Ashy_Headed_Green_Pigeon_%28cropped%29.jpg/1280px-Birds_Ashy_Headed_Green_Pigeon_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Birds_Ashy_Headed_Green_Pigeon_%28cropped%29.jpg/330px-Birds_Ashy_Headed_Green_Pigeon_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Birds_Ashy_Headed_Green_Pigeon_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "SaniyaChaplod",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Treron"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2984133"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ashy-headed_green_pigeon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

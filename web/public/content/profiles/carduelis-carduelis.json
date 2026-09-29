@@ -1,0 +1,60 @@
+{
+ "scientific": "Carduelis carduelis",
+ "name": "European Goldfinch",
+ "qid": "Q25418",
+ "description": "species of bird",
+ "extract": "The European goldfinch, or simply goldfinch (Carduelis carduelis), is a small passerine bird in the finch family that is native to the Palearctic zone in Europe, northern Africa, and western Asia. It has been introduced to other areas, including Australia, New Zealand, Uruguay and the United States.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Carduelis_carduelis_%282012%29.jpg/1280px-Carduelis_carduelis_%282012%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Carduelis_carduelis_%282012%29.jpg/330px-Carduelis_carduelis_%282012%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Carduelis_carduelis_(2012).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Pierre Dalous",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 24.0,
+   "max": 24.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 1.5,
+   "max": 1.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Carduelis"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "goldfinch",
+  "Eurasian goldfinch"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25418"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/European_goldfinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,51 @@
+{
+ "scientific": "Megalurus palustris",
+ "name": "Striated Grassbird",
+ "qid": "Q73512",
+ "description": "species of bird",
+ "extract": "The striated grassbird (Megalurus palustris) is an \"Old World warbler\" species in the family Locustellidae. It was formerly placed in the family Sylviidae. It is now the only species placed in the genus Megalurus.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Striated_Grassbird_%28Megalurus_palustris%29_at_Kolkata_I_IMG_2681.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Striated_Grassbird_%28Megalurus_palustris%29_at_Kolkata_I_IMG_2681.jpg/330px-Striated_Grassbird_%28Megalurus_palustris%29_at_Kolkata_I_IMG_2681.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Striated_Grassbird_(Megalurus_palustris)_at_Kolkata_I_IMG_2681.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 37.0,
+   "max": 53.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Megalurus"
+  },
+  "family": {
+   "scientific": "Locustellidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q73512"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Striated_grassbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

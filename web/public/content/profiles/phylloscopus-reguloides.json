@@ -1,0 +1,51 @@
+{
+ "scientific": "Phylloscopus reguloides",
+ "name": "Blyth’s Leaf Warbler",
+ "qid": "Q2668165",
+ "description": "species of bird",
+ "extract": "Blyth's leaf warbler (Phylloscopus reguloides) is a species of leaf warbler (family Phylloscopidae). It was formerly included in the \"Old World warbler\" assemblage.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Blyth%27s_Leaf_Warbler_in_Lava_September_2025_by_Tisha_Mukherjee_01.jpg/1280px-Blyth%27s_Leaf_Warbler_in_Lava_September_2025_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Blyth%27s_Leaf_Warbler_in_Lava_September_2025_by_Tisha_Mukherjee_01.jpg/330px-Blyth%27s_Leaf_Warbler_in_Lava_September_2025_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blyth%27s_Leaf_Warbler_in_Lava_September_2025_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 7.8,
+   "max": 7.8,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phylloscopus"
+  },
+  "family": {
+   "scientific": "Phylloscopidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2668165"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blyth%27s_leaf_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

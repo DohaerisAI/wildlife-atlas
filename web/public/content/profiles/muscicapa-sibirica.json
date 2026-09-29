@@ -1,0 +1,46 @@
+{
+ "scientific": "Muscicapa sibirica",
+ "name": "Dark-sided Flycatcher",
+ "qid": "Q73578",
+ "description": "species of bird",
+ "extract": "The dark-sided flycatcher (Muscicapa sibirica) is a small passerine bird belonging to the genus Muscicapa in the Old World flycatcher family Muscicapidae. It has a wide breeding distribution in the East Palearctic with northern birds migrating south for the winter. It is also known as the Siberian flycatcher or sooty flycatcher, the latter name is also used for the sooty flycatcher (Artomyias infuscata) of Africa.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Dark-sided_Flycatcher_on_branch.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Dark-sided_Flycatcher_on_branch.jpg/330px-Dark-sided_Flycatcher_on_branch.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dark-sided_Flycatcher_on_branch.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Muscicapa"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q73578"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dark-sided_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

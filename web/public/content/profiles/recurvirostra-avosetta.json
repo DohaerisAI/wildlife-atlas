@@ -1,0 +1,62 @@
+{
+ "scientific": "Recurvirostra avosetta",
+ "name": "Pied Avocet",
+ "qid": "Q26147",
+ "description": "species of bird",
+ "extract": "The pied avocet (Recurvirostra avosetta) is a species of wader in the Recurvirostridae family, the only member of the avocet genus Recurvirostra found in Europe, Africa, and Asia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Avocette_%C3%A9l%C3%A9gante_Thyna019.jpg/1280px-Avocette_%C3%A9l%C3%A9gante_Thyna019.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Avocette_%C3%A9l%C3%A9gante_Thyna019.jpg/330px-Avocette_%C3%A9l%C3%A9gante_Thyna019.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Avocette_%C3%A9l%C3%A9gante_Thyna019.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "El Golli Mohamed",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 78.0,
+   "max": 78.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 31.7,
+   "max": 31.7,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Recurvirostra"
+  },
+  "family": {
+   "scientific": "Recurvirostridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Avocet"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26147"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pied_avocet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

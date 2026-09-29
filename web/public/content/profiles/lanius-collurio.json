@@ -1,0 +1,64 @@
+{
+ "scientific": "Lanius collurio",
+ "name": "Red-backed Shrike",
+ "qid": "Q26671",
+ "description": "species of bird",
+ "extract": "The red-backed shrike (Lanius collurio) is a carnivorous passerine bird and member of the shrike family, Laniidae. Its breeding range stretches from Western Europe east to central Russia. It is migratory and winters in the eastern areas of tropical Africa and southern Africa.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Lanius_collurio_-_Red-backed_shrike_09.jpg/1280px-Lanius_collurio_-_Red-backed_shrike_09.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Lanius_collurio_-_Red-backed_shrike_09.jpg/330px-Lanius_collurio_-_Red-backed_shrike_09.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lanius_collurio_-_Red-backed_shrike_09.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Zeynel Cebeci",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Red-backed_Shrike_%28Lanius_collurio%29.jpg/1280px-Red-backed_Shrike_%28Lanius_collurio%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Red-backed_Shrike_%28Lanius_collurio%29.jpg/330px-Red-backed_Shrike_%28Lanius_collurio%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red-backed_Shrike_(Lanius_collurio).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Pierre Dalous",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 26.0,
+   "max": 26.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 3.1,
+   "max": 3.1,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lanius"
+  },
+  "family": {
+   "scientific": "Laniidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26671"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-backed_shrike"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

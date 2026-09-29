@@ -1,0 +1,63 @@
+{
+ "scientific": "Coturnix coturnix",
+ "name": "Common Quail",
+ "qid": "Q28358",
+ "description": "species of bird",
+ "extract": "The common quail (Coturnix coturnix) or European quail is a small ground-nesting game bird in the pheasant family Phasianidae. It is mainly migratory, breeding in the Palearctic and wintering in Africa and southern India.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Coturnix_coturnix%2C_Fraunberg%2C_Bayern%2C_Deutschland_2%2C_Ausschnitt.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Coturnix_coturnix%2C_Fraunberg%2C_Bayern%2C_Deutschland_2%2C_Ausschnitt.jpg/330px-Coturnix_coturnix%2C_Fraunberg%2C_Bayern%2C_Deutschland_2%2C_Ausschnitt.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Coturnix_coturnix,_Fraunberg,_Bayern,_Deutschland_2,_Ausschnitt.jpg",
+   "license": "CC BY 4.0",
+   "artist": "christoph_moning",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 34.0,
+   "max": 34.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 8.2,
+   "max": 8.2,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Coturnix"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "quail",
+  "European quail"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q28358"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_quail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

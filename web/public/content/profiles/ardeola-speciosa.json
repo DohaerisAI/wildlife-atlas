@@ -1,0 +1,63 @@
+{
+ "scientific": "Ardeola speciosa",
+ "name": "Javan Pond Heron",
+ "qid": "Q498183",
+ "description": "species of bird",
+ "extract": "The Javan pond heron (Ardeola speciosa) is a wading bird of the heron family, found in shallow fresh and salt-water wetlands in Southeast Asia. Its diet comprises insects, fish, and crabs.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Ardeola_speciosa.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Ardeola_speciosa.JPG/330px-Ardeola_speciosa.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Ardeola_speciosa.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Ariefrahman",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Javan_Pond_Heron_%28Adult_Breeding%29.jpg/1280px-Javan_Pond_Heron_%28Adult_Breeding%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Javan_Pond_Heron_%28Adult_Breeding%29.jpg/330px-Javan_Pond_Heron_%28Adult_Breeding%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Javan_Pond_Heron_(Adult_Breeding).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jason Thompson",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 81.0,
+   "max": 81.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ardeola"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q498183"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Javan_pond_heron"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

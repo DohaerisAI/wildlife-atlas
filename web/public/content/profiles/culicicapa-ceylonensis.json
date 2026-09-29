@@ -1,0 +1,55 @@
+{
+ "scientific": "Culicicapa ceylonensis",
+ "name": "Gray-headed Canary-Flycatcher",
+ "qid": "Q73700",
+ "description": "species of bird",
+ "extract": "The grey-headed canary-flycatcher (Culicicapa ceylonensis), sometimes known as the grey-headed flycatcher, is a species of small flycatcher-like bird found in tropical Asia. It has a square crest, a grey hood and yellow underparts. They are found mainly in forested habitats where they often join other birds in mixed-species foraging flocks. Pairs are often seen as they forage for insects by making flycatcher-like sallies and calling aloud. Several subspecies are recognized within their wide distribution range. In the past the genus Culicicapa was considered to be an Old World flycatcher but studies have found them to belong to a new family designated as the Stenostiridae or fairy flycatchers that include the African genera Stenostira and Elminia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Grey-headed_Canary-Flycatcher_in_Sillery_Gaon_September_2025_by_Tisha_Mukherjee_01.jpg/1280px-Grey-headed_Canary-Flycatcher_in_Sillery_Gaon_September_2025_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Grey-headed_Canary-Flycatcher_in_Sillery_Gaon_September_2025_by_Tisha_Mukherjee_01.jpg/330px-Grey-headed_Canary-Flycatcher_in_Sillery_Gaon_September_2025_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grey-headed_Canary-Flycatcher_in_Sillery_Gaon_September_2025_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 7.5,
+   "max": 7.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Culicicapa"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Grey-headed Canary Flycatcher",
+  "Grey-headed Canary-flycatcher"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q73700"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey-headed_canary-flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

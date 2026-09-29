@@ -1,0 +1,57 @@
+{
+ "scientific": "Aviceda jerdoni",
+ "name": "Jerdon’s Baza",
+ "qid": "Q605698",
+ "description": "species of bird",
+ "extract": "Jerdon's baza (Aviceda jerdoni) is a moderate sized brown hawk with a thin white-tipped black crest usually held erect. It is found in South-east Asia. It inhabits foothills in the terai and is rarer in evergreen forests and tea estates.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Adult_Jerdon%27s_Baza.jpg/1280px-Adult_Jerdon%27s_Baza.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Adult_Jerdon%27s_Baza.jpg/330px-Adult_Jerdon%27s_Baza.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Adult_Jerdon%27s_Baza.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "HolmesWayne",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Jerdon%27s_Baza_in_flight%2C_India--Mizoram.jpg/1280px-Jerdon%27s_Baza_in_flight%2C_India--Mizoram.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Jerdon%27s_Baza_in_flight%2C_India--Mizoram.jpg/330px-Jerdon%27s_Baza_in_flight%2C_India--Mizoram.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Jerdon%27s_Baza_in_flight,_India--Mizoram.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "T R Shankar Raman",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aviceda"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q605698"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jerdon%27s_baza"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

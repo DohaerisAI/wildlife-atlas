@@ -1,0 +1,46 @@
+{
+ "scientific": "Erythrura prasina",
+ "name": "Pin-tailed Parrotfinch",
+ "qid": "Q1050834",
+ "description": "species of bird",
+ "extract": "The pin-tailed parrotfinch (Erythrura prasina) is a common species of estrildid finch found in Southeast Asia: Malaysia, Brunei, Cambodia, Indonesia, Laos, Burma, Vietnam, Thailand and China. It has an estimated global extent of occurrence of 10,000,000 km2.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Pin-tailed_Parrotfinch%2C_Kaeng_Krachan_1.jpg/1280px-Pin-tailed_Parrotfinch%2C_Kaeng_Krachan_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Pin-tailed_Parrotfinch%2C_Kaeng_Krachan_1.jpg/330px-Pin-tailed_Parrotfinch%2C_Kaeng_Krachan_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pin-tailed_Parrotfinch,_Kaeng_Krachan_1.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jason Thompson",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Erythrura"
+  },
+  "family": {
+   "scientific": "Estrildidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1050834"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pin-tailed_parrotfinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

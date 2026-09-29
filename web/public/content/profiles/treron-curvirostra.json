@@ -1,0 +1,49 @@
+{
+ "scientific": "Treron curvirostra",
+ "name": "Thick-billed Green Pigeon",
+ "qid": "Q542136",
+ "description": "species of bird",
+ "extract": "The thick-billed green pigeon (Treron curvirostra) is a species of bird in the family Columbidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Thick-billed_Green_Pigeon.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Thick-billed_Green_Pigeon.jpg/330px-Thick-billed_Green_Pigeon.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Thick-billed_Green_Pigeon.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Flickr user NatureAtYourBackyard . Photo uploaded to commons by user ltshears",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Treron"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q542136"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Thick-billed_green_pigeon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

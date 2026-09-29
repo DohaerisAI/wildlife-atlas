@@ -1,0 +1,71 @@
+{
+ "scientific": "Fregata andrewsi",
+ "name": "Christmas Island Frigatebrid",
+ "qid": "Q1263210",
+ "description": "species of bird",
+ "extract": "The Christmas frigatebird (Fregata andrewsi) or Christmas Island frigatebird is a seabird of the frigatebird family Fregatidae which is an endemic breeder to Christmas Island in the Indian Ocean. Apart from the Ascension frigatebird, the three other species of frigatebird have much more widely distributed breeding locations.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Christmas_Island_Frigatebird_male_-_Jakarta_Bay%2C_Indonesia.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Christmas_Island_Frigatebird_male_-_Jakarta_Bay%2C_Indonesia.jpg/330px-Christmas_Island_Frigatebird_male_-_Jakarta_Bay%2C_Indonesia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Christmas_Island_Frigatebird_male_-_Jakarta_Bay,_Indonesia.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Christmas_Island_Frigatebird.JPG/1280px-Christmas_Island_Frigatebird.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Christmas_Island_Frigatebird.JPG/330px-Christmas_Island_Frigatebird.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Christmas_Island_Frigatebird.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Shah Jahan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 205.0,
+   "max": 230.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 80.0,
+   "max": 1550.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Fregata"
+  },
+  "family": {
+   "scientific": "Fregatidae",
+   "name": "Frigatebirds"
+  },
+  "order": {
+   "scientific": "Suliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Christmas Frigatebird"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1263210"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Christmas_frigatebird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

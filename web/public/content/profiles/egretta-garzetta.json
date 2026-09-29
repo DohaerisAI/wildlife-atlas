@@ -1,0 +1,68 @@
+{
+ "scientific": "Egretta garzetta",
+ "name": "Little Egret",
+ "qid": "Q131709",
+ "description": "species of bird",
+ "extract": "The little egret (Egretta garzetta) is a species of small heron in the family Ardeidae. It is a white bird with a slender black beak, long black legs and, in the western race, yellow feet. As an aquatic bird, it feeds in shallow water and on land, consuming a variety of small creatures. It breeds colonially, often with other species of water birds, making a platform nest of sticks in a tree, bush or reed bed. A clutch of three to five bluish-green eggs is laid and incubated by both parents for about three weeks. The young fledge at about six weeks of age.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Aigrette_garzette_au_lac_sud_de_Tunis_%28site_RAMSAR%29.jpg/1280px-Aigrette_garzette_au_lac_sud_de_Tunis_%28site_RAMSAR%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Aigrette_garzette_au_lac_sud_de_Tunis_%28site_RAMSAR%29.jpg/330px-Aigrette_garzette_au_lac_sud_de_Tunis_%28site_RAMSAR%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aigrette_garzette_au_lac_sud_de_Tunis_(site_RAMSAR).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "El Golli Mohamed",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Little_Egret_Reflection.jpg/1280px-Little_Egret_Reflection.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Little_Egret_Reflection.jpg/330px-Little_Egret_Reflection.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Little_Egret_Reflection.jpg",
+   "license": "CC BY 2.5",
+   "artist": "Birdman1",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 92.0,
+   "max": 92.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 28.0,
+   "max": 532.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Egretta"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q131709"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Little_egret"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

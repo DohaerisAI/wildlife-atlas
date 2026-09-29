@@ -1,0 +1,76 @@
+{
+ "scientific": "Pica pica",
+ "name": "Eurasian Magpie",
+ "qid": "Q25307",
+ "description": "species of bird",
+ "extract": "The Eurasian magpie or common magpie (Pica pica) is a resident breeding bird throughout the northern part of the Eurasian continent. It is one of several birds in the crow family (corvids) that are designated as magpies, and it belongs to the Holarctic radiation of \"monochrome\" magpies. In Europe, the term \"magpie\" is used by English speakers as a synonym for the Eurasian magpie; the only other species of magpie in Europe being the Iberian magpie (Cyanopica cooki), which is restricted to the Iberian Peninsula. Despite sharing a name and similar colouration, they are not closely related to the Australian magpie, which is an artamid, only sharing the same clade (Corvides).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Eurasian_magpie_2024_03_03_02.jpg/1280px-Eurasian_magpie_2024_03_03_02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Eurasian_magpie_2024_03_03_02.jpg/330px-Eurasian_magpie_2024_03_03_02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eurasian_magpie_2024_03_03_02.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Alexis Lours",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Eurasian_magpie_%2810860%29.jpg/1280px-Eurasian_magpie_%2810860%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Eurasian_magpie_%2810860%29.jpg/330px-Eurasian_magpie_%2810860%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eurasian_magpie_(10860).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Rhododendrites",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Magpie_in_Madrid_%28Spain%29_74.jpg/1280px-Magpie_in_Madrid_%28Spain%29_74.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Magpie_in_Madrid_%28Spain%29_74.jpg/330px-Magpie_in_Madrid_%28Spain%29_74.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Magpie_in_Madrid_(Spain)_74.jpg",
+   "license": "CC BY-SA 3.0 es",
+   "artist": "Luis García (Zaqarbal)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 56.0,
+   "max": 56.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 9.9,
+   "max": 221.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pica"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "common magpie",
+  "magpie"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25307"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eurasian_magpie"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

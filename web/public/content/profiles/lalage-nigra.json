@@ -1,0 +1,51 @@
+{
+ "scientific": "Lalage nigra",
+ "name": "Pied Triller",
+ "qid": "Q930453",
+ "description": "species of bird",
+ "extract": "The pied triller (Lalage nigra) is a species of bird in the cuckooshrike family Campephagidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Pied_Triller_male.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Pied_Triller_male.jpg/330px-Pied_Triller_male.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pied_Triller_male.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Flickr user NatureAtYourBackyard . Photo uploaded to commons by user ltshears",
+   "caption": "Male"
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 28.0,
+   "max": 28.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lalage"
+  },
+  "family": {
+   "scientific": "Campephagidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q930453"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pied_triller"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

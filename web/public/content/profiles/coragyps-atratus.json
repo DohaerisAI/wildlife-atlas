@@ -1,0 +1,58 @@
+{
+ "scientific": "Coragyps atratus",
+ "name": "Black Vulture",
+ "qid": "Q213366",
+ "description": "species of bird",
+ "extract": "The black vulture (Coragyps atratus), also known as the American black vulture, Mexican vulture, zopilote, urubu, or gallinazo, is a bird in the New World vulture family whose range extends from the northeastern United States to Peru, Central Chile and Uruguay in South America, and common throughout Brazil where it can be seen in large scavenging groups. Although a common and widespread species, it has a somewhat more restricted distribution than its compatriot, the turkey vulture, which breeds well into Canada and all the way south to Tierra del Fuego. It is the only extant member of the genus Coragyps, which is in the family Cathartidae. Despite the similar name and appearance, this species is not closely related to the Eurasian black vulture, an Old World vulture, of the family Accipitridae (which includes raptors like the eagles, hawks, kites, and harriers). For ease of locating animal corpses (their primary source of sustenance), black vultures tend to inhabit relatively open areas with scattered trees, such as chaparral, in addition to subtropical forested areas and parts of the Brazilian pantanal.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Urubu-de-cabe%C3%A7a-preta-APA_Campos_do_Jord%C3%A3o-Wdiane%28001%29.jpg/1280px-Urubu-de-cabe%C3%A7a-preta-APA_Campos_do_Jord%C3%A3o-Wdiane%28001%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Urubu-de-cabe%C3%A7a-preta-APA_Campos_do_Jord%C3%A3o-Wdiane%28001%29.jpg/330px-Urubu-de-cabe%C3%A7a-preta-APA_Campos_do_Jord%C3%A3o-Wdiane%28001%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Urubu-de-cabe%C3%A7a-preta-APA_Campos_do_Jord%C3%A3o-Wdiane(001).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Wdiane",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 182.9,
+   "max": 182.9,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Coragyps"
+  },
+  "family": {
+   "scientific": "Cathartidae",
+   "name": "New World vulture"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "American black vulture"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q213366"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black_vulture"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

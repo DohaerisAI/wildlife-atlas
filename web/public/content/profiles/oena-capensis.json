@@ -1,0 +1,62 @@
+{
+ "scientific": "Oena capensis",
+ "name": "Namaqua Dove",
+ "qid": "Q151851",
+ "description": "species of bird",
+ "extract": "The Namaqua dove (Oena capensis) is a very small species of pigeon. It is the only species in the genus Oena. It is found over much of Sub-Saharan Africa as well as Arabia and Madagascar.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Oena_capensis_-near_Kambi_ya_Tembo%2C_Arusha%2C_Tanzania-8.jpg/1280px-Oena_capensis_-near_Kambi_ya_Tembo%2C_Arusha%2C_Tanzania-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Oena_capensis_-near_Kambi_ya_Tembo%2C_Arusha%2C_Tanzania-8.jpg/330px-Oena_capensis_-near_Kambi_ya_Tembo%2C_Arusha%2C_Tanzania-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Oena_capensis_-near_Kambi_ya_Tembo,_Arusha,_Tanzania-8.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee from Singapore, Republic of Singapore",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Namaqua_dove%2C_Oena_capensis%2C_at_Mapungubwe_National_Park%2C_Limpopo%2C_South_Africa_%2818085767542%29.jpg/1280px-Namaqua_dove%2C_Oena_capensis%2C_at_Mapungubwe_National_Park%2C_Limpopo%2C_South_Africa_%2818085767542%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Namaqua_dove%2C_Oena_capensis%2C_at_Mapungubwe_National_Park%2C_Limpopo%2C_South_Africa_%2818085767542%29.jpg/330px-Namaqua_dove%2C_Oena_capensis%2C_at_Mapungubwe_National_Park%2C_Limpopo%2C_South_Africa_%2818085767542%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Namaqua_dove,_Oena_capensis,_at_Mapungubwe_National_Park,_Limpopo,_South_Africa_(18085767542).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Derek Keats from Johannesburg, South Africa",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 2.7,
+   "max": 36.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Oena"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q151851"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Namaqua_dove"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

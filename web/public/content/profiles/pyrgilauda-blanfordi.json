@@ -1,0 +1,54 @@
+{
+ "scientific": "Pyrgilauda blanfordi",
+ "name": "Blanford's Snowfinch",
+ "qid": "Q27075722",
+ "description": "species of bird",
+ "extract": "Blanford's snowfinch (Pyrgilauda blanfordi) or the plain-backed snowfinch, is a species of bird in the sparrow family.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Blanford%27s_Snowfinch_at_Startsapuk_Tso%2C_near_Tsokar%2C_Ladakh%2C_India.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Blanford%27s_Snowfinch_at_Startsapuk_Tso%2C_near_Tsokar%2C_Ladakh%2C_India.jpg/330px-Blanford%27s_Snowfinch_at_Startsapuk_Tso%2C_near_Tsokar%2C_Ladakh%2C_India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blanford%27s_Snowfinch_at_Startsapuk_Tso,_near_Tsokar,_Ladakh,_India.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "As kannan",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/MontifringillaBlanfordiHart.jpg/1280px-MontifringillaBlanfordiHart.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/MontifringillaBlanfordiHart.jpg/330px-MontifringillaBlanfordiHart.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:MontifringillaBlanfordiHart.jpg",
+   "license": "Public domain",
+   "artist": "William Matthew Hart / Philip Sclater",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pyrgilauda"
+  },
+  "family": {
+   "scientific": "Passeridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075722"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blanford%27s_snowfinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

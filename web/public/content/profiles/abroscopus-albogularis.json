@@ -1,0 +1,51 @@
+{
+ "scientific": "Abroscopus albogularis",
+ "name": "Rufous-faced Warbler",
+ "qid": "Q1589754",
+ "description": "species of bird",
+ "extract": "The rufous-faced warbler (Abroscopus albogularis) is a species of the bush warbler family, Cettiidae. It was formerly included in the \"Old World warbler\" assemblage.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Rufous-faced_Warbler_-_Bhutan_S4E0984_%2819261554082%29_%282%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Rufous-faced_Warbler_-_Bhutan_S4E0984_%2819261554082%29_%282%29.jpg/330px-Rufous-faced_Warbler_-_Bhutan_S4E0984_%2819261554082%29_%282%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rufous-faced_Warbler_-_Bhutan_S4E0984_(19261554082)_(2).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 5.9,
+   "max": 5.9,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Abroscopus"
+  },
+  "family": {
+   "scientific": "Cettiidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1589754"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rufous-faced_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

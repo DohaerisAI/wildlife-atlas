@@ -1,0 +1,70 @@
+{
+ "scientific": "Gyps indicus",
+ "name": "Indian Vulture",
+ "qid": "Q248086",
+ "description": "species of bird",
+ "extract": "The Indian vulture or long-billed vulture (Gyps indicus) is a bird of prey native to the Indian subcontinent. It is an Old World vulture belonging to the family of Accipitridae. It is a medium-sized vulture with a small, semi-bald head with little feathers, long beak, and wide dark colored wings. It breeds mainly on small cliffs and hilly crags in central India and south India.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Indian_vulture_on_cliff.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Indian_vulture_on_cliff.jpg/330px-Indian_vulture_on_cliff.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Indian_vulture_on_cliff.jpg",
+   "license": "CC BY 2.5",
+   "artist": "Yathin sk at English Wikipedia",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Vultures_in_the_nest%2C_Orchha%2C_MP%2C_India_edit.jpg/1280px-Vultures_in_the_nest%2C_Orchha%2C_MP%2C_India_edit.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Vultures_in_the_nest%2C_Orchha%2C_MP%2C_India_edit.jpg/330px-Vultures_in_the_nest%2C_Orchha%2C_MP%2C_India_edit.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Vultures_in_the_nest,_Orchha,_MP,_India_edit.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Yann (talk)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 228.6,
+   "max": 228.6,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 5515.0,
+   "max": 5515.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "CR",
+   "label": "Critically Endangered"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Gyps"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Long-billed Vulture"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q248086"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_vulture"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

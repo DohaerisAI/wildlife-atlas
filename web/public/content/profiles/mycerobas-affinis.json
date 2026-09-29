@@ -1,0 +1,65 @@
+{
+ "scientific": "Mycerobas affinis",
+ "name": "Collared Grosbeak",
+ "qid": "Q1085277",
+ "description": "species of bird",
+ "extract": "The collared grosbeak (Mycerobas affinis) is a species of finch in the family Fringillidae.  Its range encompasses the northern regions of the Indian subcontinent, mainly the Himalayas, along with some adjoining regions.  It is found in Bhutan, India, Myanmar, Nepal and Thailand. Its natural habitat is mountainous deciduous or mixed forests.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/BirdsAsiaJohnGoVGoul_0100.jpg/1280px-BirdsAsiaJohnGoVGoul_0100.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/BirdsAsiaJohnGoVGoul_0100.jpg/330px-BirdsAsiaJohnGoVGoul_0100.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:BirdsAsiaJohnGoVGoul_0100.jpg",
+   "license": "Public domain",
+   "artist": "John Gould / Henry Constantine Richter",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Mycerobas_affinis_30333863.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Mycerobas_affinis_30333863.jpg/330px-Mycerobas_affinis_30333863.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mycerobas_affinis_30333863.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Firos AK",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Collared_Grosbeak_Female_Pangolakha_Wildlife_Sanctuary_East_Sikkim_India_05.05.2016.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Collared_Grosbeak_Female_Pangolakha_Wildlife_Sanctuary_East_Sikkim_India_05.05.2016.jpg/330px-Collared_Grosbeak_Female_Pangolakha_Wildlife_Sanctuary_East_Sikkim_India_05.05.2016.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Collared_Grosbeak_Female_Pangolakha_Wildlife_Sanctuary_East_Sikkim_India_05.05.2016.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dibyendu Ash",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Mycerobas"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Allied grosbeak"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1085277"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Collared_grosbeak"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

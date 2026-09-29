@@ -1,0 +1,46 @@
+{
+ "scientific": "Cochoa purpurea",
+ "name": "Purple Cochoa",
+ "qid": "Q1586508",
+ "description": "species of bird",
+ "extract": "The purple cochoa (Cochoa purpurea) is a brightly coloured bird found in the temperate forests of Asia. It is a quiet and elusive bird species that has been considered to be related to the thrushes of family Turdidae or the related Muscicapidae (Old World flycatchers). They are found in dark forested areas and is found in the canopy, where it often sits motionless.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Purple_Cochoa_Khangchendzonga_National_park_West_Sikkim_India_08.11.2016.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Purple_Cochoa_Khangchendzonga_National_park_West_Sikkim_India_08.11.2016.jpg/330px-Purple_Cochoa_Khangchendzonga_National_park_West_Sikkim_India_08.11.2016.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Purple_Cochoa_Khangchendzonga_National_park_West_Sikkim_India_08.11.2016.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cochoa"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1586508"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Purple_cochoa"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

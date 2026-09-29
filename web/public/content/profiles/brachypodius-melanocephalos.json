@@ -1,0 +1,46 @@
+{
+ "scientific": "Brachypodius melanocephalos",
+ "name": "Black-headed Bulbul",
+ "qid": "Q98069319",
+ "description": "species of bird",
+ "extract": "The black-headed bulbul (Microtarsus melanocephalos) is a member of the bulbul family, Pycnonotidae. It is found in forests in south-eastern Asia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Black_headed_bulbul.jpg/1280px-Black_headed_bulbul.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Black_headed_bulbul.jpg/330px-Black_headed_bulbul.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black_headed_bulbul.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Touhid biplob",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Brachypodius"
+  },
+  "family": {
+   "scientific": "Pycnonotidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q98069319"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-headed_bulbul"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

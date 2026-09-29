@@ -1,0 +1,55 @@
+{
+ "scientific": "Pomatorhinus ruficollis",
+ "name": "Streak-breasted Scimitar-Babbler",
+ "qid": "Q1311012",
+ "description": "species of bird",
+ "extract": "The streak-breasted scimitar babbler (Pomatorhinus ruficollis) is a species of bird in the family Timaliidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Streak-breasted_Scimitar-Babbler_cropped.jpg/1280px-Streak-breasted_Scimitar-Babbler_cropped.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Streak-breasted_Scimitar-Babbler_cropped.jpg/330px-Streak-breasted_Scimitar-Babbler_cropped.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Streak-breasted_Scimitar-Babbler_cropped.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Mildeep",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 30.0,
+   "max": 33.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pomatorhinus"
+  },
+  "family": {
+   "scientific": "Timaliidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Rufous-necked Scimitar Babbler",
+  "Streak-breasted Scimitar Babbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1311012"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Streak-breasted_scimitar_babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

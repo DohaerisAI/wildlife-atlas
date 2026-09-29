@@ -1,0 +1,59 @@
+{
+ "scientific": "Cettia cetti",
+ "name": "Cetti's Warbler",
+ "qid": "Q650114",
+ "description": "species of bird",
+ "extract": "Cetti's warbler  (Cettia cetti) is a small, brown warbler in the family Cettiidae, which breeds in southern and western Europe, northwest Africa and the east Palearctic as far as Afghanistan and northwest Pakistan. The sexes are alike. The bird is named after the 18th-century Italian zoologist, Francesco Cetti. This species is often difficult to see because of its skulking habits.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Rouxinol-bravo%2C_Cetti%27s_Warbler%3B_Sesimbra%2C_Portugal_%2849996990303%29.jpg/1280px-Rouxinol-bravo%2C_Cetti%27s_Warbler%3B_Sesimbra%2C_Portugal_%2849996990303%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Rouxinol-bravo%2C_Cetti%27s_Warbler%3B_Sesimbra%2C_Portugal_%2849996990303%29.jpg/330px-Rouxinol-bravo%2C_Cetti%27s_Warbler%3B_Sesimbra%2C_Portugal_%2849996990303%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rouxinol-bravo,_Cetti%27s_Warbler;_Sesimbra,_Portugal_(49996990303).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Luiz Lapa from Oeiras, Portugal",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Cettia_cetti_orientalis%2C_Bismil%2C_Turkey.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Cettia_cetti_orientalis%2C_Bismil%2C_Turkey.jpg/330px-Cettia_cetti_orientalis%2C_Bismil%2C_Turkey.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cettia_cetti_orientalis,_Bismil,_Turkey.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dûrzan cîrano",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 17.0,
+   "max": 17.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cettia"
+  },
+  "family": {
+   "scientific": "Cettiidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q650114"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cetti%27s_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

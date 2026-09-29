@@ -1,0 +1,67 @@
+{
+ "scientific": "Aythya baeri",
+ "name": "Baer's Pochard",
+ "qid": "Q740680",
+ "description": "species of bird",
+ "extract": "Baer's pochard (Aythya baeri) is a diving duck found in eastern Asia. It is a resident bird in North and Central China, and formerly bred in southeast Russia and Northeast China, migrating in winter to southern China, Vietnam, Japan, and India. Baer's pochard is a monotypic species. The holotype was collected in middle Amur.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Aythya_baeri%2C_Ukima_Pond%2C_Tokyo%2C_Japan_1a.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Aythya_baeri%2C_Ukima_Pond%2C_Tokyo%2C_Japan_1a.jpg/330px-Aythya_baeri%2C_Ukima_Pond%2C_Tokyo%2C_Japan_1a.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aythya_baeri,_Ukima_Pond,_Tokyo,_Japan_1a.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Original: christoph_moning at inaturalist; this edit: MPF",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Aythya_baeri_female.jpg/1280px-Aythya_baeri_female.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Aythya_baeri_female.jpg/330px-Aythya_baeri_female.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aythya_baeri_female.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Sun Jiao (Interaccoonale)",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 70.0,
+   "max": 79.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 43.0,
+   "max": 880.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "CR",
+   "label": "Critically Endangered"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aythya"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q740680"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Baer%27s_pochard"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

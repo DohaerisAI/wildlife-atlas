@@ -1,0 +1,79 @@
+{
+ "scientific": "Gallinula chloropus",
+ "name": "Common Moorhen",
+ "qid": "Q18847",
+ "description": "species of bird",
+ "extract": "The common moorhen (Gallinula chloropus), also known as the waterhen, is a bird species in the rail family (Rallidae). It is distributed across many parts of the Old World, across Africa, Europe, and Asia. It lives around well-vegetated marshes, ponds, canals and other wetlands. The species is not found in the polar regions or many tropical rainforests; generally it is one of the most common Old World rail species, together with the Eurasian coot in some regions.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Common_moorhen_%28Gallinula_chloropus%29_France.jpg/1280px-Common_moorhen_%28Gallinula_chloropus%29_France.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Common_moorhen_%28Gallinula_chloropus%29_France.jpg/330px-Common_moorhen_%28Gallinula_chloropus%29_France.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_moorhen_(Gallinula_chloropus)_France.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Alexis Lours",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Gallinula_chloropus_meridionalis_Modderfontein.jpg/1280px-Gallinula_chloropus_meridionalis_Modderfontein.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Gallinula_chloropus_meridionalis_Modderfontein.jpg/330px-Gallinula_chloropus_meridionalis_Modderfontein.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gallinula_chloropus_meridionalis_Modderfontein.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Monkey Boy from Johannesburg, South Africa",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Common_Moorhen_%28Gallinula_chloropus_pyrrhorrhoa%29%2C_Mauritius.jpg/1280px-Common_Moorhen_%28Gallinula_chloropus_pyrrhorrhoa%29%2C_Mauritius.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Common_Moorhen_%28Gallinula_chloropus_pyrrhorrhoa%29%2C_Mauritius.jpg/330px-Common_Moorhen_%28Gallinula_chloropus_pyrrhorrhoa%29%2C_Mauritius.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_Moorhen_(Gallinula_chloropus_pyrrhorrhoa),_Mauritius.jpg",
+   "license": "CC BY 2.0",
+   "artist": "gailhampshire from Cradley, Malvern, U.K",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 52.0,
+   "max": 52.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 348.0,
+   "max": 348.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Gallinula"
+  },
+  "family": {
+   "scientific": "Rallidae"
+  },
+  "order": {
+   "scientific": "Gruiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Waterhen",
+  "Moorhen"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q18847"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_moorhen"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

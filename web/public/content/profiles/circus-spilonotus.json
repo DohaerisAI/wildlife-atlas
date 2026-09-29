@@ -1,0 +1,60 @@
+{
+ "scientific": "Circus spilonotus",
+ "name": "Eastern Marsh-Harrier",
+ "qid": "Q1269372",
+ "description": "species of bird",
+ "extract": "The eastern marsh harrier (Circus spilonotus) is a bird of prey belonging to the marsh harrier group of harriers. It was previously considered to be conspecific with the western marsh harrier (Circus aeruginosus) but is now usually classified as a separate species. It has two subspecies: C. s. spilonotus in eastern Asia and C. s. spilothorax (Papuan harrier, perhaps a separate species) in New Guinea.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Circus_spilotonus_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Circus_spilotonus_%28cropped%29.jpg/330px-Circus_spilotonus_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Circus_spilotonus_(cropped).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "markaharper1",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Circus_spilonotus.jpg/1280px-Circus_spilonotus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Circus_spilonotus.jpg/330px-Circus_spilonotus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Circus_spilonotus.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Charles Lam from Hong Kong, China",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Circus"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Eastern Marsh Harrier"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1269372"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eastern_marsh_harrier"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

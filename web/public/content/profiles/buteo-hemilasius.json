@@ -1,0 +1,54 @@
+{
+ "scientific": "Buteo hemilasius",
+ "name": "Upland Buzzard",
+ "qid": "Q852194",
+ "description": "species of bird",
+ "extract": "The upland buzzard (Buteo hemilasius) is a species of bird of prey in the family Accipitridae. The largest species of the Buteo genus, this buzzard lives in mountainous grassy and rocky areas in areas of Central Asia, northern South Asia and East Asia from Kazakhstan to Korea. The upland buzzard is migratory but typically covers a short distance apparently to avoid snow cover that may hamper prey capture. This species primarily subsists on small mammals but does not shun alternate prey from small to large birds and insects. This little-known raptor has a large range, and though generally uncommon, it is not thought to be rare or declining as a species. As a result, it is classified as least concern by the IUCN.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Buteo_hemilasius_from_iNaturalist_photo_252919535.jpg/1280px-Buteo_hemilasius_from_iNaturalist_photo_252919535.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Buteo_hemilasius_from_iNaturalist_photo_252919535.jpg/330px-Buteo_hemilasius_from_iNaturalist_photo_252919535.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Buteo_hemilasius_from_iNaturalist_photo_252919535.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Kudaibergen Amirekul (amirekul)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 143.0,
+   "max": 161.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Buteo"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q852194"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Upland_buzzard"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

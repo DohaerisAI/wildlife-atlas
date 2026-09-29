@@ -1,0 +1,45 @@
+{
+ "scientific": "Dryocopus hodgei",
+ "name": "Andaman Woodpecker",
+ "qid": "Q489903",
+ "description": "species of bird",
+ "extract": "The Andaman woodpecker (Dryocopus hodgei) is a species of bird in the woodpecker family Picidae. It is endemic to the Andaman Islands in India. Its natural habitat is tropical moist lowland forests. It is threatened by habitat loss.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Andaman_Woodpecker_%28Dryocopus_hodgei%29_on_a_tree.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Andaman_Woodpecker_%28Dryocopus_hodgei%29_on_a_tree.jpg/330px-Andaman_Woodpecker_%28Dryocopus_hodgei%29_on_a_tree.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Andaman_Woodpecker_(Dryocopus_hodgei)_on_a_tree.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "suhasanand",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dryocopus"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q489903"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Andaman_woodpecker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

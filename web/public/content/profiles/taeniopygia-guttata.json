@@ -1,0 +1,55 @@
+{
+ "scientific": "Taeniopygia guttata",
+ "name": "Zebra Finch",
+ "qid": "Q331065",
+ "description": "species of bird",
+ "extract": "The Sunda zebra finch (Taeniopygia guttata) is a species of bird in the family Estrildidae. It is found in the Lesser Sundas. For almost two centuries, its closest relative from Australia was generally included in T.guttata as a subspecies; since the 2020s it is generally considered a separate species Taeniopygia castanotis.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/2014-08-19_Zebra_Finch%2C_Sumba%2C_Nusa_Tenggara_Timur%2C_Indonesia_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/2014-08-19_Zebra_Finch%2C_Sumba%2C_Nusa_Tenggara_Timur%2C_Indonesia_1.jpg/330px-2014-08-19_Zebra_Finch%2C_Sumba%2C_Nusa_Tenggara_Timur%2C_Indonesia_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2014-08-19_Zebra_Finch,_Sumba,_Nusa_Tenggara_Timur,_Indonesia_1.jpg",
+   "license": "CC BY 4.0",
+   "artist": "christoph_moning",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 9.8,
+   "max": 9.8,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Taeniopygia"
+  },
+  "family": {
+   "scientific": "Estrildidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Timor Zebra Finch",
+  "Sunda Zebra Finch"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q331065"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sunda_zebra_finch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

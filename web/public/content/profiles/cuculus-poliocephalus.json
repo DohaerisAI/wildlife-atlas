@@ -1,0 +1,62 @@
+{
+ "scientific": "Cuculus poliocephalus",
+ "name": "Lesser Cuckoo",
+ "qid": "Q495144",
+ "description": "species of bird",
+ "extract": "The lesser cuckoo (Cuculus poliocephalus) is a species of cuckoo in the family Cuculidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Lesser_Cuckoo_by_Tisha_Mukherjee_16.jpg/1280px-Lesser_Cuckoo_by_Tisha_Mukherjee_16.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Lesser_Cuckoo_by_Tisha_Mukherjee_16.jpg/330px-Lesser_Cuckoo_by_Tisha_Mukherjee_16.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lesser_Cuckoo_by_Tisha_Mukherjee_16.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Cuculus_poliocephalus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Cuculus_poliocephalus.jpg/330px-Cuculus_poliocephalus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cuculus_poliocephalus.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Ron Knight from Seaford, East Sussex, United Kingdom",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 2.8,
+   "max": 2.8,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cuculus"
+  },
+  "family": {
+   "scientific": "Cuculidae"
+  },
+  "order": {
+   "scientific": "Cuculiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q495144"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lesser_cuckoo"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

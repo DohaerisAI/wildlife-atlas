@@ -1,0 +1,54 @@
+{
+ "scientific": "Gallinago solitaria",
+ "name": "Solitary Snipe",
+ "qid": "Q934557",
+ "description": "species of bird",
+ "extract": "The solitary snipe (Gallinago solitaria) is a stocky wader. It is found in the  Palearctic from northeast Iran to Korea and Japan.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Solitary_Snipe.jpg/1280px-Solitary_Snipe.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Solitary_Snipe.jpg/330px-Solitary_Snipe.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Solitary_Snipe.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "WildlifeOdyssey Amit",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 51.0,
+   "max": 56.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Gallinago"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q934557"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Solitary_snipe"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

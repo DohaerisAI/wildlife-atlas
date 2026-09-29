@@ -1,0 +1,66 @@
+{
+ "scientific": "Haliaeetus leucoryphus",
+ "name": "Pallas’s Fish Eagle",
+ "qid": "Q271462",
+ "description": "species of bird",
+ "extract": "Pallas's fish eagle (Haliaeetus leucoryphus), also known as Pallas's sea eagle or band-tailed fish eagle, is a large, brownish sea eagle. It breeds in the east Palearctic in Kazakhstan, Russia, Tajikistan, Turkmenistan, Uzbekistan, Mongolia, China, India, Nepal, Bangladesh, Myanmar and Bhutan. It is listed as Endangered on the IUCN Red List. It is partially migratory, with Central Asian birds wintering among the southern Asian birds in northern India, and also further west to the Persian Gulf.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Pallas%27s_Fish_Eagle_%28_Haliaeetus_leucoryphus%29_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Pallas%27s_Fish_Eagle_%28_Haliaeetus_leucoryphus%29_2.jpg/330px-Pallas%27s_Fish_Eagle_%28_Haliaeetus_leucoryphus%29_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pallas%27s_Fish_Eagle_(_Haliaeetus_leucoryphus)_2.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee Yap",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Pallas%27s_Fish_Eagle_%28_Haliaeetus_leucoryphus%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Pallas%27s_Fish_Eagle_%28_Haliaeetus_leucoryphus%29.jpg/330px-Pallas%27s_Fish_Eagle_%28_Haliaeetus_leucoryphus%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pallas%27s_Fish_Eagle_(_Haliaeetus_leucoryphus).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee Yap",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 180.0,
+   "max": 215.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 117.0,
+   "max": 3207.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Haliaeetus"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Pallas’s fish-eagle"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q271462"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pallas%27s_fish_eagle"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

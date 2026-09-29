@@ -1,0 +1,57 @@
+{
+ "scientific": "Riparia chinensis",
+ "name": "Grey-throated Martin",
+ "qid": "Q3136320",
+ "description": "species of bird",
+ "extract": "The grey-throated martin or Asian plain martin (Riparia chinensis) is a small passerine bird in the swallow family.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Grey-throated_Sand-martin_Riparia_chinensis_by_Dr._Raju_Kasambe_%285%29.jpg/1280px-Grey-throated_Sand-martin_Riparia_chinensis_by_Dr._Raju_Kasambe_%285%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Grey-throated_Sand-martin_Riparia_chinensis_by_Dr._Raju_Kasambe_%285%29.jpg/330px-Grey-throated_Sand-martin_Riparia_chinensis_by_Dr._Raju_Kasambe_%285%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grey-throated_Sand-martin_Riparia_chinensis_by_Dr._Raju_Kasambe_(5).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dr. Raju Kasambe",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Riparia_chinensis_from_iNaturalist_photo_192786248_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Riparia_chinensis_from_iNaturalist_photo_192786248_%28cropped%29.jpg/330px-Riparia_chinensis_from_iNaturalist_photo_192786248_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Riparia_chinensis_from_iNaturalist_photo_192786248_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "尹若宇 (oscaryin)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Riparia"
+  },
+  "family": {
+   "scientific": "Hirundinidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Asian Plain Martin"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3136320"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey-throated_martin"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

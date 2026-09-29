@@ -1,0 +1,46 @@
+{
+ "scientific": "Yuhina gularis",
+ "name": "Stripe-throated Yuhina",
+ "qid": "Q1037999",
+ "description": "species of bird",
+ "extract": "The stripe-throated yuhina (Yuhina gularis) is a bird species in the white-eye family Zosteropidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Stripe_throated_Yuhina.jpg/1280px-Stripe_throated_Yuhina.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Stripe_throated_Yuhina.jpg/330px-Stripe_throated_Yuhina.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Stripe_throated_Yuhina.jpg",
+   "license": "CC BY 2.0",
+   "artist": "https://www.flickr.com/photos/finlap/",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Yuhina"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1037999"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Stripe-throated_yuhina"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

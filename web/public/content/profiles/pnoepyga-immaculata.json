@@ -1,0 +1,46 @@
+{
+ "scientific": "Pnoepyga immaculata",
+ "name": "Nepal Wren Babbler",
+ "qid": "Q3726823",
+ "description": "species of bird",
+ "extract": "The Nepal cupwing (Pnoepyga immaculata), also known as the Nepal wren-babbler or immaculate cupwing, is a small species of passerine bird in the family Pnoepygidae. It is native to Uttarakhand, Himachal Pradesh, Tibet, and Nepal. It is found in dense montane forest in the Himalayas.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Pnoepyga_immaculata.jpg/1280px-Pnoepyga_immaculata.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Pnoepyga_immaculata.jpg/330px-Pnoepyga_immaculata.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pnoepyga_immaculata.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Pkspks",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pnoepyga"
+  },
+  "family": {
+   "scientific": "Pnoepygidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3726823"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nepal_cupwing"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

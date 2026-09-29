@@ -1,0 +1,51 @@
+{
+ "scientific": "Corvus splendens",
+ "name": "House Crow",
+ "qid": "Q507383",
+ "description": "species of bird",
+ "extract": "The house crow (Corvus splendens), also known as the Indian, greynecked, Ceylon or Colombo crow, is a common bird of the crow family that is of Asian origin but now found in many parts of the world, where they arrived assisted by shipping. It is between the jackdaw and the carrion crow in size (40 cm (16 in) in length) but is slimmer than either. The forehead, crown, throat and upper breast are a richly glossed black, whilst the neck and breast are a lighter grey-brown in colour. The wings, tail and legs are black. There are regional variations in the thickness of the bill and the depth of colour in areas of the plumage.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/House-Crow444.jpg/1280px-House-Crow444.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/House-Crow444.jpg/330px-House-Crow444.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:House-Crow444.jpg",
+   "license": "GFDL 1.2",
+   "artist": "Benjamint444",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 13.7,
+   "max": 317.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Corvus"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q507383"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/House_crow"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

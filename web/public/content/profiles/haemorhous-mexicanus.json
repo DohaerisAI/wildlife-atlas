@@ -1,0 +1,67 @@
+{
+ "scientific": "Haemorhous mexicanus",
+ "name": "House Finch",
+ "qid": "Q25170208",
+ "description": "species of bird",
+ "extract": "The house finch (Haemorhous mexicanus) is a North American bird in the finch family. It is native to Mexico and southwestern United States, but has since been introduced to the eastern part of North America and Hawaiʻi, and is found year-round in almost all parts of the United States and most of Mexico, with breeding grounds well into Canada as far north as northern Alberta. There are estimated to be 40 million house finches across North America, making it the second-most populous finch, just behind the American goldfinch. The house finch and the other two American rosefinches (Cassin's and purple finch) are placed in the genus Haemorhous.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Haemorhous_mexicanus_mexicanus%2C_Queretaro%2C_Mexico_1.jpg/1280px-Haemorhous_mexicanus_mexicanus%2C_Queretaro%2C_Mexico_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Haemorhous_mexicanus_mexicanus%2C_Queretaro%2C_Mexico_1.jpg/330px-Haemorhous_mexicanus_mexicanus%2C_Queretaro%2C_Mexico_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Haemorhous_mexicanus_mexicanus,_Queretaro,_Mexico_1.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "sergio niebla from Cd. Victoria, Tamaulipas, México",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Haemorhous_mexicanus_mexicanus%2C_Queretaro%2C_Mexico_2.jpg/1280px-Haemorhous_mexicanus_mexicanus%2C_Queretaro%2C_Mexico_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Haemorhous_mexicanus_mexicanus%2C_Queretaro%2C_Mexico_2.jpg/330px-Haemorhous_mexicanus_mexicanus%2C_Queretaro%2C_Mexico_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Haemorhous_mexicanus_mexicanus,_Queretaro,_Mexico_2.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "sergio niebla from Cd. Victoria, Tamaulipas, México",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/House_Finch_4268-002.jpg/1280px-House_Finch_4268-002.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/House_Finch_4268-002.jpg/330px-House_Finch_4268-002.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:House_Finch_4268-002.jpg",
+   "license": "CC BY 2.0",
+   "artist": "nigel from vancouver, Canada",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Haemorhous"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Mexican house finch",
+  "Carpodacus mexicanus",
+  "Mexican rosefinch"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25170208"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/House_finch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

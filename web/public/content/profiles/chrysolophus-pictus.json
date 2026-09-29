@@ -1,0 +1,70 @@
+{
+ "scientific": "Chrysolophus pictus",
+ "name": "Golden Pheasant",
+ "qid": "Q335113",
+ "description": "species of bird",
+ "extract": "The golden pheasant (Chrysolophus pictus), also known as the Chinese pheasant, and rainbow pheasant, is a gamebird of the order Galliformes (gallinaceous birds) and the family Phasianidae (pheasants). The genus name is from Ancient Greek khrusolophos, \"with golden crest\", and pictus is Latin for \"painted\" from pingere, \"to paint\".",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Golden_Pheasant%2C_Tangjiahe_Nature_Reserve.jpg/1280px-Golden_Pheasant%2C_Tangjiahe_Nature_Reserve.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Golden_Pheasant%2C_Tangjiahe_Nature_Reserve.jpg/330px-Golden_Pheasant%2C_Tangjiahe_Nature_Reserve.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Golden_Pheasant,_Tangjiahe_Nature_Reserve.jpg",
+   "license": "CC BY 3.0",
+   "artist": "Jmhullot",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Golden_Pheasant%2C_Tangjiahe_Nature_Reserve%2C_Sichuan.jpg/1280px-Golden_Pheasant%2C_Tangjiahe_Nature_Reserve%2C_Sichuan.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Golden_Pheasant%2C_Tangjiahe_Nature_Reserve%2C_Sichuan.jpg/330px-Golden_Pheasant%2C_Tangjiahe_Nature_Reserve%2C_Sichuan.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Golden_Pheasant,_Tangjiahe_Nature_Reserve,_Sichuan.jpg",
+   "license": "CC BY 3.0",
+   "artist": "Jmhullot",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 70.0,
+   "max": 70.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 26.7,
+   "max": 725.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chrysolophus"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Chinese pheasant"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q335113"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Golden_pheasant"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,46 @@
+{
+ "scientific": "Aratinga jandaya",
+ "name": "Jandaya Parakeet",
+ "qid": "Q1271679",
+ "description": "species of bird",
+ "extract": "The jandaya parakeet (Aratinga jandaya), or jenday conure, is a small Neotropical parrot with green wings and tail, reddish-orange body, yellow head and neck, orange cheeks, and black bill, native to wooded habitats in northeastern Brazil. It is a member of the Aratinga solstitialis complex of parakeets very closely related to, and possibly subspecies of the sun conure.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Aratinga_Jandaya_-in_tree-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Aratinga_Jandaya_-in_tree-8.jpg/330px-Aratinga_Jandaya_-in_tree-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Aratinga_Jandaya_-in_tree-8.jpg",
+   "license": "Public domain",
+   "artist": "GIANNIZZZERO at English Wikipedia",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aratinga"
+  },
+  "family": {
+   "scientific": "Psittacidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1271679"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jandaya_parakeet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,63 @@
+{
+ "scientific": "Aethopyga ignicauda",
+ "name": "Fire-tailed Sunbird",
+ "qid": "Q2471281",
+ "description": "species of bird",
+ "extract": "The fire-tailed sunbird (Aethopyga ignicauda) is a species of sunbird in the family Nectariniidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/AethopygaIgnicaudaGould.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/AethopygaIgnicaudaGould.jpg/330px-AethopygaIgnicaudaGould.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:AethopygaIgnicaudaGould.jpg",
+   "license": "Public domain",
+   "artist": "John Gould & Henry C. Richter",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Fire-tailed-Sunbird_East_Sikkim_India_12.05.2014.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Fire-tailed-Sunbird_East_Sikkim_India_12.05.2014.jpg/330px-Fire-tailed-Sunbird_East_Sikkim_India_12.05.2014.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Fire-tailed-Sunbird_East_Sikkim_India_12.05.2014.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Fire-tailed_sunbird_%28Aethopyga_ignicauda_ignicauda%29_female_Phulchowki.jpg/1280px-Fire-tailed_sunbird_%28Aethopyga_ignicauda_ignicauda%29_female_Phulchowki.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Fire-tailed_sunbird_%28Aethopyga_ignicauda_ignicauda%29_female_Phulchowki.jpg/330px-Fire-tailed_sunbird_%28Aethopyga_ignicauda_ignicauda%29_female_Phulchowki.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Fire-tailed_sunbird_(Aethopyga_ignicauda_ignicauda)_female_Phulchowki.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aethopyga"
+  },
+  "family": {
+   "scientific": "Nectariniidae",
+   "name": "sunbird"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2471281"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fire-tailed_sunbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

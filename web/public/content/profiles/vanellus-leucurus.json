@@ -1,0 +1,54 @@
+{
+ "scientific": "Vanellus leucurus",
+ "name": "White-tailed Lapwing",
+ "qid": "Q827245",
+ "description": "species of bird",
+ "extract": "The white-tailed lapwing or white-tailed plover (Vanellus leucurus) is a wader in the lapwing genus. The genus name Vanellus is Medieval Latin for a lapwing and derives from vannus, which refers to a winnowing fan. The specific leucurus is from Ancient Greek leukouros, \"white-tailed\".",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Vanellus_leucurus%2C_Ag-Gel_National_Park.jpg/1280px-Vanellus_leucurus%2C_Ag-Gel_National_Park.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Vanellus_leucurus%2C_Ag-Gel_National_Park.jpg/330px-Vanellus_leucurus%2C_Ag-Gel_National_Park.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Vanellus_leucurus,_Ag-Gel_National_Park.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Elşad İbrahimov",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 55.0,
+   "max": 70.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Vanellus"
+  },
+  "family": {
+   "scientific": "Charadriidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q827245"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-tailed_lapwing"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

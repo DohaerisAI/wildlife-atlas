@@ -1,0 +1,54 @@
+{
+ "scientific": "Tyto longimembris",
+ "name": "Eastern Grass Owl",
+ "qid": "Q306919",
+ "description": "species of bird",
+ "extract": "The eastern grass owl (Tyto longimembris), also known as Chinese grass owl or Australasian grass owl, is a species of owl in the family Tytonidae. They feed predominantly on small rodents.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Eastern-grass-owl-1134817.jpg/1280px-Eastern-grass-owl-1134817.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Eastern-grass-owl-1134817.jpg/330px-Eastern-grass-owl-1134817.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eastern-grass-owl-1134817.jpg",
+   "license": "CC0",
+   "artist": "Ronny Overhate",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tyto"
+  },
+  "family": {
+   "scientific": "Tytonidae"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Australasian Grass-owl",
+  "Australasian Grass Owl",
+  "Eastern Grass-owl"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q306919"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eastern_grass_owl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

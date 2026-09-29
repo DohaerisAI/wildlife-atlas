@@ -1,0 +1,62 @@
+{
+ "scientific": "Irena puella",
+ "name": "Asian Fairy-bluebird",
+ "qid": "Q605846",
+ "description": "species of birds",
+ "extract": "The Asian fairy-bluebird (Irena puella) is a medium-sized, arboreal passerine bird. This fairy-bluebird is found in forests across tropical southern Asia, Indochina and the Greater Sundas. Two or three eggs are laid in a small cup nest in a tree. It was described by British ornithologist John Latham in 1790. The only other member of the genus and family is the Philippine fairy-bluebird, I. cyanogastra, which replaces the Asian fairy-bluebird in most of the Philippines. Both species are considered as sacred to the Tagalog people as they are perceived as tigmamanukan omens.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Asian_Fairy-bluebird_%28Irena_puella%29_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Asian_Fairy-bluebird_%28Irena_puella%29_%28cropped%29.jpg/330px-Asian_Fairy-bluebird_%28Irena_puella%29_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Asian_Fairy-bluebird_(Irena_puella)_(cropped).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jason Thompson",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Asian_Fairy-bluebird-Irena_puella.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Asian_Fairy-bluebird-Irena_puella.JPG/330px-Asian_Fairy-bluebird-Irena_puella.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Asian_Fairy-bluebird-Irena_puella.JPG",
+   "license": "CC BY 3.0",
+   "artist": "K. Mohan Raj",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 65.0,
+   "max": 65.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Irena"
+  },
+  "family": {
+   "scientific": "Irenidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "asian fairy bluebird"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q605846"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Asian_fairy-bluebird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

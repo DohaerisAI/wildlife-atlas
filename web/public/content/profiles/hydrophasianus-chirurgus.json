@@ -1,0 +1,70 @@
+{
+ "scientific": "Hydrophasianus chirurgus",
+ "name": "Pheasant-tailed Jacana",
+ "qid": "Q18861",
+ "description": "species of bird",
+ "extract": "The pheasant-tailed jacana (Hydrophasianus chirurgus) is a jacana in the monotypic genus Hydrophasianus. Like all other jacanas, they have elongated toes and nails that enable them to walk on floating vegetation in shallow lakes, their preferred habitat. They may also swim or wade in water reaching their body while foraging mainly for invertebrate prey. They are found in tropical Asia from Yemen in the west to the Philippines in the east and move seasonally in parts of their range. They are the only jacanas that migrate long distances and have different non-breeding and breeding plumages. The pheasant-tailed jacana forages by swimming or by walking on aquatic vegetation. Females are larger than males and are polyandrous, laying several clutches that are raised by different males in their harem.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Pheasant-tailed_jacanas_%28Hydrophasianus_chirurgus%29_pair_cr.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Pheasant-tailed_jacanas_%28Hydrophasianus_chirurgus%29_pair_cr.jpg/330px-Pheasant-tailed_jacanas_%28Hydrophasianus_chirurgus%29_pair_cr.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pheasant-tailed_jacanas_(Hydrophasianus_chirurgus)_pair_cr.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Hydrophasianus_chirurgus_P6273470.jpg/1280px-Hydrophasianus_chirurgus_P6273470.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Hydrophasianus_chirurgus_P6273470.jpg/330px-Hydrophasianus_chirurgus_P6273470.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hydrophasianus_chirurgus_P6273470.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Alnus",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Pheasant_tailed_Jacana_%28Non-breeding%29_I_IMG_8638.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Pheasant_tailed_Jacana_%28Non-breeding%29_I_IMG_8638.jpg/330px-Pheasant_tailed_Jacana_%28Non-breeding%29_I_IMG_8638.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pheasant_tailed_Jacana_(Non-breeding)_I_IMG_8638.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 14.1,
+   "max": 231.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Hydrophasianus"
+  },
+  "family": {
+   "scientific": "Jacanidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q18861"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pheasant-tailed_jacana"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

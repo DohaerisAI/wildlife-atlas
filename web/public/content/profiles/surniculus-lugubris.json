@@ -1,0 +1,52 @@
+{
+ "scientific": "Surniculus lugubris",
+ "name": "Drongo Cuckoo",
+ "qid": "Q1268852",
+ "description": "species of bird",
+ "extract": "The square-tailed drongo-cuckoo (Surniculus lugubris) is a species of cuckoo that resembles a black drongo. It is found along the Himalayas extending east into Southeast Asia. The calls are series of piercing sharp whistles rising in pitch but shrill and choppily delivered. In the past, the species S. lugubris also included the subspecies dicruroides, which is now treated as a separate species, the fork-tailed drongo-cuckoo.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Square-tailed_Drongo-Cuckoo_2.jpg/1280px-Square-tailed_Drongo-Cuckoo_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Square-tailed_Drongo-Cuckoo_2.jpg/330px-Square-tailed_Drongo-Cuckoo_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Square-tailed_Drongo-Cuckoo_2.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "TonyCastro",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Surniculus"
+  },
+  "family": {
+   "scientific": "Cuculidae"
+  },
+  "order": {
+   "scientific": "Cuculiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Asian Drongo-Cuckoo"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1268852"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Square-tailed_drongo-cuckoo"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

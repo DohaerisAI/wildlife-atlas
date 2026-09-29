@@ -1,0 +1,54 @@
+{
+ "scientific": "Dendrocitta bayleii",
+ "name": "Andaman Treepie",
+ "qid": "Q1591829",
+ "description": "species of bird",
+ "extract": "The Andaman treepie (Dendrocitta bayleii) is a species of bird in the family Corvidae. First described by Robert Christopher Tytler in 1863, it is endemic to the Andaman Islands of India, where its natural habitat is dense tropical moist lowland forest, where it typically is found near the largest trees. It is threatened by habitat loss caused by logging in its restricted range.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Dendrocitta_bayleii_168345443.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Dendrocitta_bayleii_168345443.jpg/330px-Dendrocitta_bayleii_168345443.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dendrocitta_bayleii_168345443.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Paulmathi Vinod",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 102.0,
+   "max": 102.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dendrocitta"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Dendrocitta bayleyi"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1591829"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Andaman_treepie"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

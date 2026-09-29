@@ -1,0 +1,50 @@
+{
+ "scientific": "Psilopogon viridis",
+ "name": "White-cheeked Barbet",
+ "qid": "Q27074836",
+ "description": "species of bird",
+ "extract": "The white-cheeked barbet or small green barbet (Psilopogon viridis) is a species of Asian barbet found in southern India. It is very similar to the more widespread brown-headed barbet (or large green barbet, Psilopogon zeylanicus), but this species has a distinctive supercilium and a broad white cheek stripe below the eye and is found in the forest areas of the Western Ghats, parts of the Eastern Ghats and adjoining hills. The brown-headed barbet has an orange eye-ring but the calls are very similar and the two species occur together in some of the drier forests to the east of the Western Ghats. Like all other Asian barbets, they are mainly frugivorous (although they may sometimes eat insects), and use their bills to excavate nest cavities in trees.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/White-cheeked_Barbet%2C_Bengaluru%2C_05_FEB_2017.jpg/1280px-White-cheeked_Barbet%2C_Bengaluru%2C_05_FEB_2017.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/White-cheeked_Barbet%2C_Bengaluru%2C_05_FEB_2017.jpg/330px-White-cheeked_Barbet%2C_Bengaluru%2C_05_FEB_2017.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-cheeked_Barbet,_Bengaluru,_05_FEB_2017.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Vimal Rajyaguru",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 81.0,
+   "max": 81.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Psilopogon"
+  },
+  "family": {
+   "scientific": "Megalaimidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27074836"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-cheeked_barbet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

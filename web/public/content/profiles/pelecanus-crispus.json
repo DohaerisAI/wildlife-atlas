@@ -1,0 +1,64 @@
+{
+ "scientific": "Pelecanus crispus",
+ "name": "Dalmatian Pelican",
+ "qid": "Q184751",
+ "description": "species of bird",
+ "extract": "The Dalmatian pelican (Pelecanus crispus), also known as the curly-headed pelican, is the largest member of the pelican family and among the heaviest flying birds in the world. With a wingspan typically ranging between 2.7 and 3.2 metres (8 ft 10 in and 10 ft 6 in), it ranks among the largest soaring birds. These pelicans are known for their graceful flight and often travel in synchronised flocks. With a range spanning across much of Central Eurasia, from the eastern Mediterranean in the west to the Taiwan Strait in the east, and from the Persian Gulf in the south to Siberia in the north, it is a short-to-medium-distance migrant between breeding and overwintering areas.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Dalmatian_Pelican_Pelecanus_crispus_by_Dr._Raju_Kasambe_DSCN6899_%283%29.jpg/1280px-Dalmatian_Pelican_Pelecanus_crispus_by_Dr._Raju_Kasambe_DSCN6899_%283%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Dalmatian_Pelican_Pelecanus_crispus_by_Dr._Raju_Kasambe_DSCN6899_%283%29.jpg/330px-Dalmatian_Pelican_Pelecanus_crispus_by_Dr._Raju_Kasambe_DSCN6899_%283%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dalmatian_Pelican_Pelecanus_crispus_by_Dr._Raju_Kasambe_DSCN6899_(3).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dr. Raju Kasambe",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Pelicans_Kerkini_20111227_IMG_5165.jpg/1280px-Pelicans_Kerkini_20111227_IMG_5165.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Pelicans_Kerkini_20111227_IMG_5165.jpg/330px-Pelicans_Kerkini_20111227_IMG_5165.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pelicans_Kerkini_20111227_IMG_5165.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "RoubinakiM",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 295.0,
+   "max": 345.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pelecanus",
+   "name": "pelican"
+  },
+  "family": {
+   "scientific": "Pelecanidae",
+   "name": "pelicans"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q184751"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dalmatian_pelican"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,63 @@
+{
+ "scientific": "Cinclus cinclus",
+ "name": "White-throated Dipper",
+ "qid": "Q201831",
+ "description": "species of bird",
+ "extract": "The white-throated dipper (Cinclus cinclus), also known as the European dipper or just dipper, is an aquatic, passerine bird found in Europe, the Middle East, Central Asia, and the Indian subcontinent. The species is divided into several subspecies, based primarily on colour differences, particularly of the pectoral band.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Cinclus_cinclus_bronwen_y_dwr.jpg/1280px-Cinclus_cinclus_bronwen_y_dwr.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Cinclus_cinclus_bronwen_y_dwr.jpg/330px-Cinclus_cinclus_bronwen_y_dwr.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cinclus_cinclus_bronwen_y_dwr.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Alun Williams333",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Cinclus_cinclus_R%28ThKraft%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Cinclus_cinclus_R%28ThKraft%29.jpg/330px-Cinclus_cinclus_R%28ThKraft%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cinclus_cinclus_R(ThKraft).jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Thomas Kraft (ThKraft)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 28.0,
+   "max": 28.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cinclus"
+  },
+  "family": {
+   "scientific": "Cinclidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Dipper",
+  "European dipper"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q201831"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-throated_dipper"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

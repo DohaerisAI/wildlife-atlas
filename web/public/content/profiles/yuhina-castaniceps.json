@@ -1,0 +1,51 @@
+{
+ "scientific": "Yuhina castaniceps",
+ "name": "Striated Yuhina",
+ "qid": "Q1037895",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Striated_Yuhina_Mahananda_Wildlife_Sanctuary_Darjeeling_West_Bengal_India_09.05.2016.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Striated_Yuhina_Mahananda_Wildlife_Sanctuary_Darjeeling_West_Bengal_India_09.05.2016.jpg/330px-Striated_Yuhina_Mahananda_Wildlife_Sanctuary_Darjeeling_West_Bengal_India_09.05.2016.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Striated_Yuhina_Mahananda_Wildlife_Sanctuary_Darjeeling_West_Bengal_India_09.05.2016.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Striated_Yuhina_-_Bhutan_S4E1473_%2819521210506%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Striated_Yuhina_-_Bhutan_S4E1473_%2819521210506%29.jpg/330px-Striated_Yuhina_-_Bhutan_S4E1473_%2819521210506%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Striated_Yuhina_-_Bhutan_S4E1473_(19521210506).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 13.5,
+   "max": 13.5,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Yuhina"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1037895"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

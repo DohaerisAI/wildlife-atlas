@@ -1,0 +1,49 @@
+{
+ "scientific": "Burhinus indicus",
+ "name": "Indian Stone-curlew",
+ "qid": "Q3594072",
+ "description": "species of bird in the family Burhinidae",
+ "extract": "The Indian stone-curlew or Indian thick-knee (Burhinus indicus) is a species of bird in the family Burhinidae. It was formerly included as a subspecies of the Eurasian stone-curlew. This species is found in the plains of South and South-eastern Asia. They have large eyes and are brown with streaks and pale marks making it hard to spot against the background of soils and rocks. Mostly active in the dark, they produce calls similar to the true curlews, giving them their names.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Indian_Stone_Curlew.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Indian_Stone_Curlew.jpg/330px-Indian_Stone_Curlew.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Indian_Stone_Curlew.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Unknown",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Burhinus"
+  },
+  "family": {
+   "scientific": "Burhinidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3594072"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_stone-curlew"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

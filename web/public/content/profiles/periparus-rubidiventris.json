@@ -1,0 +1,46 @@
+{
+ "scientific": "Periparus rubidiventris",
+ "name": "Rufous-vented Tit",
+ "qid": "Q27075349",
+ "description": "species of bird",
+ "extract": "The rufous-vented tit (Periparus rubidiventris) is an Asian songbird species in the tit and chickadee family (Paridae). Some of its subspecies were formerly assigned to its western relative the rufous-naped tit (P. rufonuchalis), or these two were considered entirely conspecific.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Rufous-vented_Tit.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Rufous-vented_Tit.jpg/330px-Rufous-vented_Tit.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rufous-vented_Tit.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Ron Knight",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Periparus"
+  },
+  "family": {
+   "scientific": "Paridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075349"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rufous-vented_tit"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

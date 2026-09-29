@@ -1,0 +1,37 @@
+{
+ "scientific": "Phylloscopus forresti",
+ "name": "Sichuan Leaf Warbler",
+ "qid": "Q3726914",
+ "description": "species of bird",
+ "extract": "The Sichuan leaf warbler (Phylloscopus forresti) is a species of leaf warbler found in central China.",
+ "images": [],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phylloscopus"
+  },
+  "family": {
+   "scientific": "Phylloscopidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3726914"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sichuan_leaf_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

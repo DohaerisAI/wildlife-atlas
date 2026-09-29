@@ -1,0 +1,51 @@
+{
+ "scientific": "Fulvetta vinipectus",
+ "name": "White-browed Fulvetta",
+ "qid": "Q1443209",
+ "description": "species of bird",
+ "extract": "The white-browed fulvetta (Fulvetta vinipectus) is a bird species in the family Paradoxornithidae. Like the other typical fulvettas, it was long included in the Timaliidae genus Alcippe or in the Sylviidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/White-browed_Fulvetta.jpg/1280px-White-browed_Fulvetta.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/White-browed_Fulvetta.jpg/330px-White-browed_Fulvetta.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-browed_Fulvetta.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Allan Drewitt",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 11.0,
+   "max": 11.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Fulvetta"
+  },
+  "family": {
+   "scientific": "Paradoxornithidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1443209"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-browed_fulvetta"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

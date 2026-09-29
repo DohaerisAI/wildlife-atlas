@@ -1,0 +1,76 @@
+{
+ "scientific": "Fregata minor",
+ "name": "Great Frigatebird",
+ "qid": "Q648494",
+ "description": "species of bird",
+ "extract": "The great frigatebird (Fregata minor) is a large seabird in the frigatebird family. There are major nesting populations in the tropical Pacific Ocean, such as Hawaii and the Galápagos Islands; in the Indian Ocean, colonies can be found in the Seychelles (on Aldabra and Aride Islands) and Mauritius, and there is a tiny population in the South Atlantic, mostly on and around St. Helena and Boatswain Bird Island (Ascension Island).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Male_greater_frigate_bird_displaying.jpg/1280px-Male_greater_frigate_bird_displaying.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Male_greater_frigate_bird_displaying.jpg/330px-Male_greater_frigate_bird_displaying.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Male_greater_frigate_bird_displaying.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Charles J. Sharp",
+   "caption": "Male"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/NPSgreaterfrigatebird.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/NPSgreaterfrigatebird.jpg/330px-NPSgreaterfrigatebird.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:NPSgreaterfrigatebird.jpg",
+   "license": "Public domain",
+   "artist": "Unknown",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Fragata_com%C3%BAn_%28Fregata_minor%29%2C_isla_Lobos%2C_islas_Gal%C3%A1pagos%2C_Ecuador%2C_2015-07-25%2C_DD_55.JPG/1280px-Fragata_com%C3%BAn_%28Fregata_minor%29%2C_isla_Lobos%2C_islas_Gal%C3%A1pagos%2C_Ecuador%2C_2015-07-25%2C_DD_55.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Fragata_com%C3%BAn_%28Fregata_minor%29%2C_isla_Lobos%2C_islas_Gal%C3%A1pagos%2C_Ecuador%2C_2015-07-25%2C_DD_55.JPG/330px-Fragata_com%C3%BAn_%28Fregata_minor%29%2C_isla_Lobos%2C_islas_Gal%C3%A1pagos%2C_Ecuador%2C_2015-07-25%2C_DD_55.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Fragata_com%C3%BAn_(Fregata_minor),_isla_Lobos,_islas_Gal%C3%A1pagos,_Ecuador,_2015-07-25,_DD_55.JPG",
+   "license": "CC BY-SA 4.0",
+   "artist": "Diego Delso",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 218.0,
+   "max": 218.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 74.0,
+   "max": 74.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Fregata"
+  },
+  "family": {
+   "scientific": "Fregatidae",
+   "name": "Frigatebirds"
+  },
+  "order": {
+   "scientific": "Suliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q648494"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_frigatebird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

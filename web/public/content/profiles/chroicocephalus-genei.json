@@ -1,0 +1,66 @@
+{
+ "scientific": "Chroicocephalus genei",
+ "name": "Slender-billed Gull",
+ "qid": "Q391421",
+ "description": "species of bird",
+ "extract": "The slender-billed gull (Chroicocephalus genei) is a mid-sized gull which breeds very locally around the Mediterranean and the north of the western Indian Ocean (e.g. Pakistan) on islands and coastal lagoons. Most of the population is somewhat migratory, wintering further south to as far as North Africa and India. A few birds have wandered to western  Europe. A vagrant individual was reportedly seen on Antigua, April 24, 1976 (AOU, 2000).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Go%C3%A9land_railleur_Thyna012.jpg/1280px-Go%C3%A9land_railleur_Thyna012.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Go%C3%A9land_railleur_Thyna012.jpg/330px-Go%C3%A9land_railleur_Thyna012.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Go%C3%A9land_railleur_Thyna012.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "El Golli Mohamed",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Larus_genei.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Larus_genei.jpg/330px-Larus_genei.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Larus_genei.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "GabrielBuissart",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 94.0,
+   "max": 110.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 29.0,
+   "max": 275.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chroicocephalus"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Larus genei"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q391421"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Slender-billed_gull"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

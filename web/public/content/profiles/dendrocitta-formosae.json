@@ -1,0 +1,54 @@
+{
+ "scientific": "Dendrocitta formosae",
+ "name": "Grey Treepie",
+ "qid": "Q1589793",
+ "description": "species of bird",
+ "extract": "The grey treepie (Dendrocitta formosae), also known as the Himalayan treepie, is an Asian treepie, a medium-sized and long-tailed member of the crow family. The species was first described by Robert Swinhoe in 1863. They are widely distributed along the foothills of the Himalayas in the Indian subcontinent and extending into Indochina, Nepal, southern mainland China and Taiwan. The populations vary in plumage and several are named as subspecies.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Grey_Treepie_-_Taiwan_S4E5639_%2822595777170%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Grey_Treepie_-_Taiwan_S4E5639_%2822595777170%29.jpg/330px-Grey_Treepie_-_Taiwan_S4E5639_%2822595777170%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grey_Treepie_-_Taiwan_S4E5639_(22595777170).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Grey_Treepie_from_Sattal.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Grey_Treepie_from_Sattal.jpg/330px-Grey_Treepie_from_Sattal.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grey_Treepie_from_Sattal.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Godbolemandar",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dendrocitta"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1589793"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey_treepie"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

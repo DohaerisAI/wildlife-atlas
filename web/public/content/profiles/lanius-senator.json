@@ -1,0 +1,59 @@
+{
+ "scientific": "Lanius senator",
+ "name": "Woodchat Shrike",
+ "qid": "Q235052",
+ "description": "species of bird",
+ "extract": "The woodchat shrike (Lanius senator) is a member of the shrike family Laniidae. It can be identified by its red-brown crown and nape. It is mainly insectivorous and favours open wooded areas with scattered trees such as orchards, particularly when there is bare or sandy ground. The woodchat shrike breeds in southern Europe, the Middle East and northwest Africa, and winters in tropical Africa.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Lanius_senator01_new.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Lanius_senator01_new.jpg/330px-Lanius_senator01_new.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lanius_senator01_new.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lanius_senator01.jpg: chausinho\nderivative work: Bogbumper (talk)",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Woodchat.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/99/Woodchat.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Woodchat.jpg",
+   "license": "Public domain",
+   "artist": "Unknown",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 3.4,
+   "max": 3.4,
+   "unit": "g"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lanius"
+  },
+  "family": {
+   "scientific": "Laniidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q235052"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Woodchat_shrike"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

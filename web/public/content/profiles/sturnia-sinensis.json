@@ -1,0 +1,55 @@
+{
+ "scientific": "Sturnia sinensis",
+ "name": "White-shouldered Starling",
+ "qid": "Q1588185",
+ "description": "species of bird",
+ "extract": "The white-shouldered starling (Sturnia sinensis) is a species of bird in the starling family Sturnidae. It breeds in southern China and northern Vietnam; it winters in Southeast Asia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Sturnia_sinensis_%28Mandarinstar_-_White-shouldered_Starling%29_-_Weltvogelpark_Walsrode_2013-03.jpg/1280px-Sturnia_sinensis_%28Mandarinstar_-_White-shouldered_Starling%29_-_Weltvogelpark_Walsrode_2013-03.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Sturnia_sinensis_%28Mandarinstar_-_White-shouldered_Starling%29_-_Weltvogelpark_Walsrode_2013-03.jpg/330px-Sturnia_sinensis_%28Mandarinstar_-_White-shouldered_Starling%29_-_Weltvogelpark_Walsrode_2013-03.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sturnia_sinensis_(Mandarinstar_-_White-shouldered_Starling)_-_Weltvogelpark_Walsrode_2013-03.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Olaf Oliviero Riemer",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 61.0,
+   "max": 61.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sturnia"
+  },
+  "family": {
+   "scientific": "Sturnidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Chinese starling",
+  "Sturnus sinensis"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1588185"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-shouldered_starling"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

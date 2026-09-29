@@ -1,0 +1,59 @@
+{
+ "scientific": "Prinia atrogularis",
+ "name": "Black-throated Prinia",
+ "qid": "Q3726278",
+ "description": "species of bird",
+ "extract": "The black-throated prinia (Prinia atrogularis) is a species of bird in the family Cisticolidae. It is found in the eastern Himalayas from eastern Nepal through northern India, Bhutan and southwestern China. The species was considered to be the same species as the hill prinia, a widespread species in Southeast Asia, and the rufous-crowned prinia of eastern India and Myanmar, but is now treated as a separate species on the basis of morphology, song and genetic studies. The rufuos-crowned prinia is considered its closest relative based on mitochondrial DNA sequence data, and they are thought to have diverged from each other 3.4 million years ago.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Black-throated_Prinia_in_Mungpoo_May_2025_by_Tisha_Mukherjee_01.jpg/1280px-Black-throated_Prinia_in_Mungpoo_May_2025_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Black-throated_Prinia_in_Mungpoo_May_2025_by_Tisha_Mukherjee_01.jpg/330px-Black-throated_Prinia_in_Mungpoo_May_2025_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-throated_Prinia_in_Mungpoo_May_2025_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Black-throated_Prinia_-_Eaglenest_-_Arunachal_Pradesh_-_India_FJ0A1375_%2833521171214%29_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Black-throated_Prinia_-_Eaglenest_-_Arunachal_Pradesh_-_India_FJ0A1375_%2833521171214%29_%28cropped%29.jpg/330px-Black-throated_Prinia_-_Eaglenest_-_Arunachal_Pradesh_-_India_FJ0A1375_%2833521171214%29_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-throated_Prinia_-_Eaglenest_-_Arunachal_Pradesh_-_India_FJ0A1375_(33521171214)_(cropped).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 11.8,
+   "max": 11.8,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Prinia"
+  },
+  "family": {
+   "scientific": "Cisticolidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3726278"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-throated_prinia"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

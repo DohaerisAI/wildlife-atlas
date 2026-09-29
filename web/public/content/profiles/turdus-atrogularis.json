@@ -1,0 +1,54 @@
+{
+ "scientific": "Turdus atrogularis",
+ "name": "Black-throated Thrush",
+ "qid": "Q80780",
+ "description": "species of bird",
+ "extract": "The black-throated thrush (Turdus atrogularis) is a passerine bird in the thrush family. It is sometimes regarded as one subspecies of a polytypic species, \"dark-throated thrush\", red-throated thrush then being the other subspecies. More recent treatments regard the two as separate species.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Svarthalsad_trast%2C_V%C3%A4xj%C3%B6%2C_Februari_2017_%2833349504344%29.jpg/1280px-Svarthalsad_trast%2C_V%C3%A4xj%C3%B6%2C_Februari_2017_%2833349504344%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Svarthalsad_trast%2C_V%C3%A4xj%C3%B6%2C_Februari_2017_%2833349504344%29.jpg/330px-Svarthalsad_trast%2C_V%C3%A4xj%C3%B6%2C_Februari_2017_%2833349504344%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Svarthalsad_trast,_V%C3%A4xj%C3%B6,_Februari_2017_(33349504344).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Hans Norelius from Älvsjö, Sweden",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/A_dark-throated_Thrush_female_-_Dhanachuli%2C_Uttarakhand_India.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/A_dark-throated_Thrush_female_-_Dhanachuli%2C_Uttarakhand_India.jpg/330px-A_dark-throated_Thrush_female_-_Dhanachuli%2C_Uttarakhand_India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:A_dark-throated_Thrush_female_-_Dhanachuli,_Uttarakhand_India.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "soumyajit nandy from Kolkata, India",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turdus"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q80780"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-throated_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,51 @@
+{
+ "scientific": "Cettia major",
+ "name": "Chestnut-crowned Bush Warbler",
+ "qid": "Q1923414",
+ "description": "species of bird",
+ "extract": "The chestnut-crowned bush warbler (Cettia major) is a species of warbler found in South Asia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/CettiaMajorKeulemans.jpg/1280px-CettiaMajorKeulemans.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/CettiaMajorKeulemans.jpg/330px-CettiaMajorKeulemans.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:CettiaMajorKeulemans.jpg",
+   "license": "Public domain",
+   "artist": "John Gerrard Keulemans",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 9.7,
+   "max": 9.7,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cettia"
+  },
+  "family": {
+   "scientific": "Cettiidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1923414"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chestnut-crowned_bush_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

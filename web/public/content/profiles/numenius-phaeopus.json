@@ -1,0 +1,58 @@
+{
+ "scientific": "Numenius phaeopus",
+ "name": "Eurasian Whimbrel",
+ "qid": "Q18858",
+ "description": "species of bird",
+ "extract": "The Eurasian whimbrel (Numenius phaeopus), historically known as the white-rumped whimbrel in North America, is a wader in the large family Scolopacidae. It is one of the most widespread of the curlews, breeding across much of subarctic Palearctic region and Europe as far south as Scotland. This species and the Hudsonian whimbrel were split in 2019, although some taxonomic authorities still consider them to be conspecific.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Whimbrel_Numenius_phaeopus.jpg/1280px-Whimbrel_Numenius_phaeopus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Whimbrel_Numenius_phaeopus.jpg/330px-Whimbrel_Numenius_phaeopus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Whimbrel_Numenius_phaeopus.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 107.0,
+   "max": 107.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Numenius"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Whimbrel",
+  "Jack Curlew"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q18858"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eurasian_whimbrel"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

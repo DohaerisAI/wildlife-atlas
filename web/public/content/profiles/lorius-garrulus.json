@@ -1,0 +1,54 @@
+{
+ "scientific": "Lorius garrulus",
+ "name": "Chattering Lory",
+ "qid": "Q1051641",
+ "description": "endemic parrot of Maluku Utara",
+ "extract": "The chattering lory (Lorius garrulus) is a forest-dwelling parrot endemic to North Maluku, Indonesia. It is considered vulnerable, the main threat being from trapping for the cage-bird trade.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Lorius_garrulus-20070107.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Lorius_garrulus-20070107.jpg/330px-Lorius_garrulus-20070107.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lorius_garrulus-20070107.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Doug Janson",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Chattering_Lory_%28Lorius_garrulus%293.jpg/1280px-Chattering_Lory_%28Lorius_garrulus%293.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Chattering_Lory_%28Lorius_garrulus%293.jpg/330px-Chattering_Lory_%28Lorius_garrulus%293.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chattering_Lory_(Lorius_garrulus)3.jpg",
+   "license": "CC BY 2.0",
+   "artist": "René Modery",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lorius"
+  },
+  "family": {
+   "scientific": "Psittacidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1051641"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chattering_lory"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -3,10 +3,11 @@
  "name": "Olive ridley sea turtle",
  "qid": "Q282385",
  "description": "species of turtle",
- "extract": "The olive ridley sea turtle, also known commonly as the Pacific ridley sea turtle, is a species of turtle in the family Cheloniidae. The species is the second-smallest and most abundant of all sea turtles found in the world. L. olivacea is found in warm and tropical waters, primarily in the Pacific and Indian Oceans, but also in the warm waters of the Atlantic Ocean.",
+ "extract": "The olive ridley sea turtle (Lepidochelys olivacea), also known commonly as the Pacific ridley sea turtle, is a species of turtle in the family Cheloniidae. The species is the second-smallest and most abundant of all sea turtles found in the world. L. olivacea is found in warm and tropical waters, primarily in the Pacific and Indian Oceans, but also in the warm waters of the Atlantic Ocean.",
  "images": [
   {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Lepidochelys_olivacea.jpg/960px-Lepidochelys_olivacea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Lepidochelys_olivacea.jpg/1280px-Lepidochelys_olivacea.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Lepidochelys_olivacea.jpg/330px-Lepidochelys_olivacea.jpg",
    "page": "https://commons.wikimedia.org/wiki/File:Lepidochelys_olivacea.jpg",
    "license": "CC BY-SA 3.0",
    "artist": "Bernard Gagnon",
@@ -19,6 +20,23 @@
    "label": "Vulnerable"
   }
  },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lepidochelys",
+   "name": "Ridley sea turtle"
+  },
+  "family": {
+   "scientific": "Cheloniidae"
+  },
+  "order": {
+   "scientific": "Testudines"
+  }
+ },
+ "other_names": [
+  "Pacific ridley sea turtle",
+  "Pacific ridley turtle",
+  "Olive ridley turtle"
+ ],
  "sources": [
   {
    "label": "Wikidata",

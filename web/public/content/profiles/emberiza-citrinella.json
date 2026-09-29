@@ -1,0 +1,67 @@
+{
+ "scientific": "Emberiza citrinella",
+ "name": "Yellowhammer",
+ "qid": "Q26205",
+ "description": "species of bird",
+ "extract": "The yellowhammer (Emberiza citrinella) is a passerine bird in the bunting family that is native to Eurasia and has been introduced to New Zealand and Australia. Most European birds remain in the breeding range year-round, but the eastern subspecies is partially migratory, with much of the population wintering further south. The male yellowhammer has a bright yellow head, streaked brown back, chestnut rump, and yellow under parts. Other plumages are duller versions of the same pattern. The yellowhammer is common in open areas with some shrubs or trees, and forms small flocks in winter. Its song has a rhythm like \"A little bit of bread and no cheese\". The song is very similar to that of its closest relative, the pine bunting, with which it interbreeds.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Emberiza_citrinella_-Midtjylland%2C_Denmark_-male-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Emberiza_citrinella_-Midtjylland%2C_Denmark_-male-8.jpg/330px-Emberiza_citrinella_-Midtjylland%2C_Denmark_-male-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Emberiza_citrinella_-Midtjylland,_Denmark_-male-8.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Ómar Runólfsson",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Emberiza_citrinella_Oulu_Finland_2020-09-14.jpg/1280px-Emberiza_citrinella_Oulu_Finland_2020-09-14.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Emberiza_citrinella_Oulu_Finland_2020-09-14.jpg/330px-Emberiza_citrinella_Oulu_Finland_2020-09-14.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Emberiza_citrinella_Oulu_Finland_2020-09-14.jpg",
+   "license": "CC0",
+   "artist": "Matti Virtala",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 26.0,
+   "max": 26.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 2.9,
+   "max": 2.9,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Emberiza"
+  },
+  "family": {
+   "scientific": "Emberizidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "scribble-lark"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26205"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yellowhammer"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

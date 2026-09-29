@@ -1,0 +1,62 @@
+{
+ "scientific": "Anous minutus",
+ "name": "Black Noddy",
+ "qid": "Q1273772",
+ "description": "species of bird",
+ "extract": "The black noddy (Anous minutus), also known as white-capped noddy, is a species of tern in the family Laridae. It is a medium-sized seabird with black plumage and a white cap that closely resembles the lesser noddy with which it was at one time considered conspecific. The black noddy has slightly darker plumage and dark rather than pale lores.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Anous_minutus_by_Gregg_Yan_02.jpg/1280px-Anous_minutus_by_Gregg_Yan_02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Anous_minutus_by_Gregg_Yan_02.jpg/330px-Anous_minutus_by_Gregg_Yan_02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Anous_minutus_by_Gregg_Yan_02.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Gregg Yan",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Anous_minutus.JPG/1280px-Anous_minutus.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Anous_minutus.JPG/330px-Anous_minutus.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Anous_minutus.JPG",
+   "license": "Public domain",
+   "artist": "Duncan Wright, USFWS",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 69.0,
+   "max": 69.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anous"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1273772"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black_noddy"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

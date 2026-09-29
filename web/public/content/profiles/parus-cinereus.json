@@ -1,0 +1,49 @@
+{
+ "scientific": "Parus cinereus",
+ "name": "Cinereous Tit",
+ "qid": "Q973837",
+ "description": "species of bird",
+ "extract": "The cinereous tit or Asian tit (Parus cinereus) is a species of bird in the tit family Paridae. This species is made up of several populations that were earlier treated as subspecies of the great tit (Parus major). These birds are grey backed with white undersides. The great tit in the new sense is distinguishable by the greenish-back and yellowish underside. The distribution of this species extends from parts of West Asia across South Asia and into Southeast Asia. The Japanese tit was formerly treated as a separate species but is now grouped together with the cinereous tit.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Asian_Tit_in_Rabindra_Sarobar_January_2024_by_Tisha_Mukherjee_01.jpg/1280px-Asian_Tit_in_Rabindra_Sarobar_January_2024_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Asian_Tit_in_Rabindra_Sarobar_January_2024_by_Tisha_Mukherjee_01.jpg/330px-Asian_Tit_in_Rabindra_Sarobar_January_2024_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Asian_Tit_in_Rabindra_Sarobar_January_2024_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Cinereous_Tit_%28Parus_cinereus%29_%2815275201963%29.jpg/1280px-Cinereous_Tit_%28Parus_cinereus%29_%2815275201963%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Cinereous_Tit_%28Parus_cinereus%29_%2815275201963%29.jpg/330px-Cinereous_Tit_%28Parus_cinereus%29_%2815275201963%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cinereous_Tit_(Parus_cinereus)_(15275201963).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Parus"
+  },
+  "family": {
+   "scientific": "Paridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q973837"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cinereous_tit"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

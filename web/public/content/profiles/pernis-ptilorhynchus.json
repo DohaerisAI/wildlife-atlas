@@ -1,0 +1,58 @@
+{
+ "scientific": "Pernis ptilorhynchus",
+ "name": "Crested Honey Buzzard",
+ "qid": "Q605431",
+ "description": "species of bird",
+ "extract": "The crested honey buzzard (Pernis ptilorhynchus), also known as the Oriental, Asiatic, or Eastern honey buzzard, is a bird of prey in the family Accipitridae, which also includes many other diurnal raptors such as kites, eagles, and harriers. It is a fairly large raptor, larger than the European honey buzzard. The name honey buzzard is derived from their diets, which consist mainly of the larvae of bees and wasps extracted from honey combs. It is sexually dimorphic and has six subspecies.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Oriental_honey_buzzard_Mudumalai_Mar21_DSC01405.jpg/1280px-Oriental_honey_buzzard_Mudumalai_Mar21_DSC01405.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Oriental_honey_buzzard_Mudumalai_Mar21_DSC01405.jpg/330px-Oriental_honey_buzzard_Mudumalai_Mar21_DSC01405.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Oriental_honey_buzzard_Mudumalai_Mar21_DSC01405.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Timothy A. Gonsalves",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 141.8,
+   "max": 141.8,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pernis"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Oriental honey-buzzard",
+  "Pernis ptilorhyncus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q605431"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Crested_honey_buzzard"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,60 @@
+{
+ "scientific": "Streptopelia tranquebarica",
+ "name": "Red Collared Dove",
+ "qid": "Q145593",
+ "description": "species of bird",
+ "extract": "The red collared dove (Streptopelia tranquebarica), also known as the red turtle dove, is a small pigeon which is a resident breeding bird in the tropics of Asia. The male has a blue-grey head and a red-brown body. The female is much plainer, with pale brown plumage similar to that of the larger Eurasian collared dove.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Red_Collared_Dove%2C_Tamil_Nadu_IMG_4960.jpg/1280px-Red_Collared_Dove%2C_Tamil_Nadu_IMG_4960.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Red_Collared_Dove%2C_Tamil_Nadu_IMG_4960.jpg/330px-Red_Collared_Dove%2C_Tamil_Nadu_IMG_4960.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red_Collared_Dove,_Tamil_Nadu_IMG_4960.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Selvaganesh17",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Streptopelia_tranquebarica-male.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Streptopelia_tranquebarica-male.jpg/330px-Streptopelia_tranquebarica-male.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Streptopelia_tranquebarica-male.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Peterwchen",
+   "caption": "Male"
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Streptopelia"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Red Turtle Dove"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q145593"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red_collared_dove"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

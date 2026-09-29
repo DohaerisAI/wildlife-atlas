@@ -1,0 +1,63 @@
+{
+ "scientific": "Anser erythropus",
+ "name": "Lesser white-fronted goose",
+ "qid": "Q191628",
+ "description": "species of bird",
+ "extract": "The lesser white-fronted goose (Anser erythropus) is a goose closely related to the larger greater white-fronted goose (A. albifrons). It breeds in the northernmost Palearctic, but it is a scarce breeder in Europe, with a reintroduction attempt in Fennoscandia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Fj%C3%A4llg%C3%A5s%2C_S%C3%A4tunaviken%2C_%C3%96sterg%C3%B6tland%2C_April_2017_1.jpg/1280px-Fj%C3%A4llg%C3%A5s%2C_S%C3%A4tunaviken%2C_%C3%96sterg%C3%B6tland%2C_April_2017_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Fj%C3%A4llg%C3%A5s%2C_S%C3%A4tunaviken%2C_%C3%96sterg%C3%B6tland%2C_April_2017_1.jpg/330px-Fj%C3%A4llg%C3%A5s%2C_S%C3%A4tunaviken%2C_%C3%96sterg%C3%B6tland%2C_April_2017_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Fj%C3%A4llg%C3%A5s,_S%C3%A4tunaviken,_%C3%96sterg%C3%B6tland,_April_2017_1.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Hans Norelius from Älvsjö, Sweden",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Anser_erythropus_MHNT.ZOO.2010.11.14.6.jpg/1280px-Anser_erythropus_MHNT.ZOO.2010.11.14.6.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Anser_erythropus_MHNT.ZOO.2010.11.14.6.jpg/330px-Anser_erythropus_MHNT.ZOO.2010.11.14.6.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Anser_erythropus_MHNT.ZOO.2010.11.14.6.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Roger Culos",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 115.0,
+   "max": 135.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 100.0,
+   "max": 1797.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anser"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q191628"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lesser_white-fronted_goose"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

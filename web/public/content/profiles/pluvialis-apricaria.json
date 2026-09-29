@@ -1,0 +1,81 @@
+{
+ "scientific": "Pluvialis apricaria",
+ "name": "European Golden Plover",
+ "qid": "Q21148",
+ "description": "species of bird",
+ "extract": "The European golden plover (Pluvialis apricaria), also known as the Eurasian golden plover, greater golden plover, or just the golden plover within Europe, is a relatively large species of plover. This species is similar to two other golden plovers, the American golden plover, Pluvialis dominica, and Pacific golden plover, Pluvialis fulva, which are both slightly smaller, slimmer and longer-legged than European golden plover, and both have grey rather than white axillary (armpit) feathers (visible in flight, and when the bird stretches its wings on the ground).",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Rohkunborri_Pluvialis_Apricaria.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Rohkunborri_Pluvialis_Apricaria.jpg/330px-Rohkunborri_Pluvialis_Apricaria.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rohkunborri_Pluvialis_Apricaria.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Bjørn Christian Tørrissen",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Pluvialis_apricaria1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Pluvialis_apricaria1.jpg/330px-Pluvialis_apricaria1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pluvialis_apricaria1.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "MPF",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/.00_3155_Goldregenpfeifer_%28Pluvialis_apricaria%29.jpg/1280px-.00_3155_Goldregenpfeifer_%28Pluvialis_apricaria%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/.00_3155_Goldregenpfeifer_%28Pluvialis_apricaria%29.jpg/330px-.00_3155_Goldregenpfeifer_%28Pluvialis_apricaria%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:.00_3155_Goldregenpfeifer_(Pluvialis_apricaria).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "W. Bulach",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 72.0,
+   "max": 72.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 32.8,
+   "max": 175.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pluvialis"
+  },
+  "family": {
+   "scientific": "Charadriidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "European Golden-Plover",
+  "Eurasian Golden Plover",
+  "Eurasian Golden-Plover",
+  "Golden Plover"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q21148"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/European_golden_plover"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

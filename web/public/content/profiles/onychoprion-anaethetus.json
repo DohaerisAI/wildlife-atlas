@@ -1,0 +1,62 @@
+{
+ "scientific": "Onychoprion anaethetus",
+ "name": "Bridled Tern",
+ "qid": "Q28490",
+ "description": "species of bird",
+ "extract": "The bridled tern (Onychoprion anaethetus) is a seabird of the family Laridae. It is a bird of the tropical oceans. The scientific name is from Ancient Greek. The genus comes from onux meaning \"claw\" or \"nail\", and prion, meaning \"saw\". The specific anaethetus means \"senseless, stupid\", in reference to its tameness around humans.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Bridled_Tern_%28_Sterna_anaethetus_%29_..._Great_Barrier_Reef_%2C_Australia_%2853374667291%29.jpg/1280px-Bridled_Tern_%28_Sterna_anaethetus_%29_..._Great_Barrier_Reef_%2C_Australia_%2853374667291%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Bridled_Tern_%28_Sterna_anaethetus_%29_..._Great_Barrier_Reef_%2C_Australia_%2853374667291%29.jpg/330px-Bridled_Tern_%28_Sterna_anaethetus_%29_..._Great_Barrier_Reef_%2C_Australia_%2853374667291%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bridled_Tern_(_Sterna_anaethetus_)_..._Great_Barrier_Reef_,_Australia_(53374667291).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "peterichman",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 76.0,
+   "max": 81.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 20.0,
+   "max": 20.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Onychoprion"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Sterna anaethetus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q28490"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bridled_tern"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,57 @@
+{
+ "scientific": "Chrysococcyx maculatus",
+ "name": "Asian Emerald Cuckoo",
+ "qid": "Q864740",
+ "description": "species of bird",
+ "extract": "The Asian emerald cuckoo (Chrysococcyx maculatus) is a species of cuckoo in the family Cuculidae. It is found in Bangladesh, Bhutan, Cambodia, China, India, Indonesia, Laos, Malaysia, Myanmar, Nepal, Sri Lanka, Thailand, and Vietnam. Its natural habitats are subtropical or tropical moist lowland forests and subtropical or tropical moist montane forest.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Male_Asian_Emerald_Cuckoo_%28Chrysococcyx_maculatus%29_on_branch.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Male_Asian_Emerald_Cuckoo_%28Chrysococcyx_maculatus%29_on_branch.jpg/330px-Male_Asian_Emerald_Cuckoo_%28Chrysococcyx_maculatus%29_on_branch.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Male_Asian_Emerald_Cuckoo_(Chrysococcyx_maculatus)_on_branch.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Somchai Kanchanasut from Bangkok, Thailand",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Chrysococcyx_maculatus_-_Khao_Yai.jpg/1280px-Chrysococcyx_maculatus_-_Khao_Yai.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Chrysococcyx_maculatus_-_Khao_Yai.jpg/330px-Chrysococcyx_maculatus_-_Khao_Yai.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chrysococcyx_maculatus_-_Khao_Yai.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chrysococcyx"
+  },
+  "family": {
+   "scientific": "Cuculidae"
+  },
+  "order": {
+   "scientific": "Cuculiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q864740"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Asian_emerald_cuckoo"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

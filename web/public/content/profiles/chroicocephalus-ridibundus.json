@@ -1,0 +1,78 @@
+{
+ "scientific": "Chroicocephalus ridibundus",
+ "name": "Black-headed Gull",
+ "qid": "Q25634",
+ "description": "species of bird",
+ "extract": "The black-headed gull (Chroicocephalus ridibundus) is a small gull that breeds in much of the Palearctic in Europe and Asia, and also locally in smaller numbers in coastal eastern Canada. Most of the population is migratory and winters further south, but many also remain in the milder areas of northwestern Europe. It was formerly sometimes cited as \"common black-headed gull\" to distinguish it from \"great black-headed gull\" (an old name for Pallas's gull).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Lachm%C3%B6we_Chroicocephalus_ridibundus.jpg/1280px-Lachm%C3%B6we_Chroicocephalus_ridibundus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Lachm%C3%B6we_Chroicocephalus_ridibundus.jpg/330px-Lachm%C3%B6we_Chroicocephalus_ridibundus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lachm%C3%B6we_Chroicocephalus_ridibundus.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Black-headed_Gull_-_St_James%27s_Park%2C_London_-_Nov_2006.jpg/1280px-Black-headed_Gull_-_St_James%27s_Park%2C_London_-_Nov_2006.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Black-headed_Gull_-_St_James%27s_Park%2C_London_-_Nov_2006.jpg/330px-Black-headed_Gull_-_St_James%27s_Park%2C_London_-_Nov_2006.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-headed_Gull_-_St_James%27s_Park,_London_-_Nov_2006.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Diliff",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Black-headed_gull_%2805557%29.jpg/1280px-Black-headed_gull_%2805557%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Black-headed_gull_%2805557%29.jpg/330px-Black-headed_gull_%2805557%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-headed_gull_(05557).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Rhododendrites",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 97.0,
+   "max": 97.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 267.0,
+   "max": 294.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chroicocephalus"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Black-headed Gull (Chroicocephalus ridibundus)"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25634"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-headed_gull"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

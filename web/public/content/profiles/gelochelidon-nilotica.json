@@ -1,0 +1,65 @@
+{
+ "scientific": "Gelochelidon nilotica",
+ "name": "Gull-billed Tern",
+ "qid": "Q18834",
+ "description": "species of seabird",
+ "extract": "The gull-billed tern (Gelochelidon nilotica) is a tern in the family Laridae. It is widely distributed and breeds in scattered localities in Europe, Asia, northwest Africa, and the Americas. The Australian gull-billed tern was previously considered a subspecies.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Gelochelidon_nilotica_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Gelochelidon_nilotica_1.jpg/330px-Gelochelidon_nilotica_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gelochelidon_nilotica_1.jpg",
+   "license": "CC BY 2.0",
+   "artist": "leppyone (Vincent P. Lucas)",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Gull-billed_Tern_%28Gelochelidon_nilotica%29_%2834149541540%29.jpg/1280px-Gull-billed_Tern_%28Gelochelidon_nilotica%29_%2834149541540%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Gull-billed_Tern_%28Gelochelidon_nilotica%29_%2834149541540%29.jpg/330px-Gull-billed_Tern_%28Gelochelidon_nilotica%29_%2834149541540%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gull-billed_Tern_(Gelochelidon_nilotica)_(34149541540).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 94.0,
+   "max": 94.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Gelochelidon"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Sterna nilotica"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q18834"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gull-billed_tern"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

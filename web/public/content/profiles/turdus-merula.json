@@ -1,0 +1,71 @@
+{
+ "scientific": "Turdus merula",
+ "name": "Common Blackbird",
+ "qid": "Q25234",
+ "description": "species of thrush",
+ "extract": "The common blackbird (Turdus merula) is a species of true thrush. It is also known as the Eurasian blackbird (especially in North America, to distinguish it from the unrelated New World blackbirds), or simply the blackbird. It breeds in Europe, western Asia, and North Africa, and has been introduced to Australia and New Zealand. It has a number of subspecies across its large range; a few former Asian subspecies are now widely treated as separate species. Depending on latitude, the common blackbird may be resident, partially migratory, or fully migratory.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/20190722_Turdus_Merula_02.jpg/1280px-20190722_Turdus_Merula_02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/20190722_Turdus_Merula_02.jpg/330px-20190722_Turdus_Merula_02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:20190722_Turdus_Merula_02.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Kahvilokki",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Female_Blackbird.jpg/1280px-Female_Blackbird.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Female_Blackbird.jpg/330px-Female_Blackbird.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Female_Blackbird.jpg",
+   "license": "CC BY 2.5",
+   "artist": "Tony Wills",
+   "caption": "Female"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Amselm%C3%A4nnchen_der_Unterart_T._m._azorensis_auf_Terceira.jpg/1280px-Amselm%C3%A4nnchen_der_Unterart_T._m._azorensis_auf_Terceira.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Amselm%C3%A4nnchen_der_Unterart_T._m._azorensis_auf_Terceira.jpg/330px-Amselm%C3%A4nnchen_der_Unterart_T._m._azorensis_auf_Terceira.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Amselm%C3%A4nnchen_der_Unterart_T._m._azorensis_auf_Terceira.jpg",
+   "license": "CC0",
+   "artist": "Hobbyfotowiki",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 36.0,
+   "max": 36.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turdus"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Blackbird",
+  "Eurasian Blackbird"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25234"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_blackbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

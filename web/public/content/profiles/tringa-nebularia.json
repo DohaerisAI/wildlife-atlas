@@ -1,0 +1,70 @@
+{
+ "scientific": "Tringa nebularia",
+ "name": "Common Greenshank",
+ "qid": "Q18840",
+ "description": "species of bird",
+ "extract": "The common greenshank (Tringa nebularia) is a wader in the large family Scolopacidae, the typical waders. The genus name Tringa is the Neo-Latin name given to the green sandpiper by Aldrovandus in 1599 based on Ancient Greek trungas, a thrush-sized, white-rumped, tail-bobbing wading bird mentioned by Aristotle. The specific nebularia is from Latin nebula \"mist\". Like the Norwegian Skoddefoll, this refers to the greenshank's damp marshy habitat.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Greenshank_%28Tringa_nebularia%29.jpg/1280px-Greenshank_%28Tringa_nebularia%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Greenshank_%28Tringa_nebularia%29.jpg/330px-Greenshank_%28Tringa_nebularia%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Greenshank_(Tringa_nebularia).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Tringa_nebularia_-_Laem_Phak_Bia.jpg/1280px-Tringa_nebularia_-_Laem_Phak_Bia.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Tringa_nebularia_-_Laem_Phak_Bia.jpg/330px-Tringa_nebularia_-_Laem_Phak_Bia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tringa_nebularia_-_Laem_Phak_Bia.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 61.0,
+   "max": 61.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 30.5,
+   "max": 173.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tringa"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Tringa (Glottis) nebularia"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q18840"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_greenshank"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

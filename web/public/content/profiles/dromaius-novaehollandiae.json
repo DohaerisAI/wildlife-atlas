@@ -1,0 +1,70 @@
+{
+ "scientific": "Dromaius novaehollandiae",
+ "name": "Emu",
+ "qid": "Q93208",
+ "description": "species of bird",
+ "extract": "The emu (; Dromaius novaehollandiae) is a species of flightless bird endemic to Australia, where it is the tallest native bird. It is the only extant member of the genus Dromaius and the third-tallest living bird after its African ratite relatives, the common ostrich and Somali ostrich. The emu's native ranges cover most of the Australian mainland. The Tasmanian, Kangaroo Island and King Island subspecies became extinct after the European settlement of Australia in 1788.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Emu_1_-_Tidbinbilla.jpg/1280px-Emu_1_-_Tidbinbilla.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Emu_1_-_Tidbinbilla.jpg/330px-Emu_1_-_Tidbinbilla.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Emu_1_-_Tidbinbilla.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Dromaius_novaehollandiae%2C_Port_Campbell_National_Park_1.jpg/1280px-Dromaius_novaehollandiae%2C_Port_Campbell_National_Park_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Dromaius_novaehollandiae%2C_Port_Campbell_National_Park_1.jpg/330px-Dromaius_novaehollandiae%2C_Port_Campbell_National_Park_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dromaius_novaehollandiae,_Port_Campbell_National_Park_1.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "fry_theonly",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Dromaius_novaehollandiae_%2829619237017%29.jpg/1280px-Dromaius_novaehollandiae_%2829619237017%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Dromaius_novaehollandiae_%2829619237017%29.jpg/330px-Dromaius_novaehollandiae_%2829619237017%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dromaius_novaehollandiae_(29619237017).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Donald Hobern from Copenhagen, Denmark",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 581.2,
+   "max": 38300.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dromaius"
+  },
+  "family": {
+   "scientific": "Casuariidae"
+  },
+  "order": {
+   "scientific": "Casuariiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q93208"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Emu"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

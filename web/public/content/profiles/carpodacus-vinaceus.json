@@ -1,0 +1,51 @@
+{
+ "scientific": "Carpodacus vinaceus",
+ "name": "Vinaceous Rosefinch",
+ "qid": "Q1016095",
+ "description": "species of finch in the Fringillidae family",
+ "extract": "The vinaceous rosefinch (Carpodacus vinaceus) is a species of finch in the family Fringillidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Vinaceous_Rosefinch.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Vinaceous_Rosefinch.jpg/330px-Vinaceous_Rosefinch.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Vinaceous_Rosefinch.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Ron Knight",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 22.7,
+   "max": 22.7,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Carpodacus"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1016095"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Vinaceous_rosefinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

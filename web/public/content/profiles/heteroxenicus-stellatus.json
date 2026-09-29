@@ -1,0 +1,51 @@
+{
+ "scientific": "Heteroxenicus stellatus",
+ "name": "Gould's Shortwing",
+ "qid": "Q27075661",
+ "description": "species of bird",
+ "extract": "Gould's shortwing (Heteroxenicus stellatus) is a small species of passerine bird in the family Muscicapidae. It is found in the Himalayas (mainly Uttarakhand, Sikkim and Bhutan), Yunnan and northern parts of Myanmar and Vietnam. It breeds in the eastern Himalayas in rocky areas above the tree-line and winters at lower altitude in wooded valleys.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Gould%27s_Shortwing_iNaturalist.jpg/1280px-Gould%27s_Shortwing_iNaturalist.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Gould%27s_Shortwing_iNaturalist.jpg/330px-Gould%27s_Shortwing_iNaturalist.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gould%27s_Shortwing_iNaturalist.jpg",
+   "license": "CC BY 4.0",
+   "artist": "(c) desertnaturalist, some rights reserved (CC BY)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 21.0,
+   "max": 21.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Heteroxenicus"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075661"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gould%27s_shortwing"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,55 @@
+{
+ "scientific": "Locustella naevia",
+ "name": "Common Grasshopper Warbler",
+ "qid": "Q208710",
+ "description": "species of Old World warbler",
+ "extract": "The common grasshopper warbler or just grasshopper warbler (Locustella naevia) is a species of Old World warbler in the genus Locustella. It breeds across much of temperate Europe and the western Palearctic. It is migratory, wintering across northern tropical Africa just south of the Sahara, and also locally in India.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Grashoppsangare-070512.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Grashoppsangare-070512.jpg/330px-Grashoppsangare-070512.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grashoppsangare-070512.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Stefan Hage, Birds.se",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 17.0,
+   "max": 17.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Locustella"
+  },
+  "family": {
+   "scientific": "Locustellidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Grasshopper Warbler",
+  "Grasshopper-warbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q208710"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_grasshopper_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

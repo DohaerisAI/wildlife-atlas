@@ -1,0 +1,70 @@
+{
+ "scientific": "Calidris minuta",
+ "name": "Little Stint",
+ "qid": "Q27232",
+ "description": "species of bird",
+ "extract": "The little stint (Calidris minuta) is a very small wader. It breeds in arctic Europe and Asia, and is a long-distance migrant, wintering south to Africa and south Asia. It occasionally is a vagrant to North America and to Australia. The genus name is from Ancient Greek kalidris or skalidris, a term used by Aristotle for some grey-coloured waterside birds. The specific minuta is Latin for \"small.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Little_Stint_%28Calidris_minuta%29_%2837027166342%29.jpg/1280px-Little_Stint_%28Calidris_minuta%29_%2837027166342%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Little_Stint_%28Calidris_minuta%29_%2837027166342%29.jpg/330px-Little_Stint_%28Calidris_minuta%29_%2837027166342%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Little_Stint_(Calidris_minuta)_(37027166342).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Little_Stint_%28Calidris_minuta%29_%281%29.jpg/1280px-Little_Stint_%28Calidris_minuta%29_%281%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Little_Stint_%28Calidris_minuta%29_%281%29.jpg/330px-Little_Stint_%28Calidris_minuta%29_%281%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Little_Stint_(Calidris_minuta)_(1).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Ken Billington",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 36.0,
+   "max": 36.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 6.3,
+   "max": 27.1,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Calidris"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Erolia minuta"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27232"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Little_stint"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

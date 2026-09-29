@@ -1,0 +1,53 @@
+{
+ "scientific": "Halcyon coromanda",
+ "name": "Ruddy Kingfisher",
+ "qid": "Q1110083",
+ "description": "species of bird",
+ "extract": "The ruddy kingfisher (Halcyon coromanda) is a medium-sized tree kingfisher, widely distributed in east and southeast Asia.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Ruddy_Kingfisher_Sunderbans_National_Park_West_Bengal_India_23.08.2014.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Ruddy_Kingfisher_Sunderbans_National_Park_West_Bengal_India_23.08.2014.jpg/330px-Ruddy_Kingfisher_Sunderbans_National_Park_West_Bengal_India_23.08.2014.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ruddy_Kingfisher_Sunderbans_National_Park_West_Bengal_India_23.08.2014.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Ruddy_Kingfisher.jpg/1280px-Ruddy_Kingfisher.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Ruddy_Kingfisher.jpg/330px-Ruddy_Kingfisher.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ruddy_Kingfisher.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jason Thompson",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Halcyon"
+  },
+  "family": {
+   "scientific": "Alcedinidae"
+  },
+  "order": {
+   "scientific": "Coraciiformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1110083"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ruddy_kingfisher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

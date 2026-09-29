@@ -1,0 +1,59 @@
+{
+ "scientific": "Ficedula sapphira",
+ "name": "Sapphire Flycatcher",
+ "qid": "Q3284887",
+ "description": "species of bird",
+ "extract": "The sapphire flycatcher (Ficedula sapphira) is a species of bird in the family Muscicapidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Ficedula_sapphira_%28cropped%29.jpg/1280px-Ficedula_sapphira_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Ficedula_sapphira_%28cropped%29.jpg/330px-Ficedula_sapphira_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ficedula_sapphira_(cropped).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Umeshsrinivasan",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Sapphire_Flycatcher_in_Latpanchar_January_2024_by_Tisha_Mukherjee_01.jpg/1280px-Sapphire_Flycatcher_in_Latpanchar_January_2024_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Sapphire_Flycatcher_in_Latpanchar_January_2024_by_Tisha_Mukherjee_01.jpg/330px-Sapphire_Flycatcher_in_Latpanchar_January_2024_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sapphire_Flycatcher_in_Latpanchar_January_2024_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 7.5,
+   "max": 7.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ficedula"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3284887"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sapphire_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

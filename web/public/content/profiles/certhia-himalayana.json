@@ -1,0 +1,55 @@
+{
+ "scientific": "Certhia himalayana",
+ "name": "Bar-tailed Treecreeper",
+ "qid": "Q1036483",
+ "description": "species of bird",
+ "extract": "The bar-tailed treecreeper (Certhia himalayana), or the Himalayan treecreeper, is a species of bird in the family Certhiidae.  It is found primarily in the northern parts of the Indian subcontinent, particularly in the Himalayas, as well as in adjoining regions.  It is found in Afghanistan, India, Iran, Kazakhstan, Myanmar, Nepal, Tibet, Russia, Tajikistan, Turkmenistan, and Uzbekistan.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Bar-tailed_Treecreeper_I_IMG_7308.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Bar-tailed_Treecreeper_I_IMG_7308.jpg/330px-Bar-tailed_Treecreeper_I_IMG_7308.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bar-tailed_Treecreeper_I_IMG_7308.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Bar-tailed_Treecreeper_Bara_Patthar_Nainitaal_Uttarakhand_01.12.2014.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Bar-tailed_Treecreeper_Bara_Patthar_Nainitaal_Uttarakhand_01.12.2014.jpg/330px-Bar-tailed_Treecreeper_Bara_Patthar_Nainitaal_Uttarakhand_01.12.2014.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bar-tailed_Treecreeper_Bara_Patthar_Nainitaal_Uttarakhand_01.12.2014.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Certhia"
+  },
+  "family": {
+   "scientific": "Certhiidae",
+   "name": "treecreeper"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1036483"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bar-tailed_treecreeper"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

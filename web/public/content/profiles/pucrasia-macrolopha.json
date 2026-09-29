@@ -1,0 +1,62 @@
+{
+ "scientific": "Pucrasia macrolopha",
+ "name": "Koklass Pheasant",
+ "qid": "Q899810",
+ "description": "species of bird",
+ "extract": "The koklass pheasant (Pucrasia macrolopha) is a species of gamebird, being closely related to progenitive grouse that lived during the Miocene. They are distantly related to pheasants and are most closely related to grouse and turkeys. Koklass are the only species in the monotypic genus Pucrasia. Both the words koklass and pucrasia have been onomatopœically derived from the bird's territorial call.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Pucrasia_macrolopha_-_egorbirder_-_483766023.jpeg/1280px-Pucrasia_macrolopha_-_egorbirder_-_483766023.jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Pucrasia_macrolopha_-_egorbirder_-_483766023.jpeg/330px-Pucrasia_macrolopha_-_egorbirder_-_483766023.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pucrasia_macrolopha_-_egorbirder_-_483766023.jpeg",
+   "license": "CC BY 4.0",
+   "artist": "egorbirder",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/PucrasiaXanthospilaWolf.jpg/1280px-PucrasiaXanthospilaWolf.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/PucrasiaXanthospilaWolf.jpg/330px-PucrasiaXanthospilaWolf.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:PucrasiaXanthospilaWolf.jpg",
+   "license": "Public domain",
+   "artist": "Joseph Wolf",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 1035.0,
+   "max": 1275.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pucrasia"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q899810"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Koklass_pheasant"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,62 @@
+{
+ "scientific": "Gyps fulvus",
+ "name": "Griffon Vulture",
+ "qid": "Q177856",
+ "description": "species of bird",
+ "extract": "The Eurasian griffon vulture (Gyps fulvus) is a large Old World vulture in the bird of prey family Accipitridae. It is also known as the Eurasian griffon or griffon vulture, although the latter term is sometimes used for the genus Gyps as a whole.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Gyps_fulvus_-Basque_Country-8.jpg/1280px-Gyps_fulvus_-Basque_Country-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Gyps_fulvus_-Basque_Country-8.jpg/330px-Gyps_fulvus_-Basque_Country-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gyps_fulvus_-Basque_Country-8.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Markel Olano, goierritarra1",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 259.1,
+   "max": 259.1,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 252.0,
+   "max": 8328.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Gyps"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Eurasian griffon"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q177856"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eurasian_griffon_vulture"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

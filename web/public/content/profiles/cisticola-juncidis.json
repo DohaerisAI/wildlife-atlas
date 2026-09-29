@@ -1,0 +1,62 @@
+{
+ "scientific": "Cisticola juncidis",
+ "name": "Zitting Cisticola",
+ "qid": "Q210791",
+ "description": "species of bird",
+ "extract": "The zitting cisticola, formerly also fan-tailed warbler or streaked fantail warbler (Cisticola juncidis), is a widely distributed Old World warbler in the family Cisticolidae, whose breeding range includes western and southern Europe, Africa outside the deserts and rainforest, and southern Asia down to northern Australia. A small bird found mainly in grasslands, it is best identified by its rufous rump; in addition it lacks any gold on the collar and the brownish tail is tipped with white. During the breeding season males have a zigzagging flight display accompanied by regular \"zit\" calls that give it its English name. They build their pouch nest suspended within a clump of grass.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Cisticola_juncidis%2C_El_Qanater_el_Khayreyya%2C_Qalyubia_Governorate%2C_Egypt.jpg/1280px-Cisticola_juncidis%2C_El_Qanater_el_Khayreyya%2C_Qalyubia_Governorate%2C_Egypt.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Cisticola_juncidis%2C_El_Qanater_el_Khayreyya%2C_Qalyubia_Governorate%2C_Egypt.jpg/330px-Cisticola_juncidis%2C_El_Qanater_el_Khayreyya%2C_Qalyubia_Governorate%2C_Egypt.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cisticola_juncidis,_El_Qanater_el_Khayreyya,_Qalyubia_Governorate,_Egypt.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Morhaf kamal aljanee",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Zitting_cisticola_2024_04_19_%28cropped%29.jpg/1280px-Zitting_cisticola_2024_04_19_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Zitting_cisticola_2024_04_19_%28cropped%29.jpg/330px-Zitting_cisticola_2024_04_19_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Zitting_cisticola_2024_04_19_(cropped).jpg",
+   "license": "CC BY 4.0",
+   "artist": "Alexis Lours",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Zitting_Cisticola_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg/1280px-Zitting_Cisticola_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Zitting_Cisticola_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg/330px-Zitting_Cisticola_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Zitting_Cisticola_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cisticola"
+  },
+  "family": {
+   "scientific": "Cisticolidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q210791"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Zitting_cisticola"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

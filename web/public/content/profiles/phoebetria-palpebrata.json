@@ -1,0 +1,68 @@
+{
+ "scientific": "Phoebetria palpebrata",
+ "name": "Light-mantled Albatross",
+ "qid": "Q844776",
+ "description": "species of bird",
+ "extract": "The light-mantled albatross (Phoebetria palpebrata), also known as the grey-mantled albatross or the light-mantled sooty albatross, is a small albatross in the genus Phoebetria, which it shares with the sooty albatross. The light-mantled albatross was first described as Phoebetria palpebrata by Johann Reinhold Forster, in 1785, based on a specimen from south of the Cape of Good Hope.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Light_sooty_albatross_flying.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Light_sooty_albatross_flying.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Light_sooty_albatross_flying.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Eric van Poppel & Caroline Don",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Phoebetria_palpebrata_-_Flying_2.jpg/1280px-Phoebetria_palpebrata_-_Flying_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Phoebetria_palpebrata_-_Flying_2.jpg/330px-Phoebetria_palpebrata_-_Flying_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Phoebetria_palpebrata_-_Flying_2.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "François Guerraz",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 183.0,
+   "max": 232.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 3150.0,
+   "max": 3150.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phoebetria"
+  },
+  "family": {
+   "scientific": "Diomedeidae",
+   "name": "albatross"
+  },
+  "order": {
+   "scientific": "Procellariiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q844776"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Light-mantled_albatross"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

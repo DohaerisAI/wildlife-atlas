@@ -1,0 +1,49 @@
+{
+ "scientific": "Phoenicurus erythronotus",
+ "name": "Eversmann's Redstart",
+ "qid": "Q796489",
+ "description": "species of bird",
+ "extract": "Eversmann's redstart (Phoenicurus erythronotus), also known as the rufous-backed redstart, is a passerine bird belonging to the genus Phoenicurus. It was formerly classified in the thrush family Turdidae but is now placed in the Old World flycatcher family Muscicapidae. It was described by the German biologist Eduard Friedrich Eversmann who is commemorated in the bird's English name.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Rufous-backed_Redstart.jpg/1280px-Rufous-backed_Redstart.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Rufous-backed_Redstart.jpg/330px-Rufous-backed_Redstart.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rufous-backed_Redstart.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Flickr user Alastair Rae . Photo uploaded to commons by user ltshears",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phoenicurus"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Rufous-backed Redstart"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q796489"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eversmann%27s_redstart"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

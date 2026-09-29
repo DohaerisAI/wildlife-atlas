@@ -1,0 +1,74 @@
+{
+ "scientific": "Arenaria interpres",
+ "name": "Ruddy Turnstone",
+ "qid": "Q26892",
+ "description": "species of bird",
+ "extract": "The ruddy turnstone (Arenaria interpres) is a small cosmopolitan wading bird, one of two species of turnstone in the genus Arenaria.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Ruddy_Turnstone_%281%29.jpg/1280px-Ruddy_Turnstone_%281%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Ruddy_Turnstone_%281%29.jpg/330px-Ruddy_Turnstone_%281%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ruddy_Turnstone_(1).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Original: neekoh.fi; this edit: MPF",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Arenaria_interpres_%28habitus%29.jpg/1280px-Arenaria_interpres_%28habitus%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Arenaria_interpres_%28habitus%29.jpg/330px-Arenaria_interpres_%28habitus%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Arenaria_interpres_(habitus).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Hans Hillewaert",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Arenaria_interpres_2_-_Boat_Harbour_%28cropped%29.jpg/1280px-Arenaria_interpres_2_-_Boat_Harbour_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Arenaria_interpres_2_-_Boat_Harbour_%28cropped%29.jpg/330px-Arenaria_interpres_2_-_Boat_Harbour_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Arenaria_interpres_2_-_Boat_Harbour_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "JJ Harrison (jjharrison89@facebook.com",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 47.0,
+   "max": 47.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Arenaria"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Turnstone",
+  "Bishop plover"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26892"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ruddy_turnstone"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

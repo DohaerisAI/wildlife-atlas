@@ -1,0 +1,41 @@
+{
+ "scientific": "Carpodacus grandis",
+ "name": "Blyth's Rosefinch",
+ "qid": "Q4930842",
+ "description": "species of bird",
+ "extract": "Blyth's rosefinch (Carpodacus grandis) or the Himalayan rosefinch is a species of finch in the family Fringillidae.  It is found in northern Afghanistan to the western Himalayas.  Its natural habitats are temperate forest and boreal shrubland.  It is sometimes considered a subspecies of the red-mantled rosefinch.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Blyth%27s_Rosefinch.jpg/1280px-Blyth%27s_Rosefinch.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Blyth%27s_Rosefinch.jpg/330px-Blyth%27s_Rosefinch.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blyth%27s_Rosefinch.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Carpodacus"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q4930842"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blyth%27s_rosefinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

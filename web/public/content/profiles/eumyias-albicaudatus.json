@@ -1,0 +1,54 @@
+{
+ "scientific": "Eumyias albicaudatus",
+ "name": "Nilgiri Flycatcher",
+ "qid": "Q2229861",
+ "description": "species of bird",
+ "extract": "The Nilgiri flycatcher (Eumyias albicaudatus) is an Old World flycatcher with a very restricted range in the hills of southern India. It was formerly referred to as the Nilgiri verditer flycatcher because of its similarity to the verditer flycatcher, a winter migrant to the Nilgiris, which, however, has distinct dark lores and a lighter shade of blue. There are two small white patches at the base of the tail. It is found mainly in the higher altitude shola forests of the Western Ghats and the Nilgiris.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/NilgiriFlycatcher_PrasadBR.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/NilgiriFlycatcher_PrasadBR.jpg/330px-NilgiriFlycatcher_PrasadBR.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:NilgiriFlycatcher_PrasadBR.jpg",
+   "license": "CC BY 3.0",
+   "artist": "PrasadBasavaraj",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 16.4,
+   "max": 16.4,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Eumyias"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Nilgiri verditer flycatcher"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2229861"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nilgiri_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

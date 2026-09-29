@@ -1,0 +1,51 @@
+{
+ "scientific": "Geokichla wardii",
+ "name": "Pied Thrush",
+ "qid": "Q27075623",
+ "description": "species of bird",
+ "extract": "The pied thrush (Geokichla wardii) is a member of the thrush family found in India and Sri Lanka. The males are conspicuously patterned in black and white while the females are olive brown and speckled. They breed in the central Himalayan forests and winter in the hill forests of southern India and Sri Lanka. Like many other thrushes, they forage on leaf litter below forest undergrowth and fly into trees when disturbed and sit still making them difficult to locate.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/ZootheraWardiiKeulemans.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/ZootheraWardiiKeulemans.jpg/330px-ZootheraWardiiKeulemans.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:ZootheraWardiiKeulemans.jpg",
+   "license": "Public domain",
+   "artist": "Johannes Gerardus Keulemans (J. G. Keulemans) (8 June 1842, Rotterdam - 29 March 1912, Ilford, Essex (now part of London))",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 59.0,
+   "max": 59.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Geokichla"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075623"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pied_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

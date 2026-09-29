@@ -1,0 +1,62 @@
+{
+ "scientific": "Ducula aenea",
+ "name": "Green Imperial Pigeon",
+ "qid": "Q844860",
+ "description": "species of bird",
+ "extract": "The green imperial pigeon (Ducula aenea) is a large forest pigeon. The large range extends from Nepal, southern India and Sri Lanka eastwards to southern China, Indonesia and the Philippines.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/DuculaAenea.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/DuculaAenea.JPG/330px-DuculaAenea.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:DuculaAenea.JPG",
+   "license": "CC BY 3.0",
+   "artist": "Earthshine..",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Green_Imperial_Pigeon_RWD4.jpg/1280px-Green_Imperial_Pigeon_RWD4.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Green_Imperial_Pigeon_RWD4.jpg/330px-Green_Imperial_Pigeon_RWD4.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Green_Imperial_Pigeon_RWD4.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "DickDaniels  (http://theworldbirds.org/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 545.0,
+   "max": 545.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ducula"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q844860"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Green_imperial_pigeon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

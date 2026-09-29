@@ -1,0 +1,48 @@
+{
+ "scientific": "Coloeus monedula",
+ "name": "Western Jackdaw",
+ "qid": "Q25345384",
+ "description": "species of bird",
+ "extract": "The western jackdaw (Coloeus monedula), also known as the Eurasian jackdaw, the European jackdaw, or simply the jackdaw, is a passerine bird in the crow family. It is found across Europe, western Asia and western North Africa; it is mostly resident, although northern and eastern populations migrate south in the winter. Four subspecies are recognised, which differ mainly in the darker or paler greyscale of the plumage on the head and nape. Linnaeus first described it formally, giving it the name Corvus monedula. The common name derives from the word jack, denoting \"small\", and daw, a less common synonym for \"jackdaw\", and the native English name for the bird.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Dohle_%28Corvus_monedula%29_d1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Dohle_%28Corvus_monedula%29_d1.jpg/330px-Dohle_%28Corvus_monedula%29_d1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dohle_(Corvus_monedula)_d1.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Darkone",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 65.0,
+   "max": 65.0,
+   "unit": "cm"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Coloeus",
+   "name": "jackdaw"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25345384"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Western_jackdaw"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

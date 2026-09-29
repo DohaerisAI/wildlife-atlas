@@ -1,0 +1,49 @@
+{
+ "scientific": "Arborophila rufogularis",
+ "name": "Rufous-throated Hill Partridge",
+ "qid": "Q776309",
+ "description": "species of bird",
+ "extract": "The rufous-throated partridge (Arborophila rufogularis) is a species of bird in the family Phasianidae. It is found in montane forests in India and Southeast Asia. The International Union for Conservation of Nature (IUCN) has assessed it as a least-concern species.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Arborophila_rufogularis_-_Doi_Inthanon.jpg/1280px-Arborophila_rufogularis_-_Doi_Inthanon.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Arborophila_rufogularis_-_Doi_Inthanon.jpg/330px-Arborophila_rufogularis_-_Doi_Inthanon.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Arborophila_rufogularis_-_Doi_Inthanon.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Arborophila"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q776309"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rufous-throated_partridge"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

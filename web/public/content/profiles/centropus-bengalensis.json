@@ -1,0 +1,49 @@
+{
+ "scientific": "Centropus bengalensis",
+ "name": "Lesser Coucal",
+ "qid": "Q653049",
+ "description": "species of bird",
+ "extract": "The lesser coucal (Centropus bengalensis) is a species of cuckoo in the family Cuculidae. It has a wide distribution range that overlaps with several other similar species. The habitat in which it is found is often marshy land with grass and tree cover. It is distinguished by its smaller size, less prominent bill, pale shaft streaks on the feathers of the head and back. It has a much longer claw on its hind toe and a distinct call. It is also among the few coucals that show season plumage differences but like in other coucals, the sexes cannot be distinguished in the field.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Lesser_coucal_74.jpg/1280px-Lesser_coucal_74.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Lesser_coucal_74.jpg/330px-Lesser_coucal_74.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lesser_coucal_74.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Afsarnayakkan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Centropus"
+  },
+  "family": {
+   "scientific": "Cuculidae"
+  },
+  "order": {
+   "scientific": "Cuculiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q653049"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lesser_coucal"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

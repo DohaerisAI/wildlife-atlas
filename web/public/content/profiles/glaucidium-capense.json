@@ -1,0 +1,55 @@
+{
+ "scientific": "Glaucidium capense",
+ "name": "African Barred Owlet",
+ "qid": "Q1274348",
+ "description": "species of bird",
+ "extract": "The African barred owlet (Glaucidium capense) is a species of small owl in the family Strigidae found in much of southern, central and eastern Africa. The taxon may be four species rather than a single species.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Glaucidium_capense_-Kruger_National_Park%2C_South_Africa-8.jpg/1280px-Glaucidium_capense_-Kruger_National_Park%2C_South_Africa-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Glaucidium_capense_-Kruger_National_Park%2C_South_Africa-8.jpg/330px-Glaucidium_capense_-Kruger_National_Park%2C_South_Africa-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Glaucidium_capense_-Kruger_National_Park,_South_Africa-8.jpg",
+   "license": "CC BY 2.0",
+   "artist": "lin padgham",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 45.0,
+   "max": 45.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Glaucidium"
+  },
+  "family": {
+   "scientific": "Strigidae",
+   "name": "true owls"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1274348"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/African_barred_owlet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

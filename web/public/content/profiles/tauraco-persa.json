@@ -1,0 +1,55 @@
+{
+ "scientific": "Tauraco persa",
+ "name": "Guinea Turaco",
+ "qid": "Q641880",
+ "description": "species of bird",
+ "extract": "The Guinea turaco (Tauraco persa), also known as the green turaco or green lourie, is a species of turaco, a group of African otidimorph birds. It formerly included the Livingstone's, Schalow's, Knysna, black-billed and Fischer's turacos as subspecies.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Tauraco_persa_-captive-8a.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Tauraco_persa_-captive-8a.jpg/330px-Tauraco_persa_-captive-8a.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tauraco_persa_-captive-8a.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "www.opencage photographer",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 25.0,
+   "max": 297.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tauraco"
+  },
+  "family": {
+   "scientific": "Musophagidae",
+   "name": "Turaco"
+  },
+  "order": {
+   "scientific": "Musophagiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q641880"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Guinea_turaco"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

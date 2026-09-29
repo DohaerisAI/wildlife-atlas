@@ -1,0 +1,51 @@
+{
+ "scientific": "Zoothera dixoni",
+ "name": "Long-tailed Thrush",
+ "qid": "Q1589266",
+ "description": "species of bird",
+ "extract": "The long-tailed thrush (Zoothera dixoni) is a species of bird in the family Turdidae. It is found from the central and eastern Himalayas to south-central and south-western China. Its natural habitats are subtropical or tropical moist montane forests and subtropical or tropical high-altitude shrubland.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Long-tailed_Thrush_-_Eaglenest_Wildlife_Sanctuary_-_Arunachal_Pradesh%2C_India.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Long-tailed_Thrush_-_Eaglenest_Wildlife_Sanctuary_-_Arunachal_Pradesh%2C_India.jpg/330px-Long-tailed_Thrush_-_Eaglenest_Wildlife_Sanctuary_-_Arunachal_Pradesh%2C_India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Long-tailed_Thrush_-_Eaglenest_Wildlife_Sanctuary_-_Arunachal_Pradesh,_India.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 90.0,
+   "max": 90.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Zoothera"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1589266"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Long-tailed_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

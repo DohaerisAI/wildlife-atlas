@@ -1,0 +1,46 @@
+{
+ "scientific": "Pycnonotus xantholaemus",
+ "name": "Yellow-throated Bulbul",
+ "qid": "Q279710",
+ "description": "species of bird",
+ "extract": "The yellow-throated bulbul (Pycnonotus xantholaemus) is a species of songbird in the bulbul family of passerine birds. The species is endemic to southern peninsular India. They are found on scrub habitats on steep, rocky hills many of which are threatened by granite quarrying. It is confusable only with the white-browed bulbul with which its range overlaps but is distinctively yellow on the head and throat apart from the yellow vent. The calls of this species are very similar to that of the white-browed bulbul.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Pycnonotus_xantholaemus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Pycnonotus_xantholaemus.jpg/330px-Pycnonotus_xantholaemus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pycnonotus_xantholaemus.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Unknown",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pycnonotus"
+  },
+  "family": {
+   "scientific": "Pycnonotidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q279710"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yellow-throated_bulbul"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

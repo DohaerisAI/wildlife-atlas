@@ -1,0 +1,76 @@
+{
+ "scientific": "Fringilla coelebs",
+ "name": "Eurasian Chaffinch",
+ "qid": "Q25383",
+ "description": "species of small passerine bird",
+ "extract": "The Eurasian chaffinch, common chaffinch,  or simply the chaffinch (Fringilla coelebs) is a common and widespread small passerine bird –  in the finch family. The male is brightly coloured with a blue-grey cap and rust-red underparts. The female is more subdued in colouring, but both sexes have two contrasting white wing bars and white sides to the tail. The male bird has a strong voice and sings from exposed perches to attract a mate.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Fringilla_coelebs_%285577610542%29.jpg/1280px-Fringilla_coelebs_%285577610542%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Fringilla_coelebs_%285577610542%29.jpg/330px-Fringilla_coelebs_%285577610542%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Fringilla_coelebs_(5577610542).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Gilles San Martin from Namur, Belgium",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Fulda_Buchfinkweibchen_Juni_2012.JPG/1280px-Fulda_Buchfinkweibchen_Juni_2012.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Fulda_Buchfinkweibchen_Juni_2012.JPG/330px-Fulda_Buchfinkweibchen_Juni_2012.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Fulda_Buchfinkweibchen_Juni_2012.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "4028mdk09",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Fringilla_coelebs_chaffinch_male_edit2.jpg/1280px-Fringilla_coelebs_chaffinch_male_edit2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Fringilla_coelebs_chaffinch_male_edit2.jpg/330px-Fringilla_coelebs_chaffinch_male_edit2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Fringilla_coelebs_chaffinch_male_edit2.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "MichaelMaggs – Edited (sharpened, down-sampled, contrast corrected, noise removed) by: Arad",
+   "caption": "Male"
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 26.0,
+   "max": 26.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 2.2,
+   "max": 22.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Fringilla"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Chaffinch",
+  "Common Chaffinch"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25383"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eurasian_chaffinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

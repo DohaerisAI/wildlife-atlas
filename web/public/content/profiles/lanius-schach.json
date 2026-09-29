@@ -1,0 +1,67 @@
+{
+ "scientific": "Lanius schach",
+ "name": "Long-tailed Shrike",
+ "qid": "Q795567",
+ "description": "species of bird",
+ "extract": "The long-tailed shrike or rufous-backed shrike (Lanius schach) is a member of the bird family Laniidae, the shrikes. They are found widely distributed across Asia and there are variations in plumage across the range. The species ranges across much of Asia, both on the mainland and the eastern archipelagos. The eastern or Himalayan subspecies, L. s. tricolor, is sometimes called the black-headed shrike. Although there are considerable differences in plumage among the subspecies, they all have a long and narrow black tail, have a black mask and forehead, rufous rump and flanks and a small white patch on the shoulder. It is considered to form a superspecies with the grey-backed shrike (Lanius tephronotus) which breeds on the Tibetan Plateau.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/%E6%A3%95%E8%83%8C%E4%BC%AF%E5%8B%9E_%2825040252703%29_crop.jpg/1280px-%E6%A3%95%E8%83%8C%E4%BC%AF%E5%8B%9E_%2825040252703%29_crop.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/%E6%A3%95%E8%83%8C%E4%BC%AF%E5%8B%9E_%2825040252703%29_crop.jpg/330px-%E6%A3%95%E8%83%8C%E4%BC%AF%E5%8B%9E_%2825040252703%29_crop.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%A3%95%E8%83%8C%E4%BC%AF%E5%8B%9E_(25040252703)_crop.jpg",
+   "license": "CC BY 2.0",
+   "artist": "LiCheng Shih",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Long-tailed_Shrike%2C_Chele_La%2C_Thimphu%2C_Bhutan.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Long-tailed_Shrike%2C_Chele_La%2C_Thimphu%2C_Bhutan.jpg/330px-Long-tailed_Shrike%2C_Chele_La%2C_Thimphu%2C_Bhutan.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Long-tailed_Shrike,_Chele_La,_Thimphu,_Bhutan.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Ron Knight",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Long-tailed_Shrike_Lanius_schach_by_Dr._Raju_Kasambe_DSCN8981_%2892%29.jpg/1280px-Long-tailed_Shrike_Lanius_schach_by_Dr._Raju_Kasambe_DSCN8981_%2892%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Long-tailed_Shrike_Lanius_schach_by_Dr._Raju_Kasambe_DSCN8981_%2892%29.jpg/330px-Long-tailed_Shrike_Lanius_schach_by_Dr._Raju_Kasambe_DSCN8981_%2892%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Long-tailed_Shrike_Lanius_schach_by_Dr._Raju_Kasambe_DSCN8981_(92).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dr. Raju Kasambe",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 4.8,
+   "max": 38.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lanius"
+  },
+  "family": {
+   "scientific": "Laniidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q795567"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Long-tailed_shrike"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

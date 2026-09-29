@@ -1,0 +1,65 @@
+{
+ "scientific": "Columba livia",
+ "name": "Rock Dove",
+ "qid": "Q42326",
+ "description": "species of pigeon; the wild bird from which domesticated pigeons derive",
+ "extract": "The rock dove (Columba livia), also known as the common pigeon or rock pigeon (but see also Petrophassa), is a member of the bird family Columbidae (doves and pigeons). In common usage, it is often simply referred to as the \"pigeon\", although the rock dove is the wild form of the bird; the pigeons familiar to most people are the domesticated forms of the wild rock dove.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Columba_livia_%28Rock_Dove%2C_wild%29%2C_Duncansby_Head%2C_Caithness%2C_Scotland_1.jpg/1280px-Columba_livia_%28Rock_Dove%2C_wild%29%2C_Duncansby_Head%2C_Caithness%2C_Scotland_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Columba_livia_%28Rock_Dove%2C_wild%29%2C_Duncansby_Head%2C_Caithness%2C_Scotland_1.jpg/330px-Columba_livia_%28Rock_Dove%2C_wild%29%2C_Duncansby_Head%2C_Caithness%2C_Scotland_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Columba_livia_(Rock_Dove,_wild),_Duncansby_Head,_Caithness,_Scotland_1.jpg",
+   "license": "CC BY 4.0",
+   "artist": "william_stephens",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 67.8,
+   "max": 70.2,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 267.0,
+   "max": 294.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Columba"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "rock pigeon",
+  "common pigeon",
+  "Rock Pigeon or Feral Pigeon",
+  "Blue rock pigeon"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q42326"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rock_dove"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,66 @@
+{
+ "scientific": "Ephippiorhynchus asiaticus",
+ "name": "Black-necked Stork",
+ "qid": "Q998703",
+ "description": "species of bird",
+ "extract": "The black-necked stork (Ephippiorhynchus asiaticus) is a tall, long-necked wading bird in the stork family. It is a resident species across the Indian subcontinent and Southeast Asia with a disjunct population in Australia. It lives in wetland habitats and near fields of certain crops such as rice and wheat where it forages for a wide range of animal prey. Adult birds of both sexes have a heavy bill and are patterned in white and irridescent blacks, but the sexes differ in the colour of the iris with females sporting yellow irises and males having dark-coloured irises. In Australia, it is known as a jabiru, although that name also refers to a stork species found in the Americas. It is one of the few storks that are strongly territorial when feeding and breeding.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Black-necked_Stork_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_04.jpg/1280px-Black-necked_Stork_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_04.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Black-necked_Stork_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_04.jpg/330px-Black-necked_Stork_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_04.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-necked_Stork_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_04.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Black-necked_Stork_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_02.jpg/1280px-Black-necked_Stork_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Black-necked_Stork_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_02.jpg/330px-Black-necked_Stork_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-necked_Stork_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_02.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 190.0,
+   "max": 218.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ephippiorhynchus"
+  },
+  "family": {
+   "scientific": "Ciconiidae",
+   "name": "stork"
+  },
+  "order": {
+   "scientific": "Ciconiiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "jabiru"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q998703"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-necked_stork"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

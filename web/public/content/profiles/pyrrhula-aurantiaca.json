@@ -1,0 +1,59 @@
+{
+ "scientific": "Pyrrhula aurantiaca",
+ "name": "Orange bullfinch",
+ "qid": "Q251923",
+ "description": "species of bird",
+ "extract": "The orange bullfinch (Pyrrhula aurantiaca) is a species of finch in the family Fringillidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Orange_Bullfinch_%28Pyrrhula_aurantiaca%29_%2853579087353%29.jpg/1280px-Orange_Bullfinch_%28Pyrrhula_aurantiaca%29_%2853579087353%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Orange_Bullfinch_%28Pyrrhula_aurantiaca%29_%2853579087353%29.jpg/330px-Orange_Bullfinch_%28Pyrrhula_aurantiaca%29_%2853579087353%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Orange_Bullfinch_(Pyrrhula_aurantiaca)_(53579087353).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Birds of Gilgit-Baltistan from Aliabad, Hunza, Pakistan",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Pyrrhula_aurantiaca_274217279.jpg/1280px-Pyrrhula_aurantiaca_274217279.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Pyrrhula_aurantiaca_274217279.jpg/330px-Pyrrhula_aurantiaca_274217279.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pyrrhula_aurantiaca_274217279.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Imran Shah",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 19.0,
+   "max": 19.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pyrrhula"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q251923"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Orange_bullfinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,58 @@
+{
+ "scientific": "Strix occidentalis",
+ "name": "Spotted Owl",
+ "qid": "Q748921",
+ "description": "species of bird",
+ "extract": "The spotted owl (Strix occidentalis) is a species of true owl. It is a resident species of old-growth forests in western North America, where it nests in tree hollows, old bird of prey nests, or rock crevices. Nests can be between 12 and 60 metres (40 and 200 ft) from the ground, and usually contain two eggs (though some contain as many as four). It is a nocturnal owl which feeds on small mammals and birds. Three subspecies are recognized, ranging in distribution from British Columbia to Mexico. The spotted owl is under pressure from habitat destruction throughout its range, and is currently classified as a near-threatened species.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/California_Spotted_Owl%2C_Stanislaus_National_Forest_%288427894580%29.jpg/1280px-California_Spotted_Owl%2C_Stanislaus_National_Forest_%288427894580%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/California_Spotted_Owl%2C_Stanislaus_National_Forest_%288427894580%29.jpg/330px-California_Spotted_Owl%2C_Stanislaus_National_Forest_%288427894580%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:California_Spotted_Owl,_Stanislaus_National_Forest_(8427894580).jpg",
+   "license": "Public domain",
+   "artist": "Pacific Southwest Region 5",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Northern_Spotted_Owl.USFWS.jpg/1280px-Northern_Spotted_Owl.USFWS.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Northern_Spotted_Owl.USFWS.jpg/330px-Northern_Spotted_Owl.USFWS.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Northern_Spotted_Owl.USFWS.jpg",
+   "license": "Public domain",
+   "artist": "Hollingsworth, John and Karen; photo by USFS Region 5 (Pacific Southwest)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Strix"
+  },
+  "family": {
+   "scientific": "Strigidae",
+   "name": "true owls"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q748921"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spotted_owl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

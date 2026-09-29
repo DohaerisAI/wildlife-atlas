@@ -1,0 +1,49 @@
+{
+ "scientific": "Caloenas nicobarica",
+ "name": "Nicobar Pigeon",
+ "qid": "Q605804",
+ "description": "species of bird",
+ "extract": "The Nicobar pigeon or Nicobar dove (Caloenas nicobarica, Car: ma-kūö-kö) is a bird found on small islands and in coastal regions from the Andaman and Nicobar Islands, India, east through the Indonesian Archipelago, to the Solomons and Palau. It is the only living member of the genus Caloenas alongside the extinct spotted green pigeon and Kanaka pigeon, and is the closest living relative of the extinct dodo and Rodrigues solitaire.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Caloenas_nicobarica%2C_Ko_Miang%2C_Thailand_1.jpg/1280px-Caloenas_nicobarica%2C_Ko_Miang%2C_Thailand_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Caloenas_nicobarica%2C_Ko_Miang%2C_Thailand_1.jpg/330px-Caloenas_nicobarica%2C_Ko_Miang%2C_Thailand_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Caloenas_nicobarica,_Ko_Miang,_Thailand_1.jpg",
+   "license": "CC BY 4.0",
+   "artist": "ziggypop74",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Caloenas"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q605804"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nicobar_pigeon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

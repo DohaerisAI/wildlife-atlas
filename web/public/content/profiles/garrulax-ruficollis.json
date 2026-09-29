@@ -1,0 +1,37 @@
+{
+ "scientific": "Garrulax ruficollis",
+ "name": "Rufous-necked laughing thrush",
+ "qid": "Q3315291",
+ "description": "species of bird",
+ "extract": "",
+ "images": [],
+ "facts": {
+  "mass": {
+   "min": 62.0,
+   "max": 62.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Garrulax"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Rufous-necked Laughingthrush"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3315291"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

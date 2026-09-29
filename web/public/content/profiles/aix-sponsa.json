@@ -1,0 +1,62 @@
+{
+ "scientific": "Aix sponsa",
+ "name": "Wood duck",
+ "qid": "Q322159",
+ "description": "species of bird",
+ "extract": "The wood duck or Carolina duck (Aix sponsa) is a partially migratory species of perching duck found in North America. The male is one of the most colorful North American waterfowls.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Wood_duck_druid_ridge_cemetery_10.10.20_DSC_6035.jpg/1280px-Wood_duck_druid_ridge_cemetery_10.10.20_DSC_6035.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Wood_duck_druid_ridge_cemetery_10.10.20_DSC_6035.jpg/330px-Wood_duck_druid_ridge_cemetery_10.10.20_DSC_6035.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wood_duck_druid_ridge_cemetery_10.10.20_DSC_6035.jpg",
+   "license": "CC BY 2.0",
+   "artist": "lwolfartist",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Wood_duck_druid_ridge_cemetery_10.10.20_DSC_5487.jpg/1280px-Wood_duck_druid_ridge_cemetery_10.10.20_DSC_5487.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Wood_duck_druid_ridge_cemetery_10.10.20_DSC_5487.jpg/330px-Wood_duck_druid_ridge_cemetery_10.10.20_DSC_5487.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wood_duck_druid_ridge_cemetery_10.10.20_DSC_5487.jpg",
+   "license": "CC BY 2.0",
+   "artist": "lwolfartist",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 68.0,
+   "max": 74.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aix"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q322159"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wood_duck"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,51 @@
+{
+ "scientific": "Pellorneum albiventre",
+ "name": "Spot-throated babbler",
+ "qid": "Q2668232",
+ "description": "species of bird",
+ "extract": "The spot-throated babbler (Pellorneum albiventre) is a species of bird in the family Pellorneidae. It is found mainly in Eastern Bangladesh, Bhutan, Northeast India, Yunnan, Myanmar and Vietnam.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Pellorneum_albiventre_cinnamomeum_301761914_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Pellorneum_albiventre_cinnamomeum_301761914_%28cropped%29.jpg/330px-Pellorneum_albiventre_cinnamomeum_301761914_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pellorneum_albiventre_cinnamomeum_301761914_(cropped).jpg",
+   "license": "CC BY 4.0",
+   "artist": "Wich’yanan L",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 21.0,
+   "max": 21.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pellorneum"
+  },
+  "family": {
+   "scientific": "Pellorneidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2668232"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spot-throated_babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

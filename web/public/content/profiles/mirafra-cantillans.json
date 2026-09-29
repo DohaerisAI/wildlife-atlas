@@ -1,0 +1,59 @@
+{
+ "scientific": "Mirafra cantillans",
+ "name": "Singing Bush Lark",
+ "qid": "Q2743822",
+ "description": "species of bird",
+ "extract": "The singing bush lark or Horsfield's bush lark (Mirafra javanica) is a species of lark which inhabits grassland throughout most of Australia and much of Southeast Asia. It was described by the American naturalist Thomas Horsfield.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Singing_Bushlark_%2835788711384%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Singing_Bushlark_%2835788711384%29.jpg/330px-Singing_Bushlark_%2835788711384%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Singing_Bushlark_(35788711384).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Koshy Koshy from Faridabad, Haryana, India",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Singing_Bush_Lark_RWD3.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Singing_Bush_Lark_RWD3.jpg/330px-Singing_Bush_Lark_RWD3.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Singing_Bush_Lark_RWD3.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "DickDaniels (http://theworldbirds.org/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 18.7,
+   "max": 18.7,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Mirafra"
+  },
+  "family": {
+   "scientific": "Alaudidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2743822"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Singing_bush_lark"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

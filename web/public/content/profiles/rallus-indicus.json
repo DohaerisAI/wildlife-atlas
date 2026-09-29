@@ -1,0 +1,57 @@
+{
+ "scientific": "Rallus indicus",
+ "name": "Brown-cheeked Rail",
+ "qid": "Q3454180",
+ "description": "species of bird",
+ "extract": "The brown-cheeked rail or eastern water rail (Rallus indicus) is a species of bird in the family Rallidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/RallusIndicusNeale.jpg/1280px-RallusIndicusNeale.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/RallusIndicusNeale.jpg/330px-RallusIndicusNeale.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:RallusIndicusNeale.jpg",
+   "license": "Public domain",
+   "artist": "Edward Neale",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Eastern_water_rail%EF%BC%88Rallus_indicus%EF%BC%89%E3%82%AF%E3%82%A4%E3%83%8A.jpg/1280px-Eastern_water_rail%EF%BC%88Rallus_indicus%EF%BC%89%E3%82%AF%E3%82%A4%E3%83%8A.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Eastern_water_rail%EF%BC%88Rallus_indicus%EF%BC%89%E3%82%AF%E3%82%A4%E3%83%8A.jpg/330px-Eastern_water_rail%EF%BC%88Rallus_indicus%EF%BC%89%E3%82%AF%E3%82%A4%E3%83%8A.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eastern_water_rail%EF%BC%88Rallus_indicus%EF%BC%89%E3%82%AF%E3%82%A4%E3%83%8A.jpg",
+   "license": "CC BY 2.0",
+   "artist": "H yamaguchi",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Rallus"
+  },
+  "family": {
+   "scientific": "Rallidae"
+  },
+  "order": {
+   "scientific": "Gruiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3454180"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown-cheeked_rail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

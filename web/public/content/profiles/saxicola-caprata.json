@@ -1,0 +1,75 @@
+{
+ "scientific": "Saxicola caprata",
+ "name": "Pied Bush Chat",
+ "qid": "Q864893",
+ "description": "species of bird",
+ "extract": "The pied bush chat (Saxicola caprata) is a small passerine bird found ranging from West Asia and Central Asia to the Indian subcontinent and Southeast Asia. About sixteen subspecies are recognized through its wide range with many island forms. It is a familiar bird of countryside and open scrub or grassland where it is found perched at the top of short thorn trees or other shrubs, looking out for insect prey. They pick up insects mainly from the ground, and were, like other chats, placed in the thrush family Turdidae, but are now considered as Old World flycatchers.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Pied_Bushchat_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01_%28cropped%29.jpg/1280px-Pied_Bushchat_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Pied_Bushchat_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01_%28cropped%29.jpg/330px-Pied_Bushchat_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pied_Bushchat_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01_(cropped).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Pied_bush_chat_%28Saxicola_caprata%29male_from_nilgiris_DSC_1123.jpg/1280px-Pied_bush_chat_%28Saxicola_caprata%29male_from_nilgiris_DSC_1123.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Pied_bush_chat_%28Saxicola_caprata%29male_from_nilgiris_DSC_1123.jpg/330px-Pied_bush_chat_%28Saxicola_caprata%29male_from_nilgiris_DSC_1123.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pied_bush_chat_(Saxicola_caprata)male_from_nilgiris_DSC_1123.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "PJeganathan",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Pied_bushchat_%28Saxicola_caprata_bicolor%29_female.jpg/1280px-Pied_bushchat_%28Saxicola_caprata_bicolor%29_female.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Pied_bushchat_%28Saxicola_caprata_bicolor%29_female.jpg/330px-Pied_bushchat_%28Saxicola_caprata_bicolor%29_female.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pied_bushchat_(Saxicola_caprata_bicolor)_female.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 18.9,
+   "max": 18.9,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 2.0,
+   "max": 2.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Saxicola"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Pied bushchat"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q864893"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pied_bush_chat"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

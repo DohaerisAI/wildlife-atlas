@@ -1,0 +1,58 @@
+{
+ "scientific": "Aquila fasciata",
+ "name": "Bonelli's Eagle",
+ "qid": "Q234722",
+ "description": "species of bird",
+ "extract": "Bonelli's eagle (Aquila fasciata) is a large bird of prey. The common name of the bird commemorates the Italian ornithologist and collector Franco Andrea Bonelli. Bonelli is credited with gathering the type specimen, most likely from an exploration of Sardinia. Like all eagles, Bonelli's eagle belongs to the family Accipitridae. Its feathered legs marked it as member of the Aquilinae or booted eagle subfamily. This species breeds from southern Europe, Africa on the montane perimeter of the Sahara Desert, and across the Indian subcontinent to Indonesia. In Eurasia, this species may be found as far west as Portugal and as far east as southeastern China and Thailand. It is usually a resident breeder.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Bonelli%27s_Eagle.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Bonelli%27s_Eagle.jpg/330px-Bonelli%27s_Eagle.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bonelli%27s_Eagle.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Seshadri.K.S",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 112.0,
+   "max": 2560.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aquila"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Hieraaetus fasciatus",
+  "Bonelli’s Eagle"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q234722"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bonelli%27s_eagle"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

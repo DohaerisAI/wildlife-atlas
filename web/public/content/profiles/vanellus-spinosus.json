@@ -1,0 +1,67 @@
+{
+ "scientific": "Vanellus spinosus",
+ "name": "Spur-winged Lapwing",
+ "qid": "Q749126",
+ "description": "species of bird",
+ "extract": "The spur-winged lapwing or spur-winged plover (Vanellus spinosus) is a lapwing species, one of a group of largish waders in the family Charadriidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Spur-winged_Lapwing_%28Vanellus_spinosus%29_%2817646260884%29.jpg/1280px-Spur-winged_Lapwing_%28Vanellus_spinosus%29_%2817646260884%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Spur-winged_Lapwing_%28Vanellus_spinosus%29_%2817646260884%29.jpg/330px-Spur-winged_Lapwing_%28Vanellus_spinosus%29_%2817646260884%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Spur-winged_Lapwing_(Vanellus_spinosus)_(17646260884).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Bernard DUPONT from FRANCE",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Flickr_-_don_macauley_-_Vanellus_spinosus.jpg/1280px-Flickr_-_don_macauley_-_Vanellus_spinosus.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Flickr_-_don_macauley_-_Vanellus_spinosus.jpg/330px-Flickr_-_don_macauley_-_Vanellus_spinosus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_don_macauley_-_Vanellus_spinosus.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Donald Macauley",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 69.0,
+   "max": 81.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 16.4,
+   "max": 16.4,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Vanellus"
+  },
+  "family": {
+   "scientific": "Charadriidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q749126"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spur-winged_lapwing"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

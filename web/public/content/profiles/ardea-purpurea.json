@@ -1,0 +1,68 @@
+{
+ "scientific": "Ardea purpurea",
+ "name": "Purple Heron",
+ "qid": "Q160488",
+ "description": "species of bird",
+ "extract": "The purple heron (Ardea purpurea) is a wide-ranging heron species. It breeds in Africa, central and southern Europe, and southern and eastern Palearctic. The Western Palearctic populations migrate between breeding and wintering habitats whereas the African and tropical-Asian populations are primarily sedentary, except for occasional dispersive movements.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Ardea_purpurea_%28Domaine_des_oiseaux%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Ardea_purpurea_%28Domaine_des_oiseaux%29.jpg/330px-Ardea_purpurea_%28Domaine_des_oiseaux%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ardea_purpurea_(Domaine_des_oiseaux).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "PierreG_09",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/2010-kabini-purple-heron.jpg/1280px-2010-kabini-purple-heron.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/2010-kabini-purple-heron.jpg/330px-2010-kabini-purple-heron.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2010-kabini-purple-heron.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Yathin S Krishnappa",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 135.0,
+   "max": 135.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 51.0,
+   "max": 51.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ardea"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q160488"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Purple_heron"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,62 @@
+{
+ "scientific": "Arborophila torqueola",
+ "name": "Common Hill Partridge",
+ "qid": "Q644953",
+ "description": "species of bird",
+ "extract": "The common hill partridge, necklaced hill partridge, or simply hill partridge (Arborophila torqueola) is a species of bird in the pheasant family found in Asia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Arborophila_torqueola.jpg/1280px-Arborophila_torqueola.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Arborophila_torqueola.jpg/330px-Arborophila_torqueola.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Arborophila_torqueola.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Umeshsrinivasan",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Arborophila_torqueola_torqueola_female_1838.jpg/1280px-Arborophila_torqueola_torqueola_female_1838.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Arborophila_torqueola_torqueola_female_1838.jpg/330px-Arborophila_torqueola_torqueola_female_1838.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Arborophila_torqueola_torqueola_female_1838.jpg",
+   "license": "Public domain",
+   "artist": "Nicolas Huet / Jean Gabriel Prêtre",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 305.0,
+   "max": 375.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Arborophila"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q644953"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hill_partridge"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

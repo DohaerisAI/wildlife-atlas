@@ -1,0 +1,50 @@
+{
+ "scientific": "Saxicola insignis",
+ "name": "White-throated Bush Chat",
+ "qid": "Q1587213",
+ "description": "species of bird",
+ "extract": "The white-throated bush chat (Saxicola insignis), also known as Hodgson's bushchat, is an Old World flycatcher in the genus Saxicola. It is IUCN Red Listed as Vulnerable as of 2018. In 2001, the global  population has been estimated at between 3,500 and 15,000 individuals. The major threat appears to be the rapid loss of grasslands in its wintering areas. It winters in the Nepal and Indian Terai and in the Dooars. In this region, it has been recorded in Jim Corbett, Shuklaphanta, Chitwan, Kaziranga, and Manas National Parks and in Lumbini Crane Sanctuary. It prefers wet and dry grasslands, reeds and tamarisks along riverbeds, and also occurs in sugarcane fields. In spring and summer, it breeds in the alpine or sub-alpine meadows and scrub in the mountains of Mongolia and adjacent parts of Russia.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/White-throated_bush_chat_bird_at_Jim_Corbett_NP%2C_India_%282012%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/White-throated_bush_chat_bird_at_Jim_Corbett_NP%2C_India_%282012%29.jpg/330px-White-throated_bush_chat_bird_at_Jim_Corbett_NP%2C_India_%282012%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-throated_bush_chat_bird_at_Jim_Corbett_NP,_India_(2012).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Subramanya CK",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Saxicola"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "White-throated bushchat",
+  "Hodgson's bushchat"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1587213"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-throated_bush_chat"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

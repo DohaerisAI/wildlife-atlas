@@ -1,0 +1,54 @@
+{
+ "scientific": "Nucifraga caryocatactes",
+ "name": "Northern Nutcracker",
+ "qid": "Q184820",
+ "description": "species of bird",
+ "extract": "The northern nutcracker (Nucifraga caryocatactes), previously known as the spotted nutcracker and Eurasian nutcracker, is a passerine bird in the crow family Corvidae. It is slightly smaller than the Eurasian jay but has a much larger bill and a slimmer looking head without any crest. The feathering over its body is predominantly chocolate brown with distinct white spots and patches. The wings and upper tail are black with a greenish-blue gloss.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Nucifraga_caryocatactes%2C_Kotka%2C_Finland_1.jpg/1280px-Nucifraga_caryocatactes%2C_Kotka%2C_Finland_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Nucifraga_caryocatactes%2C_Kotka%2C_Finland_1.jpg/330px-Nucifraga_caryocatactes%2C_Kotka%2C_Finland_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Nucifraga_caryocatactes,_Kotka,_Finland_1.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Jyrki Salmi from Finland",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 58.0,
+   "max": 58.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Nucifraga"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Spotted Nutcracker"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q184820"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Northern_nutcracker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

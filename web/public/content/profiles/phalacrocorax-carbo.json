@@ -1,0 +1,82 @@
+{
+ "scientific": "Phalacrocorax carbo",
+ "name": "Great Cormorant",
+ "qid": "Q25440",
+ "description": "species of bird",
+ "extract": "The great cormorant (Phalacrocorax carbo), also known as just cormorant in Britain, as black shag or kawau in New Zealand, formerly also known as the great black cormorant across the Northern Hemisphere, the black cormorant in Australia, and the large cormorant in India, is a widespread member of the cormorant family of seabirds. It breeds in much of the Old World, Australasia, and the Atlantic coast of North America.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/2021-05-05_Phalacrocorax_carbo_carbo%2C_Killingworth_Lake%2C_Northumberland_1-2.jpg/1280px-2021-05-05_Phalacrocorax_carbo_carbo%2C_Killingworth_Lake%2C_Northumberland_1-2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/2021-05-05_Phalacrocorax_carbo_carbo%2C_Killingworth_Lake%2C_Northumberland_1-2.jpg/330px-2021-05-05_Phalacrocorax_carbo_carbo%2C_Killingworth_Lake%2C_Northumberland_1-2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2021-05-05_Phalacrocorax_carbo_carbo,_Killingworth_Lake,_Northumberland_1-2.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "MPF",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Phalacrocorax_carbo_%2839763297602%29.jpg/1280px-Phalacrocorax_carbo_%2839763297602%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Phalacrocorax_carbo_%2839763297602%29.jpg/330px-Phalacrocorax_carbo_%2839763297602%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Phalacrocorax_carbo_(39763297602).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Rory from Glasgow, United Kingdom",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Great_Cormorant_%28189165133%29.jpeg/1280px-Great_Cormorant_%28189165133%29.jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Great_Cormorant_%28189165133%29.jpeg/330px-Great_Cormorant_%28189165133%29.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Great_Cormorant_(189165133).jpeg",
+   "license": "CC BY 3.0",
+   "artist": "Mathew Schwartz",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 140.0,
+   "max": 140.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 2000.0,
+   "max": 2400.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phalacrocorax"
+  },
+  "family": {
+   "scientific": "Phalacrocoracidae"
+  },
+  "order": {
+   "scientific": "Suliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Cormorant",
+  "Great Black Cormorant",
+  "Black Cormorant",
+  "Large Cormorant",
+  "Black Shag"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25440"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_cormorant"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

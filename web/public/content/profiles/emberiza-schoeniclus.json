@@ -1,0 +1,59 @@
+{
+ "scientific": "Emberiza schoeniclus",
+ "name": "Reed Bunting",
+ "qid": "Q26961",
+ "description": "species of bird",
+ "extract": "The common reed bunting (Emberiza schoeniclus), or simply reed bunting, is a passerine bird in the bunting family Emberizidae. This species breeds throughout Europe and much of the Palearctic region. While most individuals migrate south in winter, those in the milder south and west of the range are resident. It is a common sight in reedbeds, but also breeds in drier open areas such as moorland and arable land. For example, it inhabits purple moor grass and rush pastures, which are designated as a Biodiversity Action Plan habitat in the UK. It occurs on poorly drained neutral and acid soils of the lowlands and upland fringe.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/2014-06-01_Emberiza_schoeniclus%2C_Swallow_Pond%2C_Northumberland_1.jpg/1280px-2014-06-01_Emberiza_schoeniclus%2C_Swallow_Pond%2C_Northumberland_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/2014-06-01_Emberiza_schoeniclus%2C_Swallow_Pond%2C_Northumberland_1.jpg/330px-2014-06-01_Emberiza_schoeniclus%2C_Swallow_Pond%2C_Northumberland_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2014-06-01_Emberiza_schoeniclus,_Swallow_Pond,_Northumberland_1.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "MPF",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Bruant_des_roseaux.jpg/1280px-Bruant_des_roseaux.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Bruant_des_roseaux.jpg/330px-Bruant_des_roseaux.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bruant_des_roseaux.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Pierre Dalous",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 24.0,
+   "max": 24.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Emberiza"
+  },
+  "family": {
+   "scientific": "Emberizidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26961"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_reed_bunting"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

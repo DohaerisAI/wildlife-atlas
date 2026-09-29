@@ -1,0 +1,35 @@
+{
+ "scientific": "Ortygornis pondicerianus",
+ "name": "Grey Francolin",
+ "qid": "Q117253126",
+ "description": "species of bird",
+ "extract": "The grey francolin (Ortygornis pondicerianus) is a species of francolin found in the plains and drier parts of the Indian subcontinent and Iran. This species was formerly also called the grey partridge, not to be confused with the European grey partridge. They are mainly ground-living birds and are found in open cultivated lands as well as scrub forest and their local name of teetar is based on their calls, a loud and repeated Ka-tee-tar...tee-tar, which is produced by one or more birds. The term teetar can also refer to other partridges and quails. During the breeding season, calling males attract challengers, and decoys were used to trap these birds especially for fighting.",
+ "images": [],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Ortygornis"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q117253126"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey_francolin"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

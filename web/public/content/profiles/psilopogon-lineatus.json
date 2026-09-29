@@ -1,0 +1,48 @@
+{
+ "scientific": "Psilopogon lineatus",
+ "name": "Lineated Barbet",
+ "qid": "Q27074835",
+ "description": "species of bird",
+ "extract": "The lineated barbet (Psilopogon lineatus) is an Asian barbet native to the Terai, the Brahmaputra basin to Southeast Asia. It is a frugivore and nests in holes of tree trunks.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Lineated_Barbet_%28Megalaima_lineata%29_at_Nest_in_Narendrapur_near_Kolkata_I_IMG_7716.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Lineated_Barbet_%28Megalaima_lineata%29_at_Nest_in_Narendrapur_near_Kolkata_I_IMG_7716.jpg/330px-Lineated_Barbet_%28Megalaima_lineata%29_at_Nest_in_Narendrapur_near_Kolkata_I_IMG_7716.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lineated_Barbet_(Megalaima_lineata)_at_Nest_in_Narendrapur_near_Kolkata_I_IMG_7716.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Psilopogon"
+  },
+  "family": {
+   "scientific": "Megalaimidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "other_names": [
+  "Psilpogon lineatus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27074835"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lineated_barbet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

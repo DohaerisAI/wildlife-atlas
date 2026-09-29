@@ -1,0 +1,46 @@
+{
+ "scientific": "Montecincla meridionalis",
+ "name": "Ashambu Laughingthrush",
+ "qid": "Q62123713",
+ "description": "species of bird",
+ "extract": "The Ashambu laughingthrush or Travancore laughingthrush (Montecincla meridionalis) is a species of bird in the family Leiothrichidae.  It is found in the Western Ghats in southern Kerala and southern Tamil Nadu.  It was formerly considered a subspecies of the grey-breasted laughingthrush. It is closely related to the Palani laughingthrush and can be differentiated from it by its very short white brow that stops before the eye.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Grey_breasted_laughing_thrush-_Asambu_Hill_Race.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Grey_breasted_laughing_thrush-_Asambu_Hill_Race.jpg/330px-Grey_breasted_laughing_thrush-_Asambu_Hill_Race.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grey_breasted_laughing_thrush-_Asambu_Hill_Race.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Seshadri.K.S",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Montecincla"
+  },
+  "family": {
+   "scientific": "Leiothrichidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q62123713"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ashambu_laughingthrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

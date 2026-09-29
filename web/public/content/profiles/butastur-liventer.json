@@ -1,0 +1,49 @@
+{
+ "scientific": "Butastur liventer",
+ "name": "Rufous-winged Buzzard",
+ "qid": "Q1260037",
+ "description": "species of bird",
+ "extract": "The rufous-winged buzzard (Butastur liventer) is an Asian bird of prey. It is a resident breeder of Indochina, Java and Sulawesi. It is a species of deciduous forest and second growth up to 800 m.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Rufous-winged_Buzzard_-_Cambogia_9032_%2815478927715%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Rufous-winged_Buzzard_-_Cambogia_9032_%2815478927715%29.jpg/330px-Rufous-winged_Buzzard_-_Cambogia_9032_%2815478927715%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rufous-winged_Buzzard_-_Cambogia_9032_(15478927715).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Butastur"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1260037"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rufous-winged_buzzard"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

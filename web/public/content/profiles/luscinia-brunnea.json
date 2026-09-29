@@ -1,0 +1,37 @@
+{
+ "scientific": "Luscinia brunnea",
+ "name": "Indian Blue Robin",
+ "qid": "Q251086",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Luscinia_brunnea.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Luscinia_brunnea.jpg/330px-Luscinia_brunnea.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Luscinia_brunnea.jpg",
+   "license": "CC BY 2.5",
+   "artist": "Unknown",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Luscinia"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q251086"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

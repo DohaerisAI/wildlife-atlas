@@ -1,0 +1,43 @@
+{
+ "scientific": "Stachyridopsis ruficeps",
+ "name": "Rufous-capped Babbler",
+ "qid": "Q1038415",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Rufous-capped_Babbler.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Rufous-capped_Babbler.jpg/330px-Rufous-capped_Babbler.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rufous-capped_Babbler.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Charles Lam",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 10.5,
+   "max": 10.5,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Stachyridopsis"
+  },
+  "family": {
+   "scientific": "Timaliidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1038415"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

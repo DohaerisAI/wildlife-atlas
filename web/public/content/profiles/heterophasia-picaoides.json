@@ -1,0 +1,59 @@
+{
+ "scientific": "Heterophasia picaoides",
+ "name": "Long-tailed Sibia",
+ "qid": "Q2669101",
+ "description": "species of bird",
+ "extract": "The long-tailed sibia (Heterophasia picaoides) is a species of Leiothrichidae from Southeast Asia. The species was once placed in the large family Timaliidae, but that family is sometimes split with this species being placed with the laughingthrushes in the family Leiothrichidae. The species is sometimes treated as the only species in the genus Heterophasia, with the other species being placed in the genus Malacias.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Heterophasia_picaoides_-_desertnaturalist_-_518786366.jpeg/1280px-Heterophasia_picaoides_-_desertnaturalist_-_518786366.jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Heterophasia_picaoides_-_desertnaturalist_-_518786366.jpeg/330px-Heterophasia_picaoides_-_desertnaturalist_-_518786366.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Heterophasia_picaoides_-_desertnaturalist_-_518786366.jpeg",
+   "license": "CC BY 4.0",
+   "artist": "desertnaturalist",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Heterophasia_picaoides_-_Cheongweei_Gan_-_180217025.jpeg/1280px-Heterophasia_picaoides_-_Cheongweei_Gan_-_180217025.jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Heterophasia_picaoides_-_Cheongweei_Gan_-_180217025.jpeg/330px-Heterophasia_picaoides_-_Cheongweei_Gan_-_180217025.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Heterophasia_picaoides_-_Cheongweei_Gan_-_180217025.jpeg",
+   "license": "CC BY 4.0",
+   "artist": "Cheongweei Gan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 42.0,
+   "max": 42.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Heterophasia"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2669101"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Long-tailed_sibia"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

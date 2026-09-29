@@ -1,0 +1,48 @@
+{
+ "scientific": "Coracias affinis",
+ "name": "Indochinese Roller",
+ "qid": "Q31873394",
+ "description": "species of bird",
+ "extract": "The Indochinese roller (Coracias affinis) or Burmese roller, is a member of the roller bird family. It occurs widely from Nepal, eastern India to Myanmar and Southeast Asia. It is listed as Least Concern on the IUCN Red List.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Assam_012crop.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Assam_012crop.jpg/330px-Assam_012crop.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Assam_012crop.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Modified version by mixpix, original photograph by Peter Andersen",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Coracias"
+  },
+  "family": {
+   "scientific": "Coraciidae"
+  },
+  "order": {
+   "scientific": "Coraciiformes"
+  }
+ },
+ "other_names": [
+  "Coracias benghalensis affinis"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q31873394"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indochinese_roller"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

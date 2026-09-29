@@ -1,0 +1,51 @@
+{
+ "scientific": "Trochalopteron chrysopterum",
+ "name": "Assam Laughingthrush",
+ "qid": "Q27075537",
+ "description": "species of bird",
+ "extract": "The Assam laughingthrush (Trochalopteron chrysopterum) is a species of bird in the family Leiothrichidae. It is found in Northeast India and adjacent southwest China and Myanmar.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Assam_Laughingthrush_Khonoma_Nagaland_India_23.12.2016.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Assam_Laughingthrush_Khonoma_Nagaland_India_23.12.2016.jpg/330px-Assam_Laughingthrush_Khonoma_Nagaland_India_23.12.2016.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Assam_Laughingthrush_Khonoma_Nagaland_India_23.12.2016.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 83.0,
+   "max": 83.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Trochalopteron"
+  },
+  "family": {
+   "scientific": "Leiothrichidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075537"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Assam_laughingthrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,77 @@
+{
+ "scientific": "Pelecanus onocrotalus",
+ "name": "Great White Pelican",
+ "qid": "Q199427",
+ "description": "species of bird",
+ "extract": "The great white pelican (Pelecanus onocrotalus), also known as the eastern white pelican (in contrast to the western pelican of the Americas), rosy pelican or simply white pelican, is a bird in the pelican family. It breeds from southeastern Europe through Asia and Africa, in swamps and shallow lakes.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Great_white_pelican_%28Pelecanus_onocrotalus%29.jpg/1280px-Great_white_pelican_%28Pelecanus_onocrotalus%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Great_white_pelican_%28Pelecanus_onocrotalus%29.jpg/330px-Great_white_pelican_%28Pelecanus_onocrotalus%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Great_white_pelican_(Pelecanus_onocrotalus).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Charles J. Sharp",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Pelikan_Walvis_Bay.jpg/1280px-Pelikan_Walvis_Bay.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Pelikan_Walvis_Bay.jpg/330px-Pelikan_Walvis_Bay.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pelikan_Walvis_Bay.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Rui Ornelas from Lisboa, Portugal",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Kerkini_lake_in_May_09.jpg/1280px-Kerkini_lake_in_May_09.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Kerkini_lake_in_May_09.jpg/330px-Kerkini_lake_in_May_09.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Kerkini_lake_in_May_09.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Vassilios Vescoukis",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 291.0,
+   "max": 291.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 180.0,
+   "max": 11450.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pelecanus",
+   "name": "pelican"
+  },
+  "family": {
+   "scientific": "Pelecanidae",
+   "name": "pelicans"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q199427"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_white_pelican"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

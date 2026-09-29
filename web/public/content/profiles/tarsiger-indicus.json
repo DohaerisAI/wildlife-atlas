@@ -1,0 +1,59 @@
+{
+ "scientific": "Tarsiger indicus",
+ "name": "White-browed Bush Robin",
+ "qid": "Q905873",
+ "description": "species of bird",
+ "extract": "The white-browed bush robin (Tarsiger indicus) is a species of passerine bird in the Old World flycatcher family Muscicapidae that is found from the Himalayas to south-central China and north Vietnam. Its natural habitat is Rhododendron and conifer forests. The Taiwan bush robin was formerly regarded as a subspecies.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/White-browed_Bush-Robin_cropped.jpg/1280px-White-browed_Bush-Robin_cropped.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/White-browed_Bush-Robin_cropped.jpg/330px-White-browed_Bush-Robin_cropped.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-browed_Bush-Robin_cropped.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Mildeep",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/White-browed_Bush_Robin_female%2C_Eaglenest_-_Arunachal_Pradesh_-_India_%2834204900442%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/White-browed_Bush_Robin_female%2C_Eaglenest_-_Arunachal_Pradesh_-_India_%2834204900442%29.jpg/330px-White-browed_Bush_Robin_female%2C_Eaglenest_-_Arunachal_Pradesh_-_India_%2834204900442%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-browed_Bush_Robin_female,_Eaglenest_-_Arunachal_Pradesh_-_India_(34204900442).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 14.0,
+   "max": 14.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tarsiger"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q905873"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-browed_bush_robin"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

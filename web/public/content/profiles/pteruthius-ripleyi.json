@@ -1,0 +1,41 @@
+{
+ "scientific": "Pteruthius ripleyi",
+ "name": "Himalayan Shrike-Babbler",
+ "qid": "Q10809501",
+ "description": "species of bird",
+ "extract": "The Himalayan shrike-babbler (Pteruthius aeralatus ripleyi) is a bird subspecies found in the western Himalayas that belongs to the shrike-babbler group. The genus was once considered to be an aberrant Old World babbler and placed in the family Timaliidae until molecular phylogenetic studies showed them to be closely related to the vireos of the New World, leading to their addition in the family Vireonidae. Males and females have distinctive plumages, with the males being all black about with a cinnamon-rufous tertial patch and a distinctive white stripe running from behind the eye. The underside is whitish with some pinkish buff on the flanks. Females have a greyish head, lack the white stripe and have the upperparts and wings with greens, yellow and chestnut. The subspecies is part of a cryptic species complex that was earlier considered as one species, white-browed shrike-babbler (P. flaviscapis in the broad sense) with several subspecies.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Pteruthius_ripleyi%2C_male%2C_Paharpani%2C_Uttarakhand%2C_India.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Pteruthius_ripleyi%2C_male%2C_Paharpani%2C_Uttarakhand%2C_India.jpg/330px-Pteruthius_ripleyi%2C_male%2C_Paharpani%2C_Uttarakhand%2C_India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pteruthius_ripleyi,_male,_Paharpani,_Uttarakhand,_India.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "soumyajit nandy",
+   "caption": "Male"
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pteruthius"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q10809501"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Himalayan_shrike-babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

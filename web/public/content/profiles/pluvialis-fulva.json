@@ -1,0 +1,75 @@
+{
+ "scientific": "Pluvialis fulva",
+ "name": "Pacific Golden Plover",
+ "qid": "Q18865",
+ "description": "species of bird",
+ "extract": "The Pacific golden plover (Pluvialis fulva) is a migratory shorebird that breeds during summer in Alaska and Siberia. During nonbreeding season, this medium-sized plover migrates widely across the Pacific.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Pluvialis_fulva_-Bering_Land_Bridge_National_Preserve%2C_Alaska%2C_USA-8.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Pluvialis_fulva_-Bering_Land_Bridge_National_Preserve%2C_Alaska%2C_USA-8.jpg/330px-Pluvialis_fulva_-Bering_Land_Bridge_National_Preserve%2C_Alaska%2C_USA-8.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pluvialis_fulva_-Bering_Land_Bridge_National_Preserve,_Alaska,_USA-8.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Bering Land Bridge National Preserve",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Pacific_Golden_Plover_-_March_4%2C_2025.jpg/1280px-Pacific_Golden_Plover_-_March_4%2C_2025.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Pacific_Golden_Plover_-_March_4%2C_2025.jpg/330px-Pacific_Golden_Plover_-_March_4%2C_2025.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pacific_Golden_Plover_-_March_4,_2025.jpg",
+   "license": "CC BY 4.0",
+   "artist": "AMMuench",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Pacific_Golden-Plover_in_Bakkhali_September_2025_by_Tisha_Mukherjee_01.jpg/1280px-Pacific_Golden-Plover_in_Bakkhali_September_2025_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Pacific_Golden-Plover_in_Bakkhali_September_2025_by_Tisha_Mukherjee_01.jpg/330px-Pacific_Golden-Plover_in_Bakkhali_September_2025_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pacific_Golden-Plover_in_Bakkhali_September_2025_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 44.0,
+   "max": 44.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 18.0,
+   "max": 135.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pluvialis"
+  },
+  "family": {
+   "scientific": "Charadriidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q18865"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pacific_golden_plover"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

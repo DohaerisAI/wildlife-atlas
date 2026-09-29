@@ -1,0 +1,54 @@
+{
+ "scientific": "Caprimulgus affinis",
+ "name": "Savanna Nightjar",
+ "qid": "Q512949",
+ "description": "species of bird",
+ "extract": "The savanna nightjar (Caprimulgus affinis), also known as allied nightjar or Franklin's nightjar, is a species of nightjar found in South and Southeast Asia. The IUCN Red List has assessed the species to be of least concern because it has a large range and its population trend is stable. As other nightjars, this nocturnal bird is characterised by its large eyes, gaping mouth and excellent camouflage. It can be distinguished from similar south Asian nightjar species, like the chirruping nightjar, by its unique vocalisations.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Caprimulgus_affinis.jpg/1280px-Caprimulgus_affinis.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Caprimulgus_affinis.jpg/330px-Caprimulgus_affinis.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Caprimulgus_affinis.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Brian Gratwicke",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 70.0,
+   "max": 95.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Caprimulgus"
+  },
+  "family": {
+   "scientific": "Caprimulgidae"
+  },
+  "order": {
+   "scientific": "Caprimulgiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q512949"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Savanna_nightjar"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

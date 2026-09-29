@@ -1,0 +1,62 @@
+{
+ "scientific": "Buteo japonicus",
+ "name": "Eastern Buzzard",
+ "qid": "Q1152577",
+ "description": "species of prey bird",
+ "extract": "The eastern buzzard or Japanese buzzard  (Buteo japonicus) is a medium to large bird of prey that is sometimes considered a subspecies of the widespread common buzzard (Buteo buteo). It was formerly treated as a subspecies of the common buzzard, but molecular phylogenetic studies revealed that B. buteo as then circumscribed was polyphyletic, leading to the recognition of the eastern buzzard and Himalayan buzzard (B. refectus) as distinct species. It is native to East Asia and some parts of Russia and South Asia, with some birds wintering in Southeast Asia. It is similar to the steppe buzzard. It is carnivorous.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Buteo_japonicus1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Buteo_japonicus1.jpg/330px-Buteo_japonicus1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Buteo_japonicus1.jpg",
+   "license": "CC BY 3.0",
+   "artist": "NOZO",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Buteo_vulgaris_japonicus_Fauna_Japonica.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Buteo_vulgaris_japonicus_Fauna_Japonica.jpg/330px-Buteo_vulgaris_japonicus_Fauna_Japonica.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Buteo_vulgaris_japonicus_Fauna_Japonica.jpg",
+   "license": "Public domain",
+   "artist": "Philipp Franz von Siebold",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 122.0,
+   "max": 137.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Buteo"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1152577"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eastern_buzzard"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

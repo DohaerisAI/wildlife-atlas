@@ -1,0 +1,50 @@
+{
+ "scientific": "Pericrocotus cantonensis",
+ "name": "Swinhoe's Minivet",
+ "qid": "Q1037950",
+ "description": "species of bird",
+ "extract": "Swinhoe's minivet or the brown-rumped minivet (Pericrocotus cantonensis) is a bird in the cuckooshrike family, Campephagidae. The species was first described by Robert Swinhoe in 1861.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/PericrocotusCantonensisGould.jpg/1280px-PericrocotusCantonensisGould.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/PericrocotusCantonensisGould.jpg/330px-PericrocotusCantonensisGould.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:PericrocotusCantonensisGould.jpg",
+   "license": "Public domain",
+   "artist": "John Gould, HC Richter",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pericrocotus",
+   "name": "Minivet"
+  },
+  "family": {
+   "scientific": "Campephagidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "brown-rumped minivet"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1037950"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Swinhoe%27s_minivet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

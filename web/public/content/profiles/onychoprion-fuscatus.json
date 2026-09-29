@@ -1,0 +1,65 @@
+{
+ "scientific": "Onychoprion fuscatus",
+ "name": "Sooty Tern",
+ "qid": "Q28482",
+ "description": "species of bird",
+ "extract": "The sooty tern (Onychoprion fuscatus) is a tern in the family Laridae. It is a seabird of the tropical oceans and can fly for years at a time, skimming the sea surface for food, and returning to land only to breed, on islands throughout the equatorial zone.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Onychoprion_fuscatus_Ascension_Island_7.jpg/1280px-Onychoprion_fuscatus_Ascension_Island_7.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Onychoprion_fuscatus_Ascension_Island_7.jpg/330px-Onychoprion_fuscatus_Ascension_Island_7.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Onychoprion_fuscatus_Ascension_Island_7.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Drew Avery",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Sterna_fuscata.JPG/1280px-Sterna_fuscata.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Sterna_fuscata.JPG/330px-Sterna_fuscata.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Sterna_fuscata.JPG",
+   "license": "Public domain",
+   "artist": "Duncan Wright, USFWS",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 90.0,
+   "max": 90.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Onychoprion"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Sterna fuscata"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q28482"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sooty_tern"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,50 @@
+{
+ "scientific": "Tetraogallus himalayensis",
+ "name": "Himalayan Snowcock",
+ "qid": "Q732340",
+ "description": "species of bird",
+ "extract": "The Himalayan snowcock (Tetraogallus himalayensis) is a snowcock in the pheasant family Phasianidae found across the Himalayan ranges and parts of the adjoining Pamir range of Asia. It is found on alpine pastures and on steep rocky cliffs where they will dive down the hill slopes to escape. It overlaps with the slightly smaller Tibetan snowcock in parts of its wide range. The populations from different areas show variations in the colouration and about five subspecies have been designated. They were introduced in the mountains of Nevada in the United States in the 1960s and a wild population has established in the Ruby Mountains.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Tetraogallus_himalayensis_265472283.jpg/1280px-Tetraogallus_himalayensis_265472283.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Tetraogallus_himalayensis_265472283.jpg/330px-Tetraogallus_himalayensis_265472283.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tetraogallus_himalayensis_265472283.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Griha Hasanov",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tetraogallus",
+   "name": "Snowcock"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q732340"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Himalayan_snowcock"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

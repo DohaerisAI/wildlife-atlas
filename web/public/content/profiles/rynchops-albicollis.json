@@ -1,0 +1,55 @@
+{
+ "scientific": "Rynchops albicollis",
+ "name": "Indian Skimmer",
+ "qid": "Q972429",
+ "description": "species of bird",
+ "extract": "The Indian skimmer (Rynchops albicollis) or Indian scissors-bill, is one of the three species that belong to the skimmer genus Rynchops in the family Laridae. They are somewhat tern-like but like other skimmers, have a short upper mandible and the longer lower mandible that is ploughed along the surface of water as the bird flies over the water to pick aquatic prey. It is found in southern Asia, where it is patchily distributed and declining in numbers. They are mainly found in rivers or estuaries. They are very brightly marked in black, white and orange, making them difficult to miss.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Indian_skimmer_bird_%282016%29_1361.jpg/1280px-Indian_skimmer_bird_%282016%29_1361.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Indian_skimmer_bird_%282016%29_1361.jpg/330px-Indian_skimmer_bird_%282016%29_1361.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Indian_skimmer_bird_(2016)_1361.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Davidvraju",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 102.0,
+   "max": 114.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 371.0,
+   "max": 371.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Rynchops"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q972429"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_skimmer"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

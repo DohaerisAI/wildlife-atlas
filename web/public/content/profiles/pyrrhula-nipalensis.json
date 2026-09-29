@@ -1,0 +1,51 @@
+{
+ "scientific": "Pyrrhula nipalensis",
+ "name": "Brown Bullfinch",
+ "qid": "Q731404",
+ "description": "species of bird",
+ "extract": "The brown bullfinch (Pyrrhula nipalensis) is a species of bird in the true finch family, Fringillidae. It is found in Bhutan, China, India, Malaysia, Myanmar, Nepal, Pakistan, Taiwan, and Vietnam. Its natural habitats are temperate forests and subtropical or tropical moist montane forests.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Pyrrhula_nipalensis.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Pyrrhula_nipalensis.jpg/330px-Pyrrhula_nipalensis.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pyrrhula_nipalensis.jpg",
+   "license": "CC BY 2.0",
+   "artist": "PeiWen Chang from TAIWAN/Taipei",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 25.0,
+   "max": 25.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pyrrhula"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q731404"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown_bullfinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

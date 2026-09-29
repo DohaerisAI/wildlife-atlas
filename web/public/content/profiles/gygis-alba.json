@@ -1,0 +1,76 @@
+{
+ "scientific": "Gygis alba",
+ "name": "White Tern",
+ "qid": "Q248740",
+ "description": "species of bird",
+ "extract": "The Atlantic white tern (Gygis alba), also known as the common white tern, is a small seabird found in the Atlantic Ocean. It is sometimes known as the fairy tern, although this name is potentially confusing as it is also the common name of Sternula nereis. Other names for the species include angel tern and white noddy. The blue-billed white tern (Gygis candida) and the little white tern (Gygis microrhyncha) have sometimes been considered as subspecies of the Atlantic white tern.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Gygis_alba_Ascension_Island_1.jpg/1280px-Gygis_alba_Ascension_Island_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Gygis_alba_Ascension_Island_1.jpg/330px-Gygis_alba_Ascension_Island_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gygis_alba_Ascension_Island_1.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Drew Avery",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/White_tern_with_fish.jpg/1280px-White_tern_with_fish.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/White_tern_with_fish.jpg/330px-White_tern_with_fish.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White_tern_with_fish.jpg",
+   "license": "Public domain",
+   "artist": "Duncan Wright, USFWS",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 78.0,
+   "max": 78.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 138.0,
+   "max": 138.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Gygis"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Common white tern",
+  "Fairy tern",
+  "Angel tern",
+  "White noddy",
+  "manu-o-Kū",
+  "kakaia",
+  "Atlantic white tern"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q248740"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Atlantic_white_tern"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

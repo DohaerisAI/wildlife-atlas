@@ -1,0 +1,55 @@
+{
+ "scientific": "Pteruthius aeralatus",
+ "name": "Blyth's Shrike-Babbler",
+ "qid": "Q14156927",
+ "description": "species of bird",
+ "extract": "The white-browed shrike-babbler (Pteruthius aeralatus) is a bird species found in the eastern Himalayas and Southeast Asia from northern Burma to southern Cambodia. Like others in the genus it is found in montane forests. Males and females have different plumages and variations occur through its range with several populations being treated as subspecies. It is part of a cryptic species complex and was earlier lumped as a subspecies of the white-browed shrike-babbler. Clements lumps this bird into the white-browed shrike-babbler.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Pteruthius_aeralatus_-_Chrissy_McClarren_and_Andy_Reago_-_453288227.jpeg/1280px-Pteruthius_aeralatus_-_Chrissy_McClarren_and_Andy_Reago_-_453288227.jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Pteruthius_aeralatus_-_Chrissy_McClarren_and_Andy_Reago_-_453288227.jpeg/330px-Pteruthius_aeralatus_-_Chrissy_McClarren_and_Andy_Reago_-_453288227.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pteruthius_aeralatus_-_Chrissy_McClarren_and_Andy_Reago_-_453288227.jpeg",
+   "license": "CC0",
+   "artist": "Chrissy McClarren and Andy Reago",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 36.0,
+   "max": 36.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pteruthius"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Blyth's Shrike-abbler",
+  "White-browed Shrike-babbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q14156927"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-browed_shrike-babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

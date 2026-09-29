@@ -1,0 +1,47 @@
+{
+ "scientific": "Chloropsis jerdoni",
+ "name": "Jerdon's Leafbird",
+ "qid": "Q3785540",
+ "description": "species of bird",
+ "extract": "Jerdon's leafbird (Chloropsis jerdoni) is a species of leafbird found in forest and woodland in India and Sri Lanka. Its name honours Thomas C. Jerdon. It has traditionally been considered a subspecies of the blue-winged leafbird (C. cochinchinensis), but differ in measurements and morphology, it lacking the blue flight feathers for which the blue-winged leafbird was named.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Jerdon%27s_Leafbird.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Jerdon%27s_Leafbird.jpg/330px-Jerdon%27s_Leafbird.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Jerdon%27s_Leafbird.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Godbolemandar",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chloropsis"
+  },
+  "family": {
+   "scientific": "Chloropseidae",
+   "name": "leafbird"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3785540"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jerdon%27s_leafbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

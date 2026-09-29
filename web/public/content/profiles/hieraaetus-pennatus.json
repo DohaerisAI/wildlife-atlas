@@ -1,0 +1,70 @@
+{
+ "scientific": "Hieraaetus pennatus",
+ "name": "Booted Eagle",
+ "qid": "Q182971",
+ "description": "species of bird",
+ "extract": "The booted eagle (Hieraaetus pennatus) is a medium-sized mostly migratory bird of prey with a wide distribution in the Palearctic and southern Asia, wintering in the tropics of Africa and Asia, with a small, disjunct breeding population in south-western Africa. Like all eagles, it belongs to the family Accipitridae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Booted_eagle%2C_Hieraaetus_pennatus%2C_at_Kgalagadi_Transfrontier_Pa_%2832334023348%29.jpg/1280px-Booted_eagle%2C_Hieraaetus_pennatus%2C_at_Kgalagadi_Transfrontier_Pa_%2832334023348%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Booted_eagle%2C_Hieraaetus_pennatus%2C_at_Kgalagadi_Transfrontier_Pa_%2832334023348%29.jpg/330px-Booted_eagle%2C_Hieraaetus_pennatus%2C_at_Kgalagadi_Transfrontier_Pa_%2832334023348%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Booted_eagle,_Hieraaetus_pennatus,_at_Kgalagadi_Transfrontier_Pa_(32334023348).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Derek Keats from Johannesburg, South Africa",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/%C3%81guila_calzada.JPG/1280px-%C3%81guila_calzada.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/%C3%81guila_calzada.JPG/330px-%C3%81guila_calzada.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:%C3%81guila_calzada.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Vicente Zumel",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 111.0,
+   "max": 111.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 62.0,
+   "max": 975.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Hieraaetus"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Aquila pennata"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q182971"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Booted_eagle"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

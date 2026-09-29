@@ -1,0 +1,54 @@
+{
+ "scientific": "Cuculus micropterus",
+ "name": "Indian cuckoo",
+ "qid": "Q877666",
+ "description": "species of bird",
+ "extract": "The  Indian cuckoo or short-winged cuckoo (Cuculus micropterus) is a member of the cuckoo order of birds, the Cuculiformes, that is found in the Indian subcontinent and Southeast Asia.  It ranges from India, Bangladesh, Bhutan, Nepal and Sri Lanka east to Indonesia and north to China and Russia. It is a solitary and shy bird, found in forests and open woodland at up to 3,600 m (11,800 ft).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Indian_cuckoo_%28Cuculus_micropterus%29_46.jpg/1280px-Indian_cuckoo_%28Cuculus_micropterus%29_46.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Indian_cuckoo_%28Cuculus_micropterus%29_46.jpg/330px-Indian_cuckoo_%28Cuculus_micropterus%29_46.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Indian_cuckoo_(Cuculus_micropterus)_46.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Creepanta",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 4.8,
+   "max": 4.8,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cuculus"
+  },
+  "family": {
+   "scientific": "Cuculidae"
+  },
+  "order": {
+   "scientific": "Cuculiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q877666"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_cuckoo"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

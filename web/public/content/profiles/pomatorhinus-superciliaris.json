@@ -1,0 +1,54 @@
+{
+ "scientific": "Pomatorhinus superciliaris",
+ "name": "Slender-billed Scimitar-Babbler",
+ "qid": "Q27075512",
+ "description": "species of bird",
+ "extract": "The slender-billed scimitar babbler (Pomatorhinus superciliaris) is a passerine bird in the Old World babbler family. It is found from the Himalayas to north-western Vietnam. Its natural habitat is subtropical or tropical moist montane forests.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Slender-billed_Scimitar_Babbler.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Slender-billed_Scimitar_Babbler.jpg/330px-Slender-billed_Scimitar_Babbler.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Slender-billed_Scimitar_Babbler.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 28.0,
+   "max": 28.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pomatorhinus"
+  },
+  "family": {
+   "scientific": "Timaliidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Slender-billed Scimitar Babbler"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075512"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Slender-billed_scimitar_babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

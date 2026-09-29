@@ -1,0 +1,55 @@
+{
+ "scientific": "Anser fabalis",
+ "name": "Taiga bean goose",
+ "qid": "Q26452",
+ "description": "species of bird",
+ "extract": "The taiga bean goose (Anser fabalis) is a species of goose that breeds in northern Europe and Asia. It is migratory and winters further south in Europe and Asia. This and the tundra bean goose were recognised as separate species by the International Ornithologists' Union and the American Ornithological Society from 2007, but are still considered a single species by some other authorities (collectively called bean goose), notably BirdLife International and the IUCN. The taiga and tundra bean goose diverged about 2.5 million years ago and established secondary contact c. 60,000 years ago, resulting in extensive gene flow.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Anser_fabalis_fabalis_%28Taiga_Bean_Goose%29%2C_Naturschutzgebiet_Schellbruch%2C_L%C3%BCbeck%2C_Germany.jpg/1280px-Anser_fabalis_fabalis_%28Taiga_Bean_Goose%29%2C_Naturschutzgebiet_Schellbruch%2C_L%C3%BCbeck%2C_Germany.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Anser_fabalis_fabalis_%28Taiga_Bean_Goose%29%2C_Naturschutzgebiet_Schellbruch%2C_L%C3%BCbeck%2C_Germany.jpg/330px-Anser_fabalis_fabalis_%28Taiga_Bean_Goose%29%2C_Naturschutzgebiet_Schellbruch%2C_L%C3%BCbeck%2C_Germany.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Anser_fabalis_fabalis_(Taiga_Bean_Goose),_Naturschutzgebiet_Schellbruch,_L%C3%BCbeck,_Germany.jpg",
+   "license": "CC0",
+   "artist": "Hobbyfotowiki",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 162.0,
+   "max": 162.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 146.0,
+   "max": 3198.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anser"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26452"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Taiga_bean_goose"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

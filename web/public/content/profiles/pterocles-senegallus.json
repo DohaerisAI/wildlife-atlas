@@ -1,0 +1,59 @@
+{
+ "scientific": "Pterocles senegallus",
+ "name": "Spotted Sandgrouse",
+ "qid": "Q80832",
+ "description": "species of bird",
+ "extract": "The spotted sandgrouse (Pterocles senegallus) is a species of ground dwelling bird in the family Pteroclidae. It is found in arid regions of northern and eastern Africa and across the Middle East and parts of Asia as far east as northwest India. It is a gregarious, diurnal bird and small flocks forage for seed and other vegetable matter on the ground, flying once a day to a waterhole for water. In the breeding season pairs nest apart from one another, the eggs being laid in a depression on the stony ground. The chicks leave the nest soon after hatching and eat dry seed, the water they need being provided by the male which saturates its belly feathers with water at the waterhole. The spotted sandgrouse is listed as being of \"least concern\" by the International Union for Conservation of Nature in its Red List of Threatened Species.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Pterocles_senegallus_1921.jpg/1280px-Pterocles_senegallus_1921.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Pterocles_senegallus_1921.jpg/330px-Pterocles_senegallus_1921.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pterocles_senegallus_1921.jpg",
+   "license": "Public domain",
+   "artist": "Henrik Grønvold",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 53.0,
+   "max": 65.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 18.0,
+   "max": 18.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pterocles"
+  },
+  "family": {
+   "scientific": "Pteroclidae"
+  },
+  "order": {
+   "scientific": "Pterocliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q80832"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spotted_sandgrouse"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

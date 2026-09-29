@@ -1,0 +1,41 @@
+{
+ "scientific": "Corvus levaillantii",
+ "name": "Jungle crow",
+ "qid": "Q25652814",
+ "description": "species of bird",
+ "extract": "The large-billed crow (Corvus macrorhynchos), formerly referred to widely as the jungle crow, is a widespread Asian species of crow. It is very adaptable and is able to survive on a wide range of food sources, making it capable of colonizing new areas, due to which it is often considered a nuisance, especially on islands. It has a large bill, which is the source of its scientific name macrorhynchos (Ancient Greek for \"long-billed\") and it is sometimes known by the common name thick-billed crow. It can also be mistaken for a common raven. The eastern jungle crow and Indian jungle crow were once considered conspecific and together called the jungle crow.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Birds_Bangladesh_2_%282%29.JPG/1280px-Birds_Bangladesh_2_%282%29.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Birds_Bangladesh_2_%282%29.JPG/330px-Birds_Bangladesh_2_%282%29.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Birds_Bangladesh_2_(2).JPG",
+   "license": "CC BY 3.0",
+   "artist": "Shahnoor Habib Munmun",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Corvus"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25652814"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Large-billed_crow"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

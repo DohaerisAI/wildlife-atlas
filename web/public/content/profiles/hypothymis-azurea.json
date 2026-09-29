@@ -1,0 +1,62 @@
+{
+ "scientific": "Hypothymis azurea",
+ "name": "Black-naped Monarch",
+ "qid": "Q73430",
+ "description": "species of bird",
+ "extract": "The black-naped monarch (Hypothymis azurea) is a passerine bird belonging to the family of monarch flycatchers found in southern and south-eastern Asia. They are sexually dimorphic, with the male having a distinctive black patch on the back of the head and a narrow black half collar (\"necklace\"), while the female is duller with olive brown wings and lacking the black markings on the head. They have a call that is similar to that of the Asian paradise flycatcher, and in tropical forest habitats, pairs may join mixed-species foraging flocks. Populations differ slightly in plumage colour and sizes.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Hypothymis_azurea_-_Kaeng_Krachan.jpg/1280px-Hypothymis_azurea_-_Kaeng_Krachan.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Hypothymis_azurea_-_Kaeng_Krachan.jpg/330px-Hypothymis_azurea_-_Kaeng_Krachan.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hypothymis_azurea_-_Kaeng_Krachan.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Black-naped_Monarch_%28Female%29.jpg/1280px-Black-naped_Monarch_%28Female%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Black-naped_Monarch_%28Female%29.jpg/330px-Black-naped_Monarch_%28Female%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-naped_Monarch_(Female).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jason Thompson",
+   "caption": "Female"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Black-naped_Monarch_in_Rabindra_Sarobar_January_2025_by_Tisha_Mukherjee_01.jpg/1280px-Black-naped_Monarch_in_Rabindra_Sarobar_January_2025_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Black-naped_Monarch_in_Rabindra_Sarobar_January_2025_by_Tisha_Mukherjee_01.jpg/330px-Black-naped_Monarch_in_Rabindra_Sarobar_January_2025_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-naped_Monarch_in_Rabindra_Sarobar_January_2025_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Hypothymis"
+  },
+  "family": {
+   "scientific": "Monarchidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q73430"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-naped_monarch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

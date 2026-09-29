@@ -1,0 +1,50 @@
+{
+ "scientific": "Phoenicurus coeruleocephala",
+ "name": "Blue-capped Redstart",
+ "qid": "Q367577",
+ "description": "species of bird",
+ "extract": "The blue-capped redstart (Phoenicurus coeruleocephala) is a species of bird in the family Muscicapidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Blue-capped_Redstart_Uttarakhand_India.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Blue-capped_Redstart_Uttarakhand_India.jpg/330px-Blue-capped_Redstart_Uttarakhand_India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blue-capped_Redstart_Uttarakhand_India.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Phoenicurus"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Phoenicurus caeruleocephalus",
+  "Phoenicurus caeruleocephala"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q367577"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blue-capped_redstart"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,51 @@
+{
+ "scientific": "Agapornis roseicollis",
+ "name": "Rosy-faced Lovebird",
+ "qid": "Q632213",
+ "description": "species of bird",
+ "extract": "The rosy-faced lovebird (Agapornis roseicollis), also known as the rosy-collared or peach-faced lovebird, is a species of lovebird native to the Namibian savanna woodlands. Loud and constant chirpers, these birds are very social animals and often congregate in small groups in the wild. They eat throughout the day and take frequent baths. Coloration can vary widely among populations. Plumage is identical in males and females. Lovebirds are renowned for their sleep position in which they sit side-by-side and turn their faces in towards each other. Also, females are well noted to tear raw materials into long strips, \"twisty-tie\" them onto their backs, and fly substantial distances back to make a nest. These birds are common in the pet industry.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/162_Rosy-faced_lovebird_in_flight_in_Damaraland_Photo_by_Giles_Laurent.jpg/1280px-162_Rosy-faced_lovebird_in_flight_in_Damaraland_Photo_by_Giles_Laurent.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/162_Rosy-faced_lovebird_in_flight_in_Damaraland_Photo_by_Giles_Laurent.jpg/330px-162_Rosy-faced_lovebird_in_flight_in_Damaraland_Photo_by_Giles_Laurent.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:162_Rosy-faced_lovebird_in_flight_in_Damaraland_Photo_by_Giles_Laurent.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Giles Laurent",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 4.0,
+   "max": 54.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Agapornis"
+  },
+  "family": {
+   "scientific": "Psittaculidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q632213"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rosy-faced_lovebird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

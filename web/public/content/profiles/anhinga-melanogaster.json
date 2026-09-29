@@ -1,0 +1,67 @@
+{
+ "scientific": "Anhinga melanogaster",
+ "name": "Oriental Darter",
+ "qid": "Q282242",
+ "description": "species of bird",
+ "extract": "The Oriental darter (Anhinga melanogaster) is a water bird of tropical South Asia and Southeast Asia. It has a long and slender neck with a straight, pointed bill and, like the cormorant, it hunts for fish while its body is submerged in water. It spears a fish underwater, bringing it above the surface, tossing and juggling it before swallowing the fish head first. The body remains submerged as it swims, and the slender neck alone is visible above the water, which accounts for the colloquial name of snakebird. Like the cormorants, it has wettable feathers and it is often found perched on a rock or branch with its wings held open to dry.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Darter_I_IMG_8195.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Darter_I_IMG_8195.jpg/330px-Darter_I_IMG_8195.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Darter_I_IMG_8195.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Darter_I2m_IMG_8574.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Darter_I2m_IMG_8574.jpg/330px-Darter_I2m_IMG_8574.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Darter_I2m_IMG_8574.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 114.0,
+   "max": 128.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 36.0,
+   "max": 36.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anhinga"
+  },
+  "family": {
+   "scientific": "Anhingidae"
+  },
+  "order": {
+   "scientific": "Suliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q282242"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Oriental_darter"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

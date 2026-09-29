@@ -1,0 +1,59 @@
+{
+ "scientific": "Cursorius cursor",
+ "name": "Cream-coloured Courser",
+ "qid": "Q219199",
+ "description": "species of bird",
+ "extract": "The cream-coloured courser (Cursorius cursor) is a species of wader in the pratincole and courser family, Glareolidae. Both parts of the scientific name derive from Latin cursor, \"runner\", from currere, \"to run\" which describes their usual habit as they hunt their insect prey on the ground in dry open semi-desert regions of the Middle East and northern Africa.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Cream-coloured_Courser%2C_Wadi_Degla%2C_Egypt.jpg/1280px-Cream-coloured_Courser%2C_Wadi_Degla%2C_Egypt.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Cream-coloured_Courser%2C_Wadi_Degla%2C_Egypt.jpg/330px-Cream-coloured_Courser%2C_Wadi_Degla%2C_Egypt.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cream-coloured_Courser,_Wadi_Degla,_Egypt.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Mohamed Sabry Photographer",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 51.0,
+   "max": 57.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 13.9,
+   "max": 129.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cursorius"
+  },
+  "family": {
+   "scientific": "Glareolidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q219199"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cream-coloured_courser"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,41 @@
+{
+ "scientific": "Heteroglaux blewitti",
+ "name": "Forest Owlet",
+ "qid": "Q883968",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Forest_Owlet.jpg/1280px-Forest_Owlet.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Forest_Owlet.jpg/330px-Forest_Owlet.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Forest_Owlet.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Nimtan",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Heteroglaux"
+  },
+  "family": {
+   "scientific": "Strigidae",
+   "name": "true owls"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q883968"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

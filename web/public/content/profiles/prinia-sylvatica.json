@@ -1,0 +1,51 @@
+{
+ "scientific": "Prinia sylvatica",
+ "name": "Jungle Prinia",
+ "qid": "Q2226845",
+ "description": "species of bird",
+ "extract": "The jungle prinia (Prinia sylvatica) is a small passerine bird, a warbler in the family Cisticolidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Jungle_Prinia_in_Saswad_August_2025_by_Tisha_Mukherjee_02.jpg/1280px-Jungle_Prinia_in_Saswad_August_2025_by_Tisha_Mukherjee_02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Jungle_Prinia_in_Saswad_August_2025_by_Tisha_Mukherjee_02.jpg/330px-Jungle_Prinia_in_Saswad_August_2025_by_Tisha_Mukherjee_02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Jungle_Prinia_in_Saswad_August_2025_by_Tisha_Mukherjee_02.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 16.1,
+   "max": 16.1,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Prinia"
+  },
+  "family": {
+   "scientific": "Cisticolidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2226845"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jungle_prinia"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

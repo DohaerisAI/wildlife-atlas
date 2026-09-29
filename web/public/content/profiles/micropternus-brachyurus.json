@@ -1,0 +1,53 @@
+{
+ "scientific": "Micropternus brachyurus",
+ "name": "Rufous Woodpecker",
+ "qid": "Q1274095",
+ "description": "species of bird",
+ "extract": "The rufous woodpecker (Micropternus brachyurus) is a medium-sized brown woodpecker native to South and Southeast Asia. It is short-billed, foraging in pairs on small insects, particularly ants and termites, in scrub, evergreen, and deciduous forests and is noted for building its nest within the carton nests of arboreal ants in the genus Crematogaster. It was for sometime placed in the otherwise Neotropical genus Celeus but this has been shown to be a case of evolutionary convergence and molecular phylogenetic studies support its placement in the monotypic genus Micropternus.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Rufous_woodpecker.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Rufous_woodpecker.jpg/330px-Rufous_woodpecker.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rufous_woodpecker.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Prajwalkm",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/051204_rufous_woodpecker_knr_-_Flickr_-_Lip_Kee.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/051204_rufous_woodpecker_knr_-_Flickr_-_Lip_Kee.jpg/330px-051204_rufous_woodpecker_knr_-_Flickr_-_Lip_Kee.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:051204_rufous_woodpecker_knr_-_Flickr_-_Lip_Kee.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lip Kee from Singapore, Republic of Singapore",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Micropternus"
+  },
+  "family": {
+   "scientific": "Picidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1274095"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rufous_woodpecker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

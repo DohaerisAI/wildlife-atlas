@@ -1,0 +1,65 @@
+{
+ "scientific": "Lophura leucomelanos",
+ "name": "Kalij Pheasant",
+ "qid": "Q840349",
+ "description": "species of bird",
+ "extract": "The kalij pheasant (Lophura leucomelanos), or simply kalij, is a pheasant found in forests and thickets, especially in the Himalayan foothills, from India, Nepal, Pakistan to western Thailand. Males are rather variable depending on the subspecies involved, but all have at least partially glossy bluish-black plumage, while females are overall brownish. Both sexes have a bare red face and greyish legs (the latter separating it from the red-legged silver pheasant). It is generally widespread, though three of its eastern subspecies (L. l. oatesi, L. l. lineata, and L. l. crawfurdi) are considered threatened and L. l. moffitti is virtually unknown in the wild.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Kalij_pheasant_Prasanna_Mamidala.jpg/1280px-Kalij_pheasant_Prasanna_Mamidala.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Kalij_pheasant_Prasanna_Mamidala.jpg/330px-Kalij_pheasant_Prasanna_Mamidala.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Kalij_pheasant_Prasanna_Mamidala.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Mprasannak",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Kalij_Pheasant_Lingadhar_Uttarakhand_India_02.12.2014.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Kalij_Pheasant_Lingadhar_Uttarakhand_India_02.12.2014.jpg/330px-Kalij_Pheasant_Lingadhar_Uttarakhand_India_02.12.2014.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Kalij_Pheasant_Lingadhar_Uttarakhand_India_02.12.2014.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 795.0,
+   "max": 975.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lophura"
+  },
+  "family": {
+   "scientific": "Phasianidae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "White-crested Kalij pheasant"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q840349"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kalij_pheasant"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

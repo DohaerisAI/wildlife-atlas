@@ -1,0 +1,58 @@
+{
+ "scientific": "Centropus sinensis",
+ "name": "Greater Coucal",
+ "qid": "Q767112",
+ "description": "species of bird",
+ "extract": "The greater coucal or crow pheasant (Centropus sinensis), is a large non-parasitic member of the cuckoo order of birds, the Cuculiformes. A widespread resident in the Indian subcontinent and Southeast Asia, it is divided into several subspecies, some being treated as full species. They are large, crow-like with a long tail and coppery brown wings and found in a wide range of habitats from jungle to cultivation and urban gardens. They are weak fliers, and are often seen clambering about in vegetation or walking on the ground as they forage for insects, eggs and nestlings of other birds. They have a familiar deep resonant call which is associated with omens in many parts of its range.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Greater_Coucal_I_IMG_7775.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Greater_Coucal_I_IMG_7775.jpg/330px-Greater_Coucal_I_IMG_7775.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Greater_Coucal_I_IMG_7775.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 247.0,
+   "max": 319.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Centropus"
+  },
+  "family": {
+   "scientific": "Cuculidae"
+  },
+  "order": {
+   "scientific": "Cuculiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Common crow-pheasant",
+  "crow pheasant"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q767112"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Greater_coucal"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

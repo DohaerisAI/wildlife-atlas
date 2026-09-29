@@ -1,0 +1,54 @@
+{
+ "scientific": "Garrulus lanceolatus",
+ "name": "Black-headed Jay",
+ "qid": "Q1586915",
+ "description": "species of bird",
+ "extract": "The black-headed jay or lanceolated jay (Garrulus lanceolatus) is a species of passerine bird in the crow family Corvidae. It is found in open wooded country across the Himalayas and into eastern Afghanistan. A relatively large songbird, it has a largely grey body with a black head, an untidy crest, white streaks on the throat, and a pale bill. It is roughly the same size as its close relative the Eurasian jay, but a little more slender overall.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Black-headed_Jay.JPG/1280px-Black-headed_Jay.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Black-headed_Jay.JPG/330px-Black-headed_Jay.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-headed_Jay.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "ChanduBandi",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Black_headed_Jay_Iw_IMG_3202.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Black_headed_Jay_Iw_IMG_3202.jpg/330px-Black_headed_Jay_Iw_IMG_3202.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black_headed_Jay_Iw_IMG_3202.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Garrulus"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1586915"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-headed_jay"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

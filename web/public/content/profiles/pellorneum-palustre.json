@@ -1,0 +1,46 @@
+{
+ "scientific": "Pellorneum palustre",
+ "name": "Marsh Babbler",
+ "qid": "Q2828918",
+ "description": "species of bird",
+ "extract": "The marsh babbler (Pellorneum palustre) is a member of the family Pellorneidae. The marsh babbler is endemic to the Brahmaputra floodplain, its associated tributaries and adjacent hill ranges in Assam, Arunachal Pradesh and Meghalaya in India and eastern Bangladesh.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/PellorneumPalustreGould.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/PellorneumPalustreGould.jpg/330px-PellorneumPalustreGould.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:PellorneumPalustreGould.jpg",
+   "license": "Public domain",
+   "artist": "J Gould and H C Richter",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pellorneum"
+  },
+  "family": {
+   "scientific": "Pellorneidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2828918"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Marsh_babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,41 @@
+{
+ "scientific": "Pica bottanensis",
+ "name": "Black-rumped Magpie",
+ "qid": "Q55605542",
+ "description": "species of bird",
+ "extract": "The black-rumped magpie (Pica bottanensis) is a species of magpie native to west-central China and Bhutan, and possibly also irregularly in Sikkim in India, and in eastern Nepal. It is similar to other magpies in the genus Pica, with pied plumage with bluish-green iridescent wings and tail, but differs from the other species in the genus except for Asir magpie in having no white on the rump. It was described as a species in 1840, but had long been treated as a subspecies of Eurasian magpie, before being restored to species rank in 2018. In breeding behaviour it is largely similar to other Pica magpies, laying a single brood from April to June.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Black-rumped_Magpie_%28Pica_bottanensis%29%2C_Bumthang%2C_Bhutan_03.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Black-rumped_Magpie_%28Pica_bottanensis%29%2C_Bumthang%2C_Bhutan_03.jpg/330px-Black-rumped_Magpie_%28Pica_bottanensis%29%2C_Bumthang%2C_Bhutan_03.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-rumped_Magpie_(Pica_bottanensis),_Bumthang,_Bhutan_03.jpg",
+   "license": "CC BY 4.0",
+   "artist": "ziggypop74",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pica"
+  },
+  "family": {
+   "scientific": "Corvidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q55605542"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black-rumped_magpie"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

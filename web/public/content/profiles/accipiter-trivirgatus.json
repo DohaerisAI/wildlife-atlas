@@ -1,0 +1,60 @@
+{
+ "scientific": "Accipiter trivirgatus",
+ "name": "Crested Goshawk",
+ "qid": "Q795570",
+ "description": "species of bird",
+ "extract": "The crested goshawk (Lophospiza trivirgata) is a bird of prey in the family Accipitridae that is widely distributed in tropical Asia. It was formerly placed in the genus Accipiter.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Accipiter_trivirgatus_PA273291.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Accipiter_trivirgatus_PA273291.jpg/330px-Accipiter_trivirgatus_PA273291.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Accipiter_trivirgatus_PA273291.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Alnus",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Crested_Goshawk_Accipiter_trivirgatus_%28Temminck%2C_1824%29_%2816167560930%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Crested_Goshawk_Accipiter_trivirgatus_%28Temminck%2C_1824%29_%2816167560930%29.jpg/330px-Crested_Goshawk_Accipiter_trivirgatus_%28Temminck%2C_1824%29_%2816167560930%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Crested_Goshawk_Accipiter_trivirgatus_(Temminck,_1824)_(16167560930).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Len Worthington",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Accipiter"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Lophospiza trivirgata"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q795570"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Crested_goshawk"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

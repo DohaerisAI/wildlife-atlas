@@ -1,0 +1,62 @@
+{
+ "scientific": "Tachymarptis melba",
+ "name": "Alpine Swift",
+ "qid": "Q321267",
+ "description": "species of bird",
+ "extract": "The alpine swift (Tachymarptis melba) is a species of swift found in Africa, southern Europe, and Asia. They breed in mountains from southern Europe to the Himalayas. Like common swifts, they are migratory; the southern European population winters further south in southern Africa. They have very short legs which are used for clinging to vertical surfaces. Like most swifts, they never settle voluntarily on the ground, spending most of their lives in the air living on the insects they catch in their beaks.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/%CE%92%CE%BF%CF%85%CE%BD%CE%BF%CF%83%CF%84%CE%B1%CF%87%CF%84%CE%AC%CF%81%CE%B1_Alpine_Swift_Tachymarptis_melba.jpg/1280px-%CE%92%CE%BF%CF%85%CE%BD%CE%BF%CF%83%CF%84%CE%B1%CF%87%CF%84%CE%AC%CF%81%CE%B1_Alpine_Swift_Tachymarptis_melba.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/%CE%92%CE%BF%CF%85%CE%BD%CE%BF%CF%83%CF%84%CE%B1%CF%87%CF%84%CE%AC%CF%81%CE%B1_Alpine_Swift_Tachymarptis_melba.jpg/330px-%CE%92%CE%BF%CF%85%CE%BD%CE%BF%CF%83%CF%84%CE%B1%CF%87%CF%84%CE%AC%CF%81%CE%B1_Alpine_Swift_Tachymarptis_melba.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%CE%92%CE%BF%CF%85%CE%BD%CE%BF%CF%83%CF%84%CE%B1%CF%87%CF%84%CE%AC%CF%81%CE%B1_Alpine_Swift_Tachymarptis_melba.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Lefteris Stavrakas",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Alpine._Swift_at_kattampally.jpg/1280px-Alpine._Swift_at_kattampally.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Alpine._Swift_at_kattampally.jpg/330px-Alpine._Swift_at_kattampally.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Alpine._Swift_at_kattampally.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Afsarnayakkan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 6.0,
+   "max": 96.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tachymarptis"
+  },
+  "family": {
+   "scientific": "Apodidae"
+  },
+  "order": {
+   "scientific": "Apodiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q321267"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Alpine_swift"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

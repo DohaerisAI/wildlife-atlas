@@ -1,0 +1,59 @@
+{
+ "scientific": "Gallinago stenura",
+ "name": "Pintail Snipe",
+ "qid": "Q595162",
+ "description": "species of bird",
+ "extract": "The pin-tailed snipe or pintail snipe (Gallinago stenura) is a species of bird in the family Scolopacidae, the sandpipers.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Gallinago_stenura_-_Laem_Pak_Bia.jpg/1280px-Gallinago_stenura_-_Laem_Pak_Bia.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Gallinago_stenura_-_Laem_Pak_Bia.jpg/330px-Gallinago_stenura_-_Laem_Pak_Bia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gallinago_stenura_-_Laem_Pak_Bia.jpg",
+   "license": "CC BY 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 44.0,
+   "max": 47.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 101.0,
+   "max": 132.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Gallinago"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q595162"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pin-tailed_snipe"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

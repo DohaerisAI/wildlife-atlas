@@ -1,0 +1,78 @@
+{
+ "scientific": "Circus aeruginosus",
+ "name": "Western Marsh Harrier",
+ "qid": "Q26431",
+ "description": "species of bird",
+ "extract": "The western marsh harrier (Circus aeruginosus) is a large harrier, a bird of prey from temperate and subtropical western Eurasia and adjacent Africa. It is also known as the Eurasian marsh harrier. Formerly, a number of relatives were included in C. aeruginosus, which was then known as \"marsh harrier\". The related taxa are now generally considered to be separate species: the eastern marsh harrier (C. spilonotus), the Papuan harrier (C. spilothorax) of eastern Asia and the Wallacea, the swamp harrier (C. approximans) of Australasia and the Madagascar marsh harrier (C. maillardi) of the western Indian Ocean islands.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Western_Marsh_Harrier-_Bangalore%2C_India.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Western_Marsh_Harrier-_Bangalore%2C_India.jpg/330px-Western_Marsh_Harrier-_Bangalore%2C_India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Western_Marsh_Harrier-_Bangalore,_India.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Subramanya CK",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Rohrweihe2.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Rohrweihe2.JPG/330px-Rohrweihe2.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Rohrweihe2.JPG",
+   "license": "CC BY 3.0",
+   "artist": "Kaeptn chemnitz",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Marsh_Harrier_Female_-_Wikimedia.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Marsh_Harrier_Female_-_Wikimedia.jpg/330px-Marsh_Harrier_Female_-_Wikimedia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Marsh_Harrier_Female_-_Wikimedia.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Sumeet Moghe",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 116.0,
+   "max": 116.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 40.0,
+   "max": 40.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Circus"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Marsh Harrier"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26431"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Western_marsh_harrier"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

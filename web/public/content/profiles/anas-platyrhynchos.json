@@ -1,0 +1,74 @@
+{
+ "scientific": "Anas platyrhynchos",
+ "name": "Mallard",
+ "qid": "Q25348",
+ "description": "species of duck",
+ "extract": "The mallard () or wild duck (Anas platyrhynchos) is a dabbling duck that breeds throughout the temperate and subtropical Americas, Eurasia, and North Africa. It has been introduced to New Zealand, Australia, Peru, Brazil, Uruguay, Argentina, Chile, Colombia, the Falkland Islands, and South Africa. Belonging to the subfamily Anatinae of the waterfowl family Anatidae, mallards live in wetlands, eat water plants and small animals, and are social animals preferring to congregate in groups or flocks of varying sizes.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Male_mallard3.jpg/1280px-Male_mallard3.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Male_mallard3.jpg/330px-Male_mallard3.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Male_mallard3.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Calibas (edit by Aqwis)",
+   "caption": "Male"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Anas_platyrhynchos_%28mixed_pair%29_%2832428014687%29.jpg/1280px-Anas_platyrhynchos_%28mixed_pair%29_%2832428014687%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Anas_platyrhynchos_%28mixed_pair%29_%2832428014687%29.jpg/330px-Anas_platyrhynchos_%28mixed_pair%29_%2832428014687%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_(mixed_pair)_(32428014687).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Rolf Dietrich Brecher from Germany",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Anas_platyrhynchos_near_City_Lake%2C_Ivano-Frankivsk.jpg/1280px-Anas_platyrhynchos_near_City_Lake%2C_Ivano-Frankivsk.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Anas_platyrhynchos_near_City_Lake%2C_Ivano-Frankivsk.jpg/330px-Anas_platyrhynchos_near_City_Lake%2C_Ivano-Frankivsk.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_near_City_Lake,_Ivano-Frankivsk.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Tetiana.iefimenko",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 88.0,
+   "max": 88.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anas"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "mallard duck",
+  "wild duck"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25348"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mallard"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

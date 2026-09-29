@@ -1,0 +1,54 @@
+{
+ "scientific": "Sterna hirundo",
+ "name": "Common Tern",
+ "qid": "Q18875",
+ "description": "species of bird",
+ "extract": "The common tern (Sterna hirundo) is a seabird in the family Laridae. This bird has a circumpolar distribution, its four subspecies breeding in temperate and subarctic regions of Europe, Asia and North America. It is strongly migratory, wintering in coastal tropical and subtropical regions. Breeding adults have light grey upperparts, white to very light grey underparts, a black cap, orange-red legs, and a narrow pointed bill. Depending on the subspecies, the bill may be mostly red with a black tip or all black. There are several similar species, including the partly sympatric Arctic tern, which can be separated on plumage details, leg and bill colour, or vocalisations.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Common_tern_2025_07_08_08.jpg/1280px-Common_tern_2025_07_08_08.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Common_tern_2025_07_08_08.jpg/330px-Common_tern_2025_07_08_08.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_tern_2025_07_08_08.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Alexis Lours",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 88.0,
+   "max": 88.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sterna"
+  },
+  "family": {
+   "scientific": "Laridae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q18875"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_tern"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

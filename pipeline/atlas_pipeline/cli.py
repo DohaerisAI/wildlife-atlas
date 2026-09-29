@@ -51,11 +51,19 @@ def cmd_fetch_global(args: argparse.Namespace) -> None:
     log.info("fetched worldwide ranges for %d featured species", len(done))
 
 
-def cmd_profiles(_: argparse.Namespace) -> None:
+def cmd_profiles(args: argparse.Namespace) -> None:
+    import json
+
     from .config import FEATURED_SPECIES, REPO_ROOT
     from .profiles import make_get_json, write_profiles
 
-    done = write_profiles(list(FEATURED_SPECIES), REPO_ROOT / "web" / "public" / "content" / "profiles", make_get_json())
+    species: list[dict] = [{"sci": s} for s in FEATURED_SPECIES]
+    if args.all:
+        listed = json.loads((REPO_ROOT / "web" / "public" / "data" / "species.json").read_text())
+        known = {s["sci"] for s in listed}
+        species = [*listed, *(s for s in species if s["sci"] not in known)]
+    out = REPO_ROOT / "web" / "public" / "content" / "profiles"
+    done = write_profiles(species, out, make_get_json(), refresh=args.refresh)
     log.info("wrote %d species profiles", len(done))
 
 
@@ -90,7 +98,10 @@ def main(argv: list[str] | None = None) -> int:
     fetch_global = sub.add_parser("fetch-global", help="follow featured species worldwide on GBIF (needs api.gbif.org access)")
     fetch_global.add_argument("--species", action="append", help="scientific name; repeatable. Default: FEATURED_SPECIES")
     fetch_global.set_defaults(fn=cmd_fetch_global)
-    sub.add_parser("profiles", help="fetch species profiles (photos, size, status) from Wikidata/Wikipedia").set_defaults(fn=cmd_profiles)
+    profiles = sub.add_parser("profiles", help="fetch species profiles (photos, size, status) from Wikidata/Wikipedia/Commons")
+    profiles.add_argument("--all", action="store_true", help="every species in web/public/data/species.json, not only FEATURED_SPECIES")
+    profiles.add_argument("--refresh", action="store_true", help="refetch species whose profile file already exists")
+    profiles.set_defaults(fn=cmd_profiles)
     sub.add_parser("build", help="build web/public/data from fetched GBIF data").set_defaults(fn=cmd_build)
     sub.add_parser("demo", help="build web/public/data from SYNTHETIC demo data").set_defaults(fn=cmd_demo)
     args = parser.parse_args(argv)

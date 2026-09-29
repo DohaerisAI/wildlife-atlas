@@ -1,0 +1,54 @@
+{
+ "scientific": "Heterophasia gracilis",
+ "name": "Gray Sibia",
+ "qid": "Q3315047",
+ "description": "species of bird",
+ "extract": "The grey sibia (Heterophasia gracilis) is a species of bird in the family Leiothrichidae.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Grey_Sibia_Heterophasia_gracilis_by_Dr._Raju_Kasambe.jpg/1280px-Grey_Sibia_Heterophasia_gracilis_by_Dr._Raju_Kasambe.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Grey_Sibia_Heterophasia_gracilis_by_Dr._Raju_Kasambe.jpg/330px-Grey_Sibia_Heterophasia_gracilis_by_Dr._Raju_Kasambe.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grey_Sibia_Heterophasia_gracilis_by_Dr._Raju_Kasambe.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dr. Raju Kasambe",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 38.0,
+   "max": 38.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Heterophasia"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Grey Sibia"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q3315047"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey_sibia"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

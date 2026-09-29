@@ -1,0 +1,47 @@
+{
+ "scientific": "Chloropsis aurifrons",
+ "name": "Golden-fronted Leafbird",
+ "qid": "Q199963",
+ "description": "species of bird",
+ "extract": "The golden-fronted leafbird (Chloropsis aurifrons) is a species of leafbird. It is found from the Indian subcontinent and south-western China, to south-east Asia and Sumatra.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Golden_Fronted_Leafbird_Mukulhinge.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Golden_Fronted_Leafbird_Mukulhinge.jpg/330px-Golden_Fronted_Leafbird_Mukulhinge.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Golden_Fronted_Leafbird_Mukulhinge.jpg",
+   "license": "CC BY 3.0",
+   "artist": "Mukul Hinge",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chloropsis"
+  },
+  "family": {
+   "scientific": "Chloropseidae",
+   "name": "leafbird"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q199963"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Golden-fronted_leafbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,55 @@
+{
+ "scientific": "Gracupica contra",
+ "name": "Indian Pied Myna",
+ "qid": "Q27075597",
+ "description": "species of bird",
+ "extract": "The Indian pied myna (Gracupica contra) is a species of starling found in the Indian subcontinent. It is usually found in small groups mainly on the plains and low foothills. It is often seen within cities and villages although it is not as bold as the common myna. It produces a range of calls made up of liquid notes.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Asian_Pied_Starling_I_IMG_5520.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Asian_Pied_Starling_I_IMG_5520.jpg/330px-Asian_Pied_Starling_I_IMG_5520.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Asian_Pied_Starling_I_IMG_5520.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 83.0,
+   "max": 83.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Gracupica"
+  },
+  "family": {
+   "scientific": "Sturnidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Indian pied starling",
+  "Asian pied myna"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075597"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_pied_myna"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

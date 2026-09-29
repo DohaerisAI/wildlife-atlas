@@ -1,0 +1,54 @@
+{
+ "scientific": "Puffinus bailloni",
+ "name": "Tropical Shearwater",
+ "qid": "Q10809607",
+ "description": "species of bird",
+ "extract": "The tropical shearwater (Puffinus bailloni) is a seabird in the family Procellariidae formerly considered conspecific with Audubon's shearwater (Puffinus lherminieri).",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/P%C3%A9trel_de_Barau_.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/P%C3%A9trel_de_Barau_.jpg/330px-P%C3%A9trel_de_Barau_.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:P%C3%A9trel_de_Barau_.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Kinlarak",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 64.0,
+   "max": 74.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Puffinus"
+  },
+  "family": {
+   "scientific": "Procellariidae"
+  },
+  "order": {
+   "scientific": "Procellariiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q10809607"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tropical_shearwater"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

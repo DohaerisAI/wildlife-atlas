@@ -1,0 +1,67 @@
+{
+ "scientific": "Tarsiger chrysaeus",
+ "name": "Golden Bush Robin",
+ "qid": "Q775195",
+ "description": "species of bird",
+ "extract": "The golden bush robin (Tarsiger chrysaeus) or golden bush-robin was first discovered in 1845 by Brian Houghton Hodgson, a British naturalist.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Golden_Bush_Robin_%28Female%29-_Himachal-_I_IMG_3484.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Golden_Bush_Robin_%28Female%29-_Himachal-_I_IMG_3484.jpg/330px-Golden_Bush_Robin_%28Female%29-_Himachal-_I_IMG_3484.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Golden_Bush_Robin_(Female)-_Himachal-_I_IMG_3484.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": "Female"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Golden_Bush_Robin_Khangchendzonga_Biosphere_Reserve_West_Sikkim_Sikkim_India_18.02.2016.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Golden_Bush_Robin_Khangchendzonga_Biosphere_Reserve_West_Sikkim_Sikkim_India_18.02.2016.jpg/330px-Golden_Bush_Robin_Khangchendzonga_Biosphere_Reserve_West_Sikkim_Sikkim_India_18.02.2016.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Golden_Bush_Robin_Khangchendzonga_Biosphere_Reserve_West_Sikkim_Sikkim_India_18.02.2016.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Golden_Bush_Robin_by_Jason_Thompson_%28Cropped%29.jpg/1280px-Golden_Bush_Robin_by_Jason_Thompson_%28Cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Golden_Bush_Robin_by_Jason_Thompson_%28Cropped%29.jpg/330px-Golden_Bush_Robin_by_Jason_Thompson_%28Cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Golden_Bush_Robin_by_Jason_Thompson_(Cropped).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Ariefrahman",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 13.8,
+   "max": 13.8,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tarsiger"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q775195"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Golden_bush_robin"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

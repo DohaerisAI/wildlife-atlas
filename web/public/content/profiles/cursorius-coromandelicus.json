@@ -1,0 +1,54 @@
+{
+ "scientific": "Cursorius coromandelicus",
+ "name": "Indian Courser",
+ "qid": "Q546548",
+ "description": "species of bird",
+ "extract": "The Indian courser (Cursorius coromandelicus) is a species of courser found in mainland South Asia, mainly in the plains bounded by the Ganges and Indus river system. Like other coursers, it is a ground bird that can be found in small groups as they forage for insects in dry open semi-desert country.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Indian_Courser_in_Bhigwan_August_2025_by_Tisha_Mukherjee_07.jpg/1280px-Indian_Courser_in_Bhigwan_August_2025_by_Tisha_Mukherjee_07.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Indian_Courser_in_Bhigwan_August_2025_by_Tisha_Mukherjee_07.jpg/330px-Indian_Courser_in_Bhigwan_August_2025_by_Tisha_Mukherjee_07.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Indian_Courser_in_Bhigwan_August_2025_by_Tisha_Mukherjee_07.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 58.0,
+   "max": 60.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cursorius"
+  },
+  "family": {
+   "scientific": "Glareolidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q546548"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_courser"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

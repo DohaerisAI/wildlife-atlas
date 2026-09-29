@@ -1,0 +1,62 @@
+{
+ "scientific": "Carpodacus sipahi",
+ "name": "Scarlet Finch",
+ "qid": "Q27075740",
+ "description": "species of bird",
+ "extract": "The scarlet finch (Carpodacus sipahi) is a small passerine bird in the finch family Fringillidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Scarlet_Finch_%2823870224557%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Scarlet_Finch_%2823870224557%29.jpg/330px-Scarlet_Finch_%2823870224557%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Scarlet_Finch_(23870224557).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Koshy Koshy from Faridabad, Haryana, India",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Scarlet_Finch_fem_-_Eaglenest_-_India_%2833640501904%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Scarlet_Finch_fem_-_Eaglenest_-_India_%2833640501904%29.jpg/330px-Scarlet_Finch_fem_-_Eaglenest_-_India_%2833640501904%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Scarlet_Finch_fem_-_Eaglenest_-_India_(33640501904).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 40.0,
+   "max": 40.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Carpodacus"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Haematospiza sipahi"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075740"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Scarlet_finch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

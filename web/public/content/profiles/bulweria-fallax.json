@@ -1,0 +1,54 @@
+{
+ "scientific": "Bulweria fallax",
+ "name": "Jouanin's Petrel",
+ "qid": "Q129550",
+ "description": "species of bird",
+ "extract": "Jouanin's petrel (Bulweria fallax) is a species of seabird in the family Procellariidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Jouanin%27s_Petrel.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Jouanin%27s_Petrel.jpg/330px-Jouanin%27s_Petrel.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Jouanin%27s_Petrel.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Shantanuprasad",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 76.0,
+   "max": 83.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Bulweria"
+  },
+  "family": {
+   "scientific": "Procellariidae"
+  },
+  "order": {
+   "scientific": "Procellariiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q129550"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jouanin%27s_petrel"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

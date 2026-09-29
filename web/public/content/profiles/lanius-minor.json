@@ -1,0 +1,55 @@
+{
+ "scientific": "Lanius minor",
+ "name": "Lesser Grey Shrike",
+ "qid": "Q239393",
+ "description": "species of bird",
+ "extract": "The lesser grey shrike (Lanius minor) is a passerine bird in the shrike family Laniidae. It breeds in South and Central Europe and western Asia and migrates to winter quarters in southern Africa in the early autumn, returning in spring. It is a scarce vagrant to western Europe, including Great Britain, usually as a spring or autumn erratic.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Lesser_Grey_Shrike_by_Daniel_Bastaja.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Lesser_Grey_Shrike_by_Daniel_Bastaja.jpg/330px-Lesser_Grey_Shrike_by_Daniel_Bastaja.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lesser_Grey_Shrike_by_Daniel_Bastaja.jpg",
+   "license": "CC BY 3.0",
+   "artist": "Daniel Bastaja, http://www.birdingfaqs.com/",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 4.3,
+   "max": 46.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Lanius"
+  },
+  "family": {
+   "scientific": "Laniidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "butcher bird",
+  "butcherbird"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q239393"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lesser_grey_shrike"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

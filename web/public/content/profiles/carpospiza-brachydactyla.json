@@ -1,0 +1,46 @@
+{
+ "scientific": "Carpospiza brachydactyla",
+ "name": "Pale Rockfinch",
+ "qid": "Q1318638",
+ "description": "species of bird",
+ "extract": "The pale rockfinch or pale rock sparrow (Carpospiza brachydactyla) is a small sparrow found in the Middle East and Central Asia. It is the only member of the genus Carpospiza. Some authorities include it in the genus Petronia. Others have placed it in the finch family due to some similarities in behaviour and form, but the anatomy of its tongue exhibits characteristic sparrow features.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Carpospiza_brachydactyla.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Carpospiza_brachydactyla.jpg/330px-Carpospiza_brachydactyla.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Carpospiza_brachydactyla.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Dûrzan cîrano",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Carpospiza"
+  },
+  "family": {
+   "scientific": "Passeridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1318638"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pale_rockfinch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

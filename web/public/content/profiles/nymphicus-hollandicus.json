@@ -1,0 +1,72 @@
+{
+ "scientific": "Nymphicus hollandicus",
+ "name": "Cockatiel",
+ "qid": "Q514809",
+ "description": "species of Australian cockatoo",
+ "extract": "The cockatiel (Nymphicus hollandicus), also known as the weero/weiro or quarrion, is a species of small- to medium-sized parrot belonging to the cockatoo family (Cacatuidae), of which it is the smallest member. Native to Australia, it is the sole member of the genus Nymphicus.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Wild_cockatiel_-_panoramio.jpg/1280px-Wild_cockatiel_-_panoramio.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Wild_cockatiel_-_panoramio.jpg/330px-Wild_cockatiel_-_panoramio.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wild_cockatiel_-_panoramio.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Ganatron",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Cockatiel_2.jpg/1280px-Cockatiel_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Cockatiel_2.jpg/330px-Cockatiel_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cockatiel_2.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Jim  Bendon from Karratha, Australia",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Cockateil.jpg/1280px-Cockateil.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Cockateil.jpg/330px-Cockateil.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cockateil.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Jim  Bendon",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 5.7,
+   "max": 86.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Nymphicus"
+  },
+  "family": {
+   "scientific": "Cacatuidae",
+   "name": "Cockatoos"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "other_names": [
+  "cockateel",
+  "cockatoo parrot"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q514809"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cockatiel"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

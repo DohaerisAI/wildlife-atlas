@@ -1,0 +1,67 @@
+{
+ "scientific": "Calidris temminckii",
+ "name": "Temminck's Stint",
+ "qid": "Q58921",
+ "description": "species of bird",
+ "extract": "Temminck's stint (Calidris temminckii) is a small wader native to the Old World. This bird's common name and Latin binomial commemorate the Dutch naturalist Coenraad Jacob Temminck. The genus name is from Ancient Greek kalidris or skalidris, a term used by Aristotle for some grey-coloured waterside birds.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Temmincks_Stint.jpg/1280px-Temmincks_Stint.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Temmincks_Stint.jpg/330px-Temmincks_Stint.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Temmincks_Stint.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Temminck%27s_Stint_in_Bakkhali_September_2025_by_Tisha_Mukherjee_02.jpg/1280px-Temminck%27s_Stint_in_Bakkhali_September_2025_by_Tisha_Mukherjee_02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Temminck%27s_Stint_in_Bakkhali_September_2025_by_Tisha_Mukherjee_02.jpg/330px-Temminck%27s_Stint_in_Bakkhali_September_2025_by_Tisha_Mukherjee_02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Temminck%27s_Stint_in_Bakkhali_September_2025_by_Tisha_Mukherjee_02.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 36.0,
+   "max": 36.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 5.8,
+   "max": 27.8,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Calidris"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q58921"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Temminck%27s_stint"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

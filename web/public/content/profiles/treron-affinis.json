@@ -1,0 +1,49 @@
+{
+ "scientific": "Treron affinis",
+ "name": "Grey-fronted Green Pigeon",
+ "qid": "Q2984132",
+ "description": "species of bird",
+ "extract": "The grey-fronted green pigeon (Treron affinis) is a pigeon in the genus Treron. It is found in the forests of the Western Ghats in India. Many authorities have split the species from the pompadour green pigeon complex.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Treron_pompadora_affinis.JPG/1280px-Treron_pompadora_affinis.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Treron_pompadora_affinis.JPG/330px-Treron_pompadora_affinis.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Treron_pompadora_affinis.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Pkspks",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Treron"
+  },
+  "family": {
+   "scientific": "Columbidae"
+  },
+  "order": {
+   "scientific": "Columbiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2984132"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey-fronted_green_pigeon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

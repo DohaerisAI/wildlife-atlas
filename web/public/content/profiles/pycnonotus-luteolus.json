@@ -1,0 +1,51 @@
+{
+ "scientific": "Pycnonotus luteolus",
+ "name": "White-browed Bulbul",
+ "qid": "Q790718",
+ "description": "species of bird",
+ "extract": "The white-browed bulbul (Pycnonotus luteolus) is a member of the bulbul family of passerine birds. It is a resident breeder in Sri Lanka and peninsular India. Largely olive coloured above with whitish underparts, it has a pale supercilium and a yellow vent. They are found in dense scrub habitats, where they skulk within vegetation and can be difficult to see although their loud and distinct burst of calls is distinctive.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/White-browed_Bulbul_%28Pycnonotus_luteolus%29_in_Kawal_WS%2C_AP_W_IMG_1945.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/White-browed_Bulbul_%28Pycnonotus_luteolus%29_in_Kawal_WS%2C_AP_W_IMG_1945.jpg/330px-White-browed_Bulbul_%28Pycnonotus_luteolus%29_in_Kawal_WS%2C_AP_W_IMG_1945.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White-browed_Bulbul_(Pycnonotus_luteolus)_in_Kawal_WS,_AP_W_IMG_1945.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 35.0,
+   "max": 35.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pycnonotus"
+  },
+  "family": {
+   "scientific": "Pycnonotidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q790718"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White-browed_bulbul"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

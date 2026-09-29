@@ -1,0 +1,62 @@
+{
+ "scientific": "Aquila heliaca",
+ "name": "Eastern Imperial Eagle",
+ "qid": "Q168976",
+ "description": "species of bird",
+ "extract": "The eastern imperial eagle (Aquila heliaca) is a large bird of prey that breeds in southeastern Europe and extensively through West and Central Asia. Most populations are migratory and winter in northeastern Africa, the Middle East and South and East Asia. Like all eagles, the eastern imperial eagle is a member of the family Accipitridae. Furthermore, its feathered legs mark it as a member of the subfamily Aquilinae. It is a large, dark-colored eagle, with a resemblance to other members of the genus Aquila, but it is usually the darkest species in its range. It is an opportunistic predator that mostly selects smallish mammals as prey but also a fairly large proportion of birds, reptile and other prey types, including carrion. Compared to other Aquila eagles, it has a strong preference for the interface of tall woods with plains and other open, relatively flat habitats, including the wooded mosaics of the steppe. Normally, nests are located in large, mature trees and the parents raise around one or two fledglings. The global population is small and declining due to persecution, loss of habitat and prey. It has therefore been IUCN Red Listed as Vulnerable since 1994.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Eastern_Imperial_Eagle_cr.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Eastern_Imperial_Eagle_cr.jpg/330px-Eastern_Imperial_Eagle_cr.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eastern_Imperial_Eagle_cr.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Sumeet Moghe",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 180.0,
+   "max": 215.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 132.0,
+   "max": 3845.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aquila"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Imperial eagle"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q168976"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eastern_imperial_eagle"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

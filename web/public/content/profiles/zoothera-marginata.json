@@ -1,0 +1,51 @@
+{
+ "scientific": "Zoothera marginata",
+ "name": "Dark-sided Thrush",
+ "qid": "Q374107",
+ "description": "species of bird",
+ "extract": "The dark-sided thrush (Zoothera marginata) is a species of bird in the thrush family Turdidae. It is also known as the lesser brown thrush, the long-billed ground-thrush, and the dark-sided ground-thrush. The species is monotypic (lacking subspecies) and is closely related to a number of thrushes in the genus Zoothera, including the long-billed thrush and the widespread scaly thrush. It was described by Edward Blyth in 1847 based upon a specimen collected in Rakhine in Burma (Myanmar).",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Zoothera_marginata_-_Doi_Inthanon.jpg/1280px-Zoothera_marginata_-_Doi_Inthanon.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Zoothera_marginata_-_Doi_Inthanon.jpg/330px-Zoothera_marginata_-_Doi_Inthanon.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Zoothera_marginata_-_Doi_Inthanon.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 81.0,
+   "max": 81.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Zoothera"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q374107"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dark-sided_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

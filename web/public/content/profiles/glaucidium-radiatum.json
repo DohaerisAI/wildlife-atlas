@@ -1,0 +1,55 @@
+{
+ "scientific": "Glaucidium radiatum",
+ "name": "Jungle Owlet",
+ "qid": "Q912197",
+ "description": "species of bird",
+ "extract": "The jungle owlet (Glaucidium radiatum) or barred jungle owlet is native to the Indian Subcontinent. The species is often found singly, in pairs or small groups, and they are usually detected by their calls at dawn and dusk. There are two subspecies, with that found in the Western Ghats sometimes considered a full species.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Jungle_owlet_3.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Jungle_owlet_3.jpg/330px-Jungle_owlet_3.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Jungle_owlet_3.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Afsarnayakkan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 101.0,
+   "max": 101.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Glaucidium"
+  },
+  "family": {
+   "scientific": "Strigidae",
+   "name": "true owls"
+  },
+  "order": {
+   "scientific": "Strigiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q912197"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jungle_owlet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

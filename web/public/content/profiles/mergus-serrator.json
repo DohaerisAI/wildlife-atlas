@@ -1,0 +1,63 @@
+{
+ "scientific": "Mergus serrator",
+ "name": "Red-breasted Merganser",
+ "qid": "Q189609",
+ "description": "species of bird",
+ "extract": "The red-breasted merganser (Mergus serrator) is a duck species that is native to much of the temperate to subarctic Northern Hemisphere. The red breast that gives the species its common name is only displayed by males in breeding plumage. Individuals fly rapidly, and feed by diving from the surface to pursue aquatic animals underwater, using serrated bills to capture slippery fish. They migrate each year from breeding sites on lakes and rivers to their mostly coastal wintering areas, making them the most frequent species in the genus Mergus to frequent saltwater regularly. The worldwide population of this species is stable, though it is threatened in some areas by habitat loss and other factors.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Merganser_%2853630992394%29.jpg/1280px-Merganser_%2853630992394%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Merganser_%2853630992394%29.jpg/330px-Merganser_%2853630992394%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Merganser_(53630992394).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Channel City Camera Club from Santa Barbara, US",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Red-breasted_merganser_female_in_CP_%2840744%29.jpg/1280px-Red-breasted_merganser_female_in_CP_%2840744%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Red-breasted_merganser_female_in_CP_%2840744%29.jpg/330px-Red-breasted_merganser_female_in_CP_%2840744%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red-breasted_merganser_female_in_CP_(40744).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Rhododendrites",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 87.0,
+   "max": 87.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 72.0,
+   "max": 1135.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Mergus"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q189609"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-breasted_merganser"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

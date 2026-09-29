@@ -1,0 +1,51 @@
+{
+ "scientific": "Enicurus schistaceus",
+ "name": "Slaty-backed Forktail",
+ "qid": "Q1589059",
+ "description": "species of bird",
+ "extract": "The slaty-backed forktail (Enicurus schistaceus) is a species of forktail in the family Muscicapidae. A slim, medium-sized forktail, it is distinguished from similar species by its slate grey forehead, crown, and mantle. It has a long and deeply forked tail banded in black and white, a white rump, and a white bar across its primary feathers; the rest of the plumage is predominantly white. The sexes look alike. The bird frequents the edges of fast-flowing streams and rivers, where it hunts small invertebrates by hopping among rocks or flying out over the water. It breeds between February and July, laying 3–4 pinkish, bluish, or white eggs; both sexes incubate the eggs.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Slaty-backed_Forktail_cropped.jpg/1280px-Slaty-backed_Forktail_cropped.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Slaty-backed_Forktail_cropped.jpg/330px-Slaty-backed_Forktail_cropped.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Slaty-backed_Forktail_cropped.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Mildeep",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 31.0,
+   "max": 31.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Enicurus"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1589059"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Slaty-backed_forktail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

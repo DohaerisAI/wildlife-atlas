@@ -1,0 +1,54 @@
+{
+ "scientific": "Hypocolius ampelinus",
+ "name": "Grey Hypocolius",
+ "qid": "Q727891",
+ "description": "species of bird",
+ "extract": "The grey hypocolius or simply hypocolius (Hypocolius ampelinus) is a small passerine bird species. It is the sole member of the genus Hypocolius and it is placed in a family of its own, the Hypocoliidae. This slender and long tailed bird is found in the dry semi-desert region of northern Africa, Arabia, Afghanistan, Pakistan, and western India. They fly in flocks and forage mainly on fruit but also some insects, migrating south in winter. During migration they are often found feeding on the fruit of Salvadora persica.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Hypocolius_ampelinus_pair-cropped.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Hypocolius_ampelinus_pair-cropped.jpg/330px-Hypocolius_ampelinus_pair-cropped.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hypocolius_ampelinus_pair-cropped.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Original: Pkspks\nCropped by باسم",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Hypocolius-Arpit.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Hypocolius-Arpit.jpg/330px-Hypocolius-Arpit.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hypocolius-Arpit.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Unknown",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Hypocolius"
+  },
+  "family": {
+   "scientific": "Hypocoliidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q727891"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey_hypocolius"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

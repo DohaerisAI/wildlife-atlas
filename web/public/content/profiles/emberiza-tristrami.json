@@ -1,0 +1,51 @@
+{
+ "scientific": "Emberiza tristrami",
+ "name": "Tristram’s Bunting",
+ "qid": "Q1193845",
+ "description": "species of bird",
+ "extract": "Tristram's bunting (Emberiza tristrami) is a bird in the family Emberizidae. The species was first described by Robert Swinhoe in 1870.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Emberiza_tristrami_from_iNaturalist_photo_144291592_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Emberiza_tristrami_from_iNaturalist_photo_144291592_%28cropped%29.jpg/330px-Emberiza_tristrami_from_iNaturalist_photo_144291592_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Emberiza_tristrami_from_iNaturalist_photo_144291592_(cropped).jpg",
+   "license": "CC BY 4.0",
+   "artist": "VLASOV EGOR (egorbirder)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 18.0,
+   "max": 18.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Emberiza"
+  },
+  "family": {
+   "scientific": "Emberizidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1193845"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tristram%27s_bunting"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

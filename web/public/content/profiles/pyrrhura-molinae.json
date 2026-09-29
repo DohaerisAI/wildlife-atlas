@@ -1,0 +1,62 @@
+{
+ "scientific": "Pyrrhura molinae",
+ "name": "Green-cheeked Parakeet",
+ "qid": "Q1043401",
+ "description": "species of South American conure parrot",
+ "extract": "The green-cheeked parakeet (Pyrrhura molinae), also sometimes known as the green-cheeked conure in aviculture, is a species of bird in subfamily Arinae of the family Psittacidae, aka the parrots. It is found in Argentina, Bolivia, Brazil, and Paraguay. It is also a popular pet bird.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Green-cheeked_Parakeet_%28Pyrrhura_molinae_australis%29%2C_Santa_B%C3%A1rbara%2C_Jujuy%2C_Argentina_1.jpg/1280px-Green-cheeked_Parakeet_%28Pyrrhura_molinae_australis%29%2C_Santa_B%C3%A1rbara%2C_Jujuy%2C_Argentina_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Green-cheeked_Parakeet_%28Pyrrhura_molinae_australis%29%2C_Santa_B%C3%A1rbara%2C_Jujuy%2C_Argentina_1.jpg/330px-Green-cheeked_Parakeet_%28Pyrrhura_molinae_australis%29%2C_Santa_B%C3%A1rbara%2C_Jujuy%2C_Argentina_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Green-cheeked_Parakeet_(Pyrrhura_molinae_australis),_Santa_B%C3%A1rbara,_Jujuy,_Argentina_1.jpg",
+   "license": "CC0",
+   "artist": "hhulsberg",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Green-cheeked_Parakeet_%28Pyrrhura_molinae_molinae%29%2C_Samaipata%2C_Bolivia_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Green-cheeked_Parakeet_%28Pyrrhura_molinae_molinae%29%2C_Samaipata%2C_Bolivia_1.jpg/330px-Green-cheeked_Parakeet_%28Pyrrhura_molinae_molinae%29%2C_Samaipata%2C_Bolivia_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Green-cheeked_Parakeet_(Pyrrhura_molinae_molinae),_Samaipata,_Bolivia_1.jpg",
+   "license": "CC0",
+   "artist": "jeanpaulboerekamps",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 77.0,
+   "max": 77.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pyrrhura"
+  },
+  "family": {
+   "scientific": "Psittacidae"
+  },
+  "order": {
+   "scientific": "Psittaciformes",
+   "name": "parrot"
+  }
+ },
+ "other_names": [
+  "green-cheeked conure"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1043401"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Green-cheeked_parakeet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

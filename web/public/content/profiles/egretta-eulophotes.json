@@ -1,0 +1,50 @@
+{
+ "scientific": "Egretta eulophotes",
+ "name": "Chinese Egret",
+ "qid": "Q392152",
+ "description": "species of bird",
+ "extract": "The Chinese egret or Swinhoe's egret (Egretta eulophotes) is a threatened species of egret from east Asia, first described by Robert Swinhoe in 1860.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Zengwen_River_Mouth_Wetlands_Yi-Cheng%2C_Chen_555594020_-_9.jpg/1280px-Zengwen_River_Mouth_Wetlands_Yi-Cheng%2C_Chen_555594020_-_9.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Zengwen_River_Mouth_Wetlands_Yi-Cheng%2C_Chen_555594020_-_9.jpg/330px-Zengwen_River_Mouth_Wetlands_Yi-Cheng%2C_Chen_555594020_-_9.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Zengwen_River_Mouth_Wetlands_Yi-Cheng,_Chen_555594020_-_9.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "YCCHEN TW",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "VU",
+   "label": "Vulnerable"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Egretta"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q392152"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chinese_egret"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

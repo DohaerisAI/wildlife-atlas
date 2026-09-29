@@ -1,0 +1,59 @@
+{
+ "scientific": "Apus apus",
+ "name": "Common Swift",
+ "qid": "Q25377",
+ "description": "species of bird",
+ "extract": "The common swift (Apus apus) is a medium-sized bird, superficially similar to the barn swallow or house martin but somewhat larger, though not stemming from those passerine species, being in the order Apodiformes. The resemblances between the groups are due to convergent evolution, reflecting similar contextual development. The swifts' nearest relatives are the New World hummingbirds and the Southeast Asian treeswifts.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Common_Swift_2025_07_18_02_%28cropped%29.jpg/1280px-Common_Swift_2025_07_18_02_%28cropped%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Common_Swift_2025_07_18_02_%28cropped%29.jpg/330px-Common_Swift_2025_07_18_02_%28cropped%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_Swift_2025_07_18_02_(cropped).jpg",
+   "license": "CC BY 4.0",
+   "artist": "Alexis Lours",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 40.0,
+   "max": 40.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 3.5,
+   "max": 3.5,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Apus"
+  },
+  "family": {
+   "scientific": "Apodidae"
+  },
+  "order": {
+   "scientific": "Apodiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25377"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_swift"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

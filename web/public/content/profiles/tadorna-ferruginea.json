@@ -1,0 +1,71 @@
+{
+ "scientific": "Tadorna ferruginea",
+ "name": "Ruddy Shelduck",
+ "qid": "Q170723",
+ "description": "species of bird",
+ "extract": "The ruddy shelduck (Tadorna ferruginea) is a bird species in the family Anatidae. It is a distinctive waterfowl, 58 to 70 cm (23 to 28 in) in length with a wingspan of 110 to 135 cm (43 to 53 in). It has orange-brown body plumage with a paler head, while the tail and the flight feathers in the wings are black, contrasting with the white wing-coverts. It is a migratory bird, wintering in the Indian subcontinent and breeding in southeastern Europe and central Asia, though there are small resident populations in North Africa. It has a loud honking call.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Ruddy_shelduck_David_Raju.jpg/1280px-Ruddy_shelduck_David_Raju.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Ruddy_shelduck_David_Raju.jpg/330px-Ruddy_shelduck_David_Raju.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ruddy_shelduck_David_Raju.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Davidvraju",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Ruddy_Shelduck_%28Tadorna_ferruginea%29-_Female_at_Bharatpur_I_IMG_5336.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Ruddy_Shelduck_%28Tadorna_ferruginea%29-_Female_at_Bharatpur_I_IMG_5336.jpg/330px-Ruddy_Shelduck_%28Tadorna_ferruginea%29-_Female_at_Bharatpur_I_IMG_5336.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ruddy_Shelduck_(Tadorna_ferruginea)-_Female_at_Bharatpur_I_IMG_5336.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 121.0,
+   "max": 145.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 83.0,
+   "max": 1360.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Tadorna"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Brahminy Duck",
+  "Brahminy Shelduck"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q170723"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ruddy_shelduck"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

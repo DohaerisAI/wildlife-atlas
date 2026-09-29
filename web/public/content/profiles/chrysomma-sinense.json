@@ -1,0 +1,59 @@
+{
+ "scientific": "Chrysomma sinense",
+ "name": "Yellow-eyed Babbler",
+ "qid": "Q2747209",
+ "description": "species of bird",
+ "extract": "The yellow-eyed babbler (Chrysomma sinense) is a passerine bird native to South and Southeast Asia. It inhabits shrubland, grassland and wetland habitats. On the IUCN Red List, it is listed as Least Concern because of its wide distribution and stable population.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Chrysomma_sinense_sinense%2C_Nanning%2C_Guangxi%2C_China_1.jpg/1280px-Chrysomma_sinense_sinense%2C_Nanning%2C_Guangxi%2C_China_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Chrysomma_sinense_sinense%2C_Nanning%2C_Guangxi%2C_China_1.jpg/330px-Chrysomma_sinense_sinense%2C_Nanning%2C_Guangxi%2C_China_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Chrysomma_sinense_sinense,_Nanning,_Guangxi,_China_1.jpg",
+   "license": "CC BY 4.0",
+   "artist": "lujiangli1997",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Yellow-eyed_Babbler_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg/1280px-Yellow-eyed_Babbler_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Yellow-eyed_Babbler_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg/330px-Yellow-eyed_Babbler_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Yellow-eyed_Babbler_in_Bhigwan_August_2025_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 22.0,
+   "max": 22.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Chrysomma"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q2747209"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yellow-eyed_babbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

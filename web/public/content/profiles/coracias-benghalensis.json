@@ -1,0 +1,53 @@
+{
+ "scientific": "Coracias benghalensis",
+ "name": "Indian Roller",
+ "qid": "Q477133",
+ "description": "species of bird",
+ "extract": "The Indian roller (Coracias benghalensis) is a bird of the family Coraciidae. It is 30–34 cm (12–13 in) long with a wingspan of 65–74 cm (26–29 in) and weighs 166–176 g (5.9–6.2 oz). The face and throat are pinkish, the head and back are brown, with blue on the rump and contrasting light and dark blue on the wings and tail. The bright blue markings on the wing are prominent in flight. The sexes are similar in appearance. Two subspecies are recognised.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Indian_Roller_%28Coracias_benghalensis%292.jpg/1280px-Indian_Roller_%28Coracias_benghalensis%292.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Indian_Roller_%28Coracias_benghalensis%292.jpg/330px-Indian_Roller_%28Coracias_benghalensis%292.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Indian_Roller_(Coracias_benghalensis)2.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Koshyk",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Indian_Roller_I2m_IMG_9934.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Indian_Roller_I2m_IMG_9934.jpg/330px-Indian_Roller_I2m_IMG_9934.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Indian_Roller_I2m_IMG_9934.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "J.M.Garg",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Coracias"
+  },
+  "family": {
+   "scientific": "Coraciidae"
+  },
+  "order": {
+   "scientific": "Coraciiformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q477133"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_roller"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

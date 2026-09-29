@@ -1,0 +1,51 @@
+{
+ "scientific": "Muscicapa griseisticta",
+ "name": "Grey-streaked Flycatcher",
+ "qid": "Q1315879",
+ "description": "species of bird",
+ "extract": "The grey-streaked flycatcher or grey-spotted flycatcher (Muscicapa griseisticta) is a small passerine bird breeding in the eastern Palearctic belonging to the genus Muscicapa in the Old World flycatcher family Muscicapidae. The species was first described by Robert Swinhoe in 1861.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Muscicapa_griseisticta.JPG/1280px-Muscicapa_griseisticta.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Muscicapa_griseisticta.JPG/330px-Muscicapa_griseisticta.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Muscicapa_griseisticta.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Alpsdake",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 15.9,
+   "max": 15.9,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Muscicapa"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1315879"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey-streaked_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

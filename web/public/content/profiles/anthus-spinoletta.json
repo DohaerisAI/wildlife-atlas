@@ -1,0 +1,56 @@
+{
+ "scientific": "Anthus spinoletta",
+ "name": "Water Pipit",
+ "qid": "Q208707",
+ "description": "species of bird",
+ "extract": "The water pipit (Anthus spinoletta) is a small passerine bird which breeds in the mountains of Southern Europe and the Palearctic eastwards to China. It is a short-distance migrant; many birds move to lower altitudes or wet open lowlands in winter.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Anthus_spinoletta_-_Water_Pipit%2C_Kahramanmara%C5%9F_2016-11-18_01-10.jpg/1280px-Anthus_spinoletta_-_Water_Pipit%2C_Kahramanmara%C5%9F_2016-11-18_01-10.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Anthus_spinoletta_-_Water_Pipit%2C_Kahramanmara%C5%9F_2016-11-18_01-10.jpg/330px-Anthus_spinoletta_-_Water_Pipit%2C_Kahramanmara%C5%9F_2016-11-18_01-10.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Anthus_spinoletta_-_Water_Pipit,_Kahramanmara%C5%9F_2016-11-18_01-10.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Zeynel Cebeci",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 26.0,
+   "max": 26.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 2.7,
+   "max": 2.7,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anthus"
+  },
+  "family": {
+   "scientific": "Motacillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q208707"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Water_pipit"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

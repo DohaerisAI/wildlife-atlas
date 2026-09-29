@@ -1,0 +1,43 @@
+{
+ "scientific": "Stachyridopsis pyrrhops",
+ "name": "Black-chinned Babbler",
+ "qid": "Q1307860",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Black-chinned_Babbler_Naina_Devi_Himalayan_Bird_Conservation_Reserve_Uttarakhand_India_26.05.2016.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Black-chinned_Babbler_Naina_Devi_Himalayan_Bird_Conservation_Reserve_Uttarakhand_India_26.05.2016.jpg/330px-Black-chinned_Babbler_Naina_Devi_Himalayan_Bird_Conservation_Reserve_Uttarakhand_India_26.05.2016.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black-chinned_Babbler_Naina_Devi_Himalayan_Bird_Conservation_Reserve_Uttarakhand_India_26.05.2016.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dibyendu Ash",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 10.0,
+   "max": 10.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Stachyridopsis"
+  },
+  "family": {
+   "scientific": "Timaliidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1307860"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,51 @@
+{
+ "scientific": "Muscicapa muttui",
+ "name": "Brown-breasted Flycatcher",
+ "qid": "Q1306172",
+ "description": "species of bird",
+ "extract": "The brown-breasted flycatcher or Layard's flycatcher (Muscicapa muttui) is a small passerine bird in the flycatcher family Muscicapidae. The species breeds in north eastern India, central and Southern China and northern Burma and Thailand, and migrates to southern India and Sri Lanka. It forages for insects below the forest canopy, often close to the forest floor.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Muscicapa_muttui.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Muscicapa_muttui.jpg/330px-Muscicapa_muttui.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Muscicapa_muttui.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Chung Kiu, Ryan Cheng from Hong Kong",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 12.0,
+   "max": 12.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Muscicapa"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1306172"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown-breasted_flycatcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

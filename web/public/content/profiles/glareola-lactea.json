@@ -1,0 +1,59 @@
+{
+ "scientific": "Glareola lactea",
+ "name": "Small Pratincole",
+ "qid": "Q934460",
+ "description": "species of bird",
+ "extract": "The small pratincole, little pratincole, or small Indian pratincole (Glareola lactea) is a small wader in the pratincole family, Glareolidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Small_pratincole_%28Glareola_lactea%29_Photograph_by_Shantanu_Kuveskar.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Small_pratincole_%28Glareola_lactea%29_Photograph_by_Shantanu_Kuveskar.jpg/330px-Small_pratincole_%28Glareola_lactea%29_Photograph_by_Shantanu_Kuveskar.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Small_pratincole_(Glareola_lactea)_Photograph_by_Shantanu_Kuveskar.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Shantanu Kuveskar",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 42.0,
+   "max": 48.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 40.0,
+   "max": 40.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Glareola"
+  },
+  "family": {
+   "scientific": "Glareolidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q934460"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Small_pratincole"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

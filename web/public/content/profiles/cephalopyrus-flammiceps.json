@@ -1,0 +1,54 @@
+{
+ "scientific": "Cephalopyrus flammiceps",
+ "name": "Fire-capped Tit",
+ "qid": "Q1588513",
+ "description": "species of passerine bird",
+ "extract": "The fire-capped tit (Cephalopyrus flammiceps) is a small, 10 cm (3.9 in) long, weighing about 7 g (0.25 oz) bird species assigned to the family Paridae, that breeds in the temperate forest bordering the Himalayas to the south, in the Hengduan Shan and Nujiang Shan on the Myanmar-China border, the Micah Shan and Daba Shan on the Northern Sichuan border. It winters down hill and further south. Further to the east, birds tend to be smaller and the plumage becomes gradually darker.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Cephalopyrus_flammiceps%2C_Bhutan_1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Cephalopyrus_flammiceps%2C_Bhutan_1.jpg/330px-Cephalopyrus_flammiceps%2C_Bhutan_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cephalopyrus_flammiceps,_Bhutan_1.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/AegithalusFlammicepsGould.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/AegithalusFlammicepsGould.jpg/330px-AegithalusFlammicepsGould.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:AegithalusFlammicepsGould.jpg",
+   "license": "Public domain",
+   "artist": "John Gould and W Hart",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cephalopyrus"
+  },
+  "family": {
+   "scientific": "Paridae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1588513"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fire-capped_tit"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

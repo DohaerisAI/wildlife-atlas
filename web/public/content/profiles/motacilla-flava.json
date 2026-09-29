@@ -1,0 +1,62 @@
+{
+ "scientific": "Motacilla flava",
+ "name": "Western Yellow Wagtail",
+ "qid": "Q25984",
+ "description": "species of bird",
+ "extract": "The western yellow wagtail (Motacilla flava) is a small passerine bird in the wagtail family Motacillidae, which also includes the pipits and longclaws. This species breeds in much of temperate Europe and Asia. Most populations are migratory, moving south to tropical Africa and southern Asia for the winter; the small population breeding in Egypt is however resident there.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Wiesenschafstelze.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Wiesenschafstelze.JPG/330px-Wiesenschafstelze.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Wiesenschafstelze.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Frebeck",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Schafstelze_-_Auenlandschaft_Hohenrode_HA_222_Landkreis_Schaumburg.jpg/1280px-Schafstelze_-_Auenlandschaft_Hohenrode_HA_222_Landkreis_Schaumburg.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Schafstelze_-_Auenlandschaft_Hohenrode_HA_222_Landkreis_Schaumburg.jpg/330px-Schafstelze_-_Auenlandschaft_Hohenrode_HA_222_Landkreis_Schaumburg.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Schafstelze_-_Auenlandschaft_Hohenrode_HA_222_Landkreis_Schaumburg.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Kathy2408",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 26.0,
+   "max": 26.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Motacilla"
+  },
+  "family": {
+   "scientific": "Motacillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Yellow wagtail"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25984"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Western_yellow_wagtail"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

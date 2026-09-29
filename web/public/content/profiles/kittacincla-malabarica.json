@@ -1,0 +1,45 @@
+{
+ "scientific": "Kittacincla malabarica",
+ "name": "Kittacincla malabarica",
+ "qid": "Q28831321",
+ "description": "species of bird",
+ "extract": "",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Copsychus_malabaricus_-_Khao_Yai.jpg/1280px-Copsychus_malabaricus_-_Khao_Yai.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Copsychus_malabaricus_-_Khao_Yai.jpg/330px-Copsychus_malabaricus_-_Khao_Yai.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Copsychus_malabaricus_-_Khao_Yai.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Kittacincla"
+  },
+  "family": {
+   "scientific": "Muscicapidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "White-rumped Shama"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q28831321"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,54 @@
+{
+ "scientific": "Turdus maximus",
+ "name": "Tibetan Blackbird",
+ "qid": "Q10830043",
+ "description": "species of bird",
+ "extract": "The Tibetan blackbird (Turdus maximus) is a species of bird in the thrush family Turdidae. It is found in the Himalayas from northern Pakistan to southeastern Tibet. Originally described as a separate species by Henry Seebohm in 1881, it was then considered a subspecies of the common blackbird until 2008, when phylogenetic evidence revealed that it was only distantly related to the latter species. It is a relatively large thrush, having an overall length of 23–28 centimetres (9.1–11 inches). Males are blackish-brown all over with darker plumage on the head, breast, wings and tail and dull orange-yellow bills, while females have browner underparts, faint streaking on the throat, and a dull darkish yellow bill. Both sexes may seem slightly hooded. It can be differentiated from the common blackbird by its complete lack of an eye-ring and reduced song.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Tibetan_Blackbird_%28Turdus_maximus%29%2C_Hunza%2C_Pakistan_%2823983504890%29.jpg/1280px-Tibetan_Blackbird_%28Turdus_maximus%29%2C_Hunza%2C_Pakistan_%2823983504890%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Tibetan_Blackbird_%28Turdus_maximus%29%2C_Hunza%2C_Pakistan_%2823983504890%29.jpg/330px-Tibetan_Blackbird_%28Turdus_maximus%29%2C_Hunza%2C_Pakistan_%2823983504890%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tibetan_Blackbird_(Turdus_maximus),_Hunza,_Pakistan_(23983504890).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Tibetan_Blackbird_%28Turdus_maximus%29_%2850671714477%29.jpg/1280px-Tibetan_Blackbird_%28Turdus_maximus%29_%2850671714477%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Tibetan_Blackbird_%28Turdus_maximus%29_%2850671714477%29.jpg/330px-Tibetan_Blackbird_%28Turdus_maximus%29_%2850671714477%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tibetan_Blackbird_(Turdus_maximus)_(50671714477).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Imran Shah from Islamabad, Pakistan",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turdus"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q10830043"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tibetan_blackbird"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

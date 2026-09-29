@@ -1,0 +1,51 @@
+{
+ "scientific": "Artamus fuscus",
+ "name": "Ashy Wood Swallow",
+ "qid": "Q1033434",
+ "description": "species of bird",
+ "extract": "The ashy woodswallow (Artamus fuscus), sometimes also called the ashy swallow-shrike, is a woodswallow which is found in south Asia. Like other woodswallows, it has a short curved bill, a short square tail and long wings. It is usually seen perched in groups, high on powerlines, tall bare trees and most often in areas with a predominance of tall palm trees.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Ashy_woodswallow_IMG_8024.jpg/1280px-Ashy_woodswallow_IMG_8024.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Ashy_woodswallow_IMG_8024.jpg/330px-Ashy_woodswallow_IMG_8024.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ashy_woodswallow_IMG_8024.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Selvaganesh17",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 39.0,
+   "max": 39.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Artamus"
+  },
+  "family": {
+   "scientific": "Artamidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1033434"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ashy_woodswallow"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

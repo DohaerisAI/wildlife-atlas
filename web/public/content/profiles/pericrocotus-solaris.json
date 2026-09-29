@@ -1,0 +1,60 @@
+{
+ "scientific": "Pericrocotus solaris",
+ "name": "Grey-chinned Minivet",
+ "qid": "Q1590404",
+ "description": "species of bird",
+ "extract": "The grey-chinned minivet (Pericrocotus solaris) is a species of bird in the family Campephagidae. It is found from the Himalayas to China, Taiwan and Southeast Asia. Its natural habitat is forests about 1,000–2,000 m (3,300–6,600 ft) in elevation. The International Union for Conservation of Nature (IUCN) has assessed it as a least-concern species.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Grey-chinned_Minivet_-_Bhutan_S4E9146_%2816820735357%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Grey-chinned_Minivet_-_Bhutan_S4E9146_%2816820735357%29.jpg/330px-Grey-chinned_Minivet_-_Bhutan_S4E9146_%2816820735357%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grey-chinned_Minivet_-_Bhutan_S4E9146_(16820735357).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Grey_Chinned_Minivet_%28Female%29.jpg/1280px-Grey_Chinned_Minivet_%28Female%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Grey_Chinned_Minivet_%28Female%29.jpg/330px-Grey_Chinned_Minivet_%28Female%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Grey_Chinned_Minivet_(Female).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Jason Thompson",
+   "caption": "Female"
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 14.0,
+   "max": 14.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pericrocotus",
+   "name": "Minivet"
+  },
+  "family": {
+   "scientific": "Campephagidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1590404"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grey-chinned_minivet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

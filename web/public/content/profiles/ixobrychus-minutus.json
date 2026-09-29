@@ -1,0 +1,71 @@
+{
+ "scientific": "Ixobrychus minutus",
+ "name": "Little Bittern",
+ "qid": "Q25587867",
+ "description": "species of bird",
+ "extract": "The little bittern (Botaurus minutus) is a wading bird in the heron family, Ardeidae.  This species was formerly placed in the genus Ixobrychus.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/47-090506-little-bittern-at-upper-ford-near-Sigri-.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/47-090506-little-bittern-at-upper-ford-near-Sigri-.jpg/330px-47-090506-little-bittern-at-upper-ford-near-Sigri-.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:47-090506-little-bittern-at-upper-ford-near-Sigri-.jpg",
+   "license": "CC BY 3.0",
+   "artist": "Mark S Jobling",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Ixobrychus_minutus_3_%28Marek_Szczepanek%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Ixobrychus_minutus_3_%28Marek_Szczepanek%29.jpg/330px-Ixobrychus_minutus_3_%28Marek_Szczepanek%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ixobrychus_minutus_3_(Marek_Szczepanek).jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Marek Szczepanek",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 40.0,
+   "max": 58.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 13.0,
+   "max": 147.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Botaurus"
+  },
+  "family": {
+   "scientific": "Ardeidae",
+   "name": "heron"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Botaurus minutus"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q25587867"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Little_bittern"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,46 @@
+{
+ "scientific": "Alaemon alaudipes",
+ "name": "Greater Hoopoe-Lark",
+ "qid": "Q899345",
+ "description": "species of bird",
+ "extract": "The greater hoopoe-lark (Alaemon alaudipes) is a passerine bird which is a breeding resident of arid, desert and semi-desert regions from the Cape Verde Islands across much of northern Africa, through the Arabian Peninsula, Syria, Afghanistan, Pakistan and India. It was formerly known as the bifasciated lark and sometimes as the large desert lark.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Greater_Hoopoe_Lark%2C_crop.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Greater_Hoopoe_Lark%2C_crop.jpg/330px-Greater_Hoopoe_Lark%2C_crop.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Greater_Hoopoe_Lark,_crop.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Sumeet Moghe",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Alaemon"
+  },
+  "family": {
+   "scientific": "Alaudidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q899345"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Greater_hoopoe-lark"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

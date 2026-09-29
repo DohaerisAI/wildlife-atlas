@@ -1,0 +1,55 @@
+{
+ "scientific": "Dicrurus annectens",
+ "name": "Crow-biled Drongo",
+ "qid": "Q1585929",
+ "description": "species of bird",
+ "extract": "The crow-billed drongo (Dicrurus annectens) is a species of bird in the family Dicruridae. It is native to moist tropical forests of southeastern Asia where its range extends from India to the Philippines and Indonesia. It is a completely black bird with a shallowly forked tail and is similar in appearance to the black drongo. It breeds between April and June, the cup-shaped nest being built in the fork of a branch by both birds, the female afterwards incubating the eggs. It is a common bird and the IUCN has listed it as \"least concern\".",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Dicrurus_annectens_-_%D0%9B%D0%B0%D1%80%D0%B8%D1%81%D0%B0_%D0%90%D1%80%D1%82%D0%B5%D0%BC%D1%8C%D0%B5%D0%B2%D0%B0_-_601023631.jpeg/1280px-Dicrurus_annectens_-_%D0%9B%D0%B0%D1%80%D0%B8%D1%81%D0%B0_%D0%90%D1%80%D1%82%D0%B5%D0%BC%D1%8C%D0%B5%D0%B2%D0%B0_-_601023631.jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Dicrurus_annectens_-_%D0%9B%D0%B0%D1%80%D0%B8%D1%81%D0%B0_%D0%90%D1%80%D1%82%D0%B5%D0%BC%D1%8C%D0%B5%D0%B2%D0%B0_-_601023631.jpeg/330px-Dicrurus_annectens_-_%D0%9B%D0%B0%D1%80%D0%B8%D1%81%D0%B0_%D0%90%D1%80%D1%82%D0%B5%D0%BC%D1%8C%D0%B5%D0%B2%D0%B0_-_601023631.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dicrurus_annectens_-_%D0%9B%D0%B0%D1%80%D0%B8%D1%81%D0%B0_%D0%90%D1%80%D1%82%D0%B5%D0%BC%D1%8C%D0%B5%D0%B2%D0%B0_-_601023631.jpeg",
+   "license": "CC0",
+   "artist": "Лариса Артемьева",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 56.0,
+   "max": 56.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dicrurus"
+  },
+  "family": {
+   "scientific": "Dicruridae",
+   "name": "drongo"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Dicrurus annectans"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1585929"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Crow-billed_drongo"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

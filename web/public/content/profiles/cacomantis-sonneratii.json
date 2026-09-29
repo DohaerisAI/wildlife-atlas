@@ -1,0 +1,49 @@
+{
+ "scientific": "Cacomantis sonneratii",
+ "name": "Banded Bay Cuckoo",
+ "qid": "Q863195",
+ "description": "species of bird",
+ "extract": "The banded bay cuckoo or bay-banded cuckoo (Cacomantis sonneratii) is a species of small cuckoo found in the Indian subcontinent and Southeast Asia. Like others in the genus they have  round nostrils. They are usually founded in well-wooded areas mainly in the lower hills. Males sing from exposed branches during the breeding season, which can vary with region. They are distinctive both in their calls as well as plumage with a white eyebrowed appearance and the rufous upperparts with regular dark bands and the whitish underside with fine striations.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Banded_Bay_Cuckoo_in_Ajodhya_Hills_July_2024_by_Tisha_Mukherjee_01.jpg/1280px-Banded_Bay_Cuckoo_in_Ajodhya_Hills_July_2024_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Banded_Bay_Cuckoo_in_Ajodhya_Hills_July_2024_by_Tisha_Mukherjee_01.jpg/330px-Banded_Bay_Cuckoo_in_Ajodhya_Hills_July_2024_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Banded_Bay_Cuckoo_in_Ajodhya_Hills_July_2024_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Cacomantis"
+  },
+  "family": {
+   "scientific": "Cuculidae"
+  },
+  "order": {
+   "scientific": "Cuculiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q863195"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Banded_bay_cuckoo"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

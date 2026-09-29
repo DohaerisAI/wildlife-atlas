@@ -1,0 +1,68 @@
+{
+ "scientific": "Platalea leucorodia",
+ "name": "Eurasian Spoonbill",
+ "qid": "Q171360",
+ "description": "species of bird",
+ "extract": "The Eurasian spoonbill (Platalea leucorodia), or common spoonbill, is a wading bird of the ibis and spoonbill family Threskiornithidae, native to Europe, Africa and Asia. The species is partially migratory with the more northerly breeding populations mostly migrating south for the winter.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Eurasian_Spoonbill.jpg/1280px-Eurasian_Spoonbill.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Eurasian_Spoonbill.jpg/330px-Eurasian_Spoonbill.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eurasian_Spoonbill.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Loeffler.jpg/1280px-Loeffler.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Loeffler.jpg/330px-Loeffler.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Loeffler.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Creando",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 130.0,
+   "max": 130.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 76.0,
+   "max": 76.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Platalea"
+  },
+  "family": {
+   "scientific": "Threskiornithidae",
+   "name": "Ibises and Spoonbills"
+  },
+  "order": {
+   "scientific": "Pelecaniformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q171360"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eurasian_spoonbill"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

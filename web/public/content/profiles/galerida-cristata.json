@@ -1,0 +1,54 @@
+{
+ "scientific": "Galerida cristata",
+ "name": "Crested Lark",
+ "qid": "Q26982",
+ "description": "species of bird",
+ "extract": "The crested lark (Galerida cristata) is a species of lark widespread across Eurasia and northern Africa. It is a non-migratory bird, but can occasionally be found as a vagrant in Great Britain.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Pip%C3%AD%C5%A1ka_chochlat%C3%A1_%28Galerida_cristata%29.jpg/1280px-Pip%C3%AD%C5%A1ka_chochlat%C3%A1_%28Galerida_cristata%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Pip%C3%AD%C5%A1ka_chochlat%C3%A1_%28Galerida_cristata%29.jpg/330px-Pip%C3%AD%C5%A1ka_chochlat%C3%A1_%28Galerida_cristata%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pip%C3%AD%C5%A1ka_chochlat%C3%A1_(Galerida_cristata).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Andrej Chudy",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Galerida_cristata_-_Crested_lark_01.jpg/1280px-Galerida_cristata_-_Crested_lark_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Galerida_cristata_-_Crested_lark_01.jpg/330px-Galerida_cristata_-_Crested_lark_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Galerida_cristata_-_Crested_lark_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Zeynel Cebeci",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Galerida"
+  },
+  "family": {
+   "scientific": "Alaudidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26982"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Crested_lark"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

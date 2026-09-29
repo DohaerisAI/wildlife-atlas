@@ -1,0 +1,70 @@
+{
+ "scientific": "Numida meleagris",
+ "name": "Helmeted Guineafowl",
+ "qid": "Q251842",
+ "description": "species of bird",
+ "extract": "The helmeted guinea fowl (Numida meleagris) is the best known of the guinea fowl bird family, Numididae, and the only member of the genus Numida. It is native to Africa, mainly south of the Sahara, and has been widely introduced, as a domesticated species, into the West Indies, North America, Colombia, Brazil, Australia and Europe.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Helmeted_Guineafowl_%28Numida_meleagris%29_%2818045235579%29.jpg/1280px-Helmeted_Guineafowl_%28Numida_meleagris%29_%2818045235579%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Helmeted_Guineafowl_%28Numida_meleagris%29_%2818045235579%29.jpg/330px-Helmeted_Guineafowl_%28Numida_meleagris%29_%2818045235579%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Helmeted_Guineafowl_(Numida_meleagris)_(18045235579).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Bernard DUPONT from FRANCE",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Numida_meleagris_-Serengeti_National_Park%2C_Tanzania-8_%281%29.jpg/1280px-Numida_meleagris_-Serengeti_National_Park%2C_Tanzania-8_%281%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Numida_meleagris_-Serengeti_National_Park%2C_Tanzania-8_%281%29.jpg/330px-Numida_meleagris_-Serengeti_National_Park%2C_Tanzania-8_%281%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Numida_meleagris_-Serengeti_National_Park,_Tanzania-8_(1).jpg",
+   "license": "CC BY 3.0",
+   "artist": "Bob",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Numida_meleagris_-Kruger_National_Park%2C_South_Africa-8a.jpg/1280px-Numida_meleagris_-Kruger_National_Park%2C_South_Africa-8a.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Numida_meleagris_-Kruger_National_Park%2C_South_Africa-8a.jpg/330px-Numida_meleagris_-Kruger_National_Park%2C_South_Africa-8a.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Numida_meleagris_-Kruger_National_Park,_South_Africa-8a.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "New Jersey Birds",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 39.4,
+   "max": 1587.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Numida"
+  },
+  "family": {
+   "scientific": "Numididae"
+  },
+  "order": {
+   "scientific": "Galliformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q251842"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Helmeted_guinea_fowl"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

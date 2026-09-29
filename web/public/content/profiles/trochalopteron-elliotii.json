@@ -1,0 +1,51 @@
+{
+ "scientific": "Trochalopteron elliotii",
+ "name": "Elliot's Laughingthrush",
+ "qid": "Q27075528",
+ "description": "species of bird",
+ "extract": "Elliot's laughingthrush (Trochalopteron elliotii) is a bird species in the family Leiothrichidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Trochalopteron_elliotii.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Trochalopteron_elliotii.jpg/330px-Trochalopteron_elliotii.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Trochalopteron_elliotii.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Ron Knight",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 56.0,
+   "max": 56.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Trochalopteron"
+  },
+  "family": {
+   "scientific": "Leiothrichidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075528"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Elliot%27s_laughingthrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

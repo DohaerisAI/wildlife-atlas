@@ -1,0 +1,45 @@
+{
+ "scientific": "Psilopogon rubricapillus",
+ "name": "Crimson-fronted Barbet",
+ "qid": "Q27074867",
+ "description": "species of bird",
+ "extract": "The crimson-fronted barbet (Psilopogon rubricapillus), also called Sri Lanka barbet, is an Asian barbet endemic to Sri Lanka where it inhabits tropical moist lowland forests up to 1,300 m (4,300 ft) elevation.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Crimsonfrontedbarbet.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Crimsonfrontedbarbet.JPG/330px-Crimsonfrontedbarbet.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Crimsonfrontedbarbet.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Prashanthns",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Psilopogon"
+  },
+  "family": {
+   "scientific": "Megalaimidae"
+  },
+  "order": {
+   "scientific": "Piciformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27074867"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Crimson-fronted_barbet"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

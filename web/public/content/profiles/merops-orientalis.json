@@ -1,0 +1,66 @@
+{
+ "scientific": "Merops orientalis",
+ "name": "Asian Green Bee-eater",
+ "qid": "Q420840",
+ "description": "species of bird",
+ "extract": "The Asian green bee-eater (Merops orientalis), also known as the little green bee-eater, and just green bee-eater, is a bird species in the bee-eater family. It is resident or with short-distance seasonal movements, and is found widely distributed across Asia from coastal southern Iran east through the Indian subcontinent to Vietnam. Populations in Africa and the Arabian Peninsula that were formerly assigned to this species (under the name green bee-eater) are now considered to be distinct species, the African green bee-eater and the Arabian green bee-eater. They are mainly insect eaters and they are found in grassland, thin scrub and forest often quite far from water. Several regional plumage variations are known and several subspecies have been named.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Green_Bee-eater_%28Merops_orientalis%29_%40_Madayippara.jpg/1280px-Green_Bee-eater_%28Merops_orientalis%29_%40_Madayippara.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Green_Bee-eater_%28Merops_orientalis%29_%40_Madayippara.jpg/330px-Green_Bee-eater_%28Merops_orientalis%29_%40_Madayippara.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Green_Bee-eater_(Merops_orientalis)_@_Madayippara.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Vivek Puliyeri",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/WilpattuNationalPark_-_February_2018_-_Green_bee-eater_%281%29.jpg/1280px-WilpattuNationalPark_-_February_2018_-_Green_bee-eater_%281%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/WilpattuNationalPark_-_February_2018_-_Green_bee-eater_%281%29.jpg/330px-WilpattuNationalPark_-_February_2018_-_Green_bee-eater_%281%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:WilpattuNationalPark_-_February_2018_-_Green_bee-eater_(1).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Rehman Abubakr",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 23.1,
+   "max": 23.1,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 3.1,
+   "max": 18.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Merops"
+  },
+  "family": {
+   "scientific": "Meropidae"
+  },
+  "order": {
+   "scientific": "Coraciiformes"
+  }
+ },
+ "other_names": [
+  "Little green bee-eater"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q420840"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Asian_green_bee-eater"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

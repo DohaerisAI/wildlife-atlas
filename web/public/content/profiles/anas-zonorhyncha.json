@@ -1,0 +1,60 @@
+{
+ "scientific": "Anas zonorhyncha",
+ "name": "Eastern Spot-billed Duck",
+ "qid": "Q1268169",
+ "description": "species of bird",
+ "extract": "The eastern spot-billed duck or Chinese spot-billed duck (Anas zonorhyncha) is a species of dabbling duck that breeds in East and Southeast Asia. This species was formerly considered a subspecies of the Indian spot-billed duck and both were referred to as the spot-billed duck (A. poecilorhyncha). The name is derived from the yellow spot on the bill.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Spot-billed_duck_at_Expo%E2%80%9970_Commemorative_Park_in_Osaka%2C_November_2015_II.jpg/1280px-Spot-billed_duck_at_Expo%E2%80%9970_Commemorative_Park_in_Osaka%2C_November_2015_II.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Spot-billed_duck_at_Expo%E2%80%9970_Commemorative_Park_in_Osaka%2C_November_2015_II.jpg/330px-Spot-billed_duck_at_Expo%E2%80%9970_Commemorative_Park_in_Osaka%2C_November_2015_II.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Spot-billed_duck_at_Expo%E2%80%9970_Commemorative_Park_in_Osaka,_November_2015_II.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Laitche",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Spot-billed_Duck.jpg/1280px-Spot-billed_Duck.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Spot-billed_Duck.jpg/330px-Spot-billed_Duck.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Spot-billed_Duck.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Kuribo",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Anas"
+  },
+  "family": {
+   "scientific": "Anatidae"
+  },
+  "order": {
+   "scientific": "Anseriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Chinese Spot-billed Duck"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1268169"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eastern_spot-billed_duck"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

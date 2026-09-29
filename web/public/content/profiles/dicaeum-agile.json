@@ -1,0 +1,51 @@
+{
+ "scientific": "Dicaeum agile",
+ "name": "Thick-billed Flowerpecker",
+ "qid": "Q73848",
+ "description": "species of bird",
+ "extract": "The thick-billed flowerpecker (Pachyglossa agilis) is a tiny bird in the flowerpecker group. They feed predominantly on fruits and are active birds that are mainly seen in the tops of trees in forests. It is a resident bird with a wide distribution across tropical southern Asia from India east to Indonesia and Timor with several populations recognized as subspecies some of which are sometimes treated as full species. This species was formerly placed in the genus Dicaeum.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Dicaeum_agile_modestum_-_Kaeng_Krachan.jpg/1280px-Dicaeum_agile_modestum_-_Kaeng_Krachan.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Dicaeum_agile_modestum_-_Kaeng_Krachan.jpg/330px-Dicaeum_agile_modestum_-_Kaeng_Krachan.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Dicaeum_agile_modestum_-_Kaeng_Krachan.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 9.0,
+   "max": 9.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Dicaeum"
+  },
+  "family": {
+   "scientific": "Dicaeidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q73848"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Thick-billed_flowerpecker"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,55 @@
+{
+ "scientific": "Sylvia communis",
+ "name": "Greater Whitethroat",
+ "qid": "Q26974",
+ "description": "species of bird",
+ "extract": "The greater whitethroat or common whitethroat (Curruca communis) is a common and widespread Old World warbler which breeds throughout Europe and across much of temperate western Asia. This small passerine bird is strongly migratory, and winters in tropical Africa, Arabia, and Pakistan.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flickr_-_Rainbirder_-_Common_Whitethroat_%28Sylvia_communis%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Flickr_-_Rainbirder_-_Common_Whitethroat_%28Sylvia_communis%29.jpg/330px-Flickr_-_Rainbirder_-_Common_Whitethroat_%28Sylvia_communis%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_Rainbirder_-_Common_Whitethroat_(Sylvia_communis).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Steve Garvie from Dunfermline, Fife, Scotland",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 20.0,
+   "max": 20.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 1.8,
+   "max": 14.5,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Sylvia"
+  },
+  "family": {
+   "scientific": "Sylviidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "common Whitethroat"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q26974"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Common_whitethroat"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

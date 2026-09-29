@@ -1,0 +1,60 @@
+{
+ "scientific": "Limnodromus scolopaceus",
+ "name": "Long-billed Dowitcher",
+ "qid": "Q476350",
+ "description": "species of bird",
+ "extract": "The long-billed dowitcher (Limnodromus scolopaceus) is a medium-sized shorebird with a relatively long bill belonging to the sandpiper family, Scolopacidae. In breeding plumage, adults are characterized by a rufous head and underparts with a darker mottled back and a large white upper rump only seen in flight. They feed in various freshwater habitats with their bill underwater in a \"sewing machine\" motion and have a mating display where males chase females in flight. The genus, Limnodromus is  Ancient Greek  from limne, \"marsh\" and dromos, \"racer\". The specific scolopaceus is Neo-Latin for \"snipe-like\", from Latin scolopax, scolopacis, a snipe or woodcock. The English name is from Iroquois and was first recorded in 1841.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Limnodromus_scolopaceus_Mike_Baird_crop.jpg/1280px-Limnodromus_scolopaceus_Mike_Baird_crop.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Limnodromus_scolopaceus_Mike_Baird_crop.jpg/330px-Limnodromus_scolopaceus_Mike_Baird_crop.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Limnodromus_scolopaceus_Mike_Baird_crop.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Mike Baird from Morro Bay, USA",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 46.0,
+   "max": 52.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 104.0,
+   "max": 104.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Limnodromus",
+   "name": "Dowitcher"
+  },
+  "family": {
+   "scientific": "Scolopacidae"
+  },
+  "order": {
+   "scientific": "Charadriiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q476350"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Long-billed_dowitcher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

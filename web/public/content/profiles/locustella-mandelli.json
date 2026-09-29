@@ -1,0 +1,51 @@
+{
+ "scientific": "Locustella mandelli",
+ "name": "Russet Bush Warbler",
+ "qid": "Q27075487",
+ "description": "species of bird",
+ "extract": "The russet bush warbler (Locustella mandelli) is a songbird species. Formerly placed in the \"Old World warbler\" assemblage, it is now placed in the newly recognized family Locustellidae. B. mandelli was until recently considered a subspecies of B. seebohmi, and the name \"russet bush warbler\" was applied to the entire species complex. After this was split up, Benguet bush warbler was proposed as a new name for B. seebohmi proper. The species is found in southeast Asia.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Russet_Bush-Warbler_-_Arunachal_Pradesh_-_India_FJ0A8771_%2834262514506%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Russet_Bush-Warbler_-_Arunachal_Pradesh_-_India_FJ0A8771_%2834262514506%29.jpg/330px-Russet_Bush-Warbler_-_Arunachal_Pradesh_-_India_FJ0A8771_%2834262514506%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Russet_Bush-Warbler_-_Arunachal_Pradesh_-_India_FJ0A8771_(34262514506).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Francesco Veronesi from Italy",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 10.0,
+   "max": 10.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Locustella"
+  },
+  "family": {
+   "scientific": "Locustellidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q27075487"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Russet_bush_warbler"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

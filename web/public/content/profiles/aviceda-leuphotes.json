@@ -1,0 +1,54 @@
+{
+ "scientific": "Aviceda leuphotes",
+ "name": "Black Baza",
+ "qid": "Q605350",
+ "description": "species of bird",
+ "extract": "The black baza (Aviceda leuphotes) is a small bird of prey found in the forests of Northeast India, the eastern Himalayas, China and Southeast Asia. Many populations are migratory, including those in the Indian region, which winter in the south of the Peninsula and Sri Lanka. Black bazas have short, stout legs and feet with strong talons, and a prominent crest. They are found in dense forest, often in small groups, and can often be found perched on bare branches of tall trees rising above the forest canopy.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Black_Baza.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Black_Baza.jpg/330px-Black_Baza.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Black_Baza.jpg",
+   "license": "CC BY 2.0",
+   "artist": "NatureAtYourBackyard, Flickr User",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 64.0,
+   "max": 80.0,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Aviceda"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q605350"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black_baza"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

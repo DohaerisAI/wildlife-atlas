@@ -1,0 +1,44 @@
+{
+ "scientific": "Apus leuconyx",
+ "name": "Blyth's Swift",
+ "qid": "Q1261934",
+ "description": "species of bird",
+ "extract": "Blyth's swift (Apus leuconyx) is a small species of bird. It is superficially similar to a house martin, but completely unrelated to those passerine species, as swifts are in the order Apodiformes. The resemblances between the groups are due to convergent evolution reflecting similar life styles.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Blyth%27s_swift_2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Blyth%27s_swift_2.jpg/330px-Blyth%27s_swift_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blyth%27s_swift_2.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Afsarnayakkan",
+   "caption": ""
+  }
+ ],
+ "facts": {},
+ "taxonomy": {
+  "genus": {
+   "scientific": "Apus"
+  },
+  "family": {
+   "scientific": "Apodidae"
+  },
+  "order": {
+   "scientific": "Apodiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1261934"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blyth%27s_swift"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,63 @@
+{
+ "scientific": "Falco chicquera",
+ "name": "Red-necked Falcon",
+ "qid": "Q738666",
+ "description": "species of bird",
+ "extract": "The red-necked falcon (Falco chicquera) is a bird of prey in the falcon family with two disjunct populations, one in India and the other in Africa. This medium-sized falcon has bluish grey wings and upper body, a chestnut red cap with short chin straps passing through the eye. The primary feathers of the wing are black and a single black band at the tip of the tail are distinctive. The Indian subspecies Falco chicquera chicquera also known as the red-headed merlin or red-headed falcon is found mainly in the open plains of the India Subcontinent although it is thought to have occurred further west in southeastern Iran. The subspecies Falco chicquera ruficollis found in sub-Saharan Africa is sometimes treated as a full species, the rufous-necked falcon (Falco ruficollis), on the basis of its well-separated geographic range and distinctive pattern. It appears very similar to the Indian form but has dark barring on the upperparts, a rufous breast band, and black moustachial and eye stripes. As in most falcons, the females are larger and falconers in India called the female turumti and the male as chatwa. They hunt in pairs mostly at dawn and dusk, capturing small birds, bats and squirrels.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Red-Necked_Falcon.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Red-Necked_Falcon.JPG/330px-Red-Necked_Falcon.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Red-Necked_Falcon.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Cks3976",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 55.0,
+   "max": 70.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 24.0,
+   "max": 24.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "NT",
+   "label": "Near Threatened"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Falco",
+   "name": "falcon"
+  },
+  "family": {
+   "scientific": "Falconidae"
+  },
+  "order": {
+   "scientific": "Falconiformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "Red-headed falcon"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q738666"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red-necked_falcon"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

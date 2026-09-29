@@ -1,0 +1,47 @@
+{
+ "scientific": "Turdus mupinensis",
+ "name": "Chinese Thrush",
+ "qid": "Q80853",
+ "description": "species of bird",
+ "extract": "The Chinese thrush (Turdus mupinensis) is a species of bird in the family Turdidae. It is found in China and far northern Vietnam. Its natural habitats are temperate forests and subtropical or tropical moist montane forests.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Turdus_mupinensis.jpg/1280px-Turdus_mupinensis.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Turdus_mupinensis.jpg/330px-Turdus_mupinensis.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Turdus_mupinensis.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Charles Lam from Hong Kong, China",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 59.0,
+   "max": 59.0,
+   "unit": "g"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Turdus"
+  },
+  "family": {
+   "scientific": "Turdidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q80853"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chinese_thrush"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

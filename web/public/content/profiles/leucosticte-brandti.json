@@ -1,0 +1,51 @@
+{
+ "scientific": "Leucosticte brandti",
+ "name": "Brandt’s Mountain Finch",
+ "qid": "Q1030043",
+ "description": "species of bird",
+ "extract": "Brandt's mountain finch (Leucosticte brandti), also known as the black-headed mountain-finch, is a species of finch in the family Fringillidae.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Leucosticte_brandti.jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Leucosticte_brandti.jpeg/330px-Leucosticte_brandti.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Leucosticte_brandti.jpeg",
+   "license": "CC BY 3.0",
+   "artist": "Simon J. Tonge",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 30.0,
+   "max": 30.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Leucosticte"
+  },
+  "family": {
+   "scientific": "Fringillidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1030043"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brandt%27s_mountain_finch"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,54 @@
+{
+ "scientific": "Mirafra assamica",
+ "name": "Bengal Bush Lark",
+ "qid": "Q779050",
+ "description": "species of bird",
+ "extract": "The Bengal bush lark (Plocealauda assamica) or Bengal lark is a species of lark in the family Alaudidae found in Southern Asia.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Bengal_Bushlark_in_Baruipur_October_2025_by_Tisha_Mukherjee_01.jpg/1280px-Bengal_Bushlark_in_Baruipur_October_2025_by_Tisha_Mukherjee_01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Bengal_Bushlark_in_Baruipur_October_2025_by_Tisha_Mukherjee_01.jpg/330px-Bengal_Bushlark_in_Baruipur_October_2025_by_Tisha_Mukherjee_01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bengal_Bushlark_in_Baruipur_October_2025_by_Tisha_Mukherjee_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Tisha Mukherjee",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "mass": {
+   "min": 26.0,
+   "max": 26.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Mirafra"
+  },
+  "family": {
+   "scientific": "Alaudidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "other_names": [
+  "Plocealauda assamica"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q779050"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bengal_bush_lark"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,79 @@
+{
+ "scientific": "Pernis apivorus",
+ "name": "European honey buzzard",
+ "qid": "Q170466",
+ "description": "species of bird",
+ "extract": "The European honey buzzard (Pernis apivorus) is an insectivorous bird of prey in the family Accipitridae breeding in Europe and western Asia, and wintering in Africa.",
+ "images": [
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Wespenbussard_European_honey_buzzard_Pernis_apivorus%2C_crop.jpg/1280px-Wespenbussard_European_honey_buzzard_Pernis_apivorus%2C_crop.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Wespenbussard_European_honey_buzzard_Pernis_apivorus%2C_crop.jpg/330px-Wespenbussard_European_honey_buzzard_Pernis_apivorus%2C_crop.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wespenbussard_European_honey_buzzard_Pernis_apivorus,_crop.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Andreas Trepte",
+   "caption": ""
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Honeybuzzard.JPG",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/27/Honeybuzzard.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Honeybuzzard.JPG",
+   "license": "Public domain",
+   "artist": "J. F. Naumann",
+   "caption": ""
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Herilaseviu..jpg/1280px-Herilaseviu..jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Herilaseviu..jpg/330px-Herilaseviu..jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Herilaseviu..jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Sillerkiil",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 126.0,
+   "max": 126.0,
+   "unit": "cm"
+  },
+  "mass": {
+   "min": 49.0,
+   "max": 49.0,
+   "unit": "g"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Pernis"
+  },
+  "family": {
+   "scientific": "Accipitridae"
+  },
+  "order": {
+   "scientific": "Accipitriformes"
+  },
+  "class": {
+   "scientific": "Aves",
+   "name": "bird"
+  }
+ },
+ "other_names": [
+  "European honey-buzzard",
+  "honey buzzard"
+ ],
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q170466"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/European_honey_buzzard"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

@@ -1,0 +1,51 @@
+{
+ "scientific": "Galerida malabarica",
+ "name": "Malabar Lark",
+ "qid": "Q1590970",
+ "description": "species of bird",
+ "extract": "The Malabar lark, or Malabar crested lark (Galerida malabarica) is a species of lark in the family Alaudidae found in western India.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/MalabarCrestedLark.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/MalabarCrestedLark.jpg/330px-MalabarCrestedLark.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:MalabarCrestedLark.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Sandeep Gangadharan aka SivamDesign on Flickr",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "wingspan": {
+   "min": 24.3,
+   "max": 24.3,
+   "unit": "cm"
+  },
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Galerida"
+  },
+  "family": {
+   "scientific": "Alaudidae"
+  },
+  "order": {
+   "scientific": "Passeriformes",
+   "name": "passerines"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q1590970"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Malabar_lark"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}

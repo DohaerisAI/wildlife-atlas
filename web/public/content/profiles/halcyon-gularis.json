@@ -1,0 +1,45 @@
+{
+ "scientific": "Halcyon gularis",
+ "name": "Brown-breasted Kingfisher",
+ "qid": "Q10764826",
+ "description": "species of bird",
+ "extract": "The brown-breasted kingfisher (Halcyon gularis) is a tree kingfisher endemic to the Philippines, where it is widely distributed. This kingfisher is a resident over much of its range.",
+ "images": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Brown-breasted_Kingfisher_%28Halcyon_gularis%29%2C_Luzon%2C_Philippines_%2816337399009%29.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Brown-breasted_Kingfisher_%28Halcyon_gularis%29%2C_Luzon%2C_Philippines_%2816337399009%29.jpg/330px-Brown-breasted_Kingfisher_%28Halcyon_gularis%29%2C_Luzon%2C_Philippines_%2816337399009%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Brown-breasted_Kingfisher_(Halcyon_gularis),_Luzon,_Philippines_(16337399009).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Len Worthington",
+   "caption": ""
+  }
+ ],
+ "facts": {
+  "status": {
+   "code": "LC",
+   "label": "Least Concern"
+  }
+ },
+ "taxonomy": {
+  "genus": {
+   "scientific": "Halcyon"
+  },
+  "family": {
+   "scientific": "Alcedinidae"
+  },
+  "order": {
+   "scientific": "Coraciiformes"
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Q10764826"
+  },
+  {
+   "label": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brown-breasted_kingfisher"
+  }
+ ],
+ "licence_note": "Text from Wikipedia (CC BY-SA 4.0). Photos from Wikimedia Commons under the licence shown with each."
+}
