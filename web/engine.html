@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="Wildlife Atlas engine prototype: one Living Earth view from space to a town." />
+    <title>Wildlife Atlas · Engine</title>
+  </head>
+  <body class="engine">
+    <div id="stage" class="engine-stage"></div>
+    <div id="labels" class="engine-labels" aria-hidden="true"></div>
+    <pre id="hud" class="engine-hud" aria-live="off"></pre>
+    <nav id="controls" class="engine-controls" aria-label="Fly to"></nav>
+    <p id="note" class="engine-note"></p>
+    <noscript><p class="engine-note">The engine needs JavaScript and WebGL2.</p></noscript>
+    <script type="module" src="/src/main-engine.ts"></script>
+  </body>
+</html>

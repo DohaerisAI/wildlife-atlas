@@ -1,4 +1,4 @@
-import type { PerspectiveCamera, Scene } from 'three';
+import type { PerspectiveCamera, Scene, Texture } from 'three';
 import type { TierSettings } from '../core/tiers';
 import type { LandMask } from '../globe/mask';
 import { SHOWN } from './motion';
@@ -40,6 +40,8 @@ export interface LivingEarth {
   readonly hasWorld: boolean;
   /** what the street map needs to paint the same land look (pack v2 in probe mode) */
   tintSource(): LandTintSource | null;
+  /** the monthly surface atlas on the GPU (water, snow, NDVI), for layers that share it */
+  surfaceTexture(): Texture | null;
   dispose(): void;
 }
 
@@ -80,6 +82,7 @@ export async function createLivingEarth(baseUrl: string, scene: Scene, mask: Lan
   return {
     manifest,
     hasWorld: world !== null,
+    surfaceTexture: () => surface?.texture ?? null,
     tintSource() {
       const landPx = world?.landPixels();
       if (!landPx || !surfacePx) return null;

@@ -75,7 +75,7 @@ const DOT_VERT = /* glsl */ `
   }`;
 
 const DOT_FRAG = /* glsl */ `
-  uniform vec3 uLand; uniform vec3 uIndia; uniform float uFocus;
+  uniform vec3 uLand; uniform vec3 uIndia; uniform float uFocus; uniform float uDotAlpha;
   varying float vA; varying float vIndia; varying vec3 vMat; varying float vMatOn;
   void main() {
     vec2 c = gl_PointCoord - 0.5;
@@ -83,7 +83,7 @@ const DOT_FRAG = /* glsl */ `
     if (d > 0.5) discard;
     float core = smoothstep(0.5, 0.1, d);
     vec3 col = vMatOn > 0.5 ? vMat * (1.0 + vIndia * uFocus * 0.2) : mix(uLand, uIndia, vIndia * uFocus);
-    float a = core * vA * mix(0.6, 0.85, vIndia * uFocus);
+    float a = core * vA * mix(0.6, 0.85, vIndia * uFocus) * uDotAlpha;
     gl_FragColor = vec4(col, a);
   }`;
 
@@ -108,6 +108,8 @@ export interface Globe {
   update(time: number): void;
   /** 0 = India drawn like everywhere else, 1 = India highlighted */
   setFocus(v: number): void;
+  /** fade the land dots (1 = as drawn; the tiled engine fades them out close in) */
+  setDotOpacity(v: number): void;
   /** colour the land dots by Living Earth land class and the month's greenness */
   setLandMaterials(m: LandMaterials | null): void;
   /** which two monthly surface tiles to blend (see living-earth/pack monthBlend) */
@@ -128,7 +130,7 @@ export function createGlobe(mask: LandMask, dotCount: number, pixelRatio: number
 
   const dotUniforms = {
     uTime: { value: 0 }, uSize: { value: 3.1 }, uPixelRatio: { value: pixelRatio },
-    uLand: { value: GLOBE_COLORS.land }, uIndia: { value: GLOBE_COLORS.india }, uFocus: { value: 1 },
+    uLand: { value: GLOBE_COLORS.land }, uIndia: { value: GLOBE_COLORS.india }, uFocus: { value: 1 }, uDotAlpha: { value: 1 },
     uMat: { value: 0 }, uLandTex: { value: null as Texture | null }, uSurface: { value: null as Texture | null },
     uGrid: { value: new Vector2(4, 3) }, uHalf: { value: new Vector2() }, uT0: { value: new Vector2() }, uT1: { value: new Vector2() }, uW: { value: 0 },
     uPalette: { value: Array.from({ length: 12 }, (_, i) => new Color(...Array.from(paletteArray().slice(i * 3, i * 3 + 3)) as [number, number, number])) },
@@ -169,6 +171,7 @@ export function createGlobe(mask: LandMask, dotCount: number, pixelRatio: number
     group,
     update(time) { bodyUniforms.uTime.value = time; dotUniforms.uTime.value = time; },
     setFocus(v) { dotUniforms.uFocus.value = v; },
+    setDotOpacity(v) { dotUniforms.uDotAlpha.value = v; if (dots) dots.visible = v > 0.01; },
     setLandMaterials(m) {
       dotUniforms.uMat.value = m ? 1 : 0;
       if (!m) return;
