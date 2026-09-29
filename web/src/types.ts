@@ -49,3 +49,24 @@ export interface SpeciesRange {
 
 /** Month is 1..12 throughout the client. */
 export type Month = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12;
+
+/** coverage.json: which regions have full species lists. Bundles without it are India-only. */
+export interface CoverageRegion {
+  id: string;
+  name: string;
+  status: 'loaded' | 'pending';
+  boxes?: number[][];
+  built?: string | null;
+  records?: number | null;
+  cells?: number | null;
+  species?: number | null;
+  doi?: string | null;
+}
+
+export interface CoverageManifest {
+  version: number;
+  generated: string;
+  cellSize: number;
+  complete: boolean;
+  regions: CoverageRegion[];
+}

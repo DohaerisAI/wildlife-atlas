@@ -1,4 +1,5 @@
-import { loadCell, loadCells, loadMeta, loadRange, loadSpeciesIndex } from '../data';
+import { loadCell, loadCells, loadCoverage, loadMeta, loadRange, loadSpeciesIndex } from '../data';
+import { INDIA_ONLY, noListNote } from './coverage';
 import { MONTH_LONG } from '../constants';
 import { loadMask } from '../engine/globe/mask';
 import { envCaption } from '../engine/living-earth/materials';
@@ -47,6 +48,17 @@ export interface AtlasRoots { stage: HTMLElement; pins: HTMLElement; ui: HTMLEle
 const HANDOFF_KM = 1300;
 const PLACE_ZOOM = 10;
 
+/** India's 1° cells (from the India-country fetch), so regions can say "India" once lists go worldwide. */
+async function loadIndiaCells(): Promise<Set<string> | null> {
+  try {
+    const res = await fetch(`${import.meta.env.BASE_URL}geo/india-cells.json`);
+    return res.ok ? new Set((await res.json()) as string[]) : null;
+  } catch (err) {
+    console.warn('India cell list unavailable', err);
+    return null;
+  }
+}
+
 interface SpeciesData { entry: SpeciesIndexEntry; flowFor: (particles: number) => FlowField; summary: SpeciesSummary; profile: SpeciesProfile | null; range: SpeciesRange; regions: { months: MonthPlace[]; india: number[] } }
 
 const wide = () => window.matchMedia('(min-width: 900px)').matches;
@@ -54,10 +66,13 @@ const wide = () => window.matchMedia('(min-width: 900px)').matches;
 export async function startAtlas(roots: AtlasRoots): Promise<void> {
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const q = new URLSearchParams(location.search);
-  const [meta, cells, index, mask, profiles] = await Promise.all([loadMeta(), loadCells(), loadSpeciesIndex(), loadMask(`${import.meta.env.BASE_URL}geo/land-mask.png`), loadProfileIndex()]);
+  const [meta, cells, index, mask, profiles, manifest, indiaCells] = await Promise.all([loadMeta(), loadCells(), loadSpeciesIndex(), loadMask(`${import.meta.env.BASE_URL}geo/land-mask.png`), loadProfileIndex(), loadCoverage(), loadIndiaCells()]);
   roots.banner.hidden = !meta.source.demo;
   const byKey = new Map(index.map((s) => [s.k, s]));
   const cellSet = new Set(cells.cells.map((c) => c.id));
+  const coverageInfo = manifest ?? INDIA_ONLY;
+  // Species lists can now reach beyond India, so "in India" comes from India's own cell list, not the grid.
+  const isIndia = indiaCells ? (id: string) => indiaCells.has(id) : (id: string) => cellSet.has(id);
   const coverage = new Map(cells.cells.map((c) => [c.id, c.coverage]));
   const thumbOf = (sci: string) => thumbFor(profiles, sci);
 
@@ -156,7 +171,7 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
         const [range, profile] = await Promise.all([loadRange(key), loadProfile(entry.sci).catch((err) => { console.warn('Profile unavailable', entry.sci, err); return null; })]);
         const flows = new Map<number, FlowField>();
         loaded.set(key, {
-          entry, profile, range, summary: speciesSummary(range, cells.cellSize), regions: monthlyRegions(range, cells.cellSize, (id) => cellSet.has(id)),
+          entry, profile, range, summary: speciesSummary(range, cells.cellSize), regions: monthlyRegions(range, cells.cellSize, isIndia),
           flowFor: (n) => { let f = flows.get(n); if (!f) { f = buildFlow(range, cells.cellSize, n, 11); flows.set(n, f); } return f; },
         });
       }
@@ -276,7 +291,7 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
       panel.show('place', tabLabel(s), placeView({
         place: s.place, month: m, status: cellStatus, summary: cell ? placeSummary(cell, (m + 1) as 1) : null,
         coverage: s.place.cellId ? coverage.get(s.place.cellId)?.[m] ?? null : null,
-        env: globe.sample(s.place.lng, s.place.lat), species: byKey, thumbOf, filter: placeFilter(), shown, cellSize: cells.cellSize,
+        env: globe.sample(s.place.lng, s.place.lat), species: byKey, thumbOf, filter: placeFilter(), shown, cellSize: cells.cellSize, noListNote: noListNote(coverageInfo),
       }, {
         onFilter: (f) => { filterChoice = f; shown = PAGE; render(); },
         onMore: () => { shown += 24; render(); },

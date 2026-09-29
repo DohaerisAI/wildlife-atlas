@@ -99,6 +99,8 @@ jobs:
           uv run atlas world-shard --shard "${{ matrix.shard }}" --max-wait-min 240 $FRESH
           code=$?
           echo "code=$code" >> "$GITHUB_OUTPUT"
+          if [ "$code" = 0 ]; then echo "ok=true" >> "$GITHUB_OUTPUT"; fi
+          if [ "$code" != 0 ] && [ "$code" != 3 ]; then echo "failed=true" >> "$GITHUB_OUTPUT"; fi
           [ "$code" = 3 ] && echo "::warning::GBIF is still preparing ${{ matrix.shard }}; re-run the workflow later to resume"
           exit 0
       - name: Keep the download key for resuming
@@ -107,21 +109,21 @@ jobs:
           f="data/world/downloads/${{ matrix.shard }}/download.json"
           [ -e "$f" ] && cp "$f" "download-${{ matrix.shard }}.json" && gh release upload "$TAG" -R "$GITHUB_REPOSITORY" --clobber "download-${{ matrix.shard }}.json" || true
       - name: Fail on a real fetch error
-        if: ${{ steps.fetch.outputs.code != '' && steps.fetch.outputs.code != '0' && steps.fetch.outputs.code != '3' }}
+        if: ${{ steps.fetch.outputs.failed == 'true' }}
         run: echo "::error::world-shard ${{ matrix.shard }} failed; see the log" && exit 1
       - name: Publish the shard
-        if: ${{ steps.fetch.outputs.code == '0' }}
+        if: ${{ steps.fetch.outputs.ok == 'true' }}
         run: |
           s="${{ matrix.shard }}"
           tar czf "shard-$s.tar.gz" -C data/world "shards/$s-pairs.parquet" "shards/$s-totals.parquet" "shards/$s.json"
           ls -la "shard-$s.tar.gz" && cat "data/world/shards/$s.json"
           gh release upload "$TAG" -R "$GITHUB_REPOSITORY" --clobber "shard-$s.tar.gz"
       - name: Resolve names
-        if: ${{ steps.fetch.outputs.code == '0' }}
+        if: ${{ steps.fetch.outputs.ok == 'true' }}
         working-directory: pipeline
         run: uv run atlas world-names
       - name: Build and publish the bundle
-        if: ${{ steps.fetch.outputs.code == '0' }}
+        if: ${{ steps.fetch.outputs.ok == 'true' }}
         run: |
           (cd pipeline && uv run atlas world-build)
           tar czf bundle.tar.gz -C data/world bundle
@@ -134,5 +136,5 @@ jobs:
             python3 -c "import json; print('- species:', len(json.load(open('data/world/bundle/species.json'))), ' cells:', len(json.load(open('data/world/bundle/cells.json'))['cells']))"
           } >> "$GITHUB_STEP_SUMMARY"
       - name: Remove the resume key once published
-        if: ${{ steps.fetch.outputs.code == '0' }}
+        if: ${{ steps.fetch.outputs.ok == 'true' }}
         run: gh release delete-asset "$TAG" "download-${{ matrix.shard }}.json" -R "$GITHUB_REPOSITORY" -y || true

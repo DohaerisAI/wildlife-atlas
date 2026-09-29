@@ -1,5 +1,5 @@
 import { DATA_BASE } from './constants';
-import type { CellDetail, CellsIndex, Meta, SpeciesIndexEntry, SpeciesRange } from './types';
+import type { CellDetail, CellsIndex, CoverageManifest, Meta, SpeciesIndexEntry, SpeciesRange } from './types';
 
 export class DataError extends Error {}
 
@@ -23,3 +23,5 @@ export const loadCells = () => getJson<CellsIndex>('cells.json');
 export const loadSpeciesIndex = () => getJson<SpeciesIndexEntry[]>('species.json');
 export const loadCell = (id: string) => getJson<CellDetail>(`cells/${encodeURIComponent(id)}.json`);
 export const loadRange = (key: string) => getJson<SpeciesRange>(`species/${encodeURIComponent(key)}.json`);
+/** null for older bundles that predate coverage.json (those are India-only). */
+export const loadCoverage = () => getJson<CoverageManifest>('coverage.json').catch(() => null);

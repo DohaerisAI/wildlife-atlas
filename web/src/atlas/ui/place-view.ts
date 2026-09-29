@@ -25,6 +25,8 @@ export interface PlaceViewData {
   /** rows shown before "show more" */
   readonly shown: number;
   readonly cellSize: number;
+  /** what to say where there is no species list, from coverage.json */
+  readonly noListNote: string;
 }
 
 export interface PlaceViewHandlers {
@@ -83,7 +85,7 @@ function research(d: PlaceViewData, s: PlaceSummary | null, handlers: PlaceViewH
   const bounds = place.cellId ? (() => { const [lat, lng] = place.cellId.split('_').map(Number) as [number, number]; return `${lat}° to ${lat + d.cellSize}°N, ${lng}° to ${lng + d.cellSize}°E`; })() : null;
   return h('div', { class: 'research' },
     h('dl', { class: 'env-list' },
-      h('div', { class: 'env-row' }, h('dt', {}, 'Grid cell'), h('dd', {}, place.cellId ?? 'outside the India grid', bounds ? h('span', { class: 'env-src' }, bounds) : null)),
+      h('div', { class: 'env-row' }, h('dt', {}, 'Grid cell'), h('dd', {}, place.cellId ?? 'no species list here yet', bounds ? h('span', { class: 'env-src' }, bounds) : null)),
       s ? h('div', { class: 'env-row' }, h('dt', {}, 'Effort'), h('dd', {}, `${plural(s.records, 'record')} in ${MONTH_LONG[d.month]}`, h('span', { class: 'env-src' }, 'all bird records in the cell, every year combined'))) : null,
       h('div', { class: 'env-row' }, h('dt', {}, 'Presence'), h('dd', {}, 'Year-round, seasonal, passage or uncertain per species', h('span', { class: 'env-src' }, 'classified from the monthly pattern of records (pipeline classify.py)')))),
     s ? h('div', { class: 'links' },
@@ -108,7 +110,7 @@ export function placeView(d: PlaceViewData, handlers: PlaceViewHandlers): HTMLEl
   if (d.status === 'error') return h('article', { class: 'place-view' }, head, notAvailable('The species list for this place could not load.'));
   if (d.status === 'none' || !summary) {
     return h('article', { class: 'place-view' }, head,
-      h('p', { class: 'na pad' }, 'Species lists cover India for now. Elsewhere the globe shows the ranges of featured species.'),
+      h('p', { class: 'na pad' }, d.noListNote),
       fold('Environment this month', true, environment(d)));
   }
 
