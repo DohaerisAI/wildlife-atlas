@@ -7,7 +7,9 @@ summary: >-
   screen-space-error LOD with horizon and frustum culling, an LRU tile cache with a budget, the nearest loaded
   ancestor shown until children arrive (no holes), skirts against cracks, drawn by the Living Earth shader
   (class colour, canopy, hillshade, monthly NDVI) so the look matches the dot globe, which fades out as the
-  surface fades in. Place labels from our GeoNames product with population priority, collision and fades. A
+  surface fades in. Focus-first loading: one priority queue scored by distance from the focus (screen centre or the
+  zoom anchor under the cursor), level and blur; stale requests aborted; prefetch one level finer around the focus
+  and ahead of a flight; new tiles crossfade over the parent in 200 ms. Place labels from our GeoNames product with population priority, collision and fades. A
   camera from 25,000 km to 3 km with altitude-scaled pan and zoom and tight clip planes. Debug HUD.
 paths:
   - web/src/engine/tiles/
@@ -26,6 +28,8 @@ checks:
     file: src/engine/tiles/cache.test.ts
   - suite: vitest
     file: src/engine/tiles/patch.test.ts
+  - suite: vitest
+    file: src/engine/tiles/priority.test.ts
   - suite: vitest
     file: src/engine/labels/label-rules.test.ts
   - suite: vitest

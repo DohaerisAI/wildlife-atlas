@@ -64,7 +64,8 @@ export async function startEngine(els: EngineElements): Promise<void> {
   const globe = createGlobe(mask, stage.settings().landDots, pixelRatio());
   globe.setFocus(0);
   stage.scene.add(globe.group);
-  const tiles = new TileLayer(sets);
+  // ?order=level loads plain coarse-first (no focus queue, prefetch, abort or crossfade) for comparison
+  const tiles = new TileLayer(sets, { focusFirst: params.get('order') !== 'level' });
   stage.scene.add(tiles.group);
   const notes = [sets.length ? sets.map((s) => `${s.manifest.name} ${s.manifest.levels.join('–')}`).join(' + ') : 'No tiles: run `uv run atlas tiles-world` and scripts/pull-tiles.sh'];
 
@@ -92,7 +93,7 @@ export async function startEngine(els: EngineElements): Promise<void> {
   const frames: number[] = [];
   const buffer = new Vector2();
   let last = performance.now();
-  let stats: TileStats = { drawn: 0, cached: 0, loading: 0, deepest: 0, wanted: 0, failed: 0 };
+  let stats: TileStats = { drawn: 0, cached: 0, loading: 0, deepest: 0, wanted: 0, queued: 0, prefetch: 0, aborted: 0, failed: 0, fading: 0 };
   let cpuMs = 0;
   stage.onFrame(({ time, dt }) => {
     const now = performance.now();
@@ -109,7 +110,7 @@ export async function startEngine(els: EngineElements): Promise<void> {
     globe.setDotOpacity(look.dotAlpha);
     tiles.setAlpha(look.tileAlpha);
     tiles.setMonth(month);
-    stats = tiles.update(stage.camera, stage.renderer.getDrawingBufferSize(buffer).y);
+    stats = tiles.update(stage.camera, stage.renderer.getDrawingBufferSize(buffer).y, { ...cam.focus(), altKm: pose.altKm, ahead: cam.ahead() });
     earth?.update(month, time, dt, look.channels, stage.camera);
     labels.update(stage.camera, width, height, dt, pose);
     cpuMs = performance.now() - now;

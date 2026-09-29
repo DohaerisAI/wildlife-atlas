@@ -1,6 +1,6 @@
-import type { PerspectiveCamera } from 'three';
-import { EARTH_KM, lngLatToVec3 } from '../globe/geo';
-import { clampAlt, clampLat, clipPlanes, flightPose, inertiaDecay, panBy, wrapLng, zoomBy, type GeoPose } from './geo-camera';
+import { Raycaster, Sphere, Vector2, Vector3, type PerspectiveCamera } from 'three';
+import { EARTH_KM, lngLatToVec3, vec3ToLngLat } from '../globe/geo';
+import { clampAlt, clampLat, clipPlanes, flightPose, inertiaDecay, panBy, wrapLng, zoomBy, zoomToward, type GeoPose } from './geo-camera';
 
 export interface GeoController {
   pose(): GeoPose;
@@ -8,6 +8,10 @@ export interface GeoController {
   setPose(p: GeoPose): void;
   /** one continuous flight; `ms` 0 jumps */
   flyTo(p: GeoPose, ms?: number): void;
+  /** the ground point the user is looking at: the zoom anchor under the cursor while zooming, else the view centre */
+  focus(): { lng: number; lat: number };
+  /** where the camera is heading (flight target and a pose ahead on the path, or the zoom target), for prefetch */
+  ahead(): GeoPose[];
   /** true while a flight, zoom glide or inertia is still moving */
   moving(): boolean;
   /** advance by dt seconds and place the camera (position, look, clip planes) */
@@ -19,6 +23,7 @@ interface Flight { readonly from: GeoPose; readonly to: GeoPose; readonly start:
 
 const ZOOM_GLIDE = 9; // per second, in log altitude
 const KEY_ZOOM = 0.7;
+const ANCHOR_MS = 700;
 
 /** Drag to pan, wheel or pinch to zoom, arrows and +/- on the keyboard; altitude from ~25,000 km to 3 km. */
 export function createGeoController(el: HTMLElement, initial: GeoPose, reduced: boolean): GeoController {
@@ -31,6 +36,12 @@ export function createGeoController(el: HTMLElement, initial: GeoPose, reduced: 
   const pointers = new Map<number, { x: number; y: number }>();
   let pinch = 0;
   let lastMove = 0;
+  let wheelAt: { x: number; y: number; t: number } | null = null;
+  let anchor: { lng: number; lat: number } | null = null;
+  const ray = new Raycaster();
+  const ground = new Sphere(new Vector3(), 1);
+  const hit = new Vector3();
+  const ndc = new Vector2();
 
   const stop = () => { flight = null; vel = { x: 0, y: 0 }; };
   const onDown = (e: PointerEvent) => { el.setPointerCapture(e.pointerId); pointers.set(e.pointerId, { x: e.clientX, y: e.clientY }); stop(); targetAlt = pose.altKm; };
@@ -62,6 +73,8 @@ export function createGeoController(el: HTMLElement, initial: GeoPose, reduced: 
     flight = null;
     const delta = e.deltaMode === 1 ? e.deltaY * 33 : e.deltaY;
     targetAlt = zoomBy(targetAlt, delta);
+    const r = el.getBoundingClientRect();
+    wheelAt = { x: e.clientX - r.left, y: e.clientY - r.top, t: performance.now() };
   };
   const onKey = (e: KeyboardEvent) => {
     const step = 60;
@@ -83,8 +96,24 @@ export function createGeoController(el: HTMLElement, initial: GeoPose, reduced: 
   el.addEventListener('keydown', onKey);
   el.style.touchAction = 'none';
 
+  const groundUnder = (camera: PerspectiveCamera, x: number, y: number) => {
+    const r = el.getBoundingClientRect();
+    ndc.set((x / r.width) * 2 - 1, -(y / r.height) * 2 + 1);
+    ray.setFromCamera(ndc, camera);
+    return ray.ray.intersectSphere(ground, hit) ? vec3ToLngLat(hit) : null;
+  };
+
   return {
     pose: () => pose,
+    focus: () => anchor ?? { lng: pose.lng, lat: pose.lat },
+    ahead() {
+      if (flight) {
+        const k = (performance.now() - flight.start) / flight.ms;
+        return [flight.to, flightPose(flight.from, flight.to, Math.min(1, k + 0.25))];
+      }
+      if (Math.abs(Math.log(targetAlt / pose.altKm)) > 0.05) return [{ ...(anchor ?? pose), altKm: targetAlt }];
+      return [];
+    },
     setPose(p) { stop(); pose = { lng: wrapLng(p.lng), lat: clampLat(p.lat), altKm: clampAlt(p.altKm) }; targetAlt = pose.altKm; },
     flyTo(p, ms = 4000) {
       const to = { lng: wrapLng(p.lng), lat: clampLat(p.lat), altKm: clampAlt(p.altKm) };
@@ -103,7 +132,9 @@ export function createGeoController(el: HTMLElement, initial: GeoPose, reduced: 
         if (k >= 1) flight = null;
       } else {
         const g = 1 - Math.exp(-ZOOM_GLIDE * dt);
-        pose = { ...pose, altKm: Math.exp(Math.log(pose.altKm) + (Math.log(targetAlt) - Math.log(pose.altKm)) * g) };
+        const altKm = Math.exp(Math.log(pose.altKm) + (Math.log(targetAlt) - Math.log(pose.altKm)) * g);
+        anchor = wheelAt && performance.now() - wheelAt.t < ANCHOR_MS ? groundUnder(camera, wheelAt.x, wheelAt.y) : null;
+        pose = anchor ? { ...zoomToward(pose, anchor, altKm / pose.altKm), altKm } : { ...pose, altKm };
         if (pointers.size === 0 && Math.hypot(vel.x, vel.y) > 1) {
           pose = panBy(pose, vel.x * dt, vel.y * dt, fov, height);
           const decay = Math.exp(-inertiaDecay(pose.altKm) * dt);

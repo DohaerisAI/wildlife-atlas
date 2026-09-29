@@ -40,3 +40,15 @@ describe('space-to-town camera', () => {
     expect(wrapLng(190)).toBe(-170);
   });
 });
+
+describe('zoom toward the cursor', () => {
+  it('moves the centre toward the anchor when zooming in and away when zooming out', async () => {
+    const { zoomToward } = await import('./geo-camera');
+    const p = { lng: 73, lat: 18, altKm: 100 };
+    const inward = zoomToward(p, { lng: 74, lat: 19 }, 0.5);
+    expect(inward.lng).toBeCloseTo(73.5); expect(inward.lat).toBeCloseTo(18.5);
+    const out = zoomToward(p, { lng: 74, lat: 19 }, 2);
+    expect(out.lng).toBeCloseTo(72);
+    expect(zoomToward({ lng: 179.5, lat: 0, altKm: 10 }, { lng: -179.5, lat: 0 }, 0).lng).toBeCloseTo(-179.5);
+  });
+});

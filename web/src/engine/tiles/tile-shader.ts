@@ -23,7 +23,7 @@ const FRAG = /* glsl */ `
   uniform sampler2D uSurface; uniform vec2 uGrid; uniform vec2 uHalf; uniform vec2 uT0; uniform vec2 uT1; uniform float uW;
   uniform float uM0; uniform float uM1;
   uniform vec3 uPalette[12]; uniform float uNdviLo; uniform float uNdviHi;
-  uniform float uAlpha; uniform float uGain; uniform vec3 uRim;
+  uniform float uAlpha; uniform float uFade; uniform float uGain; uniform vec3 uRim;
   varying vec2 vUv; varying vec3 vNormal; varying vec3 vView;
 
   vec3 tapSurface(vec2 tile, vec2 uv) { return texture(uSurface, (tile + clamp(uv, uHalf, 1.0 - uHalf)) / uGrid).rgb; }
@@ -63,7 +63,7 @@ const FRAG = /* glsl */ `
     // premultiplied taps: divide out the ocean share so the coast keeps the land colour
     vec3 col = m.rgb / max(m.a, 1e-3) * uGain;
     float fres = pow(1.0 - max(dot(vNormal, vView), 0.0), 3.0);
-    gl_FragColor = vec4(col + uRim * fres * 0.35, uAlpha);
+    gl_FragColor = vec4(col + uRim * fres * 0.35, uAlpha * uFade);
   }`;
 
 /** Uniforms every tile shares (month, surface atlas, fade); materials hold references so one update reaches all. */
@@ -81,6 +81,6 @@ export type SharedUniforms = ReturnType<typeof sharedUniforms>;
 export function tileMaterial(shared: SharedUniforms, land: Texture, ndvi: Texture | null, src: Vector3, b: Vector4): ShaderMaterial {
   return new ShaderMaterial({
     vertexShader: VERT, fragmentShader: FRAG, side: DoubleSide, transparent: true, depthWrite: true,
-    uniforms: { ...shared, uLand: { value: land }, uNdvi: { value: ndvi }, uHasNdvi: { value: ndvi ? 1 : 0 }, uSrc: { value: src }, uBounds: { value: b } },
+    uniforms: { ...shared, uLand: { value: land }, uNdvi: { value: ndvi }, uHasNdvi: { value: ndvi ? 1 : 0 }, uFade: { value: 1 }, uSrc: { value: src }, uBounds: { value: b } },
   });
 }

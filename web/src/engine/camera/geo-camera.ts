@@ -63,3 +63,13 @@ export function flightPose(from: GeoPose, to: GeoPose, k: number): GeoPose {
 
 /** Rotate less per pixel close in and damp inertia faster, so nothing feels jumpy at town scale. */
 export const inertiaDecay = (altKm: number): number => (altKm < 50 ? 8 : altKm < 1000 ? 5 : 3.5);
+
+/**
+ * Keep the ground under the cursor under the cursor while zooming: when altitude scales by `ratio`
+ * (new / old), the view centre moves toward (zoom in) or away from (zoom out) the anchor by 1 - ratio.
+ */
+export function zoomToward(p: GeoPose, anchor: { lng: number; lat: number }, ratio: number): GeoPose {
+  const k = 1 - ratio;
+  const dLng = wrapLng(anchor.lng - p.lng);
+  return { lng: wrapLng(p.lng + dLng * k), lat: clampLat(p.lat + (anchor.lat - p.lat) * k), altKm: p.altKm };
+}
