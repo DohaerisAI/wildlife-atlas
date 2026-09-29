@@ -3,17 +3,25 @@ title: Living Earth globe and regional packs
 layer: L2
 status: building
 summary: >-
-  Globe pack v1 (4 MB): monthly water share, snow and NDVI at 1024x512, ERA5 wind and temperature at 1°,
-  PNG atlases with a manifest, built in Earth Engine on Actions. Regional PMTiles on R2 still to come.
+  Globe pack v1 (4 MB): monthly water share, snow and NDVI at 1024x512, ERA5 wind and temperature at 1°.
+  Pack v2 (~19 MB, docs/plans/atlas-v2.md) adds monthly HYCOM surface currents and MODIS-Aqua chlorophyll at 0.5°,
+  a 4096x2048 land layer (ESA WorldCover class by ~1 km majority, MODIS tree cover, ETOPO1 hillshade) and a
+  2048x1024 relief layer (ETOPO1 elevation as 16-bit, VIIRS night lights). PNG atlases with a manifest, built in
+  Earth Engine on Actions. Regional PMTiles on R2 still to come.
 paths:
   - pipeline/atlas_pipeline/living_earth.py
+  - pipeline/atlas_pipeline/living_earth_v2.py
+  - pipeline/atlas_pipeline/living_earth_v2_ee.py
   - pipeline/scripts/build_living_earth.py
+  - pipeline/scripts/ee_probe_v2.py
   - .github/workflows/living-earth.yml
   - web/public/content/living-earth/v1/
+  - web/public/content/living-earth/v2/
 checks:
   - suite: pytest
     file: tests/test_living_earth.py
   - suite: vitest
     file: src/engine/living-earth/pack.test.ts
 next: >-
-  Regional pack for India (1 km to 150 m) so small wetlands like Doyang show at story zoom.
+  Front end reads v2 (manifest version 2). Regional pack for India (1 km to 150 m) so small wetlands like Doyang
+  show at story zoom.

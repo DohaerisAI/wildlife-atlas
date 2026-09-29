@@ -1,0 +1,252 @@
+{
+ "version": 2,
+ "built": "2026-09-29T06:30+00:00",
+ "layout": {
+  "cols": 4,
+  "rows": 3,
+  "order": "Jan..Dec row-major",
+  "projection": "equirectangular, north up, 180W at left"
+ },
+ "encoding": "byte b decodes as lo + b/255*(hi-lo) unless a channel says otherwise",
+ "surface": {
+  "file": "surface.png",
+  "frames": 12,
+  "month": [
+   1024,
+   512
+  ],
+  "channels": [
+   {
+    "name": "water",
+    "lo": 0,
+    "hi": 100,
+    "unit": "expected % of the cell under water that month",
+    "source": "JRC/GSW1_4/MonthlyRecurrence x water share of the cell"
+   },
+   {
+    "name": "snow",
+    "lo": 0,
+    "hi": 100,
+    "unit": "% snow cover",
+    "source": "MODIS/061/MOD10A1 NDSI_Snow_Cover, 2015-2024 mean"
+   },
+   {
+    "name": "ndvi",
+    "lo": -0.2,
+    "hi": 0.9,
+    "unit": "NDVI",
+    "source": "MODIS/061/MOD13A2 NDVI, 2015-2024 mean"
+   }
+  ]
+ },
+ "climate": {
+  "file": "climate.png",
+  "frames": 12,
+  "month": [
+   360,
+   180
+  ],
+  "channels": [
+   {
+    "name": "wind_u",
+    "lo": -15,
+    "hi": 15,
+    "unit": "m/s (towards east)",
+    "source": "ECMWF/ERA5/MONTHLY u_component_of_wind_10m, 1991-2020 mean"
+   },
+   {
+    "name": "wind_v",
+    "lo": -15,
+    "hi": 15,
+    "unit": "m/s (towards north)",
+    "source": "ECMWF/ERA5/MONTHLY v_component_of_wind_10m, 1991-2020 mean"
+   },
+   {
+    "name": "temp",
+    "lo": -40,
+    "hi": 45,
+    "unit": "°C at 2 m",
+    "source": "ECMWF/ERA5/MONTHLY mean_2m_air_temperature, 1991-2020 mean"
+   }
+  ]
+ },
+ "ocean": {
+  "file": "ocean.png",
+  "frames": 12,
+  "month": [
+   720,
+   360
+  ],
+  "nodata": {
+   "value": 0,
+   "meaning": "no data: land, or no valid ocean value that month (sea ice, persistent cloud, coast)"
+  },
+  "channels": [
+   {
+    "name": "current_u",
+    "lo": -1.5,
+    "hi": 1.5,
+    "unit": "m/s (towards east), surface",
+    "source": "HYCOM/sea_water_velocity velocity_u_0 x 0.001, daily 00 UTC fields, 2015-2024 (to 2024-09) monthly mean",
+    "encoding": "0 = no data; b in 1..255 decodes as lo + (b-1)/254*(hi-lo)"
+   },
+   {
+    "name": "current_v",
+    "lo": -1.5,
+    "hi": 1.5,
+    "unit": "m/s (towards north), surface",
+    "source": "HYCOM/sea_water_velocity velocity_v_0 x 0.001, daily 00 UTC fields, 2015-2024 (to 2024-09) monthly mean",
+    "encoding": "0 = no data; b in 1..255 decodes as lo + (b-1)/254*(hi-lo)"
+   },
+   {
+    "name": "chlorophyll",
+    "lo": -2.0,
+    "hi": 1.5,
+    "unit": "log10 mg/m³ chlorophyll-a",
+    "source": "NASA/OCEANDATA/MODIS-Aqua/L3SMI chlor_a, 2015-2024 monthly mean, then log10",
+    "encoding": "0 = no data; b in 1..255 decodes as lo + (b-1)/254*(hi-lo)"
+   }
+  ]
+ },
+ "land": {
+  "file": "land.png",
+  "frames": 1,
+  "size": [
+   4096,
+   2048
+  ],
+  "channels": [
+   {
+    "name": "class",
+    "lo": 0,
+    "hi": 255,
+    "unit": "class index (see classes); byte = index",
+    "source": "ESA/WorldCover/v200 Map, majority of ~1 km mode cells per pixel; sea = WorldCover no-data or water that HYCOM treats as ocean; beyond WorldCover (south of 60S, north of 82.75N) snow/ice where NOAA/NGDC/ETOPO1 ice_surface - bedrock >= 10 m, else 0",
+    "encoding": "byte is the class index"
+   },
+   {
+    "name": "tree",
+    "lo": 0,
+    "hi": 100,
+    "unit": "% of the cell's land under tree canopy",
+    "source": "MODIS/061/MOD44B Percent_Tree_Cover, 2020-2024 mean; 0 over ocean"
+   },
+   {
+    "name": "hillshade",
+    "lo": 0,
+    "hi": 255,
+    "unit": "shaded relief brightness, 181 = flat (sun azimuth 315°, altitude 45°)",
+    "source": "NOAA/NGDC/ETOPO1 ice_surface, ee.Terrain.hillshade at the 4096 grid, 8x vertical exaggeration; sea floor included",
+    "encoding": "byte is the brightness"
+   }
+  ]
+ },
+ "relief": {
+  "file": "relief.png",
+  "frames": 1,
+  "size": [
+   2048,
+   1024
+  ],
+  "channels": [
+   {
+    "name": "elevation",
+    "lo": -11000,
+    "hi": 54535,
+    "unit": "m above sea level (sea floor negative, top of ice sheets)",
+    "source": "NOAA/NGDC/ETOPO1 ice_surface, cell mean",
+    "bytes": [
+     "R",
+     "G"
+    ],
+    "encoding": "metres = R*256 + G - 11000"
+   },
+   {
+    "name": "lights",
+    "lo": 0.0,
+    "hi": 2.5,
+    "unit": "log10(1 + nW/cm²/sr)",
+    "source": "NOAA/VIIRS/DNB/ANNUAL_V22 average_masked (background and fires removed), 2022-2024 mean",
+    "bytes": [
+     "B"
+    ],
+    "encoding": "log10(1+radiance) = b/255*2.5; 0 over open ocean"
+   }
+  ]
+ },
+ "classes": [
+  {
+   "index": 0,
+   "name": "none",
+   "label": "Ocean or no data",
+   "worldcover": null
+  },
+  {
+   "index": 1,
+   "name": "tree",
+   "label": "Tree cover",
+   "worldcover": 10
+  },
+  {
+   "index": 2,
+   "name": "shrub",
+   "label": "Shrubland",
+   "worldcover": 20
+  },
+  {
+   "index": 3,
+   "name": "grass",
+   "label": "Grassland",
+   "worldcover": 30
+  },
+  {
+   "index": 4,
+   "name": "crop",
+   "label": "Cropland",
+   "worldcover": 40
+  },
+  {
+   "index": 5,
+   "name": "built",
+   "label": "Built-up",
+   "worldcover": 50
+  },
+  {
+   "index": 6,
+   "name": "bare",
+   "label": "Bare / sparse vegetation",
+   "worldcover": 60
+  },
+  {
+   "index": 7,
+   "name": "snow",
+   "label": "Snow and ice",
+   "worldcover": 70
+  },
+  {
+   "index": 8,
+   "name": "water",
+   "label": "Permanent water bodies",
+   "worldcover": 80
+  },
+  {
+   "index": 9,
+   "name": "wetland",
+   "label": "Herbaceous wetland",
+   "worldcover": 90
+  },
+  {
+   "index": 10,
+   "name": "mangrove",
+   "label": "Mangroves",
+   "worldcover": 95
+  },
+  {
+   "index": 11,
+   "name": "moss",
+   "label": "Moss and lichen",
+   "worldcover": 100
+  }
+ ],
+ "attribution": "EC JRC/Google (Global Surface Water); NASA LP DAAC / NSIDC (MODIS); Copernicus Climate Change Service (ERA5); ESA WorldCover 2021 (CC BY 4.0, © ESA WorldCover project / Copernicus Sentinel data processed by ESA WorldCover consortium); HYCOM consortium (GOFS 3.1); NASA OB.DAAC (MODIS-Aqua ocean colour); NOAA NCEI (ETOPO1); Earth Observation Group, Payne Institute, Colorado School of Mines (VIIRS nighttime lights)."
+}
