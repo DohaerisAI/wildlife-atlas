@@ -7,7 +7,7 @@ export interface PackLayer { readonly file: string; readonly month: readonly [nu
 export interface PackLayout { readonly cols: number; readonly rows: number; readonly order: string; readonly projection: string }
 
 export interface PackManifest {
-  readonly version: 1;
+  readonly version: 1 | 2;
   readonly built: string;
   readonly layout: PackLayout;
   readonly surface: PackLayer;
@@ -36,7 +36,7 @@ function checkLayer(layer: unknown, key: keyof typeof REQUIRED): void {
 export function validateManifest(raw: unknown): PackManifest {
   if (!raw || typeof raw !== 'object') throw new PackError('Living Earth pack has no manifest');
   const m = raw as Partial<PackManifest>;
-  if (m.version !== 1) throw new PackError(`Living Earth manifest version ${String(m.version)} is not supported`);
+  if (m.version !== 1 && m.version !== 2) throw new PackError(`Living Earth manifest version ${String(m.version)} is not supported`);
   if (!m.layout || m.layout.cols * m.layout.rows !== MONTHS) throw new PackError('Living Earth layout must hold 12 months');
   checkLayer(m.surface, 'surface');
   checkLayer(m.climate, 'climate');
@@ -81,18 +81,18 @@ export interface LoadedPack {
 }
 
 /** Decode without colour conversion: these are measurements, not pictures. */
-async function bitmap(url: string): Promise<ImageBitmap> {
+export async function bitmap(url: string): Promise<ImageBitmap> {
   const res = await fetch(url);
   if (!res.ok) throw new PackError(`Living Earth ${url}: HTTP ${res.status}`);
   return createImageBitmap(await res.blob(), { colorSpaceConversion: 'none', premultiplyAlpha: 'none' });
 }
 
-function pixels(img: ImageBitmap): Uint8ClampedArray {
+export function pixels(img: ImageBitmap): Uint8ClampedArray {
   const canvas = document.createElement('canvas');
   canvas.width = img.width;
   canvas.height = img.height;
   const ctx = canvas.getContext('2d', { willReadFrequently: true });
-  if (!ctx) throw new PackError('2D canvas unavailable for the climate field');
+  if (!ctx) throw new PackError('2D canvas unavailable for reading the pack');
   ctx.drawImage(img, 0, 0);
   return ctx.getImageData(0, 0, img.width, img.height).data;
 }

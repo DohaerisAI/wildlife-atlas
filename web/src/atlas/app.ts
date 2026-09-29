@@ -30,7 +30,8 @@ const PANEL_W = 420;
 const URL_SYNC_MS = 1000;
 const PLACE_ALT_KM = 2600;
 const SPECIES_ALT_KM = 9000;
-const ENV = { water: 0.8, snow: 0.8, wind: 0.6 };
+/** The atlas has no chapters to set channels: every material at one calm level. */
+const ENV = { water: 0.8, snow: 0.8, wind: 0.55, land: 1, currents: 0.8, blooms: 0.9, lights: 1, depth: 1 };
 
 export interface AtlasRoots { stage: HTMLElement; pins: HTMLElement; ui: HTMLElement; banner: HTMLElement; env: HTMLElement }
 
@@ -52,7 +53,7 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
   const store = createStore({ t: month - 1 + 0.5, playing: false, species: null, place: null, panel: null, follow: false });
   const globe = createAtlasGlobe(roots.stage, roots.pins, mask, reduced);
   globe.setEnvironment(ENV);
-  globe.onEarth(() => { roots.env.textContent = envCaption(ENV); });
+  globe.onEarth((le) => { roots.env.textContent = le.hasWorld ? `${envCaption(ENV)} · Land (ESA WorldCover) · Ocean (HYCOM, MODIS-Aqua) · Lights (VIIRS)` : envCaption(ENV); });
   const clock = createClock(store.get().t, reduced);
 
   // ---------- chrome ----------

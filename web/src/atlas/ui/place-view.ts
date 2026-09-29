@@ -1,6 +1,7 @@
 import { COVERAGE_LABEL, PRESENCE_LABEL } from '../../constants';
 import type { EnvReading } from '../../engine/living-earth/reading';
-import { readingLines } from '../../engine/living-earth/reading';
+import { readingLines, readingLinesV2, type EnvReadingV2 } from '../../engine/living-earth/reading';
+import { className } from '../../engine/living-earth/land-classes';
 import type { Coverage, SpeciesIndexEntry } from '../../types';
 import { h } from '../../ui/dom';
 import type { PlaceGroup, PlaceSummary } from '../place-summary';
@@ -15,7 +16,7 @@ export interface PlaceViewData {
   /** 'none' when the place has no species list */
   readonly status: 'loading' | 'ready' | 'none' | 'error';
   readonly coverage: Coverage | null;
-  readonly env: { reading: EnvReading; onLand: boolean } | null;
+  readonly env: { reading: EnvReading; onLand: boolean; v2: EnvReadingV2 | null } | null;
   readonly species: ReadonlyMap<string, SpeciesIndexEntry>;
   readonly thumbOf: (sci: string) => string | null;
 }
@@ -63,7 +64,8 @@ function movers(d: PlaceViewData, summary: PlaceSummary, onSpecies: (k: string) 
 
 function environment(d: PlaceViewData): HTMLElement {
   if (!d.env) return notAvailable('Environment readings are loading or unavailable.');
-  return h('dl', { class: 'env-list' }, ...readingLines(d.env.reading, d.env.onLand).map((l) =>
+  const lines = [...(d.env.v2 ? readingLinesV2(d.env.v2, d.env.onLand, className) : []), ...readingLines(d.env.reading, d.env.onLand)];
+  return h('dl', { class: 'env-list' }, ...lines.map((l) =>
     h('div', { class: 'env-row' }, h('dt', {}, l.label), h('dd', {}, l.value, h('span', { class: 'env-src' }, l.source)))));
 }
 

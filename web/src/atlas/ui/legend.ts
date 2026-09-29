@@ -6,7 +6,13 @@ export const LEGEND: readonly { swatch: string; name: string; meaning: string; s
   { swatch: 'water', name: 'Surface water', meaning: 'Brighter where more of the area is under water in this month', source: 'JRC Global Surface Water' },
   { swatch: 'snow', name: 'Snow', meaning: 'Where at least 40 % of the ground is snow-covered', source: 'MODIS, 2015–2024 mean' },
   { swatch: 'wind', name: 'Wind streaks', meaning: 'Direction and speed of the monthly mean wind at 10 m', source: 'ERA5, 1991–2020 mean' },
-  { swatch: 'land', name: 'Land dots', meaning: 'Land, India a little brighter', source: 'Natural Earth' },
+  { swatch: 'forest', name: 'Forest dots', meaning: 'Tree cover; brighter where the canopy is dense and green this month, dimmer in the dry season', source: 'ESA WorldCover · MODIS tree cover and NDVI' },
+  { swatch: 'grass', name: 'Grass and crop dots', meaning: 'Brighten with the green-up, fade as they dry', source: 'ESA WorldCover · MODIS NDVI' },
+  { swatch: 'desert', name: 'Sand dots', meaning: 'Bare ground and sparse vegetation', source: 'ESA WorldCover' },
+  { swatch: 'relief', name: 'Relief', meaning: 'Mountains lit from the north-west, exaggerated so they read from space', source: 'NOAA ETOPO1' },
+  { swatch: 'current', name: 'Current streaks', meaning: 'Surface ocean currents; speed and direction of the monthly mean', source: 'HYCOM, 2015–2024' },
+  { swatch: 'bloom', name: 'Plankton glow', meaning: 'Brighter where chlorophyll is high: where the ocean blooms', source: 'MODIS-Aqua, 2015–2024' },
+  { swatch: 'lights', name: 'City lights', meaning: 'Night-time light, shown only on the night side of today\'s sun', source: 'VIIRS, 2022–2024' },
 ];
 
 export function legendPanel(onClose: () => void): HTMLElement {

@@ -62,7 +62,7 @@ const RADIUS = 1.0008;
 /** Seasonal water and snow from the globe pack, drawn in the hologram look. */
 export class SurfaceLayer {
   readonly mesh: Mesh;
-  private readonly texture: Texture;
+  readonly texture: Texture;
   private readonly land: DataTexture;
   private readonly uniforms: Record<string, { value: unknown }>;
   private readonly t0 = new Vector2();

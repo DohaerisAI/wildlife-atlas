@@ -15,6 +15,12 @@ export const WIND = {
   calmMs: 1.5,
 } as const;
 
+/** Motion scale for a vector field drawn as streaks (wind, ocean currents). */
+export interface StreakScale { readonly maxMs: number; readonly cellsPerS: number; readonly cellDeg: number; readonly streakS: number; readonly calmMs: number }
+
+/** Style guide: ocean current 0-2 m/s -> 0-1.4 cells/s; the ocean grid cell is half a degree. */
+export const CURRENT: StreakScale = { maxMs: 2, cellsPerS: 1.4, cellDeg: 0.5, streakS: 3, calmMs: 0.08 };
+
 /** Globe pack cells more than this % under water count as open water (ripples, bright shoreline). */
 export const WATER_THRESHOLD = 50;
 /** Snow shows where at least this share of the ground was snow-covered. */

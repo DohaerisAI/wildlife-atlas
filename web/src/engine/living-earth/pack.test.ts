@@ -18,7 +18,7 @@ describe('Living Earth pack manifest', () => {
 
   it('refuses a product without a manifest or with the wrong shape', () => {
     expect(() => validateManifest(null)).toThrow(PackError);
-    expect(() => validateManifest({ ...MANIFEST, version: 2 })).toThrow(/version/);
+    expect(() => validateManifest({ ...MANIFEST, version: 3 })).toThrow(/version/);
     expect(() => validateManifest({ ...MANIFEST, layout: { ...MANIFEST.layout, cols: 3 } })).toThrow(/12 months/);
     const noWind = { ...MANIFEST, climate: { ...MANIFEST.climate, channels: MANIFEST.climate.channels.slice(2) } };
     expect(() => validateManifest(noWind)).toThrow(/wind_u/);

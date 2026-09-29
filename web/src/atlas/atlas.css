@@ -182,7 +182,13 @@ body.panel-open .chip.following { display: none; }
 .sw-water { background: var(--water); opacity: 0.8; border-radius: 4px; }
 .sw-snow { background: var(--snow); opacity: 0.75; border-radius: 4px; }
 .sw-wind { background: repeating-linear-gradient(135deg, transparent 0 4px, var(--snow) 4px 5px); border-radius: 2px; }
-.sw-land { background: radial-gradient(circle, #4fb8d8 1.5px, transparent 2px) 0 0 / 6px 6px; border-radius: 3px; }
+.sw-forest { background: radial-gradient(circle, var(--life) 1.6px, transparent 2px) 0 0 / 5px 5px; border-radius: 3px; }
+.sw-grass { background: radial-gradient(circle, var(--grass) 1.6px, transparent 2px) 0 0 / 5px 5px; border-radius: 3px; }
+.sw-desert { background: radial-gradient(circle, #d7b279 1.4px, transparent 1.8px) 0 0 / 5px 5px; border-radius: 3px; }
+.sw-relief { background: linear-gradient(135deg, #cfe6f0, #1b3342); border-radius: 3px; }
+.sw-current { background: repeating-linear-gradient(160deg, transparent 0 4px, var(--water) 4px 5px); border-radius: 2px; }
+.sw-bloom { background: radial-gradient(circle, var(--life), transparent 70%); }
+.sw-lights { background: radial-gradient(circle, #fff1d6 1.2px, transparent 1.8px) 0 0 / 4px 4px, #0b1520; border-radius: 3px; }
 .probe { position: fixed; left: 0; top: 0; z-index: 8; width: 240px; padding: 10px 12px; border-radius: 10px; background: rgba(2, 7, 13, 0.9); border: 1px solid var(--rule); pointer-events: none; backdrop-filter: blur(8px); }
 .probe[hidden] { display: none; }
 .pr-head { margin: 0 0 6px; font: 500 10.5px/1.3 var(--mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--animal-hot); }

@@ -7,7 +7,6 @@ import type { LandMask } from '../engine/globe/mask';
 import { FlowLayer } from '../engine/layers/flow-layer';
 import { LabelLayer } from '../engine/layers/labels';
 import { createLivingEarth, type LivingEarth, type MaterialChannels } from '../engine/living-earth/materials';
-import type { EnvReading } from '../engine/living-earth/reading';
 import { easeInOut, type FlowField } from '../scene/flow';
 
 const MIN_DIST = 1.06;
@@ -29,7 +28,7 @@ export interface AtlasGlobe {
   camera(): CameraSpot;
   /** mark the chosen place in the scene, or clear it */
   setPlace(place: { lng: number; lat: number; label: string } | null): void;
-  sample(lng: number, lat: number): { reading: EnvReading; onLand: boolean } | null;
+  sample(lng: number, lat: number): ReturnType<LivingEarth['sample']>;
   onPick(fn: (lng: number, lat: number) => void): void;
   onHover(fn: (at: { lng: number; lat: number; x: number; y: number } | null) => void): void;
   onDrag(fn: () => void): void;
@@ -56,7 +55,10 @@ export function createAtlasGlobe(stageRoot: HTMLElement, pinsRoot: HTMLElement, 
   let env: MaterialChannels = { water: 0.8, snow: 0.8, wind: 0.6 };
   let earth: LivingEarth | null = null;
   const earthFns: ((e: LivingEarth) => void)[] = [];
-  createLivingEarth(`${import.meta.env.BASE_URL}content/living-earth/v1/`, stage.scene, mask, stage.settings(), stage.renderer.capabilities.maxTextureSize, reduced, true)
+  const packUrl = (v: number) => `${import.meta.env.BASE_URL}content/living-earth/v${v}/`;
+  const make = (v: number) => createLivingEarth(packUrl(v), stage.scene, mask, stage.settings(), stage.renderer.capabilities.maxTextureSize, reduced, true, globe);
+  // prefer the full pack (land, ocean, relief, lights); fall back to v1 (water, snow, wind)
+  make(2).catch((err) => { console.warn('Living Earth pack v2 unavailable, using v1', err); return make(1); })
     .then((le) => { le.setTier(stage.settings()); earth = le; earthFns.forEach((fn) => fn(le)); })
     .catch((err) => console.warn('Living Earth pack unavailable; the globe shows land only', err));
 

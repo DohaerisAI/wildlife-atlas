@@ -1,6 +1,7 @@
 import {
-  AdditiveBlending, BackSide, BufferAttribute, BufferGeometry, Color, Group, Mesh, Points, ShaderMaterial, SphereGeometry,
+  AdditiveBlending, BackSide, BufferAttribute, BufferGeometry, Color, Group, Mesh, Points, ShaderMaterial, SphereGeometry, Texture, Vector2,
 } from 'three';
+import { paletteArray } from '../living-earth/land-classes';
 import { lngLatToVec3 } from './geo';
 import { fibonacciLngLat, sampleMask, type LandMask } from './mask';
 
@@ -38,8 +39,29 @@ const HALO_FRAG = /* glsl */ `
 const DOT_VERT = /* glsl */ `
   attribute float aIndia; attribute float aSeed;
   uniform float uTime; uniform float uSize; uniform float uPixelRatio;
-  varying float vA; varying float vIndia;
+  // Living Earth land materials (pack v2): class, tree cover, hillshade; monthly NDVI from the surface atlas
+  uniform float uMat; uniform sampler2D uLandTex; uniform sampler2D uSurface; uniform vec2 uGrid; uniform vec2 uHalf;
+  uniform vec2 uT0; uniform vec2 uT1; uniform float uW; uniform vec3 uPalette[12]; uniform float uNdviLo; uniform float uNdviHi;
+  varying float vA; varying float vIndia; varying vec3 vMat; varying float vMatOn;
+  vec3 tap(vec2 tile, vec2 uv) { return texture(uSurface, (tile + clamp(uv, uHalf, 1.0 - uHalf)) / uGrid).rgb; }
   void main() {
+    vec3 p = normalize(position);
+    vec2 uv = vec2(mod(degrees(atan(p.z, -p.x)), 360.0) / 360.0, (90.0 - degrees(asin(clamp(p.y, -1.0, 1.0)))) / 180.0);
+    vMatOn = uMat;
+    vMat = vec3(0.0);
+    if (uMat > 0.5) {
+      vec3 l = texture(uLandTex, uv).rgb;
+      int cls = int(l.r * 255.0 + 0.5);
+      float ndvi = mix(tap(uT0, uv).b, tap(uT1, uv).b, uW) * (uNdviHi - uNdviLo) + uNdviLo;
+      float green = smoothstep(0.05, 0.8, ndvi);
+      bool greenClass = cls == 1 || cls == 2 || cls == 3 || cls == 4 || cls == 9 || cls == 10;
+      vec3 base = uPalette[clamp(cls, 0, 11)];
+      // green classes brighten with the month's greenness and dim as they dry: the green wave and the brown season
+      float life = greenClass ? mix(0.35, 1.15, green) : 1.0;
+      float canopy = cls == 1 ? mix(0.55, 1.0, l.g) : 1.0;
+      float relief = mix(0.55, 1.35, l.b);
+      vMat = base * life * canopy * relief;
+    }
     vec4 world = modelMatrix * vec4(position, 1.0);
     vec3 n = normalize(world.xyz);
     vec3 toCam = normalize(cameraPosition - world.xyz);
@@ -54,13 +76,13 @@ const DOT_VERT = /* glsl */ `
 
 const DOT_FRAG = /* glsl */ `
   uniform vec3 uLand; uniform vec3 uIndia; uniform float uFocus;
-  varying float vA; varying float vIndia;
+  varying float vA; varying float vIndia; varying vec3 vMat; varying float vMatOn;
   void main() {
     vec2 c = gl_PointCoord - 0.5;
     float d = length(c);
     if (d > 0.5) discard;
     float core = smoothstep(0.5, 0.1, d);
-    vec3 col = mix(uLand, uIndia, vIndia * uFocus);
+    vec3 col = vMatOn > 0.5 ? vMat * (1.0 + vIndia * uFocus * 0.2) : mix(uLand, uIndia, vIndia * uFocus);
     float a = core * vA * mix(0.6, 0.85, vIndia * uFocus);
     gl_FragColor = vec4(col, a);
   }`;
@@ -72,11 +94,24 @@ export const GLOBE_COLORS = {
   india: new Color('#a9ecff'),
 };
 
+export interface LandMaterials {
+  readonly land: Texture;
+  readonly surface: Texture;
+  readonly grid: readonly [number, number];
+  /** half a texel of one month tile, in tile UV */
+  readonly half: readonly [number, number];
+  readonly ndvi: { readonly lo: number; readonly hi: number };
+}
+
 export interface Globe {
   readonly group: Group;
   update(time: number): void;
   /** 0 = India drawn like everywhere else, 1 = India highlighted */
   setFocus(v: number): void;
+  /** colour the land dots by Living Earth land class and the month's greenness */
+  setLandMaterials(m: LandMaterials | null): void;
+  /** which two monthly surface tiles to blend (see living-earth/pack monthBlend) */
+  setSurfaceMonth(t0: readonly [number, number], t1: readonly [number, number], w: number): void;
   rebuildDots(count: number, pixelRatio: number): void;
   dispose(): void;
 }
@@ -94,6 +129,10 @@ export function createGlobe(mask: LandMask, dotCount: number, pixelRatio: number
   const dotUniforms = {
     uTime: { value: 0 }, uSize: { value: 3.1 }, uPixelRatio: { value: pixelRatio },
     uLand: { value: GLOBE_COLORS.land }, uIndia: { value: GLOBE_COLORS.india }, uFocus: { value: 1 },
+    uMat: { value: 0 }, uLandTex: { value: null as Texture | null }, uSurface: { value: null as Texture | null },
+    uGrid: { value: new Vector2(4, 3) }, uHalf: { value: new Vector2() }, uT0: { value: new Vector2() }, uT1: { value: new Vector2() }, uW: { value: 0 },
+    uPalette: { value: Array.from({ length: 12 }, (_, i) => new Color(...Array.from(paletteArray().slice(i * 3, i * 3 + 3)) as [number, number, number])) },
+    uNdviLo: { value: -0.2 }, uNdviHi: { value: 0.9 },
   };
   const dotMaterial = new ShaderMaterial({
     vertexShader: DOT_VERT, fragmentShader: DOT_FRAG, uniforms: dotUniforms,
@@ -130,6 +169,17 @@ export function createGlobe(mask: LandMask, dotCount: number, pixelRatio: number
     group,
     update(time) { bodyUniforms.uTime.value = time; dotUniforms.uTime.value = time; },
     setFocus(v) { dotUniforms.uFocus.value = v; },
+    setLandMaterials(m) {
+      dotUniforms.uMat.value = m ? 1 : 0;
+      if (!m) return;
+      dotUniforms.uLandTex.value = m.land;
+      dotUniforms.uSurface.value = m.surface;
+      dotUniforms.uGrid.value.set(m.grid[0], m.grid[1]);
+      dotUniforms.uHalf.value.set(m.half[0], m.half[1]);
+      dotUniforms.uNdviLo.value = m.ndvi.lo;
+      dotUniforms.uNdviHi.value = m.ndvi.hi;
+    },
+    setSurfaceMonth(t0, t1, w) { dotUniforms.uT0.value.set(t0[0], t0[1]); dotUniforms.uT1.value.set(t1[0], t1[1]); dotUniforms.uW.value = w; },
     rebuildDots(count, pr) { dotUniforms.uPixelRatio.value = pr; buildDots(count); },
     dispose() {
       body.geometry.dispose(); (body.material as ShaderMaterial).dispose();

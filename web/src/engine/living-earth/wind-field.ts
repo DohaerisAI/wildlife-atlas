@@ -1,4 +1,4 @@
-import { WIND } from './motion';
+import { WIND, type StreakScale } from './motion';
 import { decodeByte, monthBlend, tileOf, type PackChannel, type PackLayout } from './pack';
 
 /** ERA5 monthly 10 m wind as RGBA atlas pixels (R = u east, G = v north), sampled on the CPU. */
@@ -42,15 +42,15 @@ export function sampleWind(f: WindField, lng: number, lat: number, t: number): [
 }
 
 /** Degrees per second of screen motion for a wind speed component. */
-export function windRate(ms: number): number {
-  return (ms / WIND.maxMs) * WIND.cellsPerS * WIND.cellDeg;
+export function windRate(ms: number, scale: StreakScale = WIND): number {
+  return (ms / scale.maxMs) * scale.cellsPerS * scale.cellDeg;
 }
 
 /** Move a point with the wind for `dt` seconds. */
-export function advect(lng: number, lat: number, u: number, v: number, dt: number): [number, number] {
+export function advect(lng: number, lat: number, u: number, v: number, dt: number, scale: StreakScale = WIND): [number, number] {
   const cosLat = Math.max(0.2, Math.cos(lat * DEG));
-  const nextLat = Math.max(-89.5, Math.min(89.5, lat + windRate(v) * dt));
-  let nextLng = lng + (windRate(u) * dt) / cosLat;
+  const nextLat = Math.max(-89.5, Math.min(89.5, lat + windRate(v, scale) * dt));
+  let nextLng = lng + (windRate(u, scale) * dt) / cosLat;
   if (nextLng > 180) nextLng -= 360;
   if (nextLng < -180) nextLng += 360;
   return [nextLng, nextLat];
