@@ -8,7 +8,7 @@ import { PlaceLabels } from '../engine/labels/place-labels';
 import { createLivingEarth, type LivingEarth } from '../engine/living-earth/materials';
 import { channel } from '../engine/living-earth/pack';
 import { TileLayer, type TileStats } from '../engine/tiles/tile-layer';
-import { loadTilesets } from '../engine/tiles/tileset';
+import { watchTileset } from '../engine/tiles/tileset';
 import { createHud, frameSummary } from './engine-hud';
 import { zoomLook } from './engine-look';
 
@@ -33,13 +33,19 @@ function poseFromUrl(params: URLSearchParams): GeoPose {
   return { lng: n('lng', SPOTS.space!.lng), lat: n('lat', SPOTS.space!.lat), altKm: n('alt', SPOTS.space!.altKm) };
 }
 
-function buildControls(root: HTMLElement, fly: (p: GeoPose) => void, setMonth: (m: number) => void, month: number): void {
+function buildControls(root: HTMLElement, fly: (p: GeoPose) => void, setMonth: (m: number) => void, month: number, real: { on: boolean }): void {
   Object.values(SPOTS).forEach((s) => {
     const b = document.createElement('button');
     b.type = 'button'; b.textContent = s.label;
     b.addEventListener('click', () => fly(s));
     root.appendChild(b);
   });
+  const toggle = document.createElement('button');
+  toggle.type = 'button';
+  const label = () => { toggle.textContent = real.on ? 'Real colour: on' : 'Real colour: off'; toggle.setAttribute('aria-pressed', String(real.on)); };
+  toggle.addEventListener('click', () => { real.on = !real.on; label(); });
+  label();
+  root.appendChild(toggle);
   const range = document.createElement('input');
   Object.assign(range, { type: 'range', min: '0.5', max: '11.5', step: '0.05', value: String(month) });
   range.setAttribute('aria-label', 'Month');
@@ -56,18 +62,22 @@ export async function startEngine(els: EngineElements): Promise<void> {
   const tilesBase: string = import.meta.env.VITE_TILES_BASE ?? `${base}content/tiles/`;
   const stage = createStage(els.stage, { fov: 34 });
   stage.renderer.info.autoReset = false;
-  const [mask, sets] = await Promise.all([
-    loadMask(`${base}geo/land-mask.png`),
-    loadTilesets([`${tilesBase}detail/`, `${tilesBase}world/`]),
-  ]);
+  const mask = await loadMask(`${base}geo/land-mask.png`);
   const pixelRatio = () => Math.min(window.devicePixelRatio || 1, stage.settings().pixelRatio);
   const globe = createGlobe(mask, stage.settings().landDots, pixelRatio());
   globe.setFocus(0);
   stage.scene.add(globe.group);
   // ?order=level loads plain coarse-first (no focus queue, prefetch, abort or crossfade) for comparison
-  const tiles = new TileLayer(sets, { focusFirst: params.get('order') !== 'level' });
+  const tiles = new TileLayer([], { focusFirst: params.get('order') !== 'level' });
   stage.scene.add(tiles.group);
-  const notes = [sets.length ? sets.map((s) => `${s.manifest.name} ${s.manifest.levels.join('–')}`).join(' + ') : 'No tiles: run `uv run atlas tiles-world` and scripts/pull-tiles.sh'];
+  // each tileset loads on its own and keeps retrying (a rebuild can hide a manifest for a moment)
+  const setStatus = new Map<string, string>();
+  const notes: string[] = [];
+  const noteText = () => [...setStatus].map(([n, st]) => `${n} ${st}`).join(' + ') + (notes.length ? ` · ${notes.join(' · ')}` : '');
+  for (const name of ['sites', 'detail', 'world']) {
+    watchTileset(`${tilesBase}${name}/`, (st) => { setStatus.set(name, st); els.note.textContent = noteText(); },
+      (ts) => { tiles.addTileset(ts); setStatus.set(name, `${ts.manifest.levels.join('–')}`); els.note.textContent = noteText(); });
+  }
 
   let earth: LivingEarth | null = null;
   createLivingEarth(`${base}content/living-earth/v2/`, stage.scene, mask, stage.settings(), stage.renderer.capabilities.maxTextureSize, reduced, false, globe)
@@ -78,15 +88,15 @@ export async function startEngine(els: EngineElements): Promise<void> {
     })
     .catch((err: unknown) => console.warn('Living Earth pack unavailable', err));
   const labels = new PlaceLabels(els.labels, `${base}content/places/`);
-  labels.load().then(() => { notes.push(labels.source); els.note.textContent = notes.join(' · '); })
+  labels.load().then(() => { notes.push(labels.source); els.note.textContent = noteText(); })
     .catch((err: unknown) => console.warn('place names unavailable', err));
-  els.note.textContent = notes.join(' · ');
 
   const cam = createGeoController(stage.canvas, poseFromUrl(params), reduced);
   stage.canvas.tabIndex = 0;
   stage.canvas.setAttribute('aria-label', 'Globe. Drag to move, scroll or pinch to zoom from space to a town; arrow keys and plus/minus work too.');
   let month = Number(params.get('month')) || new Date().getMonth() + 0.5;
-  buildControls(els.controls, (p) => cam.flyTo(p, 6000), (m) => { month = m; }, month);
+  const real = { on: params.get('real') === '1' };
+  buildControls(els.controls, (p) => cam.flyTo(p, 6000), (m) => { month = m; }, month, real);
   stage.onTier((_t, s) => { globe.rebuildDots(s.landDots, pixelRatio()); earth?.setTier(s); });
 
   const hud = createHud(els.hud);
@@ -110,11 +120,15 @@ export async function startEngine(els: EngineElements): Promise<void> {
     globe.setDotOpacity(look.dotAlpha);
     tiles.setAlpha(look.tileAlpha);
     tiles.setMonth(month);
+    tiles.uniforms.uTime.value = time;
+    // close-zoom texture is off on the base tier (style guide); real colour only when switched on
+    tiles.uniforms.uDetail.value = stage.tier() === 'base' || reduced ? 0 : look.detail;
+    tiles.uniforms.uReal.value = real.on ? look.real : 0;
     stats = tiles.update(stage.camera, stage.renderer.getDrawingBufferSize(buffer).y, { ...cam.focus(), altKm: pose.altKm, ahead: cam.ahead() });
     earth?.update(month, time, dt, look.channels, stage.camera);
     labels.update(stage.camera, width, height, dt, pose);
     cpuMs = performance.now() - now;
-    hud.update({ altKm: pose.altKm, frameMs: frames[frames.length - 1] ?? 0, cpuMs, calls, triangles, tier: stage.tier(), labels: labels.count, tiles: stats }, frameSummary(frames));
+    hud.update({ sets: [...setStatus].map(([n, st]) => `${n}: ${st}`).join(' · '), altKm: pose.altKm, frameMs: frames[frames.length - 1] ?? 0, cpuMs, calls, triangles, tier: stage.tier(), labels: labels.count, tiles: stats }, frameSummary(frames));
   });
 
   // for the report's screenshot script and for poking at the engine from the console

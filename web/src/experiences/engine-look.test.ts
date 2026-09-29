@@ -18,6 +18,13 @@ describe('engine look by altitude', () => {
     expect(zoomLook(50).channels.depth).toBe(0);
   });
 
+  it('adds close-zoom texture and real colour only near the ground', () => {
+    expect(zoomLook(500).detail).toBe(0);
+    expect(zoomLook(5).detail).toBe(1);
+    expect(zoomLook(1000).real).toBe(0);
+    expect(zoomLook(10).real).toBe(1);
+  });
+
   it('changes smoothly and monotonically', () => {
     const alts = [20000, 8000, 3000, 1000, 300, 50];
     const t = alts.map((a) => zoomLook(a).tileAlpha);

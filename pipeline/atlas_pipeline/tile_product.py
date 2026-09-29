@@ -7,6 +7,7 @@ Layout inside a tileset: land/{z}/{x}/{y}.png (RGB class, tree, hillshade) and, 
 """
 
 import json
+import os
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -198,7 +199,10 @@ def manifest(name: str, levels: tuple[int, int], present: dict[int, set[tuple[in
 
 
 def write_manifest(root: Path, m: dict) -> Path:
+    """Written to a temp file and renamed, so a running page never reads half a manifest."""
     path = root / "manifest.json"
     root.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(m, indent=1, ensure_ascii=False))
+    tmp = root / ".manifest.json.tmp"
+    tmp.write_text(json.dumps(m, indent=1, ensure_ascii=False))
+    os.replace(tmp, path)
     return path

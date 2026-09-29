@@ -22,6 +22,8 @@ export interface LodOptions {
   readonly ready: (t: TileId) => boolean;
   /** tile bounding sphere intersects the view frustum */
   readonly inFrustum: (t: TileId) => boolean;
+  /** finer data exists somewhere below the tile (default: a direct child exists) */
+  readonly deeper?: (t: TileId) => boolean;
   /** hard cap on how many tiles are asked for per frame */
   readonly maxWants?: number;
 }
@@ -96,7 +98,7 @@ export function selectTiles(v: ViewState, o: LodOptions): Selection {
     const source = loaded ? t : inherited;
     const error = screenError(t, v);
     if (has && !loaded) want.push({ tile: t, error });
-    const split = error > o.maxScreenError && t.z < o.maxLevel && children(t).some(o.exists);
+    const split = error > o.maxScreenError && t.z < o.maxLevel && (o.deeper ? o.deeper(t) : children(t).some(o.exists));
     if (split) {
       children(t).forEach((c) => visit(c, source));
       return;

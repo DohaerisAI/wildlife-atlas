@@ -1,4 +1,4 @@
-import { Frustum, Group, Matrix4, Mesh, PerspectiveCamera, Sphere, Texture, Vector3, Vector4, type BufferGeometry, type ShaderMaterial } from 'three';
+import { Frustum, Group, Matrix4, Mesh, PerspectiveCamera, Sphere, Texture, Vector2, Vector3, Vector4, type BufferGeometry, type ShaderMaterial } from 'three';
 import { EARTH_KM } from '../globe/geo';
 import { monthBlend, tileOf } from '../living-earth/pack';
 import { LruCache } from './cache';
@@ -7,7 +7,7 @@ import { patchGeometry } from './patch';
 import { fadeIn, focusAt, focusDistance, orderQueue, staleRequests, viewRadius, type Focus } from './priority';
 import { bounds, children, tileKey, uvWithin, type TileId } from './tile-math';
 import { TileLoader, type LoadedTile } from './tile-loader';
-import { exists, maxLevel, type Tileset } from './tileset';
+import { bySpecificity, exists, hasDeeper, maxLevel, type Tileset } from './tileset';
 import { sharedUniforms, tileMaterial } from './tile-shader';
 
 export interface TileLayerOptions {
@@ -51,15 +51,17 @@ export class TileLayer {
   private readonly retiring = new Map<string, { mesh: Mesh; until: number; source: string }>();
   private readonly frustum = new Frustum();
   private readonly m4 = new Matrix4();
-  private readonly deepest: number;
+  private deepest: number;
+  private sets: Tileset[];
   private prefetch: Want[] = [];
   private frame = 0;
 
-  constructor(private readonly sets: readonly Tileset[], opts: Partial<TileLayerOptions> = {}) {
+  constructor(sets: readonly Tileset[], opts: Partial<TileLayerOptions> = {}) {
     this.opts = { ...DEFAULTS, ...opts };
-    this.tiles = new LruCache<LoadedTile>(this.opts.budget, (t) => { t.land.dispose(); t.ndvi?.dispose(); });
-    this.loader = new TileLoader(sets, this.opts.concurrency, (k, t) => this.tiles.set(k, t));
-    this.deepest = maxLevel(sets);
+    this.sets = bySpecificity(sets);
+    this.tiles = new LruCache<LoadedTile>(this.opts.budget, (t) => { t.land.dispose(); t.ndvi?.dispose(); t.rgb?.dispose(); });
+    this.loader = new TileLoader(() => this.sets, this.opts.concurrency, (k, t) => this.tiles.set(k, t));
+    this.deepest = maxLevel(this.sets);
   }
 
   setSurface(surface: Texture, monthPx: readonly [number, number], ndvi: { lo: number; hi: number }): void {
@@ -77,10 +79,18 @@ export class TileLayer {
     u.uM0.value = m0; u.uM1.value = m1; u.uW.value = w;
   }
 
+  /** a tileset that arrived late (or was rebuilt): replaces one with the same name */
+  addTileset(ts: Tileset): void {
+    this.sets = bySpecificity([...this.sets.filter((s) => s.manifest.name !== ts.manifest.name), ts]);
+    this.deepest = maxLevel(this.sets);
+    this.loader.failed.clear();
+  }
+
   setAlpha(a: number): void { this.uniforms.uAlpha.value = a; this.group.visible = a > 0.01; }
 
   private readonly has = (t: TileId): boolean => !this.loader.failed.has(tileKey(t)) && exists(this.sets, t);
   private readonly ready = (t: TileId): boolean => this.tiles.has(tileKey(t));
+  private readonly deeper = (t: TileId): boolean => hasDeeper(this.sets, t);
 
   update(camera: PerspectiveCamera, heightPx: number, focus: TileFocus): TileStats {
     const now = performance.now();
@@ -89,7 +99,7 @@ export class TileLayer {
     const e = camera.position;
     const fovY = (camera.fov * Math.PI) / 180;
     const sel = selectTiles({ eye: [e.x, e.y, e.z], fovY, heightPx }, {
-      maxScreenError: this.opts.maxScreenError, maxLevel: this.deepest, exists: this.has, ready: this.ready, maxWants: 1000,
+      maxScreenError: this.opts.maxScreenError, maxLevel: this.deepest, exists: this.has, ready: this.ready, deeper: this.deeper, maxWants: 1000,
       inFrustum: (t) => t.z < 2 || this.frustum.intersectsSphere(this.sphere(t)),
     });
     const f = focusAt(focus.lng, focus.lat, viewRadius(focus.altKm, fovY, camera.aspect));
@@ -116,7 +126,7 @@ export class TileLayer {
     for (const p of focus.ahead) {
       const pf = focusAt(p.lng, p.lat, viewRadius(p.altKm, fovY));
       const ahead = selectTiles({ eye: toVec3(p.lng, p.lat, 1 + p.altKm / EARTH_KM), fovY, heightPx }, {
-        maxScreenError: this.opts.maxScreenError, maxLevel: this.deepest, exists: this.has, ready: this.ready, maxWants: 1000,
+        maxScreenError: this.opts.maxScreenError, maxLevel: this.deepest, exists: this.has, ready: this.ready, deeper: this.deeper, maxWants: 1000,
         inFrustum: (t) => focusDistance(t, pf) < 1,
       });
       out.push(...orderQueue(ahead.want, [], pf, this.opts.maxScreenError).slice(0, 24));
@@ -185,7 +195,8 @@ export class TileLayer {
     if (!g) { g = patchGeometry(d.tile); this.geometries.set(gk, g); }
     const uv = uvWithin(d.tile, d.source);
     const b = bounds(d.tile);
-    const mesh = new Mesh(g.geometry, tileMaterial(this.uniforms, loaded.land, loaded.ndvi, new Vector3(uv.scale, uv.u, uv.v), new Vector4(b.west, b.south, b.east, b.north)));
+    const frac = (v: number) => ((v % 1) + 1) % 1;
+    const mesh = new Mesh(g.geometry, tileMaterial(this.uniforms, loaded, new Vector3(uv.scale, uv.u, uv.v), new Vector4(b.west, b.south, b.east, b.north), new Vector2(frac(b.west), frac(b.north))));
     mesh.position.copy(g.center);
     mesh.frustumCulled = false; // the LOD walk already culled it
     this.group.add(mesh);

@@ -1,4 +1,4 @@
-import { children, decodeIndex, hasTile, type TileId } from './tile-math';
+import { children, cols, decodeIndex, hasTile, rows, type TileId } from './tile-math';
 
 /** A Living Earth tileset manifest (pipeline tile_product.manifest). No manifest, no product (architecture rule). */
 export interface TileChannel { readonly name: string; readonly lo: number; readonly hi: number; readonly source: string }
@@ -12,6 +12,7 @@ export interface TilesetManifest {
   readonly land: { readonly path: string; readonly channels: readonly TileChannel[] };
   readonly ndvi: { readonly path: string; readonly layout: { readonly cols: number; readonly rows: number; readonly frame: readonly [number, number] }; readonly channel: TileChannel } | null;
   readonly index: Readonly<Record<string, string>>;
+  readonly rgb?: { readonly path: string; readonly source: string; readonly license: string } | null;
   readonly attribution: string;
 }
 
@@ -40,12 +41,45 @@ export interface Tileset {
   readonly manifest: TilesetManifest;
   readonly base: string;
   readonly bits: ReadonlyMap<number, Uint8Array>;
+  /** per level above the finest: tiles with some tile of this set somewhere below them */
+  readonly reach: ReadonlyMap<number, Uint8Array>;
+}
+
+/** Mark every ancestor of each present tile, level by level (so the LOD walk can reach levels behind a gap). */
+function reachOf(bits: ReadonlyMap<number, Uint8Array>, hi: number): Map<number, Uint8Array> {
+  const reach = new Map<number, Uint8Array>();
+  let below: Uint8Array | undefined;
+  for (let z = hi; z >= 1; z--) {
+    const own = bits.get(z);
+    const src = own && below ? own.map((b, i) => b | below![i]!) : own ?? below;
+    if (!src) break;
+    const up = new Uint8Array(Math.ceil((cols(z - 1) * rows(z - 1)) / 8));
+    const c = cols(z);
+    for (let i = 0; i < src.length; i++) {
+      const byte = src[i]!;
+      if (byte === 0) continue;
+      for (let bit = 0; bit < 8; bit++) {
+        if (!(byte >> bit & 1)) continue;
+        const k = i * 8 + bit; const x = k % c; const y = Math.floor(k / c);
+        const pk = (y >> 1) * cols(z - 1) + (x >> 1);
+        up[pk >> 3]! |= 1 << (pk & 7);
+      }
+    }
+    reach.set(z - 1, up);
+    below = up;
+  }
+  return reach;
 }
 
 export function makeTileset(base: string, manifest: TilesetManifest): Tileset {
   const bits = new Map<number, Uint8Array>();
   for (let z = manifest.levels[0]; z <= manifest.levels[1]; z++) bits.set(z, decodeIndex(manifest.index[String(z)]!));
-  return { manifest, base, bits };
+  return { manifest, base, bits, reach: reachOf(bits, manifest.levels[1]) };
+}
+
+/** Some tileset has data below `t` (not necessarily its direct children). */
+export function hasDeeper(sets: readonly Tileset[], t: TileId): boolean {
+  return sets.some((s) => { const r = s.reach.get(t.z); return r !== undefined && hasTile(r, t); });
 }
 
 export function inSet(ts: Tileset, t: TileId): boolean {
@@ -67,24 +101,42 @@ export function maxLevel(sets: readonly Tileset[]): number {
   return Math.max(0, ...sets.map((s) => s.manifest.levels[1]));
 }
 
-export function tileUrl(ts: Tileset, kind: 'land' | 'ndvi', t: TileId): string {
-  const path = kind === 'land' ? ts.manifest.land.path : ts.manifest.ndvi?.path;
+export function tileUrl(ts: Tileset, kind: 'land' | 'ndvi' | 'rgb', t: TileId): string {
+  const path = kind === 'land' ? ts.manifest.land.path : kind === 'ndvi' ? ts.manifest.ndvi?.path : ts.manifest.rgb?.path;
   if (!path) throw new TilesetError(`${ts.manifest.name} has no ${kind} layer`);
   return ts.base + path.replace('{z}', String(t.z)).replace('{x}', String(t.x)).replace('{y}', String(t.y));
 }
 
-/** Load tileset manifests; sets that are missing or invalid are skipped with a warning (the rest still draw). */
-export async function loadTilesets(bases: readonly string[], fetcher: typeof fetch = fetch): Promise<Tileset[]> {
-  const loaded = await Promise.all(bases.map(async (base) => {
-    try {
-      const res = await fetcher(`${base}manifest.json`);
-      if (!res.ok) throw new TilesetError(`HTTP ${res.status}`);
-      return makeTileset(base, validateTileset(await res.json()));
-    } catch (err) {
-      console.warn(`tileset ${base} unavailable: ${(err as Error).message}`);
-      return null;
-    }
-  }));
-  // finest ranges first so sourceFor prefers detail over the world pack
-  return loaded.filter((s): s is Tileset => s !== null).sort((a, b) => b.manifest.levels[0] - a.manifest.levels[0]);
+/** Load one tileset's manifest; throws when it is missing, half written or invalid. */
+export async function loadTileset(base: string, fetcher: typeof fetch = fetch): Promise<Tileset> {
+  const res = await fetcher(`${base}manifest.json`, { cache: 'no-store' });
+  if (!res.ok) throw new TilesetError(`HTTP ${res.status}`);
+  return makeTileset(base, validateTileset(await res.json()));
+}
+
+/** Finest ranges first, so sourceFor prefers detail over the world pack. */
+export const bySpecificity = (sets: readonly Tileset[]): Tileset[] => [...sets].sort((a, b) => b.manifest.levels[0] - a.manifest.levels[0]);
+
+/** Seconds to wait before retry `attempt` (0-based): 1, 2, 4 ... capped at 30. */
+export const retryDelay = (attempt: number): number => Math.min(30, 2 ** Math.max(0, attempt));
+
+/**
+ * Keep trying to load a tileset until it arrives (a manifest can be missing for a moment while tiles are rebuilt).
+ * `status` reports 'loading', 'ok' or 'unavailable, retrying' for the HUD; `onLoad` gets the set when it is in.
+ */
+export function watchTileset(base: string, status: (s: string) => void, onLoad: (ts: Tileset) => void, fetcher: typeof fetch = fetch): () => void {
+  let stopped = false;
+  let timer = 0;
+  const attempt = (n: number) => {
+    status(n === 0 ? 'loading' : 'unavailable, retrying');
+    loadTileset(base, fetcher).then((ts) => { if (!stopped) { status('ok'); onLoad(ts); } })
+      .catch((err: unknown) => {
+        if (stopped) return;
+        status('unavailable, retrying');
+        if (n === 0) console.warn(`tileset ${base} unavailable (${(err as Error).message}); retrying`);
+        timer = window.setTimeout(() => attempt(n + 1), retryDelay(n) * 1000);
+      });
+  };
+  attempt(0);
+  return () => { stopped = true; window.clearTimeout(timer); };
 }

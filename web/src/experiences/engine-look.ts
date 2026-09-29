@@ -9,6 +9,10 @@ export interface ZoomLook {
   readonly tileAlpha: number;
   readonly dotAlpha: number;
   readonly channels: MaterialChannels;
+  /** per-material close-zoom texture, 0..1 (below ~50 km) */
+  readonly detail: number;
+  /** how much of the true-colour mosaic to show when real colour is on, 0..1 (below ~150 km) */
+  readonly real: number;
 }
 
 /** 0 at or above `hi` km, 1 at or below `lo` km, smooth in log altitude between. */
@@ -24,6 +28,8 @@ export function zoomLook(altKm: number): ZoomLook {
   const globeLayersGone = closeness(altKm, 400, 2500);
   return {
     tileAlpha: 0.3 + 0.7 * near,
+    detail: closeness(altKm, 8, 50),
+    real: closeness(altKm, 15, 150),
     dotAlpha: 1 - dotsGone,
     channels: {
       water: 0.8 * (1 - globeLayersGone), snow: 0.8 * (1 - globeLayersGone), wind: 0.6 * (1 - globeLayersGone),

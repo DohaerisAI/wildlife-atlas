@@ -1,6 +1,8 @@
 import type { TileStats } from '../engine/tiles/tile-layer';
 
 export interface HudFrame {
+  /** tileset status, e.g. 'detail: 5–8 · sites: unavailable, retrying' */
+  readonly sets: string;
   readonly altKm: number;
   readonly frameMs: number;
   readonly cpuMs: number;
@@ -37,6 +39,7 @@ export function createHud(el: HTMLElement): { update(f: HudFrame, frames: { mean
         `draws  ${f.calls} calls · ${(f.triangles / 1000).toFixed(0)}k tris`,
         `frame  ${frames.mean.toFixed(1)} ms avg · ${frames.p95.toFixed(1)} p95 · cpu ${f.cpuMs.toFixed(2)} ms`,
         `tier   ${f.tier} · labels ${f.labels}`,
+        `sets   ${f.sets}`,
       ].join('\n');
     },
   };
