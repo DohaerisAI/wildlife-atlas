@@ -1,7 +1,7 @@
 import { Vector3, type PerspectiveCamera } from 'three';
 import { EARTH_KM, lngLatToVec3 } from '../globe/geo';
 import { tileAt } from '../tiles/tile-math';
-import { boxSize, eligible, fade, labelSize, parseRows, placeLabels, priority, type Candidate, type Place } from './label-rules';
+import { boxSize, CAPITAL_SCALE, eligible, fade, labelSize, minPopulation, parseRows, placeLabels, priority, type Candidate, type Place } from './label-rules';
 
 interface PlacesManifest { readonly kind: 'places'; readonly source: string; readonly license: string; readonly major: { readonly file: string }; readonly chunks: { readonly level: number; readonly tiles: readonly string[] } }
 interface Entry { readonly place: Place; readonly id: string; readonly v: Vector3; readonly priority: number }
@@ -41,6 +41,8 @@ export class PlaceLabels {
     parseRows(await res.json()).forEach((p) => {
       this.entries.push({ place: p, id: `${p.name}|${p.lng}|${p.lat}`, v: lngLatToVec3(p.lng, p.lat, 1), priority: priority(p) });
     });
+    // biggest first, so a layout pass can stop at the first place too small for the altitude
+    this.entries.sort((a, b) => b.place.population - a.place.population);
   }
 
   /** load the chunk under the camera and its neighbours once close enough */
@@ -77,7 +79,9 @@ export class PlaceLabels {
     const cands: Candidate[] = [];
     const byId = new Map<string, Entry>();
     const margin = 0.0005 + Math.min(0.02, altKm / EARTH_KM * 0.02);
+    const floor = minPopulation(altKm) * CAPITAL_SCALE;
     for (const e of this.entries) {
+      if (e.place.population < floor) break;
       if (e.v.dot(eye) < 1 + margin || !eligible(e.place, altKm)) continue;
       this.v.copy(e.v).project(camera);
       if (this.v.z > 1 || Math.abs(this.v.x) > 1.05 || Math.abs(this.v.y) > 1.05) continue;

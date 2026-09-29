@@ -28,9 +28,12 @@ export function minPopulation(altKm: number): number {
   return THRESHOLDS[THRESHOLDS.length - 1]![1];
 }
 
+/** The smallest share of the altitude's population floor any place can show at (capitals). */
+export const CAPITAL_SCALE = 0.2;
+
 /** Capitals and admin seats may show at a fifth / half of the population the altitude asks for. */
 export function eligible(p: Place, altKm: number): boolean {
-  const scale = p.kind === 0 ? 0.2 : p.kind === 1 ? 0.5 : 1;
+  const scale = p.kind === 0 ? CAPITAL_SCALE : p.kind === 1 ? 0.5 : 1;
   return p.population >= minPopulation(altKm) * scale;
 }
 
