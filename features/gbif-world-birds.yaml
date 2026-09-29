@@ -1,0 +1,24 @@
+id: gbif-world-birds
+title: Every bird worldwide, region by region
+layer: L0
+status: building
+summary: >-
+  One GBIF SQL download per region shard (South Asia, Africa, Europe, East Asia, the Americas, Oceania):
+  class Aves, PRESENT, no geospatial issues, 2010-2026, counted by species, 1° cell and month, with
+  genus-level records kept as effort. Resumable (the download key is saved and GBIF's list of the
+  user's downloads is checked before resubmitting). Sensitive species are filtered out on GBIF's side.
+  DuckDB turns each shard into parquet tables published on the `world-birds` release.
+paths:
+  - pipeline/atlas_pipeline/world_shards.py
+  - pipeline/atlas_pipeline/gbif_sql.py
+  - pipeline/atlas_pipeline/world_ingest.py
+  - pipeline/atlas_pipeline/bird_names.py
+  - .github/workflows/world-birds.yml
+  - scripts/pull-world.sh
+checks:
+  - suite: pytest
+    file: tests/test_world.py
+  - suite: pytest
+    file: tests/test_cli.py
+next: >-
+  Host the bundle on Cloudflare R2 (owner's account) like the tiles; the release asset is the interim home.

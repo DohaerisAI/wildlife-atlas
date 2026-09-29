@@ -1,0 +1,18 @@
+id: world-bundle
+title: Worldwide bird bundle and coverage manifest
+layer: L2
+status: building
+summary: >-
+  Same layout as the India bundle (meta, cells, cells/{id}, species, species/{key}) for every loaded
+  region, rebuilt idempotently from all shards with a vectorised classifier that matches classify.py.
+  coverage.json lists each region as loaded or pending with records, cells, species and DOI; the atlas
+  reads it for the "species lists cover ..." note.
+paths:
+  - pipeline/atlas_pipeline/world_bundle.py
+  - pipeline/atlas_pipeline/classify_vec.py
+  - web/src/atlas/coverage.ts
+checks:
+  - suite: pytest
+    file: tests/test_world.py
+  - suite: vitest
+    file: src/atlas/coverage.test.ts

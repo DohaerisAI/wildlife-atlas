@@ -1,12 +1,14 @@
 id: gbif-sql-downloads
 title: GBIF SQL downloads (all species, worldwide)
 layer: L0
-status: building
+status: working
 summary: >-
   Server-side aggregation by FLOOR(lat), FLOOR(lng), month. Each version gets a DOI.
 paths:
   - pipeline/scripts/gbif_sql_probe.py
   - .github/workflows/gbif-sql-probe.yml
-checks: []
+checks:
+  - suite: pytest
+    file: tests/test_world.py
 next: >-
-  End-to-end download proven (doi:10.15468/dl.75xb6c). Build the global all-species fetch, joined by scientific name.
+  Birds worldwide run through gbif-world-birds. Next: other animal classes with the same shards.
