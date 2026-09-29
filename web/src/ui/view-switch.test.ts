@@ -2,8 +2,8 @@ import { describe, expect, it } from 'vitest';
 import { viewUrl } from './view-switch';
 
 describe('viewUrl', () => {
-  it('routes scene views to index with view param', () => {
-    expect(viewUrl('real', { month: 10, species: 'demo-falamu' })).toBe('atlas.html?view=real&m=10&sp=demo-falamu');
+  it('routes the atlas with month and species', () => {
+    expect(viewUrl('atlas', { month: 10, species: 'demo-falamu' })).toBe('atlas.html?m=10&sp=demo-falamu');
   });
   it('routes map with cell, camera and dive flag', () => {
     const url = viewUrl('map', { month: 3, species: null, cell: '25_93', at: { lng: 93.5, lat: 25.5, zoom: 5 }, dive: true });

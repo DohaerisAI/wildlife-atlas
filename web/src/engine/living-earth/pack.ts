@@ -76,6 +76,8 @@ export interface LoadedPack {
   readonly climate: ImageBitmap;
   /** RGBA pixels of the climate atlas, for sampling wind on the CPU */
   readonly climatePixels: Uint8ClampedArray;
+  /** RGBA pixels of the surface atlas, only when asked for (the probe reads them) */
+  readonly surfacePixels: Uint8ClampedArray | null;
 }
 
 /** Decode without colour conversion: these are measurements, not pictures. */
@@ -95,12 +97,12 @@ function pixels(img: ImageBitmap): Uint8ClampedArray {
   return ctx.getImageData(0, 0, img.width, img.height).data;
 }
 
-export async function loadPack(baseUrl: string): Promise<LoadedPack> {
+export async function loadPack(baseUrl: string, withSurfacePixels = false): Promise<LoadedPack> {
   const res = await fetch(`${baseUrl}manifest.json`);
   if (!res.ok) throw new PackError(`Living Earth manifest: HTTP ${res.status}`);
   const manifest = validateManifest(await res.json());
   const [surface, climate] = await Promise.all([bitmap(baseUrl + manifest.surface.file), bitmap(baseUrl + manifest.climate.file)]);
   const [sw, sh] = manifest.surface.month;
   if (surface.width !== sw * manifest.layout.cols || surface.height !== sh * manifest.layout.rows) throw new PackError('surface atlas size does not match its manifest');
-  return { manifest, surface, climate, climatePixels: pixels(climate) };
+  return { manifest, surface, climate, climatePixels: pixels(climate), surfacePixels: withSurfacePixels ? pixels(surface) : null };
 }

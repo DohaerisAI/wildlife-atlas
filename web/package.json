@@ -8,11 +8,9 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "typecheck": "tsc --noEmit",
-    "postinstall": "node scripts/copy-cesium.mjs"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "cesium": "^1.145.0",
     "gsap": "^3.15.0",
     "maplibre-gl": "^6.11.2",
     "three": "^0.186.1"

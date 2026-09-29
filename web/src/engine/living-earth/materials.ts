@@ -2,7 +2,10 @@ import type { PerspectiveCamera, Scene } from 'three';
 import type { TierSettings } from '../core/tiers';
 import type { LandMask } from '../globe/mask';
 import { SHOWN } from './motion';
+import { sampleMask } from '../globe/mask';
 import { channel, loadPack, type PackManifest } from './pack';
+import type { EnvReading } from './reading';
+import { sampleValue, type MonthlyPixels } from './sampler';
 import { SurfaceLayer } from './surface-layer';
 import { WindLayer } from './wind-layer';
 
@@ -26,6 +29,8 @@ export interface LivingEarth {
   readonly manifest: PackManifest;
   update(t: number, time: number, dt: number, ch: MaterialChannels, camera: PerspectiveCamera): void;
   setTier(s: TierSettings): void;
+  /** Real values at a place and month (needs the pack loaded with `probe: true`). */
+  sample(lng: number, lat: number, t: number): { reading: EnvReading; onLand: boolean } | null;
   dispose(): void;
 }
 
@@ -35,8 +40,8 @@ const surfaceFits = (m: PackManifest, maxTexture: number) => {
 };
 
 /** Load the globe pack and add water, snow and wind to the scene. Rejects if the pack is missing or invalid. */
-export async function createLivingEarth(baseUrl: string, scene: Scene, mask: LandMask, s: TierSettings, maxTexture: number, reduced: boolean): Promise<LivingEarth> {
-  const pack = await loadPack(baseUrl);
+export async function createLivingEarth(baseUrl: string, scene: Scene, mask: LandMask, s: TierSettings, maxTexture: number, reduced: boolean, probe = false): Promise<LivingEarth> {
+  const pack = await loadPack(baseUrl, probe);
   const { manifest } = pack;
   const u = channel(manifest.climate, 'wind_u');
   const v = channel(manifest.climate, 'wind_v');
@@ -49,8 +54,23 @@ export async function createLivingEarth(baseUrl: string, scene: Scene, mask: Lan
   if (surface) scene.add(surface.mesh);
   scene.add(wind.lines);
 
+  const climatePx: MonthlyPixels = { data: pack.climatePixels, atlasWidth: pack.climate.width, month: manifest.climate.month, layout: manifest.layout };
+  const surfacePx: MonthlyPixels | null = pack.surfacePixels
+    ? { data: pack.surfacePixels, atlasWidth: manifest.surface.month[0] * manifest.layout.cols, month: manifest.surface.month, layout: manifest.layout }
+    : null;
+  const sc = (name: string) => channel(manifest.surface, name);
+  const temp = channel(manifest.climate, 'temp');
+
   return {
     manifest,
+    sample(lng, lat, t) {
+      if (!surfacePx) return null;
+      const reading: EnvReading = {
+        windU: sampleValue(climatePx, 0, u, lng, lat, t), windV: sampleValue(climatePx, 1, v, lng, lat, t), tempC: sampleValue(climatePx, 2, temp, lng, lat, t),
+        waterPct: sampleValue(surfacePx, 0, sc('water'), lng, lat, t), snowPct: sampleValue(surfacePx, 1, sc('snow'), lng, lat, t), ndvi: sampleValue(surfacePx, 2, sc('ndvi'), lng, lat, t),
+      };
+      return { reading, onLand: sampleMask(mask, lng, lat).land };
+    },
     update(t, time, dt, ch, camera) {
       surface?.set(ch.water, ch.snow);
       surface?.update(t, time);

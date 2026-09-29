@@ -1,20 +1,25 @@
 id: atlas-ring
-title: Atlas with year ring
+title: Atlas v2
 layer: L4
 status: building
 summary: >-
-  Atlas rebuilt to the design direction: a draggable year ring around the globe (keyboard too), field
-  notes for a tapped place with who is arriving, passing, leaving or resident, the followed species set in
-  serif, and controls that fade while the visitor watches. Story tokens throughout.
+  Atlas rebuilt from scratch (docs/plans/atlas-v2.md): species profile with photos, facts, seasonal world,
+  journey, conservation and evidence; wildlife-here for any place with what is arriving, leaving or passing,
+  photos, month strips and coverage; environment readings under the pointer; month control along the bottom
+  drawn with the followed species' season; side panel on desktop, sheet on phones.
 paths:
-  - web/src/experiences/atlas/
-  - web/src/scene/shell.ts
+  - web/src/atlas/
   - web/atlas.html
+  - web/src/main-atlas.ts
 checks:
   - suite: vitest
-    file: src/experiences/atlas/ring-math.test.ts
+    file: src/atlas/summaries.test.ts
   - suite: vitest
-    file: src/experiences/atlas/field-notes.test.ts
+    file: src/atlas/store.test.ts
+  - suite: vitest
+    file: src/atlas/lookup.test.ts
+  - suite: vitest
+    file: src/engine/living-earth/reading.test.ts
 next: >-
-  Semantic zoom (labels closer in), place names for field notes instead of grid coordinates, physical
-  feedback (selecting a species makes its flow surge).
+  Land materials (forest, grass, desert, relief, ocean, lights) from Living Earth pack v2; photos for every
+  species once profiles land; semantic zoom labels; Earth look on our engine.

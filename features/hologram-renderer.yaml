@@ -6,9 +6,8 @@ summary: >-
   Atlas hologram on the shared engine (stage, dot-land globe, flow layer) with the Living Earth
   materials, same look as the story. The older standalone hologram (outlines, pillars) is removed.
 paths:
-  - web/src/views/globe/
-  - web/src/main-scene.ts
-  - web/atlas.html
+  - web/src/engine/globe/
+  - web/src/atlas/globe.ts
 checks:
   - suite: vitest
     file: src/engine/globe/geo.test.ts

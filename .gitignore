@@ -7,7 +7,6 @@ data/raw/
 *.pyc
 .coverage
 web/public/data/
-web/public/cesium/
 web/.env.local
 site/
 reports/

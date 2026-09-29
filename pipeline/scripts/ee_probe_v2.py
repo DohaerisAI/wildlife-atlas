@@ -260,3 +260,34 @@ def edge_probe2():
             except Exception as e:
                 res = "ERROR " + str(e)[:100]
             print(f"  edge2 {name} rows {y}+{h}: {res}")
+
+
+def edge_probe3():
+    """Polar rows for every v2 input, and whether clipping VIIRS to its footprint avoids the edge error."""
+    wc = ee.ImageCollection("ESA/WorldCover/v200").first().select("Map")
+    km = ee.Projection("EPSG:4326").scale(1 / 112, 1 / 112)
+    hy = ee.ImageCollection("HYCOM/sea_water_velocity").select(["velocity_u_0"])
+    lights = ee.ImageCollection("NOAA/VIIRS/DNB/ANNUAL_V22").filterDate("2022-01-01", "2025-01-01").select("average_masked").mean()
+    foot = ee.Geometry.Rectangle([-180, -65, 180, 75], None, False)
+    cands = {
+        "wc majority": (wc.reproject(km).reduceResolution(ee.Reducer.mode(), False, 65535).unmask(-1e6), 4096, 256),
+        "wc mask": (wc.mask().unmask(0), 4096, 4096),
+        "hycom mask": (hy.filterDate("2020-07-01", "2020-07-02").first().mask().unmask(0), 4096, 4096),
+        "tree": (ee.ImageCollection("MODIS/061/MOD44B").filterDate("2020-01-01", "2025-01-01").select("Percent_Tree_Cover").mean().unmask(-1e6), 4096, 4096),
+        "hillshade": (ee.Terrain.hillshade(ee.Image("NOAA/NGDC/ETOPO1").select("ice_surface").toFloat().multiply(10)), 4096, 4096),
+        "hycom month mean": (hy.filterDate("2020-07-01", "2020-08-01").filter(ee.Filter.calendarRange(0, 0, "hour")).mean().multiply(0.001).unmask(-1e6), 720, 720),
+        "chl mean": (ee.ImageCollection("NASA/OCEANDATA/MODIS-Aqua/L3SMI").filterDate("2015-01-01", "2025-01-01")
+                     .filter(ee.Filter.calendarRange(7, 7, "month")).select("chlor_a").mean().unmask(-1e6), 720, 720),
+        "lights clipped": (lights.clip(foot).unmask(0), 2048, 2048),
+        "lights blend": (ee.Image.constant(0).toFloat().blend(lights.clip(foot)), 2048, 2048),
+    }
+    for name, (img, w, tw) in cands.items():
+        d = 360 / w
+        for label, y in (("north pole", 0), ("south pole", w // 2 - 16)):
+            g = grid(tw, 16, -180, 90 - y * d, d, d)
+            try:
+                ee.data.computePixels({"expression": img.rename("v").toFloat(), "fileFormat": "NUMPY_NDARRAY", "grid": g})
+                res = "ok"
+            except Exception as e:
+                res = "ERROR " + str(e)[:80]
+            print(f"  edge3 {name} {label}: {res}")

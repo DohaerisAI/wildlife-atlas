@@ -2,18 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Watch India's wildlife move through the year." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="Explore where wildlife is through the year, and why it moves: species, places and the living Earth beneath them." />
     <title>Wildlife Atlas · Atlas</title>
   </head>
-  <body class="atlas-page">
-    <div id="demo-banner" class="demo-banner" role="alert" hidden>
-      SYNTHETIC DEMO DATA<span class="banner-long">: every pattern here is invented for building the interface. It is not evidence.</span><span class="banner-short"> · not real evidence</span>
-    </div>
-    <div id="stage" class="stage" aria-label="Animated globe of species movement"></div>
-    <div id="hud" class="hud"></div>
-    <div id="view-switch" class="view-switch-float"></div>
-    <p id="env-note" class="atlas-env"></p>
-    <script type="module" src="/src/main-scene.ts"></script>
+  <body class="atlas">
+    <div id="demo-banner" class="demo-banner" role="alert" hidden>SYNTHETIC DEMO DATA · patterns are invented, not evidence</div>
+    <div id="stage" class="stage" aria-label="Globe: drag to turn, scroll to zoom, click a place to see its wildlife"></div>
+    <div id="pins" class="pins" aria-hidden="true"></div>
+    <div id="ui" class="ui"></div>
+    <p id="env-note" class="env-note"></p>
+    <noscript><p class="nojs">The atlas needs JavaScript and WebGL.</p></noscript>
+    <script type="module" src="/src/main-atlas.ts"></script>
   </body>
 </html>
