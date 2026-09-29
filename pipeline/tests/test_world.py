@@ -169,7 +169,10 @@ def test_extract_rejects_multi_file_zip(tmp_path):
 # ---------- names ----------
 
 def fake_names_http(url, params):
+    if url.endswith("/species/212/children"):
+        return {"results": [{"key": 729, "rank": "ORDER"}, {"key": 1, "rank": "FAMILY"}]}
     if url.endswith("/species/search"):
+        assert params["highertaxonKey"] == 729
         return {"endOfRecords": True, "results": [
             {"key": 2480998, "canonicalName": "Pavo cristatus", "family": "Phasianidae", "order": "Galliformes",
              "vernacularNames": [{"vernacularName": "Paon", "language": "fra"}, {"vernacularName": "Indian Peafowl", "language": "eng"}]}]}
@@ -190,6 +193,7 @@ def test_names_join_by_scientific_name_and_cache(tmp_path):
     assert names["Avis nova"]["key"] == "5Z" and names["Avis nova"]["family"] == "Novidae"  # kept, never dropped
     again = resolve_names(wanted, lambda u, p: pytest.fail("should be cached"), tmp_path)
     assert again == names
+    assert (tmp_path / "checklist-orders" / "729.json").exists()  # per-order cache for resuming
 
 
 # ---------- vectorised classify ----------

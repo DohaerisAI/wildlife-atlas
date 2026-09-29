@@ -19,7 +19,7 @@ from .gbif_fetch import API, HttpGet
 log = logging.getLogger(__name__)
 
 BACKBONE = "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c"
-PAGE = 1000
+PAGE = 300  # smaller pages: large ones with every vernacular name time out
 ENGLISH = ("eng", "en")
 
 
@@ -40,15 +40,18 @@ def name_record(result: dict[str, Any], common: str = "") -> dict[str, str]:
     }
 
 
-def fetch_checklist(http_get: HttpGet, cache: Path) -> dict[str, dict[str, str]]:
-    """Every accepted bird species in the backbone: canonical name -> record. Cached as one file."""
-    if cache.exists():
-        return json.loads(cache.read_text())
+def bird_orders(http_get: HttpGet) -> list[int]:
+    """Keys of the backbone's orders under class Aves (each is paged on its own: deep offsets are very slow)."""
+    body = http_get(f"{API}/species/{AVES_CLASS_KEY}/children", {"limit": 200})
+    return [int(r["key"]) for r in body.get("results", []) if r.get("rank") == "ORDER"]
+
+
+def _checklist_page_through(http_get: HttpGet, higher: int) -> dict[str, dict[str, str]]:
     out: dict[str, dict[str, str]] = {}
     offset = 0
     while True:
         body = http_get(f"{API}/species/search", {
-            "datasetKey": BACKBONE, "highertaxonKey": AVES_CLASS_KEY, "rank": "SPECIES",
+            "datasetKey": BACKBONE, "highertaxonKey": higher, "rank": "SPECIES",
             "status": "ACCEPTED", "limit": PAGE, "offset": offset,
         })
         for r in body.get("results", []):
@@ -56,11 +59,29 @@ def fetch_checklist(http_get: HttpGet, cache: Path) -> dict[str, dict[str, str]]
             if rec["scientific"] and rec["key"]:
                 out.setdefault(rec["scientific"], rec)
         offset += PAGE
-        log.info("checklist: %d species after %d", len(out), offset)
         if body.get("endOfRecords", True) or not body.get("results"):
-            break
-    cache.parent.mkdir(parents=True, exist_ok=True)
-    cache.write_text(json.dumps(out, ensure_ascii=False))
+            return out
+
+
+def fetch_checklist(http_get: HttpGet, cache: Path) -> dict[str, dict[str, str]]:
+    """Every accepted bird species in the backbone: canonical name -> record.
+
+    Paged one order at a time, each order cached under `cache`'s folder, so an interrupted run resumes.
+    """
+    if cache.exists():
+        return json.loads(cache.read_text())
+    parts = cache.parent / "checklist-orders"
+    out: dict[str, dict[str, str]] = {}
+    for order in bird_orders(http_get):
+        part = parts / f"{order}.json"
+        if part.exists():
+            got = json.loads(part.read_text())
+        else:
+            got = _checklist_page_through(http_get, order)
+            _save(part, got)
+        out.update({k: v for k, v in got.items() if k not in out})
+        log.info("checklist: %d species after order %d", len(out), order)
+    _save(cache, out)
     return out
 
 
