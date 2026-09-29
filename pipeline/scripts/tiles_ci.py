@@ -37,6 +37,9 @@ def bbox(text: str) -> tm.Bounds:
 def cmd_plan(args) -> int:
     if args.sites.strip():
         shards = sorted({"/".join(map(str, t)) for b in tm.site_boxes(args.sites, SITE_LEVEL) for t in tm.tiles_in_bbox(args.shard_level, b)})
+        if args.only.strip():
+            only = {"/".join(map(str, tm.parse_tile(s))) for s in args.only.split(",") if s.strip()}
+            shards = [s for s in shards if s in only]
         print(json.dumps(shards))
         logging.info("%d site shards", len(shards))
         return 0
