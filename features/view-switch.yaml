@@ -1,11 +1,15 @@
 id: view-switch
-title: View switching and dive-in
+title: Globe and street map in one atlas
 layer: L4
-status: building
+status: working
 summary: >-
-  Hologram, Earth and Map views share month, species and camera; click to dive in.
+  No separate views any more: the atlas moves between the globe and the street map by zoom, search or the
+  Globe / Street map button, carrying month, species and place.
 paths:
-  - web/src/ui/view-switch.ts
+  - web/src/atlas/app.ts
+  - web/src/atlas/map-view.ts
 checks:
   - suite: vitest
-    file: src/ui/view-switch.test.ts
+    file: src/atlas/locate.test.ts
+next: >-
+  The Earth look as a third style on the same globe.
