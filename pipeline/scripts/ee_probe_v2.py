@@ -218,3 +218,26 @@ def probe_v2_round2():
                       ("Class agreement Europe", lambda: class_agreement((-5, 40, 30, 60))),
                       ("Class pull cost", class_cost), ("HYCOM budget", hycom_budget)):
         section(title, fn)
+
+
+def edge_probe():
+    """Which inputs fail on a tile touching 180E ("Unable to transform edge"), and which workaround fixes it."""
+    elev = ee.Image("NOAA/NGDC/ETOPO1").select("ice_surface").toFloat()
+    lights = ee.ImageCollection("NOAA/VIIRS/DNB/ANNUAL_V22").filterDate("2022-01-01", "2025-01-01").select("average_masked").mean()
+    hycom = ee.ImageCollection("HYCOM/sea_water_velocity").filterDate("2020-07-01", "2020-07-02").first().select("velocity_u_0")
+    wc = ee.ImageCollection("ESA/WorldCover/v200").first().select("Map")
+    tree = ee.ImageCollection("MODIS/061/MOD44B").filterDate("2020-01-01", "2025-01-01").select("Percent_Tree_Cover").mean()
+    cands = {"etopo": elev, "etopo hillshade": ee.Terrain.hillshade(elev.multiply(10)), "viirs": lights.unmask(0),
+             "viirs raw mean": lights, "hycom mask": hycom.mask().unmask(0), "worldcover": wc.unmask(0), "wc mask": wc.mask().unmask(0),
+             "tree": tree.unmask(0), "hycom mean": hycom.multiply(0.001).unmask(-1)}
+    for w, h, top in ((2048, 1024, 256), (4096, 2048, 128), (720, 360, 180)):
+        dx = 360 / w
+        for name, img in cands.items():
+            for label, x0, tw in (("right edge", 180 - 256 * dx, 256), ("left edge", -180, 256), ("full row", -180, w)):
+                g = grid(tw, 16, x0, 90 - top * dx, dx, dx)
+                try:
+                    ee.data.computePixels({"expression": img.rename("v").toFloat(), "fileFormat": "NUMPY_NDARRAY", "grid": g})
+                    res = "ok"
+                except Exception as e:
+                    res = "ERROR " + str(e)[:90]
+                print(f"  {w}x{h} {name} {label}: {res}")

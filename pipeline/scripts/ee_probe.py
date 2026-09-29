@@ -28,6 +28,9 @@ def main() -> int:
     if "v2" in sys.argv[1:]:
         from ee_probe_v2 import probe_v2
         probe_v2()
+    elif "edge" in sys.argv[1:]:
+        from ee_probe_v2 import edge_probe
+        edge_probe()
     elif "v2b" in sys.argv[1:]:
         from ee_probe_v2 import probe_v2_round2
         probe_v2_round2()

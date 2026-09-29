@@ -8,7 +8,7 @@ on:
         description: "basic, v2 (datasets) or v2b (class method, HYCOM budget)"
         default: basic
         type: choice
-        options: [basic, v2, v2b]
+        options: [basic, v2, v2b, edge]
 jobs:
   probe:
     runs-on: ubuntu-latest
