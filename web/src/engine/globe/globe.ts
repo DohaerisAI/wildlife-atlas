@@ -57,7 +57,7 @@ const DOT_VERT = /* glsl */ `
       bool greenClass = cls == 1 || cls == 2 || cls == 3 || cls == 4 || cls == 9 || cls == 10;
       vec3 base = uPalette[clamp(cls, 0, 11)];
       // green classes brighten with the month's greenness and dim as they dry: the green wave and the brown season
-      float life = greenClass ? mix(0.35, 1.15, green) : 1.0;
+      float life = greenClass ? mix(0.22, 1.2, green) : 1.0;
       float canopy = cls == 1 ? mix(0.55, 1.0, l.g) : 1.0;
       float relief = mix(0.55, 1.35, l.b);
       vMat = base * life * canopy * relief;

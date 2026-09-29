@@ -55,6 +55,8 @@ export async function createLivingEarth(baseUrl: string, scene: Scene, mask: Lan
   const wind = new WindLayer({
     data: pack.climatePixels, atlasWidth: pack.climate.width, month: manifest.climate.month, layout: manifest.layout, u, v,
   }, s.windStreaks, reduced);
+  // an ImageBitmap reports width 0 once closed, so keep the size before freeing it
+  const climateWidth = pack.climate.width;
   pack.climate.close();
   const surface = surfaceFits(manifest, maxTexture) ? new SurfaceLayer(manifest, pack.surface, mask, s.materialFx && !reduced) : null;
   if (!surface) console.warn(`Living Earth surface atlas exceeds this GPU's ${maxTexture}px texture limit; water and snow are off`);
@@ -64,7 +66,7 @@ export async function createLivingEarth(baseUrl: string, scene: Scene, mask: Lan
   let world: WorldV2 | null = null;
   if (surface && v2) world = attachWorldV2(v2, surface.texture, scene, globe, mask, s, reduced);
 
-  const climatePx: MonthlyPixels = { data: pack.climatePixels, atlasWidth: pack.climate.width, month: manifest.climate.month, layout: manifest.layout };
+  const climatePx: MonthlyPixels = { data: pack.climatePixels, atlasWidth: climateWidth, month: manifest.climate.month, layout: manifest.layout };
   const surfacePx: MonthlyPixels | null = pack.surfacePixels
     ? { data: pack.surfacePixels, atlasWidth: manifest.surface.month[0] * manifest.layout.cols, month: manifest.surface.month, layout: manifest.layout }
     : null;

@@ -20,6 +20,7 @@ const VERT = /* glsl */ `
 const FRAG = /* glsl */ `
   uniform sampler2D uOcean; uniform vec2 uGrid; uniform vec2 uHalf; uniform vec2 uT0; uniform vec2 uT1; uniform float uW;
   uniform sampler2D uRelief; uniform vec3 uSun;
+  uniform sampler2D uLandTex; uniform vec3 uPalette[12]; uniform float uWash;
   uniform float uDepth; uniform float uBloom; uniform float uLights; uniform float uElevLo;
   uniform vec3 uShelf; uniform vec3 uBloomColor; uniform vec3 uLightColor;
   varying vec3 vPos; varying vec3 vNormal; varying vec3 vView;
@@ -35,19 +36,29 @@ const FRAG = /* glsl */ `
     float sea = step(elev, 0.0);
 
     // shelves (0 to -200 m) glow, the deep ocean stays dark
-    float shelf = sea * (1.0 - smoothstep(-200.0, -2500.0, elev)) * 0.16;
-    float chl = mix(tap(uT0, uv).b, tap(uT1, uv).b, uW);
-    float bloom = sea * smoothstep(0.25, 0.85, chl) * 0.55;
+    float shelf = sea * (1.0 - smoothstep(-120.0, -1500.0, elev)) * 0.07;
+    // byte 0 = no data; else log10 chlorophyll -2..1.5 over bytes 1..255. Blooms from ~0.5 mg/m3 (log -0.3).
+    vec2 c0 = vec2(tap(uT0, uv).b, tap(uT1, uv).b);
+    float chl = mix(c0.x, c0.y, uW);
+    float valid = step(0.5 / 255.0, min(c0.x, c0.y));
+    float logChl = -2.0 + (chl * 255.0 - 1.0) / 254.0 * 3.5;
+    float bloom = sea * valid * smoothstep(-0.3, 0.8, logChl) * 0.22;
     float night = smoothstep(0.08, -0.12, dot(p, uSun));
     float lights = (1.0 - sea) * night * pow(r.b, 1.6) * 0.9;
 
-    vec3 col = uShelf * shelf * uDepth + uBloomColor * bloom * uBloom + uLightColor * lights * uLights;
+    // faint class-coloured wash under the land dots, lit by the hillshade, so fields read from space
+    vec3 lt = texture2D(uLandTex, uv).rgb;
+    int cls = int(lt.r * 255.0 + 0.5);
+    vec3 wash = (1.0 - sea) * uPalette[clamp(cls, 0, 11)] * mix(0.5, 1.3, lt.b) * 0.13 * uWash;
+    vec3 col = wash + uShelf * shelf * uDepth + uBloomColor * bloom * uBloom + uLightColor * lights * uLights;
     gl_FragColor = vec4(col * limb, 1.0);
   }`;
 
 export interface OceanTextures {
   readonly ocean: Texture;
   readonly relief: Texture;
+  readonly land: Texture;
+  readonly palette: readonly Color[];
   readonly grid: readonly [number, number];
   readonly half: readonly [number, number];
   readonly layout: { readonly cols: number };
@@ -68,7 +79,8 @@ export class OceanLayer {
     this.u = {
       uOcean: { value: tex.ocean }, uRelief: { value: tex.relief }, uGrid: { value: new Vector2(...tex.grid) }, uHalf: { value: new Vector2(...tex.half) },
       uT0: { value: this.t0 }, uT1: { value: this.t1 }, uW: { value: 0 }, uSun: { value: this.sun }, uElevLo: { value: tex.elevLo },
-      uDepth: { value: 1 }, uBloom: { value: 1 }, uLights: { value: 1 },
+      uDepth: { value: 1 }, uBloom: { value: 1 }, uLights: { value: 1 }, uWash: { value: 1 },
+      uLandTex: { value: tex.land }, uPalette: { value: tex.palette },
       uShelf: { value: OCEAN_COLORS.shelf }, uBloomColor: { value: OCEAN_COLORS.bloom }, uLightColor: { value: OCEAN_COLORS.lights },
     };
     this.mesh = new Mesh(new SphereGeometry(1.0006, 160, 112), new ShaderMaterial({
@@ -77,9 +89,9 @@ export class OceanLayer {
     this.mesh.renderOrder = LAYER_ORDER.ocean;
   }
 
-  set(ch: { depth: number; bloom: number; lights: number }): void {
-    this.u.uDepth!.value = ch.depth; this.u.uBloom!.value = ch.bloom; this.u.uLights!.value = ch.lights;
-    this.mesh.visible = ch.depth + ch.bloom + ch.lights > 0.01;
+  set(ch: { depth: number; bloom: number; lights: number; wash: number }): void {
+    this.u.uDepth!.value = ch.depth; this.u.uBloom!.value = ch.bloom; this.u.uLights!.value = ch.lights; this.u.uWash!.value = ch.wash;
+    this.mesh.visible = ch.depth + ch.bloom + ch.lights + ch.wash > 0.01;
   }
 
   update(t: number, sunLng: number, sunLat: number): void {

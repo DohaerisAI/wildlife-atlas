@@ -5,6 +5,7 @@ import type { LandMask } from '../globe/mask';
 import { sampleMask } from '../globe/mask';
 import { LAYER_ORDER } from '../layers/order';
 import { CURRENT } from './motion';
+import { paletteArray } from './land-classes';
 import { OceanLayer } from './ocean-layer';
 import { decodeByte, monthBlend, tileOf } from './pack';
 import { currentsForSampler, decodeElevation, decodeFlagged, ELEVATION_LO, type LoadedPackV2 } from './pack-v2';
@@ -55,7 +56,8 @@ export function attachWorldV2(pack: LoadedPackV2, surfaceTexture: Texture, scene
   const landMaterials = { land, surface: surfaceTexture, grid: [m.layout.cols, m.layout.rows] as const, half: [0.5 / sw, 0.5 / sh] as const, ndvi: { lo: ndvi.lo, hi: ndvi.hi } };
   let landOn = false;
 
-  const ocean = new OceanLayer({ ocean: oceanTex, relief, grid: [m.layout.cols, m.layout.rows], half: [0.5 / ow, 0.5 / oh], layout: m.layout, elevLo: ELEVATION_LO });
+  const palette = Array.from({ length: 12 }, (_, i) => new Color(...(Array.from(paletteArray().slice(i * 3, i * 3 + 3)) as [number, number, number])));
+  const ocean = new OceanLayer({ ocean: oceanTex, relief, land, palette, grid: [m.layout.cols, m.layout.rows], half: [0.5 / ow, 0.5 / oh], layout: m.layout, elevLo: ELEVATION_LO });
   scene.add(ocean.mesh);
 
   const [cu, cv] = [m.ocean.channels[0]!, m.ocean.channels[1]!];
@@ -80,7 +82,7 @@ export function attachWorldV2(pack: LoadedPackV2, surfaceTexture: Texture, scene
       if (wantLand !== landOn) { landOn = wantLand; globe?.setLandMaterials(landOn ? landMaterials : null); }
       globe?.setSurfaceMonth(tileOf(m0, m.layout), tileOf(m1, m.layout), w);
       const sun = subsolarPoint(atMonth(new Date(), t));
-      ocean.set({ depth: ch.depth, bloom: ch.blooms, lights: ch.lights });
+      ocean.set({ depth: ch.depth, bloom: ch.blooms, lights: ch.lights, wash: ch.land });
       ocean.update(t, sun.lng, sun.lat);
       currents.setOpacity(ch.currents);
       currents.update(t, dt, camera);

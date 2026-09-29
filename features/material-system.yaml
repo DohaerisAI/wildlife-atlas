@@ -3,8 +3,10 @@ title: Living Earth materials
 layer: L3
 status: building
 summary: >-
-  First three of ten data-driven materials on the story globe, hologram look: seasonal surface water
-  (JRC), snow (MODIS) and wind streaks (ERA5), each switched by story channels and captioned with its dataset.
+  All ten Living Earth materials in the hologram look, on pack v2: land dots coloured by ESA WorldCover
+  class and the month's NDVI (forest, shrub, grass, crop, sand, snow, mangrove) lit by ETOPO1 relief, a
+  class wash, seasonal water and snow, ERA5 wind and HYCOM current streaks, MODIS-Aqua plankton blooms,
+  shelves from bathymetry, and VIIRS city lights on the night side of the real sun. Story globe uses v1.
 paths:
   - web/src/engine/living-earth/
   - web/src/experiences/story-page.ts
@@ -17,5 +19,9 @@ checks:
     file: src/engine/living-earth/materials.test.ts
   - suite: vitest
     file: src/stories/chiulon.test.ts
+  - suite: vitest
+    file: src/engine/living-earth/pack-v2.test.ts
+  - suite: vitest
+    file: src/engine/living-earth/land-sun.test.ts
 next: >-
   Earth look for the same three; tap-to-read values ("Wind 7.4 m/s, ERA5, October mean"); then greenness from the NDVI channel.

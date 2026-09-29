@@ -6,17 +6,17 @@ export interface LandClass { readonly name: string; readonly color: string; read
 
 export const LAND_CLASSES: readonly LandClass[] = [
   { name: 'Ocean', color: '#062033', strength: 0, green: false },
-  { name: 'Forest', color: '#73f0b8', strength: 1, green: true },
-  { name: 'Shrubland', color: '#a9d98a', strength: 0.75, green: true },
-  { name: 'Grassland', color: '#b9ef72', strength: 0.85, green: true },
-  { name: 'Cropland', color: '#d6e889', strength: 0.7, green: true },
-  { name: 'Built-up', color: '#d9f2ff', strength: 0.55, green: false },
-  { name: 'Bare ground', color: '#d7b279', strength: 0.55, green: false },
-  { name: 'Snow and ice', color: '#d9f2ff', strength: 0.8, green: false },
+  { name: 'Forest', color: '#2fe07e', strength: 1, green: true },
+  { name: 'Shrubland', color: '#9ccc5a', strength: 0.8, green: true },
+  { name: 'Grassland', color: '#c3f25e', strength: 0.9, green: true },
+  { name: 'Cropland', color: '#e8e070', strength: 0.8, green: true },
+  { name: 'Built-up', color: '#9fb4c6', strength: 0.5, green: false },
+  { name: 'Bare ground', color: '#e2b473', strength: 0.75, green: false },
+  { name: 'Snow and ice', color: '#eaf7ff', strength: 0.9, green: false },
   { name: 'Water', color: '#62d6f2', strength: 0.9, green: false },
-  { name: 'Wetland', color: '#62d6f2', strength: 0.8, green: true },
-  { name: 'Mangrove', color: '#5fe0c4', strength: 0.9, green: true },
-  { name: 'Moss and lichen', color: '#9fc9b0', strength: 0.5, green: false },
+  { name: 'Wetland', color: '#46d6c8', strength: 0.85, green: true },
+  { name: 'Mangrove', color: '#1fd6a4', strength: 0.95, green: true },
+  { name: 'Moss and lichen', color: '#8fb8a4', strength: 0.55, green: false },
 ];
 
 /** Palette as a flat RGB float array for a shader uniform (vec3 per class). */
