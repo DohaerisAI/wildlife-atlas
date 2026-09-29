@@ -1,6 +1,7 @@
 /** Species profile content (L2 product) built by `atlas profiles` from Wikidata, Wikipedia and Commons. */
 export interface Range { readonly min: number; readonly max: number; readonly unit: 'cm' | 'g' }
-export interface ProfileImage { readonly url: string; readonly page: string; readonly license: string; readonly artist: string; readonly caption: string }
+export interface ProfileImage { readonly url: string; readonly thumb?: string; readonly page: string; readonly license: string; readonly artist: string; readonly caption: string }
+export interface Taxon { readonly scientific: string; readonly name?: string }
 export interface SpeciesProfile {
   readonly scientific: string;
   readonly name: string;
@@ -11,6 +12,8 @@ export interface SpeciesProfile {
   readonly facts: { readonly wingspan?: Range; readonly length?: Range; readonly mass?: Range; readonly status?: { readonly code: string; readonly label: string } };
   readonly sources: readonly { readonly label: string; readonly url: string }[];
   readonly licence_note: string;
+  readonly taxonomy?: { readonly genus?: Taxon; readonly family?: Taxon; readonly order?: Taxon; readonly class?: Taxon };
+  readonly other_names?: readonly string[];
 }
 
 export const profileSlug = (scientific: string) => scientific.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');

@@ -1,4 +1,4 @@
-import { formatRange, weightComparison, type ProfileImage, type SpeciesProfile } from '../../species/profile';
+import { formatRange, weightComparison, type ProfileImage, type SpeciesProfile, type Taxon } from '../../species/profile';
 import type { Meta, SpeciesIndexEntry } from '../../types';
 import { h, replaceChildren } from '../../ui/dom';
 import type { SpeciesSummary } from '../species-summary';
@@ -42,6 +42,18 @@ function gallery(name: string, images: readonly ProfileImage[]): HTMLElement {
   img.addEventListener('error', () => fig.replaceChildren(h('p', { class: 'na' }, 'Photo could not load from Wikimedia Commons.'), credit));
   show(0);
   return fig;
+}
+
+function identity(p: SpeciesProfile | null, entry: SpeciesIndexEntry): HTMLElement {
+  const t = p?.taxonomy;
+  const taxon = (x: Taxon | undefined) => (x ? (x.name ? `${x.name} (${x.scientific})` : x.scientific) : null);
+  const rows: [string, string | null][] = [
+    ['Class', taxon(t?.class)], ['Order', taxon(t?.order)], ['Family', taxon(t?.family) ?? entry.family ?? null], ['Genus', taxon(t?.genus)],
+  ];
+  const known = rows.filter((r): r is [string, string] => r[1] !== null);
+  return h('div', {},
+    known.length ? h('dl', { class: 'facts taxa' }, ...known.map(([k, v]) => h('div', { class: 'fact' }, h('dt', {}, k), h('dd', {}, v)))) : notAvailable('Taxonomy: not available from current sources'),
+    p?.other_names?.length ? h('p', { class: 'sv-line' }, 'Also called ', p.other_names.join(', '), '.') : null);
 }
 
 function glance(p: SpeciesProfile | null, s: SpeciesSummary | null): HTMLElement {
@@ -121,6 +133,7 @@ export function speciesView(d: SpeciesViewData, handlers: SpeciesViewHandlers): 
       h('p', { class: 'sv-sci' }, d.entry.sci),
       p?.description ? h('p', { class: 'sv-desc' }, p.description) : null),
     section('At a glance', glance(p, d.summary)),
+    section('Identity', identity(p, d.entry)),
     section(`Seasonal world · ${monthName(d.month)}`, seasonal(d.summary, d.month, handlers.onMonth)),
     section('Journey', journey(d.summary, d.month, handlers.onJourney)),
     section('Conservation',
