@@ -1,11 +1,11 @@
 id: earth-renderer
-title: Realistic Earth (Cesium)
+title: Earth look
 layer: L3
-status: building
+status: planned
 summary: >-
-  Satellite imagery, seasonal sun, terrain with the ion token, draped cells and particles.
-paths:
-  - web/src/views/real/
+  The Earth look (sunlight, terminator, warm grade, serif type) on our own engine, sharing the Living Earth
+  materials. The earlier Cesium view was removed with atlas v1.
+paths: []
 checks: []
 next: >-
-  No automated checks yet.
+  After the pack v2 land materials: an Earth palette for the same shaders.
