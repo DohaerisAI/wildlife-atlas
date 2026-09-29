@@ -241,3 +241,22 @@ def edge_probe():
                 except Exception as e:
                     res = "ERROR " + str(e)[:90]
                 print(f"  {w}x{h} {name} {label}: {res}")
+
+
+def edge_probe2():
+    """Reproduce the relief pull that failed: full-width 2048 x 256 tiles of ETOPO + VIIRS, and variants."""
+    elev = ee.Image("NOAA/NGDC/ETOPO1").select("ice_surface").toFloat().rename("elev")
+    lights = ee.ImageCollection("NOAA/VIIRS/DNB/ANNUAL_V22").filterDate("2022-01-01", "2025-01-01").select("average_masked").mean().rename("lights")
+    base = ee.Image.cat(elev, lights.unmask(0))
+    exprs = {"relief as built": ee.Image.cat([base.select(b).unmask(-1e6).toFloat() for b in ("elev", "lights")]),
+             "etopo only": elev.unmask(-1e6), "lights only": lights.unmask(0).unmask(-1e6).toFloat()}
+    d = 360 / 2048
+    for name, img in exprs.items():
+        for y, h in ((0, 256), (0, 128), (256, 256), (512, 256), (768, 256), (0, 16), (240, 16)):
+            g = grid(2048, h, -180, 90 - y * d, d, d)
+            try:
+                ee.data.computePixels({"expression": img, "fileFormat": "NUMPY_NDARRAY", "grid": g})
+                res = "ok"
+            except Exception as e:
+                res = "ERROR " + str(e)[:100]
+            print(f"  edge2 {name} rows {y}+{h}: {res}")
