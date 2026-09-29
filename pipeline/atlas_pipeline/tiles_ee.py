@@ -16,6 +16,7 @@ from . import tile_math as tm
 from .living_earth_v2 import land_class
 from .living_earth_v2_ee import _OUTSIDE, SENTINEL, _fetch
 from .tile_product import Mosaic
+from .tiles_ee_fine import FINE_FROM_LEVEL, rgb_bytes, s2_rgb_image, s2_ndvi_image, shade_image
 
 log = logging.getLogger(__name__)
 BANDS = ["codes", "share", "sea", "tree", "elev", "ice"]
@@ -86,46 +87,65 @@ def shard_tiles(shard: tm.Tile, level: int, land_mask: np.ndarray) -> list[tm.Ti
     return [t for t in tm.descendants(shard, level) if (t[1], t[2]) in land]
 
 
-def pull_shard(ee, shard: tm.Tile, level: int, land_mask: np.ndarray, workers: int = 8, ndvi: bool = True) -> Mosaic:
-    exact = level >= EXACT_FROM_LEVEL
-    todo = shard_tiles(shard, level, land_mask)
-    n = tm.TILE_PX * 2 ** (level - shard[0])
+def _pull_tiles(ee, image, bands: list[str], todo: list[tm.Tile], level: int, workers: int, what: str, fallback=None):
+    """{tile: (256, 256, bands)} for every tile Earth Engine can project; tiles it can't are left out."""
     width, height = tm.TILE_PX * tm.cols(level), tm.TILE_PX * tm.rows(level)
-    ox, oy = shard[1] * n, shard[2] * n  # shard origin in the level's global pixel grid
-    cls = np.zeros((n, n), dtype=np.uint8)
-    tree = np.full((n, n), np.nan)
-    elev = np.full((n, n), np.nan)
-    expr = land_image(ee, level, exact)
-    polar = polar_image(ee, level, exact)
-    log.info("shard %s: %d land tiles at level %d (exact class: %s)", shard, len(todo), level, exact)
 
     def one(t: tm.Tile):
         piece = (t[1] * tm.TILE_PX, t[2] * tm.TILE_PX, tm.TILE_PX, tm.TILE_PX)
-        for image in (expr, polar):
+        for im in (image, fallback) if fallback is not None else (image,):
             try:
-                return t, _call(ee, lambda: _fetch(ee, image, width, height, piece, BANDS), f"tile {t}")
+                return t, _call(ee, lambda: _fetch(ee, im, width, height, piece, bands), f"{what} {t}")
             except ee.EEException as e:
                 if _OUTSIDE not in str(e):
                     raise
-        log.warning("tile %s: no source can be projected here; skipped", t)
+        log.warning("%s %s: no source can be projected here; skipped", what, t)
         return t, None
 
+    out = {}
     with ThreadPoolExecutor(max_workers=workers) as pool:
         for done, (t, a) in enumerate(pool.map(one, todo), 1):
-            if a is None:
-                continue
-            x, y = t[1] * tm.TILE_PX - ox, t[2] * tm.TILE_PX - oy
-            codes, share, sea, tr, el, ice = (a[..., i] for i in range(len(BANDS)))
-            cls[y:y + tm.TILE_PX, x:x + tm.TILE_PX] = land_class(codes, share, sea, ice)
-            tree[y:y + tm.TILE_PX, x:x + tm.TILE_PX] = tr
-            elev[y:y + tm.TILE_PX, x:x + tm.TILE_PX] = el
+            if a is not None:
+                out[t] = a
             if done % 50 == 0 or done == len(todo):
-                log.info("shard %s: %d/%d tiles", shard, done, len(todo))
-    months = pull_ndvi(ee, shard, level, todo, workers) if ndvi else None
-    return Mosaic(shard, level, cls, tree, elev, months)
+                log.info("%s: %d/%d tiles", what, done, len(todo))
+    return out
 
 
-def pull_ndvi(ee, shard: tm.Tile, level: int, land: list[tm.Tile], workers: int) -> np.ndarray:
+def pull_shard(ee, shard: tm.Tile, level: int, land_mask: np.ndarray, workers: int = 8, ndvi: bool = True,
+               keep=None) -> Mosaic:
+    """Pull one shard at `level`. `keep(tile)` limits it to some tiles (validation sites). From level 9 the town-scale
+    sources are used: hillshade at DEM resolution, Sentinel-2 monthly NDVI and a Sentinel-2 true-colour mosaic."""
+    exact = level >= EXACT_FROM_LEVEL
+    fine = level >= FINE_FROM_LEVEL
+    todo = [t for t in shard_tiles(shard, level, land_mask) if keep is None or keep(t)]
+    n = tm.TILE_PX * 2 ** (level - shard[0])
+    ox, oy = shard[1] * n, shard[2] * n  # shard origin in the level's global pixel grid
+    cls = np.zeros((n, n), dtype=np.uint8)
+    tree, elev = np.full((n, n), np.nan), np.full((n, n), np.nan)
+    shade = np.full((n, n), np.nan) if fine else None
+    rgb = np.zeros((n, n, 3), dtype=np.uint8) if fine else None
+    log.info("shard %s: %d land tiles at level %d (exact class: %s, town sources: %s)", shard, len(todo), level, exact, fine)
+    bands = BANDS + (["shade"] if fine else [])
+    image = ee.Image.cat([land_image(ee, level, exact), shade_image(ee, level).unmask(SENTINEL)]) if fine else land_image(ee, level, exact)
+    polar = ee.Image.cat([polar_image(ee, level, exact), shade_image(ee, level).unmask(SENTINEL)]) if fine else polar_image(ee, level, exact)
+    at = lambda t: (t[2] * tm.TILE_PX - oy, t[1] * tm.TILE_PX - ox)  # noqa: E731
+    for t, a in _pull_tiles(ee, image, bands, todo, level, workers, f"shard {shard} land", polar).items():
+        y, x = at(t)
+        sl = (slice(y, y + tm.TILE_PX), slice(x, x + tm.TILE_PX))
+        cls[sl] = land_class(a[..., 0], a[..., 1], a[..., 2], a[..., 5])
+        tree[sl], elev[sl] = a[..., 3], a[..., 4]
+        if shade is not None:
+            shade[sl] = a[..., 6]
+    if rgb is not None:
+        for t, a in _pull_tiles(ee, s2_rgb_image(ee, level), ["r", "g", "b"], todo, level, workers, f"shard {shard} rgb").items():
+            y, x = at(t)
+            rgb[y:y + tm.TILE_PX, x:x + tm.TILE_PX] = rgb_bytes(a)
+    months = pull_ndvi(ee, shard, level, todo, workers, s2_ndvi_image(ee, level) if fine else None) if ndvi else None
+    return Mosaic(shard, level, cls, tree, elev, months, shade=shade, rgb=rgb)
+
+
+def pull_ndvi(ee, shard: tm.Tile, level: int, land: list[tm.Tile], workers: int, image=None) -> np.ndarray:
     """(12, n/4, n/4) NDVI over the shard at 64 px per finest tile, pulled in 256 px pieces that touch land."""
     group = max(shard[0], level - 2)  # a group tile is 256 px on the NDVI grid
     per = 2 ** (level - group)  # finest tiles per group side
@@ -134,7 +154,7 @@ def pull_ndvi(ee, shard: tm.Tile, level: int, land: list[tm.Tile], workers: int)
     width, height = 64 * tm.cols(level), 64 * tm.rows(level)
     groups = sorted({tm.ancestor(t, group) for t in land})
     side = 64 * per
-    expr = ndvi_image(ee)
+    expr = image if image is not None else ndvi_image(ee)
     bands = [f"m{i}" for i in range(1, 13)]
     g0 = tm.descendants(shard, group)[0]
 

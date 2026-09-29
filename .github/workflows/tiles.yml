@@ -9,13 +9,19 @@ on:
   workflow_dispatch:
     inputs:
       level:
-        description: "Finest level (5-8; 8 = ~300 m pixels)"
+        description: "Finest level (5-11; 8 = ~300 m, 11 = ~75 m pixels; 9+ adds Sentinel-2 NDVI and true colour)"
         default: "6"
         type: choice
-        options: ["5", "6", "7", "8"]
+        options: ["5", "6", "7", "8", "9", "10", "11"]
       bbox:
         description: "Region W,S,E,N (default whole world; India = 66,5,99,38)"
         default: "-180,-90,180,90"
+      sites:
+        description: "Validation sites 'lng,lat;lng,lat' (3x3 level-9 tiles each, levels 9+ only); overrides bbox"
+        default: ""
+      shard_level:
+        description: "Shard size: 3 (22.5 deg, world runs) or 6 (2.8 deg, fine levels and sites)"
+        default: "3"
       shards:
         description: "Only these shards, comma-separated z/x/y (e.g. 3/0/0,3/1/0); empty = every land shard in bbox"
         default: ""
@@ -34,7 +40,7 @@ jobs:
         working-directory: pipeline
         run: |
           uv sync --quiet
-          shards="$(uv run python scripts/tiles_ci.py plan --bbox='${{ inputs.bbox }}' --only='${{ inputs.shards }}')"
+          shards="$(uv run python scripts/tiles_ci.py plan --bbox='${{ inputs.bbox }}' --only='${{ inputs.shards }}' --sites='${{ inputs.sites }}' --shard-level '${{ inputs.shard_level }}')"
           echo "shards=$shards" >> "$GITHUB_OUTPUT"
   shard:
     needs: plan
@@ -57,7 +63,7 @@ jobs:
           EE_SERVICE_ACCOUNT_KEY: ${{ secrets.EE_SERVICE_ACCOUNT_KEY }}
         run: |
           uv sync --quiet
-          uv run --with earthengine-api python scripts/tiles_ci.py shard ../tiles --shard '${{ matrix.shard }}' --level '${{ inputs.level }}' --workers '${{ inputs.workers }}'
+          uv run --with earthengine-api python scripts/tiles_ci.py shard ../tiles --shard '${{ matrix.shard }}' --level '${{ inputs.level }}' --workers '${{ inputs.workers }}' --sites='${{ inputs.sites }}'
       - uses: actions/upload-artifact@v7
         with:
           name: tiles-shard-${{ steps.name.outputs.id }}
@@ -81,7 +87,7 @@ jobs:
         working-directory: pipeline
         run: |
           uv sync --quiet
-          uv run python scripts/tiles_ci.py merge ../detail --level '${{ inputs.level }}' --bbox='${{ inputs.bbox }}'
+          uv run python scripts/tiles_ci.py merge ../detail --level '${{ inputs.level }}' --bbox='${{ inputs.bbox }}' --name "${{ inputs.sites != '' && 'sites' || 'detail' }}"
           du -sh ../detail; find ../detail -name '*.png' | wc -l
       - uses: actions/upload-artifact@v7
         with:

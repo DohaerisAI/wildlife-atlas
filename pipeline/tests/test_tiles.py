@@ -175,3 +175,38 @@ def test_rate_limits_are_retried():
     assert retryable("Too Many Requests: Request was rejected because the concurrency limit was exceeded.")
     assert retryable("Computation timed out.")
     assert not retryable("Image.select: Pattern 'foo' did not match any bands.")
+
+
+def test_site_boxes_hold_whole_level_9_tiles():
+    boxes = tm.site_boxes("73.856,18.52; 34.83,-2.33", 9)
+    assert len(boxes) == 2
+    w, s, e, n = boxes[0]
+    assert w < 73.856 < e and s < 18.52 < n and e - w == pytest.approx(3 * tm.span(9))
+    pune11 = tm.tile_at(73.856, 18.52, 11)
+    assert tm.inside_any(pune11, boxes) and tm.inside_any(tm.tile_at(73.856, 18.52, 9), boxes)
+    assert not tm.inside_any(tm.tile_at(73.856, 18.52, 7), boxes)  # a level-7 tile is bigger than the box
+    assert not tm.inside_any(tm.tile_at(0, 0, 11), boxes)
+
+
+def test_rgb_bytes_display_curve():
+    from atlas_pipeline.tiles_ee_fine import rgb_bytes
+    b = rgb_bytes(np.array([[[0.0, 0.3, np.nan], [0.075, 1.0, 0.03]]]))
+    assert b[0, 0].tolist()[:2] == [0, 255] and b[0, 0, 2] == 0
+    assert 100 < b[0, 1, 0] < 140 and b[0, 1, 1] == 255
+
+
+def test_town_levels_use_dem_shade_and_write_true_colour(tmp_path):
+    base = _mosaic()
+    n = base.cls.shape[0]
+    shade = np.full((n, n), 90.0)
+    rgb = np.full((n, n, 3), 120, np.uint8)
+    m = Mosaic(base.shard, base.level, base.cls, base.tree, base.elev, base.ndvi, shade=shade, rgb=rgb)
+    write_shard(tmp_path, m, 4)
+    land = np.asarray(Image.open(tile_path(tmp_path, "land", (5, 44, 12))))
+    assert land[10, 10, 2] == 90  # shade taken as given, not recomputed from the ramp
+    jpg = np.asarray(Image.open(tile_path(tmp_path, "rgb", (4, 22, 6))))
+    assert jpg.shape == (256, 256, 3) and abs(int(jpg[5, 5, 0]) - 120) <= 3
+    with pytest.raises(ValueError):
+        Mosaic(base.shard, base.level, base.cls, base.tree, base.elev, base.ndvi, rgb=np.zeros((2, 2, 3), np.uint8))
+    mf = manifest("sites", (9, 11), {9: {(1, 1)}}, ndvi=True, rgb={"source": "S2", "license": "Copernicus"})
+    assert mf["rgb"]["path"].endswith(".jpg") and mf["rgb"]["license"]

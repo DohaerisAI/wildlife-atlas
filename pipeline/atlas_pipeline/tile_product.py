@@ -37,6 +37,8 @@ class Mosaic:
     tree: np.ndarray
     elev: np.ndarray
     ndvi: np.ndarray | None
+    shade: np.ndarray | None = None  # hillshade bytes (0..255) averaged from the DEM's own grid (town levels)
+    rgb: np.ndarray | None = None  # (n, n, 3) Sentinel-2 true colour bytes, 0 = no clear scene (town levels)
 
     def __post_init__(self):
         n = PX * 2 ** (self.level - self.shard[0])
@@ -44,6 +46,16 @@ class Mosaic:
             raise ValueError(f"mosaic arrays must be {n} x {n}")
         if self.ndvi is not None and self.ndvi.shape != (12, n // 4, n // 4):
             raise ValueError(f"ndvi must be (12, {n // 4}, {n // 4})")
+        if self.shade is not None and self.shade.shape != (n, n):
+            raise ValueError(f"shade must be {n} x {n}")
+        if self.rgb is not None and self.rgb.shape != (n, n, 3):
+            raise ValueError(f"rgb must be {n} x {n} x 3")
+
+
+def save_jpg(arr: np.ndarray, path: Path, quality: int = 85) -> int:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    Image.fromarray(arr, "RGB").save(path, quality=quality, optimize=True)
+    return path.stat().st_size
 
 
 def save_png(arr: np.ndarray, path: Path) -> int:
@@ -54,17 +66,21 @@ def save_png(arr: np.ndarray, path: Path) -> int:
 
 def tile_path(root: Path, kind: str, tile: tm.Tile) -> Path:
     z, x, y = tile
-    return root / kind / str(z) / str(x) / f"{y}.png"
+    return root / kind / str(z) / str(x) / f"{y}.{'jpg' if kind == 'rgb' else 'png'}"
 
 
 def _cut(a: np.ndarray, i: int, j: int, size: int) -> np.ndarray:
     return a[j * size:(j + 1) * size, i * size:(i + 1) * size]
 
 
-def write_level(root: Path, shard: tm.Tile, level: int, cls, tree, elev, ndvi) -> list[tuple[tm.Tile, int]]:
-    """Write every land-bearing tile of `shard` at `level` from shard-wide arrays at that level."""
+def write_level(root: Path, shard: tm.Tile, level: int, cls, tree, elev, ndvi, shade=None, truecolor=None) -> list[tuple[tm.Tile, int]]:
+    """Write every land-bearing tile of `shard` at `level` from shard-wide arrays at that level. Hillshade comes from
+    `shade` (averaged from the DEM's own grid) when given, else it is computed from the averaged `elev`."""
     north = tm.bounds(shard)[3]
-    shade = hillshade(elev, tm.pixel_deg(level), north, exaggeration(level))
+    if shade is None:
+        shade = hillshade(elev, tm.pixel_deg(level), north, exaggeration(level))
+    else:
+        shade = np.clip(np.round(np.nan_to_num(shade, nan=181.0)), 0, 255).astype(np.uint8)
     rgb = land_rgb(cls, to_byte(np.nan_to_num(tree, nan=0.0), LAND[1]), shade)
     n = 2 ** (level - shard[0])
     ndvi_px = ndvi.shape[1] // n if ndvi is not None else 0
@@ -81,6 +97,8 @@ def write_level(root: Path, shard: tm.Tile, level: int, cls, tree, elev, ndvi) -
                 if ndvi_px != NDVI_PX:
                     months = np.stack([resample_bilinear(m, NDVI_PX, NDVI_PX) for m in months])
                 size += save_png(ndvi_atlas(months), tile_path(root, "ndvi", tile))
+            if truecolor is not None:
+                size += save_jpg(np.ascontiguousarray(_cut(truecolor, i, j, PX)), tile_path(root, "rgb", tile))
             written.append((tile, size))
     return written
 
@@ -89,14 +107,16 @@ def write_shard(root: Path, mosaic: Mosaic, min_level: int) -> list[tuple[tm.Til
     """Write the shard's pyramid from its finest level up to `min_level`, halving each step."""
     if not mosaic.shard[0] <= min_level <= mosaic.level:
         raise ValueError("min_level must lie between the shard level and the mosaic level")
-    cls, tree, elev, ndvi = mosaic.cls, mosaic.tree, mosaic.elev, mosaic.ndvi
+    cls, tree, elev, ndvi, shade, rgb = mosaic.cls, mosaic.tree, mosaic.elev, mosaic.ndvi, mosaic.shade, mosaic.rgb
     written = []
     for level in range(mosaic.level, min_level - 1, -1):
         if level < mosaic.level:
             cls, tree, elev = block_mode(cls, 2), block_mean(tree, 2), block_mean(elev, 2)
+            shade = block_mean(shade, 2) if shade is not None else None
+            rgb = np.stack([np.round(block_mean(rgb[..., c].astype(float), 2)) for c in range(3)], axis=-1).astype(np.uint8) if rgb is not None else None
             if ndvi is not None and ndvi.shape[1] // 2 ** (level - mosaic.shard[0]) > NDVI_PX:
                 ndvi = np.stack([block_mean(m, 2) for m in ndvi])
-        written += write_level(root, mosaic.shard, level, cls, tree, elev, ndvi)
+        written += write_level(root, mosaic.shard, level, cls, tree, elev, ndvi, shade, rgb)
     return written
 
 
@@ -147,7 +167,7 @@ DETAIL_SOURCES = {
 
 
 def manifest(name: str, levels: tuple[int, int], present: dict[int, set[tuple[int, int]]], ndvi: bool,
-             sources: dict[str, str] | None = None, bounds: tm.Bounds = (-180.0, -90.0, 180.0, 90.0)) -> dict:
+             sources: dict[str, str] | None = None, bounds: tm.Bounds = (-180.0, -90.0, 180.0, 90.0), rgb: dict | None = None) -> dict:
     channels = []
     for c in LAND:
         extra = {"encoding": "byte is the class index"} if c.name == "class" else (
@@ -166,8 +186,9 @@ def manifest(name: str, levels: tuple[int, int], present: dict[int, set[tuple[in
         "land": {"path": "land/{z}/{x}/{y}.png", "channels": channels},
         "ndvi": {"path": "ndvi/{z}/{x}/{y}.png", "layout": {"cols": 4, "rows": 3, "frame": [NDVI_PX, NDVI_PX], "order": "Jan..Dec row-major"},
                  "channel": {"name": NDVI.name, "lo": NDVI.lo, "hi": NDVI.hi, "unit": NDVI.unit,
-                             "source": "MODIS/061/MOD13A2 NDVI, 2015-2024 mean per calendar month",
+                             "source": (sources or {}).get("ndvi", "MODIS/061/MOD13A2 NDVI, 2015-2024 mean per calendar month"),
                              "encoding": "0 = no data; b in 1..255 decodes as lo + (b-1)/254*(hi-lo)"}} if ndvi else None,
+        "rgb": ({"path": "rgb/{z}/{x}/{y}.jpg", "format": "jpeg", **rgb} if rgb else None),
         "index": {str(z): tm.encode_index(z, present.get(z, set())) for z in range(lo, hi + 1)},
         "counts": {str(z): len(present.get(z, set())) for z in range(lo, hi + 1)},
         "classes": [{"index": i, "name": n, "label": label, "worldcover": code} for i, n, label, code in LAND_CLASSES],

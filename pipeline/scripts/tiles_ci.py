@@ -17,9 +17,12 @@ from PIL import Image
 
 from atlas_pipeline import tile_math as tm
 from atlas_pipeline.tile_product import DETAIL_SOURCES, manifest, scan, write_manifest, write_shard
+from atlas_pipeline.tiles_ee_fine import FINE_FROM_LEVEL
+from atlas_pipeline.tiles_ee_fine import SOURCES as FINE
 
 PACK_LAND = Path(__file__).resolve().parents[2] / "web/public/content/living-earth/v2/land.png"
 MIN_LEVEL = 5
+SITE_LEVEL = 9
 
 
 def land_mask() -> np.ndarray:
@@ -32,7 +35,12 @@ def bbox(text: str) -> tm.Bounds:
 
 
 def cmd_plan(args) -> int:
-    shards = [f"{z}/{x}/{y}" for z, x, y in tm.plan_shards(land_mask(), bbox(args.bbox))]
+    if args.sites.strip():
+        shards = sorted({"/".join(map(str, t)) for b in tm.site_boxes(args.sites, SITE_LEVEL) for t in tm.tiles_in_bbox(args.shard_level, b)})
+        print(json.dumps(shards))
+        logging.info("%d site shards", len(shards))
+        return 0
+    shards = [f"{z}/{x}/{y}" for z, x, y in tm.plan_shards(land_mask(), bbox(args.bbox), args.shard_level)]
     if args.only.strip():
         only = {"/".join(map(str, tm.parse_tile(s))) for s in args.only.split(",") if s.strip()}
         shards = [s for s in shards if s in only]
@@ -50,8 +58,11 @@ def cmd_shard(args) -> int:
     ee.Initialize(ee.ServiceAccountCredentials(json.loads(key)["client_email"], key_data=key), project=os.environ["EE_PROJECT"],
                   opt_url="https://earthengine-highvolume.googleapis.com")
     shard = tm.parse_tile(args.shard)
-    mosaic = pull_shard(ee, shard, args.level, land_mask(), workers=args.workers)
-    written = write_shard(Path(args.out), mosaic, MIN_LEVEL)
+    boxes = tm.site_boxes(args.sites, SITE_LEVEL) if args.sites.strip() else None
+    keep = (lambda t: tm.inside_any(t, boxes)) if boxes else None
+    mosaic = pull_shard(ee, shard, args.level, land_mask(), workers=args.workers, keep=keep)
+    # site runs write only whole site tiles (level 9 and finer); world runs write the full pyramid from level 5
+    written = write_shard(Path(args.out), mosaic, max(shard[0], SITE_LEVEL if boxes else MIN_LEVEL))
     size = sum(s for _, s in written)
     summary = {"shard": args.shard, "level": args.level, "tiles": len(written), "bytes": size}
     (Path(args.out) / f"shard-{shard[0]}-{shard[1]}-{shard[2]}.json").write_text(json.dumps(summary))
@@ -62,7 +73,11 @@ def cmd_shard(args) -> int:
 def cmd_merge(args) -> int:
     root = Path(args.dir)
     present = scan(root)
-    m = manifest("detail", (MIN_LEVEL, args.level), present, ndvi=True, sources=DETAIL_SOURCES, bounds=bbox(args.bbox))
+    lo = min(present) if present else MIN_LEVEL
+    fine = args.level >= FINE_FROM_LEVEL
+    sources = {**DETAIL_SOURCES, **({"hillshade": FINE["shade"], "ndvi": FINE["ndvi"]} if fine else {})}
+    rgb = {"source": FINE["rgb"], "license": FINE["rgb_license"]} if fine and (root / "rgb").exists() else None
+    m = manifest(args.name, (lo, args.level), present, ndvi=True, sources=sources, bounds=bbox(args.bbox), rgb=rgb)
     write_manifest(root, m)
     logging.info("manifest: %s", m["counts"])
     return 0
@@ -75,17 +90,21 @@ def main() -> int:
     p = sub.add_parser("plan")
     p.add_argument("--bbox", default="-180,-90,180,90")
     p.add_argument("--only", default="", help="comma-separated shards to keep")
+    p.add_argument("--sites", default="", help="'lng,lat;lng,lat': validation sites instead of the bbox")
+    p.add_argument("--shard-level", type=int, default=3)
     p.set_defaults(fn=cmd_plan)
     s = sub.add_parser("shard")
     s.add_argument("out")
     s.add_argument("--shard", required=True)
     s.add_argument("--level", type=int, default=8)
     s.add_argument("--workers", type=int, default=8)
+    s.add_argument("--sites", default="")
     s.set_defaults(fn=cmd_shard)
     g = sub.add_parser("merge")
     g.add_argument("dir")
     g.add_argument("--level", type=int, default=8)
     g.add_argument("--bbox", default="-180,-90,180,90")
+    g.add_argument("--name", default="detail")
     g.set_defaults(fn=cmd_merge)
     args = ap.parse_args()
     return args.fn(args)

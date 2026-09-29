@@ -149,3 +149,20 @@ def parse_tile(text: str) -> Tile:
     if len(parts) != 3:
         raise ValueError(f"tile must be z/x/y, got {text!r}")
     return check((int(parts[0]), int(parts[1]), int(parts[2])))
+
+
+def site_boxes(text: str, level: int = 9, radius: int = 1) -> list[Bounds]:
+    """'lng,lat;lng,lat' to boxes of (2r+1)^2 level-9 tiles around each point (whole tiles, so levels 9+ are complete)."""
+    boxes = []
+    for part in filter(None, (p.strip() for p in text.split(";"))):
+        lng, lat = (float(v) for v in part.split(","))
+        _, x, y = tile_at(lng, lat, level)
+        w, _, _, n = bounds((level, max(0, x - radius), max(0, y - radius)))
+        _, s, e, _ = bounds((level, min(cols(level) - 1, x + radius), min(rows(level) - 1, y + radius)))
+        boxes.append((w, s, e, n))
+    return boxes
+
+
+def inside_any(t: Tile, boxes: list[Bounds]) -> bool:
+    w, s, e, n = bounds(t)
+    return any(w >= bw - 1e-9 and e <= be + 1e-9 and s >= bs - 1e-9 and n <= bn + 1e-9 for bw, bs, be, bn in boxes)
