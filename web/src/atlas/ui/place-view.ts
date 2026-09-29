@@ -24,6 +24,7 @@ export interface PlaceViewData {
 export interface PlaceViewHandlers {
   onSpecies(key: string): void;
   onMonth(month: number): void;
+  onShowMap(): void;
 }
 
 const PREVIEW = 6;
@@ -104,5 +105,5 @@ export function placeView(d: PlaceViewData, handlers: PlaceViewHandlers): HTMLEl
       h('p', { class: 'links' },
         h('a', { class: 'btn-quiet', href: 'https://ebird.org/submit', target: '_blank', rel: 'noopener' }, 'Submit to eBird'),
         h('a', { class: 'btn-quiet', href: 'https://www.inaturalist.org/observations/upload', target: '_blank', rel: 'noopener' }, 'Upload to iNaturalist'),
-        place.cellId ? h('a', { class: 'btn-quiet', href: `map.html?cell=${encodeURIComponent(place.cellId)}&m=${d.month + 1}` }, 'Open the detailed map') : null)));
+        h('button', { class: 'btn-quiet', type: 'button', onclick: handlers.onShowMap }, 'Show on the street map'))));
 }

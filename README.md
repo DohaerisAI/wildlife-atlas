@@ -21,7 +21,6 @@ The demo bundle is invented, and the app shows a red banner while it is loaded.
 |---|---|---|
 | `/` or `/?view=holo` | Hologram globe with particle flows and stories | three.js |
 | `/?view=real` | Realistic Earth: satellite imagery, seasonal sunlight, cinematic tilt | CesiumJS |
-| `/map.html` | Detailed map with per-square species lists (you land here after "Dive in") | MapLibre |
 
 Both globe views share one scene engine (`src/scene/`: clock, particle flow, story director). Each renderer
 lives in `src/views/`. Particles show a share of a species' recorded presence, never individual animals.

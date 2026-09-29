@@ -8,7 +8,7 @@ const $ = (id: string) => {
   return el;
 };
 
-startAtlas({ stage: $('stage'), pins: $('pins'), ui: $('ui'), banner: $('demo-banner'), env: $('env-note') }).catch((err) => {
+startAtlas({ stage: $('stage'), pins: $('pins'), ui: $('ui'), banner: $('demo-banner'), env: $('env-note'), map: $('map') }).catch((err) => {
   console.error('Atlas failed to start', err);
   $('ui').innerHTML = '<p class="nojs">The atlas could not start. It needs WebGL and the atlas data (run <code>atlas build</code>).</p>';
 });

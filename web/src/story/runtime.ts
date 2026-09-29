@@ -53,7 +53,7 @@ function chapterEl(c: Chapter, i: number, last: boolean): HTMLElement {
     const cta = Object.assign(document.createElement('div'), { className: 'cta' });
     cta.append(
       Object.assign(document.createElement('a'), { className: 'btn hot', href: 'atlas.html', textContent: 'Open the atlas' }),
-      Object.assign(document.createElement('a'), { className: 'btn', href: 'map.html', textContent: 'Species near you' }),
+      Object.assign(document.createElement('a'), { className: 'btn', href: 'atlas.html?locate=1', textContent: 'Species near you' }),
     );
     card.append(cta);
   }

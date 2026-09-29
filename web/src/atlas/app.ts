@@ -10,6 +10,9 @@ import type { CellDetail, SpeciesIndexEntry } from '../types';
 import { h } from '../ui/dom';
 import { cellIdAt, toMonth } from '../url-state';
 import { reversePlace } from './geocode';
+import { altitudeForZoom, locateMe, zoomForAltitude } from './locate';
+import { createAtlasMap, MAP_MIN_ZOOM, type AtlasMap } from './map-view';
+import type { SpeciesRange } from '../types';
 import { createAtlasGlobe } from './globe';
 import { placeSummary } from './place-summary';
 import { loadProfileIndex, thumbFor } from './profile-index';
@@ -33,9 +36,13 @@ const SPECIES_ALT_KM = 9000;
 /** The atlas has no chapters to set channels: every material at one calm level. */
 const ENV = { water: 0.8, snow: 0.8, wind: 0.55, land: 1, currents: 0.8, blooms: 0.9, lights: 1, depth: 1 };
 
-export interface AtlasRoots { stage: HTMLElement; pins: HTMLElement; ui: HTMLElement; banner: HTMLElement; env: HTMLElement }
+export interface AtlasRoots { stage: HTMLElement; pins: HTMLElement; ui: HTMLElement; banner: HTMLElement; env: HTMLElement; map: HTMLElement }
 
-interface SpeciesData { entry: SpeciesIndexEntry; flow: FlowField; summary: SpeciesSummary; profile: SpeciesProfile | null }
+/** Closer than this, the globe hands over to the street map (style guide: local depth). */
+const HANDOFF_KM = 1300;
+const PLACE_ZOOM = 10;
+
+interface SpeciesData { entry: SpeciesIndexEntry; flow: FlowField; summary: SpeciesSummary; profile: SpeciesProfile | null; range: SpeciesRange }
 
 const wide = () => window.matchMedia('(min-width: 900px)').matches;
 
@@ -58,16 +65,32 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
 
   // ---------- chrome ----------
   const where = h('p', { class: 'where' });
+  const toast = h('p', { class: 'toast', role: 'status', 'aria-live': 'polite', hidden: true });
+  let toastTimer = 0;
+  const say = (text: string) => { toast.textContent = text; toast.hidden = false; window.clearTimeout(toastTimer); toastTimer = window.setTimeout(() => { toast.hidden = true; }, 5000); };
+  const locateBtn = h('button', { class: 'btn-quiet locate', type: 'button', 'aria-label': 'Show wildlife where I am', onclick: () => {
+    locateBtn.classList.add('is-busy');
+    say('Finding where you are…');
+    locateMe().then((p) => { toast.hidden = true; pickPlace(p.lng, p.lat, null, true, true); })
+      .catch((err) => say((err as Error).message))
+      .finally(() => locateBtn.classList.remove('is-busy'));
+  } }, 'Locate me');
+  const mapBtn = h('button', { class: 'btn-quiet', type: 'button', onclick: () => {
+    if (mode === 'map') { exitMap(atlasMap!.center()); return; }
+    const c = store.get().place ?? globe.camera();
+    void enterMap(c.lng, c.lat, store.get().place ? PLACE_ZOOM : 5.5, true);
+  } }, 'Street map');
   const legendSlot = h('div', { class: 'legend-slot' });
   const toggleLegend = () => { if (legendSlot.firstChild) legendSlot.replaceChildren(); else legendSlot.replaceChildren(legendPanel(() => legendSlot.replaceChildren())); };
   const top = h('header', { class: 'topbar' },
     h('a', { class: 'brand', href: './' }, 'Wildlife Atlas'),
-    searchBox(index, thumbOf, { onSpecies: (k) => void selectSpecies(k, true), onPlace: (p) => pickPlace(p.lng, p.lat, { name: p.label, detail: p.detail }) }),
+    searchBox(index, thumbOf, { onSpecies: (k) => void selectSpecies(k, true), onPlace: (p) => pickPlace(p.lng, p.lat, { name: p.label, detail: p.detail }, true, true) }),
     where,
     h('nav', { class: 'top-links' },
+      locateBtn,
+      mapBtn,
       h('button', { class: 'btn-quiet', type: 'button', onclick: toggleLegend, 'aria-label': 'What am I seeing?' }, 'Legend'),
-      h('a', { class: 'btn-quiet', href: './' }, 'Story'),
-      h('a', { class: 'btn-quiet', href: 'map.html' }, 'Map')));
+      h('a', { class: 'btn-quiet hide-narrow', href: './' }, 'Story')));
   const timeline = createTimeline({
     onScrub: (t) => { clock.pause(); clock.set(t); },
     onMonth: (m) => { clock.pause(); clock.glideTo(m - 1 + 0.5, reduced ? 0 : 900); },
@@ -77,7 +100,7 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
   const panel = createPanel((v) => store.set({ panel: v }), () => store.set({ panel: null }));
   const follow = h('button', { class: 'chip follow', type: 'button', 'aria-pressed': 'false', onclick: () => store.set({ follow: !store.get().follow }) }, 'Follow the flock');
   const followingBtn = h('button', { class: 'chip following', type: 'button', onclick: () => store.set({ panel: 'species' }) }, 'Following');
-  roots.ui.append(top, legendSlot, panel.element, h('div', { class: 'dock' }, h('div', { class: 'dock-row' }, followingBtn, follow), timeline.element), probe.element);
+  roots.ui.append(top, toast, legendSlot, panel.element, h('div', { class: 'dock' }, h('div', { class: 'dock-row' }, followingBtn, follow), timeline.element), probe.element);
 
   // ---------- species ----------
   let species: SpeciesData | null = null;
@@ -94,7 +117,8 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
       const [range, profile] = await Promise.all([loadRange(key), loadProfile(entry.sci).catch((err) => { console.warn('Profile unavailable', entry.sci, err); return null; })]);
       if (token !== speciesToken) return;
       const flow = buildFlow(range, cells.cellSize, PARTICLES, 11);
-      species = { entry, flow, summary: speciesSummary(range, cells.cellSize), profile };
+      species = { entry, flow, summary: speciesSummary(range, cells.cellSize), profile, range };
+      atlasMap?.setRange(range);
       globe.setFlow(flow);
       timeline.setCurve(species.summary.presence, `${entry.name || entry.sci} · recorded presence through the year`);
       if (fly) {
@@ -116,7 +140,7 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
   let cell: CellDetail | null = null;
   let cellStatus: 'loading' | 'ready' | 'none' | 'error' = 'none';
   let placeToken = 0;
-  function pickPlace(lng: number, lat: number, named: { name: string; detail: string } | null = null, fly = true) {
+  function pickPlace(lng: number, lat: number, named: { name: string; detail: string } | null = null, fly = true, toMap = false) {
     const id = cellIdAt(lng, lat, cells.cellSize);
     const cellId = cellSet.has(id) ? id : null;
     const place: Place = { lng, lat, cellId, name: named?.name ?? null, detail: named?.detail ?? null };
@@ -126,7 +150,10 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
     cellStatus = cellId ? 'loading' : 'none';
     store.set({ place, panel: 'place' });
     globe.setPlace({ lng, lat, label: named?.name ?? `${fmtLat(lat)} ${fmtLng(lng)}` });
-    if (fly) globe.flyTo({ lng, lat, altitudeKm: Math.min(globe.camera().altitudeKm, PLACE_ALT_KM) });
+    atlasMap?.setPlace(place);
+    if (toMap) void enterMap(lng, lat, Math.max(PLACE_ZOOM, mode === 'map' ? atlasMap!.center().zoom : 0), true).then(() => atlasMap?.setPlace(place));
+    else if (fly && mode === 'map') atlasMap?.show({ lng, lat }, Math.max(PLACE_ZOOM, atlasMap.center().zoom), true);
+    else if (fly) globe.flyTo({ lng, lat, altitudeKm: Math.min(globe.camera().altitudeKm, PLACE_ALT_KM) });
     if (!named) reversePlace(lng, lat).then((n) => {
       if (!n || token !== placeToken) return;
       store.set({ place: { ...store.get().place!, name: n.name, detail: n.detail } });
@@ -134,6 +161,40 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
     });
     if (cellId) loadCell(cellId).then((c) => { if (token === placeToken) { cell = c; cellStatus = 'ready'; render(); } })
       .catch((err) => { console.error('Cell failed to load', cellId, err); if (token === placeToken) { cellStatus = 'error'; render(); } });
+  }
+
+  // ---------- street map (local depth) ----------
+  let mode: 'globe' | 'map' = 'globe';
+  let atlasMap: AtlasMap | null = null;
+  let mapLoading: Promise<AtlasMap | null> | null = null;
+  let entering = false;
+  const ensureMap = () => mapLoading ??= createAtlasMap(roots.map, cells).then((m) => {
+    atlasMap = m;
+    m.setMonth(monthOf(store.get().t));
+    if (species) m.setRange(species.range);
+    m.setPlace(store.get().place);
+    m.onPick((lng, lat) => pickPlace(lng, lat, null, false));
+    m.onZoomOut((at) => exitMap(at));
+    return m;
+  }).catch((err) => { console.error('Street map failed to load', err); say('The street map could not load. The globe still works.'); mapLoading = null; return null; });
+  async function enterMap(lng: number, lat: number, zoom: number, animate: boolean) {
+    entering = true;
+    const m = await ensureMap();
+    entering = false;
+    if (!m) return;
+    mode = 'map';
+    probe.hide();
+    m.show({ lng, lat }, Math.max(MAP_MIN_ZOOM + 0.5, zoom), animate);
+    globe.setActive(false);
+    render();
+  }
+  function exitMap(at: { lng: number; lat: number }) {
+    if (mode !== 'map') return;
+    mode = 'globe';
+    atlasMap?.hide();
+    globe.setActive(true);
+    globe.flyTo({ lng: at.lng, lat: at.lat, altitudeKm: Math.max(HANDOFF_KM * 2.2, altitudeForZoom(MAP_MIN_ZOOM - 0.4)) }, 0);
+    render();
   }
 
   // ---------- render ----------
@@ -149,6 +210,9 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
     const open = s.panel !== null && (s.panel === 'place' ? s.place !== null : s.species !== null);
     document.body.classList.toggle('panel-open', open);
     globe.setInset(open && wide() ? PANEL_W : 0, open && !wide() ? window.innerHeight * 0.46 : 0);
+    atlasMap?.setPadding(open && wide() ? PANEL_W + 16 : 0, open && !wide() ? window.innerHeight * 0.46 : 130);
+    mapBtn.textContent = mode === 'map' ? 'Globe' : 'Street map';
+    document.body.classList.toggle('is-map', mode === 'map');
     followingBtn.textContent = species && species.entry.k === s.species ? `Following · ${species.profile?.name || species.entry.name || species.entry.sci}` : 'Following';
     if (!open) { panel.close(); return; }
     if (s.panel === 'place' && s.place) {
@@ -156,7 +220,7 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
         place: s.place, month: m, status: cellStatus, summary: cell ? placeSummary(cell, (m + 1) as 1) : null,
         coverage: s.place.cellId ? coverage.get(s.place.cellId)?.[m] ?? null : null,
         env: globe.sample(s.place.lng, s.place.lat), species: byKey, thumbOf,
-      }, { onSpecies: (k) => void selectSpecies(k, false), onMonth: (mm) => timelineMonth(mm) }));
+      }, { onSpecies: (k) => void selectSpecies(k, false), onMonth: (mm) => timelineMonth(mm), onShowMap: () => pickPlace(s.place!.lng, s.place!.lat, s.place!.name ? { name: s.place!.name, detail: s.place!.detail ?? '' } : null, true, true) }));
     } else if (s.panel === 'species') {
       const entry = s.species ? byKey.get(s.species) : null;
       if (!entry) return;
@@ -170,6 +234,7 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
   }
   const timelineMonth = (m: number) => { clock.pause(); clock.glideTo(m - 1 + 0.5, reduced ? 0 : 900); };
   store.subscribe((s, prev) => {
+    if (monthOf(s.t) !== monthOf(prev.t)) atlasMap?.setMonth(monthOf(s.t));
     if (monthOf(s.t) !== monthOf(prev.t) || s.panel !== prev.panel || s.place !== prev.place || s.species !== prev.species || s.follow !== prev.follow) render();
   });
 
@@ -190,6 +255,10 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
   let followVec: Vec3 | null = null;
   const scratch = { buf: new Float32Array(0) };
   clock.onTick((t, dt) => {
+    if (mode === 'globe' && !entering && globe.camera().altitudeKm < HANDOFF_KM) {
+      const c = globe.camera();
+      void enterMap(c.lng, c.lat, zoomForAltitude(c.altitudeKm), false);
+    }
     globe.setMonth(t);
     timeline.set(t, clock.playing());
     if (store.get().playing !== clock.playing()) store.set({ playing: clock.playing() });
@@ -215,7 +284,8 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
     p.set('m', String(monthOf(s.t)));
     if (s.species) p.set('sp', s.species);
     if (s.place) p.set('place', `${s.place.lng.toFixed(3)},${s.place.lat.toFixed(3)}`);
-    p.set('at', `${cam.lng.toFixed(2)},${cam.lat.toFixed(2)},${Math.round(cam.altitudeKm)}`);
+    if (mode === 'map' && atlasMap) { const c = atlasMap.center(); p.set('map', `${c.lng.toFixed(4)},${c.lat.toFixed(4)},${c.zoom.toFixed(2)}`); }
+    else p.set('at', `${cam.lng.toFixed(2)},${cam.lat.toFixed(2)},${Math.round(cam.altitudeKm)}`);
     history.replaceState(null, '', `atlas.html?${p.toString()}`);
   }, URL_SYNC_MS);
 
@@ -229,5 +299,9 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
   if (start) void selectSpecies(start, false);
   const [pl, pa] = (q.get('place') ?? '').split(',').map(Number);
   if (Number.isFinite(pl) && Number.isFinite(pa) && Math.abs(pa!) <= 90) pickPlace(pl!, pa!, null, false);
+  const [ml, mt, mz] = (q.get('map') ?? '').split(',').map(Number);
+  if ([ml, mt, mz].every(Number.isFinite) && Math.abs(mt!) <= 85) void enterMap(ml!, mt!, mz!, false);
+  // arriving from the story's "Species near you": the visitor already asked for their location
+  if (q.get('locate') === '1') locateBtn.click();
   render();
 }

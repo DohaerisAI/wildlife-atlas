@@ -34,6 +34,8 @@ export interface AtlasGlobe {
   onDrag(fn: () => void): void;
   /** fires once the Living Earth pack is on the globe */
   onEarth(fn: (earth: LivingEarth) => void): void;
+  /** pause the globe while the street map covers it */
+  setActive(on: boolean): void;
 }
 
 interface Flight { readonly from: Vector3; readonly to: Vector3; readonly start: number; readonly dur: number }
@@ -178,5 +180,6 @@ export function createAtlasGlobe(stageRoot: HTMLElement, pinsRoot: HTMLElement, 
     onHover: (fn) => { hoverFns.push(fn); },
     onDrag: (fn) => { dragFns.push(fn); },
     onEarth: (fn) => { if (earth) fn(earth); else earthFns.push(fn); },
+    setActive: (on) => stage.setActive(on),
   };
 }

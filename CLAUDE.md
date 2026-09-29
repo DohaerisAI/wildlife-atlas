@@ -16,7 +16,7 @@ Audiences: enthusiasts, students, researchers. What the product is lives in `WIL
 | L1 Models: seasonal presence, connectivity, gaps | `pipeline/atlas_pipeline/classify.py`, `global_ranges.py` |
 | L2 Products: static bundles, tiles, manifests | `pipeline/atlas_pipeline/export.py` → `web/public/data` |
 | L3 Engine: stage + tiers, globe, layers, Living Earth, story runtime | `web/src/engine/{core,globe,layers,living-earth}/`, `web/src/story/`, flow model in `web/src/scene/` |
-| L4 Experiences: story front door, atlas, map | `web/index.html` + `web/src/experiences/story-page.ts` + `web/src/stories/`; `atlas.html` + `web/src/atlas/`; `map.html` |
+| L4 Experiences: story front door, atlas, map | `web/index.html` + `web/src/experiences/story-page.ts` + `web/src/stories/`; `atlas.html` + `web/src/atlas/` (globe, and a MapLibre street map up close) |
 
 ## Rules
 - Every moving or coloured property on the globe is bound to a named dataset and month. If it can't be sourced, it doesn't move (Living Earth "Real" law).
@@ -30,7 +30,7 @@ Audiences: enthusiasts, students, researchers. What the product is lives in `WIL
 - The dev laptop's proxy blocks GBIF, eBird, iNaturalist and Movebank. Fetches run on GitHub Actions; pull results with `scripts/pull-data.sh` or `gh run download`.
 - GBIF: send coordinates in fixed-point (`-1e-06` gets HTTP 400). HTTP 429 means back off for minutes and run one job at a time. SQL downloads support `FLOOR()` grids but not `GBIF_EQDGCCode`, and a valid query returns 201.
 - Transferring the repo to a new owner cancels in-progress Actions runs.
-- `maplibre-gl` v6 must stay in Vite `optimizeDeps.exclude`, or its worker URL breaks. Add MapLibre layers on `style.load`, not `load`.
+- `maplibre-gl` v6 must stay in Vite `optimizeDeps.exclude`, or its worker URL breaks. Add MapLibre layers on `style.load`, not `load`. Its CSS sets `position: relative` on the map container, so give it an inner element.
 - The flow engine anchors monthly data at mid-month (`t = month + 0.5`).
 - Stories are data (`web/src/story/schema.ts`): every chapter must set the same channels; `validateStory` enforces it. New stories need no engine code.
 - Facts in stories need a source; tests assert it. Illustrative routes must say so in the chapter note.

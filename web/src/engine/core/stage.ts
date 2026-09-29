@@ -22,6 +22,8 @@ export interface Stage {
   onFrame(fn: (f: Frame) => void): () => void;
   onTier(fn: (tier: Tier, s: TierSettings) => void): () => void;
   size(): { width: number; height: number };
+  /** stop drawing (and ticking layers) while something else covers the stage */
+  setActive(on: boolean): void;
   dispose(): void;
 }
 
@@ -77,7 +79,9 @@ export function createStage(container: HTMLElement, opts: { fov?: number } = {})
   const start = performance.now();
   let last = start;
   let raf = 0;
+  let active = true;
   const loop = (now: number) => {
+    if (!active) { last = now; raf = requestAnimationFrame(loop); return; }
     const frameMs = now - last;
     last = now;
     const next = sampleFrame(budget, frameMs);
@@ -98,6 +102,7 @@ export function createStage(container: HTMLElement, opts: { fov?: number } = {})
     onFrame: (fn) => { frameFns.add(fn); return () => frameFns.delete(fn); },
     onTier: (fn) => { tierFns.add(fn); return () => tierFns.delete(fn); },
     size: () => ({ width, height }),
+    setActive: (on) => { active = on; },
     dispose: () => {
       cancelAnimationFrame(raf);
       observer.disconnect();

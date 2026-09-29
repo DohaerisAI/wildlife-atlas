@@ -1,18 +1,18 @@
 id: map-detail
-title: Detail map (MapLibre)
-layer: L3
+title: Street map up close, find a place, locate me
+layer: L4
 status: building
 summary: >-
-  Per-cell species lists, species ranges, year strip and URL state.
+  The old map page is gone. Inside the atlas, zooming in past ~1,300 km (or searching a place, or Locate me)
+  crossfades to a dark MapLibre street map with town names; species richness is a faint wash, the followed
+  species amber, the picked place pinned; zooming out hands back to the globe. Locate me uses the browser's
+  location only when asked and explains every failure.
 paths:
-  - web/src/app.ts
-  - web/src/layers.ts
-  - web/src/listing.ts
-  - web/src/url-state.ts
+  - web/src/atlas/map-view.ts
+  - web/src/atlas/locate.ts
+  - web/src/atlas/app.ts
 checks:
   - suite: vitest
-    file: src/listing.test.ts
-  - suite: vitest
-    file: src/layers.test.ts
-  - suite: vitest
-    file: src/url-state.test.ts
+    file: src/atlas/locate.test.ts
+next: >-
+  Observation clusters at local zoom where permitted; place names on the globe at mid zoom.
