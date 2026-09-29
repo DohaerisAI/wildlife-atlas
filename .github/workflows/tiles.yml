@@ -1,8 +1,8 @@
 # Living Earth detail tiles (decision 0010): WorldCover class, tree cover, fine-DEM hillshade and monthly NDVI,
 # levels 5..L of the EPSG:4326 quadtree, computed in Earth Engine per level-3 shard (22.5 degrees).
 # Coarse first, then deepen: run with level 6 for the whole world, then 7, then 8 (~300 m pixels).
-# Resume: a failed shard is rerun alone with `gh run rerun <run-id> --failed`; finished shards keep their artifacts,
-# and the merge job runs again over everything that exists.
+# Resume: a failed shard is rerun alone with `gh run rerun <run-id> --failed` (same commit); finished shards keep their
+# artifacts and the merge job runs again. After a code fix, run just the failed shards with the `shards` input.
 # Pull for development: scripts/pull-tiles.sh <run-id>  (into web/public/content/tiles/detail, gitignored).
 name: Build Living Earth tiles
 on:
@@ -16,6 +16,9 @@ on:
       bbox:
         description: "Region W,S,E,N (default whole world; India = 66,5,99,38)"
         default: "-180,-90,180,90"
+      shards:
+        description: "Only these shards, comma-separated z/x/y (e.g. 3/0/0,3/1/0); empty = every land shard in bbox"
+        default: ""
       workers:
         description: "Parallel Earth Engine calls per shard (x 10 shards at once must stay under EE's ~40 concurrent)"
         default: "4"
@@ -31,7 +34,7 @@ jobs:
         working-directory: pipeline
         run: |
           uv sync --quiet
-          shards="$(uv run python scripts/tiles_ci.py plan --bbox='${{ inputs.bbox }}')"
+          shards="$(uv run python scripts/tiles_ci.py plan --bbox='${{ inputs.bbox }}' --only='${{ inputs.shards }}')"
           echo "shards=$shards" >> "$GITHUB_OUTPUT"
   shard:
     needs: plan

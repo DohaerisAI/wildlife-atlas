@@ -33,6 +33,9 @@ def bbox(text: str) -> tm.Bounds:
 
 def cmd_plan(args) -> int:
     shards = [f"{z}/{x}/{y}" for z, x, y in tm.plan_shards(land_mask(), bbox(args.bbox))]
+    if args.only.strip():
+        only = {"/".join(map(str, tm.parse_tile(s))) for s in args.only.split(",") if s.strip()}
+        shards = [s for s in shards if s in only]
     print(json.dumps(shards))
     logging.info("%d shards", len(shards))
     return 0
@@ -71,6 +74,7 @@ def main() -> int:
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("plan")
     p.add_argument("--bbox", default="-180,-90,180,90")
+    p.add_argument("--only", default="", help="comma-separated shards to keep")
     p.set_defaults(fn=cmd_plan)
     s = sub.add_parser("shard")
     s.add_argument("out")

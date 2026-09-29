@@ -14,13 +14,27 @@ import numpy as np
 
 from . import tile_math as tm
 from .living_earth_v2 import land_class
-from .living_earth_v2_ee import SENTINEL, _fetch
+from .living_earth_v2_ee import _OUTSIDE, SENTINEL, _fetch
 from .tile_product import Mosaic
 
 log = logging.getLogger(__name__)
 BANDS = ["codes", "share", "sea", "tree", "elev", "ice"]
 EXACT_FROM_LEVEL = 7  # at or below ~600 m pixels WorldCover mode is taken from the 10 m pixels; coarser uses its mode pyramid
 _RETRY_ON = ("too many", "429", "concurrency", "timed out", "deadline", "internal error", "503", "unavailable", "memory")
+
+
+def polar_image(ee, level: int, exact: bool):
+    """Fallback near the poles, where HYCOM, MODIS and GLO-30 composites fail to reproject ("Unable to transform
+    edge"): WorldCover class and share as usual, no sea mask or tree cover, ETOPO1 for elevation and ice."""
+    px = tm.pixel_deg(level)
+    proj = ee.Projection("EPSG:4326").scale(px, px)
+    wc = ee.ImageCollection("ESA/WorldCover/v200").first().select("Map")
+    codes = wc.reduceResolution(ee.Reducer.mode(), False, 65535).reproject(proj) if exact else wc.reproject(proj)
+    share = wc.mask().unmask(0).reproject(proj)
+    etopo = ee.Image("NOAA/NGDC/ETOPO1").toFloat()
+    zero = ee.Image.constant(0).reproject(proj)
+    parts = [codes, share, zero, zero, etopo.select("ice_surface").reproject(proj), etopo.select("ice_surface").subtract(etopo.select("bedrock")).reproject(proj)]
+    return ee.Image.cat([p.rename(b).unmask(SENTINEL).toFloat() for p, b in zip(parts, BANDS)])
 
 
 def land_image(ee, level: int, exact: bool):
@@ -82,14 +96,24 @@ def pull_shard(ee, shard: tm.Tile, level: int, land_mask: np.ndarray, workers: i
     tree = np.full((n, n), np.nan)
     elev = np.full((n, n), np.nan)
     expr = land_image(ee, level, exact)
+    polar = polar_image(ee, level, exact)
     log.info("shard %s: %d land tiles at level %d (exact class: %s)", shard, len(todo), level, exact)
 
     def one(t: tm.Tile):
         piece = (t[1] * tm.TILE_PX, t[2] * tm.TILE_PX, tm.TILE_PX, tm.TILE_PX)
-        return t, _call(ee, lambda: _fetch(ee, expr, width, height, piece, BANDS), f"tile {t}")
+        for image in (expr, polar):
+            try:
+                return t, _call(ee, lambda: _fetch(ee, image, width, height, piece, BANDS), f"tile {t}")
+            except ee.EEException as e:
+                if _OUTSIDE not in str(e):
+                    raise
+        log.warning("tile %s: no source can be projected here; skipped", t)
+        return t, None
 
     with ThreadPoolExecutor(max_workers=workers) as pool:
         for done, (t, a) in enumerate(pool.map(one, todo), 1):
+            if a is None:
+                continue
             x, y = t[1] * tm.TILE_PX - ox, t[2] * tm.TILE_PX - oy
             codes, share, sea, tr, el, ice = (a[..., i] for i in range(len(BANDS)))
             cls[y:y + tm.TILE_PX, x:x + tm.TILE_PX] = land_class(codes, share, sea, ice)
@@ -116,10 +140,18 @@ def pull_ndvi(ee, shard: tm.Tile, level: int, land: list[tm.Tile], workers: int)
 
     def one(g: tm.Tile):
         piece = (g[1] * side, g[2] * side, side, side)
-        return g, _call(ee, lambda: _fetch(ee, expr, width, height, piece, bands), f"ndvi {g}")
+        try:
+            return g, _call(ee, lambda: _fetch(ee, expr, width, height, piece, bands), f"ndvi {g}")
+        except ee.EEException as e:
+            if _OUTSIDE not in str(e):
+                raise
+            log.warning("ndvi %s: MODIS can't be projected here; the pack's NDVI is used", g)
+            return g, None
 
     with ThreadPoolExecutor(max_workers=workers) as pool:
         for g, a in pool.map(one, groups):
+            if a is None:
+                continue
             x, y = (g[1] - g0[1]) * side, (g[2] - g0[2]) * side
             out[:, y:y + side, x:x + side] = np.moveaxis(a, -1, 0)
     log.info("shard %s: ndvi from %d pieces", shard, len(groups))
