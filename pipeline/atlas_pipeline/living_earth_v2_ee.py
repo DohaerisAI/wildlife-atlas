@@ -6,6 +6,8 @@ Findings from scripts/ee_probe_v2.py that shape this file:
 - HYCOM is 3-hourly; a 10-year monthly mean of daily fields exceeds EE memory, one year at a time does not.
   Years are averaged here (NaN-aware). HYCOM ends 2024-09.
 - VIIRS average_masked is 0 (not masked) where background was removed; its mask is 1 everywhere.
+- Collection means of HYCOM and VIIRS raise "Unable to transform edge" on polar rows beyond their footprint;
+  footprint_rows() finds the projectable band once and pulls stay inside it; rows outside are no data.
 - Masked pixels come back from computePixels as 0, so every band is unmasked to SENTINEL and turned into NaN.
 """
 
@@ -23,18 +25,57 @@ YEARS = range(2015, 2025)
 _SPLIT_ON = ("memory", "too large", "exceeds", "timed out", "Too many")
 
 
-def pull(ee, image, width: int, height: int, bands: list[str], tile: tuple[int, int], retries: int = 4) -> np.ndarray:
+_OUTSIDE = "Unable to transform edge"  # collection composites (HYCOM, VIIRS means) fail on rows beyond their footprint
+
+
+def _fetch(ee, expr, width: int, height: int, piece, bands: list[str]) -> np.ndarray:
+    arr = ee.data.computePixels({"expression": expr, "fileFormat": "NUMPY_NDARRAY", "grid": tile_grid(width, height, piece)})
+    data = np.stack([arr[b].astype("float64") for b in bands], axis=-1)
+    return np.where(data <= SENTINEL + 0.5, np.nan, data)
+
+
+def _projectable(ee, expr, width: int, height: int, row: int, band: str) -> bool:
+    try:
+        _fetch(ee, expr, width, height, (0, row, width, 1), [band])
+        return True
+    except ee.EEException as e:
+        if _OUTSIDE in str(e):
+            return False
+        raise
+
+
+def footprint_rows(ee, image, width: int, height: int, band: str) -> tuple[int, int]:
+    """First and one-past-last full-width row the source can be projected on (binary search from the equator)."""
+    expr = image.select(band).unmask(SENTINEL).toFloat()
+    mid = height // 2
+    if not _projectable(ee, expr, width, height, mid, band):
+        raise ValueError("source can't be projected at the equator")
+    lo, hi = 0, mid  # first projectable row is in [lo, hi]
+    while lo < hi:
+        m = (lo + hi) // 2
+        lo, hi = (lo, m) if _projectable(ee, expr, width, height, m, band) else (m + 1, hi)
+    top = lo
+    lo, hi = mid, height - 1  # last projectable row is in [lo, hi]
+    while lo < hi:
+        m = (lo + hi + 1) // 2
+        lo, hi = (m, hi) if _projectable(ee, expr, width, height, m, band) else (lo, m - 1)
+    return top, lo + 1
+
+
+def pull(ee, image, width: int, height: int, bands: list[str], tile: tuple[int, int], retries: int = 4,
+         rows: tuple[int, int] | None = None) -> np.ndarray:
     """Pull `bands` of `image` on the global width x height grid, tile by tile; SENTINEL becomes NaN.
-    A piece Earth Engine calls too big is halved; other errors retry with backoff."""
+    A piece Earth Engine calls too big is halved; other errors retry with backoff.
+    `rows` limits the pull to a band of rows (a source's footprint); rows outside it are NaN."""
+    y0, y1 = rows or (0, height)
     expr = ee.Image.cat([image.select(b).unmask(SENTINEL).toFloat() for b in bands])
-    queue, pieces = tiles(width, height, *tile), []
+    queue = [(x, y + y0, w, h) for x, y, w, h in tiles(width, y1 - y0, *tile)]
+    pieces = []
     while queue:
         piece = queue.pop(0)
         for attempt in range(retries):
             try:
-                arr = ee.data.computePixels({"expression": expr, "fileFormat": "NUMPY_NDARRAY", "grid": tile_grid(width, height, piece)})
-                data = np.stack([arr[b].astype("float64") for b in bands], axis=-1)
-                pieces.append((piece, np.where(data <= SENTINEL + 0.5, np.nan, data)))
+                pieces.append((piece, _fetch(ee, expr, width, height, piece, bands)))
                 break
             except ee.EEException as e:
                 msg = str(e)
@@ -46,7 +87,8 @@ def pull(ee, image, width: int, height: int, bands: list[str], tile: tuple[int, 
                     raise
                 log.warning("retrying %s after %s", piece, msg[:120])
                 time.sleep(5 * 2 ** attempt)
-    return stitch(pieces, width, height)
+    band = stitch([((x, y - y0, w, h), a) for (x, y, w, h), a in pieces], width, y1 - y0)
+    return np.concatenate([np.full((y0, width, len(bands)), np.nan), band, np.full((height - y1, width, len(bands)), np.nan)])
 
 
 def compute_land(ee) -> np.ndarray:
@@ -72,14 +114,20 @@ def compute_relief(ee) -> np.ndarray:
     lights = (ee.ImageCollection("NOAA/VIIRS/DNB/ANNUAL_V22").filterDate("2022-01-01", "2025-01-01")
               .select("average_masked").mean().rename("lights"))
     w, h = RELIEF_SIZE
-    arr = pull(ee, ee.Image.cat(elev, lights.unmask(0)), w, h, ["elev", "lights"], (w, 256))
-    return relief_image(arr[..., 0], arr[..., 1])
+    e = pull(ee, elev, w, h, ["elev"], (w, 256))[..., 0]
+    rows = footprint_rows(ee, lights, w, h, "lights")
+    log.info("VIIRS footprint rows %s of %d", rows, h)
+    lit = pull(ee, lights.unmask(0), w, h, ["lights"], (w, 256), rows=rows)[..., 0]
+    return relief_image(e, lit)  # beyond VIIRS's 75N-65S footprint lights read 0
 
 
 def compute_ocean(ee) -> list[np.ndarray]:
     hycom = ee.ImageCollection("HYCOM/sea_water_velocity").select(["velocity_u_0", "velocity_v_0"]).filter(ee.Filter.calendarRange(0, 0, "hour"))
     chl = ee.ImageCollection("NASA/OCEANDATA/MODIS-Aqua/L3SMI").filterDate("2015-01-01", "2025-01-01").select("chlor_a")
     w, h = OCEAN_SIZE
+    probe = hycom.filterDate("2020-07-01", "2020-08-01").mean()
+    rows = footprint_rows(ee, probe, w, h, "velocity_u_0")
+    log.info("HYCOM mean footprint rows %s of %d", rows, h)
     frames = []
     for m in range(1, 13):
         cal = ee.Filter.calendarRange(m, m, "month")
@@ -89,7 +137,7 @@ def compute_ocean(ee) -> list[np.ndarray]:
             if month.size().getInfo() == 0:
                 log.info("HYCOM has no %d-%02d, skipped", y, m)
                 continue
-            yearly.append(pull(ee, month.mean().multiply(0.001), w, h, ["velocity_u_0", "velocity_v_0"], (w, 180)))
+            yearly.append(pull(ee, month.mean().multiply(0.001), w, h, ["velocity_u_0", "velocity_v_0"], (w, 180), rows=rows))
         uv = nanmean_stack(yearly)
         c = pull(ee, chl.filter(cal).mean(), w, h, ["chlor_a"], (w, 180))[..., 0]
         frames.append(ocean_frame(uv[..., 0], uv[..., 1], c))

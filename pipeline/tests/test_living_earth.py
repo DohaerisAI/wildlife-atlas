@@ -161,8 +161,8 @@ class _FakeEE:
     class EEException(Exception):
         pass
 
-    def __init__(self, limit):
-        self.limit, self.calls = limit, []
+    def __init__(self, limit, footprint=(0, 10**9)):
+        self.limit, self.footprint, self.calls = limit, footprint, []
         fake = self
 
         class Image:
@@ -179,6 +179,8 @@ class _FakeEE:
                     raise fake.EEException("User memory limit exceeded.")
                 x0 = round((t["translateX"] + 180) / t["scaleX"])
                 y0 = round((90 - t["translateY"]) / -t["scaleY"])
+                if y0 < fake.footprint[0] or y0 + d["height"] > fake.footprint[1]:
+                    raise fake.EEException("Unable to transform edge (40.000000, 1.000000 to 39.99, 1.0)")
                 ys, xs = np.mgrid[y0:y0 + d["height"], x0:x0 + d["width"]]
                 out = np.zeros((d["height"], d["width"]), dtype=[("a", "f4")])
                 out["a"] = np.where(xs == 0, -1e6, ys * 100 + xs)  # column 0 is "masked"
@@ -195,3 +197,15 @@ def test_pull_splits_oversized_pieces_and_marks_masked_as_nan():
     assert arr.shape == (20, 40, 1)
     assert np.isnan(arr[:, 0, 0]).all() and arr[7, 9, 0] == 709 and arr[19, 39, 0] == 1939
     assert fake.calls[0] == (40, 20) and max(w * h for w, h in fake.calls[1:] if w * h <= 300) <= 300
+
+
+def test_footprint_rows_and_pull_inside_them():
+    from atlas_pipeline.living_earth_v2_ee import footprint_rows, pull
+
+    fake = _FakeEE(limit=10**6, footprint=(3, 17))
+    assert footprint_rows(fake, _FakeImage(), 40, 20, "a") == (3, 17)
+    arr = pull(fake, _FakeImage(), 40, 20, ["a"], (40, 5), rows=(3, 17))
+    assert arr.shape == (20, 40, 1) and np.isnan(arr[:3]).all() and np.isnan(arr[17:]).all()
+    assert arr[3, 5, 0] == 305 and arr[16, 39, 0] == 1639
+    with pytest.raises(fake.EEException, match="transform edge"):
+        pull(fake, _FakeImage(), 40, 20, ["a"], (40, 5), retries=1)
