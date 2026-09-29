@@ -2,7 +2,8 @@ import { formatRange, weightComparison, type ProfileImage, type SpeciesProfile, 
 import type { Meta, SpeciesIndexEntry } from '../../types';
 import { h, replaceChildren } from '../../ui/dom';
 import type { SpeciesSummary } from '../species-summary';
-import { fmtLat, fmtLng, monthBars, monthName, notAvailable, section } from './bits';
+import { fold, monthBars, monthName, notAvailable, section } from './bits';
+import { journeyRows, type JourneyRow, type MonthPlace } from '../regions';
 
 export interface SpeciesViewData {
   readonly entry: SpeciesIndexEntry;
@@ -10,11 +11,14 @@ export interface SpeciesViewData {
   readonly summary: SpeciesSummary | null;
   readonly month: number;
   readonly meta: Meta;
+  readonly regions: { readonly months: readonly MonthPlace[]; readonly india: readonly number[] } | null;
 }
 
 export interface SpeciesViewHandlers {
-  onJourney(lng: number, lat: number): void;
+  onJourney(lng: number, lat: number, month: number): void;
   onMonth(month: number): void;
+  onDownload(): void;
+  onCite(): void;
 }
 
 const STATUS_TONE: Record<string, string> = { LC: 'good', NT: 'warn', VU: 'warn', EN: 'bad', CR: 'bad', EW: 'bad', EX: 'bad', DD: 'muted' };
@@ -84,29 +88,28 @@ function seasonal(s: SpeciesSummary | null, month: number, onMonth: (m: number) 
     h('p', { class: 'legend-note' }, 'Bars: share of the peak month\'s recorded presence. Glows on the globe show the same share, not individual animals.'));
 }
 
-function journey(s: SpeciesSummary | null, month: number, onJourney: (lng: number, lat: number) => void): HTMLElement {
-  const centres = s?.centres ?? [];
-  const now = centres[month];
-  const known = centres.map((c, i) => (c ? { ...c, i } : null)).filter((c): c is NonNullable<typeof c> => c !== null);
-  if (!s || known.length < 2) return notAvailable();
-  const north = known.reduce((a, b) => (b.lat > a.lat ? b : a));
-  const south = known.reduce((a, b) => (b.lat < a.lat ? b : a));
-  const lat = known.map((c) => c.lat);
-  const lo = Math.min(...lat); const hi = Math.max(...lat);
-  const pts = centres.map((c, i) => (c ? `${i * 10 + 5},${34 - ((c.lat - lo) / Math.max(1, hi - lo)) * 28}` : null)).filter(Boolean).join(' ');
-  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-  svg.setAttribute('viewBox', '0 0 120 40');
-  svg.setAttribute('class', 'sv-journey');
-  svg.setAttribute('aria-hidden', 'true');
-  svg.innerHTML = `<polyline points="${pts}" /><circle cx="${month * 10 + 5}" cy="${now ? 34 - ((now.lat - lo) / Math.max(1, hi - lo)) * 28 : 38}" r="2.6" />`;
-  const text = s.shiftDeg < 4
-    ? 'Its recorded centre stays in about the same place all year.'
-    : `Its recorded centre moves ${Math.round(s.shiftDeg)}° of latitude through the year: furthest north in ${monthName(north.i)} (${fmtLat(north.lat)}), furthest south in ${monthName(south.i)} (${fmtLat(south.lat)}).`;
+const span = (from: number, to: number) => (from === to ? monthName(from) : `${monthName(from).slice(0, 3)} – ${monthName(to).slice(0, 3)}`);
+
+/** In words: which months it spends where. Built from where most of its recorded presence sits each month. */
+function whereThroughYear(r: { months: readonly MonthPlace[]; india: readonly number[] } | null, month: number, onGo: (lng: number, lat: number, month: number) => void): HTMLElement {
+  if (!r) return notAvailable();
+  const rows = journeyRows(r.months);
+  if (!rows.length) return notAvailable('No monthly records to place.');
+  const inIndia = r.india.map((v, i) => ({ v, i })).filter((x) => x.v >= 0.05);
+  const peakIndia = inIndia.reduce((a, b) => (b.v > a.v ? b : a), { v: 0, i: -1 });
+  const indiaLine = !inIndia.length ? 'Not recorded in India in any month.'
+    : inIndia.length === 12 ? `Recorded in India all year, most in ${monthName(peakIndia.i)}.`
+      : `In India: ${inIndia.map((x) => monthName(x.i).slice(0, 3)).join(', ')}, most in ${monthName(peakIndia.i)}.`;
+  const lede = rows.length === 1 ? `Recorded mostly in ${rows[0]!.region} all year.` : `Spends the year in ${new Set(rows.map((x) => x.region)).size} regions.`;
+  const inRow = (x: JourneyRow) => (x.from <= x.to ? month >= x.from && month <= x.to : month >= x.from || month <= x.to);
   return h('div', {},
-    svg,
-    h('p', { class: 'sv-line' }, text),
-    now ? h('button', { class: 'btn-quiet', type: 'button', onclick: () => onJourney(now.lng, now.lat) }, `Go to ${monthName(month)}'s centre · ${fmtLat(now.lat)}, ${fmtLng(now.lng)}`) : null,
-    h('p', { class: 'legend-note' }, 'Centre of recorded presence each month, weighted by records. A species-level pattern, not one animal\'s route.'));
+    h('p', { class: 'sv-line' }, lede, ' ', indiaLine),
+    h('ol', { class: 'legs' }, ...rows.map((x) => h('li', {},
+      h('button', { class: `leg${inRow(x) ? ' is-now' : ''}`, type: 'button', onclick: () => onGo(x.centre.lng, x.centre.lat, x.from + 1), title: `Go to ${x.region} in ${monthName(x.from)}` },
+        h('span', { class: 'leg-months' }, span(x.from, x.to)),
+        h('span', { class: 'leg-region' }, x.region),
+        h('span', { class: 'leg-share' }, `${Math.round(x.share * 100)} %`))))),
+    h('p', { class: 'legend-note' }, 'Where most of its recorded sightings are each month; the % is that region\'s share at its peak. Tap a row to go there. A pattern for the species from sightings, not one bird\'s route.'));
 }
 
 function evidence(d: SpeciesViewData): HTMLElement {
@@ -133,12 +136,16 @@ export function speciesView(d: SpeciesViewData, handlers: SpeciesViewHandlers): 
       h('p', { class: 'sv-sci' }, d.entry.sci),
       p?.description ? h('p', { class: 'sv-desc' }, p.description) : null),
     section('At a glance', glance(p, d.summary)),
-    section('Identity', identity(p, d.entry)),
     section(`Seasonal world · ${monthName(d.month)}`, seasonal(d.summary, d.month, handlers.onMonth)),
-    section('Journey', journey(d.summary, d.month, handlers.onJourney)),
-    section('Conservation',
+    section('Where it is through the year', whereThroughYear(d.regions, d.month, handlers.onJourney)),
+    fold('Identity', false, identity(p, d.entry)),
+    fold('Conservation', false,
       p?.facts.status ? h('p', { class: 'sv-line' }, `IUCN Red List: `, h('strong', { class: `tone-${STATUS_TONE[p.facts.status.code] ?? ''}` }, p.facts.status.label), ' (via Wikidata).') : notAvailable('Assessment: not available from current sources'),
       h('p', { class: 'na' }, 'Threats and assessment date: not available from current sources')),
-    extract ? section('About', h('p', { class: 'sv-extract' }, extract)) : null,
-    section('Evidence', evidence(d)));
+    extract ? fold('About', false, h('p', { class: 'sv-extract' }, extract)) : null,
+    fold('For researchers', false, evidence(d),
+      h('p', { class: 'links' },
+        h('button', { class: 'btn-quiet', type: 'button', onclick: handlers.onDownload }, 'Download monthly presence (CSV)'),
+        h('button', { class: 'btn-quiet', type: 'button', onclick: handlers.onCite }, 'Copy citation')),
+      h('p', { class: 'legend-note' }, 'One row per 1° cell where it was recorded: presence class, the monthly rate (share of the cell\'s bird records that are this species) and the same scaled to its peak month.')));
 }

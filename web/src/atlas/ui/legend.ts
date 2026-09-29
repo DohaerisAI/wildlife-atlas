@@ -1,3 +1,4 @@
+import type { Meta } from '../../types';
 import { h } from '../../ui/dom';
 
 /** Every colour and motion on the globe, what it means and where it comes from (spec 8, "Real" law). */
@@ -15,10 +16,23 @@ export const LEGEND: readonly { swatch: string; name: string; meaning: string; s
   { swatch: 'lights', name: 'City lights', meaning: 'Night-time light, shown only on the night side of today\'s sun', source: 'VIIRS, 2022–2024' },
 ];
 
-export function legendPanel(onClose: () => void): HTMLElement {
+const METHODS: readonly [string, string][] = [
+  ['Species glow and lists', 'GBIF occurrence records (mostly eBird and iNaturalist) counted per 1° grid cell and calendar month, all years combined. A species\' rate is its share of the cell\'s bird records that month, so it reflects reporting as well as birds.'],
+  ['Year-round, seasonal, passage', 'Classified per cell from the shape of the 12-month record pattern; months marked present drive "arriving" and "leaving".'],
+  ['Coverage', 'Well recorded, some records or limited data, from the number of records in the cell and month.'],
+  ['Environment', 'Monthly climatologies from Earth Engine (water, snow, greenness, wind, temperature, currents, chlorophyll) and static land cover, relief and night lights. Each value on screen names its dataset.'],
+  ['Photos and facts', 'Wikidata, Wikipedia and Wikimedia Commons. Each photo shows its author and licence.'],
+];
+
+export function legendPanel(onClose: () => void, meta?: Meta, packAttribution?: string): HTMLElement {
   return h('aside', { class: 'legend', 'aria-label': 'What you are seeing' },
     h('header', { class: 'lg-head' }, h('p', { class: 'kicker' }, 'What you are seeing'), h('button', { class: 'x', type: 'button', 'aria-label': 'Close', onclick: onClose }, '×')),
     h('ul', {}, ...LEGEND.map((l) => h('li', {}, h('span', { class: `sw sw-${l.swatch}`, 'aria-hidden': 'true' }),
       h('span', {}, h('strong', {}, l.name), h('span', { class: 'lg-meaning' }, l.meaning), h('span', { class: 'lg-src' }, l.source))))),
-    h('p', { class: 'legend-note' }, 'Every moving or coloured thing is bound to a named dataset and month. Hover the globe to read the values.'));
+    h('p', { class: 'legend-note' }, 'Every moving or coloured thing is bound to a named dataset and month. Hover the globe to read the values.'),
+    h('h3', { class: 'pv-h lg-sub' }, 'Data and methods'),
+    h('dl', { class: 'lg-methods' }, ...METHODS.map(([k, v]) => h('div', {}, h('dt', {}, k), h('dd', {}, v)))),
+    meta ? h('p', { class: 'lg-src' }, `Species data: ${meta.source.name}, ${meta.source.years}; generated ${meta.generated.slice(0, 10)}. `, h('a', { href: meta.source.url, target: '_blank', rel: 'noopener' }, 'Source query on GBIF')) : null,
+    packAttribution ? h('p', { class: 'lg-src' }, `Environment: ${packAttribution}`) : null,
+    h('p', { class: 'lg-src' }, 'Downloads: open a place or species and use "For researchers". Code and pipeline: ', h('a', { href: 'https://github.com/DohaerisAI/wildlife-atlas', target: '_blank', rel: 'noopener' }, 'github.com/DohaerisAI/wildlife-atlas'), '.'));
 }

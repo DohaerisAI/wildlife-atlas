@@ -2,6 +2,20 @@ import { PRESENCE_ORDER } from '../constants';
 import type { CellDetail, CellSpecies, Month, Presence } from '../types';
 
 export type Doing = 'arriving' | 'leaving' | 'staying' | 'passing' | 'resident' | 'recorded';
+/** how often it turns up in this month's records here, relative to the most-reported species */
+export type Reported = 'often' | 'sometimes' | 'rarely';
+
+/** Relative to the top species this month: at least a quarter of its records is "often", a twentieth "sometimes". */
+const OFTEN = 0.25;
+const SOMETIMES = 0.05;
+/** a handful of records is rare whatever the ratio */
+const FEW_RECORDS = 3;
+
+export function reportedTier(count: number, topCount: number): Reported {
+  if (count < FEW_RECORDS || topCount <= 0) return 'rarely';
+  const ratio = count / topCount;
+  return ratio >= OFTEN ? 'often' : ratio >= SOMETIMES ? 'sometimes' : 'rarely';
+}
 
 export interface PlaceRow {
   readonly key: string;
@@ -9,6 +23,9 @@ export interface PlaceRow {
   readonly doing: Doing;
   /** share of this month's records here */
   readonly share: number;
+  /** this month's records of the species here */
+  readonly count: number;
+  readonly reported: Reported;
   /** share of records per month, Jan..Dec, for the 12-month strip */
   readonly months: readonly number[];
 }
@@ -22,6 +39,8 @@ export interface PlaceSummary {
   readonly richness: readonly number[];
   /** how many are moving (arriving, leaving, passing) this month */
   readonly moving: number;
+  /** all bird records here this month, every year combined: how much the list rests on */
+  readonly records: number;
 }
 
 function doingOf(s: CellSpecies, i: number): Doing {
@@ -40,11 +59,15 @@ const listedIn = (s: CellSpecies, i: number) =>
 export function placeSummary(cell: CellDetail, month: Month): PlaceSummary {
   const i = month - 1;
   const totalAt = (j: number) => cell.total[j] ?? 0;
-  const rows = cell.species.filter((s) => listedIn(s, i)).map((s): PlaceRow => ({
+  const listed = cell.species.filter((s) => listedIn(s, i));
+  const top = Math.max(0, ...listed.map((s) => s.c[i] ?? 0));
+  const rows = listed.map((s): PlaceRow => ({
     key: s.k,
     presence: s.p,
     doing: doingOf(s, i),
     share: totalAt(i) > 0 ? (s.c[i] ?? 0) / totalAt(i) : 0,
+    count: s.c[i] ?? 0,
+    reported: reportedTier(s.c[i] ?? 0, top),
     months: s.c.map((c, j) => (totalAt(j) > 0 ? c / totalAt(j) : 0)),
   }));
   const groups = PRESENCE_ORDER
@@ -52,5 +75,5 @@ export function placeSummary(cell: CellDetail, month: Month): PlaceSummary {
     .filter((g) => g.rows.length > 0);
   const richness = Array.from({ length: 12 }, (_, j) => cell.species.filter((s) => listedIn(s, j)).length);
   const moving = rows.filter((r) => r.doing === 'arriving' || r.doing === 'leaving' || r.doing === 'passing').length;
-  return { groups, total: rows.length, richness, moving };
+  return { groups, total: rows.length, richness, moving, records: totalAt(i) };
 }

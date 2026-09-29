@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { CellDetail, SpeciesRange } from '../types';
-import { placeSummary } from './place-summary';
+import { placeSummary, reportedTier } from './place-summary';
 import { speciesSummary } from './species-summary';
 
 const on = (months: number[]) => Array.from({ length: 12 }, (_, i) => (months.includes(i + 1) ? 1 : 0));
@@ -25,6 +25,20 @@ describe('place summary', () => {
     expect(doing).toEqual({ bulbul: 'resident', wagtail: 'arriving', cuckoo: 'leaving', falcon: 'passing' });
     expect(s.moving).toBe(3);
     expect(s.total).toBe(4);
+    expect(s.records).toBe(100);
+  });
+
+  it('says how often each species is reported relative to the most-reported one', () => {
+    const rows = Object.fromEntries(placeSummary(CELL, 10).groups.flatMap((g) => g.rows).map((r) => [r.key, r.reported]));
+    expect(rows).toMatchObject({ bulbul: 'often', falcon: 'often', wagtail: 'often', cuckoo: 'sometimes' });
+  });
+
+  it('calls a handful of records rare whatever the ratio', () => {
+    expect(reportedTier(2, 2)).toBe('rarely');
+    expect(reportedTier(40, 100)).toBe('often');
+    expect(reportedTier(10, 100)).toBe('sometimes');
+    expect(reportedTier(4, 100)).toBe('rarely');
+    expect(reportedTier(5, 0)).toBe('rarely');
   });
 
   it('wraps the year and charts richness per month', () => {

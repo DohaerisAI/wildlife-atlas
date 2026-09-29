@@ -60,3 +60,10 @@ export const notAvailable = (what = 'Not available from current sources') => h('
 
 export function fmtLat(lat: number): string { return `${Math.abs(lat).toFixed(0)}°${lat >= 0 ? 'N' : 'S'}`; }
 export function fmtLng(lng: number): string { return `${Math.abs(lng).toFixed(0)}°${lng >= 0 ? 'E' : 'W'}`; }
+
+/** A collapsible section: the panel stays short, detail is one tap away. */
+export function fold(title: string, open: boolean, ...children: (Node | string | null | false)[]): HTMLElement {
+  const d = h('details', { class: 'pv-fold' }, h('summary', { class: 'pv-h' }, title), h('div', { class: 'pv-fold-body' }, ...children));
+  (d as HTMLDetailsElement).open = open;
+  return d;
+}

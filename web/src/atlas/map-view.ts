@@ -1,12 +1,17 @@
-import type { ExpressionSpecification, GeoJSONSource, Map as MlMap, Marker } from 'maplibre-gl';
+import type { ImageSource, Map as MlMap, Marker } from 'maplibre-gl';
 import { BASEMAP_STYLE } from '../constants';
 import { peakRate } from '../listing';
 import type { CellsIndex, SpeciesRange } from '../types';
+import { surfaceDataUrl, surfaceGrid, surfaceImage, type SurfaceGrid } from './smooth-surface';
 
 /** Below this zoom the map hands back to the globe. */
 export const MAP_MIN_ZOOM = 4.3;
-const SRC = { cells: 'atlas-cells', range: 'atlas-range' } as const;
-const LAYER = { cells: 'atlas-cells-fill', range: 'atlas-range-fill', rangeLine: 'atlas-range-line', selected: 'atlas-selected' } as const;
+const SRC = { cells: 'atlas-cells', rich: 'atlas-rich', range: 'atlas-range' } as const;
+const LAYER = { rich: 'atlas-rich-wash', range: 'atlas-range-wash', selected: 'atlas-selected' } as const;
+const WATER: readonly [number, number, number] = [98, 214, 242];
+const AMBER: readonly [number, number, number] = [255, 178, 107];
+/** peak opacity of each wash; the value itself rides in the image's alpha */
+const OPACITY = { rich: 0.34, range: 0.6 } as const;
 
 export interface AtlasMap {
   show(center: { lng: number; lat: number }, zoom: number, animate: boolean): void;
@@ -27,7 +32,6 @@ const square = (id: string, size: number, props: Record<string, number | string>
   const [lat, lng] = id.split('_').map(Number) as [number, number];
   return { type: 'Feature', properties: { id, ...props }, geometry: { type: 'Polygon', coordinates: [[[lng, lat], [lng + size, lat], [lng + size, lat + size], [lng, lat + size], [lng, lat]]] } };
 };
-const months = (prefix: string, v: readonly number[]) => Object.fromEntries(v.map((x, i) => [`${prefix}${i + 1}`, x]));
 
 /** The first label layer of the basemap: our data goes under it, so town names stay readable on top. */
 const firstSymbol = (map: MlMap) => map.getStyle().layers?.find((l) => l.type === 'symbol')?.id;
@@ -48,35 +52,43 @@ export async function createAtlasMap(container: HTMLElement, cells: CellsIndex):
   const maxRich = Math.max(1, ...cells.cells.flatMap((c) => c.richness));
   let month = 1;
   let ready = false;
-  let pendingRange: SpeciesRange | null | undefined;
   let marker: Marker | null = null;
+  let areaLabel: Marker | null = null;
   const pickFns: ((lng: number, lat: number) => void)[] = [];
   const outFns: ((at: { lng: number; lat: number }) => void)[] = [];
 
+  const grid: SurfaceGrid | null = surfaceGrid(cells.cells.map((c) => c.id), cells.cellSize);
+  const richOf = new Map(cells.cells.map((c) => [c.id, c.richness]));
+  let range: SpeciesRange | null = null;
+  const draw = (src: string, value: (id: string) => number, rgb: readonly [number, number, number]) => {
+    if (!ready || !grid) return;
+    const img = surfaceImage(grid, value, rgb);
+    (map.getSource(src) as ImageSource).updateImage({ url: surfaceDataUrl(img), coordinates: img.coordinates });
+  };
   const paint = () => {
-    if (!ready) return;
-    const n = ['coalesce', ['get', `n${month}`], 0] as ExpressionSpecification;
-    map.setPaintProperty(LAYER.cells, 'fill-opacity', ['interpolate', ['linear'], n, 0, 0, maxRich, 0.34] as ExpressionSpecification);
-    const v = ['coalesce', ['get', `v${month}`], 0] as ExpressionSpecification;
-    map.setPaintProperty(LAYER.range, 'fill-opacity', ['interpolate', ['linear'], v, 0, 0, 0.02, 0.12, 1, 0.55] as ExpressionSpecification);
-    map.setPaintProperty(LAYER.rangeLine, 'line-opacity', ['case', ['>', v, 0], 0.6, 0] as ExpressionSpecification);
-  };
-  const applyRange = (range: SpeciesRange | null) => {
+    const i = month - 1;
+    draw(SRC.rich, (id) => (richOf.get(id)?.[i] ?? 0) / maxRich, WATER);
     const peak = range ? peakRate(range.cells) || 1 : 1;
-    const data = { type: 'FeatureCollection' as const, features: range ? Object.entries(range.cells).map(([id, c]) => square(id, cells.cellSize, months('v', c.r.map((r) => r / peak)))) : [] };
-    (map.getSource(SRC.range) as GeoJSONSource).setData(data);
+    const rc = range?.cells;
+    // a small floor so a single record still shows as a faint glow, as the old fill did
+    draw(SRC.range, (id) => { const r = rc?.[id]?.r[i] ?? 0; return r > 0 ? 0.2 + 0.8 * (r / peak) : 0; }, AMBER);
   };
+  const applyRange = (next: SpeciesRange | null) => { range = next; paint(); };
 
   map.on('style.load', () => {
     const below = firstSymbol(map);
-    map.addSource(SRC.cells, { type: 'geojson', data: { type: 'FeatureCollection', features: cells.cells.map((c) => square(c.id, cells.cellSize, months('n', c.richness))) } });
-    map.addSource(SRC.range, { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
-    map.addLayer({ id: LAYER.cells, type: 'fill', source: SRC.cells, paint: { 'fill-color': '#62d6f2', 'fill-opacity': 0 } }, below);
-    map.addLayer({ id: LAYER.range, type: 'fill', source: SRC.range, paint: { 'fill-color': '#ffb26b', 'fill-opacity': 0 } }, below);
-    map.addLayer({ id: LAYER.rangeLine, type: 'line', source: SRC.range, paint: { 'line-color': '#ffb26b', 'line-width': 0.6, 'line-opacity': 0 } }, below);
+    map.addSource(SRC.cells, { type: 'geojson', data: { type: 'FeatureCollection', features: cells.cells.map((c) => square(c.id, cells.cellSize, {})) } });
+    if (grid) {
+      const blank = surfaceImage(grid, () => 0, WATER);
+      const url = surfaceDataUrl(blank);
+      map.addSource(SRC.rich, { type: 'image', url, coordinates: blank.coordinates });
+      map.addSource(SRC.range, { type: 'image', url, coordinates: blank.coordinates });
+      const rasterPaint = (opacity: number) => ({ 'raster-opacity': opacity, 'raster-resampling': 'linear' as const, 'raster-fade-duration': 0 });
+      map.addLayer({ id: LAYER.rich, type: 'raster', source: SRC.rich, paint: rasterPaint(OPACITY.rich) }, below);
+      map.addLayer({ id: LAYER.range, type: 'raster', source: SRC.range, paint: rasterPaint(OPACITY.range) }, below);
+    }
     map.addLayer({ id: LAYER.selected, type: 'line', source: SRC.cells, filter: ['==', ['get', 'id'], ''], paint: { 'line-color': '#e8edf1', 'line-width': 1.6, 'line-dasharray': [2, 2] } }, below);
     ready = true;
-    if (pendingRange !== undefined) applyRange(pendingRange);
     paint();
   });
   map.on('click', (e) => pickFns.forEach((fn) => fn(e.lngLat.lng, e.lngLat.lat)));
@@ -98,15 +110,25 @@ export async function createAtlasMap(container: HTMLElement, cells: CellsIndex):
     },
     visible: () => !container.hidden && container.classList.contains('is-on'),
     setMonth(m) { if (m !== month) { month = m; paint(); } },
-    setRange(range) { if (ready) applyRange(range); else pendingRange = range; },
+    setRange(next) { applyRange(next); },
     setPlace(place) {
       marker?.remove();
+      areaLabel?.remove();
       marker = null;
+      areaLabel = null;
       if (ready) map.setFilter(LAYER.selected, ['==', ['get', 'id'], place?.cellId ?? '']);
       if (!place) return;
       const el = document.createElement('div');
       el.className = 'map-pin';
       marker = new MarkerCtor({ element: el }).setLngLat([place.lng, place.lat]).addTo(map);
+      if (place.cellId) {
+        // say what the dashed square is, at its top-left corner
+        const [lat, lng] = place.cellId.split('_').map(Number) as [number, number];
+        const tag = document.createElement('div');
+        tag.className = 'map-area-label';
+        tag.textContent = `Species list covers this ~${Math.round(cells.cellSize * 110)} km square`;
+        areaLabel = new MarkerCtor({ element: tag, anchor: 'bottom-left' }).setLngLat([lng, lat + cells.cellSize]).addTo(map);
+      }
     },
     setPadding(right, bottom) { map.setPadding({ top: 70, left: 0, right, bottom }); },
     center() { const c = map.getCenter(); return { lng: c.lng, lat: c.lat, zoom: map.getZoom() }; },

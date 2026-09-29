@@ -5,6 +5,9 @@ export interface TimelineHandlers {
   onScrub(t: number): void;
   onMonth(month: number): void;
   onTogglePlay(): void;
+  /** step one month back (-1) or forward (+1), landing mid-month */
+  onStep(dir: -1 | 1): void;
+  onToday(): void;
 }
 
 export interface Timeline {
@@ -17,9 +20,19 @@ export interface Timeline {
 const SVG = 'http://www.w3.org/2000/svg';
 
 /** Month control along the bottom (spec 3.2 / 8): the date is always visible, the season is drawn behind it. */
+/** Today as a year position (months, 0 = 1 Jan). */
+export function todayT(d = new Date()): number {
+  const days = new Date(d.getFullYear(), d.getMonth() + 1, 0).getDate();
+  return d.getMonth() + (d.getDate() - 0.5) / days;
+}
+
 export function createTimeline(handlers: TimelineHandlers): Timeline {
   const play = h('button', { class: 'tl-play', type: 'button', 'aria-label': 'Play the year', onclick: handlers.onTogglePlay });
-  const date = h('p', { class: 'tl-date', 'aria-live': 'off' });
+  const date = h('p', { class: 'tl-date', 'aria-live': 'polite' });
+  const prev = h('button', { class: 'tl-step', type: 'button', 'aria-label': 'Previous month', onclick: () => handlers.onStep(-1) }, '‹');
+  const next = h('button', { class: 'tl-step', type: 'button', 'aria-label': 'Next month', onclick: () => handlers.onStep(1) }, '›');
+  const today = h('button', { class: 'tl-today', type: 'button', onclick: handlers.onToday, title: 'Back to this month' }, 'Today');
+  const res = h('span', { class: 'tl-res', title: 'The data are monthly: values change month to month, not day to day' }, 'Monthly data');
   const curveLabel = h('p', { class: 'tl-curve-label' });
   const svg = document.createElementNS(SVG, 'svg');
   svg.setAttribute('viewBox', '0 0 1200 60');
@@ -31,8 +44,9 @@ export function createTimeline(handlers: TimelineHandlers): Timeline {
   const months = h('div', { class: 'tl-months' }, ...MONTH_NAMES.map((m, i) => h('button', { type: 'button', class: 'tl-month', 'aria-label': MONTH_LONG[i], onclick: () => handlers.onMonth(i + 1) },
     h('span', { class: 'long' }, m), h('span', { class: 'short', 'aria-hidden': 'true' }, m.charAt(0)))));
   const head = h('span', { class: 'tl-head' });
-  const track = h('div', { class: 'tl-track', role: 'slider', tabindex: 0, 'aria-label': 'Time of year', 'aria-valuemin': 0, 'aria-valuemax': 12 }, svg, head);
-  const element = h('nav', { class: 'timeline', 'aria-label': 'Time of year' }, play, h('div', { class: 'tl-body' }, h('div', { class: 'tl-top' }, date, curveLabel), track, months));
+  const now = h('span', { class: 'tl-now', title: 'Today', style: `left:${(todayT() / 12) * 100}%` });
+  const track = h('div', { class: 'tl-track', role: 'slider', tabindex: 0, 'aria-label': 'Time of year', 'aria-valuemin': 0, 'aria-valuemax': 12 }, svg, now, head);
+  const element = h('nav', { class: 'timeline', 'aria-label': 'Time of year' }, play, h('div', { class: 'tl-body' }, h('div', { class: 'tl-top' }, prev, date, next, today, res, curveLabel), track, months));
 
   let t = 0;
   let dragging = false;
@@ -66,6 +80,7 @@ export function createTimeline(handlers: TimelineHandlers): Timeline {
         lastMonth = m;
         const day = Math.min(28, Math.floor((next - m) * 30) + 1);
         date.textContent = MONTH_LONG[m] ?? '';
+        today.hidden = m === new Date().getMonth();
         track.setAttribute('aria-valuetext', `${day} ${MONTH_LONG[m]}`);
         months.querySelectorAll('.tl-month').forEach((b, i) => b.classList.toggle('is-now', i === m));
       }

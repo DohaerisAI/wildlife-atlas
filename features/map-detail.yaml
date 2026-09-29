@@ -4,15 +4,18 @@ layer: L4
 status: building
 summary: >-
   The old map page is gone. Inside the atlas, zooming in past ~1,300 km (or searching a place, or Locate me)
-  crossfades to a dark MapLibre street map with town names; species richness is a faint wash, the followed
-  species amber, the picked place pinned; zooming out hands back to the globe. Locate me uses the browser's
+  crossfades to a dark MapLibre street map with town names; species richness is a faint wash and the followed
+  species amber, both drawn as one soft image blended between grid-cell centres (no square tiles), the picked place pinned; zooming out hands back to the globe. Locate me uses the browser's
   location only when asked and explains every failure.
 paths:
   - web/src/atlas/map-view.ts
+  - web/src/atlas/smooth-surface.ts
   - web/src/atlas/locate.ts
   - web/src/atlas/app.ts
 checks:
   - suite: vitest
     file: src/atlas/locate.test.ts
+  - suite: vitest
+    file: src/atlas/smooth-surface.test.ts
 next: >-
   Observation clusters at local zoom where permitted; place names on the globe at mid zoom.

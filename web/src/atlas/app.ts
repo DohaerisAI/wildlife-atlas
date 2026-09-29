@@ -25,7 +25,10 @@ import { placeView } from './ui/place-view';
 import { createProbe } from './ui/probe';
 import { searchBox } from './ui/search';
 import { speciesView } from './ui/species-view';
-import { createTimeline } from './ui/timeline';
+import { createTimeline, todayT } from './ui/timeline';
+import { filterRows, type PlaceFilter } from './ui/place-view';
+import { monthlyRegions, type MonthPlace } from './regions';
+import { citation, download, placeCsv, speciesCsv } from './research';
 
 const DEFAULT_SPECIES = 'falco amurensis';
 const PARTICLES = 5000;
@@ -42,7 +45,7 @@ export interface AtlasRoots { stage: HTMLElement; pins: HTMLElement; ui: HTMLEle
 const HANDOFF_KM = 1300;
 const PLACE_ZOOM = 10;
 
-interface SpeciesData { entry: SpeciesIndexEntry; flow: FlowField; summary: SpeciesSummary; profile: SpeciesProfile | null; range: SpeciesRange }
+interface SpeciesData { entry: SpeciesIndexEntry; flow: FlowField; summary: SpeciesSummary; profile: SpeciesProfile | null; range: SpeciesRange; regions: { months: MonthPlace[]; india: number[] } }
 
 const wide = () => window.matchMedia('(min-width: 900px)').matches;
 
@@ -60,7 +63,10 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
   const store = createStore({ t: month - 1 + 0.5, playing: false, species: null, place: null, panel: null, follow: false });
   const globe = createAtlasGlobe(roots.stage, roots.pins, mask, reduced);
   globe.setEnvironment(ENV);
-  globe.onEarth((le) => { roots.env.textContent = le.hasWorld ? `${envCaption(ENV)} · Land (ESA WorldCover) · Ocean (HYCOM, MODIS-Aqua) · Lights (VIIRS)` : envCaption(ENV); });
+  let packCredit = '';
+  globe.onEarth((le) => {
+    packCredit = le.manifest.attribution;
+    roots.env.textContent = le.hasWorld ? `${envCaption(ENV)} · Land (ESA WorldCover) · Ocean (HYCOM, MODIS-Aqua) · Lights (VIIRS)` : envCaption(ENV); });
   const clock = createClock(store.get().t, reduced);
 
   // ---------- chrome ----------
@@ -81,7 +87,7 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
     void enterMap(c.lng, c.lat, store.get().place ? PLACE_ZOOM : 5.5, true);
   } }, 'Street map');
   const legendSlot = h('div', { class: 'legend-slot' });
-  const toggleLegend = () => { if (legendSlot.firstChild) legendSlot.replaceChildren(); else legendSlot.replaceChildren(legendPanel(() => legendSlot.replaceChildren())); };
+  const toggleLegend = () => { if (legendSlot.firstChild) legendSlot.replaceChildren(); else legendSlot.replaceChildren(legendPanel(() => legendSlot.replaceChildren(), meta, packCredit)); };
   const top = h('header', { class: 'topbar' },
     h('a', { class: 'brand', href: './' }, 'Wildlife Atlas'),
     searchBox(index, thumbOf, { onSpecies: (k) => void selectSpecies(k, true), onPlace: (p) => pickPlace(p.lng, p.lat, { name: p.label, detail: p.detail }, true, true) }),
@@ -95,7 +101,10 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
     onScrub: (t) => { clock.pause(); clock.set(t); },
     onMonth: (m) => { clock.pause(); clock.glideTo(m - 1 + 0.5, reduced ? 0 : 900); },
     onTogglePlay: () => { if (clock.playing()) clock.pause(); else { clock.play(); store.set({ follow: true }); } },
+    onStep: (dir) => stepMonth(dir),
+    onToday: () => { clock.pause(); clock.glideTo(todayT(), reduced ? 0 : 900); },
   });
+  const stepMonth = (dir: -1 | 1) => { clock.pause(); const m = Math.floor(clock.time()); clock.glideTo((((m + dir) % 12) + 12) % 12 + 0.5, reduced ? 0 : 600); };
   const probe = createProbe();
   const panel = createPanel((v) => store.set({ panel: v }), () => store.set({ panel: null }));
   const follow = h('button', { class: 'chip follow', type: 'button', 'aria-pressed': 'false', onclick: () => store.set({ follow: !store.get().follow }) }, 'Follow the flock');
@@ -117,7 +126,7 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
       const [range, profile] = await Promise.all([loadRange(key), loadProfile(entry.sci).catch((err) => { console.warn('Profile unavailable', entry.sci, err); return null; })]);
       if (token !== speciesToken) return;
       const flow = buildFlow(range, cells.cellSize, PARTICLES, 11);
-      species = { entry, flow, summary: speciesSummary(range, cells.cellSize), profile, range };
+      species = { entry, flow, summary: speciesSummary(range, cells.cellSize), profile, range, regions: monthlyRegions(range, cells.cellSize, (id) => cellSet.has(id)) };
       atlasMap?.setRange(range);
       globe.setFlow(flow);
       timeline.setCurve(species.summary.presence, `${entry.name || entry.sci} · recorded presence through the year`);
@@ -148,6 +157,8 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
     const token = ++placeToken;
     cell = null;
     cellStatus = cellId ? 'loading' : 'none';
+    filterChoice = null;
+    shown = PAGE;
     store.set({ place, panel: 'place' });
     globe.setPlace({ lng, lat, label: named?.name ?? `${fmtLat(lat)} ${fmtLng(lng)}` });
     atlasMap?.setPlace(place);
@@ -197,6 +208,20 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
     render();
   }
 
+  // ---------- place list state: which filter, how many rows ----------
+  const PAGE = 12;
+  let filterChoice: PlaceFilter | null = null;
+  let shown = PAGE;
+  /** the visitor's choice, else "on the move" when anything is moving this month, else all */
+  const placeFilter = (): PlaceFilter => {
+    if (filterChoice) return filterChoice;
+    const s = cell ? placeSummary(cell, monthOf(store.get().t)) : null;
+    return s && filterRows(s, 'moving').length ? 'moving' : 'all';
+  };
+  const copyText = (text: string) => {
+    navigator.clipboard?.writeText(text).then(() => say('Citation copied.'), () => say(text));
+  };
+
   // ---------- render ----------
   const tabLabel = (s: AtlasState) => ({
     place: s.place ? (s.place.name ?? 'This place') : null,
@@ -205,7 +230,7 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
   function render() {
     const s = store.get();
     const m = monthOf(s.t) - 1;
-    where.textContent = `${s.place?.name ?? 'The whole planet'} · ${MONTH_LONG[m]}`;
+    where.textContent = `${s.place ? (s.place.name ?? `${fmtLat(s.place.lat)} ${fmtLng(s.place.lng)}`) : 'The whole planet'} · ${MONTH_LONG[m]}`;
     follow.setAttribute('aria-pressed', String(s.follow));
     const open = s.panel !== null && (s.panel === 'place' ? s.place !== null : s.species !== null);
     document.body.classList.toggle('panel-open', open);
@@ -219,14 +244,26 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
       panel.show('place', tabLabel(s), placeView({
         place: s.place, month: m, status: cellStatus, summary: cell ? placeSummary(cell, (m + 1) as 1) : null,
         coverage: s.place.cellId ? coverage.get(s.place.cellId)?.[m] ?? null : null,
-        env: globe.sample(s.place.lng, s.place.lat), species: byKey, thumbOf,
-      }, { onSpecies: (k) => void selectSpecies(k, false), onMonth: (mm) => timelineMonth(mm), onShowMap: () => pickPlace(s.place!.lng, s.place!.lat, s.place!.name ? { name: s.place!.name, detail: s.place!.detail ?? '' } : null, true, true) }));
+        env: globe.sample(s.place.lng, s.place.lat), species: byKey, thumbOf, filter: placeFilter(), shown, cellSize: cells.cellSize,
+      }, {
+        onFilter: (f) => { filterChoice = f; shown = PAGE; render(); },
+        onMore: () => { shown += 24; render(); },
+        onDownload: () => { if (cell) download(`wildlife-atlas_${cell.id}.csv`, placeCsv(cell, byKey)); },
+        onCite: () => copyText(citation(meta, `Birds recorded in grid cell ${s.place!.cellId}${s.place!.name ? ` (${s.place!.name})` : ''}`, new Date())),
+        onSpecies: (k) => void selectSpecies(k, false), onMonth: (mm) => timelineMonth(mm), onShowMap: () => pickPlace(s.place!.lng, s.place!.lat, s.place!.name ? { name: s.place!.name, detail: s.place!.detail ?? '' } : null, true, true) }));
     } else if (s.panel === 'species') {
       const entry = s.species ? byKey.get(s.species) : null;
       if (!entry) return;
       panel.show('species', tabLabel(s), species && species.entry.k === entry.k
-        ? speciesView({ entry, profile: species.profile, summary: species.summary, month: m, meta }, {
-          onJourney: (lng, lat) => { store.set({ follow: false }); globe.flyTo({ lng, lat, altitudeKm: SPECIES_ALT_KM }); },
+        ? speciesView({ entry, profile: species.profile, summary: species.summary, month: m, meta, regions: species.regions }, {
+          onJourney: (lng, lat, mm) => {
+            store.set({ follow: false });
+            timelineMonth(mm);
+            if (mode === 'map') exitMap({ lng, lat });
+            globe.flyTo({ lng, lat, altitudeKm: SPECIES_ALT_KM });
+          },
+          onDownload: () => download(`wildlife-atlas_${entry.sci.replace(/\s+/g, '-').toLowerCase()}.csv`, speciesCsv(species!.range, cells.cellSize, entry)),
+          onCite: () => copyText(citation(meta, `Monthly recorded presence of ${entry.sci}`, new Date())),
           onMonth: (mm) => timelineMonth(mm),
         })
         : h('p', { class: 'na pad' }, speciesFailed === entry.k ? `${entry.name || entry.sci} could not load. Try again or pick another species.` : `Loading ${entry.name || entry.sci}…`));
@@ -247,6 +284,8 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
   });
   window.addEventListener('keydown', (e) => {
     const t = e.target as HTMLElement | null;
+    const typing = t?.closest('input, textarea, [contenteditable]');
+    if (!typing && (e.key === '[' || e.key === ']')) { stepMonth(e.key === '[' ? -1 : 1); return; }
     if (e.key !== 'Escape' || e.defaultPrevented || t?.closest('.search, .legend')) return;
     store.set({ panel: null });
   });

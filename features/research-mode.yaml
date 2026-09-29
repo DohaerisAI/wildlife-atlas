@@ -1,8 +1,16 @@
 id: research-mode
 title: Research mode
 layer: L4
-status: idea
+status: building
 summary: >-
-  Methods, uncertainty, downloads with DOIs and an API.
-paths: []
-checks: []
+  "For researchers" in every place and species: CSV downloads (a cell's species with records and presence
+  for all 12 months plus effort; a species' monthly rate per 1° cell), grid cell and bounds, suggested
+  citation with data version; the legend lists data sources, versions and methods.
+paths:
+  - web/src/atlas/research.ts
+  - web/src/atlas/ui/legend.ts
+checks:
+  - suite: vitest
+    file: src/atlas/research-regions.test.ts
+next: >-
+  Uncertainty per value, GBIF download DOIs from the pipeline, an API.
