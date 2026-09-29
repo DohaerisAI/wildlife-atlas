@@ -19,6 +19,8 @@ export interface WorldV2 {
   update(t: number, dt: number, ch: WorldChannels, camera: PerspectiveCamera): void;
   sample(lng: number, lat: number, t: number): EnvReadingV2 | null;
   setTier(s: TierSettings): void;
+  /** land.png pixels on the CPU (probe mode only), for redrawing the land elsewhere */
+  landPixels(): { data: Uint8ClampedArray; width: number; height: number } | null;
   dispose(): void;
 }
 
@@ -107,6 +109,7 @@ export function attachWorldV2(pack: LoadedPackV2, surfaceTexture: Texture, scene
       };
     },
     setTier(next) { currents.resize(Math.round(next.windStreaks * 0.8)); },
+    landPixels: () => (pack.landPixels ? { data: pack.landPixels, width: lw, height: lh } : null),
     dispose() {
       scene.remove(ocean.mesh, currents.lines);
       ocean.dispose(); currents.dispose();

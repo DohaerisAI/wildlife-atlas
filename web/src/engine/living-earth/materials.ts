@@ -8,6 +8,8 @@ import type { EnvReading, EnvReadingV2 } from './reading';
 import { attachWorldV2, type WorldChannels, type WorldV2 } from './world-v2';
 import { isV2, loadPackV2 } from './pack-v2';
 import type { Globe } from '../globe/globe';
+import type { LandTintSource } from './land-tint';
+import { paletteArray } from './land-classes';
 import { sampleValue, type MonthlyPixels } from './sampler';
 import { SurfaceLayer } from './surface-layer';
 import { WindLayer } from './wind-layer';
@@ -36,6 +38,8 @@ export interface LivingEarth {
   sample(lng: number, lat: number, t: number): { reading: EnvReading; onLand: boolean; v2: EnvReadingV2 | null } | null;
   /** true when pack v2 layers (land, ocean, relief, lights) are on the globe */
   readonly hasWorld: boolean;
+  /** what the street map needs to paint the same land look (pack v2 in probe mode) */
+  tintSource(): LandTintSource | null;
   dispose(): void;
 }
 
@@ -76,6 +80,12 @@ export async function createLivingEarth(baseUrl: string, scene: Scene, mask: Lan
   return {
     manifest,
     hasWorld: world !== null,
+    tintSource() {
+      const landPx = world?.landPixels();
+      if (!landPx || !surfacePx) return null;
+      const nd = channel(manifest.surface, 'ndvi');
+      return { land: landPx, surface: surfacePx, ndvi: { lo: nd.lo, hi: nd.hi }, palette: paletteArray() };
+    },
     sample(lng, lat, t) {
       if (!surfacePx) return null;
       const reading: EnvReading = {

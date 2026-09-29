@@ -1,13 +1,15 @@
-import type { ImageSource, Map as MlMap, Marker } from 'maplibre-gl';
+import type { CanvasSource, ImageSource, Map as MlMap, Marker } from 'maplibre-gl';
 import { BASEMAP_STYLE } from '../constants';
 import { peakRate } from '../listing';
 import type { CellsIndex, SpeciesRange } from '../types';
+import { landTint, TINT_LAT, type LandTintSource } from '../engine/living-earth/land-tint';
 import { surfaceDataUrl, surfaceGrid, surfaceImage, type SurfaceGrid } from './smooth-surface';
 
 /** Below this zoom the map hands back to the globe. */
 export const MAP_MIN_ZOOM = 4.3;
-const SRC = { cells: 'atlas-cells', rich: 'atlas-rich', range: 'atlas-range' } as const;
-const LAYER = { rich: 'atlas-rich-wash', range: 'atlas-range-wash', selected: 'atlas-selected' } as const;
+const SRC = { cells: 'atlas-cells', rich: 'atlas-rich', range: 'atlas-range', tint: 'atlas-land-tint' } as const;
+const TINT_W = 2048;
+const LAYER = { tint: 'atlas-land-tint', rich: 'atlas-rich-wash', range: 'atlas-range-wash', selected: 'atlas-selected' } as const;
 const WATER: readonly [number, number, number] = [98, 214, 242];
 const AMBER: readonly [number, number, number] = [255, 178, 107];
 /** peak opacity of each wash; the value itself rides in the image's alpha */
@@ -18,6 +20,8 @@ export interface AtlasMap {
   hide(): void;
   visible(): boolean;
   setMonth(month: number): void;
+  /** paint the Living Earth land look under the streets, for the fractional month t */
+  setLandTint(src: LandTintSource | null, t: number): void;
   setRange(range: SpeciesRange | null): void;
   setPlace(place: { lng: number; lat: number; cellId: string | null } | null): void;
   setPadding(right: number, bottom: number): void;
@@ -75,8 +79,35 @@ export async function createAtlasMap(container: HTMLElement, cells: CellsIndex):
   };
   const applyRange = (next: SpeciesRange | null) => { range = next; paint(); };
 
+  // Living Earth land look, redrawn in Mercator on a canvas: 20 km pixels, enough as a tint under the streets
+  const tintCanvas = document.createElement('canvas');
+  tintCanvas.width = TINT_W;
+  tintCanvas.height = Math.round((TINT_W * 2 * Math.log(Math.tan(Math.PI / 4 + (TINT_LAT * Math.PI) / 360))) / (2 * Math.PI));
+  let tintDrawn: { src: LandTintSource; month: number } | null = null;
+  let tintPending: { src: LandTintSource; t: number } | null = null;
+  const drawTint = (src: LandTintSource, t: number) => {
+    const month = Math.round(t * 2) / 2; // redraw at most twice a month's worth of change
+    if (tintDrawn && tintDrawn.src === src && tintDrawn.month === month) return;
+    const ctx = tintCanvas.getContext('2d');
+    if (!ctx) return;
+    const px = landTint(src, month, tintCanvas.width, tintCanvas.height);
+    const img = ctx.createImageData(tintCanvas.width, tintCanvas.height);
+    img.data.set(px);
+    ctx.putImageData(img, 0, 0);
+    tintDrawn = { src, month };
+    const source = map.getSource(SRC.tint) as CanvasSource | undefined;
+    source?.play();
+    requestAnimationFrame(() => source?.pause());
+  };
+
   map.on('style.load', () => {
     const below = firstSymbol(map);
+    map.addSource(SRC.tint, { type: 'canvas', canvas: tintCanvas, animate: false, coordinates: [[-180, TINT_LAT], [180, TINT_LAT], [180, -TINT_LAT], [-180, -TINT_LAT]] });
+    // strong right after the hand-over from the globe, fading as streets take over
+    map.addLayer({ id: LAYER.tint, type: 'raster', source: SRC.tint, paint: {
+      'raster-opacity': ['interpolate', ['linear'], ['zoom'], 4, 0.95, 7, 0.85, 10, 0.55, 13, 0.3] as unknown as number,
+      'raster-resampling': 'linear', 'raster-fade-duration': 0, 'raster-saturation': -0.15,
+    } }, below);
     map.addSource(SRC.cells, { type: 'geojson', data: { type: 'FeatureCollection', features: cells.cells.map((c) => square(c.id, cells.cellSize, {})) } });
     if (grid) {
       const blank = surfaceImage(grid, () => 0, WATER);
@@ -90,6 +121,7 @@ export async function createAtlasMap(container: HTMLElement, cells: CellsIndex):
     map.addLayer({ id: LAYER.selected, type: 'line', source: SRC.cells, filter: ['==', ['get', 'id'], ''], paint: { 'line-color': '#e8edf1', 'line-width': 1.6, 'line-dasharray': [2, 2] } }, below);
     ready = true;
     paint();
+    if (tintPending) drawTint(tintPending.src, tintPending.t);
   });
   map.on('click', (e) => pickFns.forEach((fn) => fn(e.lngLat.lng, e.lngLat.lat)));
   map.on('zoomend', () => { if (!container.hidden && map.getZoom() < MAP_MIN_ZOOM) { const c = map.getCenter(); outFns.forEach((fn) => fn({ lng: c.lng, lat: c.lat })); } });
@@ -109,6 +141,11 @@ export async function createAtlasMap(container: HTMLElement, cells: CellsIndex):
       window.setTimeout(() => { if (!container.classList.contains('is-on')) container.hidden = true; }, 500);
     },
     visible: () => !container.hidden && container.classList.contains('is-on'),
+    setLandTint(src, t) {
+      if (!src) return;
+      tintPending = { src, t };
+      if (ready) drawTint(src, t);
+    },
     setMonth(m) { if (m !== month) { month = m; paint(); } },
     setRange(next) { applyRange(next); },
     setPlace(place) {

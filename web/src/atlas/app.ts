@@ -10,6 +10,7 @@ import type { CellDetail, SpeciesIndexEntry } from '../types';
 import { h } from '../ui/dom';
 import { cellIdAt, toMonth } from '../url-state';
 import { reversePlace } from './geocode';
+import type { LandTintSource } from '../engine/living-earth/land-tint';
 import { altitudeForZoom, locateMe, zoomForAltitude } from './locate';
 import { createAtlasMap, MAP_MIN_ZOOM, type AtlasMap } from './map-view';
 import type { SpeciesRange } from '../types';
@@ -64,8 +65,11 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
   const globe = createAtlasGlobe(roots.stage, roots.pins, mask, reduced);
   globe.setEnvironment(ENV);
   let packCredit = '';
+  let tintSrc: LandTintSource | null = null;
   globe.onEarth((le) => {
     packCredit = le.manifest.attribution;
+    tintSrc = le.tintSource();
+    atlasMap?.setLandTint(tintSrc, store.get().t);
     roots.env.textContent = le.hasWorld ? `${envCaption(ENV)} · Land (ESA WorldCover) · Ocean (HYCOM, MODIS-Aqua) · Lights (VIIRS)` : envCaption(ENV); });
   const clock = createClock(store.get().t, reduced);
 
@@ -182,6 +186,7 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
   const ensureMap = () => mapLoading ??= createAtlasMap(roots.map, cells).then((m) => {
     atlasMap = m;
     m.setMonth(monthOf(store.get().t));
+    m.setLandTint(tintSrc, store.get().t);
     if (species) m.setRange(species.range);
     m.setPlace(store.get().place);
     m.onPick((lng, lat) => pickPlace(lng, lat, null, false));
@@ -271,7 +276,7 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
   }
   const timelineMonth = (m: number) => { clock.pause(); clock.glideTo(m - 1 + 0.5, reduced ? 0 : 900); };
   store.subscribe((s, prev) => {
-    if (monthOf(s.t) !== monthOf(prev.t)) atlasMap?.setMonth(monthOf(s.t));
+    if (monthOf(s.t) !== monthOf(prev.t)) { atlasMap?.setMonth(monthOf(s.t)); if (mode === 'map') atlasMap?.setLandTint(tintSrc, monthOf(s.t) - 0.5); }
     if (monthOf(s.t) !== monthOf(prev.t) || s.panel !== prev.panel || s.place !== prev.place || s.species !== prev.species || s.follow !== prev.follow) render();
   });
 
