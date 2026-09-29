@@ -1,25 +1,25 @@
 id: map-detail
-title: Street map up close, find a place, locate me
+title: Up close on the one engine, find a place, locate me
 layer: L4
 status: building
 summary: >-
-  The old map page is gone. Inside the atlas, zooming in past ~1,300 km (or searching a place, or Locate me)
-  crossfades to a dark MapLibre street map with town names; species richness is a faint wash and the followed
-  species amber, both drawn as one soft image blended between grid-cell centres (no square tiles), the picked place pinned; zooming out hands back to the globe. Locate me uses the browser's
-  location only when asked and explains every failure. The Living Earth land look (class colours, this
-  month's greenness, relief) is painted under the streets at globe tone, fading as you zoom in, so the
-  hand-over feels like the same world. Hand-over: globe closer than 1,300 km (map zoom ~6); back below zoom 4.3.
+  The MapLibre street map is gone (decision 0010). The atlas zooms from space to ~3 km in one view on the tiled
+  Living Earth engine: our place names appear by population as you come down, the followed species' range is a
+  wash of its grid cells in its follow colour (below ~6,000 km), and the picked place is pinned with the ~110 km
+  cell its species list covers outlined. Search and "Show on map" fly there; Locate me uses the browser's
+  location only when asked, explains every failure and flies to town height. A Real colour toggle blends our
+  Sentinel-2 true-colour mosaic in where tiles have it. Old ?map= links open at the same place.
 paths:
-  - web/src/atlas/map-view.ts
-  - web/src/atlas/smooth-surface.ts
+  - web/src/atlas/globe.ts
+  - web/src/engine/layers/cell-layer.ts
   - web/src/atlas/locate.ts
   - web/src/atlas/app.ts
 checks:
   - suite: vitest
     file: src/atlas/locate.test.ts
   - suite: vitest
-    file: src/atlas/smooth-surface.test.ts
+    file: src/engine/layers/cell-layer.test.ts
   - suite: vitest
-    file: src/engine/living-earth/land-tint.test.ts
+    file: src/engine/tiles/lod.test.ts
 next: >-
-  Observation clusters at local zoom where permitted; place names on the globe at mid zoom.
+  Road rasters below ~50 km (plan step 4); observation clusters at local zoom where permitted.

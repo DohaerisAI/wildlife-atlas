@@ -42,4 +42,4 @@ checks:
     file: src/experiences/engine-hud.test.ts
 next: >-
   Plan steps 2-5 (docs/plans/one-engine.md): deeper tiles worldwide on R2, water/snow tiles, road rasters, then
-  move the atlas's street-map features onto this engine and remove MapLibre.
+  road rasters (step 4); the atlas already runs on this engine and MapLibre is removed (step 5).

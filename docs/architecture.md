@@ -54,7 +54,7 @@ A new product (for example the Living Earth packs) must ship its own manifest, a
 
 ## Engine principles
 - One clock (`createClock`) drives every view. Stories, scrubbing and playback all move the same `t` (months, mid-month anchored).
-- Renderers are swappable behind `SceneView`. The hologram (three.js) is the default, Earth (Cesium) handles realistic moments, and MapLibre handles street-level detail.
+- Renderers are swappable behind `SceneView`. The hologram (three.js) is the default and, with the tiled Living Earth engine (decision 0010), goes from space to a town in one view; Earth (Cesium) handles realistic moments. There is no street-map library.
 - Quality is chosen from measured frame time, never from device names (decision 0006).
 
 ## Quality gates

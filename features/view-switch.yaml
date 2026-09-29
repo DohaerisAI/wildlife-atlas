@@ -1,15 +1,17 @@
 id: view-switch
-title: Globe and street map in one atlas
+title: One view from space to town
 layer: L4
 status: working
 summary: >-
-  No separate views any more: the atlas moves between the globe and the street map by zoom, search or the
-  Globe / Street map button, carrying month, species and place.
+  No separate views and no hand-over: one engine carries month, species and place from the whole planet to a
+  town by zoom, search or Locate me (decision 0010). The story front door and the atlas share the engine.
 paths:
   - web/src/atlas/app.ts
-  - web/src/atlas/map-view.ts
+  - web/src/atlas/globe.ts
 checks:
   - suite: vitest
     file: src/atlas/locate.test.ts
+  - suite: vitest
+    file: src/experiences/engine-look.test.ts
 next: >-
   The Earth look as a third style on the same globe.
