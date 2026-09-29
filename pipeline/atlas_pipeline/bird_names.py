@@ -85,7 +85,7 @@ def resolve_names(wanted: Iterable[tuple[str, str | None, str | None]], http_get
         if rec is None:
             rec = {"key": sql_key or sci, "scientific": sci, "common": "", "family": sql_family or "", "order": "", "unmatched": "1"}
         cache[sci] = {**rec, "scientific": sci, "family": rec.get("family") or sql_family or ""}
-        if i % 200 == 0:
+        if i % 50 == 0:
             _save(cache_path, cache)
             log.info("names: %d/%d resolved", i, len(todo))
     _save(cache_path, cache)

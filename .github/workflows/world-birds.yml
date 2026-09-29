@@ -118,23 +118,49 @@ jobs:
           tar czf "shard-$s.tar.gz" -C data/world "shards/$s-pairs.parquet" "shards/$s-totals.parquet" "shards/$s.json"
           ls -la "shard-$s.tar.gz" && cat "data/world/shards/$s.json"
           gh release upload "$TAG" -R "$GITHUB_REPOSITORY" --clobber "shard-$s.tar.gz"
-      - name: Resolve names
-        if: ${{ steps.fetch.outputs.ok == 'true' }}
-        working-directory: pipeline
-        run: uv run atlas world-names
+      # Publish first with the names already known, so a region never waits on name lookups.
       - name: Build and publish the bundle
         if: ${{ steps.fetch.outputs.ok == 'true' }}
+        run: scripts/world-publish.sh "${{ matrix.shard }}"
+      - name: Resolve names (capped; progress is kept and later runs continue)
+        if: ${{ steps.fetch.outputs.ok == 'true' }}
+        working-directory: pipeline
         run: |
-          (cd pipeline && uv run atlas world-build)
-          tar czf bundle.tar.gz -C data/world bundle
-          cp data/world/bundle/coverage.json coverage.json
-          gh release upload "$TAG" -R "$GITHUB_REPOSITORY" --clobber bundle.tar.gz coverage.json data/world/names.json data/world/aves-checklist.json
-          {
-            echo "### World birds: ${{ matrix.shard }} published"
-            echo "- files: $(find data/world/bundle -type f | wc -l), size: $(du -sh data/world/bundle | cut -f1), gzipped: $(du -h bundle.tar.gz | cut -f1)"
-            python3 -c "import json; c=json.load(open('coverage.json')); print('- loaded: ' + ', '.join(r['name'] for r in c['regions'] if r['status']=='loaded'))"
-            python3 -c "import json; print('- species:', len(json.load(open('data/world/bundle/species.json'))), ' cells:', len(json.load(open('data/world/bundle/cells.json'))['cells']))"
-          } >> "$GITHUB_STEP_SUMMARY"
+          set +e
+          timeout 90m uv run atlas world-names
+          echo "names exit $?"
+          exit 0
+      - name: Republish with names
+        if: ${{ steps.fetch.outputs.ok == 'true' }}
+        run: scripts/world-publish.sh "${{ matrix.shard }}"
       - name: Remove the resume key once published
         if: ${{ steps.fetch.outputs.ok == 'true' }}
         run: gh release delete-asset "$TAG" "download-${{ matrix.shard }}.json" -R "$GITHUB_REPOSITORY" -y || true
+
+  names:
+    needs: shard
+    if: ${{ !cancelled() && !inputs.validate_only }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.2.0 # no moving major tag upstream
+      - run: cd pipeline && uv sync --quiet
+      - name: Restore published shards and names
+        run: |
+          mkdir -p rel data/world
+          gh release download "$TAG" -R "$GITHUB_REPOSITORY" -D rel -p 'shard-*.tar.gz' -p 'names.json' -p 'aves-checklist.json' || true
+          for f in rel/shard-*.tar.gz; do if [ -e "$f" ]; then tar xzf "$f" -C data/world; fi; done
+          for f in names.json aves-checklist.json; do if [ -e "rel/$f" ]; then cp "rel/$f" data/world/; fi; done
+          ls data/world/shards 2>/dev/null || echo "no shards yet"
+      - name: Resolve every name still missing (capped; re-run continues)
+        if: ${{ hashFiles('data/world/shards/*.json') != '' }}
+        working-directory: pipeline
+        run: |
+          set +e
+          timeout 330m uv run atlas world-names
+          echo "names exit $?"
+          exit 0
+      - name: Republish with names
+        if: ${{ hashFiles('data/world/shards/*.json') != '' }}
+        run: scripts/world-publish.sh names
