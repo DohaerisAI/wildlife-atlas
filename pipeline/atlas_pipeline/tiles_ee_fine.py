@@ -50,7 +50,7 @@ def _clear(im):
 def s2_ndvi_image(ee, level: int):
     """12 bands m1..m12 on the NDVI grid (64 px per tile at `level`)."""
     col = (ee.ImageCollection(S2).filterDate("2019-01-01", "2025-01-01").filter(ee.Filter.lt("CLOUDY_PIXEL_PERCENTAGE", 60))
-           .map(_clear).map(lambda im: im.normalizedDifference(["B8", "B4"]).rename("ndvi").copyProperties(im, ["system:time_start"])))
+           .map(_clear).map(lambda im: ee.Image(im.normalizedDifference(["B8", "B4"]).rename("ndvi").copyProperties(im, ["system:time_start"]))))
     proj = _proj(ee, level, 64)
     months = [col.filter(ee.Filter.calendarRange(m, m, "month")).median().reproject(proj).rename(f"m{m}") for m in range(1, 13)]
     return ee.Image.cat([m.unmask(SENTINEL).toFloat() for m in months])
