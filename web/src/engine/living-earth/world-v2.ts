@@ -6,10 +6,9 @@ import { sampleMask } from '../globe/mask';
 import { LAYER_ORDER } from '../layers/order';
 import { CURRENT } from './motion';
 import { OceanLayer } from './ocean-layer';
-import { monthBlend, tileOf } from './pack';
+import { decodeByte, monthBlend, tileOf } from './pack';
 import { currentsForSampler, decodeElevation, decodeFlagged, ELEVATION_LO, type LoadedPackV2 } from './pack-v2';
 import type { EnvReadingV2 } from './reading';
-import { sampleByte, type MonthlyPixels } from './sampler';
 import { atMonth, subsolarPoint } from './sun';
 import { WindLayer } from './wind-layer';
 
@@ -60,18 +59,19 @@ export function attachWorldV2(pack: LoadedPackV2, surfaceTexture: Texture, scene
   scene.add(ocean.mesh);
 
   const [cu, cv] = [m.ocean.channels[0]!, m.ocean.channels[1]!];
-  const oceanPx: MonthlyPixels = { data: pack.oceanPixels, atlasWidth: pack.ocean.width, month: m.ocean.month, layout: m.layout };
+  const oceanAtlasW = pack.ocean.width;
   const currents = new WindLayer(
-    { data: currentsForSampler(pack.oceanPixels), atlasWidth: pack.ocean.width, month: m.ocean.month, layout: m.layout, u: cu, v: cv },
+    { data: currentsForSampler(pack.oceanPixels), atlasWidth: oceanAtlasW, month: m.ocean.month, layout: m.layout, u: cu, v: cv },
     Math.round(s.windStreaks * 0.8), reduced,
     { scale: CURRENT, color: CURRENT_COLOR, radius: 1.0022, order: LAYER_ORDER.ocean + 0.5, gain: 0.42, where: (lng, lat) => !sampleMask(mask, lng, lat).land },
   );
   scene.add(currents.lines);
-  pack.ocean.close();
+  // the GPU keeps the atlas; free the decoded bitmap only after it is uploaded
+  oceanTex.onUpdate = () => pack.ocean.close();
 
   const [lw, lh] = m.land.size;
   const [rw, rh] = m.relief.size;
-  const [chl, lightsCh] = [m.ocean.channels[2]!, m.relief.channels[1]!];
+  const [chl, lightsCh, treeCh] = [m.ocean.channels[2]!, m.relief.channels[1]!, m.land.channels[1]!];
 
   return {
     update(t, dt, ch, camera) {
@@ -87,12 +87,17 @@ export function attachWorldV2(pack: LoadedPackV2, surfaceTexture: Texture, scene
     },
     sample(lng, lat, t) {
       if (!pack.landPixels || !pack.reliefPixels) return null;
-      const byteAt = (c: number) => sampleByte(oceanPx, monthBlend(t).m0, c, lng, lat);
-      const flagged = (c: number, ch2: typeof cu) => { const b = Math.round(byteAt(c)); return b === 0 ? null : decodeFlagged(b, ch2); };
+      // nearest pixel: ocean bytes carry a no-data flag that must not be blended with real values
+      const ow2 = m.ocean.month[0]; const oh2 = m.ocean.month[1];
+      const blend = monthBlend(t);
+      const [col, row] = tileOf(blend.w >= 0.5 ? blend.m1 : blend.m0, m.layout);
+      const x = Math.min(ow2 - 1, Math.max(0, Math.floor(((lng + 180) / 360) * ow2)));
+      const y = Math.min(oh2 - 1, Math.max(0, Math.floor(((90 - lat) / 180) * oh2)));
+      const flagged = (c: number, ch2: typeof cu) => decodeFlagged(pack.oceanPixels[((row * oh2 + y) * oceanAtlasW + col * ow2 + x) * 4 + c]!, ch2);
       const lightsB = staticByte(pack.reliefPixels, rw, rh, lng, lat, 2);
       return {
         landClass: staticByte(pack.landPixels, lw, lh, lng, lat, 0),
-        treePct: staticByte(pack.landPixels, lw, lh, lng, lat, 1),
+        treePct: decodeByte(staticByte(pack.landPixels, lw, lh, lng, lat, 1), treeCh),
         elevationM: decodeElevation(staticByte(pack.reliefPixels, rw, rh, lng, lat, 0), staticByte(pack.reliefPixels, rw, rh, lng, lat, 1)),
         lightsLog: lightsCh.lo + (lightsB / 255) * (lightsCh.hi - lightsCh.lo),
         currentU: flagged(0, cu), currentV: flagged(1, cv),

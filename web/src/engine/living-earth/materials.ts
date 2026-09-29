@@ -47,7 +47,7 @@ const surfaceFits = (m: PackManifest, maxTexture: number) => {
 /** Load the globe pack and add water, snow and wind to the scene. Rejects if the pack is missing or invalid. */
 export async function createLivingEarth(baseUrl: string, scene: Scene, mask: LandMask, s: TierSettings, maxTexture: number, reduced: boolean, probe = false, globe: Globe | null = null): Promise<LivingEarth> {
   const first = await loadPack(baseUrl, probe);
-  const v2 = isV2(first.manifest) ? await loadPackV2(baseUrl, probe) : null;
+  const v2 = isV2(first.manifest) ? await loadPackV2(baseUrl, probe, first) : null;
   const pack = v2 ?? first;
   const { manifest } = pack;
   const u = channel(manifest.climate, 'wind_u');

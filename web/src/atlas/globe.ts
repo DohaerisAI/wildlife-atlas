@@ -118,6 +118,27 @@ export function createAtlasGlobe(stageRoot: HTMLElement, pinsRoot: HTMLElement, 
       hoverFns.forEach((fn) => fn(at ? { ...at, x: e.clientX, y: e.clientY } : null));
     }, HOVER_MS);
   });
+  // keyboard: arrows turn the globe, +/- zoom, Enter picks the place at the centre of the view
+  stage.canvas.tabIndex = 0;
+  stage.canvas.setAttribute('aria-label', 'Globe. Arrow keys turn it, plus and minus zoom, Enter shows the wildlife at the centre.');
+  stage.canvas.addEventListener('keydown', (e) => {
+    const cam = vec3ToLngLat(stage.camera.position);
+    const dist = stage.camera.position.length();
+    const step = Math.max(0.5, (dist - 1) * 6);
+    let next: { lng: number; lat: number; d: number } | null = null;
+    if (e.key === 'ArrowLeft') next = { lng: cam.lng - step, lat: cam.lat, d: dist };
+    else if (e.key === 'ArrowRight') next = { lng: cam.lng + step, lat: cam.lat, d: dist };
+    else if (e.key === 'ArrowUp') next = { lng: cam.lng, lat: Math.min(85, cam.lat + step), d: dist };
+    else if (e.key === 'ArrowDown') next = { lng: cam.lng, lat: Math.max(-85, cam.lat - step), d: dist };
+    else if (e.key === '+' || e.key === '=') next = { ...cam, d: Math.max(MIN_DIST, 1 + (dist - 1) * 0.75) };
+    else if (e.key === '-') next = { ...cam, d: Math.min(MAX_DIST, 1 + (dist - 1) / 0.75) };
+    else if (e.key === 'Enter') { pickFns.forEach((fn) => fn(cam.lng, cam.lat)); e.preventDefault(); return; }
+    if (!next) return;
+    e.preventDefault();
+    flight = null;
+    stage.camera.position.copy(lngLatToVec3(next.lng, next.lat, next.d));
+    dragFns.forEach((fn) => fn());
+  });
   stage.canvas.addEventListener('pointerleave', () => { window.clearTimeout(hoverTimer); hoverFns.forEach((fn) => fn(null)); });
   stage.canvas.addEventListener('pointerup', (e) => {
     const start = downAt;

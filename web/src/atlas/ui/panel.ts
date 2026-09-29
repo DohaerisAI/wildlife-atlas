@@ -19,6 +19,8 @@ export function createPanel(onTab: (v: PanelView) => void, onClose: () => void):
   const closeBtn = h('button', { class: 'x pn-close', type: 'button', 'aria-label': 'Close panel', onclick: onClose }, '×');
   const element = h('aside', { class: 'panel', 'aria-label': 'Details', hidden: true }, handle, h('div', { class: 'pn-bar' }, tabs, closeBtn), body);
 
+  let opener: HTMLElement | null = null;
+
   // sheet: tap the handle to toggle, or drag it
   let startY = 0; let startH = 0; let moved = false;
   handle.addEventListener('pointerdown', (e) => { startY = e.clientY; startH = element.getBoundingClientRect().height; moved = false; handle.setPointerCapture(e.pointerId); });
@@ -39,6 +41,12 @@ export function createPanel(onTab: (v: PanelView) => void, onClose: () => void):
   return {
     element,
     show(view, labels, content) {
+      // keep keyboard focus across re-renders: remember the focused control's position among the panel's controls
+      const focusables = () => [...element.querySelectorAll<HTMLElement>('button, a[href], [tabindex="0"]')];
+      const active = document.activeElement as HTMLElement | null;
+      const focusIndex = active && element.contains(active) ? focusables().indexOf(active) : -1;
+      const opening = element.hidden;
+      if (opening) opener = active && !element.contains(active) ? active : null;
       const tab = (v: PanelView, text: string | null) => text
         ? h('button', { class: 'pn-tab', type: 'button', role: 'tab', 'aria-selected': String(v === view), onclick: () => onTab(v) }, text)
         : null;
@@ -48,8 +56,15 @@ export function createPanel(onTab: (v: PanelView) => void, onClose: () => void):
       body.scrollTop = element.dataset.view === view ? keep : 0;
       element.dataset.view = view;
       element.hidden = false;
+      if (focusIndex >= 0) focusables()[Math.min(focusIndex, focusables().length - 1)]?.focus({ preventScroll: true });
+      else if (opening && opener && opener !== document.body) body.focus({ preventScroll: true });
     },
-    close() { element.hidden = true; element.classList.remove('is-expanded'); },
+    close() {
+      const had = element.contains(document.activeElement);
+      element.hidden = true;
+      element.classList.remove('is-expanded');
+      if (had) opener?.focus({ preventScroll: true });
+    },
     isOpen: () => !element.hidden,
   };
 }

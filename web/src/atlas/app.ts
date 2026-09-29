@@ -81,11 +81,14 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
 
   // ---------- species ----------
   let species: SpeciesData | null = null;
+  let speciesFailed: string | null = null;
   let speciesToken = 0;
   async function selectSpecies(key: string, fly: boolean) {
     const entry = byKey.get(key);
     if (!entry) return;
     const token = ++speciesToken;
+    speciesFailed = null;
+    if (fly) store.set({ follow: false });
     store.set({ species: key, panel: fly || wide() ? 'species' : store.get().panel });
     try {
       const [range, profile] = await Promise.all([loadRange(key), loadProfile(entry.sci).catch((err) => { console.warn('Profile unavailable', entry.sci, err); return null; })]);
@@ -100,8 +103,10 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
       }
       render();
     } catch (err) {
+      if (token !== speciesToken) return;
       console.error('Species failed to load', key, err);
       species = null;
+      speciesFailed = key;
       globe.setFlow(null);
       render();
     }
@@ -115,6 +120,7 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
     const id = cellIdAt(lng, lat, cells.cellSize);
     const cellId = cellSet.has(id) ? id : null;
     const place: Place = { lng, lat, cellId, name: named?.name ?? null, detail: named?.detail ?? null };
+    if (fly) store.set({ follow: false });
     const token = ++placeToken;
     cell = null;
     cellStatus = cellId ? 'loading' : 'none';
@@ -133,7 +139,7 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
   // ---------- render ----------
   const tabLabel = (s: AtlasState) => ({
     place: s.place ? (s.place.name ?? 'This place') : null,
-    species: species ? (species.profile?.name || species.entry.name || species.entry.sci) : s.species ? 'Species' : null,
+    species: species && species.entry.k === s.species ? (species.profile?.name || species.entry.name || species.entry.sci) : s.species ? 'Species' : null,
   });
   function render() {
     const s = store.get();
@@ -143,7 +149,7 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
     const open = s.panel !== null && (s.panel === 'place' ? s.place !== null : s.species !== null);
     document.body.classList.toggle('panel-open', open);
     globe.setInset(open && wide() ? PANEL_W : 0, open && !wide() ? window.innerHeight * 0.46 : 0);
-    followingBtn.textContent = species ? `Following · ${species.profile?.name || species.entry.name || species.entry.sci}` : 'Following';
+    followingBtn.textContent = species && species.entry.k === s.species ? `Following · ${species.profile?.name || species.entry.name || species.entry.sci}` : 'Following';
     if (!open) { panel.close(); return; }
     if (s.panel === 'place' && s.place) {
       panel.show('place', tabLabel(s), placeView({
@@ -156,10 +162,10 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
       if (!entry) return;
       panel.show('species', tabLabel(s), species && species.entry.k === entry.k
         ? speciesView({ entry, profile: species.profile, summary: species.summary, month: m, meta }, {
-          onJourney: (lng, lat) => globe.flyTo({ lng, lat, altitudeKm: SPECIES_ALT_KM }),
+          onJourney: (lng, lat) => { store.set({ follow: false }); globe.flyTo({ lng, lat, altitudeKm: SPECIES_ALT_KM }); },
           onMonth: (mm) => timelineMonth(mm),
         })
-        : h('p', { class: 'na pad' }, `Loading ${entry.name || entry.sci}…`));
+        : h('p', { class: 'na pad' }, speciesFailed === entry.k ? `${entry.name || entry.sci} could not load. Try again or pick another species.` : `Loading ${entry.name || entry.sci}…`));
     }
   }
   const timelineMonth = (m: number) => { clock.pause(); clock.glideTo(m - 1 + 0.5, reduced ? 0 : 900); };
@@ -174,7 +180,11 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
     if (!at) { probe.hide(); return; }
     probe.show(at.x, at.y, at.lng, at.lat, monthOf(store.get().t) - 1, globe.sample(at.lng, at.lat));
   });
-  window.addEventListener('keydown', (e) => { if (e.key === 'Escape') store.set({ panel: null }); });
+  window.addEventListener('keydown', (e) => {
+    const t = e.target as HTMLElement | null;
+    if (e.key !== 'Escape' || e.defaultPrevented || t?.closest('.search, .legend')) return;
+    store.set({ panel: null });
+  });
 
   // ---------- time ----------
   let followVec: Vec3 | null = null;

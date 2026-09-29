@@ -22,7 +22,7 @@ export function searchBox(species: SpeciesIndexEntry[], thumbOf: (sci: string) =
   let ctrl: AbortController | null = null;
 
   const items = () => [...list.querySelectorAll<HTMLElement>('[role="option"]')];
-  const close = () => { list.classList.remove('is-open'); input.setAttribute('aria-expanded', 'false'); active = -1; };
+  const close = () => { list.classList.remove('is-open'); input.setAttribute('aria-expanded', 'false'); input.removeAttribute('aria-activedescendant'); active = -1; };
   const choose = (fn: () => void) => { input.value = ''; close(); input.blur(); fn(); };
 
   const render = () => {
@@ -58,7 +58,8 @@ export function searchBox(species: SpeciesIndexEntry[], thumbOf: (sci: string) =
     if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
       e.preventDefault();
       active = (active + (e.key === 'ArrowDown' ? 1 : -1) + opts.length) % Math.max(1, opts.length);
-      opts.forEach((o, i) => o.classList.toggle('is-active', i === active));
+      opts.forEach((o, i) => { o.id = `atlas-opt-${i}`; o.classList.toggle('is-active', i === active); o.setAttribute('aria-selected', String(i === active)); });
+      if (opts[active]) input.setAttribute('aria-activedescendant', opts[active]!.id);
     } else if (e.key === 'Enter') {
       (opts[Math.max(0, active)])?.dispatchEvent(new Event('mousedown'));
     } else if (e.key === 'Escape') { input.value = ''; close(); }

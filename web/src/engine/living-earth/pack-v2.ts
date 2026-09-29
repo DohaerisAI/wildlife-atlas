@@ -66,11 +66,12 @@ export interface LoadedPackV2 extends LoadedPack {
   readonly reliefPixels: Uint8ClampedArray | null;
 }
 
-export async function loadPackV2(baseUrl: string, probe: boolean): Promise<LoadedPackV2> {
-  const base = await loadPack(baseUrl, probe);
+/** Adds the v2 layers to an already loaded base pack (surface and climate are not fetched twice). */
+export async function loadPackV2(baseUrl: string, probe: boolean, loaded?: LoadedPack): Promise<LoadedPackV2> {
+  const base = loaded ?? await loadPack(baseUrl, probe);
   const manifest = validateV2(base.manifest);
   const [ocean, land, relief] = await Promise.all([bitmap(baseUrl + manifest.ocean.file), bitmap(baseUrl + manifest.land.file), bitmap(baseUrl + manifest.relief.file)]);
-  if (land.width !== manifest.land.size[0] || relief.width !== manifest.relief.size[0]) throw new PackError('land or relief size does not match its manifest');
+  if (land.width !== manifest.land.size[0] || land.height !== manifest.land.size[1] || relief.width !== manifest.relief.size[0] || relief.height !== manifest.relief.size[1]) throw new PackError('land or relief size does not match its manifest');
   return {
     ...base, manifest, ocean, land, relief,
     oceanPixels: pixels(ocean),
