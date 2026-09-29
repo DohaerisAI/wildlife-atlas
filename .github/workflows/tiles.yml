@@ -31,7 +31,8 @@ jobs:
         working-directory: pipeline
         run: |
           uv sync --quiet
-          echo "shards=$(uv run python scripts/tiles_ci.py plan --bbox '${{ inputs.bbox }}')" >> "$GITHUB_OUTPUT"
+          shards="$(uv run python scripts/tiles_ci.py plan --bbox='${{ inputs.bbox }}')"
+          echo "shards=$shards" >> "$GITHUB_OUTPUT"
   shard:
     needs: plan
     runs-on: ubuntu-latest
@@ -77,7 +78,7 @@ jobs:
         working-directory: pipeline
         run: |
           uv sync --quiet
-          uv run python scripts/tiles_ci.py merge ../detail --level '${{ inputs.level }}' --bbox '${{ inputs.bbox }}'
+          uv run python scripts/tiles_ci.py merge ../detail --level '${{ inputs.level }}' --bbox='${{ inputs.bbox }}'
           du -sh ../detail; find ../detail -name '*.png' | wc -l
       - uses: actions/upload-artifact@v7
         with:
