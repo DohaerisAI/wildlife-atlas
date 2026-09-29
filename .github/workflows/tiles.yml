@@ -22,6 +22,11 @@ on:
       shard_level:
         description: "Shard size: 3 (22.5 deg, world runs) or 6 (2.8 deg, fine levels and sites)"
         default: "3"
+      exact:
+        description: "WorldCover class from its 10 m pixels (yes, slow), its mode pyramid (no, fast) or auto (exact from level 7)"
+        default: "auto"
+        type: choice
+        options: ["auto", "yes", "no"]
       shards:
         description: "Only these shards, comma-separated z/x/y (e.g. 3/0/0,3/1/0); empty = every land shard in bbox"
         default: ""
@@ -63,7 +68,7 @@ jobs:
           EE_SERVICE_ACCOUNT_KEY: ${{ secrets.EE_SERVICE_ACCOUNT_KEY }}
         run: |
           uv sync --quiet
-          uv run --with earthengine-api python scripts/tiles_ci.py shard ../tiles --shard '${{ matrix.shard }}' --level '${{ inputs.level }}' --workers '${{ inputs.workers }}' --sites='${{ inputs.sites }}'
+          uv run --with earthengine-api python scripts/tiles_ci.py shard ../tiles --shard '${{ matrix.shard }}' --level '${{ inputs.level }}' --workers '${{ inputs.workers }}' --sites='${{ inputs.sites }}' --exact '${{ inputs.exact }}'
       - uses: actions/upload-artifact@v7
         with:
           name: tiles-shard-${{ steps.name.outputs.id }}

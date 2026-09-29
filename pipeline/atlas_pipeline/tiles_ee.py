@@ -115,10 +115,10 @@ def _pull_tiles(ee, image, bands: list[str], todo: list[tm.Tile], level: int, wo
 
 
 def pull_shard(ee, shard: tm.Tile, level: int, land_mask: np.ndarray, workers: int = 8, ndvi: bool = True,
-               keep=None) -> Mosaic:
+               keep=None, exact: bool | None = None) -> Mosaic:
     """Pull one shard at `level`. `keep(tile)` limits it to some tiles (validation sites). From level 9 the town-scale
     sources are used: hillshade at DEM resolution, Sentinel-2 monthly NDVI and a Sentinel-2 true-colour mosaic."""
-    exact = level >= EXACT_FROM_LEVEL
+    exact = level >= EXACT_FROM_LEVEL if exact is None else exact
     fine = level >= FINE_FROM_LEVEL
     todo = [t for t in shard_tiles(shard, level, land_mask) if keep is None or keep(t)]
     n = tm.TILE_PX * 2 ** (level - shard[0])

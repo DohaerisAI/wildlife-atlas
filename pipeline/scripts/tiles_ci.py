@@ -63,7 +63,8 @@ def cmd_shard(args) -> int:
     shard = tm.parse_tile(args.shard)
     boxes = tm.site_boxes(args.sites, SITE_LEVEL) if args.sites.strip() else None
     keep = (lambda t: tm.inside_any(t, boxes)) if boxes else None
-    mosaic = pull_shard(ee, shard, args.level, land_mask(), workers=args.workers, keep=keep)
+    exact = {'auto': None, 'yes': True, 'no': False}[args.exact]
+    mosaic = pull_shard(ee, shard, args.level, land_mask(), workers=args.workers, keep=keep, exact=exact)
     # site runs write only whole site tiles (level 9 and finer); world runs write the full pyramid from level 5
     written = write_shard(Path(args.out), mosaic, max(shard[0], SITE_LEVEL if boxes else MIN_LEVEL))
     size = sum(s for _, s in written)
@@ -120,6 +121,7 @@ def main() -> int:
     s.add_argument("--level", type=int, default=8)
     s.add_argument("--workers", type=int, default=8)
     s.add_argument("--sites", default="")
+    s.add_argument("--exact", choices=("auto", "yes", "no"), default="auto", help="WorldCover mode from 10 m pixels (slow) or its mode pyramid")
     s.set_defaults(fn=cmd_shard)
     g = sub.add_parser("merge")
     g.add_argument("dir")
