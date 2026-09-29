@@ -27,6 +27,8 @@ export interface TileFocus { readonly lng: number; readonly lat: number; readonl
 export interface TileStats {
   readonly drawn: number; readonly cached: number; readonly loading: number; readonly deepest: number;
   readonly wanted: number; readonly queued: number; readonly prefetch: number; readonly aborted: number; readonly failed: number; readonly fading: number;
+  /** level of the data drawn under the focus point */
+  readonly focusLevel: number;
 }
 
 const DEFAULTS: TileLayerOptions = { budget: 360, maxScreenError: 1.25, concurrency: 6, focusFirst: true };
@@ -95,7 +97,9 @@ export class TileLayer {
     const queue = this.opts.focusFirst ? orderQueue(sel.want, this.prefetch, f, this.opts.maxScreenError) : sel.want.map((w) => ({ ...w, kind: 'view' as const, score: w.tile.z }));
     this.request(queue.map((q) => q.tile), now);
     const fading = this.draw(sel.draw, now);
+    const under = sel.draw.find((d) => { const b = bounds(d.tile); return focus.lng >= b.west && focus.lng <= b.east && focus.lat >= b.south && focus.lat <= b.north; });
     return {
+      focusLevel: under?.source.z ?? -1,
       drawn: sel.draw.length, cached: this.tiles.size, loading: this.loader.inflight, deepest: sel.deepest, wanted: sel.want.length,
       queued: queue.filter((q) => !this.loader.has(tileKey(q.tile))).length, prefetch: this.prefetch.length,
       aborted: this.loader.aborted, failed: this.loader.failed.size, fading,

@@ -31,7 +31,7 @@ export function createHud(el: HTMLElement): { update(f: HudFrame, frames: { mean
       const t = f.tiles;
       el.textContent = [
         `alt    ${formatAlt(f.altKm)}`,
-        `level  ${t.deepest}`,
+        `level  ${t.focusLevel} at focus · ${t.deepest} deepest`,
         `tiles  ${t.drawn} drawn · ${t.cached} cached${t.failed ? ` · ${t.failed} failed` : ''}${t.fading ? ` · ${t.fading} fading` : ''}`,
         `queue  ${t.queued} queued · ${t.loading} in flight · ${t.prefetch} prefetch · ${t.aborted} aborted`,
         `draws  ${f.calls} calls · ${(f.triangles / 1000).toFixed(0)}k tris`,

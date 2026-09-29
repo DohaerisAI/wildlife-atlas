@@ -93,7 +93,7 @@ export async function startEngine(els: EngineElements): Promise<void> {
   const frames: number[] = [];
   const buffer = new Vector2();
   let last = performance.now();
-  let stats: TileStats = { drawn: 0, cached: 0, loading: 0, deepest: 0, wanted: 0, queued: 0, prefetch: 0, aborted: 0, failed: 0, fading: 0 };
+  let stats: TileStats = { drawn: 0, cached: 0, loading: 0, deepest: 0, wanted: 0, queued: 0, prefetch: 0, aborted: 0, failed: 0, fading: 0, focusLevel: -1 };
   let cpuMs = 0;
   stage.onFrame(({ time, dt }) => {
     const now = performance.now();
