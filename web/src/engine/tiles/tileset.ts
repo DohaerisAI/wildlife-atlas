@@ -120,22 +120,33 @@ export const bySpecificity = (sets: readonly Tileset[]): Tileset[] => [...sets].
 /** Seconds to wait before retry `attempt` (0-based): 1, 2, 4 ... capped at 30. */
 export const retryDelay = (attempt: number): number => Math.min(30, 2 ** Math.max(0, attempt));
 
+/** What changes when tiles are added: the build time and the per-level counts. */
+export const manifestStamp = (m: TilesetManifest & { built?: string; counts?: unknown }): string => `${m.built ?? ''}|${JSON.stringify(m.counts ?? m.index)}`;
+
 /**
- * Keep trying to load a tileset until it arrives (a manifest can be missing for a moment while tiles are rebuilt).
- * `status` reports 'loading', 'ok' or 'unavailable, retrying' for the HUD; `onLoad` gets the set when it is in.
+ * Keep a tileset current: retry with backoff until it loads (a manifest can be missing while tiles are rebuilt),
+ * then poll every `refreshS` seconds and hand over a new version when shards have been absorbed into it, so the
+ * view sharpens where data lands. `status` reports 'loading', 'ok' or 'unavailable, retrying' for the HUD.
  */
-export function watchTileset(base: string, status: (s: string) => void, onLoad: (ts: Tileset) => void, fetcher: typeof fetch = fetch): () => void {
+export function watchTileset(base: string, status: (s: string) => void, onLoad: (ts: Tileset) => void, fetcher: typeof fetch = fetch, refreshS = 30): () => void {
   let stopped = false;
   let timer = 0;
+  let stamp = '';
+  const later = (fn: () => void, s: number) => { timer = window.setTimeout(fn, s * 1000); };
   const attempt = (n: number) => {
-    status(n === 0 ? 'loading' : 'unavailable, retrying');
-    loadTileset(base, fetcher).then((ts) => { if (!stopped) { status('ok'); onLoad(ts); } })
-      .catch((err: unknown) => {
-        if (stopped) return;
-        status('unavailable, retrying');
-        if (n === 0) console.warn(`tileset ${base} unavailable (${(err as Error).message}); retrying`);
-        timer = window.setTimeout(() => attempt(n + 1), retryDelay(n) * 1000);
-      });
+    if (!stamp) status(n === 0 ? 'loading' : 'unavailable, retrying');
+    loadTileset(base, fetcher).then((ts) => {
+      if (stopped) return;
+      const next = manifestStamp(ts.manifest);
+      if (next !== stamp) { stamp = next; status('ok'); onLoad(ts); }
+      later(() => attempt(0), refreshS);
+    }).catch((err: unknown) => {
+      if (stopped) return;
+      if (stamp) { later(() => attempt(0), refreshS); return; } // keep the loaded version through a rebuild
+      status('unavailable, retrying');
+      if (n === 0) console.warn(`tileset ${base} unavailable (${(err as Error).message}); retrying`);
+      later(() => attempt(n + 1), retryDelay(n));
+    });
   };
   attempt(0);
   return () => { stopped = true; window.clearTimeout(timer); };

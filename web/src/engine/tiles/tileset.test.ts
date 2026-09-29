@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { bySpecificity, inSet, loadTileset, makeTileset, maxLevel, retryDelay, sourceFor, tileUrl, validateTileset, type TilesetManifest } from './tileset';
+import { bySpecificity, manifestStamp, inSet, loadTileset, makeTileset, maxLevel, retryDelay, sourceFor, tileUrl, validateTileset, type TilesetManifest } from './tileset';
 import { tile, tileAt } from './tile-math';
 
 const ch = (name: string) => ({ name, lo: 0, hi: 255, source: 'test source' });
@@ -36,5 +36,7 @@ describe('tilesets', () => {
     const missing = (async () => new Response('', { status: 404 })) as unknown as typeof fetch;
     await expect(loadTileset('/x/', missing)).rejects.toThrow(/404/);
     expect([0, 1, 2, 3, 10].map(retryDelay)).toEqual([1, 2, 4, 8, 30]);
+    // a new shard changes the stamp, so a running page swaps the tileset in
+    expect(manifestStamp({ ...world, built: 'a' } as never)).not.toBe(manifestStamp({ ...world, built: 'b' } as never));
   });
 });

@@ -23,5 +23,7 @@ checks:
     file: tests/test_tiles.py
   - suite: pytest
     file: tests/test_places.py
+  - suite: pytest
+    file: tests/test_tile_absorb.py
 next: >-
   World level 6, then 7 and 8; R2 publishing once the bucket exists; water and snow tile channels; level 9+.

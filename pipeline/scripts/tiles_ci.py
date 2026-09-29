@@ -74,12 +74,30 @@ def cmd_merge(args) -> int:
     root = Path(args.dir)
     present = scan(root)
     lo = min(present) if present else MIN_LEVEL
-    fine = args.level >= FINE_FROM_LEVEL
-    sources = {**DETAIL_SOURCES, **({"hillshade": FINE["shade"], "ndvi": FINE["ndvi"]} if fine else {})}
-    rgb = {"source": FINE["rgb"], "license": FINE["rgb_license"]} if fine and (root / "rgb").exists() else None
+    sources, rgb = fine_sources(args.level, root)
     m = manifest(args.name, (lo, args.level), present, ndvi=True, sources=sources, bounds=bbox(args.bbox), rgb=rgb)
+    m["regions"] = [{**json.loads(p.read_text()), "levels": [lo, args.level]} for p in sorted(root.glob("shard-*.json"))]
     write_manifest(root, m)
     logging.info("manifest: %s", m["counts"])
+    return 0
+
+
+def fine_sources(level: int, root: Path) -> tuple[dict, dict | None]:
+    fine = level >= FINE_FROM_LEVEL
+    sources = {**DETAIL_SOURCES, **({"hillshade": FINE["shade"], "ndvi": FINE["ndvi"]} if fine else {})}
+    rgb = {"source": FINE["rgb"], "license": FINE["rgb_license"]} if fine and (root / "rgb").exists() else None
+    return sources, rgb
+
+
+def cmd_absorb(args) -> int:
+    from atlas_pipeline.tile_absorb import absorb, rebuild_manifest
+
+    served = Path(args.served)
+    for d in args.shard_dirs:
+        logging.info("absorbed %s", absorb(served, Path(d)))
+    sources, rgb = fine_sources(args.level, served)
+    m = rebuild_manifest(served, args.name, sources, rgb)
+    logging.info("manifest %s: %s, %d regions", args.name, m["counts"], len(m["regions"]))
     return 0
 
 
@@ -106,6 +124,12 @@ def main() -> int:
     g.add_argument("--bbox", default="-180,-90,180,90")
     g.add_argument("--name", default="detail")
     g.set_defaults(fn=cmd_merge)
+    a = sub.add_parser("absorb", help="merge finished shard folders into a served tileset (replaces only those shards)")
+    a.add_argument("served")
+    a.add_argument("shard_dirs", nargs="+")
+    a.add_argument("--name", default="detail")
+    a.add_argument("--level", type=int, default=8)
+    a.set_defaults(fn=cmd_absorb)
     args = ap.parse_args()
     return args.fn(args)
 
