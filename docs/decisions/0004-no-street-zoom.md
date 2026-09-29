@@ -7,3 +7,5 @@
 **Decision:** Three depths. Globe: one ~25 MB global pack. Region: tiles from 1 km to 150 m, generated per region. Local: past about zoom 11, hand over to the MapLibre street map and fade the living layer to a tint.
 
 **Consequences:** Storage stays in gigabytes, not terabytes. Regional packs are built on demand, India first.
+
+**Update 2026-09-29:** Refined by 0010. The engine itself now goes down to town level (~map zoom 13) with our own tiles, labels and road rasters; still no street level.
