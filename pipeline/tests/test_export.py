@@ -52,3 +52,9 @@ def test_global_ranges_extend_and_override():
     entry = next(s for s in files["species.json"] if s["k"] == "9")
     assert entry["name"] == "Amur Falcon" and entry["cells"] == 2
     assert files["meta.json"]["coverage"]["ranges"].startswith("worldwide")
+
+
+def test_bundle_has_coverage_manifest():
+    cov = build_bundle(CELLS, NAMES, 1.0, SRC)["coverage.json"]
+    assert cov["complete"] is False and [r["name"] for r in cov["regions"]] == ["India"]
+    assert cov["regions"][0]["status"] == "loaded" and cov["regions"][0]["cells"] == 1

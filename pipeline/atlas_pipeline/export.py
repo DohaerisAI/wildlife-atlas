@@ -6,6 +6,7 @@ Layout under web/public/data:
   cells/{id}.json      species in one cell: monthly counts, presence label, present-month flags
   species.json         searchable species index
   species/{key}.json   one species' monthly reporting rate and label per cell
+  coverage.json        which regions have full species lists (the worldwide build lists every shard)
 """
 
 import json
@@ -79,6 +80,11 @@ def build_bundle(
     files["species.json"] = [_species_entry(k, names.get(k, {}), per_species[k]) for k in sorted(per_species)]
     for key, by_cell in per_species.items():
         files[f"species/{key}.json"] = {"k": key, "cells": by_cell}
+    files["coverage.json"] = {
+        "version": 1, "cellSize": cell_size, "complete": False,
+        "regions": [{"id": "india", "name": "India", "status": "loaded", "cells": len(index_cells), "species": len(per_species) if not global_ranges else None}],
+        "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    }
     files["meta.json"] = {
         "source": source.__dict__,
         "resolution": "month",

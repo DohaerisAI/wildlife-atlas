@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Wildlife Atlas data pipeline: GBIF records -> seasonal grid summaries"
 requires-python = ">=3.11"
 dependencies = [
+    "duckdb>=1.5.6",
     "numpy>=2.4.6",
     "pillow>=12.3.0",
     "requests>=2.32",

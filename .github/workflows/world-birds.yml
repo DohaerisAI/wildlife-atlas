@@ -1,0 +1,138 @@
+# Every bird on the planet, region by region: one GBIF SQL download per shard (world_shards.SHARDS),
+# published as soon as it is processed. Start it from Actions -> "World birds" -> Run workflow.
+#
+# Everything is kept on the `world-birds` release (assets survive between runs):
+#   shard-<id>.tar.gz    the shard's parquet tables and meta (DOI, record counts)
+#   download-<id>.json   the GBIF download key while a download is still running (so re-runs resume)
+#   names.json           resolved keys, English names, families (joined by scientific name)
+#   bundle.tar.gz        the web data bundle for every loaded shard; coverage.json says which
+# Pull it with scripts/pull-world.sh. Re-running a shard replaces only that shard.
+name: World birds
+
+on:
+  workflow_dispatch:
+    inputs:
+      shards:
+        description: "Comma-separated shard ids, in publishing order"
+        default: "south-asia,africa,europe,east-asia,americas,oceania"
+      refresh:
+        description: "Download shards again even if already published"
+        type: boolean
+        default: false
+      validate_only:
+        description: "Only check that GBIF accepts each shard's SQL"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: world-birds
+  cancel-in-progress: false
+
+env:
+  TAG: world-birds
+  GH_TOKEN: ${{ github.token }}
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      shards: ${{ steps.p.outputs.shards }}
+    steps:
+      - id: p
+        env:
+          SHARDS: ${{ inputs.shards }}
+        run: echo "shards=$(python3 -c "import json,os; print(json.dumps([s.strip() for s in os.environ['SHARDS'].split(',') if s.strip()]))")" >> "$GITHUB_OUTPUT"
+      - name: Make sure the release exists
+        run: |
+          gh release view "$TAG" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1 || \
+            gh release create "$TAG" -R "$GITHUB_REPOSITORY" --prerelease --title "World birds data" \
+              --notes "Worldwide bird bundle built by the World birds workflow. Pull with scripts/pull-world.sh. Data: GBIF.org, see coverage.json for DOIs."
+
+  shard:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    strategy:
+      fail-fast: false
+      max-parallel: 1 # one GBIF download at a time; each shard publishes before the next starts
+      matrix:
+        shard: ${{ fromJson(needs.plan.outputs.shards) }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.2.0 # no moving major tag upstream
+      - run: cd pipeline && uv sync --quiet
+      - name: Validate the SQL
+        working-directory: pipeline
+        env:
+          GBIF_USER: ${{ secrets.GBIF_USER }}
+          GBIF_PASSWORD: ${{ secrets.GBIF_PASSWORD }}
+          GBIF_EMAIL: ${{ secrets.GBIF_EMAIL }}
+        run: uv run atlas world-shard --shard "${{ matrix.shard }}" --validate-only
+      - name: Restore published shards and names
+        if: ${{ !inputs.validate_only }}
+        id: restore
+        run: |
+          mkdir -p rel data/world/shards "data/world/downloads/${{ matrix.shard }}"
+          gh release download "$TAG" -R "$GITHUB_REPOSITORY" -D rel -p 'shard-*.tar.gz' -p 'names.json' -p 'aves-checklist.json' -p "download-${{ matrix.shard }}.json" || true
+          for f in rel/shard-*.tar.gz; do if [ -e "$f" ]; then tar xzf "$f" -C data/world; fi; done
+          if [ -e rel/names.json ]; then cp rel/names.json data/world/; fi
+          if [ -e rel/aves-checklist.json ]; then cp rel/aves-checklist.json data/world/; fi
+          if [ -e "rel/download-${{ matrix.shard }}.json" ]; then cp "rel/download-${{ matrix.shard }}.json" "data/world/downloads/${{ matrix.shard }}/download.json"; fi
+          if [ -e "rel/shard-${{ matrix.shard }}.tar.gz" ] && [ "${{ inputs.refresh }}" != "true" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"; echo "::notice::${{ matrix.shard }} already published; skipping (use refresh to redo)"
+          fi
+          ls -la data/world data/world/shards
+      - name: Download and ingest the shard
+        if: ${{ !inputs.validate_only && steps.restore.outputs.skip != 'true' }}
+        id: fetch
+        working-directory: pipeline
+        env:
+          GBIF_USER: ${{ secrets.GBIF_USER }}
+          GBIF_PASSWORD: ${{ secrets.GBIF_PASSWORD }}
+          GBIF_EMAIL: ${{ secrets.GBIF_EMAIL }}
+        run: |
+          set +e
+          FRESH=$([ "${{ inputs.refresh }}" = "true" ] && echo --fresh || true)
+          uv run atlas world-shard --shard "${{ matrix.shard }}" --max-wait-min 240 $FRESH
+          code=$?
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          [ "$code" = 3 ] && echo "::warning::GBIF is still preparing ${{ matrix.shard }}; re-run the workflow later to resume"
+          exit 0
+      - name: Keep the download key for resuming
+        if: ${{ always() && !inputs.validate_only && steps.restore.outputs.skip != 'true' }}
+        run: |
+          f="data/world/downloads/${{ matrix.shard }}/download.json"
+          [ -e "$f" ] && cp "$f" "download-${{ matrix.shard }}.json" && gh release upload "$TAG" -R "$GITHUB_REPOSITORY" --clobber "download-${{ matrix.shard }}.json" || true
+      - name: Fail on a real fetch error
+        if: ${{ steps.fetch.outputs.code != '' && steps.fetch.outputs.code != '0' && steps.fetch.outputs.code != '3' }}
+        run: echo "::error::world-shard ${{ matrix.shard }} failed; see the log" && exit 1
+      - name: Publish the shard
+        if: ${{ steps.fetch.outputs.code == '0' }}
+        run: |
+          s="${{ matrix.shard }}"
+          tar czf "shard-$s.tar.gz" -C data/world "shards/$s-pairs.parquet" "shards/$s-totals.parquet" "shards/$s.json"
+          ls -la "shard-$s.tar.gz" && cat "data/world/shards/$s.json"
+          gh release upload "$TAG" -R "$GITHUB_REPOSITORY" --clobber "shard-$s.tar.gz"
+      - name: Resolve names
+        if: ${{ steps.fetch.outputs.code == '0' }}
+        working-directory: pipeline
+        run: uv run atlas world-names
+      - name: Build and publish the bundle
+        if: ${{ steps.fetch.outputs.code == '0' }}
+        run: |
+          (cd pipeline && uv run atlas world-build)
+          tar czf bundle.tar.gz -C data/world bundle
+          cp data/world/bundle/coverage.json coverage.json
+          gh release upload "$TAG" -R "$GITHUB_REPOSITORY" --clobber bundle.tar.gz coverage.json data/world/names.json data/world/aves-checklist.json
+          {
+            echo "### World birds: ${{ matrix.shard }} published"
+            echo "- files: $(find data/world/bundle -type f | wc -l), size: $(du -sh data/world/bundle | cut -f1), gzipped: $(du -h bundle.tar.gz | cut -f1)"
+            python3 -c "import json; c=json.load(open('coverage.json')); print('- loaded: ' + ', '.join(r['name'] for r in c['regions'] if r['status']=='loaded'))"
+            python3 -c "import json; print('- species:', len(json.load(open('data/world/bundle/species.json'))), ' cells:', len(json.load(open('data/world/bundle/cells.json'))['cells']))"
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Remove the resume key once published
+        if: ${{ steps.fetch.outputs.code == '0' }}
+        run: gh release delete-asset "$TAG" "download-${{ matrix.shard }}.json" -R "$GITHUB_REPOSITORY" -y || true

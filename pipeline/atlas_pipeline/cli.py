@@ -11,6 +11,7 @@ from .export import SourceInfo, build_bundle, write_bundle
 
 log = logging.getLogger("atlas")
 WEB_ROOT = REPO_ROOT / "web"
+STILL_RUNNING = 3  # exit code: a GBIF download is accepted but not finished; re-run to resume
 
 GBIF_SOURCE = SourceInfo(
     name="GBIF occurrence records (includes eBird, iNaturalist and others)",
@@ -53,6 +54,69 @@ def cmd_fetch_global(args: argparse.Namespace) -> None:
     log.info("fetched worldwide ranges for %d featured species", len(done))
 
 
+def cmd_world_sql(args: argparse.Namespace) -> None:
+    from .world_shards import shard_by_id, shard_sql
+
+    print(shard_sql(shard_by_id(args.shard)))
+
+
+def cmd_world_shard(args: argparse.Namespace) -> None:
+    """Download one region shard from GBIF (resumable) and ingest it into parquet tables."""
+    import json
+
+    from .gbif_sql import Credentials, RequestsTransport, fetch_download, validate
+    from .world_ingest import extract_tsv, ingest_tsv, shard_files, write_shard_meta
+    from .world_shards import shard_by_id, shard_sql
+
+    shard, work = shard_by_id(args.shard), Path(args.work)
+    state_dir = work / "downloads" / shard.id
+    if args.validate_only:
+        creds = Credentials.from_env()
+        validate(shard_sql(shard), creds, RequestsTransport(creds))
+        log.info("GBIF accepts the SQL for shard %s", shard.id)
+        return
+    if args.tsv:
+        tsv, download = Path(args.tsv), {}
+    else:
+        creds = Credentials.from_env()
+        zip_path, _ = fetch_download(shard_sql(shard), state_dir, creds, RequestsTransport(creds), args.max_wait_min * 60,
+                                     reuse=not args.fresh)
+        tsv = extract_tsv(zip_path, state_dir / "tsv")
+        download = json.loads((state_dir / "download.json").read_text())
+    files = shard_files(work, shard.id)
+    meta = write_shard_meta(files, ingest_tsv(tsv, shard, files), download)
+    log.info("shard %s ingested: %s", shard.id, {k: meta[k] for k in ("records", "rows", "species", "cells", "pairs")})
+
+
+def _shard_species(work: Path) -> list[tuple[str, str | None, str | None]]:
+    import duckdb
+
+    glob = str(work / "shards" / "*-pairs.parquet")
+    return duckdb.sql(f"SELECT sci, MIN(specieskey), MIN(family) FROM read_parquet('{glob}') GROUP BY sci ORDER BY sci").fetchall()
+
+
+def cmd_world_names(args: argparse.Namespace) -> None:
+    from .bird_names import resolve_names
+    from .gbif_fetch import make_http_get
+
+    work = Path(args.work)
+    names = resolve_names(_shard_species(work), make_http_get(FetchSettings()), work)
+    log.info("names: %d species, %d with English names", len(names), sum(1 for n in names.values() if n.get("common")))
+
+
+def cmd_world_build(args: argparse.Namespace) -> None:
+    import json
+
+    from .world_bundle import build_world
+
+    work = Path(args.work)
+    names_path = work / "names.json"
+    names = json.loads(names_path.read_text()) if names_path.exists() else {}
+    if not names:
+        log.warning("no %s; species keep their scientific names as keys (run `atlas world-names`)", names_path)
+    build_world(work, names, Path(args.out))
+
+
 def cmd_profiles(args: argparse.Namespace) -> None:
     import json
 
@@ -61,7 +125,8 @@ def cmd_profiles(args: argparse.Namespace) -> None:
 
     species: list[dict] = [{"sci": s} for s in FEATURED_SPECIES]
     if args.all:
-        listed = json.loads((REPO_ROOT / "web" / "public" / "data" / "species.json").read_text())
+        path = Path(args.species_json) if args.species_json else REPO_ROOT / "web" / "public" / "data" / "species.json"
+        listed = json.loads(path.read_text())
         known = {s["sci"] for s in listed}
         species = [*listed, *(s for s in species if s["sci"] not in known)]
     out = REPO_ROOT / "web" / "public" / "content" / "profiles"
@@ -122,8 +187,29 @@ def main(argv: list[str] | None = None) -> int:
     fetch_global.set_defaults(fn=cmd_fetch_global)
     profiles = sub.add_parser("profiles", help="fetch species profiles (photos, size, status) from Wikidata/Wikipedia/Commons")
     profiles.add_argument("--all", action="store_true", help="every species in web/public/data/species.json, not only FEATURED_SPECIES")
+    profiles.add_argument("--species-json", help="species index for --all (default web/public/data/species.json), "
+                          "e.g. data/world/bundle/species.json for every bird worldwide")
     profiles.add_argument("--refresh", action="store_true", help="refetch species whose profile file already exists")
     profiles.set_defaults(fn=cmd_profiles)
+    world_dir = REPO_ROOT / "data" / "world"
+    w_sql = sub.add_parser("world-sql", help="print the GBIF SQL for one worldwide bird shard")
+    w_sql.add_argument("--shard", required=True)
+    w_sql.set_defaults(fn=cmd_world_sql)
+    w_shard = sub.add_parser("world-shard", help="download (resumable) and ingest one worldwide bird shard (needs GBIF secrets)")
+    w_shard.add_argument("--shard", required=True, help="region id from world_shards.SHARDS, e.g. africa")
+    w_shard.add_argument("--work", default=str(world_dir))
+    w_shard.add_argument("--max-wait-min", type=float, default=300.0, help="stop waiting on GBIF after this; re-run resumes")
+    w_shard.add_argument("--fresh", action="store_true", help="submit a new download even if GBIF has a finished one of this query")
+    w_shard.add_argument("--validate-only", action="store_true", help="only ask GBIF whether the shard's SQL is valid")
+    w_shard.add_argument("--tsv", help="ingest this already downloaded TSV instead of fetching")
+    w_shard.set_defaults(fn=cmd_world_shard)
+    w_names = sub.add_parser("world-names", help="resolve keys, English names and families for ingested shards (needs api.gbif.org)")
+    w_names.add_argument("--work", default=str(world_dir))
+    w_names.set_defaults(fn=cmd_world_names)
+    w_build = sub.add_parser("world-build", help="build the worldwide bird bundle from ingested shards")
+    w_build.add_argument("--work", default=str(world_dir))
+    w_build.add_argument("--out", default=str(world_dir / "bundle"))
+    w_build.set_defaults(fn=cmd_world_build)
     sub.add_parser("build", help="build web/public/data from fetched GBIF data").set_defaults(fn=cmd_build)
     sub.add_parser("demo", help="build web/public/data from SYNTHETIC demo data").set_defaults(fn=cmd_demo)
     tiles_world = sub.add_parser("tiles-world", help="cut Living Earth world tiles (levels 0-4) from pack v2")
@@ -136,8 +222,13 @@ def main(argv: list[str] | None = None) -> int:
     places.add_argument("--offline", action="store_true", help="use files already in --src")
     places.set_defaults(fn=cmd_places)
     args = parser.parse_args(argv)
+    from .gbif_sql import StillRunning
+
     try:
         args.fn(args)
+    except StillRunning as exc:
+        log.warning("%s", exc)
+        return STILL_RUNNING
     except Exception as exc:  # top-level: report cleanly, non-zero exit
         log.error("%s failed: %s", args.cmd, exc)
         return 1

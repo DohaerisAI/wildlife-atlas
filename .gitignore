@@ -12,3 +12,5 @@ site/
 reports/
 web/public/content/tiles/
 web/public/content/places/
+data/world/
+web/public/data.india/
