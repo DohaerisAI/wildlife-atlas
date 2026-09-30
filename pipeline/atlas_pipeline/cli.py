@@ -168,6 +168,28 @@ def cmd_tiles_world(args: argparse.Namespace) -> None:
     log.info("world tiles: %d files, %.1f MB in %s", len(written), sum(s for _, s in written) / 1e6, root)
 
 
+def cmd_coast_plan(args: argparse.Namespace) -> None:
+    import json
+
+    from .coast_mask import PLAN_PATH, coastal_tiles, plan_payload
+    from .coast_patch import census
+
+    present, water, ocean = census(Path(args.tiles), args.level)
+    tiles = coastal_tiles(args.level, present, water, ocean)
+    PLAN_PATH.write_text(json.dumps(plan_payload(args.level, tiles), indent=1) + "\n")
+    log.info("coast plan: %d of %d level-%d tiles (%d with water) -> %s", len(tiles), len(present), args.level, len(water), PLAN_PATH)
+
+
+def cmd_coast_patch(args: argparse.Namespace) -> None:
+    from .coast_patch import patch_tileset
+    from .tile_math import parse_bbox
+
+    bbox = parse_bbox(args.bbox) if args.bbox else None
+    backup = Path(args.backup) if args.backup else None
+    summary = patch_tileset(Path(args.tiles), Path(args.coast), args.level, args.min_level, bbox, backup, log=log.info)
+    log.info("coast patch: %s", summary)
+
+
 def cmd_places(args: argparse.Namespace) -> None:
     from .places import build_places
 
@@ -216,6 +238,19 @@ def main(argv: list[str] | None = None) -> int:
     tiles_world.add_argument("--pack", default=str(WEB_ROOT / "public/content/living-earth/v2"))
     tiles_world.add_argument("--out", default=str(WEB_ROOT / "public/content/tiles/world"))
     tiles_world.set_defaults(fn=cmd_tiles_world)
+    detail = WEB_ROOT / "public/content/tiles/detail"
+    coast_plan = sub.add_parser("coast-plan", help="list the coastal tiles of a tileset into assets/coast-plan.json (for coast.yml)")
+    coast_plan.add_argument("--tiles", default=str(detail))
+    coast_plan.add_argument("--level", type=int, default=8)
+    coast_plan.set_defaults(fn=cmd_coast_plan)
+    coast_patch = sub.add_parser("coast-patch", help="turn near-shore water into ocean in served tiles from the coast mask")
+    coast_patch.add_argument("--tiles", default=str(detail))
+    coast_patch.add_argument("--coast", default=str(REPO_ROOT / "data" / "coast"))
+    coast_patch.add_argument("--level", type=int, default=8, help="mask level (the tileset's finest)")
+    coast_patch.add_argument("--min-level", type=int, default=5, help="re-derive coarser tiles down to this level")
+    coast_patch.add_argument("--bbox", help="only masks inside W,S,E,N (for trying it on one place first)")
+    coast_patch.add_argument("--backup", default=str(REPO_ROOT / "data" / "coast-backup"), help="copy originals here first ('' = none)")
+    coast_patch.set_defaults(fn=cmd_coast_patch)
     places = sub.add_parser("places", help="build the place-name product from GeoNames cities1000 (downloads it)")
     places.add_argument("--src", default=str(RAW_DIR / "geonames"))
     places.add_argument("--out", default=str(WEB_ROOT / "public/content/places"))

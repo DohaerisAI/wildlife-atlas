@@ -143,6 +143,14 @@ def plan_shards(land: np.ndarray, bbox: Bounds, shard_level: int = 3) -> list[Ti
     return [t for t in tiles_in_bbox(shard_level, bbox) if (t[1], t[2]) in has_land]
 
 
+def parse_bbox(text: str) -> Bounds:
+    """'W,S,E,N' in degrees."""
+    w, s, e, n = (float(v) for v in text.split(","))
+    if not (w < e and s < n):
+        raise ValueError(f"bbox {text!r} must be W,S,E,N with W < E and S < N")
+    return w, s, e, n
+
+
 def parse_tile(text: str) -> Tile:
     """'z/x/y' to a checked tile."""
     parts = text.strip().split("/")

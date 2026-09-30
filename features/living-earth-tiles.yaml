@@ -8,7 +8,9 @@ summary: >-
   MODIS NDVI, computed in Earth Engine as a matrix of level-3 shards that skips open ocean and resumes by
   rerunning failed shards. Town levels 9-11 (validation sites) add GLO-30 2024_1 hillshade at 30 m and a Sentinel-2
   true-colour mosaic; MODIS MOD13Q1 NDVI (250 m) stops at level 9 and the engine samples that tile's sub-rectangle at levels
-  10-11 (manifest ndvi.levels). Each tileset has a manifest with sources and an availability index. Place names:
+  10-11 (manifest ndvi.levels). Each tileset has a manifest with sources and an availability index.
+  Coast fix without a rebuild: a coast mask (GLO-30 WBM ocean share, level 8, coastal tiles only, coast.yml) patches
+  near-shore WorldCover water to ocean in the served tiles and re-derives levels 5-7 (`atlas coast-patch`). Place names:
   GeoNames cities1000 worldwide (171k places), capitals and admin seats flagged, chunked by level-3 tile.
   Tiles are not in git: R2 hosting is blocked on the owner's Cloudflare account (docs/plans/one-engine.md).
 paths:
@@ -22,6 +24,12 @@ paths:
   - pipeline/scripts/tiles_ci.py
   - .github/workflows/tiles.yml
   - scripts/pull-tiles.sh
+  - pipeline/atlas_pipeline/coast_mask.py
+  - pipeline/atlas_pipeline/coast_patch.py
+  - pipeline/atlas_pipeline/coast_ee.py
+  - pipeline/scripts/coast_ci.py
+  - pipeline/assets/coast-plan.json
+  - .github/workflows/coast.yml
 checks:
   - suite: pytest
     file: tests/test_tiles.py
@@ -31,6 +39,8 @@ checks:
     file: tests/test_tile_absorb.py
   - suite: pytest
     file: tests/test_tile_blocks.py
+  - suite: pytest
+    file: tests/test_coast.py
   - suite: vitest
     file: src/engine/tiles/tileset.test.ts
 next: >-

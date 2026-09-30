@@ -1,0 +1,80 @@
+# Coast mask (docs/sessions/2026-09-30-handoff.md): GLO-30 WBM ocean share for the coastal tiles listed in
+# pipeline/assets/coast-plan.json, so the served tiles can be patched locally instead of rebuilt.
+# Pull: gh run download <run-id> -n coast-mask -D data/coast, then `uv run atlas coast-patch`.
+name: Build coast mask
+concurrency:
+  group: earth-engine-tiles  # shares the project's Earth Engine concurrency with the tile runs
+  cancel-in-progress: false
+on:
+  workflow_dispatch:
+    inputs:
+      shards:
+        description: "Only these level-3 shards, comma-separated z/x/y; empty = every shard in the plan"
+        default: ""
+      workers:
+        description: "Parallel Earth Engine calls per shard (x 5 shards at once)"
+        default: "4"
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      shards: ${{ steps.plan.outputs.shards }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.2.0
+      - id: plan
+        working-directory: pipeline
+        run: |
+          uv sync --quiet
+          shards="$(uv run python scripts/coast_ci.py plan --only='${{ inputs.shards }}')"
+          echo "shards=$shards" >> "$GITHUB_OUTPUT"
+  shard:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        shard: ${{ fromJson(needs.plan.outputs.shards) }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.2.0
+      - id: name
+        run: echo "id=$(echo '${{ matrix.shard }}' | tr / -)" >> "$GITHUB_OUTPUT"
+      - name: Coast mask for shard ${{ matrix.shard }}
+        working-directory: pipeline
+        env:
+          EE_PROJECT: ${{ secrets.EE_PROJECT }}
+          EE_SERVICE_ACCOUNT_KEY: ${{ secrets.EE_SERVICE_ACCOUNT_KEY }}
+        run: |
+          uv sync --quiet
+          uv run --with earthengine-api python scripts/coast_ci.py shard ../coast --shard '${{ matrix.shard }}' --workers '${{ inputs.workers }}'
+      - uses: actions/upload-artifact@v7
+        with:
+          name: coast-shard-${{ steps.name.outputs.id }}
+          path: coast/
+          retention-days: 14
+  merge:
+    needs: shard
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.2.0
+      - uses: actions/download-artifact@v7
+        with:
+          pattern: coast-shard-*
+          merge-multiple: true
+          path: coast/
+      - name: Manifest
+        working-directory: pipeline
+        run: |
+          uv sync --quiet
+          uv run python scripts/coast_ci.py merge ../coast
+          du -sh ../coast; find ../coast -name '*.png' | wc -l
+      - uses: actions/upload-artifact@v7
+        with:
+          name: coast-mask
+          path: coast/
+          retention-days: 30
