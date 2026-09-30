@@ -24,7 +24,7 @@ const VERT = /* glsl */ `
 const FRAG = /* glsl */ `
   precision highp float;
   uniform sampler2D uLand; uniform vec3 uSrc; uniform vec4 uBounds; uniform vec2 uOrigin;
-  uniform sampler2D uNdvi; uniform float uHasNdvi; uniform sampler2D uRgb; uniform float uHasRgb;
+  uniform sampler2D uNdvi; uniform float uHasNdvi; uniform vec3 uNdviSrc; uniform sampler2D uRgb; uniform float uHasRgb;
   uniform sampler2D uSurface; uniform vec2 uGrid; uniform vec2 uHalf; uniform vec2 uT0; uniform vec2 uT1; uniform float uW;
   uniform float uM0; uniform float uM1;
   uniform vec3 uPalette[12]; uniform float uNdviLo; uniform float uNdviHi;
@@ -36,7 +36,7 @@ const FRAG = /* glsl */ `
   float ndviAt(vec2 suv, vec2 lngLat) {
     if (uHasNdvi > 0.5) {
       vec2 h = vec2(0.5 / 64.0);
-      vec2 f = clamp(suv, h, 1.0 - h);
+      vec2 f = clamp(uNdviSrc.yz + suv * uNdviSrc.x, h, 1.0 - h); // an ancestor's sub-rectangle at town levels
       vec2 c0 = vec2(mod(uM0, 4.0), floor(uM0 / 4.0)); vec2 c1 = vec2(mod(uM1, 4.0), floor(uM1 / 4.0));
       float b0 = texture(uNdvi, (c0 + f) / vec2(4.0, 3.0)).r; float b1 = texture(uNdvi, (c1 + f) / vec2(4.0, 3.0)).r;
       if (b0 > 0.5 / 255.0 && b1 > 0.5 / 255.0) return uNdviLo + (mix(b0, b1, uW) * 255.0 - 1.0) / 254.0 * (uNdviHi - uNdviLo);
@@ -125,7 +125,10 @@ export function sharedUniforms() {
 }
 export type SharedUniforms = ReturnType<typeof sharedUniforms>;
 
-export interface TileTextures { readonly land: Texture; readonly ndvi: Texture | null; readonly rgb: Texture | null }
+export interface TileTextures {
+  readonly land: Texture; readonly ndvi: Texture | null; readonly rgb: Texture | null;
+  readonly ndviUv?: { readonly scale: number; readonly u: number; readonly v: number } | null;
+}
 
 /** `origin`: the tile's west and north edge in degrees mod 1 (computed in double precision) for seamless detail noise. */
 export function tileMaterial(shared: SharedUniforms, tex: TileTextures, src: Vector3, b: Vector4, origin: Vector2): ShaderMaterial {
@@ -133,6 +136,7 @@ export function tileMaterial(shared: SharedUniforms, tex: TileTextures, src: Vec
     vertexShader: VERT, fragmentShader: FRAG, side: DoubleSide, transparent: true, depthWrite: true,
     uniforms: {
       ...shared, uLand: { value: tex.land }, uNdvi: { value: tex.ndvi }, uHasNdvi: { value: tex.ndvi ? 1 : 0 },
+      uNdviSrc: { value: new Vector3(tex.ndviUv?.scale ?? 1, tex.ndviUv?.u ?? 0, tex.ndviUv?.v ?? 0) },
       uRgb: { value: tex.rgb }, uHasRgb: { value: tex.rgb ? 1 : 0 }, uFade: { value: 1 }, uSrc: { value: src }, uBounds: { value: b }, uOrigin: { value: origin },
     },
   });

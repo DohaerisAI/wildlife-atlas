@@ -1,4 +1,4 @@
-import { children, cols, decodeIndex, hasTile, rows, type TileId } from './tile-math';
+import { ancestor, children, cols, decodeIndex, hasTile, rows, uvWithin, type TileId } from './tile-math';
 
 /** A Living Earth tileset manifest (pipeline tile_product.manifest). No manifest, no product (architecture rule). */
 export interface TileChannel { readonly name: string; readonly lo: number; readonly hi: number; readonly source: string }
@@ -10,7 +10,9 @@ export interface TilesetManifest {
   readonly levels: readonly [number, number];
   readonly bounds: readonly [number, number, number, number];
   readonly land: { readonly path: string; readonly channels: readonly TileChannel[] };
-  readonly ndvi: { readonly path: string; readonly layout: { readonly cols: number; readonly rows: number; readonly frame: readonly [number, number] }; readonly channel: TileChannel } | null;
+  readonly ndvi: { readonly path: string; readonly layout: { readonly cols: number; readonly rows: number; readonly frame: readonly [number, number] }; readonly channel: TileChannel;
+    /** levels that have their own NDVI tiles; finer tiles sample the one at levels[1] (absent = the tileset's levels) */
+    readonly levels?: readonly [number, number] } | null;
   readonly index: Readonly<Record<string, string>>;
   readonly rgb?: { readonly path: string; readonly source: string; readonly license: string } | null;
   readonly attribution: string;
@@ -32,6 +34,8 @@ export function validateTileset(raw: unknown): TilesetManifest {
     if (!c || c.name !== name || !c.source) throw new TilesetError(`land channel ${i} must be ${name} with a source`);
   });
   if (m.ndvi && (!m.ndvi.channel?.source || m.ndvi.layout?.cols !== 4 || m.ndvi.layout?.rows !== 3)) throw new TilesetError('ndvi layer must be a 4 x 3 atlas with a source');
+  const nl = m.ndvi?.levels;
+  if (nl && (!Array.isArray(nl) || nl.length !== 2 || !(nl[0] >= lv[0] && nl[1] >= nl[0] && nl[1] <= lv[1]))) throw new TilesetError('ndvi levels must be [min, max] within the tileset levels');
   for (let z = lv[0]; z <= lv[1]; z++) if (typeof m.index?.[String(z)] !== 'string') throw new TilesetError(`index for level ${z} missing`);
   if (!m.attribution) throw new TilesetError('attribution missing');
   return m as TilesetManifest;
@@ -99,6 +103,22 @@ export const hasChildren = (sets: readonly Tileset[], t: TileId): boolean => chi
 
 export function maxLevel(sets: readonly Tileset[]): number {
   return Math.max(0, ...sets.map((s) => s.manifest.levels[1]));
+}
+
+/** UV scale and offset of a tile inside the texture that holds its NDVI (u east, v south). */
+export interface NdviSource { readonly tile: TileId; readonly scale: number; readonly u: number; readonly v: number }
+
+/**
+ * The NDVI tile to sample for land tile `t`: its own at levels with NDVI tiles, else its ancestor at the finest NDVI
+ * level with the sub-rectangle `t` covers (town levels 10-11 read the ~300 m level-9 NDVI). Null: no NDVI here.
+ */
+export function ndviSource(ts: Tileset, t: TileId): NdviSource | null {
+  const n = ts.manifest.ndvi;
+  if (!n) return null;
+  const [lo, hi] = n.levels ?? ts.manifest.levels;
+  if (t.z < lo) return null;
+  const tile = t.z > hi ? ancestor(t, hi) : t;
+  return { tile, ...uvWithin(t, tile) };
 }
 
 export function tileUrl(ts: Tileset, kind: 'land' | 'ndvi' | 'rgb', t: TileId): string {

@@ -6,7 +6,9 @@ summary: >-
   Our own tile product for the one engine (decision 0010), same detail worldwide: levels 0-4 cut from pack v2;
   levels 5-8 (down to ~300 m) of ESA WorldCover class, MODIS tree cover, Copernicus DEM hillshade and 12 monthly
   MODIS NDVI, computed in Earth Engine as a matrix of level-3 shards that skips open ocean and resumes by
-  rerunning failed shards. Each tileset has a manifest with sources and an availability index. Place names:
+  rerunning failed shards. Town levels 9-11 (validation sites) add GLO-30 2024_1 hillshade at 30 m and a Sentinel-2
+  true-colour mosaic; Sentinel-2 NDVI stops at level 9 and the engine samples that tile's sub-rectangle at levels
+  10-11 (manifest ndvi.levels). Each tileset has a manifest with sources and an availability index. Place names:
   GeoNames cities1000 worldwide (171k places), capitals and admin seats flagged, chunked by level-3 tile.
   Tiles are not in git: R2 hosting is blocked on the owner's Cloudflare account (docs/plans/one-engine.md).
 paths:
@@ -14,6 +16,8 @@ paths:
   - pipeline/atlas_pipeline/tile_raster.py
   - pipeline/atlas_pipeline/tile_product.py
   - pipeline/atlas_pipeline/tiles_ee.py
+  - pipeline/atlas_pipeline/tiles_ee_fine.py
+  - web/src/engine/tiles/tileset.ts
   - pipeline/atlas_pipeline/places.py
   - pipeline/scripts/tiles_ci.py
   - .github/workflows/tiles.yml
@@ -27,6 +31,8 @@ checks:
     file: tests/test_tile_absorb.py
   - suite: pytest
     file: tests/test_tile_blocks.py
+  - suite: vitest
+    file: src/engine/tiles/tileset.test.ts
 next: >-
   Tiles are now requested in blocks of up to 2048 px (one computePixels call per block, cut into 256 px tiles on
   the runner, quartered on timeout) and one tile run goes at a time (the Earth Engine project is in Restricted Mode).

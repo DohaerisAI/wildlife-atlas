@@ -1,8 +1,12 @@
 import { LinearFilter, NearestFilter, Texture } from 'three';
 import { tileKey, type TileId } from './tile-math';
-import { sourceFor, tileUrl, type Tileset } from './tileset';
+import { ndviSource, sourceFor, tileUrl, type NdviSource, type Tileset } from './tileset';
 
-export interface LoadedTile { readonly land: Texture; readonly ndvi: Texture | null; readonly rgb: Texture | null; readonly loadedAt: number }
+export interface LoadedTile {
+  readonly land: Texture; readonly ndvi: Texture | null; readonly rgb: Texture | null; readonly loadedAt: number;
+  /** where this tile sits in its NDVI texture (an ancestor's below the finest NDVI level) */
+  readonly ndviUv: NdviSource | null;
+}
 
 interface InFlight { readonly controller: AbortController; lastWanted: number }
 
@@ -60,10 +64,11 @@ export class TileLoader {
     const { signal } = controller;
     // NDVI and true colour are optional: a missing one leaves the tile on the pack's NDVI / Living Earth colours
     const optional = (url: string | null) => (url ? bitmap(url, signal).catch((e: unknown) => { if (signal.aborted) throw e; return null; }) : Promise.resolve(null));
-    Promise.all([bitmap(tileUrl(set, 'land', t), signal), optional(set.manifest.ndvi ? tileUrl(set, 'ndvi', t) : null), optional(set.manifest.rgb ? tileUrl(set, 'rgb', t) : null)])
+    const nd = ndviSource(set, t);
+    Promise.all([bitmap(tileUrl(set, 'land', t), signal), optional(nd ? tileUrl(set, 'ndvi', nd.tile) : null), optional(set.manifest.rgb ? tileUrl(set, 'rgb', t) : null)])
       .then(([land, ndvi, rgb]) => {
         if (signal.aborted) return;
-        this.onLoad(k, { land: dataTexture(land, false), ndvi: ndvi ? dataTexture(ndvi, true) : null, rgb: rgb ? dataTexture(rgb, true) : null, loadedAt: performance.now() });
+        this.onLoad(k, { land: dataTexture(land, false), ndvi: ndvi ? dataTexture(ndvi, true) : null, rgb: rgb ? dataTexture(rgb, true) : null, ndviUv: ndvi ? nd : null, loadedAt: performance.now() });
       })
       .catch((err: unknown) => {
         if (signal.aborted) return;
