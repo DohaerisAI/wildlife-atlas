@@ -12,5 +12,7 @@ paths:
 checks:
   - suite: vitest
     file: src/atlas/research-regions.test.ts
+  - suite: vitest
+    file: src/atlas/ui/bits.test.ts
 next: >-
   Uncertainty per value, GBIF download DOIs from the pipeline, an API.

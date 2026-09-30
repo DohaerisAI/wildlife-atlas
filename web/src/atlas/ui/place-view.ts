@@ -5,7 +5,7 @@ import type { Coverage, SpeciesIndexEntry } from '../../types';
 import { h } from '../../ui/dom';
 import type { Doing, PlaceRow, PlaceSummary, Reported } from '../place-summary';
 import type { Place } from '../store';
-import { doingTag, fmtLat, fmtLng, fold, monthBars, monthName, notAvailable, thumb } from './bits';
+import { cellBounds, doingTag, fmtLat, fmtLng, fold, monthBars, monthName, notAvailable, thumb } from './bits';
 
 /** Which species the list shows. 'moving' = arriving, leaving or passing through this month. */
 export type PlaceFilter = 'moving' | 'arriving' | 'leaving' | 'passing' | 'resident' | 'staying' | 'all';
@@ -82,7 +82,7 @@ function environment(d: PlaceViewData): HTMLElement {
 
 function research(d: PlaceViewData, s: PlaceSummary | null, handlers: PlaceViewHandlers): HTMLElement {
   const { place } = d;
-  const bounds = place.cellId ? (() => { const [lat, lng] = place.cellId.split('_').map(Number) as [number, number]; return `${lat}° to ${lat + d.cellSize}°N, ${lng}° to ${lng + d.cellSize}°E`; })() : null;
+  const bounds = place.cellId ? cellBounds(place.cellId, d.cellSize) : null;
   return h('div', { class: 'research' },
     h('dl', { class: 'env-list' },
       h('div', { class: 'env-row' }, h('dt', {}, 'Grid cell'), h('dd', {}, place.cellId ?? 'no species list here yet', bounds ? h('span', { class: 'env-src' }, bounds) : null)),

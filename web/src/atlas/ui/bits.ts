@@ -60,6 +60,12 @@ export const notAvailable = (what = 'Not available from current sources') => h('
 
 export function fmtLat(lat: number): string { return `${Math.abs(lat).toFixed(0)}°${lat >= 0 ? 'N' : 'S'}`; }
 export function fmtLng(lng: number): string { return `${Math.abs(lng).toFixed(0)}°${lng >= 0 ? 'E' : 'W'}`; }
+/** A grid cell id ('lat_lng' of its south-west corner) as bounds with the right hemispheres, e.g. '4°S to 3°S, 61°W to 60°W'. */
+export function cellBounds(cellId: string, size: number): string | null {
+  const [lat, lng] = cellId.split('_').map(Number);
+  if (!Number.isFinite(lat) || !Number.isFinite(lng)) return null;
+  return `${fmtLat(lat!)} to ${fmtLat(lat! + size)}, ${fmtLng(lng!)} to ${fmtLng(lng! + size)}`;
+}
 
 /** A collapsible section: the panel stays short, detail is one tap away. */
 export function fold(title: string, open: boolean, ...children: (Node | string | null | false)[]): HTMLElement {
