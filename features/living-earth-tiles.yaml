@@ -25,5 +25,10 @@ checks:
     file: tests/test_places.py
   - suite: pytest
     file: tests/test_tile_absorb.py
+  - suite: pytest
+    file: tests/test_tile_blocks.py
 next: >-
+  Tiles are now requested in blocks of up to 2048 px (one computePixels call per block, cut into 256 px tiles on
+  the runner, quartered on timeout) and one tile run goes at a time (the Earth Engine project is in Restricted Mode).
+  Worldwide levels 9-11 need Earth Engine batch export to a GCS bucket (owner to create) and R2 hosting.
   World level 6, then 7 and 8; R2 publishing once the bucket exists; water and snow tile channels; level 9+.

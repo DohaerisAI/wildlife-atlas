@@ -5,6 +5,11 @@
 # artifacts and the merge job runs again. After a code fix, run just the failed shards with the `shards` input.
 # Pull for development: scripts/pull-tiles.sh <run-id>  (into web/public/content/tiles/detail, gitignored).
 name: Build Living Earth tiles
+# One tile run at a time: every run shares the project's Earth Engine concurrency (Restricted Mode), and two runs
+# competing only make both hit HTTP 429. A newer dispatch waits for the running one.
+concurrency:
+  group: earth-engine-tiles
+  cancel-in-progress: false
 on:
   workflow_dispatch:
     inputs:
@@ -31,8 +36,8 @@ on:
         description: "Only these shards, comma-separated z/x/y (e.g. 3/0/0,3/1/0); empty = every land shard in bbox"
         default: ""
       workers:
-        description: "Parallel Earth Engine calls per shard (x 10 shards at once must stay under EE's ~40 concurrent)"
-        default: "4"
+        description: "Parallel Earth Engine calls per shard (x 5 shards at once; each call is a block of up to 2048 px)"
+        default: "3"
 jobs:
   plan:
     runs-on: ubuntu-latest
@@ -53,7 +58,7 @@ jobs:
     timeout-minutes: 350
     strategy:
       fail-fast: false
-      max-parallel: 10
+      max-parallel: 5
       matrix:
         shard: ${{ fromJson(needs.plan.outputs.shards) }}
     steps:
