@@ -82,7 +82,7 @@ export async function startEngine(els: EngineElements): Promise<void> {
   let earth: LivingEarth | null = null;
   createLivingEarth(`${base}content/living-earth/v2/`, stage.scene, mask, stage.settings(), stage.renderer.capabilities.maxTextureSize, reduced, false, globe)
     .then((le) => {
-      earth = le;
+      le.setTileMask(true); earth = le;
       const tex = le.surfaceTexture();
       if (tex) tiles.setSurface(tex, le.manifest.surface.month, channel(le.manifest.surface, 'ndvi'));
     })
@@ -118,6 +118,7 @@ export async function startEngine(els: EngineElements): Promise<void> {
     const look = zoomLook(pose.altKm);
     globe.update(time);
     globe.setDotOpacity(look.dotAlpha);
+    globe.setGridOpacity(look.gridAlpha);
     tiles.setAlpha(look.tileAlpha);
     tiles.setMonth(month);
     tiles.uniforms.uTime.value = time;

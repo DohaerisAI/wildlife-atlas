@@ -36,6 +36,7 @@ Audiences: enthusiasts, students, researchers. What the product is lives in `WIL
 - Facts in stories need a source; tests assert it. Illustrative routes must say so in the chapter note.
 - Earth Engine: coarse pyramid levels of masked data (JRC water) average only unmasked pixels. Weight by the fractional `mask()` to get a cell-wide share (`living_earth.water_share`).
 - `write_bundle` rewrites files in place so a running dev server keeps serving them.
+- Coarse globe layers (ocean glow, JRC water, land tint) follow the tiles' coastline through the stencil (`engine/layers/stencil.ts`). The stencil lives in the EffectComposer's render target (`core/stage.ts`), not the canvas: a composer target without `stencilBuffer` silently disables it.
 
 ## Commands
 - Pipeline: `cd pipeline && uv run pytest`; `uv run atlas demo | build | fetch | fetch-global`

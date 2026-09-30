@@ -5,9 +5,11 @@ describe('engine look by altitude', () => {
   it('is the dot hologram from space and a solid surface close in', () => {
     const space = zoomLook(20000);
     expect(space.dotAlpha).toBe(1);
+    expect(space.gridAlpha).toBe(1);
     expect(space.tileAlpha).toBeCloseTo(0.3);
     const town = zoomLook(10);
     expect(town.dotAlpha).toBe(0);
+    expect(town.gridAlpha).toBe(0); // no 15 degree grid band across a close-in coast
     expect(town.tileAlpha).toBe(1);
   });
 
@@ -15,6 +17,8 @@ describe('engine look by altitude', () => {
     expect(zoomLook(20000).channels.wind).toBeCloseTo(0.6);
     expect(zoomLook(300).channels.wind).toBe(0);
     expect(zoomLook(50).channels.water).toBe(0);
+    expect(zoomLook(2500).channels.water).toBe(0); // no JRC glow on a coast seen from 2500 km
+    expect(zoomLook(2500).gridAlpha).toBe(0);
     expect(zoomLook(50).channels.depth).toBe(0);
   });
 

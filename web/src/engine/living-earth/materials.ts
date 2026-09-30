@@ -34,6 +34,8 @@ export interface LivingEarth {
   readonly manifest: PackManifest;
   update(t: number, time: number, dt: number, ch: MaterialChannels, camera: PerspectiveCamera): void;
   setTier(s: TierSettings): void;
+  /** the page draws land tiles: water and ocean glows follow the tiles' coastline (layers/stencil.ts) */
+  setTileMask(on: boolean): void;
   /** Real values at a place and month (needs the pack loaded with `probe: true`). */
   sample(lng: number, lat: number, t: number): { reading: EnvReading; onLand: boolean; v2: EnvReadingV2 | null } | null;
   /** true when pack v2 layers (land, ocean, relief, lights) are on the globe */
@@ -103,6 +105,10 @@ export async function createLivingEarth(baseUrl: string, scene: Scene, mask: Lan
       wind.setOpacity(ch.wind);
       wind.update(t, dt, camera);
       world?.update(t, dt, { land: ch.land ?? 0, currents: ch.currents ?? 0, blooms: ch.blooms ?? 0, lights: ch.lights ?? 0, depth: ch.depth ?? 0 }, camera);
+    },
+    setTileMask(on) {
+      surface?.setTileMask(on);
+      world?.setTileMask(on);
     },
     setTier(next) {
       surface?.setMaterialFx(next.materialFx && !reduced);

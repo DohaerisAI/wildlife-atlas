@@ -19,6 +19,8 @@ export interface WorldV2 {
   update(t: number, dt: number, ch: WorldChannels, camera: PerspectiveCamera): void;
   sample(lng: number, lat: number, t: number): EnvReadingV2 | null;
   setTier(s: TierSettings): void;
+  /** ocean glow follows the tiles' coastline (tile land in the stencil) */
+  setTileMask(on: boolean): void;
   /** land.png pixels on the CPU (probe mode only), for redrawing the land elsewhere */
   landPixels(): { data: Uint8ClampedArray; width: number; height: number } | null;
   dispose(): void;
@@ -60,7 +62,7 @@ export function attachWorldV2(pack: LoadedPackV2, surfaceTexture: Texture, scene
 
   const palette = Array.from({ length: 12 }, (_, i) => new Color(...(Array.from(paletteArray().slice(i * 3, i * 3 + 3)) as [number, number, number])));
   const ocean = new OceanLayer({ ocean: oceanTex, relief, land, palette, grid: [m.layout.cols, m.layout.rows], half: [0.5 / ow, 0.5 / oh], layout: m.layout, elevLo: ELEVATION_LO });
-  scene.add(ocean.mesh);
+  scene.add(ocean.group);
 
   const [cu, cv] = [m.ocean.channels[0]!, m.ocean.channels[1]!];
   const oceanAtlasW = pack.ocean.width;
@@ -109,9 +111,10 @@ export function attachWorldV2(pack: LoadedPackV2, surfaceTexture: Texture, scene
       };
     },
     setTier(next) { currents.resize(Math.round(next.windStreaks * 0.8)); },
+    setTileMask(on) { ocean.setTileMask(on); },
     landPixels: () => (pack.landPixels ? { data: pack.landPixels, width: lw, height: lh } : null),
     dispose() {
-      scene.remove(ocean.mesh, currents.lines);
+      scene.remove(ocean.group, currents.lines);
       ocean.dispose(); currents.dispose();
       land.dispose(); relief.dispose(); oceanTex.dispose();
       globe?.setLandMaterials(null);

@@ -1,6 +1,7 @@
 import { AdditiveBlending, Color, DataTexture, LinearFilter, Mesh, ShaderMaterial, SphereGeometry, Texture, Vector2 } from 'three';
 import type { LandMask } from '../globe/mask';
 import { LAYER_ORDER } from '../layers/order';
+import { onTileLand } from '../layers/stencil';
 import { SHOWN, SNOW_THRESHOLD, WATER_THRESHOLD } from './motion';
 import { channel, monthBlend, tileOf, type PackManifest } from './pack';
 
@@ -106,6 +107,9 @@ export class SurfaceLayer {
   }
 
   setMaterialFx(on: boolean): void { this.uniforms.uFx!.value = on ? 1 : 0; }
+
+  /** Draw only on tile land (stencil): JRC counts near-shore sea as water, and the ~20 km land mask let it show. */
+  setTileMask(on: boolean): void { onTileLand(this.mesh.material as ShaderMaterial, on); }
 
 
   update(t: number, time: number): void {

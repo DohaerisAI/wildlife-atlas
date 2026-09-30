@@ -1,5 +1,6 @@
 import { Color, DoubleSide, ShaderMaterial, Texture, Vector2, Vector3, Vector4 } from 'three';
 import { paletteArray } from '../living-earth/land-classes';
+import { writesTileLand } from '../layers/stencil';
 
 /**
  * Land tile look: the Living Earth recipe of the globe's land dots (globe/globe.ts): class colour, green classes
@@ -132,7 +133,7 @@ export interface TileTextures {
 
 /** `origin`: the tile's west and north edge in degrees mod 1 (computed in double precision) for seamless detail noise. */
 export function tileMaterial(shared: SharedUniforms, tex: TileTextures, src: Vector3, b: Vector4, origin: Vector2): ShaderMaterial {
-  return new ShaderMaterial({
+  const m = new ShaderMaterial({
     vertexShader: VERT, fragmentShader: FRAG, side: DoubleSide, transparent: true, depthWrite: true,
     uniforms: {
       ...shared, uLand: { value: tex.land }, uNdvi: { value: tex.ndvi }, uHasNdvi: { value: tex.ndvi ? 1 : 0 },
@@ -140,4 +141,6 @@ export function tileMaterial(shared: SharedUniforms, tex: TileTextures, src: Vec
       uRgb: { value: tex.rgb }, uHasRgb: { value: tex.rgb ? 1 : 0 }, uFade: { value: 1 }, uSrc: { value: src }, uBounds: { value: b }, uOrigin: { value: origin },
     },
   });
+  writesTileLand(m); // ocean pixels are discarded, so only land marks the stencil
+  return m;
 }

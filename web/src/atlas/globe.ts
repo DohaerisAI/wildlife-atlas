@@ -76,7 +76,7 @@ export function createAtlasGlobe(stageRoot: HTMLElement, pinsRoot: HTMLElement, 
   const earthFns: ((e: LivingEarth) => void)[] = [];
   createLivingEarth(`${base}content/living-earth/v2/`, stage.scene, mask, stage.settings(), stage.renderer.capabilities.maxTextureSize, reduced, true, globe)
     .then((le) => {
-      le.setTier(stage.settings()); earth = le;
+      le.setTier(stage.settings()); le.setTileMask(true); earth = le;
       const tex = le.surfaceTexture();
       if (tex) tiles.setSurface(tex, le.manifest.surface.month, channel(le.manifest.surface, 'ndvi'));
       earthFns.forEach((fn) => fn(le));
@@ -99,6 +99,7 @@ export function createAtlasGlobe(stageRoot: HTMLElement, pinsRoot: HTMLElement, 
     const look = zoomLook(pose.altKm);
     globe.update(time);
     globe.setDotOpacity(look.dotAlpha);
+    globe.setGridOpacity(look.gridAlpha);
     tiles.setAlpha(look.tileAlpha);
     tiles.setMonth(month);
     tiles.uniforms.uTime.value = time;

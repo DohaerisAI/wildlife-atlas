@@ -16,7 +16,7 @@ const BODY_VERT = /* glsl */ `
   }`;
 
 const BODY_FRAG = /* glsl */ `
-  uniform vec3 uCore; uniform vec3 uRim; uniform float uTime;
+  uniform vec3 uCore; uniform vec3 uRim; uniform float uTime; uniform float uGridAlpha;
   varying vec3 vNormal; varying vec3 vView; varying vec3 vPos;
   void main() {
     float fres = pow(1.0 - max(dot(vNormal, vView), 0.0), 3.0);
@@ -25,7 +25,7 @@ const BODY_FRAG = /* glsl */ `
     float lng = degrees(atan(p.z, -p.x));
     float gLat = 1.0 - smoothstep(0.0, 0.08, abs(fract(lat / 15.0 + 0.5) - 0.5) * 15.0);
     float gLng = 1.0 - smoothstep(0.0, 0.08, abs(fract(lng / 15.0 + 0.5) - 0.5) * 15.0);
-    float grid = max(gLat, gLng) * 0.03;
+    float grid = max(gLat, gLng) * 0.03 * uGridAlpha;
     gl_FragColor = vec4(uCore + uRim * (fres * 0.5 + grid), 1.0);
   }`;
 
@@ -110,6 +110,8 @@ export interface Globe {
   setFocus(v: number): void;
   /** fade the land dots (1 = as drawn; the tiled engine fades them out close in) */
   setDotOpacity(v: number): void;
+  /** fade the body's 15 degree grid (1 = as drawn) */
+  setGridOpacity(v: number): void;
   /** colour the land dots by Living Earth land class and the month's greenness */
   setLandMaterials(m: LandMaterials | null): void;
   /** which two monthly surface tiles to blend (see living-earth/pack monthBlend) */
@@ -120,7 +122,7 @@ export interface Globe {
 
 export function createGlobe(mask: LandMask, dotCount: number, pixelRatio: number): Globe {
   const group = new Group();
-  const bodyUniforms = { uCore: { value: GLOBE_COLORS.core }, uRim: { value: GLOBE_COLORS.rim }, uTime: { value: 0 } };
+  const bodyUniforms = { uCore: { value: GLOBE_COLORS.core }, uRim: { value: GLOBE_COLORS.rim }, uTime: { value: 0 }, uGridAlpha: { value: 1 } };
   const body = new Mesh(new SphereGeometry(1, 128, 96), new ShaderMaterial({ vertexShader: BODY_VERT, fragmentShader: BODY_FRAG, uniforms: bodyUniforms }));
   const halo = new Mesh(new SphereGeometry(1.1, 96, 64), new ShaderMaterial({
     vertexShader: BODY_VERT, fragmentShader: HALO_FRAG, uniforms: { uRim: { value: GLOBE_COLORS.rim } },
@@ -171,6 +173,7 @@ export function createGlobe(mask: LandMask, dotCount: number, pixelRatio: number
     group,
     update(time) { bodyUniforms.uTime.value = time; dotUniforms.uTime.value = time; },
     setFocus(v) { dotUniforms.uFocus.value = v; },
+    setGridOpacity(v) { bodyUniforms.uGridAlpha.value = v; },
     setDotOpacity(v) { dotUniforms.uDotAlpha.value = v; if (dots) dots.visible = v > 0.01; },
     setLandMaterials(m) {
       dotUniforms.uMat.value = m ? 1 : 0;

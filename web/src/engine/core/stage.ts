@@ -1,4 +1,4 @@
-import { PerspectiveCamera, Scene, Vector2, WebGLRenderer } from 'three';
+import { HalfFloatType, PerspectiveCamera, Scene, Vector2, WebGLRenderer, WebGLRenderTarget } from 'three';
 import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer.js';
 import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js';
 import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js';
@@ -41,7 +41,8 @@ export function createStage(container: HTMLElement, opts: { fov?: number } = {})
 
   const scene = new Scene();
   const camera = new PerspectiveCamera(opts.fov ?? 34, 1, 0.01, 200);
-  const composer = new EffectComposer(renderer);
+  // the composer's default target has no stencil; tile land is masked in it (layers/stencil.ts)
+  const composer = new EffectComposer(renderer, new WebGLRenderTarget(1, 1, { type: HalfFloatType, stencilBuffer: true }));
   composer.addPass(new RenderPass(scene, camera));
   const bloom = new UnrealBloomPass(new Vector2(1, 1), 0.55, 0.4, 0.55);
   composer.addPass(bloom);

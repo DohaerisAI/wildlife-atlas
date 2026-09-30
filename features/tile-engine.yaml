@@ -33,6 +33,10 @@ checks:
   - suite: vitest
     file: src/engine/tiles/tileset.test.ts
   - suite: vitest
+    file: src/engine/layers/stencil.test.ts
+  - suite: vitest
+    file: src/experiences/engine-look.test.ts
+  - suite: vitest
     file: src/engine/labels/label-rules.test.ts
   - suite: vitest
     file: src/engine/camera/geo-camera.test.ts
