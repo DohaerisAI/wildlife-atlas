@@ -245,3 +245,9 @@ def test_town_dem_is_the_2024_release():
     from atlas_pipeline.tiles_ee_fine import DEM, SOURCES
     assert DEM == "COPERNICUS/DEM/GLO30_2024_1"
     assert DEM in SOURCES["shade"] and DEM in DETAIL_SOURCES["hillshade"]
+
+
+def test_town_ndvi_is_modis_250m():
+    from atlas_pipeline.tiles_ee_fine import NDVI_Q1, SOURCES
+    assert NDVI_Q1 == "MODIS/061/MOD13Q1"
+    assert SOURCES["ndvi"].startswith(NDVI_Q1) and "Sentinel" not in SOURCES["ndvi"] and "S2" not in SOURCES["ndvi"]

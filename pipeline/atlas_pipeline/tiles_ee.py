@@ -17,7 +17,7 @@ from . import tile_math as tm
 from .living_earth_v2 import land_class
 from .living_earth_v2_ee import _OUTSIDE, SENTINEL, _fetch
 from .tile_product import Mosaic
-from .tiles_ee_fine import DEM, FINE_FROM_LEVEL, NDVI_MAX_LEVEL, rgb_bytes, s2_rgb_image, s2_ndvi_image, shade_image
+from .tiles_ee_fine import DEM, FINE_FROM_LEVEL, NDVI_MAX_LEVEL, ndvi_q1_image, rgb_bytes, s2_rgb_image, shade_image
 
 log = logging.getLogger(__name__)
 BANDS = ["codes", "share", "sea", "tree", "elev", "ice"]
@@ -158,7 +158,7 @@ def ndvi_tiles(todo: list[tm.Tile], level: int) -> list[tm.Tile]:
 def pull_shard(ee, shard: tm.Tile, level: int, land_mask: np.ndarray, workers: int = 8, ndvi: bool = True,
                keep=None, exact: bool | None = None) -> Mosaic:
     """Pull one shard at `level`. `keep(tile)` limits it to some tiles (validation sites). From level 9 the town-scale
-    sources are used: hillshade at DEM resolution, Sentinel-2 monthly NDVI (at level 9 at most) and a Sentinel-2 true-colour mosaic."""
+    sources are used: hillshade at DEM resolution, MODIS 250 m monthly NDVI (at level 9 at most) and a Sentinel-2 true-colour mosaic."""
     exact = level >= EXACT_FROM_LEVEL if exact is None else exact
     fine = level >= FINE_FROM_LEVEL
     todo = [t for t in shard_tiles(shard, level, land_mask) if keep is None or keep(t)]
@@ -185,13 +185,13 @@ def pull_shard(ee, shard: tm.Tile, level: int, land_mask: np.ndarray, workers: i
             y, x = at(t)
             rgb[y:y + tm.TILE_PX, x:x + tm.TILE_PX] = rgb_bytes(a)
     nl = ndvi_level(level)
-    months = pull_ndvi(ee, shard, nl, ndvi_tiles(todo, nl), workers, s2_ndvi_image(ee, nl) if nl >= FINE_FROM_LEVEL else None) if ndvi else None
+    months = pull_ndvi(ee, shard, nl, ndvi_tiles(todo, nl), workers, ndvi_q1_image(ee, nl) if nl >= FINE_FROM_LEVEL else None) if ndvi else None
     return Mosaic(shard, level, cls, tree, elev, months, shade=shade, rgb=rgb, ndvi_level=nl)
 
 
 def pull_ndvi(ee, shard: tm.Tile, level: int, land: list[tm.Tile], workers: int, image=None) -> np.ndarray:
-    """(12, n/4, n/4) NDVI over the shard at 64 px per finest tile, pulled in blocks of land tiles. With a Sentinel-2
-    `image`, a tile whose Sentinel-2 medians fail falls back to MODIS on its own."""
+    """(12, n/4, n/4) NDVI over the shard at 64 px per finest tile, pulled in blocks of land tiles. With a finer
+    `image` (MOD13Q1), a tile it fails on falls back to MOD13A2 on its own."""
     px = 64
     m = px * 2 ** (level - shard[0])
     out = np.full((12, m, m), np.nan)

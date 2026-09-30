@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
     inputs:
       level:
-        description: "Finest level (5-11; 8 = ~300 m, 11 = ~75 m pixels; 9+ adds Sentinel-2 true colour; NDVI stops at level 9, finer levels sample it)"
+        description: "Finest level (5-11; 8 = ~300 m, 11 = ~75 m pixels; 9+ adds Sentinel-2 true colour; NDVI (MODIS 250 m) stops at level 9, finer levels sample it)"
         default: "6"
         type: choice
         options: ["5", "6", "7", "8", "9", "10", "11"]
