@@ -103,7 +103,7 @@ def patch_tileset(root: Path, coast: Path, level: int, min_level: int, bbox: tm.
     masks = sorted(cm.scan_masks(coast).get(level, set()))
     tiles = [(level, x, y) for x, y in masks]
     if bbox is not None:
-        tiles = [t for t in tiles if _overlaps(tm.bounds(t), bbox)]
+        tiles = [t for t in tiles if overlaps(tm.bounds(t), bbox)]
     summary: dict[str, dict] = {}
     with ProcessPoolExecutor(max_workers=workers) as pool:
         done = [r for r in pool.map(_patch_one, [(root, coast, t, backup) for t in tiles], chunksize=16) if r[1]]
@@ -119,7 +119,7 @@ def patch_tileset(root: Path, coast: Path, level: int, min_level: int, bbox: tm.
     return summary
 
 
-def _overlaps(a: tm.Bounds, b: tm.Bounds) -> bool:
+def overlaps(a: tm.Bounds, b: tm.Bounds) -> bool:
     return a[0] < b[2] and b[0] < a[2] and a[1] < b[3] and b[1] < a[3]
 
 

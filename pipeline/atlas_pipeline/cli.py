@@ -11,7 +11,8 @@ from .export import SourceInfo, build_bundle, write_bundle
 
 log = logging.getLogger("atlas")
 WEB_ROOT = REPO_ROOT / "web"
-STILL_RUNNING = 3  # exit code: a GBIF download is accepted but not finished; re-run to resume
+STILL_RUNNING = 3
+GROUP_LEVEL = 5  # coast-mask writes and reports per level-5 tile  # exit code: a GBIF download is accepted but not finished; re-run to resume
 
 GBIF_SOURCE = SourceInfo(
     name="GBIF occurrence records (includes eBird, iNaturalist and others)",
@@ -180,6 +181,46 @@ def cmd_coast_plan(args: argparse.Namespace) -> None:
     log.info("coast plan: %d of %d level-%d tiles (%d with water) -> %s", len(tiles), len(present), args.level, len(water), PLAN_PATH)
 
 
+def cmd_coast_mask(args: argparse.Namespace) -> None:
+    """Pull the coast mask from this machine (Google login via gcloud), skipping tiles already on disk."""
+    import ee
+
+    from . import coast_mask as cm
+    from . import tile_math as tm
+    from .coast_ee import initialize, pull_masks
+    from .coast_patch import overlaps
+
+    initialize(ee)
+    out = Path(args.coast)
+    level, planned = cm.read_plan()
+    have = cm.scan_masks(out).get(level, set())
+    todo = [(level, x, y) for x, y in sorted(planned - have)]
+    if args.bbox:
+        box = tm.parse_bbox(args.bbox)
+        todo = [t for t in todo if overlaps(tm.bounds(t), box)]
+    log.info("coast mask: %d tiles to pull (%d of %d planned already on disk)", len(todo), len(have), len(planned))
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
+    groups = sorted({tm.ancestor(t, GROUP_LEVEL) for t in todo})
+
+    def pull_group(group: tuple) -> tuple[tuple, int, int]:
+        tiles = [t for t in todo if tm.ancestor(t, GROUP_LEVEL) == group]
+        masks = pull_masks(ee, tiles, workers=args.workers, floor_level=level - 1)  # 2 x 2 tile requests
+        for t, m in masks.items():
+            cm.write_mask(out, t, m)
+        return group, len(masks), len(tiles)
+
+    done = 0
+    with ThreadPoolExecutor(max_workers=args.groups) as pool:  # level-5 groups in parallel, each written as it lands
+        for i, f in enumerate(as_completed([pool.submit(pull_group, g) for g in groups]), 1):
+            group, got, n = f.result()
+            done += n
+            log.info("group %d/%d %s: %d of %d tiles written; %d/%d overall", i, len(groups), "/".join(map(str, group)),
+                     got, n, done, len(todo))
+    cm.write_manifest(out, len(planned))
+    log.info("coast mask: done")
+
+
 def cmd_coast_patch(args: argparse.Namespace) -> None:
     from .coast_patch import patch_tileset
     from .tile_math import parse_bbox
@@ -188,6 +229,14 @@ def cmd_coast_patch(args: argparse.Namespace) -> None:
     backup = Path(args.backup) if args.backup else None
     summary = patch_tileset(Path(args.tiles), Path(args.coast), args.level, args.min_level, bbox, backup, log=log.info)
     log.info("coast patch: %s", summary)
+
+
+def cmd_world_from_detail(args: argparse.Namespace) -> None:
+    from .world_from_detail import rebuild_world
+
+    backup = Path(args.backup) if args.backup else None
+    counts = rebuild_world(Path(args.world), Path(args.detail), backup, log=log.info)
+    log.info("world tiles from detail: %s", counts)
 
 
 def cmd_places(args: argparse.Namespace) -> None:
@@ -243,6 +292,12 @@ def main(argv: list[str] | None = None) -> int:
     coast_plan.add_argument("--tiles", default=str(detail))
     coast_plan.add_argument("--level", type=int, default=8)
     coast_plan.set_defaults(fn=cmd_coast_plan)
+    coast_mask = sub.add_parser("coast-mask", help="pull the coast mask for the planned tiles from Earth Engine (local login)")
+    coast_mask.add_argument("--coast", default=str(REPO_ROOT / "data" / "coast"))
+    coast_mask.add_argument("--bbox", help="only planned tiles inside W,S,E,N")
+    coast_mask.add_argument("--workers", type=int, default=8, help="requests in flight per group")
+    coast_mask.add_argument("--groups", type=int, default=4, help="level-5 groups pulled at once")
+    coast_mask.set_defaults(fn=cmd_coast_mask)
     coast_patch = sub.add_parser("coast-patch", help="turn near-shore water into ocean in served tiles from the coast mask")
     coast_patch.add_argument("--tiles", default=str(detail))
     coast_patch.add_argument("--coast", default=str(REPO_ROOT / "data" / "coast"))
@@ -251,6 +306,11 @@ def main(argv: list[str] | None = None) -> int:
     coast_patch.add_argument("--bbox", help="only masks inside W,S,E,N (for trying it on one place first)")
     coast_patch.add_argument("--backup", default=str(REPO_ROOT / "data" / "coast-backup"), help="copy originals here first ('' = none)")
     coast_patch.set_defaults(fn=cmd_coast_patch)
+    wfd = sub.add_parser("world-from-detail", help="rebuild world tiles (levels 0-4) from detail level 5 where it exists")
+    wfd.add_argument("--world", default=str(WEB_ROOT / "public/content/tiles/world"))
+    wfd.add_argument("--detail", default=str(WEB_ROOT / "public/content/tiles/detail"))
+    wfd.add_argument("--backup", default=str(REPO_ROOT / "data" / "world-tiles-backup"), help="copy originals here first ('' = none)")
+    wfd.set_defaults(fn=cmd_world_from_detail)
     places = sub.add_parser("places", help="build the place-name product from GeoNames cities1000 (downloads it)")
     places.add_argument("--src", default=str(RAW_DIR / "geonames"))
     places.add_argument("--out", default=str(WEB_ROOT / "public/content/places"))

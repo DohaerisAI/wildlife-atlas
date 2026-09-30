@@ -10,7 +10,6 @@ The tiles come from assets/coast-plan.json, written on the dev machine from the 
 import argparse
 import json
 import logging
-import os
 import sys
 from pathlib import Path
 
@@ -32,11 +31,9 @@ def cmd_plan(args) -> int:
 def cmd_shard(args) -> int:
     import ee
 
-    from atlas_pipeline.coast_ee import pull_masks
+    from atlas_pipeline.coast_ee import initialize, pull_masks
 
-    key = os.environ["EE_SERVICE_ACCOUNT_KEY"]
-    ee.Initialize(ee.ServiceAccountCredentials(json.loads(key)["client_email"], key_data=key), project=os.environ["EE_PROJECT"],
-                  opt_url="https://earthengine-highvolume.googleapis.com")
+    initialize(ee)
     shard = tm.parse_tile(args.shard)
     level, planned = cm.read_plan()
     todo = sorted((level, x, y) for x, y in planned if tm.ancestor((level, x, y), shard[0]) == shard)
