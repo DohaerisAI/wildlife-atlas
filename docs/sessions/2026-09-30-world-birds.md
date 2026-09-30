@@ -24,6 +24,20 @@
   not "any cell with a list".
 - `atlas profiles --all --species-json data/world/bundle/species.json` runs profiles for the world list.
 
+## First full run (run 36628125775, all six shards green)
+| Region | Records | Cells | Species | DOI |
+|---|---|---|---|---|
+| South Asia | 69.5M | 959 | 2,056 | 10.15468/dl.rq2c92 |
+| Africa and Arabia | 77.7M | 7,303 | 3,511 | 10.15468/dl.b9xx5k |
+| Europe and the Middle East | 417.3M | 3,153 | 1,745 | 10.15468/dl.tbbx8s |
+| East, Southeast and North Asia | 40.9M | 4,091 | 2,934 | 10.15468/dl.9mgs2g |
+| The Americas | 1,347.7M | 11,389 | 5,293 | 10.15468/dl.saey6t |
+| Oceania and the southern oceans | 86.5M | 6,015 | 2,762 | 10.15468/dl.tkuym3 |
+
+World bundle: 32,910 cells, 11,095 species, 2.71M species-cells, 44,009 files, 525 MB JSON (84 MB gzipped `bundle.tar.gz`).
+The checklist is paged one bird order at a time, because GBIF species search stalls past offset 10,000.
+The names job finished within its cap.
+
 ## How to use it
 - Run the workflow: Actions → World birds (all shards, or a comma list; `refresh` downloads again).
 - Pull the data: `scripts/pull-world.sh` (bundle), `--shards` (parquet, for a local `atlas world-build`),

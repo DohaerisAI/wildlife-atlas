@@ -1,7 +1,7 @@
 id: gbif-world-birds
 title: Every bird worldwide, region by region
 layer: L0
-status: building
+status: working
 summary: >-
   One GBIF SQL download per region shard (South Asia, Africa, Europe, East Asia, the Americas, Oceania):
   class Aves, PRESENT, no geospatial issues, 2010-2026, counted by species, 1° cell and month, with
