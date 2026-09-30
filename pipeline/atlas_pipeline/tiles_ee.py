@@ -21,6 +21,7 @@ from .tiles_ee_fine import DEM, FINE_FROM_LEVEL, NDVI_MAX_LEVEL, ndvi_q1_image, 
 
 log = logging.getLogger(__name__)
 BANDS = ["codes", "share", "sea", "tree", "elev", "ice"]
+COAST_WBM_OCEAN = 1  # GLO-30 WBM: 0 no water, 1 ocean, 2 lake, 3 river
 EXACT_FROM_LEVEL = 7  # at or below ~600 m pixels WorldCover mode is taken from the 10 m pixels; coarser uses its mode pyramid
 _QUOTA_ON = ("too many", "429", "concurrency", "quota", "503", "unavailable")
 _RETRY_ON = ("too many", "429", "concurrency", "timed out", "deadline", "internal error", "503", "unavailable", "memory")
@@ -53,8 +54,20 @@ def land_image(ee, level: int, exact: bool):
     etopo = ee.Image("NOAA/NGDC/ETOPO1").toFloat()
     dem = glo.mosaic().setDefaultProjection(glo.first().projection()).reproject(proj).unmask(etopo.select("ice_surface").reproject(proj))
     ice = etopo.select("ice_surface").subtract(etopo.select("bedrock"))
-    parts = [codes, share, sea.reproject(proj), tree.reproject(proj), dem, ice.reproject(proj)]
+    sea = coastal_sea(ee, proj, exact).max(sea.reproject(proj))
+    parts = [codes, share, sea, tree.reproject(proj), dem, ice.reproject(proj)]
     return ee.Image.cat([p.rename(b).unmask(SENTINEL).toFloat() for p, b in zip(parts, BANDS)])
+
+
+def coastal_sea(ee, proj, exact: bool):
+    """Share of each tile pixel that GLO-30's water body mask calls ocean (WBM 1; 2 lake and 3 river stay water), from
+    its 30 m pixels when `exact`, else sampled. WorldCover labels near-shore sea as water and HYCOM's ~9 km cells miss
+    that strip, which showed as pale water boxes in HYCOM-cell steps along coasts. Where GLO-30 has no data it is 0
+    (HYCOM decides)."""
+    glo = ee.ImageCollection(DEM).select("WBM")
+    wbm = glo.mosaic().setDefaultProjection(glo.first().projection())
+    ocean = wbm.eq(COAST_WBM_OCEAN).unmask(0)
+    return (ocean.reduceResolution(ee.Reducer.mean(), False, 65535) if exact else ocean).reproject(proj).unmask(0)
 
 
 def ndvi_image(ee):

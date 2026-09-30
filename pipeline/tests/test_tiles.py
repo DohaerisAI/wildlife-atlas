@@ -251,3 +251,19 @@ def test_town_ndvi_is_modis_250m():
     from atlas_pipeline.tiles_ee_fine import NDVI_Q1, SOURCES
     assert NDVI_Q1 == "MODIS/061/MOD13Q1"
     assert SOURCES["ndvi"].startswith(NDVI_Q1) and "Sentinel" not in SOURCES["ndvi"] and "S2" not in SOURCES["ndvi"]
+
+
+def test_near_shore_water_becomes_ocean_at_every_detail_level():
+    from unittest.mock import MagicMock
+
+    from atlas_pipeline.living_earth_v2 import WATER_CLASS, land_class
+    from atlas_pipeline.tiles_ee import land_image
+    for level, exact in ((11, True), (8, True), (5, False)):
+        ee = MagicMock()
+        land_image(ee, level, exact)
+        selects = [c.args for c in ee.ImageCollection.return_value.select.call_args_list]
+        assert ("WBM",) in selects, level  # the same sea rule on both sides of the level 8/9 seam
+    # WorldCover water (code 80): GLO-30 ocean share 1 turns it to ocean, a lake (share 0) stays water, land stays land
+    codes = np.array([[80, 80, 10]], float)
+    out = land_class(codes, np.ones((1, 3)), np.array([[1.0, 0.0, 1.0]]))
+    assert list(out[0]) == [0, WATER_CLASS, out[0, 2]] and out[0, 2] != 0

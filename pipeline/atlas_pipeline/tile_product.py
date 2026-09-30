@@ -168,7 +168,8 @@ def scan(root: Path) -> dict[int, set[tuple[int, int]]]:
 
 DETAIL_SOURCES = {
     "class": "ESA/WorldCover/v200 Map, mode of the 10 m pixels in each tile pixel at the finest level, then 2x2 mode "
-             "(land wins over ocean) per coarser level; sea = WorldCover no-data, or water HYCOM treats as ocean",
+             "(land wins over ocean) per coarser level; sea = WorldCover no-data, or water HYCOM treats as ocean "
+             "or water COPERNICUS/DEM/GLO30_2024_1 WBM marks ocean (share of its 30 m pixels from level 7)",
     "tree": "MODIS/061/MOD44B Percent_Tree_Cover, 2020-2024 mean, averaged per tile pixel",
     "hillshade": "COPERNICUS/DEM/GLO30_2024_1 (NOAA/NGDC/ETOPO1 where missing), mean per tile pixel, hillshade computed per level "
                  "(azimuth 315, altitude 45) with exaggeration 8*sqrt(pixel km/10) clamped 1.5..8",
