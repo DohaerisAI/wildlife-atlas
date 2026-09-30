@@ -40,13 +40,21 @@ class Mosaic:
     ndvi: np.ndarray | None
     shade: np.ndarray | None = None  # hillshade bytes (0..255) averaged from the DEM's own grid (town levels)
     rgb: np.ndarray | None = None  # (n, n, 3) Sentinel-2 true colour bytes, 0 = no clear scene (town levels)
+    ndvi_level: int | None = None  # level the ndvi array is at (64 px per tile there); None = `level`. No NDVI tiles finer
+
+    @property
+    def ndvi_at(self) -> int:
+        return self.level if self.ndvi_level is None else self.ndvi_level
 
     def __post_init__(self):
         n = PX * 2 ** (self.level - self.shard[0])
         if self.cls.shape != (n, n) or self.tree.shape != (n, n) or self.elev.shape != (n, n):
             raise ValueError(f"mosaic arrays must be {n} x {n}")
-        if self.ndvi is not None and self.ndvi.shape != (12, n // 4, n // 4):
-            raise ValueError(f"ndvi must be (12, {n // 4}, {n // 4})")
+        if not self.shard[0] <= self.ndvi_at <= self.level:
+            raise ValueError("ndvi_level must lie between the shard level and the mosaic level")
+        m = NDVI_PX * 2 ** (self.ndvi_at - self.shard[0])
+        if self.ndvi is not None and self.ndvi.shape != (12, m, m):
+            raise ValueError(f"ndvi must be (12, {m}, {m})")
         if self.shade is not None and self.shade.shape != (n, n):
             raise ValueError(f"shade must be {n} x {n}")
         if self.rgb is not None and self.rgb.shape != (n, n, 3):
@@ -115,9 +123,9 @@ def write_shard(root: Path, mosaic: Mosaic, min_level: int) -> list[tuple[tm.Til
             cls, tree, elev = block_mode(cls, 2), block_mean(tree, 2), block_mean(elev, 2)
             shade = block_mean(shade, 2) if shade is not None else None
             rgb = np.stack([np.round(block_mean(rgb[..., c].astype(float), 2)) for c in range(3)], axis=-1).astype(np.uint8) if rgb is not None else None
-            if ndvi is not None and ndvi.shape[1] // 2 ** (level - mosaic.shard[0]) > NDVI_PX:
+            if level < mosaic.ndvi_at and ndvi is not None and ndvi.shape[1] // 2 ** (level - mosaic.shard[0]) > NDVI_PX:
                 ndvi = np.stack([block_mean(m, 2) for m in ndvi])
-        written += write_level(root, mosaic.shard, level, cls, tree, elev, ndvi, shade, rgb)
+        written += write_level(root, mosaic.shard, level, cls, tree, elev, ndvi if level <= mosaic.ndvi_at else None, shade, rgb)
     return written
 
 
@@ -162,13 +170,15 @@ DETAIL_SOURCES = {
     "class": "ESA/WorldCover/v200 Map, mode of the 10 m pixels in each tile pixel at the finest level, then 2x2 mode "
              "(land wins over ocean) per coarser level; sea = WorldCover no-data, or water HYCOM treats as ocean",
     "tree": "MODIS/061/MOD44B Percent_Tree_Cover, 2020-2024 mean, averaged per tile pixel",
-    "hillshade": "COPERNICUS/DEM/GLO30 (NOAA/NGDC/ETOPO1 where missing), mean per tile pixel, hillshade computed per level "
+    "hillshade": "COPERNICUS/DEM/GLO30_2024_1 (NOAA/NGDC/ETOPO1 where missing), mean per tile pixel, hillshade computed per level "
                  "(azimuth 315, altitude 45) with exaggeration 8*sqrt(pixel km/10) clamped 1.5..8",
 }
 
 
 def manifest(name: str, levels: tuple[int, int], present: dict[int, set[tuple[int, int]]], ndvi: bool,
-             sources: dict[str, str] | None = None, bounds: tm.Bounds = (-180.0, -90.0, 180.0, 90.0), rgb: dict | None = None) -> dict:
+             sources: dict[str, str] | None = None, bounds: tm.Bounds = (-180.0, -90.0, 180.0, 90.0), rgb: dict | None = None,
+             ndvi_levels: tuple[int, int] | None = None) -> dict:
+    """`ndvi_levels`: the levels with their own NDVI tiles (default: all); finer land tiles sample the finest one."""
     channels = []
     for c in LAND:
         extra = {"encoding": "byte is the class index"} if c.name == "class" else (
@@ -188,7 +198,9 @@ def manifest(name: str, levels: tuple[int, int], present: dict[int, set[tuple[in
         "ndvi": {"path": "ndvi/{z}/{x}/{y}.png", "layout": {"cols": 4, "rows": 3, "frame": [NDVI_PX, NDVI_PX], "order": "Jan..Dec row-major"},
                  "channel": {"name": NDVI.name, "lo": NDVI.lo, "hi": NDVI.hi, "unit": NDVI.unit,
                              "source": (sources or {}).get("ndvi", "MODIS/061/MOD13A2 NDVI, 2015-2024 mean per calendar month"),
-                             "encoding": "0 = no data; b in 1..255 decodes as lo + (b-1)/254*(hi-lo)"}} if ndvi else None,
+                             "encoding": "0 = no data; b in 1..255 decodes as lo + (b-1)/254*(hi-lo)"},
+                 "levels": list(ndvi_levels or levels),
+                 "finer": "tiles finer than levels[1] sample their ancestor's NDVI tile at levels[1]"} if ndvi else None,
         "rgb": ({"path": "rgb/{z}/{x}/{y}.jpg", "format": "jpeg", **rgb} if rgb else None),
         "index": {str(z): tm.encode_index(z, present.get(z, set())) for z in range(lo, hi + 1)},
         "counts": {str(z): len(present.get(z, set())) for z in range(lo, hi + 1)},
@@ -196,6 +208,12 @@ def manifest(name: str, levels: tuple[int, int], present: dict[int, set[tuple[in
         "attribution": ATTRIBUTION,
         "notes": PMTILES_NOTE,
     }
+
+
+def ndvi_levels(root: Path) -> tuple[int, int] | None:
+    """(min, max) level of the NDVI tiles under root/ndvi, or None when there are none."""
+    found = sorted({int(p.parent.parent.name) for p in (root / "ndvi").glob("*/*/*.png")})
+    return (found[0], found[-1]) if found else None
 
 
 def write_manifest(root: Path, m: dict) -> Path:

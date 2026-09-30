@@ -16,7 +16,7 @@ import numpy as np
 from PIL import Image
 
 from atlas_pipeline import tile_math as tm
-from atlas_pipeline.tile_product import DETAIL_SOURCES, manifest, scan, write_manifest, write_shard
+from atlas_pipeline.tile_product import DETAIL_SOURCES, manifest, ndvi_levels, scan, write_manifest, write_shard
 from atlas_pipeline.tiles_ee_fine import FINE_FROM_LEVEL
 from atlas_pipeline.tiles_ee_fine import SOURCES as FINE
 
@@ -79,7 +79,8 @@ def cmd_merge(args) -> int:
     present = scan(root)
     lo = min(present) if present else MIN_LEVEL
     sources, rgb = fine_sources(args.level, root)
-    m = manifest(args.name, (lo, args.level), present, ndvi=True, sources=sources, bounds=bbox(args.bbox), rgb=rgb)
+    nl = ndvi_levels(root)
+    m = manifest(args.name, (lo, args.level), present, ndvi=nl is not None, sources=sources, bounds=bbox(args.bbox), rgb=rgb, ndvi_levels=nl)
     m["regions"] = [{**json.loads(p.read_text()), "levels": [lo, args.level]} for p in sorted(root.glob("shard-*.json"))]
     write_manifest(root, m)
     logging.info("manifest: %s", m["counts"])

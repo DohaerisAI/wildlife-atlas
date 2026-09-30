@@ -12,7 +12,7 @@ import shutil
 from pathlib import Path
 
 from . import tile_math as tm
-from .tile_product import manifest, scan, write_manifest
+from .tile_product import manifest, ndvi_levels, scan, write_manifest
 
 KINDS = ("land", "ndvi", "rgb")
 
@@ -69,8 +69,9 @@ def rebuild_manifest(served: Path, name: str, sources: dict | None = None, rgb: 
     present = scan(served)
     if not present:
         raise ValueError(f"no tiles under {served}")
-    m = manifest(name, (min(present), max(present)), present, ndvi=(served / "ndvi").exists(), sources=sources, bounds=bounds,
-                 rgb=rgb if (served / "rgb").exists() else None)
+    nl = ndvi_levels(served)
+    m = manifest(name, (min(present), max(present)), present, ndvi=nl is not None, sources=sources, bounds=bounds,
+                 rgb=rgb if (served / "rgb").exists() else None, ndvi_levels=nl)
     m["regions"] = regions(served)
     write_manifest(served, m)
     return m

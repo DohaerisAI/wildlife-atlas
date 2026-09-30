@@ -14,14 +14,19 @@ from . import tile_math as tm
 from .living_earth_v2_ee import SENTINEL
 
 FINE_FROM_LEVEL = 9
+# Finest level with its own NDVI tiles. Sentinel-2 monthly medians at levels 10-11 run ~5 min per computePixels call
+# until Earth Engine drops the connection; NDVI at 64 px per level-9 tile (~600 m) is what vegetation breathing needs,
+# and the engine samples the level-9 tile's sub-rectangle for levels 10-11 (web/src/engine/tiles/tileset.ndviSource).
+NDVI_MAX_LEVEL = 9
+DEM = "COPERNICUS/DEM/GLO30_2024_1"  # GLO-30 release 2024_1 (ImageCollection, band DEM, 30 m, metres above EGM2008)
 SHADE_EXAGGERATION = 1.5
 S2 = "COPERNICUS/S2_SR_HARMONIZED"
 S2_CLEAR_SCL = (4, 5, 6, 7, 11)  # vegetation, bare, water, unclassified, snow; not cloud, shadow or cirrus
 RGB_REFLECTANCE_WHITE = 0.3  # surface reflectance that maps to byte 255 (before the display curve)
 RGB_GAMMA = 1 / 2.2
 SOURCES = {
-    "shade": f"COPERNICUS/DEM/GLO30 DEM x {SHADE_EXAGGERATION}, ee.Terrain.hillshade at 30 m (azimuth 315, altitude 45), mean per tile pixel",
-    "ndvi": f"{S2} (B8-B4)/(B8+B4), SCL-masked to clear land and water, median per calendar month 2022-2024 (MODIS MOD13A2 where a piece times out)",
+    "shade": f"{DEM} DEM x {SHADE_EXAGGERATION}, ee.Terrain.hillshade at 30 m (azimuth 315, altitude 45), mean per tile pixel",
+    "ndvi": f"{S2} (B8-B4)/(B8+B4), SCL-masked to clear land and water, median per calendar month 2022-2024, down to level {NDVI_MAX_LEVEL} (finer levels sample it; MODIS MOD13A2 where a piece times out)",
     "rgb": f"{S2} B4/B3/B2 median 2022-2024 (scenes under 40% cloud, SCL-masked), byte = 255*(reflectance/{RGB_REFLECTANCE_WHITE})^(1/2.2)",
     "rgb_license": "Contains modified Copernicus Sentinel data 2022-2024 (free, full and open; attribution required)",
 }
@@ -33,7 +38,7 @@ def _proj(ee, level: int, px_per_tile: int = tm.TILE_PX):
 
 
 def shade_image(ee, level: int):
-    glo = ee.ImageCollection("COPERNICUS/DEM/GLO30").select("DEM")
+    glo = ee.ImageCollection(DEM).select("DEM")
     dem = glo.mosaic().setDefaultProjection(glo.first().projection())
     shade = ee.Terrain.hillshade(dem.multiply(SHADE_EXAGGERATION)).toFloat()
     return shade.reduceResolution(ee.Reducer.mean(), False, 4096).reproject(_proj(ee, level)).rename("shade")

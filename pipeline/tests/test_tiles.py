@@ -210,3 +210,38 @@ def test_town_levels_use_dem_shade_and_write_true_colour(tmp_path):
         Mosaic(base.shard, base.level, base.cls, base.tree, base.elev, base.ndvi, rgb=np.zeros((2, 2, 3), np.uint8))
     mf = manifest("sites", (9, 11), {9: {(1, 1)}}, ndvi=True, rgb={"source": "S2", "license": "Copernicus"})
     assert mf["rgb"]["path"].endswith(".jpg") and mf["rgb"]["license"]
+
+
+# ---------- NDVI stops at level 9; town levels 10-11 sample it ----------
+
+def test_ndvi_level_is_capped_at_9():
+    from atlas_pipeline.tiles_ee import ndvi_level, ndvi_tiles
+    assert [ndvi_level(z) for z in (5, 8, 9, 10, 11)] == [5, 8, 9, 9, 9]
+    todo = [(11, 2803, 402), (11, 2800, 400), (11, 2804, 400)]
+    assert ndvi_tiles(todo, 9) == [(9, 700, 100), (9, 701, 100)]
+    assert ndvi_tiles(todo, 11) == sorted(todo)
+
+
+def test_town_shard_writes_ndvi_only_down_to_its_level(tmp_path):
+    shard, level = (9, 700, 100), 11
+    n = 256 * 4
+    cls = np.ones((n, n), np.uint8)
+    m = Mosaic(shard, level, cls, np.full((n, n), 50.0), np.zeros((n, n)), np.full((12, 64, 64), 0.5), ndvi_level=9)
+    write_shard(tmp_path, m, 9)
+    assert len(list((tmp_path / "land/11").glob("*/*.png"))) == 16 and len(list((tmp_path / "land/10").glob("*/*.png"))) == 4
+    assert not (tmp_path / "ndvi/10").exists() and not (tmp_path / "ndvi/11").exists()
+    assert np.asarray(Image.open(tile_path(tmp_path, "ndvi", shard))).shape == (192, 256)
+    from atlas_pipeline.tile_product import ndvi_levels
+    assert ndvi_levels(tmp_path) == (9, 9)
+    mf = manifest("sites", (9, 11), scan(tmp_path), ndvi=True, ndvi_levels=ndvi_levels(tmp_path))
+    assert mf["ndvi"]["levels"] == [9, 9] and mf["levels"] == [9, 11]
+    assert manifest("detail", (5, 8), {}, ndvi=True)["ndvi"]["levels"] == [5, 8]
+    with pytest.raises(ValueError):  # the NDVI array must be at its own level's size
+        Mosaic(shard, level, cls, np.zeros((n, n)), np.zeros((n, n)), np.zeros((12, 256, 256)), ndvi_level=9)
+
+
+def test_town_dem_is_the_2024_release():
+    from atlas_pipeline.tile_product import DETAIL_SOURCES
+    from atlas_pipeline.tiles_ee_fine import DEM, SOURCES
+    assert DEM == "COPERNICUS/DEM/GLO30_2024_1"
+    assert DEM in SOURCES["shade"] and DEM in DETAIL_SOURCES["hillshade"]

@@ -17,7 +17,7 @@ from . import tile_math as tm
 from .living_earth_v2 import land_class
 from .living_earth_v2_ee import _OUTSIDE, SENTINEL, _fetch
 from .tile_product import Mosaic
-from .tiles_ee_fine import FINE_FROM_LEVEL, rgb_bytes, s2_rgb_image, s2_ndvi_image, shade_image
+from .tiles_ee_fine import DEM, FINE_FROM_LEVEL, NDVI_MAX_LEVEL, rgb_bytes, s2_rgb_image, s2_ndvi_image, shade_image
 
 log = logging.getLogger(__name__)
 BANDS = ["codes", "share", "sea", "tree", "elev", "ice"]
@@ -49,7 +49,7 @@ def land_image(ee, level: int, exact: bool):
     sea = ee.ImageCollection("HYCOM/sea_water_velocity").filterDate("2020-07-01", "2020-07-02").first().select("velocity_u_0").mask().unmask(0)
     tree = (ee.ImageCollection("MODIS/061/MOD44B").filterDate("2020-01-01", "2025-01-01").select("Percent_Tree_Cover")
             .map(lambda im: im.updateMask(im.lte(100))).mean())
-    glo = ee.ImageCollection("COPERNICUS/DEM/GLO30").select("DEM")
+    glo = ee.ImageCollection(DEM).select("DEM")
     etopo = ee.Image("NOAA/NGDC/ETOPO1").toFloat()
     dem = glo.mosaic().setDefaultProjection(glo.first().projection()).reproject(proj).unmask(etopo.select("ice_surface").reproject(proj))
     ice = etopo.select("ice_surface").subtract(etopo.select("bedrock"))
@@ -145,10 +145,20 @@ def _pull_tiles(ee, image, bands: list[str], todo: list[tm.Tile], level: int, wo
     return out
 
 
+def ndvi_level(level: int) -> int:
+    """Level the NDVI is pulled at for a run whose finest level is `level`: never finer than NDVI_MAX_LEVEL."""
+    return min(level, NDVI_MAX_LEVEL)
+
+
+def ndvi_tiles(todo: list[tm.Tile], level: int) -> list[tm.Tile]:
+    """The tiles at the NDVI level that cover `todo` (their ancestors, once each)."""
+    return sorted({tm.ancestor(t, level) for t in todo})
+
+
 def pull_shard(ee, shard: tm.Tile, level: int, land_mask: np.ndarray, workers: int = 8, ndvi: bool = True,
                keep=None, exact: bool | None = None) -> Mosaic:
     """Pull one shard at `level`. `keep(tile)` limits it to some tiles (validation sites). From level 9 the town-scale
-    sources are used: hillshade at DEM resolution, Sentinel-2 monthly NDVI and a Sentinel-2 true-colour mosaic."""
+    sources are used: hillshade at DEM resolution, Sentinel-2 monthly NDVI (at level 9 at most) and a Sentinel-2 true-colour mosaic."""
     exact = level >= EXACT_FROM_LEVEL if exact is None else exact
     fine = level >= FINE_FROM_LEVEL
     todo = [t for t in shard_tiles(shard, level, land_mask) if keep is None or keep(t)]
@@ -174,8 +184,9 @@ def pull_shard(ee, shard: tm.Tile, level: int, land_mask: np.ndarray, workers: i
         for t, a in _pull_tiles(ee, s2_rgb_image(ee, level), ["r", "g", "b"], todo, level, workers, f"shard {shard} rgb", None, shard[0]).items():
             y, x = at(t)
             rgb[y:y + tm.TILE_PX, x:x + tm.TILE_PX] = rgb_bytes(a)
-    months = pull_ndvi(ee, shard, level, todo, workers, s2_ndvi_image(ee, level) if fine else None) if ndvi else None
-    return Mosaic(shard, level, cls, tree, elev, months, shade=shade, rgb=rgb)
+    nl = ndvi_level(level)
+    months = pull_ndvi(ee, shard, nl, ndvi_tiles(todo, nl), workers, s2_ndvi_image(ee, nl) if nl >= FINE_FROM_LEVEL else None) if ndvi else None
+    return Mosaic(shard, level, cls, tree, elev, months, shade=shade, rgb=rgb, ndvi_level=nl)
 
 
 def pull_ndvi(ee, shard: tm.Tile, level: int, land: list[tm.Tile], workers: int, image=None) -> np.ndarray:
