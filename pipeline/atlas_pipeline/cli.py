@@ -11,8 +11,8 @@ from .export import SourceInfo, build_bundle, write_bundle
 
 log = logging.getLogger("atlas")
 WEB_ROOT = REPO_ROOT / "web"
-STILL_RUNNING = 3
-GROUP_LEVEL = 5  # coast-mask writes and reports per level-5 tile  # exit code: a GBIF download is accepted but not finished; re-run to resume
+STILL_RUNNING = 3  # exit code: a GBIF download is accepted but not finished; re-run to resume
+GROUP_LEVEL = 5  # coast-mask writes and reports per level-5 tile
 
 GBIF_SOURCE = SourceInfo(
     name="GBIF occurrence records (includes eBird, iNaturalist and others)",
@@ -295,8 +295,8 @@ def main(argv: list[str] | None = None) -> int:
     coast_mask = sub.add_parser("coast-mask", help="pull the coast mask for the planned tiles from Earth Engine (local login)")
     coast_mask.add_argument("--coast", default=str(REPO_ROOT / "data" / "coast"))
     coast_mask.add_argument("--bbox", help="only planned tiles inside W,S,E,N")
-    coast_mask.add_argument("--workers", type=int, default=8, help="requests in flight per group")
-    coast_mask.add_argument("--groups", type=int, default=4, help="level-5 groups pulled at once")
+    coast_mask.add_argument("--workers", type=int, default=4, help="requests in flight per group")
+    coast_mask.add_argument("--groups", type=int, default=8, help="level-5 groups pulled at once")
     coast_mask.set_defaults(fn=cmd_coast_mask)
     coast_patch = sub.add_parser("coast-patch", help="turn near-shore water into ocean in served tiles from the coast mask")
     coast_patch.add_argument("--tiles", default=str(detail))

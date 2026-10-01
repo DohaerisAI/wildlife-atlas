@@ -13,15 +13,17 @@ from .tiles_ee import COAST_WBM_OCEAN, _pull_tiles
 from .tiles_ee_fine import DEM
 
 log = logging.getLogger(__name__)
-SAMPLE_LEVELS = 2  # ocean share from 4 x 4 samples of GLO-30 WBM per tile pixel (level + 2 grid)
+SAMPLE_LEVELS = 1  # ocean share from 2 x 2 samples of GLO-30 WBM per tile pixel (level + 1 grid)
 DEFAULT_PROJECT = "atlas-earth-engine-510018"
+REQUEST_DEADLINE_MS = 180_000  # then the call fails as "deadline" and _call retries it
 EE_SCOPES = ["https://www.googleapis.com/auth/earthengine", "https://www.googleapis.com/auth/cloud-platform"]
 
 
 def sea_image(ee, level: int):
-    """Ocean share per tile pixel from 4 x 4 nearest samples of GLO-30 WBM (1 = ocean). Averaging all ~100 of its
+    """Ocean share per tile pixel from 2 x 2 nearest samples of GLO-30 WBM (1 = ocean). Averaging all ~100 of its
     30 m pixels (the builder's `coastal_sea`) makes Earth Engine hold ~1 GB per 2048 px block ("Object too large")
-    and took 32 minutes for 24 tiles; 16 samples resolve the share to 1/16, plenty for the 0.5 sea threshold."""
+    and took 32 minutes for 24 tiles; 4 samples (~150 m apart) still place the 0.5 sea threshold within a pixel,
+    at a quarter of the 16-sample cost (~9 tiles/min one area at a time)."""
     fine, px = tm.pixel_deg(level + SAMPLE_LEVELS), tm.pixel_deg(level)
     glo = ee.ImageCollection(DEM).select("WBM")
     wbm = glo.mosaic().setDefaultProjection(glo.first().projection())
@@ -42,6 +44,7 @@ def initialize(ee) -> None:
 
         creds, _ = google.auth.default(scopes=EE_SCOPES)
     ee.Initialize(creds, project=project, opt_url="https://earthengine-highvolume.googleapis.com")
+    ee.data.setDeadline(REQUEST_DEADLINE_MS)  # a dropped connection otherwise hangs a worker forever
 
 
 def pull_masks(ee, tiles: list[tm.Tile], workers: int = 4, floor_level: int = 3) -> dict[tm.Tile, np.ndarray]:
