@@ -156,7 +156,13 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
       const label = e ? nameOf(e, d?.profile) : f.key;
       return h('span', { class: `fchip-follow${f.key === followed[0]?.key ? ' is-primary' : ''}`, role: 'listitem', style: `--sp:${f.color}` },
         h('button', { class: 'ff-name', type: 'button', onclick: () => void selectSpecies(f.key, false), title: `Show ${label}` }, h('i', { 'aria-hidden': 'true' }), label),
-        followed.length > 1 ? h('button', { class: 'ff-x', type: 'button', 'aria-label': `Stop showing ${label}`, onclick: () => { followed = unfollow(followed, f.key); store.set({ species: followed[0]?.key ?? null }); syncFollowed(); render(); } }, '×') : null);
+        h('button', { class: 'ff-x', type: 'button', 'aria-label': `Stop showing ${label}`, onclick: () => {
+          followed = unfollow(followed, f.key);
+          // the last one off clears the map: no flows, no range, no species panel
+          const next = followed[0]?.key ?? null;
+          store.set({ species: next, ...(next ? {} : { follow: false, panel: store.get().panel === 'species' ? null : store.get().panel }) });
+          syncFollowed(); render();
+        } }, '×'));
     }), followed.length < MAX_FOLLOWED ? h('span', { class: 'ff-hint' }, 'Search to add a species') : '');
   }
 

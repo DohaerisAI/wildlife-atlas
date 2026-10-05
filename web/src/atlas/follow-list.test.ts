@@ -22,6 +22,7 @@ describe('followed species', () => {
     expect(l.map((f) => f.key)).toEqual(['d', 'c', 'b']);
     expect(l[0]!.color).toBe(aColor);
     expect(unfollow(l, 'c').map((f) => f.key)).toEqual(['d', 'b']);
+    expect(unfollow(unfollow(unfollow(l, 'c'), 'd'), 'b')).toEqual([]); // the last one can go too: an empty map
   });
 
   it('never shares a colour with the environment', () => {
