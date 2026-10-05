@@ -31,7 +31,6 @@ import { filterRows, type PlaceFilter } from './ui/place-view';
 import { monthlyRegions, type MonthPlace } from './regions';
 import { citation, download, placeCsv, speciesCsv } from './research';
 
-const DEFAULT_SPECIES = 'falco amurensis';
 const PARTICLES = 5000;
 const PANEL_W = 420;
 const URL_SYNC_MS = 1000;
@@ -247,6 +246,7 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
     const m = monthOf(s.t) - 1;
     where.textContent = `${s.place ? (s.place.name ?? `${fmtLat(s.place.lat)} ${fmtLng(s.place.lng)}`) : 'The whole planet'} · ${MONTH_LONG[m]}`;
     follow.setAttribute('aria-pressed', String(s.follow));
+    follow.hidden = !s.species; // nothing to follow until a species is picked
     const open = s.panel !== null && (s.panel === 'place' ? s.place !== null : s.species !== null);
     document.body.classList.toggle('panel-open', open);
     globe.setInset(open && wide() ? PANEL_W : 0, open && !wide() ? window.innerHeight * 0.46 : 0);
@@ -340,8 +340,8 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
   if ([lng, lat, alt].every(Number.isFinite)) globe.flyTo({ lng: lng!, lat: lat!, altitudeKm: alt! }, 0);
   else globe.flyTo({ lng: 80, lat: 20, altitudeKm: portrait ? 40000 : 19000 }, 0);
   const requested = q.get('sp');
-  const start = (requested && byKey.has(requested) ? requested : null) ?? index.find((s) => s.sci.toLowerCase() === DEFAULT_SPECIES)?.k ?? index[0]?.k;
-  if (start) void selectSpecies(start, false, start === requested && wide()); // the map first; the panel on request
+  // no species until one is picked or a link names it (?sp=): the atlas opens on the planet, not on one bird
+  if (requested && byKey.has(requested)) void selectSpecies(requested, false, wide());
   const [pl, pa] = (q.get('place') ?? '').split(',').map(Number);
   if (Number.isFinite(pl) && Number.isFinite(pa) && Math.abs(pa!) <= 90) pickPlace(pl!, pa!, null, false);
   // old street-map links (?map=lng,lat,zoom) open at the same place on the one engine
