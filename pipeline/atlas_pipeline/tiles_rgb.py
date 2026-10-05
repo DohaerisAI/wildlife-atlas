@@ -1,9 +1,10 @@
 """True-colour tiles worldwide (levels 0-8) from MODIS NBAR, so the land looks like the planet, not a class map.
 
 Source: MODIS/061/MCD43A4 nadir BRDF-adjusted reflectance (500 m, daily, already cloud-cleared), bands 1/4/3 as
-red/green/blue, mean of every 4th day of 2024 (92 days). A two-year daily median looked the same and cost ~22 s per
-tile; this costs ~3.4 s. Pulled at level 8 (~300 m) for every land tile the detail set has; levels 7-5 and world 0-4
-are 2x2 means of the level below, computed locally. Bytes use the Sentinel-2 site encoding (tiles_ee_fine.rgb_bytes)
+red/green/blue, mean of every 8th day of 2024 (46 days). A two-year daily median looked the same and cost ~22 s per
+tile. Pulled at level 7 (~610 m, close to MODIS' own 463 m) under every detail land tile: pulling level 8 (~300 m)
+cost 4x as much for MODIS pixels scaled up, ~33 tiles/min. Level 8 is the level-7 quarter upsampled bilinearly;
+levels 6-5 and world 0-4 are 2x2 means of the level below, all computed locally. Bytes use the Sentinel-2 site encoding (tiles_ee_fine.rgb_bytes)
 so both read the same in the shader. Tiles: rgb/{z}/{x}/{y}.jpg next to land/, manifest `rgb` added last.
 """
 
@@ -21,7 +22,8 @@ from .tile_raster import block_mean
 
 MODIS = "MODIS/061/MCD43A4"
 BANDS = {"r": "Nadir_Reflectance_Band1", "g": "Nadir_Reflectance_Band4", "b": "Nadir_Reflectance_Band3"}
-YEAR, EVERY_DAYS = 2024, 4
+YEAR, EVERY_DAYS = 2024, 8
+PULL_LEVEL = 7  # ~610 m pixels, about MODIS' own 463 m; level 8 is MODIS scaled up, so it is filled locally
 SOURCE = (f"{MODIS} nadir BRDF-adjusted reflectance, bands 1/4/3, mean of every {EVERY_DAYS}th day of {YEAR}, "
           "byte = 255*(reflectance/0.3)^(1/2.2); coarser levels are 2x2 means")
 LICENSE = "MODIS data courtesy of NASA LP DAAC (public domain; attribution requested)"
@@ -91,29 +93,45 @@ def add_to_manifest(root: Path) -> None:
     os.replace(tmp, path)
 
 
+def upsample_quarter(parent: np.ndarray, quarter: int) -> np.ndarray:
+    """A child tile's rgb from its parent's quarter (row-major index), bilinear 2x."""
+    y, x = divmod(quarter, 2)
+    q = parent[y * PX // 2:(y + 1) * PX // 2, x * PX // 2:(x + 1) * PX // 2]
+    return np.asarray(Image.fromarray(np.ascontiguousarray(q)).resize((PX, PX), Image.BILINEAR))
+
+
 def pull_and_derive(ee, detail: Path, world: Path, workers: int, groups: int, keep=None, log=print) -> None:
-    """Level 8 rgb for every detail land tile without one (or only those `keep` accepts), then levels 7-5 and world 0-4."""
+    """Level-7 rgb under every detail land tile without one (or only those `keep` accepts), then level 8 by
+    upsampling, levels 6-5 and world 0-4 by 2x2 means."""
     from .ee_groups import run_groups
     from .tile_product import scan
     from .tiles_ee import _pull_tiles
     from .tiles_ee_fine import rgb_bytes
 
-    top = 8
-    land = {(top, x, y) for x, y in scan(detail).get(top, set())}
-    have = {(top, int(p.parent.name), int(p.stem)) for p in (detail / "rgb" / str(top)).glob("*/*.jpg")}
-    todo = sorted(t for t in land - have if keep is None or keep(t))
-    log("rgb: %d tiles to pull (%d of %d already on disk)", len(todo), len(have & land), len(land))
-    image = modis_rgb_image(ee, top)
+    fine, pull_z = 8, PULL_LEVEL
+    land8 = sorted((fine, x, y) for x, y in scan(detail).get(fine, set()) if keep is None or keep((fine, x, y)))
+    need = sorted({tm.ancestor(t, pull_z) for t in land8})
+    have = {(pull_z, int(p.parent.name), int(p.stem)) for p in (detail / "rgb" / str(pull_z)).glob("*/*.jpg")}
+    todo = [t for t in need if t not in have]
+    log("rgb: %d level-%d tiles to pull (%d of %d already on disk)", len(todo), pull_z, len(need) - len(todo), len(need))
+    image = modis_rgb_image(ee, pull_z)
 
     def pull(tiles: list) -> int:
-        got = _pull_tiles(ee, image, ["r", "g", "b"], tiles, top, workers, "rgb", None, top - 1)
+        got = _pull_tiles(ee, image, ["r", "g", "b"], tiles, pull_z, workers, "rgb", None, pull_z - 1)
         for t, a in got.items():
             save_jpg(rgb_bytes(a), tile_path(detail, "rgb", t))
         return len(got)
 
     run_groups(todo, pull, groups, log, "rgb")
-    done = {(top, int(p.parent.name), int(p.stem)) for p in (detail / "rgb" / str(top)).glob("*/*.jpg")}
-    derive_levels(detail, top, 5, done if keep is None else {t for t in done if keep(t)}, lambda m: log("%s", m))
+    written = 0
+    for t in land8:
+        parent = _read(tile_path(detail, "rgb", tm.parent(t)))
+        if parent is not None:
+            save_jpg(upsample_quarter(parent, tm.children(tm.parent(t)).index(t)), tile_path(detail, "rgb", t))
+            written += 1
+    log("rgb level 8: %d tiles upsampled from level 7", written)
+    pulled = {t for t in need if tile_path(detail, "rgb", t).exists()}
+    derive_levels(detail, pull_z, 5, pulled, lambda m: log("%s", m))
     copy_into_world(detail, world, log=lambda m: log("%s", m))
     add_to_manifest(detail)
     add_to_manifest(world)

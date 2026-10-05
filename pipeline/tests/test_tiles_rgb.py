@@ -7,7 +7,7 @@ from PIL import Image
 from atlas_pipeline import tile_math as tm
 from atlas_pipeline.ee_groups import run_groups
 from atlas_pipeline.tile_product import save_jpg, tile_path
-from atlas_pipeline.tiles_rgb import MODIS, add_to_manifest, derive_levels, modis_rgb_image, reduce_rgb
+from atlas_pipeline.tiles_rgb import MODIS, PULL_LEVEL, add_to_manifest, derive_levels, modis_rgb_image, reduce_rgb, upsample_quarter
 
 
 def test_reduce_rgb_means_children_and_leaves_missing_ones_black():
@@ -54,3 +54,12 @@ def test_run_groups_pulls_each_level5_group_once():
     todo = [(8, 360, 101), (8, 361, 101), (8, 0, 0)]
     n = run_groups(todo, lambda ts: seen.append(ts) or len(ts), 2, lambda *_: None, "t")
     assert n == 3 and sorted(len(s) for s in seen) == [1, 2]
+
+
+def test_level8_is_the_parent_quarter_scaled_up():
+    parent = np.zeros((256, 256, 3), np.uint8)
+    parent[128:, 128:] = 90  # the bottom-right quarter
+    up = upsample_quarter(parent, 3)
+    assert up.shape == (256, 256, 3) and abs(int(up[128, 128, 0]) - 90) <= 1
+    assert (upsample_quarter(parent, 0) == 0).all()
+    assert PULL_LEVEL == 7  # MODIS is 463 m; level 8 (~300 m) would only scale it up at 4x the Earth Engine cost
