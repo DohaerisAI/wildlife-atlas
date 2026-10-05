@@ -107,7 +107,15 @@ const FRAG = /* glsl */ `
     col *= uGain;
     if (uReal > 0.001 && uHasRgb > 0.5) {
       vec3 rgb = texture(uRgb, suv).rgb;
-      if (dot(rgb, vec3(1.0)) > 0.01) col = mix(col, pow(rgb, vec3(2.2)) * 0.9, uReal);
+      if (dot(rgb, vec3(1.0)) > 0.04) { // 0 = no colour tile data there (jpeg lifts it a little)
+        // display grade: lift MODIS/Sentinel haze (saturation), keep relief from the hillshade, and stay under
+        // the bloom threshold (core/stage.ts, 0.55) so bright fields don't glow like city lights
+        vec3 lin = pow(rgb, vec3(2.2));
+        float lum = dot(lin, vec3(0.2126, 0.7152, 0.0722));
+        lin = max(mix(vec3(lum), lin, 1.35), 0.0) * 0.8;
+        lin *= 1.0 + (shade - 0.71) * 0.8; // 181/255 = flat
+        col = mix(col, min(lin, vec3(0.5)), uReal);
+      }
     }
     float fres = pow(1.0 - max(dot(vNormal, vView), 0.0), 3.0);
     gl_FragColor = vec4(col + uRim * fres * 0.35, uAlpha * uFade);

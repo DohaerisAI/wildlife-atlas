@@ -10,7 +10,7 @@ summary: >-
   true-colour mosaic; MODIS MOD13Q1 NDVI (250 m) stops at level 9 and the engine samples that tile's sub-rectangle at levels
   10-11 (manifest ndvi.levels). Each tileset has a manifest with sources and an availability index.
   Coast fix without a rebuild: a coast mask (GLO-30 WBM ocean share, level 8, coastal tiles only, coast.yml) patches
-  near-shore WorldCover water to ocean in the served tiles and re-derives levels 5-7 (`atlas coast-patch`); world levels 0-4 are reduced from detail level 5 where it exists (`atlas world-from-detail`). Place names:
+  near-shore WorldCover water to ocean in the served tiles and re-derives levels 5-7 (`atlas coast-patch`); world levels 0-4 are reduced from detail level 5 where it exists (`atlas world-from-detail`). True colour worldwide: MODIS MCD43A4 at level 8 for every detail land tile, levels 7-0 by 2x2 means (`atlas rgb-tiles`, resumable, run from the laptop). Place names:
   GeoNames cities1000 worldwide (171k places), capitals and admin seats flagged, chunked by level-3 tile.
   Tiles are not in git: R2 hosting is blocked on the owner's Cloudflare account (docs/plans/one-engine.md).
 paths:
@@ -31,6 +31,8 @@ paths:
   - pipeline/assets/coast-plan.json
   - .github/workflows/coast.yml
   - pipeline/atlas_pipeline/world_from_detail.py
+  - pipeline/atlas_pipeline/tiles_rgb.py
+  - pipeline/atlas_pipeline/ee_groups.py
 checks:
   - suite: pytest
     file: tests/test_tiles.py
@@ -44,6 +46,8 @@ checks:
     file: tests/test_coast.py
   - suite: pytest
     file: tests/test_world_from_detail.py
+  - suite: pytest
+    file: tests/test_tiles_rgb.py
   - suite: vitest
     file: src/engine/tiles/tileset.test.ts
 next: >-

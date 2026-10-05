@@ -5,8 +5,9 @@ const FOV = (34 * Math.PI) / 180;
 
 describe('space-to-town camera', () => {
   it('zooms by the same ratio at every altitude and stays in range', () => {
-    expect(zoomBy(10000, 100) / 10000).toBeCloseTo(zoomBy(10, 100) / 10, 6);
-    expect(zoomBy(5, -100000)).toBe(MIN_ALT_KM);
+    expect(zoomBy(10000, 100) / 10000).toBeCloseTo(zoomBy(1000, 100) / 1000, 6);
+    expect(zoomBy(500, -100000)).toBe(MIN_ALT_KM);
+    expect(MIN_ALT_KM).toBe(100); // the finest data worldwide is ~300 m per pixel
     expect(zoomBy(20000, 100000)).toBe(MAX_ALT_KM);
   });
 
@@ -30,12 +31,12 @@ describe('space-to-town camera', () => {
 
   it('flies in one motion, ending exactly on the target and rising for long hops', () => {
     const from = { lng: 78, lat: 20, altKm: 20000 };
-    const to = { lng: 73.86, lat: 18.52, altKm: 50 };
+    const to = { lng: 73.86, lat: 18.52, altKm: 150 };
     const end = flightPose(from, to, 1);
-    expect(end.lng).toBeCloseTo(73.86, 6); expect(end.altKm).toBeCloseTo(50, 3);
+    expect(end.lng).toBeCloseTo(73.86, 6); expect(end.altKm).toBeCloseTo(150, 3);
     const alts = [0.25, 0.5, 0.75].map((k) => flightPose(from, to, k).altKm);
     expect(alts[0]! > alts[1]! && alts[1]! > alts[2]!).toBe(true); // falling all the way
-    const hop = flightPose({ lng: 73.86, lat: 18.52, altKm: 50 }, { lng: 34.8, lat: -2.3, altKm: 50 }, 0.5);
+    const hop = flightPose({ lng: 73.86, lat: 18.52, altKm: 150 }, { lng: 34.8, lat: -2.3, altKm: 150 }, 0.5);
     expect(hop.altKm).toBeGreaterThan(1000);
     expect(wrapLng(190)).toBe(-170);
   });

@@ -13,7 +13,8 @@ export interface ZoomLook {
   readonly channels: MaterialChannels;
   /** per-material close-zoom texture, 0..1 (below ~50 km) */
   readonly detail: number;
-  /** how much of the true-colour mosaic to show when real colour is on, 0..1 (below ~150 km) */
+  /** how much of the true-colour tiles to show when real colour is on, 0..1: all of it at every height (MODIS to
+   *  level 8 worldwide, Sentinel-2 at town sites); the class colours are the switch-off view */
   readonly real: number;
 }
 
@@ -34,7 +35,7 @@ export function zoomLook(altKm: number): ZoomLook {
   return {
     tileAlpha: 0.3 + 0.7 * near,
     detail: closeness(altKm, 8, 50),
-    real: closeness(altKm, 15, 150),
+    real: 1,
     dotAlpha: 1 - dotsGone,
     gridAlpha: 1 - jrcWaterGone,
     channels: {

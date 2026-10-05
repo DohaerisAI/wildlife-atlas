@@ -95,7 +95,7 @@ export async function startEngine(els: EngineElements): Promise<void> {
   stage.canvas.tabIndex = 0;
   stage.canvas.setAttribute('aria-label', 'Globe. Drag to move, scroll or pinch to zoom from space to a town; arrow keys and plus/minus work too.');
   let month = Number(params.get('month')) || new Date().getMonth() + 0.5;
-  const real = { on: params.get('real') === '1' };
+  const real = { on: params.get('real') !== '0' };
   buildControls(els.controls, (p) => cam.flyTo(p, 6000), (m) => { month = m; }, month, real);
   stage.onTier((_t, s) => { globe.rebuildDots(s.landDots, pixelRatio()); earth?.setTier(s); });
 
@@ -126,7 +126,7 @@ export async function startEngine(els: EngineElements): Promise<void> {
     tiles.uniforms.uDetail.value = stage.tier() === 'base' || reduced ? 0 : look.detail;
     tiles.uniforms.uReal.value = real.on ? look.real : 0;
     stats = tiles.update(stage.camera, stage.renderer.getDrawingBufferSize(buffer).y, { ...cam.focus(), altKm: pose.altKm, ahead: cam.ahead() });
-    earth?.update(month, time, dt, look.channels, stage.camera);
+    earth?.update(month, time, dt, real.on ? { ...look.channels, land: 0, water: 0 } : look.channels, stage.camera);
     labels.update(stage.camera, width, height, dt, pose);
     cpuMs = performance.now() - now;
     hud.update({ sets: [...setStatus].map(([n, st]) => `${n}: ${st}`).join(' · '), altKm: pose.altKm, frameMs: frames[frames.length - 1] ?? 0, cpuMs, calls, triangles, tier: stage.tier(), labels: labels.count, tiles: stats }, frameSummary(frames));

@@ -111,7 +111,8 @@ export function createAtlasGlobe(stageRoot: HTMLElement, pinsRoot: HTMLElement, 
     flows.forEach((f) => f.layer.update(month));
     // the story channels still switch materials; globe-scale layers fade out close in
     const ch = look.channels;
-    earth?.update(month, time, dt, { ...ch, water: Math.min(env.water, ch.water), snow: Math.min(env.snow, ch.snow), wind: Math.min(env.wind, ch.wind) }, stage.camera);
+    // real colour shows the ground itself: no class-colour wash or JRC water glow on top of it
+    earth?.update(month, time, dt, { ...ch, land: real ? 0 : ch.land, water: real ? 0 : Math.min(env.water, ch.water), snow: Math.min(env.snow, ch.snow), wind: Math.min(env.wind, ch.wind) }, stage.camera);
     places.update(stage.camera, width, height, dt, pose);
     pin.update(stage.camera, width, height);
   });

@@ -77,10 +77,17 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
   const store = createStore({ t: month - 1 + 0.5, playing: false, species: null, place: null, panel: null, follow: false });
   const globe = createAtlasGlobe(roots.stage, roots.pins, mask, reduced, cells.cellSize);
   globe.setEnvironment(ENV);
+  // true colour (MODIS worldwide, Sentinel-2 at town sites) is the default look; off shows the land-class colours
+  let realColour = q.get('real') !== '0';
   let packCredit = '';
-  globe.onEarth((le) => {
-    packCredit = le.manifest.attribution;
-    roots.env.textContent = le.hasWorld ? `${envCaption(ENV)} · Land (ESA WorldCover) · Ocean (HYCOM, MODIS-Aqua) · Lights (VIIRS)` : envCaption(ENV); });
+  let hasWorld = false;
+  // every layer on screen names its dataset ("Real" law); in real colour the land is MODIS and JRC water is off
+  const showCredits = () => {
+    const env = envCaption(realColour ? { ...ENV, water: 0 } : ENV);
+    const land = realColour ? 'Land colour (MODIS MCD43A4)' : 'Land (ESA WorldCover)';
+    roots.env.textContent = hasWorld ? [env, land, 'Ocean (HYCOM, MODIS-Aqua)', 'Lights (VIIRS)'].filter(Boolean).join(' · ') : env;
+  };
+  globe.onEarth((le) => { packCredit = le.manifest.attribution; hasWorld = le.hasWorld; showCredits(); });
   const clock = createClock(store.get().t, reduced);
 
   // ---------- chrome ----------
@@ -95,16 +102,15 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
       .catch((err) => say((err as Error).message))
       .finally(() => locateBtn.classList.remove('is-busy'));
   } }, 'Locate me');
-  // our Sentinel-2 true-colour mosaic, blended in close up where the tiles have it
-  let realColour = q.get('real') === '1';
   const realBtn = h('button', { class: 'btn-quiet', type: 'button', 'aria-pressed': String(realColour), onclick: () => {
     realColour = !realColour;
     globe.setRealColour(realColour);
+    showCredits();
     realBtn.setAttribute('aria-pressed', String(realColour));
   } }, 'Real colour');
   globe.setRealColour(realColour);
   const legendSlot = h('div', { class: 'legend-slot' });
-  const toggleLegend = () => { if (legendSlot.firstChild) legendSlot.replaceChildren(); else legendSlot.replaceChildren(legendPanel(() => legendSlot.replaceChildren(), meta, packCredit)); };
+  const toggleLegend = () => { if (legendSlot.firstChild) legendSlot.replaceChildren(); else legendSlot.replaceChildren(legendPanel(() => legendSlot.replaceChildren(), meta, realColour ? `${packCredit} · Land colour: MODIS MCD43A4 (NASA LP DAAC)` : packCredit)); };
   const top = h('header', { class: 'topbar' },
     h('a', { class: 'brand', href: './' }, 'Wildlife Atlas'),
     searchBox(index, thumbOf, { onSpecies: (k) => void selectSpecies(k, true), onPlace: (p) => pickPlace(p.lng, p.lat, { name: p.label, detail: p.detail }, true, true) }),
@@ -155,14 +161,15 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
     }), followed.length < MAX_FOLLOWED ? h('span', { class: 'ff-hint' }, 'Search to add a species') : '');
   }
 
-  async function selectSpecies(key: string, fly: boolean) {
+  /** `open`: show the species panel (a pick or a shared link does; the default species on load does not) */
+  async function selectSpecies(key: string, fly: boolean, open = fly || wide()) {
     const entry = byKey.get(key);
     if (!entry) return;
     const token = ++speciesToken;
     speciesFailed = null;
     if (fly) store.set({ follow: false });
     followed = followSpecies(followed, key);
-    store.set({ species: key, panel: fly || wide() ? 'species' : store.get().panel });
+    store.set({ species: key, panel: open ? 'species' : store.get().panel });
     try {
       if (!loaded.has(key)) {
         const [range, profile] = await Promise.all([loadRange(key), loadProfile(entry.sci).catch((err) => { console.warn('Profile unavailable', entry.sci, err); return null; })]);
@@ -323,7 +330,7 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
     if (s.species) p.set('sp', s.species);
     if (s.place) p.set('place', `${s.place.lng.toFixed(3)},${s.place.lat.toFixed(3)}`);
     p.set('at', `${cam.lng.toFixed(3)},${cam.lat.toFixed(3)},${cam.altitudeKm < 100 ? cam.altitudeKm.toFixed(1) : Math.round(cam.altitudeKm)}`);
-    if (realColour) p.set('real', '1');
+    if (!realColour) p.set('real', '0');
     history.replaceState(null, '', `atlas.html?${p.toString()}`);
   }, URL_SYNC_MS);
 
@@ -334,7 +341,7 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
   else globe.flyTo({ lng: 80, lat: 20, altitudeKm: portrait ? 40000 : 19000 }, 0);
   const requested = q.get('sp');
   const start = (requested && byKey.has(requested) ? requested : null) ?? index.find((s) => s.sci.toLowerCase() === DEFAULT_SPECIES)?.k ?? index[0]?.k;
-  if (start) void selectSpecies(start, false);
+  if (start) void selectSpecies(start, false, start === requested && wide()); // the map first; the panel on request
   const [pl, pa] = (q.get('place') ?? '').split(',').map(Number);
   if (Number.isFinite(pl) && Number.isFinite(pa) && Math.abs(pa!) <= 90) pickPlace(pl!, pa!, null, false);
   // old street-map links (?map=lng,lat,zoom) open at the same place on the one engine

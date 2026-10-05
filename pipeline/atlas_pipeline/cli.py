@@ -12,7 +12,6 @@ from .export import SourceInfo, build_bundle, write_bundle
 log = logging.getLogger("atlas")
 WEB_ROOT = REPO_ROOT / "web"
 STILL_RUNNING = 3  # exit code: a GBIF download is accepted but not finished; re-run to resume
-GROUP_LEVEL = 5  # coast-mask writes and reports per level-5 tile
 
 GBIF_SOURCE = SourceInfo(
     name="GBIF occurrence records (includes eBird, iNaturalist and others)",
@@ -189,6 +188,7 @@ def cmd_coast_mask(args: argparse.Namespace) -> None:
     from . import tile_math as tm
     from .coast_ee import initialize, pull_masks
     from .coast_patch import overlaps
+    from .ee_groups import run_groups
 
     initialize(ee)
     out = Path(args.coast)
@@ -199,26 +199,31 @@ def cmd_coast_mask(args: argparse.Namespace) -> None:
         box = tm.parse_bbox(args.bbox)
         todo = [t for t in todo if overlaps(tm.bounds(t), box)]
     log.info("coast mask: %d tiles to pull (%d of %d planned already on disk)", len(todo), len(have), len(planned))
-    from concurrent.futures import ThreadPoolExecutor, as_completed
 
-    groups = sorted({tm.ancestor(t, GROUP_LEVEL) for t in todo})
-
-    def pull_group(group: tuple) -> tuple[tuple, int, int]:
-        tiles = [t for t in todo if tm.ancestor(t, GROUP_LEVEL) == group]
-        masks = pull_masks(ee, tiles, workers=args.workers, floor_level=level - 1)  # 2 x 2 tile requests
+    def pull(tiles: list) -> int:
+        masks = pull_masks(ee, tiles, workers=args.workers, floor_level=level - 1)
         for t, m in masks.items():
             cm.write_mask(out, t, m)
-        return group, len(masks), len(tiles)
+        return len(masks)
 
-    done = 0
-    with ThreadPoolExecutor(max_workers=args.groups) as pool:  # level-5 groups in parallel, each written as it lands
-        for i, f in enumerate(as_completed([pool.submit(pull_group, g) for g in groups]), 1):
-            group, got, n = f.result()
-            done += n
-            log.info("group %d/%d %s: %d of %d tiles written; %d/%d overall", i, len(groups), "/".join(map(str, group)),
-                     got, n, done, len(todo))
+    run_groups(todo, pull, args.groups, log.info, "coast")
     cm.write_manifest(out, len(planned))
     log.info("coast mask: done")
+
+
+def cmd_rgb_tiles(args: argparse.Namespace) -> None:
+    """True-colour tiles for every detail land tile (MODIS, Google login via gcloud), resumable; then levels 7-0."""
+    import ee
+
+    from .coast_ee import initialize
+    from .coast_patch import overlaps
+    from .tile_math import bounds, parse_bbox
+    from .tiles_rgb import pull_and_derive
+
+    initialize(ee)
+    box = parse_bbox(args.bbox) if args.bbox else None
+    keep = (lambda t: overlaps(bounds(t), box)) if box else None
+    pull_and_derive(ee, Path(args.detail), Path(args.world), args.workers, args.groups, keep, log.info)
 
 
 def cmd_coast_patch(args: argparse.Namespace) -> None:
@@ -298,6 +303,13 @@ def main(argv: list[str] | None = None) -> int:
     coast_mask.add_argument("--workers", type=int, default=4, help="requests in flight per group")
     coast_mask.add_argument("--groups", type=int, default=8, help="level-5 groups pulled at once")
     coast_mask.set_defaults(fn=cmd_coast_mask)
+    rgb = sub.add_parser("rgb-tiles", help="true-colour tiles (MODIS) for levels 0-8 from Earth Engine (local login), resumable")
+    rgb.add_argument("--detail", default=str(detail))
+    rgb.add_argument("--world", default=str(WEB_ROOT / "public/content/tiles/world"))
+    rgb.add_argument("--bbox", help="only tiles inside W,S,E,N (for trying it on one place first)")
+    rgb.add_argument("--workers", type=int, default=4, help="requests in flight per group")
+    rgb.add_argument("--groups", type=int, default=8, help="level-5 groups pulled at once")
+    rgb.set_defaults(fn=cmd_rgb_tiles)
     coast_patch = sub.add_parser("coast-patch", help="turn near-shore water into ocean in served tiles from the coast mask")
     coast_patch.add_argument("--tiles", default=str(detail))
     coast_patch.add_argument("--coast", default=str(REPO_ROOT / "data" / "coast"))
