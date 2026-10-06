@@ -98,7 +98,7 @@ export function createAtlasGlobe(stageRoot: HTMLElement, pinsRoot: HTMLElement, 
     const pose = cam.pose();
     const look = zoomLook(pose.altKm);
     globe.update(time);
-    globe.setDotOpacity(look.dotAlpha);
+    globe.setDotOpacity(real ? 0 : look.dotAlpha); // the hologram dots clutter real colour
     globe.setGridOpacity(look.gridAlpha);
     tiles.setAlpha(look.tileAlpha);
     tiles.setMonth(month);

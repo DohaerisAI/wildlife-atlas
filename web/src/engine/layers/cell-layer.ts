@@ -1,4 +1,4 @@
-import { BufferAttribute, BufferGeometry, Color, Group, LineBasicMaterial, LineLoop, Mesh, ShaderMaterial } from 'three';
+import { BufferAttribute, BufferGeometry, Color, DataTexture, Group, LinearFilter, LineBasicMaterial, LineLoop, Mesh, RedFormat, ShaderMaterial, SphereGeometry, UnsignedByteType } from 'three';
 import { lngLatToVec3 } from '../globe/geo';
 
 /** Grid cells are named "lat_lng" of their south-west corner (pipeline grid.py). */
@@ -21,68 +21,112 @@ export function washValues(cells: Readonly<Record<string, { r: readonly number[]
   return out;
 }
 
-const RADIUS = 1.0002; // ~1.3 km above the tiles, below the camera's 3 km floor
-const WASH_VERT = /* glsl */ `attribute float aValue; varying float vValue; void main() { vValue = aValue; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }`;
-const WASH_FRAG = /* glsl */ `uniform vec3 uColor; uniform float uOpacity; varying float vValue; void main() { if (vValue <= 0.0) discard; gl_FragColor = vec4(uColor, vValue * uOpacity); }`;
+const RADIUS = 1.0002; // ~1.3 km above the tiles (drawn without a depth test, see the material)
+const WASH_VERT = /* glsl */ `varying vec3 vPos; void main() { vPos = position; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }`;
+// the cell values spread by a soft blur at WASH_SCALE texels per cell (washGrid): the range reads as patches, not squares
+const WASH_FRAG = /* glsl */ `
+  uniform sampler2D uGrid; uniform vec3 uColor; uniform float uOpacity; varying vec3 vPos;
+  void main() {
+    vec3 p = normalize(vPos);
+    vec2 uv = vec2(mod(degrees(atan(p.z, -p.x)), 360.0) / 360.0, (90.0 - degrees(asin(clamp(p.y, -1.0, 1.0)))) / 180.0);
+    float a = texture2D(uGrid, uv).r;
+    if (a <= 0.01) discard;
+    gl_FragColor = vec4(uColor, a * uOpacity);
+  }`;
+
+export const WASH_SCALE = 4; // texels per cell side
+const BLUR_SIGMA = 0.45 * WASH_SCALE; // in texels: a cell's value fades out over about one cell
+
+/** Row-major (north first) wash bytes for a month at WASH_SCALE texels per cell, blurred so neighbouring cells merge
+ *  into soft patches; 0 where the species is absent and far from any cell that has it. */
+export function washGrid(values: ReadonlyMap<string, number>, size: number): { data: Uint8Array; cols: number; rows: number } {
+  const cols = Math.round(360 / size) * WASH_SCALE, rows = Math.round(180 / size) * WASH_SCALE;
+  const f = new Float32Array(cols * rows);
+  for (const [id, v] of values) {
+    const b = cellBounds(id, size);
+    if (!b) continue;
+    const c0 = Math.floor((b.west + 180) / size) * WASH_SCALE, r0 = Math.floor((90 - b.north) / size) * WASH_SCALE;
+    if (c0 < 0 || c0 >= cols || r0 < 0 || r0 >= rows) continue;
+    for (let r = 0; r < WASH_SCALE; r++) f.fill(Math.min(1, v), (r0 + r) * cols + c0, (r0 + r) * cols + c0 + WASH_SCALE);
+  }
+  const blurred = values.size ? blur(f, cols, rows, BLUR_SIGMA) : f;
+  const data = new Uint8Array(cols * rows);
+  for (let i = 0; i < data.length; i++) data[i] = Math.round(Math.min(1, blurred[i]!) * 255);
+  return { data, cols, rows };
+}
+
+/** Separable gaussian blur; columns wrap around the antimeridian, rows clamp at the poles. */
+function blur(src: Float32Array, cols: number, rows: number, sigma: number): Float32Array {
+  const rad = Math.ceil(sigma * 2.5);
+  const k = Array.from({ length: 2 * rad + 1 }, (_, i) => Math.exp(-((i - rad) ** 2) / (2 * sigma * sigma)));
+  const sum = k.reduce((a, b) => a + b, 0);
+  const tmp = new Float32Array(src.length), out = new Float32Array(src.length);
+  for (let y = 0; y < rows; y++) for (let x = 0; x < cols; x++) {
+    let a = 0;
+    for (let i = -rad; i <= rad; i++) a += src[y * cols + ((x + i + cols) % cols)]! * k[i + rad]!;
+    tmp[y * cols + x] = a / sum;
+  }
+  for (let y = 0; y < rows; y++) for (let x = 0; x < cols; x++) {
+    let a = 0;
+    for (let i = -rad; i <= rad; i++) a += tmp[Math.min(rows - 1, Math.max(0, y + i)) * cols + x]! * k[i + rad]!;
+    out[y * cols + x] = a / sum;
+  }
+  return out;
+}
 
 /**
- * The followed species' range as a wash of its grid cells (what the street map drew), and the selected cell's
- * square outline. Values come from the species bundle per month; nothing moves that is not in the data.
+ * The followed species' range as a soft wash of its grid cells, and the selected cell's square outline. Values come
+ * from the species bundle per month; nothing moves that is not in the data.
  */
 export class CellLayer {
   readonly group = new Group();
-  private wash: Mesh | null = null;
-  private ids: string[] = [];
-  private readonly washMat = new ShaderMaterial({
-    vertexShader: WASH_VERT, fragmentShader: WASH_FRAG, transparent: true, depthWrite: false,
-    uniforms: { uColor: { value: new Color('#ffb26b') }, uOpacity: { value: 0 } },
-  });
+  private readonly grid: DataTexture;
+  private readonly wash: Mesh;
+  private readonly washMat: ShaderMaterial;
   private outline: LineLoop | null = null;
   private readonly lineMat = new LineBasicMaterial({ color: new Color('#e8edf1'), transparent: true, opacity: 0.9, depthWrite: false });
-
-  constructor(private readonly size: number) { this.group.renderOrder = 3; }
-
-  /** cells of the species (null clears), in its follow colour */
-  setRange(cells: Readonly<Record<string, { r: readonly number[] }>> | null, color = '#ffb26b'): void {
-    if (this.wash) { this.group.remove(this.wash); this.wash.geometry.dispose(); this.wash = null; }
-    this.ids = cells ? Object.keys(cells) : [];
-    this.washMat.uniforms.uColor!.value = new Color(color);
-    if (!cells || this.ids.length === 0) return;
-    const pos = new Float32Array(this.ids.length * 12);
-    const idx: number[] = [];
-    this.ids.forEach((id, i) => {
-      const b = cellBounds(id, this.size);
-      if (!b) return;
-      [[b.west, b.north], [b.east, b.north], [b.east, b.south], [b.west, b.south]].forEach(([lng, lat], k) => {
-        const v = lngLatToVec3(lng!, lat!, RADIUS);
-        pos.set([v.x, v.y, v.z], i * 12 + k * 3);
-      });
-      const o = i * 4;
-      idx.push(o, o + 3, o + 1, o + 1, o + 3, o + 2);
-    });
-    const g = new BufferGeometry();
-    g.setAttribute('position', new BufferAttribute(pos, 3));
-    g.setAttribute('aValue', new BufferAttribute(new Float32Array(this.ids.length * 4), 1));
-    g.setIndex(idx);
-    this.wash = new Mesh(g, this.washMat);
-    this.wash.renderOrder = 3;
-    this.group.add(this.wash);
-    this.cells = cells;
-  }
-
   private cells: Readonly<Record<string, { r: readonly number[] }>> | null = null;
   private month0 = -1;
 
-  setMonth(month0: number): void {
-    if (!this.wash || !this.cells || month0 === this.month0) return;
-    this.month0 = month0;
-    const values = washValues(this.cells, month0);
-    const a = this.wash.geometry.getAttribute('aValue') as BufferAttribute;
-    this.ids.forEach((id, i) => { const v = values.get(id) ?? 0; for (let k = 0; k < 4; k++) a.setX(i * 4 + k, v); });
-    a.needsUpdate = true;
+  constructor(private readonly size: number) {
+    this.group.renderOrder = 3;
+    const { data, cols, rows } = washGrid(new Map(), size);
+    this.grid = new DataTexture(data, cols, rows, RedFormat, UnsignedByteType);
+    this.grid.unpackAlignment = 1;
+    this.grid.magFilter = LinearFilter; this.grid.minFilter = LinearFilter;
+    this.grid.needsUpdate = true;
+    this.washMat = new ShaderMaterial({
+      // no depth test: a shell this close to the ground sags below the tiles between its vertices (~1.2 km at 2.25
+      // degree facets), which punched round holes in the wash; only front faces draw, so the far side stays hidden
+      vertexShader: WASH_VERT, fragmentShader: WASH_FRAG, transparent: true, depthWrite: false, depthTest: false,
+      uniforms: { uGrid: { value: this.grid }, uColor: { value: new Color('#ffb26b') }, uOpacity: { value: 0 } },
+    });
+    this.wash = new Mesh(new SphereGeometry(RADIUS, 160, 112), this.washMat);
+    this.wash.renderOrder = 3;
+    this.wash.visible = false;
+    this.group.add(this.wash);
   }
 
-  setWashOpacity(o: number): void { this.washMat.uniforms.uOpacity!.value = o; if (this.wash) this.wash.visible = o > 0.01; }
+  /** cells of the species (null clears), in its follow colour */
+  setRange(cells: Readonly<Record<string, { r: readonly number[] }>> | null, color = '#ffb26b'): void {
+    this.cells = cells && Object.keys(cells).length ? cells : null;
+    this.washMat.uniforms.uColor!.value = new Color(color);
+    this.month0 = -1;
+    if (!this.cells) { this.fill(new Map()); this.wash.visible = false; }
+  }
+
+  setMonth(month0: number): void {
+    if (!this.cells || month0 === this.month0) return;
+    this.month0 = month0;
+    this.fill(washValues(this.cells, month0));
+  }
+
+  private fill(values: ReadonlyMap<string, number>): void {
+    (this.grid.image.data as Uint8Array).set(washGrid(values, this.size).data);
+    this.grid.needsUpdate = true;
+  }
+
+  setWashOpacity(o: number): void { this.washMat.uniforms.uOpacity!.value = o; this.wash.visible = o > 0.01 && this.cells !== null; }
 
   /** outline the selected cell (null clears) */
   setSelected(id: string | null): void {
@@ -103,7 +147,7 @@ export class CellLayer {
   }
 
   dispose(): void {
-    this.setRange(null); this.setSelected(null);
-    this.washMat.dispose(); this.lineMat.dispose();
+    this.setSelected(null);
+    this.wash.geometry.dispose(); this.washMat.dispose(); this.grid.dispose(); this.lineMat.dispose();
   }
 }

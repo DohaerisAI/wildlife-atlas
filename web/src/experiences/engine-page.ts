@@ -117,7 +117,7 @@ export async function startEngine(els: EngineElements): Promise<void> {
     const pose = cam.pose();
     const look = zoomLook(pose.altKm);
     globe.update(time);
-    globe.setDotOpacity(look.dotAlpha);
+    globe.setDotOpacity(real.on ? 0 : look.dotAlpha);
     globe.setGridOpacity(look.gridAlpha);
     tiles.setAlpha(look.tileAlpha);
     tiles.setMonth(month);
