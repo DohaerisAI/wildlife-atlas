@@ -100,7 +100,7 @@ export function createAtlasGlobe(stageRoot: HTMLElement, pinsRoot: HTMLElement, 
     globe.update(time);
     globe.setDotOpacity(real ? 0 : look.dotAlpha); // the hologram dots clutter real colour
     globe.setGridOpacity(look.gridAlpha);
-    tiles.setAlpha(look.tileAlpha);
+    tiles.setAlpha(real ? 1 : look.tileAlpha); // the see-through hologram fade dimmed real colour from space
     tiles.setMonth(month);
     tiles.uniforms.uTime.value = time;
     tiles.uniforms.uDetail.value = stage.tier() === 'base' || reduced ? 0 : look.detail;
@@ -111,8 +111,8 @@ export function createAtlasGlobe(stageRoot: HTMLElement, pinsRoot: HTMLElement, 
     flows.forEach((f) => f.layer.update(month));
     // the story channels still switch materials; globe-scale layers fade out close in
     const ch = look.channels;
-    // real colour shows the ground itself: no class-colour wash or JRC water glow on top of it
-    earth?.update(month, time, dt, { ...ch, land: real ? 0 : ch.land, water: real ? 0 : Math.min(env.water, ch.water), snow: Math.min(env.snow, ch.snow), wind: Math.min(env.wind, ch.wind) }, stage.camera);
+    // real colour shows the ground itself (its own snow and water): no class wash, JRC water or snow glow on top
+    earth?.update(month, time, dt, { ...ch, land: real ? 0 : ch.land, water: real ? 0 : Math.min(env.water, ch.water), snow: real ? 0 : Math.min(env.snow, ch.snow), wind: Math.min(env.wind, ch.wind) }, stage.camera);
     places.update(stage.camera, width, height, dt, pose);
     pin.update(stage.camera, width, height);
   });

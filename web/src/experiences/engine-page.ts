@@ -119,14 +119,14 @@ export async function startEngine(els: EngineElements): Promise<void> {
     globe.update(time);
     globe.setDotOpacity(real.on ? 0 : look.dotAlpha);
     globe.setGridOpacity(look.gridAlpha);
-    tiles.setAlpha(look.tileAlpha);
+    tiles.setAlpha(real.on ? 1 : look.tileAlpha);
     tiles.setMonth(month);
     tiles.uniforms.uTime.value = time;
     // close-zoom texture is off on the base tier (style guide); real colour only when switched on
     tiles.uniforms.uDetail.value = stage.tier() === 'base' || reduced ? 0 : look.detail;
     tiles.uniforms.uReal.value = real.on ? look.real : 0;
     stats = tiles.update(stage.camera, stage.renderer.getDrawingBufferSize(buffer).y, { ...cam.focus(), altKm: pose.altKm, ahead: cam.ahead() });
-    earth?.update(month, time, dt, real.on ? { ...look.channels, land: 0, water: 0 } : look.channels, stage.camera);
+    earth?.update(month, time, dt, real.on ? { ...look.channels, land: 0, water: 0, snow: 0 } : look.channels, stage.camera);
     labels.update(stage.camera, width, height, dt, pose);
     cpuMs = performance.now() - now;
     hud.update({ sets: [...setStatus].map(([n, st]) => `${n}: ${st}`).join(' · '), altKm: pose.altKm, frameMs: frames[frames.length - 1] ?? 0, cpuMs, calls, triangles, tier: stage.tier(), labels: labels.count, tiles: stats }, frameSummary(frames));

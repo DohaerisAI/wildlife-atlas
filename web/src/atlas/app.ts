@@ -82,7 +82,7 @@ export async function startAtlas(roots: AtlasRoots): Promise<void> {
   let hasWorld = false;
   // every layer on screen names its dataset ("Real" law); in real colour the land is MODIS and JRC water is off
   const showCredits = () => {
-    const env = envCaption(realColour ? { ...ENV, water: 0 } : ENV);
+    const env = envCaption(realColour ? { ...ENV, water: 0, snow: 0 } : ENV);
     const land = realColour ? 'Land colour (MODIS MCD43A4)' : 'Land (ESA WorldCover)';
     roots.env.textContent = hasWorld ? [env, land, 'Ocean (HYCOM, MODIS-Aqua)', 'Lights (VIIRS)'].filter(Boolean).join(' · ') : env;
   };

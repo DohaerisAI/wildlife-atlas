@@ -113,12 +113,16 @@ const FRAG = /* glsl */ `
         vec3 lin = pow(rgb, vec3(2.2));
         float lum = dot(lin, vec3(0.2126, 0.7152, 0.0722));
         lin = max(mix(vec3(lum), lin, 1.35), 0.0) * 0.8;
-        lin *= 1.0 + (shade - 0.71) * 0.8; // 181/255 = flat
-        col = mix(col, min(lin, vec3(0.5)), uReal);
+        // coarse levels carry hillshade exaggerated up to 8x (tile_raster.exaggeration) for the class view; at full
+        // strength it darkened real colour from space, so relief weighs in only as tiles get fine (level 4 -> 7)
+        float level = log2(180.0 / max(1e-9, uBounds.z - uBounds.x));
+        lin *= 1.0 + (shade - 0.71) * mix(0.2, 0.8, smoothstep(4.0, 7.0, level)); // 181/255 = flat
+        col = mix(col, min(lin, vec3(0.45)), uReal);
       }
     }
     float fres = pow(1.0 - max(dot(vNormal, vView), 0.0), 3.0);
-    gl_FragColor = vec4(col + uRim * fres * 0.35, uAlpha * uFade);
+    // the hologram rim glow tips bright desert at the limb over the bloom threshold; keep a trace of it in real colour
+    gl_FragColor = vec4(col + uRim * fres * 0.35 * (1.0 - 0.85 * uReal), uAlpha * uFade);
   }`;
 
 /** Uniforms every tile shares (month, surface atlas, fade); materials hold references so one update reaches all. */

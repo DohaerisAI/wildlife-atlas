@@ -5,14 +5,15 @@
 set -u
 LOG=$1; DONE_MARK=$2; shift 3
 STALL_S=${STALL_S:-480}
+PROGRESS=${PROGRESS:-overall}  # a log line that means work moved
 cd "$(dirname "$0")/../pipeline" || exit 1
 export REQUESTS_CA_BUNDLE=${REQUESTS_CA_BUNDLE:-$HOME/.certs/zscaler-ca-bundle.pem} PYTHONWARNINGS=ignore
 while true; do
   "$@" >> "$LOG" 2>&1 & pid=$!
-  last=$(grep -c "overall" "$LOG"); since=$(date +%s)
+  last=$(grep -c "$PROGRESS" "$LOG"); since=$(date +%s)
   while kill -0 "$pid" 2>/dev/null; do
     sleep 30
-    now=$(grep -c "overall" "$LOG")
+    now=$(grep -c "$PROGRESS" "$LOG")
     if [ "$now" -gt "$last" ]; then last=$now; since=$(date +%s); fi
     if [ $(( $(date +%s) - since )) -gt "$STALL_S" ]; then
       echo "$(date '+%F %T') SUPERVISOR no group finished in ${STALL_S}s; restarting" >> "$LOG"
