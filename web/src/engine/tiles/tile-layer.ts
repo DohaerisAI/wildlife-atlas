@@ -5,7 +5,7 @@ import { LruCache } from './cache';
 import { drawKey, samplePoints, selectTiles, toVec3, type DrawItem, type Want } from './lod';
 import { patchGeometry } from './patch';
 import { fadeIn, focusAt, focusDistance, orderQueue, staleRequests, viewRadius, type Focus } from './priority';
-import { bounds, children, tileKey, uvWithin, type TileId } from './tile-math';
+import { bounds, children, tileAt, tileKey, uvWithin, type TileId } from './tile-math';
 import { TileLoader, type LoadedTile } from './tile-loader';
 import { bySpecificity, exists, hasDeeper, maxLevel, type Tileset } from './tileset';
 import { sharedUniforms, tileMaterial } from './tile-shader';
@@ -84,6 +84,12 @@ export class TileLayer {
     this.sets = bySpecificity([...this.sets.filter((s) => s.manifest.name !== ts.manifest.name), ts]);
     this.deepest = maxLevel(this.sets);
     this.loader.failed.clear();
+  }
+
+  /** finest tile level any tileset holds at this place (-1 if none) */
+  deepestAt(lng: number, lat: number): number {
+    for (let z = this.deepest; z >= 0; z--) if (exists(this.sets, tileAt(lng, lat, z))) return z;
+    return -1;
   }
 
   setAlpha(a: number): void { this.uniforms.uAlpha.value = a; this.group.visible = a > 0.01; }

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { clipPlanes, degreesPerPixel, flightPose, MAX_ALT_KM, MIN_ALT_KM, panBy, wrapLng, zoomBy } from './geo-camera';
+import { clipPlanes, degreesPerPixel, flightPose, floorForLevel, MAX_ALT_KM, MIN_ALT_KM, panBy, wrapLng, zoomBy } from './geo-camera';
 
 const FOV = (34 * Math.PI) / 180;
 
@@ -7,7 +7,7 @@ describe('space-to-town camera', () => {
   it('zooms by the same ratio at every altitude and stays in range', () => {
     expect(zoomBy(10000, 100) / 10000).toBeCloseTo(zoomBy(1000, 100) / 1000, 6);
     expect(zoomBy(500, -100000)).toBe(MIN_ALT_KM);
-    expect(MIN_ALT_KM).toBe(200); // the finest data worldwide is ~300-500 m per pixel
+    expect(MIN_ALT_KM).toBe(25);
     expect(zoomBy(20000, 100000)).toBe(MAX_ALT_KM);
   });
 
@@ -51,5 +51,11 @@ describe('zoom toward the cursor', () => {
     const out = zoomToward(p, { lng: 74, lat: 19 }, 2);
     expect(out.lng).toBeCloseTo(72);
     expect(zoomToward({ lng: 179.5, lat: 0, altKm: 10 }, { lng: -179.5, lat: 0 }, 0).lng).toBeCloseTo(-179.5);
+  });
+  it('lets the camera come as close as the data under it supports', () => {
+    expect(floorForLevel(8)).toBe(200); // MODIS-only places (~300-500 m)
+    expect(floorForLevel(11)).toBe(25); // sharp Sentinel-2 sites (~75 m)
+    expect(floorForLevel(4)).toBe(200);
+    expect(floorForLevel(14)).toBe(MIN_ALT_KM);
   });
 });

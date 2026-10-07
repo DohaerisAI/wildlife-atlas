@@ -3,9 +3,15 @@ import { EARTH_KM } from '../globe/geo';
 /** Space-to-town camera maths (decision 0010): altitude in km over a point, zoom and pan scaled by altitude. */
 export interface GeoPose { readonly lng: number; readonly lat: number; readonly altKm: number }
 
-/** the finest data worldwide is ~300 m per pixel (tiles level 8, MODIS colour ~500 m); closer than this the land
- *  blurs and coasts show their pixel steps */
-export const MIN_ALT_KM = 200;
+/** absolute floor: the finest tiles anywhere (level 11, ~75 m Sentinel-2 at sites) */
+export const MIN_ALT_KM = 25;
+/** floor over level-8 data (~300 m, MODIS colour ~500 m); each finer level present halves it, down to MIN_ALT_KM */
+export const DATA_FLOOR_KM = 200;
+
+/** How close the camera may come over data whose finest tile level is `level`: closer only blurs. */
+export function floorForLevel(level: number): number {
+  return Math.max(MIN_ALT_KM, DATA_FLOOR_KM / 2 ** Math.max(0, level - 8));
+}
 export const MAX_ALT_KM = 25000;
 const MAX_LAT = 85;
 

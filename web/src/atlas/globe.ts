@@ -1,5 +1,6 @@
 import { Raycaster, Sphere, Vector2, Vector3 } from 'three';
 import { createGeoController } from '../engine/camera/geo-controller';
+import { floorForLevel } from '../engine/camera/geo-camera';
 import { createStage } from '../engine/core/stage';
 import { vec3ToLngLat } from '../engine/globe/geo';
 import { createGlobe } from '../engine/globe/globe';
@@ -62,9 +63,8 @@ export function createAtlasGlobe(stageRoot: HTMLElement, pinsRoot: HTMLElement, 
   stage.scene.add(globe.group);
   const tiles = new TileLayer([]);
   stage.scene.add(tiles.group);
-  // no 'sites' (10 m Sentinel-2 at five test towns): sharp rectangles in 500 m MODIS read as broken, so the atlas
-  // stays one consistent colour until fine colour exists everywhere; engine.html still shows them
-  for (const name of ['detail', 'world']) watchTileset(`${tilesBase}${name}/`, () => {}, (ts) => tiles.addTileset(ts));
+  // sites: sharp Sentinel-2 colour (~75 m, levels 9-11) where it has been built; MODIS (~500 m) elsewhere
+  for (const name of ['sites', 'detail', 'world']) watchTileset(`${tilesBase}${name}/`, () => {}, (ts) => tiles.addTileset(ts));
   const cellsLayer = new CellLayer(cellSize);
   stage.scene.add(cellsLayer.group);
 
@@ -98,6 +98,7 @@ export function createAtlasGlobe(stageRoot: HTMLElement, pinsRoot: HTMLElement, 
     if (inset.right > 0 || inset.bottom > 0) stage.camera.setViewOffset(width, height, inset.right / 2, inset.bottom / 2, width, height);
     else if (stage.camera.view?.enabled) stage.camera.clearViewOffset();
     const pose = cam.pose();
+    cam.setFloor(floorForLevel(tiles.deepestAt(pose.lng, pose.lat))); // closer only where finer tiles exist
     const look = zoomLook(pose.altKm);
     globe.update(time);
     globe.setDotOpacity(real ? 0 : look.dotAlpha); // the hologram dots clutter real colour

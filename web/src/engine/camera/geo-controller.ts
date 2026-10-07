@@ -1,6 +1,6 @@
 import { Raycaster, Sphere, Vector2, Vector3, type PerspectiveCamera } from 'three';
 import { EARTH_KM, lngLatToVec3, vec3ToLngLat } from '../globe/geo';
-import { clampAlt, clampLat, clipPlanes, flightPose, inertiaDecay, panBy, wrapLng, zoomBy, zoomToward, type GeoPose } from './geo-camera';
+import { clampAlt, clampLat, MIN_ALT_KM, clipPlanes, flightPose, inertiaDecay, panBy, wrapLng, zoomBy, zoomToward, type GeoPose } from './geo-camera';
 
 export interface GeoController {
   pose(): GeoPose;
@@ -14,6 +14,8 @@ export interface GeoController {
   ahead(): GeoPose[];
   /** true while a flight, zoom glide or inertia is still moving */
   moving(): boolean;
+  /** lowest altitude allowed right now (the data under the camera decides it); the camera glides up if below */
+  setFloor(km: number): void;
   /** advance by dt seconds and place the camera (position, look, clip planes) */
   update(dt: number, camera: PerspectiveCamera, heightPx: number): void;
   dispose(): void;
@@ -25,10 +27,11 @@ const ZOOM_GLIDE = 9; // per second, in log altitude
 const KEY_ZOOM = 0.7;
 const ANCHOR_MS = 700;
 
-/** Drag to pan, wheel or pinch to zoom, arrows and +/- on the keyboard; altitude from ~25,000 km to 3 km. */
+/** Drag to pan, wheel or pinch to zoom, arrows and +/- on the keyboard; altitude from ~25,000 km down to the data's floor (setFloor). */
 export function createGeoController(el: HTMLElement, initial: GeoPose, reduced: boolean): GeoController {
   let pose: GeoPose = { ...initial, altKm: clampAlt(initial.altKm) };
   let targetAlt = pose.altKm;
+  let floor = MIN_ALT_KM;
   let flight: Flight | null = null;
   let vel = { x: 0, y: 0 };
   let fov = (34 * Math.PI) / 180;
@@ -114,6 +117,7 @@ export function createGeoController(el: HTMLElement, initial: GeoPose, reduced: 
       if (Math.abs(Math.log(targetAlt / pose.altKm)) > 0.05) return [{ ...(anchor ?? pose), altKm: targetAlt }];
       return [];
     },
+    setFloor(km) { floor = Math.max(MIN_ALT_KM, km); },
     setPose(p) { stop(); pose = { lng: wrapLng(p.lng), lat: clampLat(p.lat), altKm: clampAlt(p.altKm) }; targetAlt = pose.altKm; },
     flyTo(p, ms = 4000) {
       const to = { lng: wrapLng(p.lng), lat: clampLat(p.lat), altKm: clampAlt(p.altKm) };
@@ -123,6 +127,7 @@ export function createGeoController(el: HTMLElement, initial: GeoPose, reduced: 
     },
     moving: () => flight !== null || Math.abs(Math.log(targetAlt / pose.altKm)) > 1e-3 || Math.hypot(vel.x, vel.y) > 1,
     update(dt, camera, heightPx) {
+      if (!flight && targetAlt < floor) targetAlt = floor; // glide up to what the data here supports
       fov = (camera.fov * Math.PI) / 180;
       height = heightPx;
       if (flight) {
