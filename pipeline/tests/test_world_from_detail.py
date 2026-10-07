@@ -36,4 +36,10 @@ def test_rebuild_world_from_detail_level_5(tmp_path):
     assert (t4[y * 128:(y + 1) * 128, x * 128:(x + 1) * 128] == 3).all()  # grassland from detail
     assert (np.asarray(Image.open(tile_path(backup, "land", tm.parent(fine))))[..., 0] == 1).all()  # original kept
     assert (world / "manifest.json").exists() and not list(world.rglob(".*.tmp"))
+    import json
+    m = json.loads((world / "manifest.json").read_text())
+    m["rgb"] = {"path": "rgb/{z}/{x}/{y}.jpg"}
+    (world / "manifest.json").write_text(json.dumps(m))
+    rebuild_world(world, detail, backup, log=lambda *_: None)
+    assert json.loads((world / "manifest.json").read_text())["rgb"]  # a rebuild keeps the true-colour entry
     assert rebuild_world(world, detail, backup, log=lambda *_: None)["4"] == 0  # idempotent

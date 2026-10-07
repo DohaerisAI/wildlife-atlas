@@ -62,7 +62,9 @@ export function createAtlasGlobe(stageRoot: HTMLElement, pinsRoot: HTMLElement, 
   stage.scene.add(globe.group);
   const tiles = new TileLayer([]);
   stage.scene.add(tiles.group);
-  for (const name of ['sites', 'detail', 'world']) watchTileset(`${tilesBase}${name}/`, () => {}, (ts) => tiles.addTileset(ts));
+  // no 'sites' (10 m Sentinel-2 at five test towns): sharp rectangles in 500 m MODIS read as broken, so the atlas
+  // stays one consistent colour until fine colour exists everywhere; engine.html still shows them
+  for (const name of ['detail', 'world']) watchTileset(`${tilesBase}${name}/`, () => {}, (ts) => tiles.addTileset(ts));
   const cellsLayer = new CellLayer(cellSize);
   stage.scene.add(cellsLayer.group);
 

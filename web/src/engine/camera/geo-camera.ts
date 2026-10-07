@@ -3,8 +3,9 @@ import { EARTH_KM } from '../globe/geo';
 /** Space-to-town camera maths (decision 0010): altitude in km over a point, zoom and pan scaled by altitude. */
 export interface GeoPose { readonly lng: number; readonly lat: number; readonly altKm: number }
 
-/** the finest data worldwide is ~300 m per pixel (tiles level 8); closer than this it only blurs */
-export const MIN_ALT_KM = 100;
+/** the finest data worldwide is ~300 m per pixel (tiles level 8, MODIS colour ~500 m); closer than this the land
+ *  blurs and coasts show their pixel steps */
+export const MIN_ALT_KM = 200;
 export const MAX_ALT_KM = 25000;
 const MAX_LAT = 85;
 

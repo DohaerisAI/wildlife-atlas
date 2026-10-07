@@ -84,7 +84,7 @@ export class CellLayer {
   private readonly wash: Mesh;
   private readonly washMat: ShaderMaterial;
   private outline: LineLoop | null = null;
-  private readonly lineMat = new LineBasicMaterial({ color: new Color('#e8edf1'), transparent: true, opacity: 0.9, depthWrite: false });
+  private readonly lineMat = new LineBasicMaterial({ color: new Color('#e8edf1'), transparent: true, opacity: 0.35, depthWrite: false }) // a hint, not a crosshair;
   private cells: Readonly<Record<string, { r: readonly number[] }>> | null = null;
   private month0 = -1;
 

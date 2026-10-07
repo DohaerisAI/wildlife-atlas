@@ -7,6 +7,7 @@ detail set lacks keeps the old world tile's own quarter, so areas without detail
 Files are replaced one at a time (never a folder rename, so a running Vite keeps serving); the manifest last.
 """
 
+import json
 import os
 import shutil
 from pathlib import Path
@@ -85,7 +86,10 @@ def rebuild_world(world: Path, detail: Path, backup: Path | None = None, top: in
                 written += 1
         counts[str(z)] = written
         log(f"world level {z}: {written} of {len(todo[z])} tiles rewritten from level {z + 1}")
+    old = json.loads((world / "manifest.json").read_text()) if (world / "manifest.json").exists() else {}
     m = manifest("world", (0, top), scan(world), ndvi=False)
+    if old.get("rgb"):
+        m["rgb"] = old["rgb"]  # keep the true-colour entry (tiles_rgb); dropping it shows class colours from space
     m["notes"] += "; levels 0-4 are reduced from detail level 5 where it exists, else cut from pack v2 land.png"
     write_manifest(world, m)
     return counts
